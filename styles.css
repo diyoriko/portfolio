@@ -305,11 +305,15 @@ button {
 
 /* --- About page --- */
 
-.about-viewport {
-  min-height: calc(100vh - var(--nav-height) - 140px);
+.main--about {
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.about-viewport {
+  width: 100%;
 }
 
 .about-content {
@@ -319,8 +323,17 @@ button {
 .about-content p {
   font-family: var(--font-serif);
   font-size: 20px;
-  line-height: 1.55;
-  margin-bottom: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.about-content strong {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .about-content .about-heading {
@@ -328,8 +341,8 @@ button {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0;
-  margin-top: 40px;
-  margin-bottom: 12px;
+  margin-top: 24px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -372,7 +385,7 @@ button {
   font-family: var(--font-serif);
   font-size: 20px;
   color: var(--text-secondary);
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 /* --- Footer --- */
@@ -381,7 +394,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px var(--side-padding) 48px;
+  padding: 24px var(--side-padding) 32px;
   font-family: var(--font-mono);
   font-size: 20px;
   letter-spacing: 0.02em;
