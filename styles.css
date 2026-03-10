@@ -323,8 +323,8 @@ button {
 .about-content p {
   font-family: var(--font-serif);
   font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 16px;
+  line-height: 1.45;
+  margin-bottom: 12px;
 }
 
 .about-content strong {
@@ -372,7 +372,7 @@ button {
 .about-seeking p {
   font-family: var(--font-serif);
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: 4px;
 }
 
@@ -385,7 +385,7 @@ button {
   font-family: var(--font-serif);
   font-size: 20px;
   color: var(--text-secondary);
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 /* --- Footer --- */
