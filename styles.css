@@ -54,7 +54,7 @@
 
   --nav-height: 80px;
   --side-padding: 48px;
-  --content-max: 1400px;
+  --content-max: 1440px;
 
   --transition-fast: 150ms ease;
   --transition-base: 200ms ease;
@@ -287,11 +287,11 @@ button {
 
 .projects-title {
   font-family: var(--font-sans);
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.25;
   letter-spacing: -0.02em;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 
 .project-list {
@@ -418,9 +418,9 @@ button {
 
 .about-content p {
   font-family: var(--font-serif);
-  font-size: 20px;
-  line-height: 1.45;
-  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 1.28;
+  margin-bottom: 14px;
 }
 
 .about-content strong {
@@ -467,8 +467,8 @@ button {
 
 .about-seeking p {
   font-family: var(--font-serif);
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.5;
   margin-bottom: 4px;
 }
 
@@ -479,7 +479,7 @@ button {
 
 .about-location {
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: 18px;
   color: var(--text-secondary);
   margin-top: 16px;
 }
@@ -588,19 +588,19 @@ button {
 }
 
 .case-section p {
-  font-family: var(--font-serif);
-  font-size: 20px;
-  line-height: 1.55;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.33;
   margin-bottom: 16px;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .case-section ul {
-  font-family: var(--font-serif);
-  font-size: 20px;
-  line-height: 1.8;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.5;
   padding-left: 24px;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .case-section ul li::before {
@@ -693,8 +693,8 @@ button {
   }
 
   .projects-title {
-    font-size: 36px;
-    margin-bottom: 36px;
+    font-size: 32px;
+    margin-bottom: 32px;
   }
 
   .project-item {
