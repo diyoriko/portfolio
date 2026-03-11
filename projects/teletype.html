@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Телетайп — Диёр Хакимов</title>
+  <meta name="description" content="Кейс Телетайп: айдентика и лендинг для облачного диалог-центра с AI.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+
   <nav class="nav">
     <div class="nav-left">
       <a href="/" class="nav-logo">D</a>
@@ -20,11 +23,92 @@
       <a href="../en/projects/teletype.html">En</a>
     </div>
   </nav>
+
   <main class="main">
     <a href="/" class="case-back">← Проекты</a>
     <h1 class="projects-title">Телетайп</h1>
-    <p style="font-family: var(--font-serif); font-size: 24px; color: var(--text-secondary);">Кейс в разработке</p>
+
+    <div class="case-tabs">
+      <button class="case-tab active" data-tab="identity">Айдентика</button>
+      <button class="case-tab" data-tab="landing">Лендинг</button>
+    </div>
+
+    <!-- Tab: Айдентика -->
+    <div class="case-tab-panel active" data-panel="identity">
+
+      <section class="case-section reveal">
+        <div class="case-section-num">1</div>
+        <h2 class="case-section-title">Бриф и формулировка задачи</h2>
+        <p>Клиент пришёл с желанием освежить стиль.</p>
+        <p>Мы посидели над брифом и поразмыслили: что за продукт, для кого он, в чём его сила и слабость.</p>
+        <div class="case-img case-img-placeholder">Бриф и анализ конкурентов</div>
+        <p>Функционально сервис был сильным, но в коммуникации не хватало ясности и целостности.</p>
+        <p>Задачу сформулировали так — простым и понятным языком спозиционировать Teletype как облачный сервис для клиентской коммуникации бизнеса и выстроить чёткие границы от конкурентов.</p>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">2</div>
+        <h2 class="case-section-title">Позиционирование</h2>
+        <p>Всего было 3 концепта.</p>
+        <p>Остановились на том, что Телетайп это облачный сервис c AI-технологиями для клиентской коммуникации. Мы помогаем бизнесам разговаривать с людьми на понятном, человечном языке.</p>
+        <div class="case-img case-img-placeholder">Концепты позиционирования</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">3</div>
+        <h2 class="case-section-title">Ценности</h2>
+        <ul>
+          <li>Быть всегда на связи</li>
+          <li>Высокие enterprise-стандарты</li>
+          <li>Забота о человеке на каждом касании</li>
+        </ul>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">4</div>
+        <h2 class="case-section-title">Tone-of-voice</h2>
+        <p>Уверенный, спокойный, избегаем техножаргона, говорим как человек человеку.</p>
+        <p>До: &laquo;Агрегатор мессенджеров и социальных сетей&raquo;.</p>
+        <p>После: &laquo;Телетайп — облачный диалог-центр для бизнеса&raquo;.</p>
+        <div class="case-img case-img-placeholder">Примеры до/после</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">5</div>
+        <h2 class="case-section-title">Визуализация на шкалах</h2>
+        <div class="case-img case-img-placeholder">Шкалы бренд-атрибутов</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">6</div>
+        <h2 class="case-section-title">Графические приёмы</h2>
+        <p>Телетайп — облачный диалог-центр для бизнеса. Сервис собрал мессенджеры, соцсети, почту и сайт-чат в одном окне, объединил разрозненные обращения в единую историю общения, подключил AI-агентов, добавил аналитику, интеграции и маркетинговые инструменты.</p>
+        <div class="case-img case-img-placeholder">Графические приёмы и носители</div>
+      </section>
+
+    </div>
+
+    <!-- Tab: Лендинг -->
+    <div class="case-tab-panel" data-panel="landing">
+
+      <section class="case-section reveal">
+        <div class="case-section-num">1</div>
+        <h2 class="case-section-title">Лендинг</h2>
+        <p>На основе разработанной айдентики и позиционирования был спроектирован и свёрстан лендинг для Телетайп.</p>
+        <div class="case-img case-img-placeholder">Прототип в Figma</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">2</div>
+        <h2 class="case-section-title">Вёрстка</h2>
+        <p>Лендинг свёрстан на чистом HTML/CSS/JS, pixel-perfect по макету из Figma. Desktop only.</p>
+        <div class="case-img case-img-placeholder">Скриншот готового лендинга</div>
+      </section>
+
+    </div>
+
   </main>
+
   <footer class="footer">
     <div class="footer-links">
       <a href="https://t.me/diyoriko" target="_blank" rel="noopener">telegram</a>
@@ -32,6 +116,7 @@
       <a href="mailto:diyor.khakimov@gmail.com">email</a>
     </div>
   </footer>
+
   <script src="../script.js"></script>
 </body>
 </html>

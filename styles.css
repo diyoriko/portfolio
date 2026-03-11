@@ -498,10 +498,31 @@ button {
   margin-right: 10px;
 }
 
+.case-tab-panel {
+  display: none;
+}
+
+.case-tab-panel.active {
+  display: block;
+}
+
 .case-img {
   width: 100%;
   border-radius: 12px;
   margin: 40px 0;
+}
+
+.case-img-placeholder {
+  background: #f0ede8;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  border: 1px dashed var(--line-muted);
 }
 
 .case-metrics {
@@ -527,6 +548,18 @@ button {
 .case-metrics .delta {
   color: var(--accent);
   font-weight: 500;
+}
+
+.case-metrics td[colspan] {
+  padding-top: 20px;
+  border-bottom: none;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.case-section strong {
+  font-weight: 600;
 }
 
 /* --- Scroll reveal --- */

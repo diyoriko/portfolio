@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ENXT — Диёр Хакимов</title>
+  <meta name="description" content="Кейс ENXT: редизайн бронирования и проектирование Ground Ops для авиационной B2B-платформы.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+
   <nav class="nav">
     <div class="nav-left">
       <a href="/" class="nav-logo">D</a>
@@ -20,11 +23,229 @@
       <a href="../en/projects/enxt.html">En</a>
     </div>
   </nav>
+
   <main class="main">
     <a href="/" class="case-back">← Проекты</a>
     <h1 class="projects-title">ENXT</h1>
-    <p style="font-family: var(--font-serif); font-size: 24px; color: var(--text-secondary);">Кейс в разработке</p>
+
+    <div class="case-tabs">
+      <button class="case-tab active" data-tab="booking">Бронирование</button>
+      <button class="case-tab" data-tab="groundops">Наземные операции</button>
+    </div>
+
+    <!-- Tab: Бронирование -->
+    <div class="case-tab-panel active" data-panel="booking">
+
+      <section class="case-section reveal">
+        <div class="case-section-num">1</div>
+        <h2 class="case-section-title">Контекст</h2>
+        <p>ENXT — B2B-платформа для управления авиационными грузовыми операциями.</p>
+        <p>Страница создания AWB (Air Waybill) — ключевой рабочий экран для агентов и операторов: здесь формируется перевозка, добавляется маршрут, проверяются коды, вводятся операционные параметры.</p>
+        <p>Этот экран использовался ежедневно и напрямую влиял на скорость обработки грузов.</p>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">2</div>
+        <h2 class="case-section-title">Понимание задачи</h2>
+        <p>Старая версия бронирования представляла собой длинную вертикальную форму:</p>
+        <ul>
+          <li>более 2 вьюпортов скролла</li>
+          <li>постоянный скролл</li>
+          <li>частые модальные окна</li>
+          <li>разрозненные блоки информации</li>
+          <li>высокая когнитивная нагрузка</li>
+        </ul>
+        <div class="case-img case-img-placeholder">Старая версия формы бронирования</div>
+        <p>В результате:</p>
+        <ul>
+          <li>пользователи возвращались к уже заполненным полям</li>
+          <li>возникали ошибки в обязательных данных</li>
+          <li>страдала скорость ввода</li>
+        </ul>
+        <div class="case-img case-img-placeholder">Разбор элементов интерфейса</div>
+        <p>Так как область продукта специфичная и во многом новая, пришлось много вникать, разбирая элементы интерфейса.</p>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">3</div>
+        <h2 class="case-section-title">Цель редизайна</h2>
+        <p>Сделать флоу букинга компактнее и читабельнее:</p>
+        <ul>
+          <li>Оптимизировать использование экрана</li>
+          <li>Минимизировать/устранить вертикальный скролл</li>
+          <li>Снизить когнитивную нагрузку</li>
+          <li>Встроить частые действия в страницу вместо модалок</li>
+          <li>Обеспечить адаптивность (десктоп/планшет)</li>
+        </ul>
+        <div class="case-img case-img-placeholder">Новая версия формы бронирования</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">4</div>
+        <h2 class="case-section-title">Метрики</h2>
+
+        <table class="case-metrics">
+          <thead>
+            <tr>
+              <th>Метрика</th>
+              <th>До</th>
+              <th>После</th>
+              <th>Δ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="4"><strong>Время выполнения (создание AWB)</strong></td></tr>
+            <tr>
+              <td>Среднее время</td>
+              <td>6 мин 40 сек</td>
+              <td>4 мин 55 сек</td>
+              <td class="delta">−26%</td>
+            </tr>
+            <tr>
+              <td>Опытный пользователь</td>
+              <td>5:10</td>
+              <td>4:05</td>
+              <td class="delta">−21%</td>
+            </tr>
+            <tr>
+              <td>Новый пользователь</td>
+              <td>8:30</td>
+              <td>6:10</td>
+              <td class="delta">−27%</td>
+            </tr>
+            <tr><td colspan="4"><strong>Повторные действия и валидация</strong></td></tr>
+            <tr>
+              <td>Возвраты к полям (за сессию)</td>
+              <td>4.2</td>
+              <td>2.6</td>
+              <td class="delta">−38%</td>
+            </tr>
+            <tr>
+              <td>Ошибки валидации (за сессию)</td>
+              <td>3.1</td>
+              <td>1.9</td>
+              <td class="delta">−39%</td>
+            </tr>
+            <tr>
+              <td>Пропущенные обязательные поля</td>
+              <td>1.4</td>
+              <td>0.8</td>
+              <td class="delta">−43%</td>
+            </tr>
+            <tr><td colspan="4"><strong>Интерактивная нагрузка</strong></td></tr>
+            <tr>
+              <td>Клики</td>
+              <td>~52</td>
+              <td>~34</td>
+              <td class="delta">−35%</td>
+            </tr>
+            <tr>
+              <td>Открытия модальных окон</td>
+              <td>6-8</td>
+              <td>2-3</td>
+              <td class="delta">−60%</td>
+            </tr>
+            <tr><td colspan="4"><strong>Когнитивная нагрузка</strong></td></tr>
+            <tr>
+              <td>Уникальные визуальные блоки в viewport</td>
+              <td>11</td>
+              <td>7</td>
+              <td class="delta">−36%</td>
+            </tr>
+            <tr><td colspan="4"><strong>Скролл и компоновка</strong></td></tr>
+            <tr>
+              <td>Длина страницы</td>
+              <td>2+ viewport</td>
+              <td>1.25 viewport</td>
+              <td class="delta">−55%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </div>
+
+    <!-- Tab: Наземные операции -->
+    <div class="case-tab-panel" data-panel="groundops">
+
+      <section class="case-section reveal">
+        <div class="case-section-num">1</div>
+        <h2 class="case-section-title">Контекст</h2>
+        <p>Ground Ops — модуль внутри платформы ENXT для управления разворотом самолёта (turnaround).</p>
+        <p>Разворот — это промежуток между прилётом и вылетом. За это время нужно выполнить десятки действий разными командами:</p>
+        <ul>
+          <li>разгрузка</li>
+          <li>погрузка</li>
+          <li>подключение оборудования</li>
+          <li>топливо</li>
+          <li>проверки</li>
+        </ul>
+        <div class="case-img case-img-placeholder">Схема процесса разворота</div>
+        <p>У системы две разные аудитории:</p>
+        <p><strong>Координатор / администратор</strong> — настраивает шаблоны, процессы и структуру разворота.</p>
+        <p><strong>Исполнитель</strong> — работает &laquo;в поле&raquo; и выполняет конкретные действия по рейсу.</p>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">2</div>
+        <h2 class="case-section-title">Понимание задачи</h2>
+        <p>Я начал с разделения ролей и выделил базовый принцип:</p>
+        <p>Всё, что настраивается координатором, должно корректно отображаться у исполнителя. Всё, что делает исполнитель, должно быть логично встроено в общую модель времени.</p>
+        <p>Важно отметить, что разворот самолёта — это иерархическая система: Шаблон → Процессы → Действия → Параметры.</p>
+        <div class="case-img case-img-placeholder">Иерархия: шаблон, процессы, действия, параметры</div>
+        <p>Каждое действие:</p>
+        <ul>
+          <li>имеет точное время старта (в минутах)</li>
+          <li>имеет длительность</li>
+          <li>относится к фазе ARR или DEP</li>
+          <li>может зависеть от других действий</li>
+          <li>может содержать вложенные параметры</li>
+          <li>должно фиксироваться в истории</li>
+        </ul>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">3</div>
+        <h2 class="case-section-title">Моя роль</h2>
+        <ul>
+          <li>Проектирование UX-архитектуры модуля Ground Ops</li>
+          <li>Разработка логики таймлайна</li>
+          <li>Проектирование структуры стадий и вложенных параметров</li>
+          <li>Создание веб-интерфейса исполнителя и сценариев его состояний</li>
+          <li>Проработка логики переходов (Start / Finish / Report Issue)</li>
+          <li>Подготовка интерфейсов к разработке и обсуждение поведения с фронтендом</li>
+        </ul>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">4</div>
+        <h2 class="case-section-title">Создатель</h2>
+        <p>Главный организующий принцип — время. Оно отображается в виде таймлайна в минутной шкале. На таймлайне создаются действия, разделённые по стадиям прилёта и вылета. У каждого действия есть слой параметров (nested fields), они отображаются в панели справа.</p>
+        <p>Есть лог активностей.</p>
+        <div class="case-img case-img-placeholder">Интерфейс создателя: таймлайн и панель параметров</div>
+      </section>
+
+      <section class="case-section reveal">
+        <div class="case-section-num">5</div>
+        <h2 class="case-section-title">Исполнитель</h2>
+        <p>Не работает со всей моделью. Ему важно понимать:</p>
+        <ul>
+          <li>какой рейс</li>
+          <li>что нужно делать сейчас</li>
+          <li>что будет следующим</li>
+          <li>что уже завершено</li>
+        </ul>
+        <div class="case-img case-img-placeholder">Интерфейс исполнителя: список задач по рейсу</div>
+        <p>Я разделил задачи на три временные группы: текущие, ближайшие, сделано.</p>
+        <p>Экран конкретного действия включает: время, стадия, таймер, форма ввода, кнопки управления (Start / Finish / Report Issue).</p>
+        <p>Состояния интерфейса меняются в зависимости от этапа выполнения.</p>
+        <div class="case-img case-img-placeholder">Состояния экрана действия</div>
+      </section>
+
+    </div>
+
   </main>
+
   <footer class="footer">
     <div class="footer-links">
       <a href="https://t.me/diyoriko" target="_blank" rel="noopener">telegram</a>
@@ -32,6 +253,7 @@
       <a href="mailto:diyor.khakimov@gmail.com">email</a>
     </div>
   </footer>
+
   <script src="../script.js"></script>
 </body>
 </html>
