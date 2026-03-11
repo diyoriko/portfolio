@@ -279,7 +279,7 @@ button {
   max-width: var(--content-max);
   width: 100%;
   margin: 0 auto;
-  padding: 80px var(--side-padding) 80px;
+  padding: 64px var(--side-padding) 80px;
   flex: 1;
 }
 
@@ -302,10 +302,10 @@ button {
 
 .project-item {
   display: grid;
-  grid-template-columns: 140px 120px 1fr 1.2fr auto;
+  grid-template-columns: 120px 100px 1fr 1.2fr auto;
   align-items: center;
-  gap: 32px;
-  padding: 32px 0;
+  gap: 24px;
+  padding: 20px 0;
   border-bottom: 1px solid var(--line);
   text-decoration: none;
   transition: opacity var(--transition-fast);
@@ -336,14 +336,14 @@ button {
 }
 
 .project-thumb {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .project-name {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 1.25;
 }
@@ -388,7 +388,7 @@ button {
 }
 
 .project-arrow {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 300;
   color: var(--text);
   transition: transform var(--transition-fast);
