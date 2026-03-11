@@ -43,7 +43,7 @@
   --bg: #fef9ea;
   --text: #222222;
   --text-secondary: #888888;
-  --text-muted: #aaaaaa;
+  --text-muted: #999999;
   --accent: #F8401C;
   --line: #F8401C;
   --line-muted: #e0ddd8;
@@ -509,6 +509,20 @@ button {
 }
 
 .footer a:hover {
+  opacity: 0.6;
+}
+
+.footer-cta {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: opacity var(--transition-fast);
+  white-space: nowrap;
+}
+
+.footer-cta:hover {
   opacity: 0.6;
 }
 
