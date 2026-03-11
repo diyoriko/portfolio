@@ -58,9 +58,70 @@ function initCaseTabs() {
 /* Shared observer reference for re-observing on tab switch */
 let observer;
 
+/* --- Mobile Navigation --- */
+
+function initMobileNav() {
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+
+  const navLinks = nav.querySelector('.nav-links');
+  const navLang = nav.querySelector('.nav-lang');
+  if (!navLinks || !navLang) return;
+
+  /* Create burger button */
+  const burger = document.createElement('button');
+  burger.className = 'nav-burger';
+  burger.setAttribute('aria-label', 'Menu');
+  burger.setAttribute('aria-expanded', 'false');
+  burger.innerHTML = '<span></span>';
+  nav.appendChild(burger);
+
+  /* Create mobile overlay */
+  const overlay = document.createElement('div');
+  overlay.className = 'nav-mobile';
+
+  /* Clone nav links */
+  const links = navLinks.querySelectorAll('a');
+  links.forEach((link) => {
+    const clone = link.cloneNode(true);
+    overlay.appendChild(clone);
+  });
+
+  /* Clone lang switcher */
+  const langDiv = document.createElement('div');
+  langDiv.className = 'nav-mobile-lang';
+  const langLinks = navLang.querySelectorAll('a');
+  langLinks.forEach((link) => {
+    const clone = link.cloneNode(true);
+    langDiv.appendChild(clone);
+  });
+  overlay.appendChild(langDiv);
+
+  document.body.appendChild(overlay);
+
+  /* Toggle */
+  burger.addEventListener('click', () => {
+    const isOpen = burger.classList.toggle('open');
+    overlay.classList.toggle('open', isOpen);
+    burger.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  /* Close on link click */
+  overlay.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      burger.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    });
+  });
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initCaseTabs();
+  initMobileNav();
 });

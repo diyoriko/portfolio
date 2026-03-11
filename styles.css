@@ -178,6 +178,101 @@ button {
   color: var(--accent);
 }
 
+/* Burger button — hidden on desktop */
+.nav-burger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 200;
+}
+
+.nav-burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  position: relative;
+  transition: background var(--transition-fast);
+}
+
+.nav-burger span::before,
+.nav-burger span::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  left: 0;
+  transition: transform var(--transition-base);
+}
+
+.nav-burger span::before {
+  top: -7px;
+}
+
+.nav-burger span::after {
+  top: 7px;
+}
+
+/* Burger open state */
+.nav-burger.open span {
+  background: transparent;
+}
+
+.nav-burger.open span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.nav-burger.open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+/* Mobile menu overlay */
+.nav-mobile {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 150;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.nav-mobile.open {
+  display: flex;
+  opacity: 1;
+}
+
+.nav-mobile a {
+  font-size: 32px;
+  font-weight: 400;
+  transition: color var(--transition-fast);
+}
+
+.nav-mobile a:hover,
+.nav-mobile a.active {
+  color: var(--accent);
+}
+
+.nav-mobile .nav-mobile-lang {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  font-size: 24px;
+}
+
 /* --- Main content --- */
 
 .main {
@@ -616,13 +711,13 @@ button {
 }
 
 @media (max-width: 480px) {
-  .nav-links {
-    font-size: 18px;
-    gap: 16px;
+  .nav-links,
+  .nav-lang {
+    display: none;
   }
 
-  .nav-lang {
-    font-size: 18px;
+  .nav-burger {
+    display: flex;
   }
 
   .project-item {
@@ -635,8 +730,54 @@ button {
     display: none;
   }
 
+  .main--about {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    align-items: flex-start;
+  }
+
   .about-content p {
     font-size: 18px;
+  }
+
+  .about-content strong {
+    margin-top: 20px;
+  }
+
+  .about-seeking {
+    font-size: 18px;
+  }
+
+  .about-seeking span {
+    font-size: 16px;
+  }
+
+  /* Case page mobile */
+  .case-back {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .case-tabs {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .case-tab {
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+
+  .case-section p {
+    font-size: 18px;
+  }
+
+  .case-section ul {
+    font-size: 18px;
+  }
+
+  .case-img-placeholder {
+    min-height: 200px;
   }
 
   .footer {
