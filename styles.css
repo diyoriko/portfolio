@@ -302,7 +302,7 @@ button {
 
 .project-item {
   display: grid;
-  grid-template-columns: 100px 80px 1fr 1.2fr auto;
+  grid-template-columns: 100px 95px 1fr 1.2fr auto;
   align-items: center;
   gap: 24px;
   padding: 20px 0;
@@ -336,8 +336,8 @@ button {
 }
 
 .project-thumb {
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   border-radius: 0;
   object-fit: cover;
 }
@@ -704,14 +704,14 @@ button {
   }
 
   .project-item {
-    grid-template-columns: 80px 60px 1fr auto;
+    grid-template-columns: 80px 70px 1fr auto;
     gap: 16px;
     padding: 16px 0;
   }
 
   .project-thumb {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 
   .project-info {
