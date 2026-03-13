@@ -458,11 +458,12 @@ a.project-item .project-arrow {
 .about-bottom {
   position: fixed;
   bottom: var(--side-padding);
+  left: var(--side-padding);
   right: var(--side-padding);
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 40px;
 }
 
 .about-bottom p {
@@ -487,6 +488,7 @@ a.project-item .project-arrow {
   color: var(--accent);
   text-decoration: underline;
   text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
   text-underline-offset: 5px;
   transition: color var(--transition-fast);
 }
