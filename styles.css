@@ -1124,6 +1124,11 @@ a.project-item .project-arrow {
     margin-top: 32px;
   }
 
+  .about-links {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
   .about-content p {
     font-size: 18px;
   }
