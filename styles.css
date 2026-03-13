@@ -654,8 +654,8 @@ a.project-item .project-arrow {
 .case-separator {
   border: none;
   border-top: 1px solid #000000;
-  max-width: 922px;
-  margin: 50px auto;
+  width: 100%;
+  margin: 100px 0;
 }
 
 /* Images within text sections */
