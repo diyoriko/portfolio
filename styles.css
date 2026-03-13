@@ -826,7 +826,7 @@ button {
 /* Hero video section (dark, full-bleed with wordmark overlay) */
 .case-hero-video {
   position: relative;
-  margin: 50px 0 0;
+  margin: 50px 0 50px;
   border-radius: 20px;
   overflow: hidden;
 }
