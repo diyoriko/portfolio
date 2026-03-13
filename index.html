@@ -37,31 +37,30 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="nav"><div class="nav-inner">
     <div class="nav-left">
-      <a href="./" class="nav-logo">D</a>
       <div class="nav-links">
-        <a href="./" class="active">Проекты</a>
+        <a href="index.html" class="active">Проекты</a>
         <a href="about.html">Об авторе</a>
       </div>
     </div>
     <div class="nav-lang">
-      <a href="./" class="active">Ru</a>
-      <a href="en/">En</a>
+      <span class="active">Ru</span>
+      <a href="en/index.html">En</a>
     </div>
-  </nav>
+  </div></nav>
 
   <main class="main">
     <h1 class="projects-title">Отобранные проекты</h1>
 
     <div class="project-list">
 
-      <a href="projects/teletype.html" class="project-item reveal">
+      <a href="projects/teletype.html" class="project-item featured reveal">
         <span class="project-year">2025—<br>2026</span>
         <img class="project-thumb" src="assets/img/thumb-teletype.png" alt="Телетайп">
         <div class="project-name">
           <span class="project-name-title">Телетайп</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="event.stopPropagation(); window.open('https://teletype.app/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Облачный диалог-центр с AI</span>
@@ -76,7 +75,7 @@
         <img class="project-thumb" src="assets/img/thumb-enxt.png" alt="ENXT">
         <div class="project-name">
           <span class="project-name-title">ENXT</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="event.stopPropagation(); window.open('https://enxt-solutions.com/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Платформа для авиа-операций</span>
@@ -86,12 +85,11 @@
         <span class="project-arrow">→</span>
       </a>
 
-      <a href="projects/osme.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2024—<br>2025</span>
         <img class="project-thumb" src="assets/img/thumb-osme.png" alt="Osme" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Osme</span>
-          <span class="project-name-link">сайт ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Образовательная экосистема</span>
@@ -99,14 +97,14 @@
           <span class="project-info-industry">EdTech</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/singularity-hub.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2024</span>
         <img class="project-thumb" src="assets/img/thumb-singularity.png" alt="Singularity Hub" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Singularity Hub</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="window.open('https://singularity.academy/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">AI Тренажёр по Python и математике</span>
@@ -114,14 +112,14 @@
           <span class="project-info-industry">EdTech</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/singularity-words.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2023</span>
         <img class="project-thumb" src="assets/img/thumb-singularity-words.png" alt="Singularity Hub" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Singularity Hub</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="window.open('https://singularity.academy/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Приложение для изучения слов</span>
@@ -129,13 +127,14 @@
           <span class="project-info-industry">EdTech</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/skyeng.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2022</span>
         <img class="project-thumb" src="assets/img/thumb-skyeng.png" alt="Skyeng" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Skyeng</span>
+          <span class="project-name-link" onclick="window.open('https://skyeng.ru/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Личный кабинет студента</span>
@@ -143,28 +142,28 @@
           <span class="project-info-industry">EdTech</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/qlean.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2019—<br>2020</span>
         <img class="project-thumb" src="assets/img/thumb-qlean.png" alt="Qlean" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Qlean</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="window.open('https://qlean.ru/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Уборка квартир (раньше и офисов)</span>
           <span class="project-info-tags">Приложение клинера, сайт</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/flora.html" class="project-item reveal muted">
+      <div class="project-item reveal">
         <span class="project-year">2018—<br>2019</span>
         <img class="project-thumb" src="assets/img/thumb-flora.png" alt="Flora Delivery" loading="lazy">
         <div class="project-name">
           <span class="project-name-title">Flora Delivery</span>
-          <span class="project-name-link">сайт ↗</span>
+          <span class="project-name-link" onclick="window.open('https://floradelivery.ru/', '_blank')">site ↗</span>
         </div>
         <div class="project-info">
           <span class="project-info-desc">Доставка цветов и подарков</span>
@@ -172,9 +171,9 @@
           <span class="project-info-industry">Ecom</span>
         </div>
         <span class="project-arrow">→</span>
-      </a>
+      </div>
 
-      <a href="projects/prosto.html" class="project-item reveal muted">
+      <a href="projects/prosto.html" class="project-item reveal">
         <span class="project-year">2018</span>
         <img class="project-thumb" src="assets/img/thumb-prosto.png" alt="Просто" loading="lazy">
         <div class="project-name">
@@ -187,7 +186,7 @@
         <span class="project-arrow">→</span>
       </a>
 
-      <a href="projects/kombo.html" class="project-item reveal muted">
+      <a href="projects/kombo.html" class="project-item reveal">
         <span class="project-year">2018</span>
         <img class="project-thumb" src="assets/img/thumb-kombo.png" alt="Комбо" loading="lazy">
         <div class="project-name">
@@ -202,15 +201,6 @@
 
     </div>
   </main>
-
-  <footer class="footer">
-    <div class="footer-links">
-      <a href="https://t.me/diyoriko" target="_blank" rel="noopener">telegram</a>
-      <a href="https://instagram.com/diyoriko" target="_blank" rel="noopener">instagram</a>
-      <a href="mailto:diyor.khakimov@gmail.com">email</a>
-    </div>
-    <a href="https://t.me/diyoriko" class="footer-cta" target="_blank" rel="noopener">Написать мне →</a>
-  </footer>
 
   <script src="script.js"></script>
 </body>

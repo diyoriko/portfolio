@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Teletype Color Palette</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #fff;
+      font-family: sans-serif;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      gap: 20px;
+    }
+
+    .left-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      min-width: 0;
+    }
+
+    .left-block {
+      flex: 1;
+      color: #fff;
+      font-size: 16pt;
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .right-scroll {
+      flex: 1;
+      max-height: 100vh;
+      overflow: hidden;
+      position: relative;
+      border-radius: 20px;
+      min-width: 0;
+    }
+
+    .scroll-wrapper {
+      display: flex;
+      flex-direction: column;
+      will-change: transform;
+    }
+
+    .scroll-block {
+      height: 100px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 16pt;
+      color: #fff;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+
+    .scroll-block:first-child {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .scroll-block:last-child {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <div class="left-block" style="background-color: #1F1914">Teletype Dark</div>
+      <div class="left-block" style="background-color: #FFFAEE; color: #000">Teletype Light</div>
+    </div>
+    <div id="scrollArea" class="right-scroll">
+      <div id="scrollWrapper" class="scroll-wrapper"></div>
+    </div>
+  </div>
+
+  <script>
+    const COLORS = [
+      { name: 'Warm Light', color: 'rgb(221,208,176)' },
+      { name: 'Warm Dark',  color: 'rgb(87,77,68)' },
+      { name: 'Gray 1',     color: 'rgb(210,208,210)' },
+      { name: 'Gray 2',     color: 'rgb(181,176,178)' },
+      { name: 'Gray 3',     color: 'rgb(151,145,147)' },
+      { name: 'Gray 4',     color: 'rgb(121,114,114)' },
+      { name: 'Gray 5',     color: 'rgb(91,83,82)' },
+      { name: 'Green',      color: 'rgb(197,243,180)' },
+      { name: 'Yellow',     color: 'rgb(249,225,122)' },
+      { name: 'Red',        color: 'rgb(254,190,191)' },
+      { name: 'Blue',       color: 'rgb(170,233,218)' },
+      { name: 'Violet',     color: 'rgb(194,195,255)' },
+    ];
+
+    const BLOCK_HEIGHT = 100;
+    const SET_HEIGHT = COLORS.length * BLOCK_HEIGHT;
+    const COPIES = 3;
+    const SPEED = 0.5; // px per frame
+
+    const wrapper = document.getElementById('scrollWrapper');
+
+    // Build 3 copies for seamless loop
+    for (let c = 0; c < COPIES; c++) {
+      COLORS.forEach(({ name, color }) => {
+        const div = document.createElement('div');
+        div.className = 'scroll-block';
+        div.style.backgroundColor = color;
+        div.textContent = name;
+        wrapper.appendChild(div);
+      });
+    }
+
+    let offset = 0;
+
+    function animate() {
+      offset -= SPEED;
+      // Reset when one full set has scrolled past
+      if (Math.abs(offset) >= SET_HEIGHT) {
+        offset += SET_HEIGHT;
+      }
+      wrapper.style.transform = `translateY(${offset}px)`;
+      requestAnimationFrame(animate);
+    }
+
+    requestAnimationFrame(animate);
+  </script>
+</body>
+</html>

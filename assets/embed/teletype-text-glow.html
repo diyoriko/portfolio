@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Teletype Text Glow</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: transparent;
+      font-family: sans-serif;
+      width: 100%;
+      height: 100%;
+    }
+
+    #animated-text {
+      font-family: "OceanicGrotesk", sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      mix-blend-mode: multiply;
+      color: #1F1914;
+      font-size: 24px;
+      line-height: 32px;
+      padding: 0;
+      max-width: 700px;
+      margin: 0 auto;
+      text-indent: 9.4em;
+      opacity: 0.9;
+    }
+
+    .char {
+      transition: color 0.3s ease;
+      display: inline;
+    }
+
+    .glow-yellow { color: #F9E17A; }
+    .glow-pink   { color: #FEBEBF; }
+  </style>
+</head>
+<body>
+  <p id="animated-text"></p>
+
+  <script>
+    const TEXT = 'Все коммуникации должны вращаться вокруг\u00a0живых связей: \u00abчеловек \u21c6 человек\u00bb, \u00abкоманда\u00a0\u21c6\u00a0клиент\u00bb. Истории, портреты, переписки, реальные кейсы, голоса, диалоги.\u00a0Это и\u00a0есть наша работа. Мы\u00a0не\u00a0абстрактная платформа \u2014 мы интерфейс взаимодействия, место встречи.';
+
+    const container = document.getElementById('animated-text');
+
+    // Create individual span for each character
+    const chars = [];
+    for (const ch of TEXT) {
+      const span = document.createElement('span');
+      span.className = 'char';
+      span.textContent = ch;
+      container.appendChild(span);
+      chars.push(span);
+    }
+
+    // Glow animation: randomly highlight 2-3 chars at a time
+    const GLOW_CLASSES = ['glow-yellow', 'glow-pink'];
+    const ACTIVE_COUNT = 3;
+    const INTERVAL_MS = 800;
+
+    let activeIndices = new Set();
+
+    function clearGlows() {
+      activeIndices.forEach(i => {
+        chars[i].classList.remove('glow-yellow', 'glow-pink');
+      });
+      activeIndices.clear();
+    }
+
+    function randomInt(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function applyGlows() {
+      clearGlows();
+      const count = randomInt(2, ACTIVE_COUNT + 1);
+      for (let n = 0; n < count; n++) {
+        let idx;
+        // Only glow actual visible characters (not spaces/punctuation)
+        do {
+          idx = randomInt(0, chars.length);
+        } while (activeIndices.has(idx) || /[\s\u00a0.,:\u2014\u00ab\u00bb\u21c6!@#$%^&*()]/.test(TEXT[idx]));
+
+        activeIndices.add(idx);
+        const cls = GLOW_CLASSES[randomInt(0, GLOW_CLASSES.length)];
+        chars[idx].classList.add(cls);
+      }
+    }
+
+    // Start animation loop
+    applyGlows();
+    setInterval(applyGlows, INTERVAL_MS);
+  </script>
+</body>
+</html>

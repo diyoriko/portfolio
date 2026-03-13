@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENXT Booking - Metrics</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oceanic Grotesk", sans-serif;
+  background: #ffffff;
+}
+.enxt-metrics-wrapper{width:100%;overflow-x:auto;font-family:"Oceanic Grotesk",sans-serif}.enxt-metrics{width:100%;border-collapse:collapse;font-size:14px;background:#ffffff}.enxt-metrics thead{background:#f5f7fa}.enxt-metrics th{text-align:left;padding:10px 12px;font-weight:600;color:#1E1919;border-bottom:1px solid #e5e7eb;line-height:1.25}.enxt-metrics td{padding:10px 12px;border-bottom:1px solid #f0f2f5;color:#333;line-height:1.25}.enxt-metrics tbody tr:hover{background:#f9fafb}.delta-positive{font-weight:400}.metric-title{font-weight:500}.metric-group{background:#fafafa;font-weight:600;color:#374151}
+</style>
+</head>
+<body>
+<div class=enxt-metrics-wrapper>
+ <table class=enxt-metrics>
+ <thead>
+ <tr>
+ <th>Метрика</th>
+ <th>До редизайна</th>
+ <th>После</th>
+ <th>Δ</th>
+ </tr>
+ </thead>
+ <tbody>
+ 
+ <tr class=metric-group>
+ <td colspan=4>Время выполнения (создание AWB)</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Среднее время</td>
+ <td>6 мин 40 сек</td>
+ <td>4 мин 55 сек</td>
+ <td class=delta-positive>−26%</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Опытный пользователь</td>
+ <td>5:10</td>
+ <td>4:05</td>
+ <td class=delta-positive>−21%</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Новый пользователь</td>
+ <td>8:30</td>
+ <td>6:10</td>
+ <td class=delta-positive>−27%</td>
+ </tr>
+ 
+ <tr class=metric-group>
+ <td colspan=4>Повторные действия и валидация</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Возвраты к полям (за сессию)</td>
+ <td>4.2</td>
+ <td>2.6</td>
+ <td class=delta-positive>−38%</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Ошибки валидации (за сессию)</td>
+ <td>3.1</td>
+ <td>1.9</td>
+ <td class=delta-positive>−39%</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Пропущенные обязательные поля</td>
+ <td>1.4</td>
+ <td>0.8</td>
+ <td class=delta-positive>−43%</td>
+ </tr>
+ 
+ <tr class=metric-group>
+ <td colspan=4>Интерактивная нагрузка</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Клики</td>
+ <td>≈52</td>
+ <td>≈34</td>
+ <td class=delta-positive>−35%</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Открытия модальных окон</td>
+ <td>6–8</td>
+ <td>2–3</td>
+ <td class=delta-positive>−60%</td>
+ </tr>
+ 
+ <tr class=metric-group>
+ <td colspan=4>Когнитивная нагрузка</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Уникальные визуальные блоки в viewport</td>
+ <td>11</td>
+ <td>7</td>
+ <td class=delta-positive>−36%</td>
+ </tr>
+ 
+ <tr class=metric-group>
+ <td colspan=4>Скролл и компоновка</td>
+ </tr>
+ <tr>
+ <td class=metric-title>Длина страницы</td>
+ <td>2+ viewport px</td>
+ <td>1.25 viewport</td>
+ <td class=delta-positive>−55%</td>
+ </tr>
+ </tbody>
+ </table>
+</body>
+</html>
