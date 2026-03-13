@@ -412,8 +412,11 @@ a.project-item .project-arrow {
 /* --- About page --- */
 
 .main--about {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-viewport {
@@ -453,11 +456,13 @@ a.project-item .project-arrow {
 /* --- Footer --- */
 
 .about-bottom {
+  position: fixed;
+  bottom: var(--side-padding);
+  right: var(--side-padding);
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 40px;
-  margin-top: 14px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
 }
 
 .about-bottom p {
@@ -1109,11 +1114,15 @@ a.project-item .project-arrow {
   .main--about {
     padding-top: 32px;
     padding-bottom: 48px;
+    align-items: flex-start;
   }
 
   .about-bottom {
+    position: static;
     flex-direction: column;
-    gap: 24px;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 32px;
   }
 
   .about-content p {
