@@ -339,6 +339,7 @@ button {
   border-radius: 0;
   object-fit: cover;
   object-position: top center;
+  align-self: center;
 }
 
 .project-name {
@@ -401,9 +402,10 @@ button {
   transition: color var(--transition-fast);
   line-height: 1;
   text-align: right;
+  align-self: center;
 }
 
-.project-item.featured .project-arrow {
+a.project-item .project-arrow {
   color: var(--text);
 }
 
