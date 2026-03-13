@@ -3,71 +3,71 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://diyoriko.github.io/portfolio/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyoriko.github.io/portfolio/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyoriko.github.io/portfolio/en/" />
+    <loc>https://diyor.design/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/" />
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://diyoriko.github.io/portfolio/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyoriko.github.io/portfolio/about.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyoriko.github.io/portfolio/en/about.html" />
+    <loc>https://diyor.design/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about.html" />
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://diyoriko.github.io/portfolio/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyoriko.github.io/portfolio/en/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyoriko.github.io/portfolio/" />
+    <loc>https://diyor.design/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/" />
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://diyoriko.github.io/portfolio/en/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyoriko.github.io/portfolio/en/about.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyoriko.github.io/portfolio/about.html" />
+    <loc>https://diyor.design/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about.html" />
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/teletype.html</loc>
+    <loc>https://diyor.design/projects/teletype.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/enxt.html</loc>
+    <loc>https://diyor.design/projects/enxt.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/osme.html</loc>
+    <loc>https://diyor.design/projects/osme.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/singularity-hub.html</loc>
+    <loc>https://diyor.design/projects/singularity-hub.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/singularity-words.html</loc>
+    <loc>https://diyor.design/projects/singularity-words.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/skyeng.html</loc>
+    <loc>https://diyor.design/projects/skyeng.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/qlean.html</loc>
+    <loc>https://diyor.design/projects/qlean.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/flora.html</loc>
+    <loc>https://diyor.design/projects/flora.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/prosto.html</loc>
+    <loc>https://diyor.design/projects/prosto.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://diyoriko.github.io/portfolio/projects/kombo.html</loc>
+    <loc>https://diyor.design/projects/kombo.html</loc>
     <priority>0.6</priority>
   </url>
 
