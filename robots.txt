@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://diyor.design/sitemap.xml
+Sitemap: https://diyoriko.github.io/portfolio/sitemap.xml
