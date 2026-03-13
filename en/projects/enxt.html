@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ENXT — Diyor Khakimov</title>
-  <meta name="description" content="ENXT — platform for aviation operations. Web application.">
+  <meta name="description" content="ENXT case study: booking redesign and Ground Ops design for an aviation B2B platform.">
   <meta property="og:locale" content="en_US">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
@@ -24,9 +24,266 @@
     </div>
   </div></nav>
 
-  <main class="main">
-    <h1 class="projects-title">ENXT</h1>
-    <p style="font-family: var(--font-sans); font-size: 20px; color: var(--text-muted);">Case study in progress</p>
+  <main class="main main--case">
+    <div class="case-tabs">
+      <button class="case-tab active" data-tab="booking">Booking</button>
+      <button class="case-tab" data-tab="groundops">Ground Ops</button>
+    </div>
+
+    <div class="case-body">
+
+      <!-- ======================== BOOKING ======================== -->
+      <div class="case-tab-panel active" data-panel="booking">
+
+        <section class="case-section">
+          <span class="case-section-num">1</span>
+          <h2 class="case-section-title">Context</h2>
+          <p>ENXT is a B2B platform for managing aviation cargo operations.</p>
+          <p>The AWB (Air Waybill) creation page is the key working screen for agents and operators: this is where shipments are formed, routes are added, codes are verified, and operational parameters are entered.</p>
+          <br>
+          <p>This screen was used daily and directly impacted cargo processing speed.</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">2</span>
+          <h2 class="case-section-title">Understanding the problem</h2>
+          <p>The <a href="#booking-before" style="color: var(--accent);">old version</a> of the booking page was a long vertical form:</p>
+          <ul>
+            <li>over 2 viewports of scroll</li>
+            <li>constant scrolling</li>
+            <li>frequent modal windows</li>
+            <li>scattered information blocks</li>
+            <li>high cognitive load</li>
+          </ul>
+          <br>
+          <p>As a result:</p>
+          <ul>
+            <li>users would return to already filled fields</li>
+            <li>errors occurred in required data</li>
+            <li>input speed suffered</li>
+          </ul>
+          <br>
+          <p>Since the product domain was specific and largely new, I had to dive deep, breaking down interface elements:</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">3</span>
+          <h2 class="case-section-title">Redesign goal</h2>
+          <p>Make the booking flow more compact and readable:</p>
+          <ul>
+            <li>Optimize screen usage</li>
+            <li>Minimize/eliminate vertical scroll</li>
+            <li>Reduce cognitive load</li>
+            <li>Embed frequent actions into the page instead of modals</li>
+            <li>Ensure responsiveness (desktop/tablet)</li>
+          </ul>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">4</span>
+          <h2 class="case-section-title">Metrics</h2>
+          <iframe class="case-embed" src="../../assets/embed/enxt-metrics-table.html" width="100%" height="480" title="Metrics table"></iframe>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">5</span>
+          <h2 class="case-section-title">Result</h2>
+          <p>After the redesign:</p>
+          <ul>
+            <li>page reduced from 2+ to 1.25 viewports</li>
+            <li>average AWB creation time decreased by ~25%</li>
+            <li>field revisits dropped by nearly 40%</li>
+            <li>number of modal interruptions cut by more than half</li>
+            <li>cognitive load (visual blocks in viewport) reduced by 36%.</li>
+          </ul>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">6</span>
+          <h2 class="case-section-title">My role as product / UX designer</h2>
+          <ul>
+            <li>UX audit of the existing form</li>
+            <li>Information architecture of the booking service and platform navigation</li>
+            <li>Design decisions and iterations (v1 &rarr; v2)</li>
+            <li>Specifications and behavior descriptions for UI elements (paired with front-end developer)</li>
+            <li>Syncing the design system with the front-end codebase</li>
+            <li>Time management and meeting moderation.</li>
+          </ul>
+        </section>
+
+        <hr class="case-separator">
+
+        <!-- BEFORE -->
+        <section id="booking-before" class="case-section">
+          <span class="case-edge-label">Before</span>
+          <p>The old version was a feature-rich screen with a linear vertical structure. As functionality grew, the page architecture was never reconsidered, resulting in vertical overload and constant scrolling. Logically related data was spread across separate cards, and some actions were placed in modal windows, interrupting the workflow.</p>
+        </section>
+
+        <div class="case-video case-video--text-aligned">
+          <video autoplay loop muted playsinline poster="../../assets/img/cases/enxt/enxt-booking-poster-01.jpg">
+            <source src="../../assets/img/cases/enxt/enxt-booking-video-01.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- REDESIGN V1.0 -->
+        <section class="case-section">
+          <span class="case-edge-label">Redesign v1.0</span>
+          <h2 class="case-section-title">Structural rebuild and systematization</h2>
+          <p>The project was run in a dev-first environment and used an outdated version of Material UI (React), with numerous custom style overrides and local solutions.</p>
+          <br>
+          <p>So in the first redesign iteration I didn't change the business logic of the flow, but focused on a systematic rebuild of the interface.</p>
+          <h3>Technical work:</h3>
+          <ul>
+            <li>Migration to a current version of Material UI</li>
+            <li>Elimination of accumulated local overrides and inconsistent styles</li>
+            <li>Collaborative work with front-end to sync the library in code</li>
+            <li>Building a design system based on the new Material version</li>
+          </ul>
+          <h3>At the UX level:</h3>
+          <ul>
+            <li>Grid and block layout streamlined</li>
+            <li>Visual overload reduced</li>
+            <li>Input fields, tabs, chips, toggles unified</li>
+            <li>Revenue and Operational Details readability improved</li>
+            <li>Fixed action bar with totals added</li>
+          </ul>
+        </section>
+
+        <div class="case-video case-video--text-aligned">
+          <video autoplay loop muted playsinline poster="../../assets/img/cases/enxt/enxt-booking-poster-02.jpg">
+            <source src="../../assets/img/cases/enxt/enxt-booking-video-02.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- REDESIGN V2.0 -->
+        <section class="case-section">
+          <span class="case-edge-label">Redesign v2.0</span>
+          <h2 class="case-section-title">Architectural optimization of the flow</h2>
+          <p>In the second redesign iteration I reconsidered not just the visual system, but the page interaction structure itself.</p>
+          <br>
+          <p>What changed:</p>
+          <ul>
+            <li>Linear vertical form transformed into modular navigation</li>
+            <li>Key sections moved to a top segmented control</li>
+            <li>Persistent Booking Summary added for contextual feedback</li>
+            <li>DIMs extracted into a standalone module</li>
+            <li>Routing section simplified and restructured</li>
+            <li>Revenue and Operational Details optimized</li>
+          </ul>
+          <br>
+          <p>The key difference between v2 and v1.</p>
+          <iframe class="case-embed" src="../../assets/embed/enxt-compare-table.html" width="100%" height="180" title="v1 vs v2 comparison"></iframe>
+        </section>
+
+        <div class="case-video case-video--text-aligned">
+          <video autoplay loop muted playsinline poster="../../assets/img/cases/enxt/enxt-booking-poster-03.jpg">
+            <source src="../../assets/img/cases/enxt/enxt-booking-video-03.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+
+      <!-- ======================== GROUND OPS ======================== -->
+      <div class="case-tab-panel" data-panel="groundops">
+
+        <section class="case-section">
+          <span class="case-section-num">1</span>
+          <h2 class="case-section-title">Context</h2>
+          <p>Ground Ops is a module within the ENXT platform for managing aircraft turnaround.</p>
+          <br>
+          <p>Turnaround is the period between arrival and departure. During this time, dozens of actions need to be completed by different teams:</p>
+          <ul>
+            <li>unloading</li>
+            <li>loading</li>
+            <li>equipment connection</li>
+            <li>fueling</li>
+            <li>inspections</li>
+          </ul>
+          <br>
+          <p>The system has two distinct audiences:</p>
+          <ul>
+            <li><strong>Coordinator / administrator</strong> — configures templates, processes and turnaround structure</li>
+            <li><strong>Executor</strong> — works &ldquo;in the field&rdquo; and performs specific actions per flight.</li>
+          </ul>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">2</span>
+          <h2 class="case-section-title">Understanding the problem</h2>
+          <p>I started by separating roles and identified the core principle:</p>
+          <ul>
+            <li>Everything configured by the coordinator must display correctly for the executor</li>
+            <li>Everything the executor does must fit logically into the overall time model.</li>
+          </ul>
+          <br>
+          <p>Importantly, aircraft turnaround is a hierarchical system: Template &rarr; Processes &rarr; Actions &rarr; Parameters.</p>
+          <br>
+          <p>Each action:</p>
+          <ul>
+            <li>has a precise start time (in minutes)</li>
+            <li>has a duration</li>
+            <li>belongs to ARR or DEP phase</li>
+            <li>may depend on other actions</li>
+            <li>may contain nested parameters</li>
+            <li>must be recorded in the log.</li>
+          </ul>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">3</span>
+          <h2 class="case-section-title">My role</h2>
+          <ul>
+            <li>UX architecture design for the Ground Ops module</li>
+            <li>Timeline logic development</li>
+            <li>Stage structure and nested parameter design</li>
+            <li>Executor web interface and state scenarios</li>
+            <li>Transition logic design (Start / Finish / Report Issue)</li>
+            <li>Preparing interfaces for development and discussing behavior with front-end</li>
+          </ul>
+        </section>
+
+        <hr class="case-separator">
+
+        <!-- CREATOR -->
+        <section class="case-section">
+          <span class="case-edge-label">Creator</span>
+          <p>The main organizing principle is time. It is displayed as a timeline on a minute scale. Actions are created on the timeline, divided into arrival and departure stages. Each action has a layer of parameters (nested fields), shown in a panel on the right.</p>
+          <p>There is an activity log.</p>
+        </section>
+
+        <div class="case-video case-video--text-aligned">
+          <video autoplay loop muted playsinline poster="../../assets/img/cases/enxt/enxt-groundops-poster-01.jpg">
+            <source src="../../assets/img/cases/enxt/enxt-groundops-video-01.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <!-- EXECUTOR -->
+        <section class="case-section">
+          <span class="case-edge-label">Executor</span>
+          <p>Doesn't work with the full model. What matters to them:</p>
+          <ul>
+            <li>which flight</li>
+            <li>what needs to be done now</li>
+            <li>what's next</li>
+            <li>what's already completed.</li>
+          </ul>
+          <br>
+          <p>I divided tasks into three time groups: current, upcoming, done.</p>
+          <br>
+          <p>The individual action screen includes: time, stage, timer, input form, control buttons (Start / Finish / Report Issue).</p>
+          <br>
+          <p>Interface states change depending on the execution stage.</p>
+        </section>
+
+        <div class="case-video case-video--text-aligned">
+          <video autoplay loop muted playsinline poster="../../assets/img/cases/enxt/enxt-groundops-poster-02.jpg" style="max-width: 282px;">
+            <source src="../../assets/img/cases/enxt/enxt-groundops-video-02.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+
+    </div>
   </main>
 
   <script src="../../script.js"></script>
