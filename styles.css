@@ -593,6 +593,24 @@ a.project-item .project-arrow {
   display: block;
 }
 
+/* Pet project label */
+.case-pet-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  border: 1px solid var(--line-muted);
+  border-radius: 100px;
+  padding: 4px 14px;
+  max-width: 722px;
+  margin: 0 auto 40px;
+  display: block;
+  width: fit-content;
+}
+
 /* Text sections: centered 688px column with 34px gutter for numbers */
 .case-section {
   max-width: 722px;

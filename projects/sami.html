@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сами — Диёр Хакимов</title>
   <meta name="description" content="Кейс Сами: фитнес-сообщество в Telegram. Продукт, бренд и разработка с нуля.">
+  <meta property="og:title" content="Сами — Диёр Хакимов">
+  <meta property="og:description" content="Кейс Сами: фитнес-сообщество в Telegram. Продукт, бренд и разработка с нуля.">
+  <meta property="og:image" content="https://diyor.design/assets/img/thumb-sami.png">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://diyor.design/projects/sami.html">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
+  <!-- Analytics: replace with your tracking code (Plausible, GoatCounter, etc.) -->
+  <!-- <script defer data-domain="diyor.design" src="https://plausible.io/js/script.js"></script> -->
 </head>
 <body>
 
@@ -25,6 +32,8 @@
 
   <main class="main main--case">
     <div class="case-body">
+
+      <span class="case-pet-label">Пет-проект</span>
 
       <!-- 1. Зачем -->
       <section class="case-section">
@@ -64,11 +73,32 @@
         <p>Тон коммуникации — тёплый, без давления. Бот не мотивирует, а фиксирует: «Ты сделаль. 5 дней подряд.»</p>
       </section>
 
-      <hr class="case-separator">
-
-      <!-- 5. Архитектура -->
+      <!-- 5. Рынок -->
       <section class="case-section">
         <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Почему это работает</h2>
+        <p>Рынок онлайн-фитнеса в России — 4,8 млрд ₽ по топ-25 платформам. Рост +37% год к году. Прогноз — 42 млрд к 2032 (CAGR 20–30%).</p>
+        <p>Лидер — FitStars с ~1,2 млрд ₽ выручки. Остальное — фрагментированный рынок мелких игроков. Доминирующего Telegram-сообщества в нише нет.</p>
+        <p>YouTube в России ограничен. Это создаёт спрос на альтернативный доступ к фитнес-контенту. Сами решает эту проблему: находит, фильтрует, доставляет — как нативный файл в канал.</p>
+        <p>Тренды работают в пользу продукта: домашние тренировки без инвентаря растут, комьюнити-формат вовлекает сильнее подписок, а AI-персонализация снижает порог входа.</p>
+      </section>
+
+      <!-- 6. Видение -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Куда дальше</h2>
+        <p>Telegram-канал — первая фаза. Валидация формата, тона, ритуала. Следующий шаг — нативное приложение.</p>
+        <p><strong>Приложение.</strong> Персональный план тренировок на основе данных о пользователе: уровень, цели, история. Не библиотека видео — одна тренировка в день, подобранная алгоритмом. Трекинг прогресса без геймификации.</p>
+        <p><strong>Маркетплейс тренеров.</strong> Верифицированные тренеры публикуют программы. Сообщество оценивает контент. Тренеры получают аудиторию, пользователи — разнообразие и качество.</p>
+        <p><strong>AI-обратная связь.</strong> Анализ формы через камеру. Коррекция техники в реальном времени. Адаптация сложности после каждой тренировки.</p>
+        <p>Ядро остаётся неизменным: ритуал, а не программа. Спокойный тон. Движение ради здоровья, а не ради тела.</p>
+      </section>
+
+      <hr class="case-separator">
+
+      <!-- 7. Архитектура -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
         <h2 class="case-section-title">Три агента</h2>
         <p>Система работает на трёх автономных агентах:</p>
         <p><strong>Стратег</strong> — запускается раз в день. Анализирует метрики, бэклог, конкурентов. Формирует пакет задач и ключевых слов для поиска контента.</p>
@@ -76,16 +106,16 @@
         <p><strong>Аналитика</strong> — встроенный модуль. Ежедневно собирает: подписчики, публикации, выполнения, ретеншн.</p>
       </section>
 
-      <!-- 6. Стек -->
+      <!-- 8. Стек -->
       <section class="case-section">
-        <span class="case-section-num">6</span>
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Стек</h2>
         <p>TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg, Claude API. Railway 24/7. 111 тестов в Vitest. GitHub Actions для стратега и бэкапов. Деплой через git push.</p>
       </section>
 
-      <!-- 7. Роль -->
+      <!-- 9. Роль -->
       <section class="case-section">
-        <span class="case-section-num">7</span>
+        <span class="case-section-num">9</span>
         <h2 class="case-section-title">Моя роль</h2>
         <p>Единственный участник проекта.</p>
         <ul>
