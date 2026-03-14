@@ -1136,6 +1136,10 @@ a.project-item .project-arrow {
     font-size: 36px;
   }
 
+  .year-range {
+    display: none;
+  }
+
   .footer-links {
     gap: 24px;
   }
