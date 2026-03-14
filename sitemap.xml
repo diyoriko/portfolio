@@ -32,19 +32,75 @@
 
   <url>
     <loc>https://diyor.design/projects/teletype.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html" />
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/teletype.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diyor.design/projects/sami.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami.html" />
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/sami.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://diyor.design/projects/hunter.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter.html" />
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://diyor.design/en/projects/hunter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://diyor.design/projects/enxt.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt.html" />
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/enxt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/projects/prosto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/prosto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/projects/kombo.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/kombo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://diyor.design/projects/osme.html</loc>
@@ -69,14 +125,6 @@
   <url>
     <loc>https://diyor.design/projects/flora.html</loc>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://diyor.design/projects/prosto.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://diyor.design/projects/kombo.html</loc>
-    <priority>0.6</priority>
   </url>
 
 </urlset>
