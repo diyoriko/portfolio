@@ -347,6 +347,27 @@ button {
   align-self: center;
 }
 
+.project-thumb--cursor {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1;
+}
+
+.project-thumb--cursor span {
+  animation: cursor-blink 1s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 .project-name {
   font-size: 25px;
   font-weight: 400;
