@@ -287,17 +287,15 @@ button {
 
 .projects-title {
   font-family: var(--font-sans);
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 1.5;
-  margin-bottom: 56px;
+  margin-bottom: 32px;
   color: var(--text);
 }
 
 .projects-title--archive {
-  font-size: 30px;
   margin-top: 80px;
-  margin-bottom: 32px;
   color: var(--text-dim);
 }
 
@@ -898,6 +896,7 @@ a.project-item .project-arrow {
 
 .case-slideshow-track {
   display: flex;
+  align-items: flex-start;
   transition: transform 0.4s ease;
 }
 
