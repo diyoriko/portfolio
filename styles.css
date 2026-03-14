@@ -1142,13 +1142,12 @@ a.project-item .project-arrow {
 }
 
 @media (max-width: 480px) {
-  .nav-links,
-  .nav-lang {
-    display: none;
+  .nav-links {
+    font-size: 20px;
   }
 
-  .nav-burger {
-    display: flex;
+  .nav-lang {
+    font-size: 20px;
   }
 
   .project-item {
