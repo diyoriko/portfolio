@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter — Диёр Хакимов</title>
+  <meta name="description" content="Кейс Hunter: AI-бот для поиска работы. Скрейпинг, скоринг, сопроводительные через Claude.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <nav class="nav"><div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="../index.html">Проекты</a>
+        <a href="../about.html">Об авторе</a>
+      </div>
+    </div>
+    <div class="nav-lang">
+      <span class="active">Ru</span>
+      <a href="../en/projects/hunter.html">En</a>
+    </div>
+  </div></nav>
+
+  <main class="main main--case">
+    <div class="case-body">
+
+      <!-- 1. Проблема -->
+      <section class="case-section">
+        <span class="case-section-num">1</span>
+        <h2 class="case-section-title">Ритуал, который никто не любит</h2>
+        <p>Каждый, кто искал работу, знает этот ритуал. Утро: открыть hh.ru, открыть Habr, может быть LinkedIn. Проскроллить. Отфильтровать. Прочитать 50 описаний. Сохранить 5. Написать 3 сопроводительных. Потратить 45 минут. Завтра повторить.</p>
+        <br>
+        <p>Hunter делает это за тебя.</p>
+      </section>
+
+      <!-- 2. Решение -->
+      <section class="case-section">
+        <span class="case-section-num">2</span>
+        <h2 class="case-section-title">Push вместо pull</h2>
+        <p>Три раза в день бот скрейпит hh.ru и Habr по твоим запросам. Каждая вакансия проходит через персональный скоринг. Утром приходит дайджест в Telegram — ты не ходишь на сайты, сайты приходят к тебе.</p>
+        <br>
+        <p>Вакансии ниже 40 баллов скрыты. Ты видишь только то, что реально подходит.</p>
+      </section>
+
+      <!-- Screenshot: bot profile -->
+      <img class="case-img-full" src="../assets/img/cases/hunter/hunter-bot-profile.png" alt="Профиль бота Hunter в Telegram" style="border-radius: 20px;">
+
+      <!-- 3. Скоринг -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">Как работает скоринг</h2>
+        <p>Каждая вакансия получает оценку 0–100 на основе четырёх факторов:</p>
+        <br>
+        <p><strong>Навыки — 40%.</strong> Взвешенное совпадение. Первый навык в списке весит больше, последний — меньше. Психология: то, что человек вводит первым — его сильная сторона.</p>
+        <br>
+        <p><strong>Зарплата — 25%.</strong> Пересечение диапазонов. Нормализация валют (USD, EUR → RUB).</p>
+        <br>
+        <p><strong>Формат — 20%.</strong> Удалёнка, гибрид, офис. Точное совпадение — 100 баллов. Гибрид для удалёнщика — 50.</p>
+        <br>
+        <p><strong>Индустрия — 15%.</strong> 22 предопределённые отрасли с наборами ключевых слов.</p>
+        <br>
+        <p>Красные флаги в описании делят оценку пополам. Компания из чёрного списка — ноль.</p>
+      </section>
+
+      <!-- 4. Сопроводительные -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Сопроводительные за одно нажатие</h2>
+        <p>Нашёл интересную вакансию — нажимаешь «Письмо». Claude пишет сопроводительное твоим голосом: использует твой опыт, навыки, учитывает специфику вакансии.</p>
+        <br>
+        <p>Не нравится — «Другой вариант» генерирует новое с другой структурой.</p>
+        <br>
+        <p>На каждое письмо уходит 10–15 секунд вместо 10–15 минут.</p>
+      </section>
+
+      <hr class="case-separator">
+
+      <!-- 5. Онбординг -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">14 шагов до первого дайджеста</h2>
+        <p>При старте бот проводит через онбординг: имя, должность, опыт, навыки, зарплатная вилка, формат, отрасли, красные флаги, блэклист компаний, поисковые запросы, портфолио, описание опыта.</p>
+        <br>
+        <p>Каждый шаг — inline-кнопки. Можно пропустить, вернуться назад, отредактировать после. Сразу после завершения — первый скрейп и дайджест.</p>
+      </section>
+
+      <!-- 6. Монетизация -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Фримиум</h2>
+        <p>Бесплатно: 5 сопроводительных на весь срок, 15 вакансий в дайджесте, 2 пуша за скрейп.</p>
+        <br>
+        <p>Pro: 500 Stars/мес (~350 ₽) — без ограничений. Или кредиты: 5 кредитов = 1 письмо.</p>
+        <br>
+        <p>Гибридная модель: подписка для активных, кредиты для тех, кому нужно одно-два письма.</p>
+      </section>
+
+      <!-- 7. Стек -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Стек</h2>
+        <p>TypeScript, grammY, SQLite (WAL), node-cron, Claude CLI (Sonnet), cheerio. Railway 24/7. 3 400+ строк кода. Деплой через git push.</p>
+      </section>
+
+      <!-- 8. Роль -->
+      <section class="case-section">
+        <span class="case-section-num">8</span>
+        <h2 class="case-section-title">Моя роль</h2>
+        <p>Весь проект — от идеи до работающего продукта — сделан мной одним:</p>
+        <ul>
+          <li>Продуктовая стратегия и монетизация</li>
+          <li>UX ботового интерфейса</li>
+          <li>Алгоритм скоринга</li>
+          <li>Разработка (TypeScript, скрейперы, AI-интеграция)</li>
+          <li>Деплой и мониторинг</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="../script.js"></script>
+</body>
+</html>

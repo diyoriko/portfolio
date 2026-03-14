@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sami — Diyor Khakimov</title>
+  <meta name="description" content="Sami case study: Telegram fitness community. Product, brand and development from scratch.">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+
+  <nav class="nav"><div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="../index.html">Projects</a>
+        <a href="../about.html">About</a>
+      </div>
+    </div>
+    <div class="nav-lang">
+      <a href="../../projects/sami.html">Ru</a>
+      <span class="active">En</span>
+    </div>
+  </div></nav>
+
+  <main class="main main--case">
+    <div class="case-body">
+
+      <!-- 1. Why -->
+      <section class="case-section">
+        <span class="case-section-num">1</span>
+        <h2 class="case-section-title">Not motivation. Structure.</h2>
+        <p>People want to move. They open YouTube — ten million videos. They browse for twenty minutes, close it, turn on Netflix.</p>
+        <br>
+        <p>The problem isn't laziness. The problem is that every day you need to decide again: what to do, how long, what level.</p>
+        <br>
+        <p>Sami is a Telegram channel that removes this choice. One workout per day. Just a mat. Stretching, strength, mobility, yoga, breathing, cardio, recovery — seven categories, seven days.</p>
+      </section>
+
+      <!-- 2. Format -->
+      <section class="case-section">
+        <span class="case-section-num">2</span>
+        <h2 class="case-section-title">Seasons</h2>
+        <p>One season is 21 days. Three full weeks. Each day is tied to its category: Monday — stretching, Tuesday — strength, Wednesday — mobility.</p>
+        <br>
+        <p>It's a ritual, not a program. No need to plan. Open the channel — do it — close it.</p>
+        <br>
+        <p>After a workout you can tap "I did it" in the discussion. The bot counts your streak and shows the total. No rankings, no competition — just a record for yourself.</p>
+      </section>
+
+      <!-- Screenshot: bot profile -->
+      <img class="case-img-full" src="../../assets/img/cases/sami/sami-bot-profile.png" alt="Sami bot profile in Telegram" style="border-radius: 20px;">
+
+      <!-- 3. Content -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">Where content comes from</h2>
+        <p>The bot searches YouTube for workouts using curated keywords. Every video goes through a scoring algorithm: views, likes, channel authority, duration.</p>
+        <br>
+        <p>But the main filter is brand values. 70+ patterns reject content with "fix your body" rhetoric, weight loss focus, or competitive framing. Only calm, instructional bodyweight videos pass through.</p>
+        <br>
+        <p>YouTube is restricted in Russia, so the bot downloads the video, validates the codec (H.264 for Telegram), transcodes via ffmpeg if needed, and publishes as a native file to the channel.</p>
+      </section>
+
+      <!-- 4. Moderation -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Safe space</h2>
+        <p>The discussion group is protected by multi-layered moderation:</p>
+        <ul>
+          <li>Math captcha on entry</li>
+          <li>Goal quiz — rhythm, flexibility, strength, or "just browsing"</li>
+          <li>Personalized welcome DM based on the selected goal</li>
+          <li>75+ anti-spam regex patterns: crypto, gambling, external links, channel promotion</li>
+          <li>Cooldown for new members, night mode, reputation system</li>
+        </ul>
+        <br>
+        <p>Communication tone — warm, validating. Not a corporate bot, but a caring helper.</p>
+      </section>
+
+      <hr class="case-separator">
+
+      <!-- 5. Architecture -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Three agents</h2>
+        <p>Under the hood, a system of three autonomous agents:</p>
+        <br>
+        <p><strong>Strategist</strong> — runs once a day. Analyzes metrics, backlog, competitors. Produces a task packet and keywords for content search.</p>
+        <br>
+        <p><strong>Community bot</strong> — lives on Railway 24/7. Receives the strategist's packet, searches videos, manages moderation, publishes content, maintains user profiles, collects analytics.</p>
+        <br>
+        <p><strong>Analytics</strong> — embedded bot module. Every day at 00:30 it collects: subscribers, posts, completions, retention. Weekly reports on Sundays.</p>
+      </section>
+
+      <!-- 6. Stack -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Stack</h2>
+        <p>TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg, Claude API. Railway 24/7. 111 tests in Vitest. GitHub Actions for strategist and backups. Deploy via git push.</p>
+      </section>
+
+      <!-- 7. Role -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">My role</h2>
+        <p>The entire project — from idea to working product — built by me alone:</p>
+        <ul>
+          <li>Product concept and positioning</li>
+          <li>Brand and communication tone</li>
+          <li>System architecture</li>
+          <li>Development (7,800+ lines of TypeScript)</li>
+          <li>Testing (111 tests)</li>
+          <li>Deployment and monitoring</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="../../script.js"></script>
+</body>
+</html>

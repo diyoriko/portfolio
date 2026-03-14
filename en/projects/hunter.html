@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter — Diyor Khakimov</title>
+  <meta name="description" content="Hunter case study: AI job search bot. Scraping, scoring, cover letters via Claude.">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+
+  <nav class="nav"><div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="../index.html">Projects</a>
+        <a href="../about.html">About</a>
+      </div>
+    </div>
+    <div class="nav-lang">
+      <a href="../../projects/hunter.html">Ru</a>
+      <span class="active">En</span>
+    </div>
+  </div></nav>
+
+  <main class="main main--case">
+    <div class="case-body">
+
+      <!-- 1. Problem -->
+      <section class="case-section">
+        <span class="case-section-num">1</span>
+        <h2 class="case-section-title">A ritual nobody enjoys</h2>
+        <p>Everyone who's searched for a job knows this ritual. Morning: open hh.ru, open Habr, maybe LinkedIn. Scroll. Filter. Read 50 descriptions. Save 5. Write 3 cover letters. Spend 45 minutes. Repeat tomorrow.</p>
+        <br>
+        <p>Hunter does this for you.</p>
+      </section>
+
+      <!-- 2. Solution -->
+      <section class="case-section">
+        <span class="case-section-num">2</span>
+        <h2 class="case-section-title">Push instead of pull</h2>
+        <p>Three times a day, the bot scrapes hh.ru and Habr using your search queries. Every vacancy goes through personal scoring. In the morning, a digest arrives in Telegram — you don't visit job sites, job sites come to you.</p>
+        <br>
+        <p>Vacancies below 40 points are hidden. You only see what actually fits.</p>
+      </section>
+
+      <!-- Screenshot: bot profile -->
+      <img class="case-img-full" src="../../assets/img/cases/hunter/hunter-bot-profile.png" alt="Hunter bot profile in Telegram" style="border-radius: 20px;">
+
+      <!-- 3. Scoring -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">How scoring works</h2>
+        <p>Each vacancy gets a 0–100 score based on four factors:</p>
+        <br>
+        <p><strong>Skills — 40%.</strong> Weighted matching. The first skill in your list weighs more, the last — less. Psychology: what you type first is your strongest skill.</p>
+        <br>
+        <p><strong>Salary — 25%.</strong> Range overlap detection. Currency normalization (USD, EUR → RUB).</p>
+        <br>
+        <p><strong>Format — 20%.</strong> Remote, hybrid, office. Exact match — 100 points. Hybrid for a remote worker — 50.</p>
+        <br>
+        <p><strong>Industry — 15%.</strong> 22 predefined domains with keyword sets.</p>
+        <br>
+        <p>Red flags in the description halve the score. Blacklisted company — zero.</p>
+      </section>
+
+      <!-- 4. Cover letters -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Cover letters in one tap</h2>
+        <p>Found an interesting vacancy — tap "Letter". Claude writes a cover letter in your voice: using your experience, skills, tailored to the specific vacancy.</p>
+        <br>
+        <p>Don't like it — "Another version" generates a fresh one with a different structure.</p>
+        <br>
+        <p>Each letter takes 10–15 seconds instead of 10–15 minutes.</p>
+      </section>
+
+      <hr class="case-separator">
+
+      <!-- 5. Onboarding -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">14 steps to your first digest</h2>
+        <p>On start, the bot walks you through onboarding: name, job title, experience, skills, salary range, format, industries, red flags, company blacklist, search queries, portfolio, experience description.</p>
+        <br>
+        <p>Every step uses inline buttons. You can skip, go back, edit later. Right after completion — your first scrape and digest.</p>
+      </section>
+
+      <!-- 6. Monetization -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Freemium</h2>
+        <p>Free: 5 cover letters lifetime, 15 vacancies per digest, 2 push alerts per scrape.</p>
+        <br>
+        <p>Pro: 500 Stars/month (~$5.50) — unlimited everything. Or credits: 5 credits = 1 letter.</p>
+        <br>
+        <p>Hybrid model: subscription for active users, credits for those who just need one or two letters.</p>
+      </section>
+
+      <!-- 7. Stack -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Stack</h2>
+        <p>TypeScript, grammY, SQLite (WAL), node-cron, Claude CLI (Sonnet), cheerio. Railway 24/7. 3,400+ lines of code. Deploy via git push.</p>
+      </section>
+
+      <!-- 8. Role -->
+      <section class="case-section">
+        <span class="case-section-num">8</span>
+        <h2 class="case-section-title">My role</h2>
+        <p>The entire project — from idea to working product — built by me alone:</p>
+        <ul>
+          <li>Product strategy and monetization</li>
+          <li>Bot interface UX</li>
+          <li>Scoring algorithm</li>
+          <li>Development (TypeScript, scrapers, AI integration)</li>
+          <li>Deployment and monitoring</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="../../script.js"></script>
+</body>
+</html>
