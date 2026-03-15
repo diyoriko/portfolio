@@ -115,8 +115,16 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://diyor.design/projects/skyeng.html</loc>
+    <loc>https://diyor.design/projects/skysmart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/skysmart.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://diyor.design/projects/qlean.html</loc>

@@ -46,11 +46,25 @@
         <p>Hunter does this for you.</p>
       </section>
 
-      <!-- 2. Solution -->
+      <!-- 2. Role -->
       <section class="case-section">
         <span class="case-section-num">2</span>
+        <h2 class="case-section-title">My role</h2>
+        <p>The entire project — from product strategy to production — built by one person.</p>
+        <ul>
+          <li>Product strategy and monetization</li>
+          <li>Bot UX: onboarding, digest, pagination, inline keyboards</li>
+          <li>Scoring algorithm</li>
+          <li>Development — TypeScript, hh.ru and Habr scrapers, Claude integration</li>
+          <li>Deployment and monitoring (Railway 24/7)</li>
+        </ul>
+      </section>
+
+      <!-- 3. Solution -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
         <h2 class="case-section-title">Push instead of pull</h2>
-        <p>Three times a day, the bot scrapes hh.ru and Habr using your search queries. Every vacancy goes through personal scoring. In the morning, a digest arrives in Telegram — you don't visit job sites, job sites come to you.</p>
+        <p>Three times a day, the bot scrapes hh.ru and Habr using your search queries. Requests use rate-limiting and rotation to avoid overloading sources. Every vacancy goes through personal scoring. In the morning, a digest arrives in Telegram — you don't visit job sites, job sites come to you.</p>
 
         <p>Vacancies below 40 points are hidden. You only see what actually fits.</p>
       </section>
@@ -58,9 +72,9 @@
       <!-- Screenshot: bot profile -->
       <img class="case-img-full" src="../../assets/img/cases/hunter/hunter-bot-profile.png" alt="Hunter bot profile in Telegram" style="max-width: 300px; margin: 25px auto;">
 
-      <!-- 3. Scoring -->
+      <!-- 4. Scoring -->
       <section class="case-section">
-        <span class="case-section-num">3</span>
+        <span class="case-section-num">4</span>
         <h2 class="case-section-title">How scoring works</h2>
         <p>Each vacancy gets a 0–100 score based on four factors:</p>
 
@@ -75,11 +89,11 @@
         <p>Red flags in the description halve the score. Blacklisted company — zero.</p>
       </section>
 
-      <!-- 4. Cover letters -->
+      <!-- 5. Cover letters -->
       <section class="case-section">
-        <span class="case-section-num">4</span>
+        <span class="case-section-num">5</span>
         <h2 class="case-section-title">Cover letters in one tap</h2>
-        <p>Found an interesting vacancy — tap "Letter". Claude writes a cover letter in your voice: using your experience, skills, tailored to the specific vacancy.</p>
+        <p>Found an interesting vacancy — tap "Letter". Claude writes a cover letter based on the user's real experience and skills, tailored to the specific vacancy. No fabrication — only facts from the profile.</p>
 
         <p>Don't like it — "Another version" generates a fresh one with a different structure.</p>
 
@@ -88,18 +102,18 @@
 
       <hr class="case-separator">
 
-      <!-- 5. Onboarding -->
+      <!-- 6. Onboarding -->
       <section class="case-section">
-        <span class="case-section-num">5</span>
+        <span class="case-section-num">6</span>
         <h2 class="case-section-title">14 steps to your first digest</h2>
         <p>On start, the bot walks you through onboarding: name, job title, experience, skills, salary range, format, industries, red flags, company blacklist, search queries, portfolio, experience description.</p>
 
         <p>Every step uses inline buttons. You can skip, go back, edit later. Right after completion — your first scrape and digest.</p>
       </section>
 
-      <!-- 6. Monetization -->
+      <!-- 7. Monetization -->
       <section class="case-section">
-        <span class="case-section-num">6</span>
+        <span class="case-section-num">7</span>
         <h2 class="case-section-title">Freemium</h2>
         <p>Free: 5 cover letters lifetime, 15 vacancies per digest, 2 push alerts per scrape.</p>
 
@@ -108,26 +122,13 @@
         <p>Hybrid model: subscription for active users, credits for those who just need one or two letters.</p>
       </section>
 
-      <!-- 7. Stack -->
+      <!-- 8. Stack -->
       <section class="case-section">
-        <span class="case-section-num">7</span>
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Stack</h2>
         <p>TypeScript, grammY, SQLite (WAL), node-cron, Claude CLI (Sonnet), cheerio. Railway 24/7. 3,400+ lines of code. Deploy via git push.</p>
       </section>
 
-      <!-- 8. Role -->
-      <section class="case-section">
-        <span class="case-section-num">8</span>
-        <h2 class="case-section-title">My role</h2>
-        <p>Solo project.</p>
-        <ul>
-          <li>Product strategy and monetization</li>
-          <li>Bot interface UX</li>
-          <li>Scoring algorithm</li>
-          <li>Development (TypeScript, scrapers, AI integration)</li>
-          <li>Deployment and monitoring</li>
-        </ul>
-      </section>
 
     </div>
   </main>
