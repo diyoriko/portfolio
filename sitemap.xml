@@ -30,6 +30,8 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Selected projects -->
+
   <url>
     <loc>https://diyor.design/projects/teletype.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
@@ -42,6 +44,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://diyor.design/projects/sami.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
@@ -54,6 +57,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://diyor.design/projects/hunter.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
@@ -66,6 +70,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://diyor.design/projects/enxt.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
@@ -78,6 +83,22 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://diyor.design/projects/skysmart.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/skysmart.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Archive projects -->
+
   <url>
     <loc>https://diyor.design/projects/prosto.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
@@ -90,6 +111,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
     <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://diyor.design/projects/kombo.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
@@ -102,37 +124,83 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
     <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://diyor.design/projects/osme.html</loc>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
+    <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://diyor.design/en/projects/osme.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
+    <priority>0.4</priority>
+  </url>
+
   <url>
     <loc>https://diyor.design/projects/singularity-hub.html</loc>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub.html" />
+    <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://diyor.design/en/projects/singularity-hub.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub.html" />
+    <priority>0.4</priority>
+  </url>
+
   <url>
     <loc>https://diyor.design/projects/singularity-words.html</loc>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words.html" />
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://diyor.design/projects/skysmart.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
-    <priority>0.7</priority>
+    <loc>https://diyor.design/en/projects/singularity-words.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words.html" />
+    <priority>0.4</priority>
   </url>
-  <url>
-    <loc>https://diyor.design/en/projects/skysmart.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
-    <priority>0.6</priority>
-  </url>
+
   <url>
     <loc>https://diyor.design/projects/qlean.html</loc>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean.html" />
+    <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://diyor.design/en/projects/qlean.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean.html" />
+    <priority>0.4</priority>
+  </url>
+
+  <url>
     <loc>https://diyor.design/projects/flora.html</loc>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora.html" />
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/flora.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora.html" />
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://diyor.design/projects/skyeng.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skyeng.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skyeng.html" />
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/skyeng.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skyeng.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skyeng.html" />
+    <priority>0.4</priority>
   </url>
 
 </urlset>
