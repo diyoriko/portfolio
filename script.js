@@ -48,11 +48,69 @@ function initCaseTabs() {
         panel.classList.add('active');
         /* Re-trigger reveal for newly visible sections */
         panel.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-          observer.observe(el);
+          if (observer) observer.observe(el);
         });
       }
     });
   });
+}
+
+/* --- GoatCounter Events --- */
+
+function initGoatCounterEvents() {
+  if (!window.goatcounter || !window.goatcounter.count) return;
+
+  function gc(name, title) {
+    window.goatcounter.count({ path: name, title: title, event: true });
+  }
+
+  /* External project links */
+  document.querySelectorAll('.project-name-link').forEach((el) => {
+    el.addEventListener('click', () => {
+      const name = el.closest('.project-item')
+        ?.querySelector('.project-name-title')?.textContent?.trim() || 'unknown';
+      gc('ext-' + name.toLowerCase().replace(/\s+/g, '-'), 'External: ' + name);
+    });
+  });
+
+  /* Language switcher */
+  document.querySelectorAll('.nav-lang a').forEach((el) => {
+    el.addEventListener('click', () => {
+      const lang = el.href.includes('/en/') || el.textContent.trim() === 'En' ? 'en' : 'ru';
+      gc('lang-switch-to-' + lang, 'Language: ' + lang.toUpperCase());
+    });
+  });
+
+  /* Contact links on about page */
+  document.querySelectorAll('.about-links a').forEach((el) => {
+    el.addEventListener('click', () => {
+      const channel = el.textContent.trim().toLowerCase();
+      gc('contact-' + channel, 'Contact: ' + channel);
+    });
+  });
+
+  /* Case tab switches */
+  document.querySelectorAll('.case-tab').forEach((el) => {
+    el.addEventListener('click', () => {
+      const tabName = el.getAttribute('data-tab');
+      const caseName = document.title.split('—')[0].trim().toLowerCase().replace(/\s+/g, '-');
+      gc('tab-' + caseName + '-' + tabName, 'Tab: ' + caseName + ' / ' + tabName);
+    });
+  });
+
+  /* Scroll depth on case pages (fire once at 90%) */
+  if (document.querySelector('.main--case')) {
+    let scrollFired = false;
+    window.addEventListener('scroll', () => {
+      if (scrollFired) return;
+      const pct = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
+      if (pct >= 0.9) {
+        scrollFired = true;
+        const caseName = document.title.split('—')[0].trim().toLowerCase().replace(/\s+/g, '-');
+        gc('read-complete-' + caseName, 'Read complete: ' + caseName);
+      }
+    });
+  }
 }
 
 /* Shared observer reference for re-observing on tab switch */
@@ -63,4 +121,13 @@ let observer;
 document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initCaseTabs();
+
+  /* GoatCounter loads async — poll until ready */
+  const gcInterval = setInterval(() => {
+    if (window.goatcounter && window.goatcounter.count) {
+      clearInterval(gcInterval);
+      initGoatCounterEvents();
+    }
+  }, 200);
+  setTimeout(() => clearInterval(gcInterval), 5000);
 });
