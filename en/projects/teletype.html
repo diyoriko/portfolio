@@ -273,7 +273,7 @@
 
   <script src="../../script.min.js"></script>
   <script>
-    // Slideshow navigation with counter + side arrows
+    // Slideshow navigation with counter + side arrows + mobile swipe
     document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
       var track = wrap.querySelector('.case-slideshow-track');
       if (!track) return;
@@ -281,6 +281,7 @@
       if (images.length <= 1) return;
       var current = 0;
       var counter = wrap.querySelector('[data-counter]');
+      var slideshow = wrap.querySelector('.case-slideshow');
       function updateCounter() {
         if (counter) counter.textContent = (current + 1) + '/' + images.length;
       }
@@ -297,6 +298,18 @@
       wrap.querySelectorAll('[data-next]').forEach(function(btn) {
         btn.addEventListener('click', function() { goTo(current + 1); });
       });
+      if (slideshow) {
+        slideshow.addEventListener('scroll', function() {
+          var w = slideshow.offsetWidth;
+          if (w > 0) {
+            var idx = Math.round(slideshow.scrollLeft / w);
+            if (idx !== current && idx >= 0 && idx < images.length) {
+              current = idx;
+              updateCounter();
+            }
+          }
+        });
+      }
     });
   </script>
 </body>

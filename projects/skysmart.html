@@ -70,7 +70,14 @@
       </section>
 
       <!-- ЛКУ -->
-      <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku.png" alt="Личный кабинет ученика Skysmart — задания на день и страница предметов" loading="lazy">
+      <picture>
+        <source srcset="../assets/img/cases/skysmart/skysmart-lku-1.webp" type="image/webp">
+        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-1.png" alt="Личный кабинет ученика Skysmart — задания на день, расписание, предметы" loading="lazy">
+      </picture>
+      <picture>
+        <source srcset="../assets/img/cases/skysmart/skysmart-lku-2.webp" type="image/webp">
+        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-2.png" alt="Личный кабинет — все предметы, подготовка к ЕГЭ, прогресс" loading="lazy">
+      </picture>
 
       <!-- 4. Итерации -->
       <section class="case-section">
@@ -80,11 +87,25 @@
         <p>Каждая версия отвечала на конкретный вопрос. Хронология — понятна ли ученику последовательность? Сценарий — видит ли он, что делать сегодня? Категории — находит ли нужный раздел? Финальная версия собрала лучшее из каждого подхода.</p>
       </section>
 
-      <!-- Итерации ЛКУ -->
-      <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-lku-versions.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-versions.png" alt="Итерации личного кабинета — семь версий страницы урока с разной навигацией" loading="lazy">
-      </picture>
+      <!-- Итерации ЛКУ — слайдшоу -->
+      <div class="case-slideshow-wrap" data-slideshow>
+        <div class="case-slideshow">
+          <div class="case-slideshow-track">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v1.webp" alt="Итерация 1 — хронологическая навигация">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v2.webp" alt="Итерация 2 — сценарная навигация">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v3.webp" alt="Итерация 3 — категории и домашка">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v4.webp" alt="Итерация 4 — цели и прогресс">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v5.webp" alt="Итерация 5 — карточки уроков">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v6.webp" alt="Итерация 6 — компактная навигация">
+            <img src="../assets/img/cases/skysmart/skysmart-lku-v7.webp" alt="Итерация 7 — финальная версия">
+          </div>
+          <div class="case-slideshow-nav">
+            <span class="case-slideshow-counter" data-counter>1/7</span>
+          </div>
+        </div>
+        <button class="case-slideshow-arrow" data-prev>&#x2039;</button>
+        <button class="case-slideshow-arrow" data-next>&#x203A;</button>
+      </div>
 
       <!-- 5. Целеполагание -->
       <section class="case-section">
@@ -96,7 +117,10 @@
       </section>
 
       <!-- CJM -->
-      <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-cjm.png" alt="CJM целеполагания — DOD 80%, от демо-урока до синхронизации целей с преподавателем" loading="lazy">
+      <picture>
+        <source srcset="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.webp" type="image/webp">
+        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.png" alt="CJM целеполагания — DOD 80%, от демо-урока до синхронизации целей с преподавателем" loading="lazy">
+      </picture>
 
       <!-- 6. Первый урок -->
       <section class="case-section">
@@ -109,8 +133,8 @@
 
       <!-- Первый урок -->
       <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-goals-first-lesson.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-first-lesson.png" alt="Aloha 3.0 — needs-анализ из шести шагов и план первого урока" loading="lazy">
+        <source srcset="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.webp" type="image/webp">
+        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.png" alt="Aloha 3.0 — needs-анализ из шести шагов и план первого урока" loading="lazy">
       </picture>
 
       <!-- 7. Прогресс и геймификация -->
@@ -156,5 +180,45 @@
   </main>
 
   <script src="../script.min.js"></script>
+  <script>
+    document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
+      var track = wrap.querySelector('.case-slideshow-track');
+      if (!track) return;
+      var images = track.querySelectorAll('img');
+      if (images.length <= 1) return;
+      var current = 0;
+      var counter = wrap.querySelector('[data-counter]');
+      var slideshow = wrap.querySelector('.case-slideshow');
+      function updateCounter() {
+        if (counter) counter.textContent = (current + 1) + '/' + images.length;
+      }
+      function goTo(index) {
+        if (index < 0) index = images.length - 1;
+        if (index >= images.length) index = 0;
+        current = index;
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        updateCounter();
+      }
+      wrap.querySelectorAll('[data-prev]').forEach(function(btn) {
+        btn.addEventListener('click', function() { goTo(current - 1); });
+      });
+      wrap.querySelectorAll('[data-next]').forEach(function(btn) {
+        btn.addEventListener('click', function() { goTo(current + 1); });
+      });
+      /* Update counter on native scroll (mobile swipe) */
+      if (slideshow) {
+        slideshow.addEventListener('scroll', function() {
+          var w = slideshow.offsetWidth;
+          if (w > 0) {
+            var idx = Math.round(slideshow.scrollLeft / w);
+            if (idx !== current && idx >= 0 && idx < images.length) {
+              current = idx;
+              updateCounter();
+            }
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>

@@ -1142,6 +1142,18 @@ a.project-item .project-arrow {
     display: none;
   }
 
+  .case-description {
+    text-indent: 0;
+  }
+
+  .case-slideshow-arrow[data-prev] {
+    left: 8px;
+  }
+
+  .case-slideshow-arrow[data-next] {
+    right: 8px;
+  }
+
   .footer-links {
     gap: 24px;
   }
@@ -1261,6 +1273,20 @@ a.project-item .project-arrow {
 
   .case-slideshow-arrow {
     display: none;
+  }
+
+  .case-slideshow {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .case-slideshow-track {
+    transition: none;
+  }
+
+  .case-slideshow-track img {
+    scroll-snap-align: start;
   }
 
   .case-slideshow--dark {

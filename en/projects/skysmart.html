@@ -70,7 +70,14 @@
       </section>
 
       <!-- Dashboard -->
-      <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku.png" alt="Skysmart student dashboard — daily tasks and subject page" loading="lazy">
+      <picture>
+        <source srcset="../../assets/img/cases/skysmart/skysmart-lku-1.webp" type="image/webp">
+        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku-1.png" alt="Skysmart student dashboard — daily tasks, schedule, subjects" loading="lazy">
+      </picture>
+      <picture>
+        <source srcset="../../assets/img/cases/skysmart/skysmart-lku-2.webp" type="image/webp">
+        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku-2.png" alt="Student dashboard — all subjects, exam prep, progress" loading="lazy">
+      </picture>
 
       <!-- 4. Iterations -->
       <section class="case-section">
@@ -80,11 +87,25 @@
         <p>Each version answered a specific question. Chronology — does the student understand the sequence? Scenario — can they see what to do today? Categories — can they find the right section? The final version combined the best of each approach.</p>
       </section>
 
-      <!-- Dashboard iterations -->
-      <picture>
-        <source srcset="../../assets/img/cases/skysmart/skysmart-lku-versions.webp" type="image/webp">
-        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku-versions.png" alt="Dashboard iterations — seven versions with different navigation approaches" loading="lazy">
-      </picture>
+      <!-- Dashboard iterations — slideshow -->
+      <div class="case-slideshow-wrap" data-slideshow>
+        <div class="case-slideshow">
+          <div class="case-slideshow-track">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v1.webp" alt="Iteration 1 — chronological navigation">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v2.webp" alt="Iteration 2 — scenario-based navigation">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v3.webp" alt="Iteration 3 — categories and homework">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v4.webp" alt="Iteration 4 — goals and progress">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v5.webp" alt="Iteration 5 — lesson cards">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v6.webp" alt="Iteration 6 — compact navigation">
+            <img src="../../assets/img/cases/skysmart/skysmart-lku-v7.webp" alt="Iteration 7 — final version">
+          </div>
+          <div class="case-slideshow-nav">
+            <span class="case-slideshow-counter" data-counter>1/7</span>
+          </div>
+        </div>
+        <button class="case-slideshow-arrow" data-prev>&#x2039;</button>
+        <button class="case-slideshow-arrow" data-next>&#x203A;</button>
+      </div>
 
       <!-- 5. Goal setting -->
       <section class="case-section">
@@ -96,7 +117,10 @@
       </section>
 
       <!-- CJM -->
-      <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-goals-cjm.png" alt="Goal setting CJM — DOD 80%, from demo lesson to goal sync with teacher" loading="lazy">
+      <picture>
+        <source srcset="../../assets/img/cases/skysmart/skysmart-goals-cjm-clean.webp" type="image/webp">
+        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-goals-cjm-clean.png" alt="Goal setting CJM — DOD 80%, from demo lesson to goal sync with teacher" loading="lazy">
+      </picture>
 
       <!-- 6. First lesson -->
       <section class="case-section">
@@ -109,8 +133,8 @@
 
       <!-- First lesson -->
       <picture>
-        <source srcset="../../assets/img/cases/skysmart/skysmart-goals-first-lesson.webp" type="image/webp">
-        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-goals-first-lesson.png" alt="Aloha 3.0 — six-step needs analysis and first lesson plan" loading="lazy">
+        <source srcset="../../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.webp" type="image/webp">
+        <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.png" alt="Aloha 3.0 — six-step needs analysis and first lesson plan" loading="lazy">
       </picture>
 
       <!-- 7. Progress and gamification -->
@@ -156,5 +180,44 @@
   </main>
 
   <script src="../../script.min.js"></script>
+  <script>
+    document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
+      var track = wrap.querySelector('.case-slideshow-track');
+      if (!track) return;
+      var images = track.querySelectorAll('img');
+      if (images.length <= 1) return;
+      var current = 0;
+      var counter = wrap.querySelector('[data-counter]');
+      var slideshow = wrap.querySelector('.case-slideshow');
+      function updateCounter() {
+        if (counter) counter.textContent = (current + 1) + '/' + images.length;
+      }
+      function goTo(index) {
+        if (index < 0) index = images.length - 1;
+        if (index >= images.length) index = 0;
+        current = index;
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        updateCounter();
+      }
+      wrap.querySelectorAll('[data-prev]').forEach(function(btn) {
+        btn.addEventListener('click', function() { goTo(current - 1); });
+      });
+      wrap.querySelectorAll('[data-next]').forEach(function(btn) {
+        btn.addEventListener('click', function() { goTo(current + 1); });
+      });
+      if (slideshow) {
+        slideshow.addEventListener('scroll', function() {
+          var w = slideshow.offsetWidth;
+          if (w > 0) {
+            var idx = Math.round(slideshow.scrollLeft / w);
+            if (idx !== current && idx >= 0 && idx < images.length) {
+              current = idx;
+              updateCounter();
+            }
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
