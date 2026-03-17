@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hunter — Диёр Хакимов</title>
-  <meta name="description" content="Кейс Hunter: AI-бот для поиска работы. Скрейпинг, скоринг, сопроводительные через Claude.">
-  <meta property="og:title" content="Hunter — Диёр Хакимов">
-  <meta property="og:description" content="Кейс Hunter: AI-бот для поиска работы. Скрейпинг, скоринг, сопроводительные через Claude.">
+  <title>AI Ловец вакансий — Диёр Хакимов</title>
+  <meta name="description" content="Кейс AI Ловец вакансий: Telegram-бот, который скрейпит hh.ru, Habr и Getmatch, скорит вакансии и пишет сопроводительные через Claude.">
+  <meta property="og:title" content="AI Ловец вакансий — Диёр Хакимов">
+  <meta property="og:description" content="Telegram-бот для поиска работы. Скрейпинг, скоринг, AI-сопроводительные, фримиум через Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/projects/hunter.html">
@@ -14,7 +14,7 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.min.css">
-  
+
   <script data-goatcounter="https://diyordesign.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -33,89 +33,113 @@
   </div></nav>
 
   <main class="main main--case">
-    <div class="case-body">
 
-      <span class="case-pet-label">Пет-проект</span>
+    <div class="case-meta">Продукт, AI, разработка · Пет-проект · 2026</div>
+    <h1 class="case-h1">AI Ловец вакансий</h1>
+
+    <div class="case-body">
 
       <!-- 1. Проблема -->
       <section class="case-section">
         <span class="case-section-num">1</span>
-        <h2 class="case-section-title">Ритуал, который никто не любит</h2>
-        <p>Каждый, кто искал работу, знает этот ритуал. Утро: открыть hh.ru, открыть Habr, заглянуть в LinkedIn. Проскроллить. Отфильтровать. Прочитать 50 описаний. Сохранить 5. Написать 3 сопроводительных. Потратить 45 минут. Завтра повторить.</p>
-        <p>Hunter делает это за тебя. Не ты ходишь на сайты вакансий — вакансии приходят к тебе.</p>
+        <h2 class="case-section-title">Поиск работы — это отдельная работа</h2>
+        <p>Каждое утро открываешь hh.ru, скроллишь ленту, пытаешься понять, подходит ли вакансия «Middle/Senior фронтенд в финтех-стартап с React/Vue/Angular от 3 лет». Потом то же на Habr. Потом сопроводительное, которое на третьей вакансии превращается в копипасту с подменой названия компании.</p>
+        <p>К пятому дню хочется всё бросить. 80% просмотренных вакансий не подходят, но это понимаешь только после прочтения описания.</p>
+        <p>Ловец делает шаги 1–4 за тебя: находит, оценивает, фильтрует, пишет отклик.</p>
       </section>
 
-      <!-- 2. Роль -->
+      <div class="case-stats">
+        <div class="case-stat">
+          <div class="case-stat-value">5 000+</div>
+          <div class="case-stat-label">строк TypeScript</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">434</div>
+          <div class="case-stat-label">теста (Vitest)</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">источника вакансий</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3×</div>
+          <div class="case-stat-label">скрейп в день</div>
+        </div>
+      </div>
+
+      <!-- 2. Как работает -->
       <section class="case-section">
         <span class="case-section-num">2</span>
-        <h2 class="case-section-title">Моя роль</h2>
-        <p>Весь проект — от продуктовой стратегии до продакшна — сделан одним человеком.</p>
-        <ul>
-          <li>Продуктовая стратегия и монетизация</li>
-          <li>UX бота: онбординг, дайджест, пагинация, inline-клавиатуры</li>
-          <li>Алгоритм скоринга</li>
-          <li>Разработка — TypeScript, скрейперы hh.ru и Habr, интеграция Claude</li>
-          <li>Деплой и мониторинг (Railway 24/7)</li>
-        </ul>
+        <h2 class="case-section-title">Push вместо pull</h2>
+        <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Claude Haiku.</p>
+        <p>Три раза в день (09:00, 13:00, 17:00) бот скрейпит hh.ru, Habr Career и Getmatch. Каждая вакансия проходит через персональный скоринг 0–100. Утром приходит дайджест — только то, что реально подходит.</p>
       </section>
 
-      <!-- 3. Решение -->
+
+      <!-- 3. Скоринг -->
       <section class="case-section">
         <span class="case-section-num">3</span>
-        <h2 class="case-section-title">Push вместо pull</h2>
-        <p>Три раза в день бот скрейпит hh.ru и Habr по запросам пользователя. Запросы идут с rate-limiting и ротацией, чтобы не нагружать источники. Каждая вакансия проходит через персональный скоринг. Утром приходит дайджест в Telegram.</p>
-        <p>Вакансии ниже 40 баллов скрыты. Видно только то, что реально подходит.</p>
+        <h2 class="case-section-title">Скоринг: ядро продукта</h2>
+        <p>Бот не просто парсит вакансии — он понимает, насколько каждая подходит конкретному пользователю. Не по ключевым словам, а по четырём взвешенным параметрам:</p>
+        <p><strong>Навыки — 40%.</strong> Первый навык в списке весит больше. Логика: что вводишь первым — то твоя сильная сторона.</p>
+        <p><strong>Зарплата — 25%.</strong> Пересечение диапазонов с нормализацией валют.</p>
+        <p><strong>Формат — 20%.</strong> Удалёнка, гибрид, офис. Точное совпадение — 100. Гибрид для удалёнщика — 50.</p>
+        <p><strong>Отрасль — 15%.</strong> 21 отрасль с наборами ключевых слов по описанию и компании.</p>
+        <p>Красные флаги делят оценку пополам. Чёрный список компаний — ноль. Скоринг самообучается: отклики повышают вес навыков, скрытие — понижает.</p>
       </section>
 
-      <!-- Screenshot: bot profile -->
-      <img class="case-img-full" src="../assets/img/cases/hunter/hunter-bot-profile.png" alt="Профиль бота Hunter в Telegram" style="max-width: 300px; margin: 25px auto;" loading="lazy">
-
-      <!-- 4. Скоринг -->
+      <!-- 4. Сопроводительные -->
       <section class="case-section">
         <span class="case-section-num">4</span>
-        <h2 class="case-section-title">Как работает скоринг</h2>
-        <p>Каждая вакансия получает оценку 0–100 на основе четырёх факторов:</p>
-        <p><strong>Навыки — 40%.</strong> Взвешенное совпадение. Первый навык в списке весит больше, последний — меньше. Логика: то, что человек вводит первым — его сильная сторона.</p>
-        <p><strong>Зарплата — 25%.</strong> Пересечение диапазонов. Нормализация валют.</p>
-        <p><strong>Формат — 20%.</strong> Удалёнка, гибрид, офис. Точное совпадение — 100 баллов. Гибрид для удалёнщика — 50.</p>
-        <p><strong>Индустрия — 15%.</strong> 22 отрасли с наборами ключевых слов.</p>
-        <p>Красные флаги делят оценку пополам. Компания из чёрного списка — ноль.</p>
-      </section>
-
-      <!-- 5. Сопроводительные -->
-      <section class="case-section">
-        <span class="case-section-num">5</span>
-        <h2 class="case-section-title">Сопроводительные за одно нажатие</h2>
-        <p>Находишь интересную вакансию — нажимаешь «Письмо». Claude генерирует сопроводительное на основе реального опыта и навыков пользователя, с учётом специфики вакансии. Без выдумок — только факты из профиля.</p>
-        <p>Не нравится — «Другой вариант» генерирует новое с другой структурой.</p>
-        <p>На каждое письмо уходит 10–15 секунд вместо 10–15 минут.</p>
+        <h2 class="case-section-title">Сопроводительные за 5 секунд</h2>
+        <p>Нажимаешь «Письмо» — Claude получает описание вакансии, профиль, контекст компании. Генерирует сопроводительное, которое адресно отвечает на требования. Без выдумок — только факты из профиля.</p>
+        <p>Не нравится — «Другой вариант» перегенерирует с другой структурой. Модели чередуются: Sonnet для качества, Haiku для скорости.</p>
+        <p>Каждое письмо — 5 секунд вместо 15 минут.</p>
       </section>
 
       <hr class="case-separator">
 
-      <!-- 6. Онбординг -->
+      <!-- 5. Фримиум -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Фримиум через Telegram Stars</h2>
+        <p>Первое письмо к каждой вакансии — бесплатно. Рестайл и фильтры — Pro или кредиты.</p>
+        <p><strong>Pro:</strong> 200 Stars/нед. или 700 Stars/мес. Безлимит писем, 5 push-алертов за скрейп, фильтры по источнику.</p>
+        <p><strong>Кредиты:</strong> 100 Stars = 3 рестайла, 300 Stars = 10. Разовая покупка без обязательств.</p>
+        <p>Stars — нативная валюта Telegram. Не нужно вводить данные карты. Нажал — оплатил — работает. Реферальная программа: пригласил друга — +1 месяц Pro при первой оплате.</p>
+      </section>
+
+      <!-- 6. Что ещё под капотом -->
       <section class="case-section">
         <span class="case-section-num">6</span>
-        <h2 class="case-section-title">14 шагов до первого дайджеста</h2>
-        <p>При старте бот проводит через онбординг: имя, должность, опыт, навыки, зарплатная вилка, формат работы, индустрии, красные флаги, чёрный список компаний, поисковые запросы, портфолио, описание опыта. Каждый шаг — inline-кнопки, можно пропустить или вернуться.</p>
-        <p>Сразу после завершения — первый скрейп и дайджест.</p>
+        <h2 class="case-section-title">Фичи, которые удерживают</h2>
+        <p><strong>Трекер откликов</strong> — «Откликнулся» → «Интервью» → «Оффер» или «Отказ». Вся воронка в статистике.</p>
+        <p><strong>Weekly summary</strong> — по понедельникам итоги: вакансии, отклики, средний скор.</p>
+        <p><strong>Inline-режим</strong> — @jobhunt_ai_bot react developer в любом чате. Скинуть другу вакансию за 2 секунды.</p>
+        <p><strong>«Я нашёл работу»</strong> — бот поздравляет и ставит напоминание через 90 дней: «Как дела на новом месте?»</p>
       </section>
 
-      <!-- 7. Монетизация -->
+      <!-- 7. Процесс и стек -->
       <section class="case-section">
         <span class="case-section-num">7</span>
-        <h2 class="case-section-title">Фримиум</h2>
-        <p>Бесплатно: 5 сопроводительных за всё время, 15 вакансий в дайджесте, 2 push-алерта за скрейп. Pro: 200 Stars/нед. или 700 Stars/мес. — без ограничений. Или кредиты поштучно: 100 Stars = 3 письма.</p>
-        <p>Подписка для активных, кредиты для тех, кому нужно одно-два письма.</p>
+        <h2 class="case-section-title">Процесс и стек</h2>
+        <p>Весь проект — от продуктовой стратегии и монетизации до продакшна — одним человеком.</p>
+        <p><strong>Бот:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
+        <p><strong>AI:</strong> Anthropic SDK — Sonnet для писем, Haiku для парсинга резюме</p>
+        <p><strong>Скрейперы:</strong> hh.ru API + Habr Career + Getmatch, ротация User-Agent, rate-limiting</p>
+        <p><strong>Инфра:</strong> Railway 24/7 (~$5/мес), GitHub Actions (CI + бэкапы), launchd (стратег)</p>
+        <p><strong>Качество:</strong> 434 теста Vitest, pre-commit typecheck, CodeRabbit ревью</p>
+        <p>Один процесс, один файл базы, один сервер. Один Pro-пользователь окупает инфраструктуру.</p>
       </section>
 
-      <!-- 8. Стек -->
-      <section class="case-section">
-        <span class="case-section-num">8</span>
-        <h2 class="case-section-title">Стек</h2>
-        <p>TypeScript, grammY, SQLite (WAL), node-cron, Claude API (Sonnet), cheerio. Railway 24/7. 5 000+ строк кода, 412 тестов в Vitest. Деплой через git push.</p>
-      </section>
+      <!-- Ссылки -->
+      <div class="case-links">
+        <a href="https://t.me/jobhunt_ai_bot" target="_blank" rel="noopener">Попробовать бот</a>
+        <a href="https://vc.ru/life/2798084" target="_blank" rel="noopener">Статья на VC</a>
+        <a href="https://github.com/diyoriko/hunter" target="_blank" rel="noopener">GitHub</a>
+      </div>
 
+      <a class="case-back" href="../index.html">← Все проекты</a>
 
     </div>
   </main>

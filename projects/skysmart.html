@@ -33,153 +33,403 @@
   </div></nav>
 
   <main class="main main--case">
+
+    <div class="case-meta">Продуктовый дизайнер · Skyeng · 2021–2024</div>
+    <h1 class="case-h1">Skysmart</h1>
+
+    <div class="case-tabs">
+      <button class="case-tab active" data-tab="dashboard">Кабинет</button>
+      <button class="case-tab" data-tab="goals">Целеполагание</button>
+      <button class="case-tab" data-tab="progress">Прогресс</button>
+      <button class="case-tab" data-tab="3d">3D-мир</button>
+    </div>
+
     <div class="case-body">
 
-      <!-- 1. Контекст -->
-      <section class="case-section">
-        <span class="case-section-num">1</span>
-        <h2 class="case-section-title">Контекст</h2>
-        <p>Skysmart — детский продукт Skyeng, крупнейшей онлайн-школы в России. Английский, математика, русский язык, подготовка к ЕГЭ. Три формата обучения: индивидуальные занятия с преподавателем (F2F), групповые сессии (F2G) и самостоятельные тренажёры.</p>
-        <p>Ученики — от 4 до 18 лет. У младших — крупные элементы, маскоты, игровые механики. У старших — серьёзный тон, сложная навигация, подготовка к экзаменам. Один продукт, но совершенно разный опыт для каждого возраста.</p>
-        <p>Ключевая проблема: дети учатся онлайн, и им нужна мотивация. Преподаватели начинают урок без контекста — не знают целей ученика, его уровня и сложностей. Прогресс нигде не визуализируется, цели из заявки не попадают в продукт.</p>
-      </section>
+      <!-- ==================== Кабинет ==================== -->
+      <div class="case-tab-panel active" data-panel="dashboard">
 
-      <div class="case-description">Среда, которая визуализирует прогресс ученика и консолидирует в себе весь образовательный опыт.</div>
+        <section class="case-section">
+          <h2 class="case-section-title">Личный кабинет ученика</h2>
+          <p>Skysmart — детский продукт Skyeng. Три модели обучения: индивидуальные занятия, групповые сессии, самостоятельные тренажёры. Ученики — от 4 до 18 лет.</p>
+          <h3>До</h3>
+          <p>Единого кабинета не было. Каждый предмет — отдельный интерфейс. Ученик переключался между разными приложениями. Расписание, задания и прогресс жили в разных местах.</p>
+          <h3>Задача</h3>
+          <p>Спроектировать единый кабинет для всех форматов и предметов. Моя роль: UX-исследования, взаимодействие, визуал. В команде — PM, два разработчика, методист.</p>
+        </section>
 
-      <!-- 2. Моя роль -->
-      <section class="case-section">
-        <span class="case-section-num">2</span>
-        <h2 class="case-section-title">Моя роль</h2>
-        <p>Продуктовый дизайнер в команде Learning Experience. Четыре параллельных направления:</p>
-        <ul>
-          <li>Личный кабинет ученика — дашборд, расписание, задания, навигация по предметам</li>
-          <li>Целеполагание — диагностика уровня, анкетирование, синхронизация целей между учеником и преподавателем</li>
-          <li>Прогресс — система «здоровья», метрики обучения, ачивки, квесты</li>
-          <li>3D-карта курса — визуализация учебного пути с бейджами уровней</li>
-        </ul>
-        <p>Более 20 файлов в Figma. Каждая фича — десктоп и мобильная версия. Каждая фича — через стадии: черновик, WIP, разработка, продакшн, архив. UX-исследования встроены в процесс: прототипы тестировал на реальных учениках и преподавателях.</p>
-      </section>
-
-      <!-- 3. Личный кабинет -->
-      <section class="case-section">
-        <span class="case-section-num">3</span>
-        <h2 class="case-section-title">Личный кабинет</h2>
-        <p>Главная страница после входа. Задания на день, расписание, ближайший урок, переключение между предметами. Круглые иконки предметов, каждая со своей 3D-иллюстрацией.</p>
-        <p>Три версии кабинета под разные модели обучения. В F2F — расписание и контакт с преподавателем в фокусе. В F2G — расписание сессий и обратная связь от группы. В Skysmart — задания, тренажёры, прогресс по курсу.</p>
-        <p>Отдельно: комплектации подписок, to-do списки, вкладки пробников ЕГЭ, виджет контактов, расписание вебинаров, сториз с промо-контентом. Каждый элемент — десктоп и мобильная версия.</p>
-      </section>
-
-      <!-- ЛКУ -->
-      <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-lku-1.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-1.png" alt="Личный кабинет ученика Skysmart — задания на день, расписание, предметы" loading="lazy">
-      </picture>
-      <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-lku-2.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-2.png" alt="Личный кабинет — все предметы, подготовка к ЕГЭ, прогресс" loading="lazy">
-      </picture>
-
-      <!-- 4. Итерации -->
-      <section class="case-section">
-        <span class="case-section-num">4</span>
-        <h2 class="case-section-title">Итерации</h2>
-        <p>Кабинет прошёл через несколько версий. Менялось всё: структура навигации (хронология, сценарий, таксономия), способ отображения прогресса (процент, категории, хронология), компоновка карточек уроков.</p>
-        <p>Каждая версия отвечала на конкретный вопрос. Хронология — понятна ли ученику последовательность? Сценарий — видит ли он, что делать сегодня? Категории — находит ли нужный раздел? Финальная версия собрала лучшее из каждого подхода.</p>
-      </section>
-
-      <!-- Итерации ЛКУ — слайдшоу -->
-      <div class="case-slideshow-wrap" data-slideshow>
-        <div class="case-slideshow">
-          <div class="case-slideshow-track">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v1.webp" alt="Итерация 1 — хронологическая навигация">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v2.webp" alt="Итерация 2 — сценарная навигация">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v3.webp" alt="Итерация 3 — категории и домашка">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v4.webp" alt="Итерация 4 — цели и прогресс">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v5.webp" alt="Итерация 5 — карточки уроков">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v6.webp" alt="Итерация 6 — компактная навигация">
-            <img src="../assets/img/cases/skysmart/skysmart-lku-v7.webp" alt="Итерация 7 — финальная версия">
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">7</div>
+            <div class="case-stat-label">итераций до финала</div>
           </div>
-          <div class="case-slideshow-nav">
-            <span class="case-slideshow-counter" data-counter>1/7</span>
+          <div class="case-stat">
+            <div class="case-stat-value">3</div>
+            <div class="case-stat-label">интерфейса объединены в один</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">4–18</div>
+            <div class="case-stat-label">лет, возраст учеников</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">2</div>
+            <div class="case-stat-label">платформы: десктоп + мобайл</div>
           </div>
         </div>
-        <button class="case-slideshow-arrow" data-prev>&#x2039;</button>
-        <button class="case-slideshow-arrow" data-next>&#x203A;</button>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-lku-1.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-1.png" alt="Личный кабинет ученика Skysmart — задания на день, расписание, предметы" loading="lazy">
+        </picture>
+        <div class="case-caption">Индивидуальный формат: расписание и контакт с преподавателем в фокусе</div>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-lku-2.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-lku-2.png" alt="Личный кабинет — все предметы, подготовка к ЕГЭ, прогресс" loading="lazy">
+        </picture>
+        <div class="case-caption">Все предметы в одном кабинете. Переключение между английским, математикой и русским</div>
+
+        <section class="case-section">
+          <h3>Семь итераций</h3>
+          <p>Каждая версия кабинета проверяла конкретную гипотезу. Менялось всё: навигация, прогресс, карточки уроков. Вот что тестировал и к чему пришёл:</p>
+          <ul>
+            <li><strong>v1 Хронология</strong> — уроки в порядке прохождения. Понятно, но не видно, что делать сегодня</li>
+            <li><strong>v2 Сценарий</strong> — «сегодня» в фокусе. Работает ежедневно, но теряется контекст курса</li>
+            <li><strong>v3 Категории</strong> — навигация по типам контента. Взрослым удобно, дети теряются</li>
+            <li><strong>v4 Цели</strong> — интеграция с целеполаганием. Перегружено для первого экрана</li>
+            <li><strong>v5 Карточки</strong> — компактное отображение. Масштабируется, но слабая иерархия</li>
+            <li><strong>v6 Минимум</strong> — минимальный интерфейс. Быстро, но непонятно новым ученикам</li>
+            <li><strong>v7 Финал</strong> — сценарий + категории + карточки. Лучшее из каждого подхода</li>
+          </ul>
+        </section>
+
+        <div class="case-slideshow-wrap" data-slideshow>
+          <div class="case-slideshow">
+            <div class="case-slideshow-track">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v1.webp" alt="v1 — хронологическая навигация" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v2.webp" alt="v2 — сценарная навигация" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v3.webp" alt="v3 — категории и домашка" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v4.webp" alt="v4 — цели и прогресс" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v5.webp" alt="v5 — карточки уроков" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v6.webp" alt="v6 — компактная навигация" loading="lazy">
+              <img src="../assets/img/cases/skysmart/skysmart-lku-v7.webp" alt="v7 — финальная версия" loading="lazy">
+            </div>
+            <div class="case-slideshow-nav">
+              <span class="case-slideshow-counter" data-counter>1/7</span>
+            </div>
+          </div>
+          <button class="case-slideshow-arrow" data-prev aria-label="Предыдущий слайд">&#x2039;</button>
+          <button class="case-slideshow-arrow" data-next aria-label="Следующий слайд">&#x203A;</button>
+        </div>
+
+        <section class="case-section">
+          <h3>Результат</h3>
+          <p>Единый кабинет запущен для всех учеников Skysmart. Три формата обучения — в одном интерфейсе. Ученик видит задания, расписание и прогресс на одном экране.</p>
+        </section>
+
       </div>
 
-      <!-- 5. Целеполагание -->
-      <section class="case-section">
-        <span class="case-section-num">5</span>
-        <h2 class="case-section-title">Целеполагание</h2>
-        <p>Система, которая связывает мотивацию ученика с контентом курса. До неё: цель из заявки на лендинге не попадала в продукт, преподаватель не знал, зачем ученик учится, в автоматизированных сценариях контекст терялся полностью.</p>
-        <p>CJM с чёткой метрикой: DOD — 80% учеников заполняют цели. Два входа в воронку: через демо-урок с методистом или сразу после оплаты. Путь: личный кабинет → анкета → профиль → скрининг в виде нулевой домашки → первый урок.</p>
-        <p>Анкета из восьми полей: цель, дедлайн, текущая позиция, мотивация, желаемый уровень, самое сложное в предмете, как занимается сейчас, интересы. Результаты скрининга подтягиваются в анкету. Если ученик правит цели на первом уроке — данные обновляются автоматически.</p>
-      </section>
+      <!-- ==================== Целеполагание ==================== -->
+      <div class="case-tab-panel" data-panel="goals">
 
-      <!-- CJM -->
-      <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.png" alt="CJM целеполагания — DOD 80%, от демо-урока до синхронизации целей с преподавателем" loading="lazy">
-      </picture>
+        <section class="case-section">
+          <h2 class="case-section-title">Целеполагание</h2>
+          <h3>До</h3>
+          <p>Цели из заявки на лендинге не попадали в продукт. Преподаватель начинал урок вслепую — не знал, зачем ученик учится, какой у него уровень, что даётся сложнее всего. В автоматизированных сценариях контекст терялся полностью.</p>
+          <h3>Задача</h3>
+          <p>Связать мотивацию ученика с контентом курса. Построить путь от заявки до первого урока так, чтобы ни одна цель не терялась. Моя роль: проектирование всей системы — CJM, анкета, интеграция с кабинетом преподавателя.</p>
+        </section>
 
-      <!-- 6. Первый урок -->
-      <section class="case-section">
-        <span class="case-section-num">6</span>
-        <h2 class="case-section-title">Первый урок</h2>
-        <p>Aloha 3.0 — отдельный дизайн-проект внутри целеполагания. Needs-анализ: шесть вопросов (цель и подцель, желаемый уровень, сроки, где я по отношению к цели, сложности, интересы) превращаются в план на первом уроке.</p>
-        <p>Преподаватель видит ответы ученика до начала урока и строит занятие вокруг его целей. Если ученик не заполнил анкету в кабинете — получает пуш в Telegram, SMS со ссылкой и прямо в чате может всё заполнить.</p>
-        <p>Диагностика адаптируется под предмет. Для детского английского — игровые вопросы с иллюстрациями. Для математики — задачи на определение уровня. Для взрослого английского — самооценка с выбором из 40+ целей (путешествия, работа, экзамены, хобби) и 50+ интересов.</p>
-      </section>
+        <blockquote class="case-quote">«Раньше я начинал урок вслепую — не знал, зачем ученик учится» — преподаватель английского</blockquote>
 
-      <!-- Первый урок -->
-      <picture>
-        <source srcset="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.webp" type="image/webp">
-        <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.png" alt="Aloha 3.0 — needs-анализ из шести шагов и план первого урока" loading="lazy">
-      </picture>
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">80%</div>
+            <div class="case-stat-label">учеников заполняют цели</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">8</div>
+            <div class="case-stat-label">полей анкеты</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">2</div>
+            <div class="case-stat-label">входа в воронку</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">6</div>
+            <div class="case-stat-label">шагов диагностики</div>
+          </div>
+        </div>
 
-      <!-- 7. Прогресс и геймификация -->
-      <section class="case-section">
-        <span class="case-section-num">7</span>
-        <h2 class="case-section-title">Прогресс и геймификация</h2>
-        <p>Не просто «прошёл 5 уроков из 20». Система «здоровья» — комплексная оценка по пяти навыкам: чтение, аудирование, грамматика, говорение, письмо. Каждый навык — с процентом и динамикой. Преподаватель видит ту же картину со своей стороны и получает рекомендации по контенту.</p>
-        <p>Для детей — квесты с таймерами и наградами. «Решить 2 карточки по математике» — выполнено, получай звёзды. Звёзды копятся на награды: распечатки с головоломками, раскраски, дипломы, доступ к играм. Геймификация исследована через конкурентов: Duolingo (ударный режим, лиги), LinguaLeo (сытость льва, фрикадельки), Busuu (очки опыта), Foxford (XP, достижения с уровнями I–V).</p>
-        <p>Виджет цели в кабинете проходит через состояния: цель не указана, анкета частично заполнена, цель выбрана, новые активности на карте курса. Каждое состояние — отдельный дизайн с CTA и обратной связью.</p>
-      </section>
+        <section class="case-section">
+          <h3>Система</h3>
+          <p>Два входа: демо-урок с методистом или после оплаты. Путь: кабинет → анкета → профиль → скрининг → первый урок. Восемь полей: цель, дедлайн, текущая позиция, мотивация, желаемый уровень, самое сложное, как занимается сейчас, интересы.</p>
+          <p>Результаты скрининга подтягиваются автоматически. Если ученик правит цели на первом уроке — данные обновляются.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-cjm-clean.png" alt="Карта пути целеполагания — от демо-урока до синхронизации целей с преподавателем" loading="lazy">
+        </picture>
+        <div class="case-caption">Карта пути: от первого контакта до синхронизации целей между учеником и преподавателем</div>
+
+        <section class="case-section">
+          <h3>Первый урок</h3>
+          <p>Отдельный дизайн-проект. Шесть вопросов (цель, подцель, уровень, сроки, позиция, сложности) превращаются в план первого урока. Преподаватель видит ответы до начала занятия и строит урок вокруг целей ученика.</p>
+          <p>Если ученик не заполнил анкету — пуш в Telegram, SMS со ссылкой.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-first-lesson-clean.png" alt="Анализ потребностей из шести шагов и план первого урока" loading="lazy">
+        </picture>
+        <div class="case-caption">Шесть шагов анализа потребностей формируют план первого урока</div>
+
+        <section class="case-section">
+          <h3>Диагностика по предметам</h3>
+          <p>Для детского английского — игровые вопросы с иллюстрациями. Для математики — задачи на определение уровня. Для взрослого английского — самооценка с выбором из 40+ целей и 50+ интересов. Одна система, три разных опыта.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-goals-kids-eng.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-kids-eng.png" alt="Диагностика для детского английского — игровые вопросы с иллюстрациями" loading="lazy">
+        </picture>
+        <div class="case-caption">Детский английский: игровые вопросы вместо тестов</div>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-goals-kids-math.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-goals-kids-math.png" alt="Диагностика для математики — задачи на определение уровня" loading="lazy">
+        </picture>
+        <div class="case-caption">Математика: задачи на определение уровня, адаптированные под возраст</div>
+
+        <section class="case-section">
+          <h3>Результат</h3>
+          <p>80% учеников заполняют цели. До этой системы — 0%, данные просто не собирались. Преподаватели получили контекст до урока. Цели из заявки стали частью продукта.</p>
+        </section>
+
+      </div>
+
+      <!-- ==================== Прогресс ==================== -->
+      <div class="case-tab-panel" data-panel="progress">
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-progress-hero.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-progress-hero.png" alt="Страница прогресса Skysmart — маскот Эл сообщает ученику о достижениях" loading="lazy">
+        </picture>
+        <div class="case-caption">Страница прогресса: Эл показывает ученику достижения по пяти навыкам</div>
+
+        <section class="case-section">
+          <h2 class="case-section-title">Прогресс и геймификация</h2>
+          <h3>До</h3>
+          <p>Прогресс нигде не визуализировался. Ни ученик, ни преподаватель, ни родитель не видели динамику обучения. Единственная метрика — «прошёл 5 из 20 уроков».</p>
+          <h3>Задача</h3>
+          <p>Визуализировать прогресс так, чтобы ученик чувствовал движение, преподаватель видел данные для адаптации контента, а родитель — основания для продления подписки. Моя роль: исследование, концепции, финальный дизайн системы здоровья и геймификации.</p>
+        </section>
+
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">8</div>
+            <div class="case-stat-label">концепций исследовано</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">5</div>
+            <div class="case-stat-label">навыков в системе</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">3</div>
+            <div class="case-stat-label">роли: ученик, препод, родитель</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">4</div>
+            <div class="case-stat-label">конкурента изучены</div>
+          </div>
+        </div>
+
+        <section class="case-section">
+          <h3>Восемь концепций</h3>
+          <p>Каждая решала проблему по-своему. Ни одна не подходила всем трём ролям одновременно:</p>
+          <ul>
+            <li><strong>Процент выполнения</strong> — понятен, но не мотивирует на середине пути</li>
+            <li><strong>Линейный прогресс</strong> — скучный при длинных курсах</li>
+            <li><strong>Категории навыков</strong> — сложно для детей младше 10</li>
+            <li><strong>Хронология</strong> — работает для взрослых, не для детей</li>
+            <li><strong>Карта уровней</strong> — слишком игровая для родителей</li>
+            <li><strong>Чеклисты</strong> — мотивируют закрывать задачи, но не показывают рост</li>
+            <li><strong>Графики</strong> — информативно, но не эмоционально</li>
+            <li><strong>Система здоровья</strong> — комплексная оценка. Подошла</li>
+          </ul>
+        </section>
+
+        <blockquote class="case-quote">«Люблю ставить галочки как в Sims» — из интервью с ученицей, 14 лет</blockquote>
+
+        <section class="case-section">
+          <h3>Система здоровья</h3>
+          <p>Финальная модель — комплексная оценка по пяти навыкам: чтение, аудирование, грамматика, говорение, письмо. Каждый навык — процент и динамика. Преподаватель видит ту же картину и получает рекомендации по контенту. Родитель получает PDF-отчёт.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-health-system.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-health-system.png" alt="Система здоровья — 7 состояний" loading="lazy">
+        </picture>
+        <div class="case-caption">Семь состояний здоровья — от «всё отлично» до «нужна помощь по всем навыкам»</div>
+
+        <blockquote class="case-quote">«Наконец-то вижу, чему ребёнок научился за месяц» — родитель ученика</blockquote>
+
+        <section class="case-section">
+          <h3>Геймификация</h3>
+          <p>Для детей — квесты с таймерами и наградами. Звёзды копятся на головоломки, раскраски, дипломы, доступ к играм. Исследовал Battle Pass, Spotify Wrapped, коллекционирование. Взял из каждого: ограниченное время (Battle Pass), ретроспективу успехов (Wrapped), визуальный прогресс (коллекции). Отбросил: соревнование между учениками — не подходит для образования.</p>
+          <p>Конкуренты: Duolingo (ударный режим), LinguaLeo (сытость льва), Busuu (очки опыта), Foxford (ачивки). Их паттерны легли в основу собственной системы.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-achievements.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-achievements.png" alt="Дашборд с расписанием, тестами и ачивками" loading="lazy">
+        </picture>
+        <div class="case-caption">Квесты, таймеры и звёзды — геймификация для учеников 4–12 лет</div>
+
+        <section class="case-section">
+          <h3>Виджет цели</h3>
+          <p>Проходит через четыре состояния: цель не указана, анкета частично заполнена, цель выбрана, новые активности на карте. Каждое состояние — отдельный дизайн с CTA и обратной связью.</p>
+        </section>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-card-states.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-card-states.png" alt="Состояния виджета цели" loading="lazy">
+        </picture>
+        <div class="case-caption">Виджет цели: четыре состояния с разным CTA и обратной связью</div>
+
+        <section class="case-section">
+          <h3>Результат</h3>
+          <p>Система здоровья запущена для всех учеников. Преподаватели получили рекомендации по контенту на основе данных. Родители — PDF-отчёты о прогрессе. Три роли видят один продукт, но каждая — свою версию правды.</p>
+        </section>
+
+      </div>
+
+      <!-- ==================== 3D-мир ==================== -->
+      <div class="case-tab-panel" data-panel="3d">
+
+        <section class="case-section">
+          <h2 class="case-section-title">3D-мир</h2>
+          <h3>До</h3>
+          <p>Интерфейс был стандартным — без визуальной идентичности, без маскотов, без элементов, которые дети хотели бы коллекционировать. Обычный образовательный UI.</p>
+          <h3>Задача</h3>
+          <p>Создать визуальный язык, который дети захотят коллекционировать: маскоты, бейджи, награды, стикеры. Моя роль: концепция, критерии, арт-дирекшн. 3D-моделирование — отдельный специалист.</p>
+        </section>
+
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">3</div>
+            <div class="case-stat-label">3D-маскота</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">9</div>
+            <div class="case-stat-label">критериев для 3D</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">6</div>
+            <div class="case-stat-label">уровней A1 → C2</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">20+</div>
+            <div class="case-stat-label">3D-объектов и поз</div>
+          </div>
+        </div>
+
+        <section class="case-section">
+          <h3>Маскоты</h3>
+          <p>Три маскота сопровождают учеников. У каждого свой характер и набор поз: успех, ошибка, ожидание, поздравление. Главный — Эл. Восемь лет, когда общается с детьми. Двадцать восемь, когда с родителями. Одна и та же сущность — два возраста, две манеры, два тона голоса.</p>
+        </section>
+
+        <blockquote class="case-quote">«Эл — 8 лет, когда с детьми; 28, когда с родителями»</blockquote>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-3d-mascots.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-3d-mascots.png" alt="Три 3D-маскота Skysmart" loading="lazy">
+        </picture>
+        <div class="case-caption">Три маскота: каждый с набором поз для успеха, ошибки, ожидания, поздравления</div>
+
+        <section class="case-section">
+          <h3>Девять критериев</h3>
+          <p>Сформулировал требования для 3D-объектов, чтобы команда моделистов работала в единой системе:</p>
+          <ul>
+            <li>Узнаваемость на маленьком размере</li>
+            <li>Читаемость без подписи</li>
+            <li>Один объект — одна эмоция</li>
+            <li>Совместимость с палитрой</li>
+            <li>Работа на белом и цветном фоне</li>
+            <li>Стилистическое единство с маскотами</li>
+            <li>Отсутствие мелких деталей</li>
+            <li>Печатопригодность</li>
+            <li>Масштабируемость серии</li>
+          </ul>
+          <p>Референс для команды: «Представь, как это выглядело бы в Pixar или Animal Crossing».</p>
+        </section>
+
+        <section class="case-section">
+          <h3>Бейджи уровней</h3>
+          <p>Карта курса визуализирует путь через 3D-бейджи. Уровни от A1 до C2. Стартовые — простые оранжевые гексагоны. Средние — с крыльями. Высшие — золотые с короной. Заблокированные — серые, как ориентир и мотивация.</p>
+        </section>
+
+        <blockquote class="case-quote">«Хочу собрать все бейджи до золотого» — ученик, 11 лет</blockquote>
+
+        <picture>
+          <source srcset="../assets/img/cases/skysmart/skysmart-3d-badges.webp" type="image/webp">
+          <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-3d-badges.png" alt="3D-бейджи уровней A2 → B2 → C1 → C2" loading="lazy">
+        </picture>
+        <div class="case-caption">Бейджи A1→C2: визуальная прогрессия от простых гексагонов до золотых с короной</div>
+
+        <div class="case-img-row">
+          <picture>
+            <source srcset="../assets/img/cases/skysmart/skysmart-3d-objects.webp" type="image/webp">
+            <img src="../assets/img/cases/skysmart/skysmart-3d-objects.png" alt="3D-объекты: торт, камера, колба, очки, книга, планета" loading="lazy">
+          </picture>
+          <picture>
+            <source srcset="../assets/img/cases/skysmart/skysmart-stickers.webp" type="image/webp">
+            <img src="../assets/img/cases/skysmart/skysmart-stickers.png" alt="Стикерпак «Алиса в Стране чудес» — награды за квесты" loading="lazy">
+          </picture>
+        </div>
+
+        <section class="case-section">
+          <h3>Результат</h3>
+          <p>3D-система стала визуальной идентичностью Skysmart. Маскоты, бейджи и стикеры используются в интерфейсе, маркетинге и коммуникациях с учениками. Единый визуальный язык вместо стоковых иллюстраций.</p>
+        </section>
+
+      </div>
+
+      <!-- ==================== Итого ==================== -->
 
       <hr class="case-separator">
 
-      <!-- 8. 3D-мир -->
       <section class="case-section">
-        <span class="case-section-num">8</span>
-        <h2 class="case-section-title">3D-мир</h2>
-        <p>Skysmart — не просто учебная платформа, а целый мир для детей. Три 3D-маскота сопровождают учеников через интерфейс. У каждого свой характер и набор поз для разных состояний: успех, ошибка, ожидание, поздравление.</p>
-        <p>Карта курса визуализирует учебный путь через систему 3D-бейджей. Уровни от A1 до C2 — каждый со своим визуальным стилем. Стартовые — простые оранжевые гексагоны. Средние — с крыльями. Высшие — золотые с короной. Заблокированные — серые, как ориентир и мотивация.</p>
+        <h2 class="case-section-title">Итого</h2>
+        <p>Четыре направления, два с половиной года, 69 страниц в Figma.</p>
+        <p>Главный вывод: в образовательном продукте нельзя проектировать для одного пользователя. Ученик, преподаватель и родитель видят один продукт, но решают разные задачи. Каждое решение проходило тест: работает для всех трёх?</p>
       </section>
 
-      <!-- Маскоты -->
-      <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-3d-mascots.png" alt="Три 3D-маскота Skysmart — для разных состояний интерфейса" loading="lazy">
-
-      <!-- Бейджи -->
-      <img class="case-img-full" src="../assets/img/cases/skysmart/skysmart-3d-badges.png" alt="3D-бейджи уровней A2 → B2 → C1 → C2 — прогрессия от бронзы до золота с короной" loading="lazy">
-
-      <!-- 9. Визуальная система -->
-      <section class="case-section">
-        <span class="case-section-num">9</span>
-        <h2 class="case-section-title">Визуальная система</h2>
-        <p>Набор 3D-объектов для наград и эмоциональных состояний: книга, колба, камера, планета, очки, торт с академической шапочкой. Каждый объект отрендерен в едином стиле и используется в карточках достижений.</p>
-        <p>Отдельный стикерпак по мотивам «Алисы в Стране чудес» — для вовлечения в процесс обучения. Волшебное зеркало, карманные часы, волшебный гриб, торт Безумного Шляпника. Стикеры появляются как награды за выполнение квестов.</p>
-      </section>
-
-      <!-- 3D объекты + Стикеры -->
-      <div class="case-img-row">
-        <img src="../assets/img/cases/skysmart/skysmart-3d-objects.png" alt="3D-объекты: торт, камера, колба, очки, книга, планета" loading="lazy">
-        <img src="../assets/img/cases/skysmart/skysmart-stickers.png" alt="Стикерпак «Алиса в Стране чудес» — награды за квесты" loading="lazy">
-      </div>
+      <a class="case-back" href="../index.html">← Все проекты</a>
 
     </div>
   </main>
 
   <script src="../script.min.js"></script>
+  <script>
+    (function() {
+      var overlay = document.createElement('div');
+      overlay.className = 'case-lightbox';
+      var lbImg = document.createElement('img');
+      overlay.appendChild(lbImg);
+      document.body.appendChild(overlay);
+      overlay.addEventListener('click', function() {
+        overlay.classList.remove('open');
+      });
+      document.querySelectorAll('.case-img-full, .case-img-row img').forEach(function(img) {
+        img.addEventListener('click', function() {
+          lbImg.src = img.src;
+          requestAnimationFrame(function() { overlay.classList.add('open'); });
+        });
+      });
+    })();
+  </script>
   <script>
     document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
       var track = wrap.querySelector('.case-slideshow-track');
@@ -205,7 +455,6 @@
       wrap.querySelectorAll('[data-next]').forEach(function(btn) {
         btn.addEventListener('click', function() { goTo(current + 1); });
       });
-      /* Update counter on native scroll (mobile swipe) */
       if (slideshow) {
         slideshow.addEventListener('scroll', function() {
           var w = slideshow.offsetWidth;

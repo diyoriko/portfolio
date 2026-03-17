@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сами — Диёр Хакимов</title>
-  <meta name="description" content="Кейс Сами: фитнес-сообщество в Telegram. Продукт, бренд и разработка с нуля.">
+  <meta name="description" content="Кейс Сами: фитнес-сообщество в Telegram. Продукт, бренд и разработка с нуля. TypeScript, grammY, Claude API.">
   <meta property="og:title" content="Сами — Диёр Хакимов">
   <meta property="og:description" content="Кейс Сами: фитнес-сообщество в Telegram. Продукт, бренд и разработка с нуля.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-sami.png">
@@ -14,7 +14,7 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.min.css">
-  
+
   <script data-goatcounter="https://diyordesign.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -33,11 +33,13 @@
   </div></nav>
 
   <main class="main main--case">
+
+    <div class="case-meta">Продукт, бренд, разработка · Пет-проект · 2025–2026</div>
+    <h1 class="case-h1">Сами</h1>
+
     <div class="case-body">
 
-      <span class="case-pet-label">Пет-проект</span>
-
-      <!-- 1. Зачем -->
+      <!-- 1. Проблема -->
       <section class="case-section">
         <span class="case-section-num">1</span>
         <h2 class="case-section-title">Не мотивация. Структура.</h2>
@@ -46,95 +48,102 @@
         <p>Сами — Telegram-канал, который убирает этот выбор. Одна тренировка в день. Только коврик. Стретчинг, сила, мобильность, йога, дыхание, кардио, восстановление — семь категорий, семь дней.</p>
       </section>
 
-      <!-- 2. Роль -->
+      <div class="case-stats">
+        <div class="case-stat">
+          <div class="case-stat-value">9 000+</div>
+          <div class="case-stat-label">строк TypeScript</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">260</div>
+          <div class="case-stat-label">тестов (Vitest)</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">автономных агента</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">24/7</div>
+          <div class="case-stat-label">Railway, автодеплой</div>
+        </div>
+      </div>
+
+      <!-- 2. Сезоны -->
       <section class="case-section">
         <span class="case-section-num">2</span>
-        <h2 class="case-section-title">Моя роль</h2>
-        <p>Весь проект — от продуктовой концепции до продакшна — сделан одним человеком.</p>
-        <ul>
-          <li>Продуктовая концепция и позиционирование</li>
-          <li>Бренд, тон коммуникации, UX бота</li>
-          <li>Архитектура трёхагентной системы</li>
-          <li>Разработка — 9 000+ строк TypeScript, 260 тестов</li>
-          <li>Деплой и мониторинг (Railway 24/7)</li>
-        </ul>
-      </section>
-
-      <!-- 3. Формат -->
-      <section class="case-section">
-        <span class="case-section-num">3</span>
         <h2 class="case-section-title">Сезоны</h2>
         <p>Один сезон — 21 день. Три полных недели. Каждый день привязан к своей категории: понедельник — стретчинг, вторник — сила, среда — мобильность.</p>
         <p>Это ритуал, а не программа. Не нужно планировать. Открыл канал — сделал — закрыл.</p>
         <p>После тренировки можно нажать «Я сделаль» в обсуждении. Бот считает серию дней подряд. Никакого рейтинга — только фиксация для себя.</p>
       </section>
 
-      <!-- Screenshot: bot profile -->
-      <img class="case-img-full" src="../assets/img/cases/sami/sami-bot-profile.png" alt="Профиль бота Сами в Telegram" style="max-width: 300px; margin: 25px auto;" loading="lazy">
-
-      <!-- 4. Контент -->
+      <!-- 3. Контент-пайплайн -->
       <section class="case-section">
-        <span class="case-section-num">4</span>
+        <span class="case-section-num">3</span>
         <h2 class="case-section-title">Откуда контент</h2>
-        <p>Бот ищет тренировки на YouTube по курируемым ключевым словам. Каждое видео оценивается по нескольким критериям: просмотры, лайки, авторитет канала, длительность.</p>
-        <p>Но главный фильтр — ценности бренда. 70+ паттернов отсекают контент с риторикой «исправь своё тело», акцентом на похудении или соревновательностью. Проходит только спокойное, инструкторское видео про движение без инвентаря.</p>
-        <p>YouTube в России ограничен, поэтому бот скачивает видео, проверяет кодек (H.264 для Telegram), при необходимости транскодирует через ffmpeg и публикует как нативный файл в канал.</p>
+        <p>Бот ищет тренировки на YouTube по курируемым ключевым словам. Каждое видео оценивается: просмотры (35%), лайки (30%), авторитет канала (20%), завершаемость (15%).</p>
+        <p>Главный фильтр — ценности бренда. 70+ паттернов отсекают контент с риторикой «исправь своё тело», акцентом на похудении или соревновательностью. Проходит только спокойное, инструкторское видео без инвентаря.</p>
+        <p>YouTube в России ограничен, поэтому бот скачивает видео, проверяет кодек (H.264 для Telegram), транскодирует через ffmpeg и публикует как нативный файл.</p>
       </section>
 
-      <!-- 5. Модерация -->
+      <!-- 4. Безопасное пространство -->
       <section class="case-section">
-        <span class="case-section-num">5</span>
+        <span class="case-section-num">4</span>
         <h2 class="case-section-title">Безопасное пространство</h2>
         <p>Группа обсуждения защищена многослойной модерацией:</p>
         <ul>
           <li>Мат-капча при входе</li>
           <li>Опрос цели — ритм, гибкость, сила или «просто смотрю»</li>
           <li>Персональное приветствие в личку на основе выбранной цели</li>
-          <li>75+ антиспам-паттернов: крипта, казино, внешние ссылки, реклама каналов</li>
+          <li>75+ антиспам-паттернов: крипта, казино, ссылки, реклама каналов</li>
           <li>Кулдаун для новых участников, ночной режим, репутационная система</li>
         </ul>
         <p>Тон коммуникации — тёплый, без давления. Бот не мотивирует, а фиксирует: «Ты сделаль. 5 дней подряд.»</p>
       </section>
 
-      <!-- 6. Рынок -->
-      <section class="case-section">
-        <span class="case-section-num">6</span>
-        <h2 class="case-section-title">Рынок</h2>
-        <p>Рынок онлайн-фитнеса в России — 4,8 млрд ₽ по топ-25 платформам. Рост +37% год к году. Прогноз — 42 млрд к 2032 (CAGR 20–30%).</p>
-        <p>Лидер — FitStars с ~1,2 млрд ₽ выручки. Остальное — фрагментированный рынок мелких игроков. Доминирующего Telegram-сообщества в нише нет.</p>
-        <p>YouTube в России ограничен. Это создаёт спрос на альтернативный доступ к фитнес-контенту. Сами решает эту проблему: находит, фильтрует, доставляет — как нативный файл в канал.</p>
-        <p>Тренды работают в пользу продукта: домашние тренировки без инвентаря растут, комьюнити-формат вовлекает сильнее подписок, а AI-персонализация снижает порог входа.</p>
-      </section>
-
-      <!-- 7. Видение -->
-      <section class="case-section">
-        <span class="case-section-num">7</span>
-        <h2 class="case-section-title">Куда дальше</h2>
-        <p>Telegram-канал — первая фаза. Валидация формата, тона, ритуала.</p>
-        <p>Следующий шаг — нативное приложение. Персональный план тренировок на основе данных о пользователе: уровень, цели, история. Не библиотека видео — одна тренировка в день, подобранная алгоритмом. Трекинг прогресса без геймификации.</p>
-        <p>В перспективе — маркетплейс верифицированных тренеров и AI-обратная связь по технике.</p>
-        <p>Ядро остаётся неизменным: ритуал, а не программа. Спокойный тон. Движение ради здоровья, а не ради тела.</p>
-      </section>
-
       <hr class="case-separator">
 
-      <!-- 8. Архитектура -->
+      <!-- 5. Три агента -->
       <section class="case-section">
-        <span class="case-section-num">8</span>
+        <span class="case-section-num">5</span>
         <h2 class="case-section-title">Три агента</h2>
         <p>Система работает на трёх автономных агентах:</p>
-        <p><strong>Стратег</strong> — запускается раз в день. Анализирует метрики, бэклог, конкурентов. Формирует пакет задач и ключевых слов для поиска контента.</p>
-        <p><strong>Комьюнити-бот</strong> — работает на Railway 24/7. Принимает пакет от стратега, ищет видео, управляет модерацией, публикует контент, ведёт профили пользователей.</p>
-        <p><strong>Аналитика</strong> — встроенный модуль бота. Каждый день в 00:30 собирает: подписчики, публикации, выполнения, ретеншн. По воскресеньям — недельный отчёт.</p>
+        <p><strong>Стратег</strong> — запускается ежедневно в 09:30 через launchd. Анализирует метрики, бэклог, контент. Формирует задачи и ключевые слова для поиска.</p>
+        <p><strong>Комьюнити-бот</strong> — Railway 24/7. Публикует тренировки, управляет модерацией, ведёт профили пользователей, считает серии.</p>
+        <p><strong>Аналитика</strong> — встроенный модуль бота. Каждый день в 00:30: подписчики, публикации, выполнения, ретеншн. По воскресеньям — недельный отчёт.</p>
       </section>
 
-      <!-- 9. Стек -->
+      <!-- 6. Процесс -->
       <section class="case-section">
-        <span class="case-section-num">9</span>
-        <h2 class="case-section-title">Стек</h2>
-        <p>TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg, Claude API. Railway 24/7. 260 тестов в Vitest. GitHub Actions для стратега и бэкапов. Деплой через git push.</p>
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Процесс</h2>
+        <p>Весь проект — от концепции до продакшна — одним человеком.</p>
+        <ul>
+          <li>Продуктовая концепция и позиционирование</li>
+          <li>Нейминг, визуальный стиль, тон коммуникации</li>
+          <li>UX бота: онбординг, модерация, milestone-сообщения</li>
+          <li>Архитектура трёхагентной системы</li>
+          <li>Разработка, тесты, CI/CD, мониторинг</li>
+        </ul>
       </section>
 
+      <!-- 7. Стек -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Стек</h2>
+        <p><strong>Бот:</strong> TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg</p>
+        <p><strong>AI:</strong> Claude API (стратег + аналитика)</p>
+        <p><strong>Инфра:</strong> Railway 24/7, GitHub Actions (CI + бэкапы), launchd (стратег)</p>
+        <p><strong>Качество:</strong> 260 тестов Vitest, pre-commit typecheck, CodeRabbit ревью</p>
+      </section>
+
+      <!-- Ссылки -->
+      <div class="case-links">
+        <a href="https://t.me/sami_workouts" target="_blank" rel="noopener">Канал</a>
+        <a href="https://t.me/sami_workout_bot" target="_blank" rel="noopener">Бот</a>
+        <a href="https://github.com/diyoriko/sami" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <a class="case-back" href="../index.html">← Все проекты</a>
 
     </div>
   </main>

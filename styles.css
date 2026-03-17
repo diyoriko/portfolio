@@ -529,19 +529,99 @@ a.project-item .project-arrow {
 /* --- Case page --- */
 
 .main--case {
-  padding-top: 20px;
+  padding-top: 240px;
   overflow-x: hidden;
 }
 
+/* Case h1 title */
+.case-h1 {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+  max-width: 722px;
+  margin: 0 auto 0;
+  padding-left: 34px;
+}
+
+.case-h1 + .case-description {
+  text-indent: 0;
+  margin-top: 16px;
+}
+
+.case-h1 + .case-tabs {
+  margin-top: 110px;
+}
+
+.case-h1 + .case-body {
+  margin-top: 80px;
+}
+
+/* Case meta line (role · company · year) */
+.case-meta {
+  max-width: 722px;
+  margin: 0 auto 8px;
+  padding-left: 34px;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-dim);
+}
+
+.case-meta + .case-tabs {
+  margin-top: 24px;
+}
+
+/* Image captions */
+.case-caption {
+  max-width: 890px;
+  margin: -40px 0 50px max(0px, calc(50% - 327px));
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-dim);
+}
+
+/* Stats row */
+.case-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 722px;
+  margin: 0 auto 50px;
+  padding-left: 34px;
+}
+
+.case-stat-value {
+  font-family: var(--font-sans);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.case-stat-label {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
 .case-back {
-  display: inline-block;
+  display: block;
+  max-width: 722px;
+  margin: 0 auto 50px;
+  padding-left: 34px;
   font-family: var(--font-sans);
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
   color: rgba(34, 34, 34, 0.5);
   transition: color var(--transition-fast);
-  margin-bottom: 50px;
 }
 
 .case-back:hover {
@@ -550,22 +630,23 @@ a.project-item .project-arrow {
 
 .case-tabs {
   display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 75px;
+  gap: 12px;
+  max-width: 722px;
+  margin: 0 auto 20px;
+  padding-left: 34px;
 }
 
 .case-tab {
-  width: 218px;
-  height: 75px;
+  height: 44px;
+  padding: 0 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 100px;
   font-family: var(--font-sans);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.4px;
   border: none;
   cursor: pointer;
   transition: all var(--transition-base);
@@ -682,6 +763,19 @@ a.project-item .project-arrow {
   font-weight: 600;
 }
 
+/* Styled blockquote for user research quotes */
+.case-quote {
+  max-width: 722px;
+  margin: 25px auto;
+  padding-left: 34px;
+  font-family: var(--font-sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
 /* Edge labels: БЫЛО, REDESIGN V1.0, СОЗДАТЕЛЬ, etc. */
 .case-edge-label {
   position: absolute;
@@ -718,6 +812,59 @@ a.project-item .project-arrow {
   width: 100%;
   border-radius: 20px;
   margin: 50px 0;
+}
+
+/* Image containers — left-aligned with text, wider to the right */
+.case-tab-panel > picture {
+  display: block;
+  max-width: 890px;
+  margin: 50px 0 50px max(0px, calc(50% - 327px));
+}
+
+.case-tab-panel > picture .case-img-full {
+  margin: 0;
+}
+
+.case-tab-panel > .case-slideshow-wrap {
+  max-width: 890px;
+  margin-left: max(0px, calc(50% - 327px));
+}
+
+.case-tab-panel > .case-img-row {
+  max-width: 890px;
+  margin-left: max(0px, calc(50% - 327px));
+}
+
+/* Clickable images */
+.case-img-full,
+.case-img-row img {
+  cursor: zoom-in;
+}
+
+/* Lightbox */
+.case-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.case-lightbox.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.case-lightbox img {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
 }
 
 /* Two-column image row */
@@ -1214,6 +1361,15 @@ a.project-item .project-arrow {
   }
 
   /* Case page mobile */
+  .case-meta {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .case-caption {
+    margin-left: 0;
+  }
+
   .case-back {
     font-size: 18px;
     margin-bottom: 32px;
@@ -1229,6 +1385,16 @@ a.project-item .project-arrow {
     padding: 10px 24px;
     width: auto;
     height: auto;
+  }
+
+  .case-h1 {
+    font-size: 32px;
+    padding-left: 0;
+  }
+
+  .case-stats {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
   }
 
   .case-section {
@@ -1258,6 +1424,10 @@ a.project-item .project-arrow {
 
   .case-section ul {
     font-size: 18px;
+  }
+
+  .case-quote {
+    padding-left: 0;
   }
 
   .case-links {

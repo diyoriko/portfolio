@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hunter — Diyor Khakimov</title>
-  <meta name="description" content="Hunter case study: AI job search bot. Scraping, scoring, cover letters via Claude.">
-  <meta property="og:title" content="Hunter — Diyor Khakimov">
-  <meta property="og:description" content="Hunter case study: AI job search bot. Scraping, scoring, cover letters via Claude.">
+  <title>AI Job Hunter — Diyor Khakimov</title>
+  <meta name="description" content="AI Job Hunter case study: Telegram bot that scrapes hh.ru, Habr and Getmatch, scores vacancies and writes cover letters via Claude.">
+  <meta property="og:title" content="AI Job Hunter — Diyor Khakimov">
+  <meta property="og:description" content="Telegram bot for job search. Scraping, scoring, AI cover letters, freemium via Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/en/projects/hunter.html">
@@ -14,7 +14,7 @@
   <meta property="og:locale" content="en_US">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.min.css">
-  
+
   <script data-goatcounter="https://diyordesign.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -33,102 +33,113 @@
   </div></nav>
 
   <main class="main main--case">
-    <div class="case-body">
 
-      <span class="case-pet-label">Pet project</span>
+    <div class="case-meta">Product, AI, development · Pet project · 2026</div>
+    <h1 class="case-h1">AI Job Hunter</h1>
+
+    <div class="case-body">
 
       <!-- 1. Problem -->
       <section class="case-section">
         <span class="case-section-num">1</span>
-        <h2 class="case-section-title">A ritual nobody enjoys</h2>
-        <p>Everyone who's searched for a job knows this ritual. Morning: open hh.ru, open Habr, maybe LinkedIn. Scroll. Filter. Read 50 descriptions. Save 5. Write 3 cover letters. Spend 45 minutes. Repeat tomorrow.</p>
-
-        <p>Hunter does this for you.</p>
+        <h2 class="case-section-title">Job search is a job in itself</h2>
+        <p>Every morning you open hh.ru, scroll the feed, try to figure out if "Middle/Senior frontend in a fintech startup with React/Vue/Angular 3+ years" is right for you. Then the same on Habr. Then a cover letter that by the third vacancy becomes a copy-paste with the company name swapped.</p>
+        <p>By day five you want to quit. 80% of vacancies you read don't fit — but you only realize that after reading the full description.</p>
+        <p>Hunter does steps 1–4 for you: finds, scores, filters, writes the cover letter.</p>
       </section>
 
-      <!-- 2. Role -->
+      <div class="case-stats">
+        <div class="case-stat">
+          <div class="case-stat-value">5,000+</div>
+          <div class="case-stat-label">lines of TypeScript</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">434</div>
+          <div class="case-stat-label">tests (Vitest)</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">vacancy sources</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3×</div>
+          <div class="case-stat-label">scrapes per day</div>
+        </div>
+      </div>
+
+      <!-- 2. How it works -->
       <section class="case-section">
         <span class="case-section-num">2</span>
-        <h2 class="case-section-title">My role</h2>
-        <p>The entire project — from product strategy to production — built by one person.</p>
-        <ul>
-          <li>Product strategy and monetization</li>
-          <li>Bot UX: onboarding, digest, pagination, inline keyboards</li>
-          <li>Scoring algorithm</li>
-          <li>Development — TypeScript, hh.ru and Habr scrapers, Claude integration</li>
-          <li>Deployment and monitoring (Railway 24/7)</li>
-        </ul>
+        <h2 class="case-section-title">Push instead of pull</h2>
+        <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Claude Haiku.</p>
+        <p>Three times a day (09:00, 13:00, 17:00 MSK) the bot scrapes hh.ru, Habr Career and Getmatch. Every vacancy goes through personal scoring 0–100. A morning digest arrives — only what actually fits.</p>
       </section>
 
-      <!-- 3. Solution -->
+
+      <!-- 3. Scoring -->
       <section class="case-section">
         <span class="case-section-num">3</span>
-        <h2 class="case-section-title">Push instead of pull</h2>
-        <p>Three times a day, the bot scrapes hh.ru and Habr using your search queries. Requests use rate-limiting and rotation to avoid overloading sources. Every vacancy goes through personal scoring. In the morning, a digest arrives in Telegram — you don't visit job sites, job sites come to you.</p>
-
-        <p>Vacancies below 40 points are hidden. You only see what actually fits.</p>
+        <h2 class="case-section-title">Scoring: the product core</h2>
+        <p>The bot doesn't just parse vacancies — it understands how well each one fits a specific user. Not by keywords, but by four weighted parameters:</p>
+        <p><strong>Skills — 40%.</strong> The first skill in your list weighs more. Logic: what you type first is your strongest skill.</p>
+        <p><strong>Salary — 25%.</strong> Range overlap with currency normalization.</p>
+        <p><strong>Format — 20%.</strong> Remote, hybrid, office. Exact match — 100. Hybrid for a remote worker — 50.</p>
+        <p><strong>Industry — 15%.</strong> 21 industries with keyword sets matched against description and company.</p>
+        <p>Red flags halve the score. Blacklisted companies — zero. Scoring is self-improving: responses boost skill weights, hidden vacancies lower them.</p>
       </section>
 
-      <!-- Screenshot: bot profile -->
-      <img class="case-img-full" src="../../assets/img/cases/hunter/hunter-bot-profile.png" alt="Hunter bot profile in Telegram" style="max-width: 300px; margin: 25px auto;" loading="lazy">
-
-      <!-- 4. Scoring -->
+      <!-- 4. Cover letters -->
       <section class="case-section">
         <span class="case-section-num">4</span>
-        <h2 class="case-section-title">How scoring works</h2>
-        <p>Each vacancy gets a 0–100 score based on four factors:</p>
-
-        <p><strong>Skills — 40%.</strong> Weighted matching. The first skill in your list weighs more, the last — less. Psychology: what you type first is your strongest skill.</p>
-
-        <p><strong>Salary — 25%.</strong> Range overlap detection. Currency normalization (USD, EUR → RUB).</p>
-
-        <p><strong>Format — 20%.</strong> Remote, hybrid, office. Exact match — 100 points. Hybrid for a remote worker — 50.</p>
-
-        <p><strong>Industry — 15%.</strong> 22 predefined domains with keyword sets.</p>
-
-        <p>Red flags in the description halve the score. Blacklisted company — zero.</p>
-      </section>
-
-      <!-- 5. Cover letters -->
-      <section class="case-section">
-        <span class="case-section-num">5</span>
-        <h2 class="case-section-title">Cover letters in one tap</h2>
-        <p>Found an interesting vacancy — tap "Letter". Claude writes a cover letter based on the user's real experience and skills, tailored to the specific vacancy. No fabrication — only facts from the profile.</p>
-
-        <p>Don't like it — "Another version" generates a fresh one with a different structure.</p>
-
-        <p>Each letter takes 10–15 seconds instead of 10–15 minutes.</p>
+        <h2 class="case-section-title">Cover letters in 5 seconds</h2>
+        <p>Tap "Letter" — Claude receives the vacancy description, user profile, company context. It generates a cover letter that specifically addresses the requirements. No fabrication — only facts from the profile.</p>
+        <p>Don't like it — "Another version" regenerates with a different structure. Models alternate: Sonnet for quality, Haiku for speed.</p>
+        <p>Each letter — 5 seconds instead of 15 minutes.</p>
       </section>
 
       <hr class="case-separator">
 
-      <!-- 6. Onboarding -->
+      <!-- 5. Freemium -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Freemium via Telegram Stars</h2>
+        <p>First letter per vacancy — free. Restyle and filters — Pro or credits.</p>
+        <p><strong>Pro:</strong> 200 Stars/week or 700 Stars/month. Unlimited letters, 5 push alerts per scrape, source filters.</p>
+        <p><strong>Credits:</strong> 100 Stars = 3 restyles, 300 Stars = 10. One-time purchase, no commitment.</p>
+        <p>Stars is Telegram's native currency. No card details needed. Tap — pay — done. Referral program: invite a friend — +1 month Pro on their first payment.</p>
+      </section>
+
+      <!-- 6. Features -->
       <section class="case-section">
         <span class="case-section-num">6</span>
-        <h2 class="case-section-title">14 steps to your first digest</h2>
-        <p>On start, the bot walks you through onboarding: name, job title, experience, skills, salary range, format, industries, red flags, company blacklist, search queries, portfolio, experience description.</p>
-
-        <p>Every step uses inline buttons. You can skip, go back, edit later. Right after completion — your first scrape and digest.</p>
+        <h2 class="case-section-title">Features that retain</h2>
+        <p><strong>Response tracker</strong> — "Applied" → "Interview" → "Offer" or "Rejected". Full funnel in stats.</p>
+        <p><strong>Weekly summary</strong> — every Monday: vacancies found, responses, average score.</p>
+        <p><strong>Inline mode</strong> — @jobhunt_ai_bot react developer in any chat. Share a vacancy with a friend in 2 seconds.</p>
+        <p><strong>"I found a job"</strong> — the bot congratulates and sets a reminder in 90 days: "How's the new place?"</p>
       </section>
 
-      <!-- 7. Monetization -->
+      <!-- 7. Process and stack -->
       <section class="case-section">
         <span class="case-section-num">7</span>
-        <h2 class="case-section-title">Freemium</h2>
-        <p>Free: 5 cover letters lifetime, 15 vacancies per digest, 2 push alerts per scrape.</p>
-
-        <p>Pro: 200 Stars/week or 700 Stars/month — unlimited everything. Or credits: 100 Stars = 3 letters.</p>
-
-        <p>Hybrid model: subscription for active users, credits for those who just need one or two letters.</p>
+        <h2 class="case-section-title">Process and stack</h2>
+        <p>The entire project — from product strategy and monetization to production — by one person.</p>
+        <p><strong>Bot:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
+        <p><strong>AI:</strong> Anthropic SDK — Sonnet for letters, Haiku for resume parsing</p>
+        <p><strong>Scrapers:</strong> hh.ru API + Habr Career + Getmatch, User-Agent rotation, rate-limiting</p>
+        <p><strong>Infra:</strong> Railway 24/7 (~$5/mo), GitHub Actions (CI + backups), launchd (strategist)</p>
+        <p><strong>Quality:</strong> 434 Vitest tests, pre-commit typecheck, CodeRabbit reviews</p>
+        <p>One process, one database file, one server. One Pro user covers the infrastructure cost.</p>
       </section>
 
-      <!-- 8. Stack -->
-      <section class="case-section">
-        <span class="case-section-num">8</span>
-        <h2 class="case-section-title">Stack</h2>
-        <p>TypeScript, grammY, SQLite (WAL), node-cron, Claude API (Sonnet), cheerio. Railway 24/7. 5,000+ lines of code, 412 tests in Vitest. Deploy via git push.</p>
-      </section>
+      <!-- Links -->
+      <div class="case-links">
+        <a href="https://t.me/jobhunt_ai_bot" target="_blank" rel="noopener">Try the bot</a>
+        <a href="https://vc.ru/life/2798084" target="_blank" rel="noopener">VC.ru article</a>
+        <a href="https://github.com/diyoriko/hunter" target="_blank" rel="noopener">GitHub</a>
+      </div>
 
+      <a class="case-back" href="../index.html">← All projects</a>
 
     </div>
   </main>
