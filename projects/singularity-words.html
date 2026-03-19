@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Кейс Singularity Words — Диёр Хакимов">
   <title>Singularity Words — Диёр Хакимов</title>
+  <meta name="description" content="Кейс Singularity Words: приложение для запоминания слов. Android + iOS, механика «гармошка», интервальные повторения, A/B-тесты. 100K+ загрузок.">
   <meta property="og:title" content="Singularity Words — Диёр Хакимов">
-  <meta property="og:description" content="Singularity Words — приложение для изучения слов.">
+  <meta property="og:description" content="Приложение для запоминания английских слов. Android + iOS, интервальные повторения, адаптивная сложность.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-singularity-words.png">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/projects/singularity-words.html">
@@ -14,10 +14,11 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.min.css">
-  
+
   <script data-goatcounter="https://diyordesign.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+
   <nav class="nav"><div class="nav-inner">
     <div class="nav-left">
       <div class="nav-links">
@@ -30,12 +31,125 @@
       <a href="../en/projects/singularity-words.html">En</a>
     </div>
   </div></nav>
-  <main class="main">
-    <h1 class="projects-title">Singularity Words</h1>
-    <p style="font-family: var(--font-sans); font-size: 24px; color: var(--text-muted);">Кейс в разработке</p>
 
-    <a class="case-back" href="../index.html">← Все проекты</a>
+  <main class="main main--case">
+
+    <div class="case-meta">Продуктовый дизайнер · Singularity Hub · 2023–2024</div>
+    <h1 class="case-h1">Singularity Words</h1>
+
+    <div class="case-body">
+
+      <!-- 1. Проблема -->
+      <section class="case-section">
+        <span class="case-section-num">1</span>
+        <h2 class="case-section-title">Забыть через неделю</h2>
+        <p>Студенты учат слова, сдают тест — и забывают 80% через неделю. Словарный запас не растёт. Преподаватели не видят, какие слова застряли.</p>
+        <p>Singularity Words борется с кривой забывания. Алгоритм подбирает слова, определяет момент повторения, адаптирует сложность. Целевая метрика: 1 слово в минуту с удержанием в долгосрочной памяти.</p>
+      </section>
+
+      <div class="case-stats">
+        <div class="case-stat">
+          <div class="case-stat-value">2</div>
+          <div class="case-stat-label">платформы: Android + iOS</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3 200+</div>
+          <div class="case-stat-label">слов в базе</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">100K+</div>
+          <div class="case-stat-label">загрузок Google Play</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">4.7</div>
+          <div class="case-stat-label">рейтинг Google Play</div>
+        </div>
+      </div>
+
+      <!-- 2. Гармошка -->
+      <section class="case-section">
+        <span class="case-section-num">2</span>
+        <h2 class="case-section-title">«Гармошка» — механика тренировки</h2>
+        <p>Три версии механики. Первая — список слов. Вторая — интерактивные карточки. Третья — аккордеон: перевод, примеры, синонимы раскрываются постепенно.</p>
+        <p>Каждая итерация проверяла гипотезу. Список — хватит ли простого повторения? Карточки — помогает ли интерактив? Гармошка — улучшает ли контекст запоминание? A/B-тесты подтвердили: гармошка даёт лучший результат.</p>
+        <p>Слово считается «отработанным», если переведено верно в 60%+ попыток. Три режима: чтение, произнесение вслух, написание.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/drilling-garmoshka.png" alt="Механика «гармошка» — карточки раскрываются с контекстом и примерами" loading="lazy">
+      <div class="case-caption">Drilling v.3 «Гармошка»: перевод, примеры, три режима тренировки</div>
+
+      <!-- 3. Интервальные повторения -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">Интервальные повторения</h2>
+        <p>Алгоритм определяет момент, когда слово вот-вот забудется, и возвращает его в тренировку. Слово начинается скрытым: r_____y. Буквы появляются по одной — если студент не вспомнил сам.</p>
+        <p>После тренировки — контекстный результат: «80% правильно, лучше чем 92% студентов». Соревновательный элемент без давления. Дизайн-решение: кнопку «Пропустить» переименовали в «Продолжить» — стало понятнее, что произойдёт.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/spaced-repetition.png" alt="Интервальные повторения — подсказки по буквам, результаты" loading="lazy">
+      <div class="case-caption">Spaced Repetition: скрытое слово → подсказки по буквам → результат с процентилем</div>
+
+      <!-- 4. Статистика и уровни -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Статистика и уровни</h2>
+        <p>Уровни по CEFR: A1 → A2 → B1 → B2 с числовой точностью. Пример: уровень A2.32, допуск к сессии — B1.54+. Цель: 2 000 слов к сессии.</p>
+        <p>Активность по цветам: зелёный (80–100%), жёлтый (60–79%), оранжевый (40–59%), красный (0–39%). Тренды сравнивают текущую неделю с прошедшей. iOS-виджеты выносят прогресс на домашний экран.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/ios-statistics-full.png" alt="iOS статистика — уровни, календарь, активность, лидерборд" loading="lazy">
+      <div class="case-caption">iOS: уровни CEFR, недельный календарь, статистика по словам, лидерборд</div>
+
+      <hr class="case-separator">
+
+      <!-- 5. Android + iOS -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Android + iOS</h2>
+        <p>Одна UX-логика, две нативных реализации. Android — Material Design 3, XML-палитра, тёмная тема. iOS — SF Symbols, нативные контролы, WidgetKit-виджеты для рабочего стола.</p>
+        <p>Фид прошёл три версии. v.1 — табы (Слова / Грамматика / Профиль). v.2 — светлая тема, карточки тренировок с временными окнами. v.3 — нижняя навигация убрана, профиль переехал в top bar, Lottie-конфетти при завершении. Каждая итерация тестировалась на реальных студентах.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/feed-cards.png" alt="Фид карточек — светлая тема, Material Design 3" loading="lazy">
+      <div class="case-caption">Android: Cards v.2 Light, единый фид с дневной сессией</div>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/ios-widgets-full.png" alt="iOS — WidgetKit-виджеты, активность, прогресс" loading="lazy">
+      <div class="case-caption">iOS: WidgetKit-виджеты, трекинг активности, прогресс по словам и грамматике</div>
+
+      <!-- 6. Запуск -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Запуск</h2>
+        <p>Три итерации листинга в Google Play. Ключевые сообщения: «Нарастающая сложность», «Интервальные повторения», «Оптимальная нагрузка».</p>
+        <p>CSI-опрос встроен в приложение: «Насколько приложение помогает в изучении слов?» Обратная связь идёт напрямую в продуктовые решения. 100K+ загрузок. Рейтинг 4.7.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/singularity-words/google-play.png" alt="Google Play листинг — третья итерация" loading="lazy">
+      <div class="case-caption">Google Play v.3: финальный листинг</div>
+
+      <!-- 7. Роль -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Роль</h2>
+        <p>Продуктовый дизайнер в команде из четырёх. Vision — George Solovev. Product — Ksenia Golovina. Dev Lead — Ivan Pyatin.</p>
+        <ul>
+          <li>UX-исследования, прототипы, A/B-тесты</li>
+          <li>UI: Android (Material 3) + iOS (нативные контролы, WidgetKit)</li>
+          <li>Механики: гармошка, интервальные повторения, система уровней</li>
+          <li>Статистика: трекинг активности, уровни CEFR, iOS-виджеты</li>
+          <li>Маркетинг: 3 итерации листинга Google Play</li>
+        </ul>
+      </section>
+
+      <div class="case-links">
+        <a href="https://singularity.academy/" target="_blank" rel="noopener">Singularity Hub</a>
+      </div>
+
+      <a class="case-back" href="../index.html">← Все проекты</a>
+
+    </div>
   </main>
+
   <script src="../script.min.js"></script>
 </body>
 </html>

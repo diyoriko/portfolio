@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedik Astroloji — v2 Draft</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    /* ── Design tokens ── */
+    :root {
+      --bg: #0a0a0a;
+      --bg-surface: rgba(22, 22, 22, 0.6);
+      --text: #ffffff;
+      --text-soft: #b8b3ae;
+      --text-muted: #7d7873;
+      --accent: #a78bfa;
+      --accent-bright: #c4b5fd;
+      --accent-soft: rgba(167, 139, 250, 0.25);
+      --border: rgba(167, 139, 250, 0.12);
+      --font-serif: 'Lora', Georgia, serif;
+      --font-sans: 'Raleway', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── Starfield ── */
+    .starfield {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: #fff;
+      border-radius: 50%;
+      animation: twinkle var(--dur, 3s) ease-in-out infinite;
+      opacity: 0;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.1; }
+      50% { opacity: var(--peak, 0.8); }
+    }
+
+    /* ── Nav ── */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 20px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10, 10, 10, 0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav a {
+      font-family: var(--font-sans);
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--text-soft);
+      transition: color 0.2s;
+    }
+
+    .nav a:hover { color: var(--accent); }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 12px;
+      border-radius: 100px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 48px 80px;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 32px;
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(48px, 8vw, 96px);
+      font-weight: 600;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      text-shadow: 0 0 60px rgba(167, 139, 250, 0.15);
+      max-width: 800px;
+    }
+
+    .hero-sub {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--text-soft);
+      max-width: 560px;
+      margin-top: 32px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 48px;
+      margin-top: 64px;
+    }
+
+    .hero-stat-value {
+      font-family: var(--font-serif);
+      font-size: 42px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .hero-stat-label {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .scroll-line {
+      position: absolute;
+      bottom: 48px;
+      left: 50%;
+      width: 1px;
+      height: 48px;
+      background: var(--accent);
+      opacity: 0.3;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    /* ── Content ── */
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 48px 120px;
+    }
+
+    /* ── Section ── */
+    .section {
+      margin-bottom: 120px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .section-num {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+
+    .section p {
+      font-family: var(--font-sans);
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--text-soft);
+      margin-bottom: 16px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 16px;
+    }
+
+    .section ul li {
+      font-family: var(--font-sans);
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--text-soft);
+      padding-left: 24px;
+      position: relative;
+      margin-bottom: 8px;
+    }
+
+    .section ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 13px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ── Glass card ── */
+    .glass {
+      background: var(--bg-surface);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      transition: border-color 0.4s, box-shadow 0.4s, transform 0.3s;
+    }
+
+    .glass:hover {
+      border-color: rgba(167, 139, 250, 0.25);
+      box-shadow: 0 0 40px rgba(167, 139, 250, 0.06);
+      transform: translateY(-2px);
+    }
+
+    /* ── Images ── */
+    .img-full {
+      width: calc(100% + 200px);
+      margin-left: -100px;
+      border-radius: 20px;
+      margin-top: 48px;
+      margin-bottom: 16px;
+    }
+
+    .img-caption {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-muted);
+      margin-bottom: 64px;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0.2;
+      margin: 80px 0;
+    }
+
+    /* ── Back link ── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-sans);
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--text-muted);
+      transition: color 0.2s;
+      margin-top: 40px;
+    }
+
+    .back-link:hover { color: var(--accent); }
+
+    /* ── Project link ── */
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      height: 48px;
+      padding: 0 28px;
+      border-radius: 100px;
+      font-family: var(--font-sans);
+      font-size: 16px;
+      font-weight: 500;
+      background: linear-gradient(135deg, #818cf8, #a78bfa, #c084fc);
+      color: var(--bg);
+      transition: box-shadow 0.3s, transform 0.2s;
+      margin-bottom: 48px;
+    }
+
+    .project-link:hover {
+      box-shadow: 0 0 30px rgba(167, 139, 250, 0.3);
+      transform: translateY(-1px);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .nav { padding: 16px 24px; }
+      .hero { padding: 100px 24px 60px; }
+      .hero-stats { gap: 24px; flex-wrap: wrap; justify-content: center; }
+      .content { padding: 0 24px 80px; }
+      .section { margin-bottom: 80px; }
+      .section-title { font-size: 28px; }
+      .img-full { width: 100%; margin-left: 0; }
+      .glass { padding: 24px; }
+    }
+
+    /* ── Reduced motion ── */
+    @media (prefers-reduced-motion: reduce) {
+      .star { animation: none; opacity: 0.3; }
+      .section { opacity: 1; transform: none; transition: none; }
+      .scroll-line { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Starfield -->
+  <div class="starfield" id="starfield"></div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-links">
+      <a href="../index.html">Проекты</a>
+      <a href="../about.html">Об авторе</a>
+    </div>
+    <span class="nav-label">v2 draft</span>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <span class="hero-eyebrow">Продукт · Айдентика · Разработка · 2026</span>
+    <h1 class="hero-title">Vedik Astroloji</h1>
+    <p class="hero-sub">Первая цифровая платформа ведической астрологии в Турции. От стратегии до деплоя — соло, за один день.</p>
+
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-value">0</div>
+        <div class="hero-stat-label">конкурентов в нише</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">21</div>
+        <div class="hero-stat-label">страница брифа</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">5</div>
+        <div class="hero-stat-label">API-интеграций</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">1</div>
+        <div class="hero-stat-label">день до MVP</div>
+      </div>
+    </div>
+
+    <div class="scroll-line"></div>
+  </section>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- Hero image -->
+    <img class="img-full section" src="../assets/img/cases/vedic/vedic-hero.png" alt="Vedik Astroloji — лендинг" style="margin-top: -40px;">
+    <div class="img-caption">Лендинг: тёмная космическая тема, звёздное поле, антиква New York, фиолетовый акцент</div>
+
+    <!-- 1. Zero market -->
+    <section class="section">
+      <span class="section-num">01 — Нулевой рынок</span>
+      <h2 class="section-title">Рынок есть. Продукта — нет.</h2>
+      <p>Рынок астрологии в Турции — $5M+. Одно приложение Faladdin набрало 20 миллионов загрузок. Ведическая астрология в Турции: ноль цифровых продуктов. 2–3 практика, все работают офлайн.</p>
+      <p>Dr. Sugata — PhD из Amrita University, 17 лет практики, автор книги «Karma ve Karmanın Efendisi: Saturn», преподаватель санскрита. Единственный эксперт с академическим бэкграундом в регионе. Нужна платформа.</p>
+    </section>
+
+    <!-- 2. Positioning -->
+    <section class="section">
+      <span class="section-num">02 — Не гадание — образование</span>
+      <h2 class="section-title">«Показывает тенденцию», не «произойдёт»</h2>
+      <p>2025: основателя Faladdin задержали. «Fal» (гадание) — юридический риск в Турции. Решение по позиционированию: образование и самопознание, не предсказания.</p>
+      <p>Классические тексты (BPHS, Phaladeepika) как источник, не интуиция. Платформа-бренд, не персональный консалтинг. Консультации, курсы, сообщество — вынесены на будущий личный сайт эксперта.</p>
+    </section>
+
+    <img class="img-full section" src="../assets/img/cases/vedic/vedic-sade-sati.png" alt="Sade Sati — образовательная страница">
+    <div class="img-caption">Sade Sati: три фазы транзита Сатурна, образовательный контент, glass-карточки</div>
+
+    <!-- 3. Calculator -->
+    <section class="section">
+      <span class="section-num">03 — Калькулятор натальной карты</span>
+      <h2 class="section-title">Три API, один шаг за раз</h2>
+      <div class="glass">
+        <p>Пошаговая форма: дата → время → город. Три API: VedAstro для расчётов, OpenStreetMap для геокодинга, TimeAPI для часовых поясов.</p>
+        <p>AI интерпретирует карту. Бесплатный уровень: Groq (Llama 3.3 70B). Платные отчёты: только Claude — качество должно соответствовать цене. Калькулятор запущен в бете. Эксперт проверила свою карту, нашла ошибки. Точность важнее скорости запуска.</p>
+      </div>
+    </section>
+
+    <img class="img-full section" src="../assets/img/cases/vedic/vedic-calculator.png" alt="Калькулятор натальной карты">
+    <div class="img-caption">Калькулятор: пошаговая форма, бета-баннер, seed of life на фоне</div>
+
+    <div class="divider"></div>
+
+    <!-- 4. Monetization -->
+    <section class="section">
+      <span class="section-num">04 — Три уровня дохода</span>
+      <h2 class="section-title">Бесплатное остаётся бесплатным</h2>
+      <p>Бесплатный уровень: калькулятор, блог, глоссарий из 50+ терминов. Цель — SEO-трафик и email-сбор. Нулевая конкуренция по турецким ведическим запросам.</p>
+      <p>Платные отчёты: Sade Sati (транзит Сатурна), натальная карта, бандл. 799–1 499 TRY с рассрочкой через Shopier. Taksit (рассрочка) — культурная норма в Турции.</p>
+      <p>Будущее: подписка «VedikCircle», 8-недельный курс, персональные консультации. Каждый уровень использует свою AI-модель. Премиум платит за качество.</p>
+    </section>
+
+    <img class="img-full section" src="../assets/img/cases/vedic/vedic-reports.png" alt="Платные отчёты">
+    <div class="img-caption">Отчёты: Sade Sati 799₺, натальная карта 999₺, бандл 1 499₺. Glassmorphism-карточки</div>
+
+    <!-- 5. Visual language -->
+    <section class="section">
+      <span class="section-num">05 — Визуальный язык</span>
+      <h2 class="section-title">Космос, не мистицизм</h2>
+      <p>Тёмная космическая тема. Анимированное звёздное поле, 60 звёзд. Glass-морфизм карточки. Сакральная геометрия — текстура, не декорация.</p>
+      <p>Типографика: New York (антиква) для заголовков, Oceanic Grotesk (гротеск) для текста. Фиолетовый акцент (#a78bfa) — чакра Аджна. Золотой градиент на CTA. Пространство по золотому сечению (φ = 1.618).</p>
+      <p>Бриф клиента: «мягкие тона, медитативность, не мистицизм». Тёмная тема — первая версия. Светлая с пудровой палитрой — в плане.</p>
+    </section>
+
+    <!-- 6. Role -->
+    <section class="section">
+      <span class="section-num">06 — Роль</span>
+      <h2 class="section-title">От стратегии до деплоя. Соло.</h2>
+      <div class="glass">
+        <ul>
+          <li>Анализ рынка: конкуренты, регуляторные риски, ценообразование</li>
+          <li>Архитектура бренда: платформа vs персональный сайт</li>
+          <li>UX: пошаговый калькулятор, Turkish-first, санскритские термины с пояснениями</li>
+          <li>Техническая архитектура: 5 API, каскад AI-моделей, платёжная система</li>
+          <li>Контент: 50+ терминов глоссария, блог, SEO-стратегия</li>
+          <li>Запуск: от стратегии до деплоя за один день</li>
+        </ul>
+      </div>
+    </section>
+
+    <a class="project-link" href="https://vedic-turkiye.vercel.app/" target="_blank" rel="noopener">
+      Vedik Astroloji Türkiye →
+    </a>
+
+    <br>
+    <a class="back-link" href="../index.html">← Все проекты</a>
+
+  </div>
+
+  <script>
+    // Generate stars
+    const field = document.getElementById('starfield');
+    for (let i = 0; i < 80; i++) {
+      const star = document.createElement('div');
+      star.className = 'star';
+      star.style.left = Math.random() * 100 + '%';
+      star.style.top = Math.random() * 100 + '%';
+      star.style.setProperty('--dur', (2 + Math.random() * 4) + 's');
+      star.style.setProperty('--peak', (0.3 + Math.random() * 0.7).toFixed(2));
+      star.style.animationDelay = (Math.random() * 5) + 's';
+      star.style.width = star.style.height = (1 + Math.random() * 2) + 'px';
+      field.appendChild(star);
+    }
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.section').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

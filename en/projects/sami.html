@@ -42,7 +42,7 @@
       <!-- 1. Problem -->
       <section class="case-section">
         <span class="case-section-num">1</span>
-        <h2 class="case-section-title">Not motivation. Structure.</h2>
+        <h2 class="case-section-title">One workout per day</h2>
         <p>People want to move. They open YouTube — ten million videos. Twenty minutes of browsing, they give up, turn on Netflix.</p>
         <p>The problem isn't laziness. Every day you need to decide again: what to do, how long, what level.</p>
         <p>Sami is a Telegram channel that removes this choice. One workout per day. Just a mat. Stretching, strength, mobility, yoga, breathing, cardio, recovery — seven categories, seven days.</p>
@@ -67,27 +67,51 @@
         </div>
       </div>
 
-      <!-- 2. Seasons -->
+      <!-- 2. The name -->
       <section class="case-section">
         <span class="case-section-num">2</span>
+        <h2 class="case-section-title">The name</h2>
+        <p>100+ naming options explored in Figma. Alternatives: be•come, do•it, m:ove, gr↑ow, al•ign, r•oot. Each tested for pronunciation, memorability, Telegram username.</p>
+        <p>"Sami" won. Double meaning in Russian: independence — you do it yourself, no trainer. Togetherness — we do it ourselves, together.</p>
+      </section>
+
+      <img class="case-img-full" src="../../assets/img/cases/sami/sami-identity-exploration.png" alt="100+ logo variants for Sami — naming and typographic experiments" loading="lazy">
+      <div class="case-caption">100+ variants: Cyrillic, Latin, ovals, monograms, different weights</div>
+
+      <!-- 3. Brand -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">Brand</h2>
+        <p>Six values: health, self-love, aesthetics, community, simplicity, honesty. Each mapped to an archetype — from Caregiver to Warrior.</p>
+        <p>Positioning built on contrast. Typical fitness app: neon, equipment, 5-screen onboarding, "fix your body." Sami: zen-minimal, one mat, one tap, "your body is a partner, not a project."</p>
+        <p>Tone of Voice in four layers. Support: "6 minutes for your shoulders to say thank you." Honesty: "Heart rate +20 bpm — that's normal." Beauty: "Movement looks as good as you feel." Motivation: "Sharpening the progress katana?"</p>
+        <p>Visual style: minimalism, real people without retouching. Logo — wordmark "сами" in an oval. Eight fonts explored, PP Right Grotesk chosen.</p>
+      </section>
+
+      <img class="case-img-full" src="../../assets/img/cases/sami/sami-logo.png" alt="Sami logo system — wordmark, oval, monogram" loading="lazy">
+      <div class="case-caption">Final system: wordmark, oval mark, "С" monogram</div>
+
+      <!-- 4. Seasons -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
         <h2 class="case-section-title">Seasons</h2>
         <p>One season is 21 days. Three full weeks. Each day is tied to its category: Monday — stretching, Tuesday — strength, Wednesday — mobility.</p>
         <p>It's a ritual, not a program. No need to plan. Open the channel — do it — close it.</p>
         <p>After a workout you can tap "I did it" in the discussion. The bot counts your streak. No rankings — just a record for yourself.</p>
       </section>
 
-      <!-- 3. Content pipeline -->
+      <!-- 5. Content pipeline -->
       <section class="case-section">
-        <span class="case-section-num">3</span>
+        <span class="case-section-num">5</span>
         <h2 class="case-section-title">Where content comes from</h2>
         <p>The bot searches YouTube for workouts using curated keywords. Each video is scored: views (35%), likes (30%), channel authority (20%), completion rate (15%).</p>
         <p>The main filter is brand values. 70+ patterns reject content with "fix your body" rhetoric, weight loss focus, or competitive framing. Only calm, instructional bodyweight videos pass through.</p>
         <p>YouTube is restricted in Russia, so the bot downloads the video, validates the codec (H.264 for Telegram), transcodes via ffmpeg and publishes as a native file.</p>
       </section>
 
-      <!-- 4. Safe space -->
+      <!-- 6. Safe space -->
       <section class="case-section">
-        <span class="case-section-num">4</span>
+        <span class="case-section-num">6</span>
         <h2 class="case-section-title">Safe space</h2>
         <p>The discussion group is protected by multi-layered moderation:</p>
         <ul>
@@ -102,9 +126,9 @@
 
       <hr class="case-separator">
 
-      <!-- 5. Three agents -->
+      <!-- 7. Three agents -->
       <section class="case-section">
-        <span class="case-section-num">5</span>
+        <span class="case-section-num">7</span>
         <h2 class="case-section-title">Three agents</h2>
         <p>The system runs on three autonomous agents:</p>
         <p><strong>Strategist</strong> — runs daily at 09:30 via launchd. Analyzes metrics, backlog, content. Produces tasks and keywords for search.</p>
@@ -112,9 +136,9 @@
         <p><strong>Analytics</strong> — embedded bot module. Daily at 00:30: subscribers, posts, completions, retention. Weekly reports on Sundays.</p>
       </section>
 
-      <!-- 6. Process -->
+      <!-- 8. Process -->
       <section class="case-section">
-        <span class="case-section-num">6</span>
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Process</h2>
         <p>The entire project — from concept to production — by one person.</p>
         <ul>
@@ -126,9 +150,9 @@
         </ul>
       </section>
 
-      <!-- 7. Stack -->
+      <!-- 9. Stack -->
       <section class="case-section">
-        <span class="case-section-num">7</span>
+        <span class="case-section-num">9</span>
         <h2 class="case-section-title">Stack</h2>
         <p><strong>Bot:</strong> TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg</p>
         <p><strong>AI:</strong> Claude API (strategist + analytics)</p>

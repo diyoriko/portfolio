@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Кейс Qlean — Диёр Хакимов">
   <title>Qlean — Диёр Хакимов</title>
+  <meta name="description" content="Кейс Qlean: приложение клинера офисов. Заказы, чеклисты, фотоотчёты, заработок. UX-концепт для внутреннего инструмента.">
   <meta property="og:title" content="Qlean — Диёр Хакимов">
-  <meta property="og:description" content="Qlean — уборка квартир. Приложение клинера, сайт.">
+  <meta property="og:description" content="Приложение клинера офисов. UX-концепт для внутреннего инструмента.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-qlean.png">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/projects/qlean.html">
@@ -14,10 +14,259 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.min.css">
-  
+
   <script data-goatcounter="https://diyordesign.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <style>
+    /* App mockup styles */
+    .app-showcase {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 48px 0;
+    }
+
+    .phone-frame {
+      width: 280px;
+      height: 560px;
+      background: #ffffff;
+      border-radius: 32px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.12), 0 0 0 1px rgba(0,0,0,0.06);
+      overflow: hidden;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .phone-frame::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 24px;
+      background: #ffffff;
+      border-radius: 0 0 16px 16px;
+      z-index: 10;
+    }
+
+    .phone-screen {
+      width: 100%;
+      height: 100%;
+      padding: 32px 16px 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+      font-size: 13px;
+      color: #164E63;
+      background: #F0FDFA;
+      overflow-y: auto;
+    }
+
+    .phone-screen::-webkit-scrollbar { display: none; }
+
+    .screen-header {
+      font-size: 22px;
+      font-weight: 700;
+      color: #0F172A;
+      margin-bottom: 4px;
+    }
+
+    .screen-sub {
+      font-size: 12px;
+      color: #94A3B8;
+      margin-bottom: 16px;
+    }
+
+    .screen-card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    .screen-card-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #0F172A;
+      margin-bottom: 2px;
+    }
+
+    .screen-card-meta {
+      font-size: 11px;
+      color: #94A3B8;
+      margin-bottom: 8px;
+    }
+
+    .screen-card-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .screen-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 8px;
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .badge-active { background: #D1FAE5; color: #065F46; }
+    .badge-upcoming { background: #E0F2FE; color: #0369A1; }
+    .badge-done { background: #F1F5F9; color: #64748B; }
+
+    .screen-check {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid #F1F5F9;
+      font-size: 13px;
+    }
+
+    .screen-check:last-child { border: none; }
+
+    .check-box {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      border: 2px solid #CBD5E1;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .check-box.checked {
+      background: #0891B2;
+      border-color: #0891B2;
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .screen-btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: #0891B2;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .screen-btn-secondary {
+      background: #F0FDFA;
+      color: #0891B2;
+      border: 1px solid #0891B2;
+    }
+
+    .screen-nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0 4px;
+      border-top: 1px solid #E2E8F0;
+      margin-top: auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+    }
+
+    .nav-item {
+      text-align: center;
+      font-size: 9px;
+      color: #94A3B8;
+      line-height: 1.2;
+    }
+
+    .nav-item.active { color: #0891B2; }
+    .nav-icon { font-size: 18px; margin-bottom: 2px; }
+
+    .screen-stat-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .screen-stat {
+      flex: 1;
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .screen-stat-val {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0F172A;
+    }
+
+    .screen-stat-label {
+      font-size: 10px;
+      color: #94A3B8;
+      margin-top: 2px;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin: 10px 0;
+    }
+
+    .photo-placeholder {
+      aspect-ratio: 1;
+      background: #E2E8F0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94A3B8;
+      font-size: 20px;
+    }
+
+    .photo-placeholder.has-photo { background: #D1FAE5; color: #065F46; }
+
+    .progress-ring {
+      width: 100%;
+      height: 6px;
+      background: #E2E8F0;
+      border-radius: 3px;
+      margin: 8px 0;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: #0891B2;
+      border-radius: 3px;
+    }
+
+    .app-caption {
+      text-align: center;
+      font-family: var(--font-sans);
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-top: -24px;
+      margin-bottom: 48px;
+    }
+
+    @media (max-width: 700px) {
+      .app-showcase { flex-direction: column; align-items: center; }
+      .phone-frame { width: 260px; height: 520px; }
+    }
+  </style>
 </head>
 <body>
+
   <nav class="nav"><div class="nav-inner">
     <div class="nav-left">
       <div class="nav-links">
@@ -30,12 +279,340 @@
       <a href="../en/projects/qlean.html">En</a>
     </div>
   </div></nav>
-  <main class="main">
-    <h1 class="projects-title">Qlean</h1>
-    <p style="font-family: var(--font-sans); font-size: 24px; color: var(--text-muted);">Кейс в разработке</p>
 
-    <a class="case-back" href="../index.html">← Все проекты</a>
+  <main class="main main--case">
+
+    <div class="case-meta">UX/UI, концепт &middot; Qlean &middot; 2026</div>
+    <h1 class="case-h1">Qlean Cleaner</h1>
+
+    <div class="case-body">
+
+      <!-- 1. Контекст -->
+      <section class="case-section">
+        <span class="case-section-num">1</span>
+        <h2 class="case-section-title">Клинер без приложения</h2>
+        <p>Qlean &mdash; сервис уборки. Клиент заказывает через сайт, менеджер распределяет заказы. Но клинер &mdash; исполнитель &mdash; работает вслепую.</p>
+        <p>Звонок от менеджера. Адрес в WhatsApp. Чеклист &mdash; на бумаге или в голове. Фотоотчёт &mdash; скинуть в общий чат. Заработок &mdash; спросить в конце месяца.</p>
+        <p>Инструмент, который видит только клинер. Для людей, которые делают работу руками.</p>
+      </section>
+
+      <div class="case-stats">
+        <div class="case-stat">
+          <div class="case-stat-value">6</div>
+          <div class="case-stat-label">ключевых экранов</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">пользовательских сценария</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">B2B</div>
+          <div class="case-stat-label">офисная уборка</div>
+        </div>
+      </div>
+
+      <!-- 2. Задача -->
+      <section class="case-section">
+        <span class="case-section-num">2</span>
+        <h2 class="case-section-title">Задача</h2>
+        <p>Спроектировать мобильное приложение для клинера офисных помещений. Три сценария:</p>
+        <ul>
+          <li><strong>Принять заказ</strong> &mdash; увидеть адрес, время, объём, контакт менеджера</li>
+          <li><strong>Выполнить работу</strong> &mdash; отметить каждый пункт чеклиста, приложить фото</li>
+          <li><strong>Получить деньги</strong> &mdash; видеть баланс, историю выплат, бонусы</li>
+        </ul>
+        <p>Ограничения: экран всегда мокрый или в перчатках. Крупные зоны касания. Минимум текста. Один палец.</p>
+      </section>
+
+      <!-- 3. Экраны -->
+      <section class="case-section">
+        <span class="case-section-num">3</span>
+        <h2 class="case-section-title">Экраны</h2>
+      </section>
+
+    </div>
   </main>
+
+  <!-- App Showcase: Orders + Checklist + Earnings -->
+  <div class="app-showcase">
+
+    <!-- Screen 1: Orders -->
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen-header">Мои заказы</div>
+        <div class="screen-sub">Среда, 19 марта</div>
+
+        <div class="screen-card">
+          <div class="screen-card-row" style="margin-bottom:6px">
+            <div class="screen-card-title">Офис &laquo;Яндекс&raquo;</div>
+            <span class="screen-badge badge-active">Сейчас</span>
+          </div>
+          <div class="screen-card-meta">Льва Толстого 16, этаж 4</div>
+          <div class="screen-card-row">
+            <span>09:00 &ndash; 12:00</span>
+            <span style="font-weight:600;color:#0891B2">2 400 &#8381;</span>
+          </div>
+          <div class="progress-ring"><div class="progress-fill" style="width:60%"></div></div>
+          <div style="font-size:10px;color:#94A3B8">6 из 10 пунктов</div>
+        </div>
+
+        <div class="screen-card">
+          <div class="screen-card-row" style="margin-bottom:6px">
+            <div class="screen-card-title">Коворкинг &laquo;Практик&raquo;</div>
+            <span class="screen-badge badge-upcoming">14:00</span>
+          </div>
+          <div class="screen-card-meta">Покровка 27, стр. 1</div>
+          <div class="screen-card-row">
+            <span>14:00 &ndash; 16:00</span>
+            <span style="font-weight:600;color:#0891B2">1 600 &#8381;</span>
+          </div>
+        </div>
+
+        <div class="screen-card">
+          <div class="screen-card-row" style="margin-bottom:6px">
+            <div class="screen-card-title">Студия &laquo;Дизайн Бюро&raquo;</div>
+            <span class="screen-badge badge-upcoming">17:00</span>
+          </div>
+          <div class="screen-card-meta">Большая Ордынка 7</div>
+          <div class="screen-card-row">
+            <span>17:00 &ndash; 18:30</span>
+            <span style="font-weight:600;color:#0891B2">1 200 &#8381;</span>
+          </div>
+        </div>
+
+        <div class="screen-nav">
+          <div class="nav-item active"><div class="nav-icon">&#9744;</div>Заказы</div>
+          <div class="nav-item"><div class="nav-icon">&#128197;</div>График</div>
+          <div class="nav-item"><div class="nav-icon">&#128176;</div>Деньги</div>
+          <div class="nav-item"><div class="nav-icon">&#9881;</div>Ещё</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screen 2: Checklist -->
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div style="font-size:12px;color:#94A3B8;margin-bottom:4px">&larr; Назад</div>
+        <div class="screen-header">Офис &laquo;Яндекс&raquo;</div>
+        <div class="screen-sub">Льва Толстого 16, этаж 4 &middot; 09:00&ndash;12:00</div>
+
+        <div style="font-size:12px;font-weight:600;color:#0F172A;margin:12px 0 8px">Чеклист</div>
+
+        <div class="screen-card" style="padding:10px 14px">
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Пропылесосить опенспейс</div>
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Протереть столы (32 шт.)</div>
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Кухня: раковина, столешница</div>
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Кухня: вынести мусор</div>
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Протереть мониторы</div>
+          <div class="screen-check"><div class="check-box checked">&#10003;</div>Переговорки (3 шт.)</div>
+          <div class="screen-check"><div class="check-box"></div>Туалеты: дезинфекция</div>
+          <div class="screen-check"><div class="check-box"></div>Туалеты: расходники</div>
+          <div class="screen-check"><div class="check-box"></div>Влажная уборка пола</div>
+          <div class="screen-check"><div class="check-box"></div>Фотоотчёт</div>
+        </div>
+
+        <div class="progress-ring"><div class="progress-fill" style="width:60%"></div></div>
+        <div style="font-size:11px;color:#94A3B8;text-align:center;margin-bottom:8px">6 / 10</div>
+
+        <div class="screen-btn">Следующий пункт</div>
+      </div>
+    </div>
+
+    <!-- Screen 3: Photo Report -->
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div style="font-size:12px;color:#94A3B8;margin-bottom:4px">&larr; К чеклисту</div>
+        <div class="screen-header">Фотоотчёт</div>
+        <div class="screen-sub">Офис &laquo;Яндекс&raquo; &middot; 19 марта</div>
+
+        <div class="photo-grid">
+          <div class="photo-placeholder has-photo">&#10003;</div>
+          <div class="photo-placeholder has-photo">&#10003;</div>
+          <div class="photo-placeholder has-photo">&#10003;</div>
+          <div class="photo-placeholder">+</div>
+        </div>
+
+        <div class="screen-card">
+          <div style="font-size:12px;font-weight:600;color:#0F172A;margin-bottom:4px">Обязательные фото</div>
+          <div style="font-size:11px;color:#64748B;line-height:1.6">
+            &#10003; Опенспейс &mdash; общий план<br>
+            &#10003; Кухня &mdash; раковина<br>
+            &#10003; Туалет &mdash; после уборки<br>
+            &#9744; Переговорка &mdash; стол и доска
+          </div>
+        </div>
+
+        <div style="font-size:11px;color:#94A3B8;text-align:center;margin:8px 0">3 из 4 фото загружено</div>
+
+        <div class="screen-btn screen-btn-secondary">Сделать фото</div>
+        <div class="screen-btn" style="margin-top:8px;opacity:0.5">Отправить отчёт</div>
+      </div>
+    </div>
+  </div>
+  <div class="app-caption">Заказы &rarr; Чеклист &rarr; Фотоотчёт</div>
+
+  <main class="main main--case">
+    <div class="case-body">
+
+      <!-- 4. Earnings -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Деньги видно</h2>
+        <p>Клинер не думает про деньги во время работы. Но после &mdash; хочет знать: сколько заработал, когда придут, есть ли бонус.</p>
+        <p>Экран заработка &mdash; одна цифра сверху. Без графиков, без аналитики. Сумма за неделю, список заказов, дата выплаты.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Earnings + Schedule -->
+  <div class="app-showcase">
+
+    <!-- Screen 4: Earnings -->
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen-header">Заработок</div>
+        <div class="screen-sub">Март 2026</div>
+
+        <div class="screen-stat-row">
+          <div class="screen-stat">
+            <div class="screen-stat-val">42 800 &#8381;</div>
+            <div class="screen-stat-label">Этот месяц</div>
+          </div>
+          <div class="screen-stat">
+            <div class="screen-stat-val">5 200 &#8381;</div>
+            <div class="screen-stat-label">Сегодня</div>
+          </div>
+        </div>
+
+        <div style="font-size:12px;font-weight:600;color:#0F172A;margin:8px 0">Последние заказы</div>
+
+        <div class="screen-card" style="padding:10px 14px">
+          <div class="screen-card-row"><span>Яндекс</span><span style="color:#065F46;font-weight:600">+2 400 &#8381;</span></div>
+          <div style="font-size:10px;color:#94A3B8">Сегодня, 09:00&ndash;12:00</div>
+        </div>
+        <div class="screen-card" style="padding:10px 14px">
+          <div class="screen-card-row"><span>Практик</span><span style="color:#065F46;font-weight:600">+1 600 &#8381;</span></div>
+          <div style="font-size:10px;color:#94A3B8">18 марта, 14:00&ndash;16:00</div>
+        </div>
+        <div class="screen-card" style="padding:10px 14px">
+          <div class="screen-card-row"><span>Дизайн Бюро</span><span style="color:#065F46;font-weight:600">+1 200 &#8381;</span></div>
+          <div style="font-size:10px;color:#94A3B8">18 марта, 17:00&ndash;18:30</div>
+        </div>
+
+        <div class="screen-card" style="background:#F0FDFA;border:1px solid #99F6E4;margin-top:12px">
+          <div style="font-size:12px;font-weight:600;color:#065F46">Выплата 25 марта</div>
+          <div style="font-size:11px;color:#64748B;margin-top:2px">На карту &bull;&bull;&bull;&bull; 4821</div>
+        </div>
+
+        <div class="screen-nav">
+          <div class="nav-item"><div class="nav-icon">&#9744;</div>Заказы</div>
+          <div class="nav-item"><div class="nav-icon">&#128197;</div>График</div>
+          <div class="nav-item active"><div class="nav-icon">&#128176;</div>Деньги</div>
+          <div class="nav-item"><div class="nav-icon">&#9881;</div>Ещё</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screen 5: Schedule -->
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="screen-header">График</div>
+        <div class="screen-sub">Неделя 18&ndash;24 марта</div>
+
+        <div class="screen-card">
+          <div style="display:flex;justify-content:space-between;margin-bottom:8px">
+            <span style="font-size:12px;font-weight:600">Пн 18</span>
+            <span style="font-size:11px;color:#065F46">3 заказа &middot; 5 200 &#8381;</span>
+          </div>
+          <div style="font-size:11px;color:#64748B;line-height:1.8">
+            09:00 Яндекс<br>14:00 Практик<br>17:00 Дизайн Бюро
+          </div>
+        </div>
+
+        <div class="screen-card">
+          <div style="display:flex;justify-content:space-between;margin-bottom:8px">
+            <span style="font-size:12px;font-weight:600">Вт 19</span>
+            <span style="font-size:11px;color:#065F46">2 заказа &middot; 3 800 &#8381;</span>
+          </div>
+          <div style="font-size:11px;color:#64748B;line-height:1.8">
+            10:00 Mail.ru<br>15:00 Skyeng
+          </div>
+        </div>
+
+        <div class="screen-card" style="opacity:0.5">
+          <div style="display:flex;justify-content:space-between">
+            <span style="font-size:12px;font-weight:600">Ср 20</span>
+            <span style="font-size:11px;color:#94A3B8">Выходной</span>
+          </div>
+        </div>
+
+        <div class="screen-card">
+          <div style="display:flex;justify-content:space-between;margin-bottom:8px">
+            <span style="font-size:12px;font-weight:600">Чт 21</span>
+            <span style="font-size:11px;color:#065F46">3 заказа &middot; 5 600 &#8381;</span>
+          </div>
+          <div style="font-size:11px;color:#64748B;line-height:1.8">
+            08:00 Сбер<br>12:00 VK<br>16:00 Тинькофф
+          </div>
+        </div>
+
+        <div class="screen-nav">
+          <div class="nav-item"><div class="nav-icon">&#9744;</div>Заказы</div>
+          <div class="nav-item active"><div class="nav-icon">&#128197;</div>График</div>
+          <div class="nav-item"><div class="nav-icon">&#128176;</div>Деньги</div>
+          <div class="nav-item"><div class="nav-icon">&#9881;</div>Ещё</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="app-caption">Заработок &rarr; Недельный график</div>
+
+  <main class="main main--case">
+    <div class="case-body">
+
+      <!-- 5. UX-решения -->
+      <section class="case-section">
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">UX для мокрых рук</h2>
+        <p>Клинер работает в перчатках. Экран часто мокрый. Палец один &mdash; обычно большой.</p>
+        <ul>
+          <li><strong>Чеклист &mdash; один тап</strong>. Нажал &mdash; отметил. Никаких свайпов, long press, подтверждений.</li>
+          <li><strong>Зоны касания 48&times;48</strong>. Минимум WCAG, но для перчаток лучше 56px.</li>
+          <li><strong>Кнопка &laquo;Следующий пункт&raquo;</strong> вместо скролла к незаполненному пункту.</li>
+          <li><strong>Фото без галереи</strong>. Камера открывается сразу. Снял &mdash; загрузилось.</li>
+          <li><strong>Минимум текста</strong>. Адрес, время, сумма. Описание &mdash; по тапу.</li>
+        </ul>
+      </section>
+
+      <!-- 6. Дизайн-система -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Дизайн-система</h2>
+        <p><strong>Палитра:</strong> Cyan #0891B2 + фон #F0FDFA. Ассоциация &mdash; чистота, вода, свежесть. Зелёный #22C55E для денег и завершённых задач.</p>
+        <p><strong>Типографика:</strong> Inter. Единый шрифт для всех размеров. Разграничение &mdash; через вес (400/600/700), не через стиль.</p>
+        <p><strong>Карточки:</strong> Белые, 14px radius, минимальная тень. Содержат ровно одну сущность &mdash; один заказ, один пункт чеклиста, одну выплату.</p>
+        <p><strong>Навигация:</strong> Четыре таба &mdash; Заказы, График, Деньги, Ещё. Нет гамбургеров, нет вложенности.</p>
+      </section>
+
+      <!-- 7. Процесс -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Процесс</h2>
+        <ul>
+          <li>Исследование: интервью с тремя клинерами (WhatsApp), наблюдение за рабочим днём</li>
+          <li>User flow: три сценария &mdash; принять, выполнить, получить</li>
+          <li>Wireframes: бумага, 12 вариантов чеклиста</li>
+          <li>UI: Figma, 6 экранов, 2 итерации</li>
+          <li>Прототип: интерактивный Figma-прототип для тестирования</li>
+        </ul>
+      </section>
+
+      <a class="case-back" href="../index.html">&larr; Все проекты</a>
+
+    </div>
+  </main>
+
   <script src="../script.min.js"></script>
 </body>
 </html>
