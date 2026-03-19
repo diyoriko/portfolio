@@ -64,6 +64,7 @@
         <p><strong>Process:</strong> every screen went through five stages — Draft → WIP → DEV → PROD → Archive.</p>
         <p><strong>UX testing:</strong> 10-screen student prototype, 6-screen teacher prototype, 23-screen to-do list prototype. Tested with real students and teachers — iterations after each round.</p>
         <p><strong>Frameworks:</strong> Learning Experience Design. Zeigarnik effect — incomplete actions motivate return. Hick's law — fewer options, faster decisions.</p>
+        <p><strong>To-do:</strong> a separate design project within the dashboard. Weekly plan, three-week calendar, lesson groups by progress. Three iterations: hypothesis → prototype → UX test with real students. The system didn't ship — priorities shifted to goal setting.</p>
       </section>
 
       <hr class="case-separator">
@@ -292,6 +293,12 @@
         </picture>
         <div class="case-caption">Seven health states — from "all great" to "needs help across all skills"</div>
 
+        <picture>
+          <source srcset="../../assets/img/cases/skysmart/skysmart-progress-mobile.webp" type="image/webp">
+          <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-progress-mobile.png" alt="Mobile progress page" loading="lazy">
+        </picture>
+        <div class="case-caption">Mobile: same five-skill progress, adapted for phone</div>
+
         <blockquote class="case-quote">"I can finally see what my child learned this month" — a student's parent</blockquote>
 
         <section class="case-section">
@@ -305,6 +312,12 @@
           <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-achievements.png" alt="Dashboard with schedule, tests, and achievements" loading="lazy">
         </picture>
         <div class="case-caption">Quests, timers, and stars — gamification for students aged 4–12</div>
+
+        <section class="case-section">
+          <h3>Streaks and XP</h3>
+          <p>Alongside quests, designed a streak system. Model — Duolingo: consecutive day counter, freezes, experience points. "24 days in a row. 2 freezes left. You can skip 2 more days without losing your streak."</p>
+          <p>Onboarding — three tooltips: course map, progress flag, XP lightning bolt. Each explains one entity. Decision: streaks motivate without pressure. Missed a day — not punishment, just a gentle nudge.</p>
+        </section>
 
         <section class="case-section">
           <h3>Goal widget</h3>
@@ -349,8 +362,8 @@
             <div class="case-stat-label">levels A1 → C2</div>
           </div>
           <div class="case-stat">
-            <div class="case-stat-value">20+</div>
-            <div class="case-stat-label">3D objects and poses</div>
+            <div class="case-stat-value">7+</div>
+            <div class="case-stat-label">progression metaphors</div>
           </div>
         </div>
 
@@ -368,6 +381,18 @@
         <div class="case-caption">Three mascots: each with pose sets for success, error, waiting, congratulations</div>
 
         <section class="case-section">
+          <h3>El's personality</h3>
+          <p>Seven recommendation states, each with a unique tone:</p>
+          <ul>
+            <li>"Not great, but don't give up!" — weak results, encouragement</li>
+            <li>"Easy! You're studying great!" — all good, reinforcement</li>
+            <li>"Come back after your first lesson" — new student</li>
+            <li>"Good! Keep growing" — steady progress</li>
+          </ul>
+          <p>For parents — different register: "Max did well, studied very well this month." Same character, but adult tone, formal vocabulary, data focus. 200+ frame-by-frame animation keyframes: joy, sadness, waiting, congratulation. Each emotion — a separate sequence.</p>
+        </section>
+
+        <section class="case-section">
           <h3>Nine criteria</h3>
           <p>Defined requirements for 3D objects so the modeling team could work within a unified system:</p>
           <ul>
@@ -382,6 +407,21 @@
             <li>Series scalability</li>
           </ul>
           <p>The reference for the team: "Imagine how this would look in Pixar or Animal Crossing."</p>
+        </section>
+
+        <section class="case-section">
+          <h3>Finding the metaphor</h3>
+          <p>Before drawing badges, explored seven progression directions:</p>
+          <ul>
+            <li><strong>Aging</strong> — from infant to enlightened sage. Clear, but too literal</li>
+            <li><strong>Animated object</strong> — from pathetic pigeon to general pigeon. Funny, but not serious</li>
+            <li><strong>Vehicle</strong> — from scooter to rocket. Works visually, unrelated to language</li>
+            <li><strong>Primitive symbols</strong> — stars, gems, elements. Universal, but generic</li>
+            <li><strong>Abstract heraldry</strong> — coats of arms and shields. Beautiful, but feels militaristic</li>
+            <li><strong>Artifact cups</strong> — trophies and awards. Competitive, wrong for education</li>
+            <li><strong>Flower</strong> — from sprout to bloom. Organic, but hard to scale to 6 levels</li>
+          </ul>
+          <p>Anti-patterns: no militarism (swords, shields, epaulettes), no aggressive connotations. Explored British symbolism: bear, umbrella, teapot, double-decker bus. Outcome: simple hexagonal badges with progression through material and decoration.</p>
         </section>
 
         <section class="case-section">
