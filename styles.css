@@ -814,19 +814,10 @@ a.project-item .project-arrow {
   margin: 50px 0;
 }
 
-/* Images directly in case-body (non-tab cases) — align to content grid */
-.case-body > img.case-img-full {
-  max-width: 722px;
-  margin: 50px auto;
-  padding-left: 34px;
-  box-sizing: border-box;
-}
-
+/* Images directly in case-body (non-tab cases) — full width, same as tab panels */
 .case-body > .case-caption {
-  max-width: 722px;
-  margin: -40px auto 50px;
-  padding-left: 34px;
-  box-sizing: border-box;
+  max-width: 890px;
+  margin: -40px 0 50px max(0px, calc(50% - 327px));
 }
 
 /* Image containers — left-aligned with text, wider to the right */
@@ -846,8 +837,8 @@ a.project-item .project-arrow {
 }
 
 .case-tab-panel > .case-img-row {
-  max-width: 890px;
-  margin-left: max(0px, calc(50% - 327px));
+  max-width: none;
+  margin-left: 0;
 }
 
 /* Clickable images */
@@ -888,13 +879,12 @@ a.project-item .project-arrow {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 25px 0;
-  align-items: stretch;
+  align-items: start;
 }
 
 .case-img-row img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   border-radius: 20px;
   display: block;
 }
@@ -902,6 +892,16 @@ a.project-item .project-arrow {
 /* Phone-sized image */
 .case-img--phone {
   max-width: 282px;
+}
+
+/* Phone screenshot in tab panel — constrained width, left-aligned to content grid */
+.case-tab-panel > picture.case-img-phone {
+  max-width: 375px;
+  margin: 50px 0 50px max(0px, calc(50% - 327px));
+}
+
+.case-tab-panel > picture.case-img-phone .case-img-full {
+  margin: 0;
 }
 
 /* External links (Figma, Drive) */
@@ -1385,9 +1385,8 @@ a.project-item .project-arrow {
     margin-left: 0;
   }
 
-  .case-body > img.case-img-full,
   .case-body > .case-caption {
-    padding-left: 0;
+    margin-left: 0;
   }
 
   .case-back {
