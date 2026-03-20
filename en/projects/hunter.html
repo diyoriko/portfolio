@@ -71,7 +71,7 @@
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Push instead of pull</h2>
-        <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Claude Haiku.</p>
+        <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Groq Llama 3.3 70B.</p>
         <p>Three times a day (09:00, 13:00, 17:00 MSK) the bot scrapes hh.ru, Habr Career and Getmatch. Every vacancy goes through personal scoring 0–100. A morning digest arrives — only what actually fits.</p>
       </section>
 
@@ -93,7 +93,7 @@
         <span class="case-section-num">4</span>
         <h2 class="case-section-title">Cover letters in 5 seconds</h2>
         <p>Tap "Letter" — Claude receives the vacancy description, user profile, company context. It generates a cover letter that specifically addresses the requirements. No fabrication — only facts from the profile.</p>
-        <p>Don't like it — "Another version" regenerates with a different structure. Models alternate: Sonnet for quality, Haiku for speed.</p>
+        <p>Don't like it — "Another version" regenerates with a different structure. Gemini 2.5 Pro for letters, Groq for parsing — free tiers, zero AI costs.</p>
         <p>Each letter — 5 seconds instead of 15 minutes.</p>
       </section>
 
@@ -125,7 +125,7 @@
         <h2 class="case-section-title">Process and stack</h2>
         <p>The entire project — from product strategy and monetization to production — by one person.</p>
         <p><strong>Bot:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
-        <p><strong>AI:</strong> Anthropic SDK — Sonnet for letters, Haiku for resume parsing</p>
+        <p><strong>AI:</strong> Gemini 2.5 Pro for letters, Groq Llama 3.3 70B for parsing (free tiers)</p>
         <p><strong>Scrapers:</strong> hh.ru API + Habr Career + Getmatch, User-Agent rotation, rate-limiting</p>
         <p><strong>Infra:</strong> Railway 24/7 (~$5/mo), GitHub Actions (CI + backups), launchd (strategist)</p>
         <p><strong>Quality:</strong> 434 Vitest tests, pre-commit typecheck, CodeRabbit reviews</p>

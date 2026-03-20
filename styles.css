@@ -303,9 +303,6 @@ button {
 .project-list {
   display: flex;
   flex-direction: column;
-}
-
-.project-list {
   max-width: var(--content-max);
 }
 
@@ -324,9 +321,9 @@ button {
   border-top: 1px solid var(--line);
 }
 
-.project-item:hover .project-name-title,
-.project-item:hover .project-info-desc,
-.project-item:hover .project-arrow {
+.project-item:hover:not(:has(.project-name-link:hover)) .project-name-title,
+.project-item:hover:not(:has(.project-name-link:hover)) .project-info-desc,
+.project-item:hover:not(:has(.project-name-link:hover)) .project-arrow {
   color: var(--accent);
 }
 
@@ -573,10 +570,8 @@ a.project-item .project-arrow {
   margin-top: 24px;
 }
 
-/* Image captions */
+/* Image captions (typography only — layout handled by unified content-grid rules) */
 .case-caption {
-  max-width: 890px;
-  margin: -40px 0 50px max(0px, calc(50% - 327px));
   font-family: var(--font-sans);
   font-size: 14px;
   font-weight: 400;
@@ -661,6 +656,11 @@ a.project-item .project-arrow {
 
 .case-tab:not(.active):hover {
   background: rgba(30, 25, 25, 0.08);
+}
+
+.case-tab:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
 }
 
 .case-body {
@@ -814,31 +814,61 @@ a.project-item .project-arrow {
   margin: 50px 0;
 }
 
-/* Images directly in case-body (non-tab cases) — full width, same as tab panels */
-.case-body > .case-caption {
-  max-width: 890px;
-  margin: -40px 0 50px max(0px, calc(50% - 327px));
-}
+/* --- Case content grid: images, captions, slideshows, img-rows ---
+   Unified rules for both .case-body and .case-tab-panel.
+   Everything aligns to the 722px text column with 34px left gutter. */
 
-/* Image containers — left-aligned with text, wider to the right */
+.case-body > .case-img-full,
+.case-tab-panel > .case-img-full,
+.case-body > picture,
 .case-tab-panel > picture {
   display: block;
-  max-width: 890px;
-  margin: 50px 0 50px max(0px, calc(50% - 327px));
+  max-width: 722px;
+  margin: 50px auto;
+  padding-left: 34px;
+  box-sizing: border-box;
 }
 
+.case-body > picture .case-img-full,
 .case-tab-panel > picture .case-img-full {
   margin: 0;
 }
 
-.case-tab-panel > .case-slideshow-wrap {
-  max-width: 890px;
-  margin-left: max(0px, calc(50% - 327px));
+.case-body > .case-caption,
+.case-tab-panel > .case-caption {
+  max-width: 722px;
+  margin: -40px auto 50px;
+  padding-left: 34px;
 }
 
+.case-body > .case-slideshow-wrap,
+.case-tab-panel > .case-slideshow-wrap {
+  max-width: 722px;
+  margin: 25px auto;
+  padding-left: 34px;
+  box-sizing: border-box;
+}
+
+.case-body > .case-img-row,
 .case-tab-panel > .case-img-row {
+  max-width: 722px;
+  margin: 25px auto;
+  padding-left: 34px;
+  box-sizing: border-box;
+}
+
+/* Showcase sections (visual galleries after separator) — override text-grid constraints */
+.case-showcase > .case-img-full,
+.case-showcase > picture,
+.case-showcase > .case-img-row,
+.case-showcase > .case-slideshow-wrap {
   max-width: none;
-  margin-left: 0;
+  padding-left: 0;
+}
+
+.case-body > picture.case-img-phone {
+  max-width: 375px;
+  margin: 50px auto 50px max(0px, calc(50% - 344px));
 }
 
 /* Clickable images */
@@ -879,12 +909,18 @@ a.project-item .project-arrow {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 25px 0;
-  align-items: start;
+  align-items: stretch;
+}
+
+.case-img-row > picture,
+.case-img-row > img {
+  min-height: 0;
 }
 
 .case-img-row img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-radius: 20px;
   display: block;
 }
@@ -894,13 +930,18 @@ a.project-item .project-arrow {
   max-width: 282px;
 }
 
-/* Phone screenshot in tab panel — constrained width, left-aligned to content grid */
-.case-tab-panel > picture.case-img-phone {
+/* Phone screenshot — constrained width, left-aligned to content grid */
+picture.case-img-phone {
+  display: block;
   max-width: 375px;
   margin: 50px 0 50px max(0px, calc(50% - 327px));
 }
 
-.case-tab-panel > picture.case-img-phone .case-img-full {
+picture.case-img-phone img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
   margin: 0;
 }
 
@@ -1381,12 +1422,17 @@ a.project-item .project-arrow {
     font-size: 16px;
   }
 
-  .case-caption {
-    margin-left: 0;
-  }
-
-  .case-body > .case-caption {
-    margin-left: 0;
+  .case-body > .case-img-full,
+  .case-tab-panel > .case-img-full,
+  .case-body > picture,
+  .case-tab-panel > picture,
+  .case-body > .case-caption,
+  .case-tab-panel > .case-caption,
+  .case-body > .case-slideshow-wrap,
+  .case-tab-panel > .case-slideshow-wrap,
+  .case-body > .case-img-row,
+  .case-tab-panel > .case-img-row {
+    padding-left: 0;
   }
 
   .case-back {
@@ -1511,5 +1557,9 @@ a.project-item .project-arrow {
   .footer-links {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .main--case {
+    padding-top: 140px;
   }
 }

@@ -35,15 +35,15 @@
   <main class="main main--case">
     <div class="case-meta">Product designer · ENXT · 2025</div>
     <h1 class="case-h1">ENXT</h1>
-    <div class="case-tabs">
-      <button class="case-tab active" data-tab="booking">Booking</button>
-      <button class="case-tab" data-tab="groundops">Ground Ops</button>
+    <div class="case-tabs" role="tablist">
+      <button class="case-tab active" data-tab="booking" role="tab" aria-selected="true" aria-controls="panel-booking">Booking</button>
+      <button class="case-tab" data-tab="groundops" role="tab" aria-selected="false" aria-controls="panel-groundops">Ground Ops</button>
     </div>
 
     <div class="case-body">
 
       <!-- ======================== BOOKING ======================== -->
-      <div class="case-tab-panel active" data-panel="booking">
+      <div class="case-tab-panel active" data-panel="booking" id="panel-booking" role="tabpanel">
 
         <section class="case-section">
           <span class="case-section-num">1</span>
@@ -188,7 +188,7 @@
       </div>
 
       <!-- ======================== GROUND OPS ======================== -->
-      <div class="case-tab-panel" data-panel="groundops">
+      <div class="case-tab-panel" data-panel="groundops" id="panel-groundops" role="tabpanel">
 
         <section class="case-section">
           <span class="case-section-num">1</span>

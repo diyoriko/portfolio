@@ -37,17 +37,17 @@
     <div class="case-meta">Product Designer · Skyeng · 2021–2024</div>
     <h1 class="case-h1">Skysmart</h1>
 
-    <div class="case-tabs">
-      <button class="case-tab active" data-tab="dashboard">Dashboard</button>
-      <button class="case-tab" data-tab="goals">Goals</button>
-      <button class="case-tab" data-tab="progress">Progress</button>
-      <button class="case-tab" data-tab="3d">3D world</button>
+    <div class="case-tabs" role="tablist">
+      <button class="case-tab active" data-tab="dashboard" role="tab" aria-selected="true" aria-controls="panel-dashboard">Dashboard</button>
+      <button class="case-tab" data-tab="goals" role="tab" aria-selected="false" aria-controls="panel-goals">Goals</button>
+      <button class="case-tab" data-tab="progress" role="tab" aria-selected="false" aria-controls="panel-progress">Progress</button>
+      <button class="case-tab" data-tab="3d" role="tab" aria-selected="false" aria-controls="panel-3d">3D world</button>
     </div>
 
     <div class="case-body">
 
       <!-- ==================== Dashboard ==================== -->
-      <div class="case-tab-panel active" data-panel="dashboard">
+      <div class="case-tab-panel active" data-panel="dashboard" id="panel-dashboard" role="tabpanel">
 
       <section class="case-section">
         <h2 class="case-section-title">Three roles — one product</h2>
@@ -150,7 +150,7 @@
       </div>
 
       <!-- ==================== Goals ==================== -->
-      <div class="case-tab-panel" data-panel="goals">
+      <div class="case-tab-panel" data-panel="goals" id="panel-goals" role="tabpanel">
 
         <section class="case-section">
           <h2 class="case-section-title">Goal setting</h2>
@@ -230,7 +230,7 @@
       </div>
 
       <!-- ==================== Progress ==================== -->
-      <div class="case-tab-panel" data-panel="progress">
+      <div class="case-tab-panel" data-panel="progress" id="panel-progress" role="tabpanel">
 
         <picture>
           <source srcset="../../assets/img/cases/skysmart/skysmart-progress-hero.webp" type="image/webp">
@@ -338,7 +338,7 @@
       </div>
 
       <!-- ==================== 3D world ==================== -->
-      <div class="case-tab-panel" data-panel="3d">
+      <div class="case-tab-panel" data-panel="3d" id="panel-3d" role="tabpanel">
 
         <section class="case-section">
           <h2 class="case-section-title">3D world</h2>

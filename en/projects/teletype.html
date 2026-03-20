@@ -35,15 +35,15 @@
   <main class="main main--case">
     <div class="case-meta">Product designer · Teletype · 2025–2026</div>
     <h1 class="case-h1">Teletype</h1>
-    <div class="case-tabs">
-      <button class="case-tab active" data-tab="identity">Identity</button>
-      <button class="case-tab" data-tab="landing">Landing</button>
+    <div class="case-tabs" role="tablist">
+      <button class="case-tab active" data-tab="identity" role="tab" aria-selected="true" aria-controls="panel-identity">Identity</button>
+      <button class="case-tab" data-tab="landing" role="tab" aria-selected="false" aria-controls="panel-landing">Landing</button>
     </div>
 
     <div class="case-body">
 
       <!-- ======================== IDENTITY ======================== -->
-      <div class="case-tab-panel active" data-panel="identity">
+      <div class="case-tab-panel active" data-panel="identity" id="panel-identity" role="tabpanel">
 
         <!-- 1. Brief -->
         <section class="case-section">
@@ -139,6 +139,7 @@
 
         <hr class="case-separator">
 
+        <div class="case-showcase">
         <!-- Hero video with wordmark -->
         <div class="case-hero-video">
           <video autoplay loop muted playsinline poster="../../assets/img/cases/teletype/video-poster-01.jpg">
@@ -221,10 +222,12 @@
           </video>
         </div>
 
+        </div><!-- /.case-showcase -->
+
       </div>
 
       <!-- ======================== LANDING ======================== -->
-      <div class="case-tab-panel" data-panel="landing">
+      <div class="case-tab-panel" data-panel="landing" id="panel-landing" role="tabpanel">
 
         <section class="case-section">
           <span class="case-section-num">1</span>

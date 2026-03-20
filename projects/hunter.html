@@ -71,7 +71,7 @@
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Push вместо pull</h2>
-        <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Claude Haiku.</p>
+        <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Groq Llama 3.3 70B.</p>
         <p>Три раза в день (09:00, 13:00, 17:00) бот скрейпит hh.ru, Habr Career и Getmatch. Каждая вакансия проходит через персональный скоринг 0–100. Утром приходит дайджест — только то, что реально подходит.</p>
       </section>
 
@@ -93,7 +93,7 @@
         <span class="case-section-num">4</span>
         <h2 class="case-section-title">Сопроводительные за 5 секунд</h2>
         <p>Нажимаешь «Письмо» — Claude получает описание вакансии, профиль, контекст компании. Генерирует сопроводительное, которое адресно отвечает на требования. Без выдумок — только факты из профиля.</p>
-        <p>Не нравится — «Другой вариант» перегенерирует с другой структурой. Модели чередуются: Sonnet для качества, Haiku для скорости.</p>
+        <p>Не нравится — «Другой вариант» перегенерирует с другой структурой. Gemini 2.5 Pro для писем, Groq для парсинга — бесплатные тиры, нулевые затраты на AI.</p>
         <p>Каждое письмо — 5 секунд вместо 15 минут.</p>
       </section>
 
@@ -125,7 +125,7 @@
         <h2 class="case-section-title">Процесс и стек</h2>
         <p>Весь проект — от продуктовой стратегии и монетизации до продакшна — одним человеком.</p>
         <p><strong>Бот:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
-        <p><strong>AI:</strong> Anthropic SDK — Sonnet для писем, Haiku для парсинга резюме</p>
+        <p><strong>AI:</strong> Gemini 2.5 Pro для писем, Groq Llama 3.3 70B для парсинга (бесплатные тиры)</p>
         <p><strong>Скрейперы:</strong> hh.ru API + Habr Career + Getmatch, ротация User-Agent, rate-limiting</p>
         <p><strong>Инфра:</strong> Railway 24/7 (~$5/мес), GitHub Actions (CI + бэкапы), launchd (стратег)</p>
         <p><strong>Качество:</strong> 434 теста Vitest, pre-commit typecheck, CodeRabbit ревью</p>
