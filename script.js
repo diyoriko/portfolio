@@ -200,9 +200,7 @@ function initLightbox() {
   });
 
   overlay.addEventListener('click', (e) => {
-    /* Background click always closes. Image click closes unless zoomed. */
-    if (e.target === overlay) { closeOverlay(); return; }
-    if (e.target === lbImg && scale > 1.05) return;
+    /* Any click on overlay or image closes the lightbox immediately */
     closeOverlay();
   });
 
