@@ -381,6 +381,19 @@ button {
   animation: cursor-blink 1s step-end infinite;
 }
 
+.project-thumb--fd {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Futura PT", Futura, "Century Gothic", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
 @keyframes cursor-blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -939,19 +952,27 @@ a.project-item .project-arrow {
    Unified rules for both .case-body and .case-tab-panel.
    Everything aligns to the 722px text column with 34px left gutter. */
 
-.case-body > .case-img-scroll,
-.case-tab-panel > .case-img-scroll,
 .case-body > .case-img-full,
 .case-tab-panel > .case-img-full,
 .case-body > picture,
-.case-tab-panel > picture {
+.case-tab-panel > picture,
+.case-body > .case-img-scroll,
+.case-tab-panel > .case-img-scroll {
   display: block;
-  max-width: 722px;
-  margin: 30px auto;
-  padding-left: var(--content-gutter);
-  box-sizing: border-box;
+  max-width: calc(722px - var(--content-gutter));
+  margin: 30px auto 30px max(0px, calc(50% - 361px + var(--content-gutter)));
+}
+
+/* picture wrappers: neutralize .case-img-full visuals inherited by the wrapper */
+picture.case-img-full {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.case-body > picture img,
+.case-tab-panel > picture img {
   border-radius: var(--radius-sm);
-  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .case-body > picture .case-img-full,
@@ -991,6 +1012,7 @@ a.project-item .project-arrow {
 .case-body--gallery > picture {
   max-width: none;
   padding-left: 0;
+  margin-left: auto;
 }
 
 .case-body > picture.case-img-phone {
@@ -1044,10 +1066,16 @@ a.project-item .project-arrow {
   pointer-events: auto;
 }
 
-.case-lightbox img {
+.case-lightbox img,
+.case-lightbox video {
   max-width: 95vw;
   max-height: 95vh;
   object-fit: contain;
+}
+
+.case-video video,
+.case-hero-video video {
+  cursor: zoom-in;
 }
 
 /* Two-column image row */
@@ -1219,17 +1247,23 @@ picture.case-img-phone img {
 /* Videos inside text panels follow content grid */
 .case-tab-panel > .case-video,
 .case-body > .case-video {
-  max-width: 722px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: var(--content-gutter);
-  box-sizing: border-box;
+  max-width: calc(722px - var(--content-gutter));
+  margin: 25px auto 25px max(0px, calc(50% - 361px + var(--content-gutter)));
+}
+
+.case-video--borderless {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.case-video--borderless video {
+  box-shadow: none;
 }
 
 /* Showcase videos — full width */
 .case-showcase > .case-video {
   max-width: none;
-  padding-left: 0;
+  margin-left: auto;
 }
 
 /* Centered video (matches text column width) — used for ENXT-style inline screenshots */
@@ -1605,6 +1639,14 @@ picture.case-img-phone img {
   .case-tab-panel > .case-img-full,
   .case-body > picture,
   .case-tab-panel > picture,
+  .case-body > .case-img-scroll,
+  .case-tab-panel > .case-img-scroll,
+  .case-body > .case-video,
+  .case-tab-panel > .case-video {
+    margin-left: 0;
+    max-width: none;
+  }
+
   .case-body > .case-caption,
   .case-tab-panel > .case-caption,
   .case-body > .case-slideshow-wrap,

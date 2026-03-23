@@ -152,10 +152,11 @@ let observer;
 function initLightbox() {
   const overlay = document.createElement('div');
   overlay.className = 'case-lightbox';
-  overlay.innerHTML = '<img>';
+  overlay.innerHTML = '<img><video autoplay loop muted playsinline style="display:none">';
   document.body.appendChild(overlay);
 
   const lbImg = overlay.querySelector('img');
+  const lbVideo = overlay.querySelector('video');
   let scale = 1, panX = 0, panY = 0;
   const SCALE_MIN = 1, SCALE_MAX = 5, SCALE_STEP = 0.15;
 
@@ -178,12 +179,21 @@ function initLightbox() {
     applyTransform();
   }
 
-  function openOverlay(src) {
-    lbImg.src = src;
-    lbImg.style.maxWidth = '95vw';
-    lbImg.style.maxHeight = '95vh';
-    lbImg.style.width = 'auto';
-    lbImg.style.height = 'auto';
+  function openOverlay(src, isVideo) {
+    if (isVideo) {
+      lbImg.style.display = 'none';
+      lbVideo.style.display = '';
+      lbVideo.src = src;
+      lbVideo.play();
+    } else {
+      lbVideo.style.display = 'none';
+      lbImg.style.display = '';
+      lbImg.src = src;
+      lbImg.style.maxWidth = '95vw';
+      lbImg.style.maxHeight = '95vh';
+      lbImg.style.width = 'auto';
+      lbImg.style.height = 'auto';
+    }
     resetZoom();
     overlay.classList.add('open');
     overlay.style.touchAction = 'none';
@@ -192,10 +202,23 @@ function initLightbox() {
   function closeOverlay() {
     overlay.classList.remove('open');
     overlay.style.touchAction = '';
+    lbVideo.pause();
+    lbVideo.removeAttribute('src');
+    lbVideo.style.display = 'none';
+    lbImg.style.display = '';
     resetZoom();
   }
 
   document.addEventListener('click', (e) => {
+    /* Video lightbox */
+    const vid = e.target.closest('.case-video video, .case-hero-video video');
+    if (vid) {
+      const source = vid.querySelector('source[src]');
+      const src = source ? source.src : vid.src;
+      openOverlay(src, true);
+      return;
+    }
+    /* Image lightbox */
     const img = e.target.closest('.case-img-full, .case-img-row img');
     if (!img) return;
     let src = img.src;
