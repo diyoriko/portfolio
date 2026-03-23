@@ -239,7 +239,7 @@ button {
 
 /* Mobile menu overlay */
 .nav-mobile {
-  display: none;
+  display: flex;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0;
@@ -249,13 +249,18 @@ button {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  visibility: hidden;
   opacity: 0;
-  transition: opacity var(--transition-base);
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
 }
 
 .nav-mobile.open {
-  display: flex;
+  visibility: visible;
   opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .nav-mobile a {
@@ -608,6 +613,38 @@ a.project-item .project-arrow {
   margin-top: 4px;
 }
 
+/* Previous / Next case navigation */
+.case-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 722px;
+  margin: 40px auto 0;
+  padding: 0 34px;
+  box-sizing: border-box;
+}
+.case-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 25px;
+  transition: opacity 0.2s;
+  background: linear-gradient(var(--accent), var(--accent)) 0 100% / 100% 1px no-repeat;
+  padding-bottom: 2px;
+}
+.case-nav-link:hover {
+  background-size: 0 1px;
+}
+.case-nav-dir {
+  font-size: 22px;
+}
+.case-nav-next {
+  margin-left: auto;
+}
+
 .case-back {
   display: block;
   max-width: 722px;
@@ -765,6 +802,30 @@ a.project-item .project-arrow {
   font-weight: 600;
 }
 
+/* Iteration timeline (v1–v7 compact cards) */
+.case-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 20px 0;
+}
+.case-timeline-item {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+.case-timeline-ver {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--accent);
+  min-width: 28px;
+  flex-shrink: 0;
+}
+.case-timeline-text {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 /* Styled blockquote for user research quotes */
 .case-quote {
   max-width: 722px;
@@ -875,10 +936,11 @@ a.project-item .project-arrow {
   margin: 50px auto 50px max(0px, calc(50% - 344px));
 }
 
-/* Bordered images — visible outline + subtle shadow for screenshots that blend with white background */
+/* Bordered images — visible outline for screenshots that blend with white background */
 .case-img-bordered .case-img-full,
 .case-img-bordered img {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
 
 /* Clickable images */
@@ -1459,6 +1521,10 @@ picture.case-img-phone img {
   .case-body > .case-img-row,
   .case-tab-panel > .case-img-row {
     padding-left: 0;
+  }
+
+  .case-nav {
+    padding: 0;
   }
 
   .case-back {

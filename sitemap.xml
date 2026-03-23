@@ -133,13 +133,15 @@
     <loc>https://diyor.design/projects/osme.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
-    <priority>0.5</priority>
+    <lastmod>2026-03-23</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/osme.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
-    <priority>0.4</priority>
+    <lastmod>2026-03-23</lastmod>
+    <priority>0.7</priority>
   </url>
 
   <url>
