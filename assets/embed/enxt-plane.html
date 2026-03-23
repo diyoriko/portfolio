@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; }
+  body {
+    background: #c2dff5;
+    position: relative;
+  }
+  .cloud {
+    position: absolute;
+    background: rgba(255,255,255,0.85);
+    border-radius: 50%;
+    filter: blur(2px);
+  }
+  .c1 {
+    width: 40px; height: 16px;
+    top: 30%;
+    animation: drift 6s linear infinite;
+  }
+  .c1::before {
+    content: '';
+    position: absolute;
+    width: 22px; height: 14px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    top: -7px; left: 10px;
+  }
+  .c2 {
+    width: 28px; height: 12px;
+    top: 60%;
+    animation: drift 8s linear 2s infinite;
+    opacity: 0.7;
+  }
+  .c3 {
+    width: 50px; height: 18px;
+    top: 48%;
+    animation: drift 10s linear 5s infinite;
+    opacity: 0.5;
+  }
+  .c3::before {
+    content: '';
+    position: absolute;
+    width: 28px; height: 16px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 50%;
+    top: -9px; left: 14px;
+  }
+  @keyframes drift {
+    0%   { left: calc(100% + 10px); }
+    100% { left: -60px; }
+  }
+  /* Wing hint at bottom */
+  .wing {
+    position: absolute;
+    bottom: -4px;
+    left: -10%;
+    width: 120%;
+    height: 28px;
+    background: linear-gradient(0deg, #a8a8a8 0%, #d0d0d0 40%, transparent 100%);
+    transform: rotate(-3deg);
+    opacity: 0.35;
+  }
+</style>
+</head>
+<body>
+<div class="cloud c1"></div>
+<div class="cloud c2"></div>
+<div class="cloud c3"></div>
+<div class="wing"></div>
+</body>
+</html>

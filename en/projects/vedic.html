@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vedic Turkiye — Diyor Khakimov</title>
-  <meta name="description" content="Vedic Turkiye case study: Turkey's first digital Vedic astrology platform. Product strategy, brand, design, development.">
-  <meta property="og:title" content="Vedic Turkiye — Diyor Khakimov">
+  <title>Vedik Astroloji — Diyor Khakimov</title>
+  <meta name="description" content="Vedik Astroloji case study: Turkey's first digital Vedic astrology platform. Product strategy, brand, design, development.">
+  <meta property="og:title" content="Vedik Astroloji — Diyor Khakimov">
   <meta property="og:description" content="Turkey's first digital Vedic astrology platform. Product, brand, development.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-vedic.png">
   <meta property="og:type" content="article">
@@ -35,7 +35,10 @@
   <main class="main main--case">
 
     <div class="case-meta">Product, identity, development · Vedik Astroloji Türkiye · 2026</div>
-    <h1 class="case-h1">Vedic Turkiye</h1>
+    <div class="case-header">
+      <div class="case-header-thumb"><iframe src="../../assets/embed/vedic-petal.html" loading="lazy"></iframe></div>
+      <h1 class="case-h1">Vedik Astroloji</h1>
+    </div>
 
     <div class="case-body">
 
@@ -43,74 +46,99 @@
       <section class="case-section">
         <span class="case-section-num">1</span>
         <h2 class="case-section-title">Zero market</h2>
-        <p>Turkey's astrology market is $5M+. Faladdin alone reached 20 million downloads. Vedic astrology in Turkey: zero digital products. 2–3 practitioners, all offline.</p>
-        <p>Dr. Sugata — PhD from Amrita University, 17 years of practice, author of "Karma ve Karmanın Efendisi: Saturn," Sanskrit instructor. The only expert with an academic background in the region. Needs a platform.</p>
+        <p>Turkey's astrology market: $5M+. One app, Faladdin, hit 20 million downloads. Vedic astrology in Turkey: zero digital products.</p>
+        <p>The goal — design and launch a platform from scratch: landing page, birth chart calculator, paid reports, glossary, forum. Bilingual, monetized through Shopier.</p>
       </section>
 
       <div class="case-stats">
         <div class="case-stat">
+          <div class="case-stat-value">$5M+</div>
+          <div class="case-stat-label">astrology market in Turkey</div>
+        </div>
+        <div class="case-stat">
           <div class="case-stat-value">0</div>
-          <div class="case-stat-label">competitors in the niche</div>
+          <div class="case-stat-label">competitors in Vedic niche</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">21</div>
-          <div class="case-stat-label">page client brief</div>
+          <div class="case-stat-value">6</div>
+          <div class="case-stat-label">products on platform</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">5</div>
-          <div class="case-stat-label">API integrations</div>
-        </div>
-        <div class="case-stat">
-          <div class="case-stat-value">1</div>
-          <div class="case-stat-label">day to MVP</div>
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">APIs: calc, geocode, timezones</div>
         </div>
       </div>
 
-      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-hero.png" alt="Vedik Astroloji — hero section with Flora palette and serif typography" loading="lazy">
-      <div class="case-caption">Landing: light Flora theme, dusty rose palette, New York serif, petal animations</div>
+      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-hero-new.png" alt="Vedik Astroloji — landing page with hero section, Flora palette" loading="lazy">
+      <div class="case-caption">Landing: Flora palette, New York serif, StarField background, Framer Motion animations</div>
 
       <!-- 2. Not fortune-telling -->
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Not fortune-telling — education</h2>
-        <p>2025: Faladdin's founder was detained. "Fal" (fortune-telling) carries legal risk in Turkey. Positioning decision: education and self-awareness, not predictions.</p>
-        <p>"Shows a tendency" instead of "this will happen." Classical texts (BPHS, Phaladeepika) as the source, not intuition. Platform brand, not personal consulting. Consultations, courses, community — moved to a future personal site for the expert.</p>
+        <p>2025: Faladdin's founder was arrested. "Fal" (fortune-telling) is a legal risk in Turkey. Positioning: education and self-awareness, not predictions. "Shows a tendency" instead of "this will happen." Classical texts (BPHS, Phaladeepika, Brihat Jataka) as the source. The platform explains concepts — Lagna, Rashi, Nakshatras, Dasha — in Turkish.</p>
       </section>
 
-      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-sade-sati.png" alt="Sade Sati — educational page about Saturn's transit" loading="lazy">
-      <div class="case-caption">Sade Sati: three phases of Saturn's transit, educational content</div>
+      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-features.png" alt="Platform — 6 products: calculator, Sade Sati, Dasha, glossary, consulting, forum" loading="lazy">
+      <div class="case-caption">Six products: calculator, Sade Sati report, Dasha Timing, glossary, consulting, forum</div>
 
       <!-- 3. Calculator -->
       <section class="case-section">
         <span class="case-section-num">3</span>
         <h2 class="case-section-title">Birth chart calculator</h2>
-        <p>Step-by-step form: date → time → city. Three APIs orchestrated: VedAstro for calculations, OpenStreetMap for geocoding, TimeAPI for timezones.</p>
-        <p>AI interprets the chart. Free tier: Groq (Llama 3.3 70B). Paid reports: Claude only — quality must match the price. Calculator launched in beta. The expert tested her own chart, found errors. Accuracy over speed.</p>
+        <p>Step-by-step form: date, time, city. VedAstro for calculations, OpenStreetMap for geocoding, TimeAPI for time zones. Real astronomical calculations, not generative AI. Free tier: basic chart. Paid reports: detailed AI interpretation via Claude. The calculator is embedded right in the landing — try it without navigating away.</p>
       </section>
 
       <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-calculator.png" alt="Birth chart calculator — step-by-step form" loading="lazy">
-      <div class="case-caption">Calculator: step-by-step form, beta banner</div>
+      <div class="case-caption">Calculator: step-by-step form, embedded in landing</div>
+
+      <!-- 4. Sade Sati -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Sade Sati — flagship product</h2>
+        <p>Saturn's 7.5-year transit through three phases. For many in Turkey — their first encounter with Vedic astrology. Personalized report: timeline, current phase, recommendations.</p>
+        <p>Content strategy: Sade Sati as the entry point. Educational page explains the concept, calculator shows personal dates, paid report provides deep analysis.</p>
+      </section>
+
+      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-sade-sati-new.png" alt="Sade Sati — educational page about Saturn transit" loading="lazy">
+      <div class="case-caption">Sade Sati: educational content, three transit phases, personal timeline</div>
 
       <hr class="case-separator">
 
-      <!-- 4. Monetization -->
-      <section class="case-section">
-        <span class="case-section-num">4</span>
-        <h2 class="case-section-title">Three revenue tiers</h2>
-        <p>Free tier: calculator, blog, 50+ term glossary. Goal — SEO traffic and email capture. Zero competition for Turkish Vedic search terms.</p>
-        <p>Paid reports: Sade Sati (Saturn transit), birth chart, bundle. 799–1,499 TRY with installments via Shopier. Taksit (installment payments) is a cultural norm in Turkey.</p>
-        <p>Future: "VedikCircle" subscription, an 8-week course, personal consultations. Each tier uses a different AI model. Free stays free. Premium pays for quality.</p>
-      </section>
-
-      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-reports.png" alt="Premium reports — pricing cards" loading="lazy">
-      <div class="case-caption">Reports: Sade Sati 799₺, birth chart 999₺, bundle 1,499₺</div>
-
-      <!-- 5. Role -->
+      <!-- 5. Content platform -->
       <section class="case-section">
         <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Content platform</h2>
+        <p>Glossary of 50+ Vedic terms in Turkish. Each term has a page with the Sanskrit original, explanation, and context. Foundation for SEO: zero competition for Turkish Vedic queries. Forum for discussions, blog for educational articles, "Weekly Stellar Insights" newsletter. Everything bilingual: Turkish + English through an i18n system.</p>
+      </section>
+
+      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-forum.png" alt="Forum — community discussion space" loading="lazy">
+      <div class="case-caption">Forum: discussions, questions, community — Turkey's first Vedic community</div>
+
+      <!-- 6. Monetization -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
+        <h2 class="case-section-title">Three revenue tiers</h2>
+        <p>Free: calculator, blog, glossary, forum. Goal: traffic and email list.</p>
+        <p>Paid reports: Sade Sati, birth chart, bundle. 799–1,499 TRY via Shopier with taksit (installments — a cultural norm in Turkey).</p>
+        <p>Future: "VedikCircle" subscription, courses, personal consultations.</p>
+      </section>
+
+      <img class="case-img-full" src="../../assets/img/cases/vedic/vedic-reports.png" alt="Paid reports — pricing cards" loading="lazy">
+      <div class="case-caption">Reports: Sade Sati 799₺, birth chart 999₺, bundle 1,499₺</div>
+
+      <!-- 7. Stack -->
+      <section class="case-section">
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Stack</h2>
+        <p>Next.js 16 (App Router), TypeScript, Tailwind CSS v4. Framer Motion for animations. Plausible.io for analytics. VedAstro + Prokerala + VedicAstroAPI for astronomical calculations. Claude AI for interpretations. Shopier for payments. Vercel for deployment.</p>
+      </section>
+
+      <!-- 8. Role -->
+      <section class="case-section">
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Role</h2>
-        <p>Sole designer and developer on the project. Researched the market and regulatory risks, split the brand into a platform and the expert's personal site, designed a step-by-step calculator with Turkish-first UX and Sanskrit term explanations.</p>
-        <p>Built the technical architecture around five APIs and an AI model cascade, wrote 50+ glossary terms, set up the SEO strategy, and shipped the project from strategy to deploy in one day.</p>
+        <p>Sole designer and developer. Conducted market analysis, split the brand into a platform and expert's personal site, designed all pages and components. Wrote all the code: landing, calculator, forum, glossary, i18n, payment integration. 50+ glossary terms. Set up SEO strategy targeting zero competition.</p>
       </section>
 
       <div class="case-links">
@@ -128,7 +156,6 @@
           <span class="case-nav-dir">→</span>
         </a>
       </div>
-
 
     </div>
   </main>

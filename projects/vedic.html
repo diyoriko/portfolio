@@ -35,7 +35,10 @@
   <main class="main main--case">
 
     <div class="case-meta">Продукт, айдентика, разработка · Vedik Astroloji Türkiye · 2026</div>
-    <h1 class="case-h1">Vedik Astroloji</h1>
+    <div class="case-header">
+      <div class="case-header-thumb"><iframe src="../assets/embed/vedic-petal.html" loading="lazy"></iframe></div>
+      <h1 class="case-h1">Vedik Astroloji</h1>
+    </div>
 
     <div class="case-body">
 
@@ -43,74 +46,98 @@
       <section class="case-section">
         <span class="case-section-num">1</span>
         <h2 class="case-section-title">Нулевой рынок</h2>
-        <p>Рынок астрологии в Турции — $5M+. Одно приложение Faladdin набрало 20 миллионов загрузок. Ведическая астрология в Турции: ноль цифровых продуктов. 2–3 практика, все работают офлайн.</p>
-        <p>Dr. Sugata — PhD из Amrita University, 17 лет практики, автор книги «Karma ve Karmanın Efendisi: Saturn», преподаватель санскрита. Единственный эксперт с академическим бэкграундом в регионе. Нужна платформа.</p>
+        <p>Рынок астрологии в Турции — $5M+. Одно приложение Faladdin набрало 20 миллионов загрузок. Ведическая астрология в Турции: ноль цифровых продуктов.</p>
+        <p>Задача — спроектировать и запустить платформу с нуля: лендинг, калькулятор натальной карты, платные отчёты, глоссарий, форум. Двуязычная, с монетизацией через Shopier.</p>
       </section>
 
       <div class="case-stats">
         <div class="case-stat">
+          <div class="case-stat-value">$5M+</div>
+          <div class="case-stat-label">рынок астрологии в Турции</div>
+        </div>
+        <div class="case-stat">
           <div class="case-stat-value">0</div>
-          <div class="case-stat-label">конкурентов в нише</div>
+          <div class="case-stat-label">конкурентов в ведической нише</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">21</div>
-          <div class="case-stat-label">страница брифа</div>
+          <div class="case-stat-value">6</div>
+          <div class="case-stat-label">продуктов на платформе</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">5</div>
-          <div class="case-stat-label">API-интеграций</div>
-        </div>
-        <div class="case-stat">
-          <div class="case-stat-value">1</div>
-          <div class="case-stat-label">день до MVP</div>
+          <div class="case-stat-value">3</div>
+          <div class="case-stat-label">API: расчёты, геокод, таймзоны</div>
         </div>
       </div>
 
-      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-hero.png" alt="Vedik Astroloji — герой-секция с Flora-палитрой и сериф-типографикой" loading="lazy">
-      <div class="case-caption">Лендинг: светлая Flora-тема, пудрово-розовая палитра, антиква New York, анимация лепестков</div>
+      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-hero-new.png" alt="Vedik Astroloji — лендинг с hero-секцией, Flora-палитра" loading="lazy">
+      <div class="case-caption">Лендинг: Flora-палитра, антиква New York, StarField-фон, Framer Motion анимации</div>
 
       <!-- 2. Не гадание -->
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Не гадание — образование</h2>
-        <p>2025: основателя Faladdin задержали. «Fal» (гадание) — юридический риск в Турции. Решение по позиционированию: образование и самопознание, не предсказания.</p>
-        <p>«Показывает тенденцию» вместо «это произойдёт». Классические тексты (BPHS, Phaladeepika) как источник, не интуиция. Платформа-бренд, не персональный консалтинг. Консультации, курсы, сообщество — вынесены на будущий личный сайт эксперта.</p>
+        <p>2025: основателя Faladdin задержали. «Fal» (гадание) — юридический риск в Турции. Позиционирование: образование и самопознание, не предсказания. «Показывает тенденцию» вместо «это произойдёт». Классические тексты (BPHS, Phaladeepika, Brihat Jataka) как источник. Платформа объясняет концепции — Lagna, Rashi, Nakshatras, Dasha — на турецком языке.</p>
       </section>
 
-      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-sade-sati.png" alt="Sade Sati — образовательная страница о транзите Сатурна" loading="lazy">
-      <div class="case-caption">Sade Sati: три фазы транзита Сатурна, образовательный контент</div>
+      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-features.png" alt="Платформа — 6 продуктов: калькулятор, Sade Sati, Dasha, глоссарий, консультации, форум" loading="lazy">
+      <div class="case-caption">Шесть продуктов: калькулятор, Sade Sati отчёт, Dasha Timing, глоссарий, консультации, форум</div>
 
       <!-- 3. Калькулятор -->
       <section class="case-section">
         <span class="case-section-num">3</span>
         <h2 class="case-section-title">Калькулятор натальной карты</h2>
-        <p>Пошаговая форма: дата → время → город. Три API: VedAstro для расчётов, OpenStreetMap для геокодинга, TimeAPI для часовых поясов.</p>
-        <p>AI интерпретирует карту. Бесплатный уровень: Groq (Llama 3.3 70B). Платные отчёты: только Claude — качество должно соответствовать цене. Калькулятор запущен в бете. Эксперт проверила свою карту, нашла ошибки. Точность важнее скорости запуска.</p>
+        <p>Пошаговая форма: дата, время, город. VedAstro для расчётов, OpenStreetMap для геокодинга, TimeAPI для часовых поясов. Реальные астрономические вычисления, не генеративный AI. Бесплатный уровень — базовая карта. Платные отчёты — детальная AI-интерпретация через Claude. Калькулятор встроен прямо в лендинг, можно попробовать без перехода на отдельную страницу.</p>
       </section>
 
       <img class="case-img-full" src="../assets/img/cases/vedic/vedic-calculator.png" alt="Калькулятор натальной карты — пошаговая форма" loading="lazy">
-      <div class="case-caption">Калькулятор: пошаговая форма, бета-баннер</div>
+      <div class="case-caption">Калькулятор: пошаговая форма, встроен в лендинг</div>
+
+      <!-- 4. Sade Sati -->
+      <section class="case-section">
+        <span class="case-section-num">4</span>
+        <h2 class="case-section-title">Sade Sati — флагманский продукт</h2>
+        <p>7,5-летний цикл транзита Сатурна через три фазы. Для многих турков — первое знакомство с ведической астрологией. Персонализированный отчёт: временная шкала, текущая фаза, рекомендации. Контент-стратегия строится вокруг Sade Sati как точки входа: образовательная страница объясняет концепцию, калькулятор показывает персональные даты, платный отчёт даёт глубокий анализ.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-sade-sati-new.png" alt="Sade Sati — образовательная страница о транзите Сатурна" loading="lazy">
+      <div class="case-caption">Sade Sati: образовательный контент, три фазы транзита, персональная временная шкала</div>
 
       <hr class="case-separator">
 
-      <!-- 4. Монетизация -->
+      <!-- 5. Контент-платформа -->
       <section class="case-section">
-        <span class="case-section-num">4</span>
+        <span class="case-section-num">5</span>
+        <h2 class="case-section-title">Контент-платформа</h2>
+        <p>Глоссарий из 50+ ведических терминов на турецком. Каждый термин — страница с санскритским оригиналом, объяснением и контекстом. Основа для SEO: нулевая конкуренция по турецким ведическим запросам. Форум — пространство для обсуждений. Блог — образовательные статьи. Рассылка «Weekly Stellar Insights». Всё билингвально: турецкий + английский через i18n-систему.</p>
+      </section>
+
+      <img class="case-img-full" src="../assets/img/cases/vedic/vedic-forum.png" alt="Форум — пространство для обсуждений сообщества" loading="lazy">
+      <div class="case-caption">Форум: обсуждения, вопросы, сообщество — первое ведическое комьюнити в Турции</div>
+
+      <!-- 6. Монетизация -->
+      <section class="case-section">
+        <span class="case-section-num">6</span>
         <h2 class="case-section-title">Три уровня дохода</h2>
-        <p>Бесплатный уровень: калькулятор, блог, глоссарий из 50+ терминов. Цель — SEO-трафик и email-сбор. Нулевая конкуренция по турецким ведическим запросам.</p>
-        <p>Платные отчёты: Sade Sati (транзит Сатурна), натальная карта, бандл. 799–1 499 TRY с рассрочкой через Shopier. Taksit (рассрочка) — культурная норма в Турции.</p>
-        <p>Будущее: подписка «VedikCircle», 8-недельный курс, персональные консультации. Каждый уровень использует свою AI-модель. Бесплатное остаётся бесплатным. Премиум платит за качество.</p>
+        <p>Бесплатный: калькулятор, блог, глоссарий, форум. Цель — трафик и email-база.</p>
+        <p>Платные отчёты: Sade Sati, натальная карта, бандл. 799–1 499 TRY через Shopier с taksit (рассрочка — культурная норма в Турции).</p>
+        <p>Будущее: подписка «VedikCircle», курсы, персональные консультации.</p>
       </section>
 
       <img class="case-img-full" src="../assets/img/cases/vedic/vedic-reports.png" alt="Платные отчёты — карточки с ценами" loading="lazy">
       <div class="case-caption">Отчёты: Sade Sati 799₺, натальная карта 999₺, бандл 1 499₺</div>
 
-      <!-- 5. Роль -->
+      <!-- 7. Стек -->
       <section class="case-section">
-        <span class="case-section-num">5</span>
+        <span class="case-section-num">7</span>
+        <h2 class="case-section-title">Стек</h2>
+        <p>Next.js 16 (App Router), TypeScript, Tailwind CSS v4. Framer Motion для анимаций. Plausible.io для аналитики. VedAstro + Prokerala + VedicAstroAPI для астрономических расчётов. Claude AI для интерпретаций. Shopier для платежей. Vercel для деплоя.</p>
+      </section>
+
+      <!-- 8. Роль -->
+      <section class="case-section">
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Роль</h2>
-        <p>Единственный дизайнер и разработчик на проекте. Провёл анализ рынка и регуляторных рисков, разделил бренд на платформу и персональный сайт эксперта, спроектировал пошаговый калькулятор с Turkish-first UX и пояснениями санскритских терминов.</p>
-        <p>Собрал техническую архитектуру из пяти API и каскада AI-моделей, написал 50+ терминов глоссария, настроил SEO-стратегию и довёл проект от стратегии до деплоя за один день.</p>
+        <p>Единственный дизайнер и разработчик. Провёл анализ рынка, разделил бренд на платформу и персональный сайт эксперта, спроектировал все страницы и компоненты. Написал весь код: лендинг, калькулятор, форум, глоссарий, i18n, платёжную интеграцию. 50+ терминов глоссария. Настроил SEO-стратегию под нулевую конкуренцию.</p>
       </section>
 
       <div class="case-links">
@@ -128,7 +155,6 @@
           <span class="case-nav-dir">→</span>
         </a>
       </div>
-
 
     </div>
   </main>

@@ -34,7 +34,10 @@
 
   <main class="main main--case">
     <div class="case-meta">Product designer · ENXT · 2025</div>
-    <h1 class="case-h1">ENXT</h1>
+    <div class="case-header">
+      <div class="case-header-thumb"><iframe src="../../assets/embed/enxt-plane.html" loading="lazy"></iframe></div>
+      <h1 class="case-h1">ENXT</h1>
+    </div>
     <div class="case-tabs" role="tablist">
       <button class="case-tab active" data-tab="booking" role="tab" aria-selected="true" aria-controls="panel-booking">Booking</button>
       <button class="case-tab" data-tab="groundops" role="tab" aria-selected="false" aria-controls="panel-groundops">Ground Ops</button>
@@ -48,9 +51,7 @@
         <section class="case-section">
           <span class="case-section-num">1</span>
           <h2 class="case-section-title">Context</h2>
-          <p>ENXT is a B2B platform for managing aviation cargo operations.</p>
-          <p>The AWB (Air Waybill) creation page is the key working screen for agents and operators: this is where shipments are formed, routes are added, codes are verified, and operational parameters are entered.</p>
-          <p>This screen was used daily and directly impacted cargo processing speed.</p>
+          <p>ENXT is a B2B platform for managing aviation cargo operations. The AWB (Air Waybill) creation page is the key working screen for agents and operators: this is where shipments are formed, routes are added, codes are verified, and operational parameters are entered. This screen was used daily and directly impacted cargo processing speed.</p>
         </section>
 
         <section class="case-section">
@@ -137,8 +138,7 @@
         <section class="case-section">
           <span class="case-edge-label">Redesign v1.0</span>
           <h2 class="case-section-title">Structural rebuild and systematization</h2>
-          <p>The project was run in a dev-first environment and used an outdated version of Material UI (React), with numerous custom style overrides and local solutions.</p>
-          <p>So in the first redesign iteration I didn't change the business logic of the flow, but focused on a systematic rebuild of the interface.</p>
+          <p>The project was run in a dev-first environment and used an outdated version of Material UI (React), with numerous custom style overrides and local solutions. So in the first redesign iteration I didn't change the business logic of the flow, but focused on a systematic rebuild of the interface.</p>
           <h3>Technical work:</h3>
           <ul>
             <li>Migration to a current version of Material UI</li>
@@ -167,8 +167,7 @@
         <section class="case-section">
           <span class="case-edge-label">Redesign v2.0</span>
           <h2 class="case-section-title">Architectural optimization of the flow</h2>
-          <p>In the second redesign iteration I reconsidered not just the visual system, but the page interaction structure itself.</p>
-          <p>What changed:</p>
+          <p>In the second redesign iteration I reconsidered not just the visual system, but the page interaction structure itself. What changed:</p>
           <ul>
             <li>Linear vertical form transformed into modular navigation</li>
             <li>Key sections moved to a top segmented control</li>
@@ -177,7 +176,7 @@
             <li>Routing section simplified and restructured</li>
             <li>Revenue and Operational Details optimized</li>
           </ul>
-          <p>The key difference between v2 and v1.</p>
+          <p>The key difference between v2 and v1:</p>
           <iframe class="case-embed" src="../../assets/embed/enxt-compare-table.html" width="100%" height="180" title="v1 vs v2 comparison"></iframe>
         </section>
 
@@ -196,8 +195,7 @@
         <section class="case-section">
           <span class="case-section-num">1</span>
           <h2 class="case-section-title">Context</h2>
-          <p>Ground Ops is a module within the ENXT platform for managing aircraft turnaround.</p>
-          <p>Turnaround is the period between arrival and departure. During this time, dozens of actions need to be completed by different teams:</p>
+          <p>Ground Ops is a module within the ENXT platform for managing aircraft turnaround. Turnaround is the period between arrival and departure. During this time, dozens of actions need to be completed by different teams:</p>
           <ul>
             <li>unloading</li>
             <li>loading</li>
@@ -218,7 +216,7 @@
           <p>I started by separating roles and identified the core principle:</p>
           <ul>
             <li>Everything configured by the coordinator must display correctly for the executor</li>
-            <li>Everything the executor does must fit logically into the overall time model.</li>
+            <li>Everything the executor does must fit logically into the overall time model</li>
           </ul>
           <p>Importantly, aircraft turnaround is a hierarchical system: Template &rarr; Processes &rarr; Actions &rarr; Parameters.</p>
           <p>Each action:</p>
@@ -250,8 +248,7 @@
         <!-- CREATOR -->
         <section class="case-section">
           <span class="case-edge-label">Creator</span>
-          <p>The main organizing principle is time. It is displayed as a timeline on a minute scale. Actions are created on the timeline, divided into arrival and departure stages. Each action has a layer of parameters (nested fields), shown in a panel on the right.</p>
-          <p>There is an activity log.</p>
+          <p>The main organizing principle is time. It is displayed as a timeline on a minute scale. Actions are created on the timeline, divided into arrival and departure stages. Each action has a layer of parameters (nested fields), shown in a panel on the right. An activity log tracks all changes.</p>
         </section>
 
         <div class="case-video case-video--text-aligned">
@@ -270,9 +267,7 @@
             <li>what's next</li>
             <li>what's already completed</li>
           </ul>
-          <p>I divided tasks into three time groups: current, upcoming, done.</p>
-          <p>The individual action screen includes: time, stage, timer, input form, control buttons (Start / Finish / Report Issue).</p>
-          <p>Interface states change depending on the execution stage.</p>
+          <p>I divided tasks into three time groups: current, upcoming, done. The individual action screen includes: time, stage, timer, input form, control buttons (Start / Finish / Report Issue). Interface states change depending on the execution stage.</p>
         </section>
 
         <div class="case-video case-video--text-aligned">

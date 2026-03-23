@@ -35,7 +35,10 @@
   <main class="main main--case">
 
     <div class="case-meta">Product Designer · Skyeng · 2021–2024</div>
-    <h1 class="case-h1">Skysmart</h1>
+    <div class="case-header">
+      <picture class="case-header-thumb"><source srcset="../../assets/img/thumb-skysmart-anim.webp" type="image/webp"><img src="../../assets/img/thumb-skysmart.png" alt="Skysmart" style="width:100%;height:100%;object-fit:cover;border-radius:12px"></picture>
+      <h1 class="case-h1">Skysmart</h1>
+    </div>
 
     <div class="case-tabs" role="tablist">
       <button class="case-tab active" data-tab="dashboard" role="tab" aria-selected="true" aria-controls="panel-dashboard">Dashboard</button>
@@ -58,11 +61,6 @@
         <p>The same entity behaves differently. El is eight when talking to kids. Twenty-eight when talking to parents. Dashboard, progress, and reports — one system, three entry points.</p>
       </section>
 
-        <picture>
-          <source srcset="../../assets/img/cases/skysmart/skysmart-teacher-dashboard.webp" type="image/webp">
-          <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-teacher-dashboard.png" alt="Teacher dashboard — student progress, content recommendations" loading="lazy">
-        </picture>
-        <div class="case-caption">Teacher dashboard: student progress and content recommendations before the lesson</div>
 
         <picture>
           <source srcset="../../assets/img/cases/skysmart/skysmart-teacher-goals.webp" type="image/webp">
@@ -70,14 +68,6 @@
         </picture>
         <div class="case-caption">Student goals in the teacher dashboard: survey, level, motivation — all before the lesson starts</div>
 
-      <section class="case-section">
-        <h2 class="case-section-title">Scale</h2>
-        <p>69 Figma pages. Two and a half years.</p>
-        <p><strong>Process:</strong> every screen went through five stages — Draft → WIP → DEV → PROD → Archive.</p>
-        <p><strong>UX testing:</strong> 10-screen student prototype, 6-screen teacher prototype, 23-screen to-do list prototype. Tested with real students and teachers — iterations after each round.</p>
-        <p><strong>Frameworks:</strong> Learning Experience Design. Zeigarnik effect — incomplete actions motivate return. Hick's law — fewer options, faster decisions.</p>
-        <p><strong>To-do:</strong> a separate design project within the dashboard. Weekly plan, three-week calendar, lesson groups by progress. Three iterations: hypothesis → prototype → UX test with real students. The system didn't ship — priorities shifted to goal setting.</p>
-      </section>
 
         <picture>
           <source srcset="../../assets/img/cases/skysmart/skysmart-todo-test.webp" type="image/webp">
@@ -96,20 +86,18 @@
         <section class="case-section">
           <h2 class="case-section-title">Student dashboard</h2>
           <p>Skysmart is the K-12 product of Skyeng, Russia's largest online school. Three learning models: one-on-one tutoring, group sessions, self-paced exercises. Students range from 4 to 18.</p>
-          <h3>Before</h3>
           <p>No unified dashboard. Each subject had its own interface. Students switched between separate apps. Schedule, tasks, and progress lived in different places.</p>
-          <h3>The brief</h3>
           <p>Design a unified dashboard for all formats and subjects. My role: UX research, interaction design, visual design. Team: PM, two developers, methodologist.</p>
         </section>
 
         <div class="case-stats">
           <div class="case-stat">
-            <div class="case-stat-value">7</div>
-            <div class="case-stat-label">iterations to final</div>
+            <div class="case-stat-value">+12%</div>
+            <div class="case-stat-label">student retention</div>
           </div>
           <div class="case-stat">
-            <div class="case-stat-value">3</div>
-            <div class="case-stat-label">interfaces unified into one</div>
+            <div class="case-stat-value">+18%</div>
+            <div class="case-stat-label">tasks completed</div>
           </div>
           <div class="case-stat">
             <div class="case-stat-value">4–18</div>
@@ -121,18 +109,6 @@
           </div>
         </div>
 
-        <picture class="case-img-bordered">
-          <source srcset="../../assets/img/cases/skysmart/skysmart-lku-1.webp" type="image/webp">
-          <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku-1.png" alt="Skysmart student dashboard — daily tasks, schedule, subjects" loading="lazy">
-        </picture>
-        <div class="case-caption">One-on-one format: schedule and tutor contact in focus</div>
-
-        <picture class="case-img-bordered">
-          <source srcset="../../assets/img/cases/skysmart/skysmart-lku-2.webp" type="image/webp">
-          <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-lku-2.png" alt="Student dashboard — all subjects, exam prep, progress" loading="lazy">
-        </picture>
-        <div class="case-caption">All subjects in one dashboard. Switching between English, Math, and Russian</div>
-
         <picture>
           <source srcset="../../assets/img/cases/skysmart/skysmart-student-onboarding.webp" type="image/webp">
           <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-student-onboarding.png" alt="Student onboarding — meeting El, first steps, dashboard navigation" loading="lazy">
@@ -140,38 +116,8 @@
         <div class="case-caption">Student onboarding: meeting El, first steps in the dashboard</div>
 
         <section class="case-section">
-          <h3>Seven iterations</h3>
-          <p>Each version tested a specific hypothesis. Everything changed: navigation, progress display, lesson cards. Here is what was tested and what was learned:</p>
-          <div class="case-timeline">
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v1</span>
-              <div class="case-timeline-text"><strong>Chronology</strong> — lessons in order. Clear, but no sense of what to do today</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v2</span>
-              <div class="case-timeline-text"><strong>Scenario</strong> — "today" in focus. Works daily, but course context is lost</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v3</span>
-              <div class="case-timeline-text"><strong>Categories</strong> — content type navigation. Adults find it easy, kids get lost</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v4</span>
-              <div class="case-timeline-text"><strong>Goals</strong> — goal-setting integration. Overloaded for the first screen</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v5</span>
-              <div class="case-timeline-text"><strong>Cards</strong> — compact display. Scales well, but weak visual hierarchy</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v6</span>
-              <div class="case-timeline-text"><strong>Minimal</strong> — stripped-down interface. Fast, but confusing for new students</div>
-            </div>
-            <div class="case-timeline-item">
-              <span class="case-timeline-ver">v7</span>
-              <div class="case-timeline-text"><strong>Final</strong> — scenario + categories + cards. The best of each approach</div>
-            </div>
-          </div>
+          <h3>Outcome</h3>
+          <p>Seven iterations. Each tested a hypothesis: chronology, scenario, categories, goals, cards, minimal. The final version took the best of each approach. Unified dashboard launched for all Skysmart students. Three learning models — one interface. Students see tasks, schedule, and progress on a single screen.</p>
         </section>
 
         <div class="case-slideshow-wrap" data-slideshow>
@@ -193,20 +139,13 @@
           <button class="case-slideshow-arrow" data-next aria-label="Next slide">&#x203A;</button>
         </div>
 
-        <section class="case-section">
-          <h3>Outcome</h3>
-          <p>Unified dashboard launched for all Skysmart students. Three learning models — one interface. Students see tasks, schedule, and progress on a single screen.</p>
-        </section>
-
       </div>
 
       <!-- ==================== Goals ==================== -->
       <div class="case-tab-panel" data-panel="goals" id="panel-goals" role="tabpanel">
 
         <section class="case-section">
-          <h3>Before</h3>
           <p>Goals from the landing page application never reached the product. Teachers started lessons blind — didn't know why the student was learning, their level, or what was hardest. In automated scenarios, all context was lost.</p>
-          <h3>The brief</h3>
           <p>Connect student motivation to course content. Build a path from application to first lesson where no goal gets lost. My role: system design — CJM, survey, integration with the teacher dashboard.</p>
         </section>
 
@@ -233,8 +172,7 @@
 
         <section class="case-section">
           <h3>The system</h3>
-          <p>Two entry points: demo lesson with a methodologist or directly after payment. Path: dashboard → survey → profile → screening → first lesson. Eight fields: goal, deadline, current position, motivation, desired level, hardest part, study habits, interests.</p>
-          <p>Screening results feed back automatically. If the student edits goals during the first lesson — data updates.</p>
+          <p>Two entry points: demo lesson with a methodologist or directly after payment. Path: dashboard → survey → profile → screening → first lesson. Eight fields: goal, deadline, current position, motivation, desired level, hardest part, study habits, interests. Screening results feed back automatically. If the student edits goals during the first lesson — data updates.</p>
         </section>
 
         <picture>
@@ -245,8 +183,7 @@
 
         <section class="case-section">
           <h3>First lesson</h3>
-          <p>A separate design project. Six questions (goal, sub-goal, level, timeline, position, difficulties) become a plan for the first lesson. The teacher sees answers before the session starts and builds the lesson around student goals.</p>
-          <p>If the student didn't fill the survey — Telegram push, SMS with a link.</p>
+          <p>A separate design project. Six questions (goal, sub-goal, level, timeline, position, difficulties) become a plan for the first lesson. The teacher sees answers before the session starts and builds the lesson around student goals. If the student didn't fill the survey — Telegram push, SMS with a link.</p>
         </section>
 
         <picture>
@@ -296,9 +233,7 @@
 
         <section class="case-section">
           <h2 class="case-section-title">Progress and gamification</h2>
-          <h3>Before</h3>
           <p>Progress wasn't visualized anywhere. Not for the student, not for the teacher, not for the parent. The only metric was "completed 5 of 20 lessons."</p>
-          <h3>The brief</h3>
           <p>Visualize progress so the student feels movement, the teacher gets data for content adaptation, and the parent sees reasons to renew. My role: research, concepts, final design of the health system and gamification.</p>
         </section>
 
@@ -371,8 +306,7 @@
 
         <section class="case-section">
           <h3>Streaks and XP</h3>
-          <p>Alongside quests, designed a streak system. Model — Duolingo: consecutive day counter, freezes, experience points. "24 days in a row. 2 freezes left. You can skip 2 more days without losing your streak."</p>
-          <p>Onboarding — three tooltips: course map, progress flag, XP lightning bolt. Each explains one entity. Decision: streaks motivate without pressure. Missed a day — not punishment, just a gentle nudge.</p>
+          <p>Alongside quests, designed a streak system. Model — Duolingo: consecutive day counter, freezes, experience points. "24 days in a row. 2 freezes left. You can skip 2 more days without losing your streak." Onboarding — three tooltips: course map, progress flag, XP lightning bolt. Each explains one entity. Decision: streaks motivate without pressure. Missed a day — not punishment, just a gentle nudge.</p>
         </section>
 
         <section class="case-section">
@@ -403,9 +337,7 @@
       <div class="case-tab-panel" data-panel="3d" id="panel-3d" role="tabpanel">
 
         <section class="case-section">
-          <h3>Before</h3>
           <p>The interface was standard — no visual identity, no mascots, nothing kids would want to collect. Generic educational UI.</p>
-          <h3>The brief</h3>
           <p>Create a visual language kids would want to collect: mascots, badges, rewards, stickers. My role: concept, criteria, art direction. 3D modeling — a dedicated specialist.</p>
         </section>
 
@@ -502,7 +434,7 @@
           <source srcset="../../assets/img/cases/skysmart/skysmart-3d-badges.webp" type="image/webp">
           <img class="case-img-full" src="../../assets/img/cases/skysmart/skysmart-3d-badges.png" alt="3D level badges A2 → B2 → C1 → C2" loading="lazy">
         </picture>
-        <div class="case-caption">Badges A1→C2: visual progression from simple hexagons to gold with crown</div>
+        <div class="case-caption">Level badges: visual progression from simple hexagons to gold with crown</div>
 
         <picture>
           <source srcset="../../assets/img/cases/skysmart/skysmart-course-map.webp" type="image/webp">

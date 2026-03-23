@@ -35,7 +35,10 @@
   <main class="main main--case">
 
     <div class="case-meta">Product, brand, development · Pet project · 2025–2026</div>
-    <h1 class="case-h1">Sami</h1>
+    <div class="case-header">
+      <img class="case-header-thumb" src="../../assets/img/thumb-sami.png" alt="Sami">
+      <h1 class="case-h1">Sami</h1>
+    </div>
 
     <div class="case-body">
 
@@ -43,8 +46,7 @@
       <section class="case-section">
         <span class="case-section-num">1</span>
         <h2 class="case-section-title">One workout per day</h2>
-        <p>People want to move. They open YouTube — ten million videos. Twenty minutes of browsing, they give up, turn on Netflix.</p>
-        <p>The problem isn't laziness. Every day you need to decide again: what to do, how long, what level.</p>
+        <p>People want to move. They open YouTube — ten million videos. Twenty minutes of browsing, they give up, turn on Netflix. The problem isn't laziness. Every day you need to decide again: what to do, how long, what level.</p>
         <p>Sami is a Telegram channel that removes this choice. One workout per day. Just a mat. Stretching, strength, mobility, yoga, breathing, cardio, recovery — seven categories, seven days.</p>
       </section>
 
@@ -119,23 +121,21 @@
       <section class="case-section">
         <span class="case-section-num">4</span>
         <h2 class="case-section-title">Challenges</h2>
-        <p>One challenge is 21 days. Three full weeks. Each day is tied to its category: Monday — stretching, Tuesday — strength, Wednesday — mobility. On top of 21-day challenges, there are weekly challenges — short goals for the week.</p>
-        <p>It's a ritual, not a program. No need to plan. Open the channel — do it — close it.</p>
+        <p>One challenge is 21 days. Three full weeks. Each day is tied to its category: Monday — stretching, Tuesday — strength, Wednesday — mobility. On top of 21-day challenges, there are weekly challenges — short goals for the week. It's a ritual, not a program. No need to plan. Open the channel — do it — close it.</p>
         <p>After a workout you can tap "I did it" in the discussion. The bot counts your streak and awards XP. Each member has a profile with a level — more workouts, higher level. You can save a workout to favorites and return to it later.</p>
       </section>
 
-      <picture class="case-img-phone"><img src="../../assets/img/cases/sami/sami-channel-crop.png" alt="Sami Telegram channel — daily workouts, discussions" loading="lazy"></picture>
-      <div class="case-caption">Telegram channel: one workout per day, discussions, streaks</div>
-
-      <picture class="case-img-phone"><source srcset="../../assets/img/cases/sami/sami-post.webp" type="image/webp"><img src="../../assets/img/cases/sami/sami-post.png" alt="Sami promo post — community visual style" loading="lazy"></picture>
-      <div class="case-caption">Promo post: style, tone, visual language of the community</div>
+      <div class="case-img-row">
+        <picture><img src="../../assets/img/cases/sami/sami-channel-crop.png" alt="Sami Telegram channel — daily workouts, discussions" loading="lazy"></picture>
+        <picture><source srcset="../../assets/img/cases/sami/sami-post.webp" type="image/webp"><img src="../../assets/img/cases/sami/sami-post.png" alt="Sami promo post — community visual style" loading="lazy"></picture>
+      </div>
+      <div class="case-caption">Telegram channel and promo post: style, tone, visual language</div>
 
       <!-- 5. Content pipeline -->
       <section class="case-section">
         <span class="case-section-num">5</span>
         <h2 class="case-section-title">Where content comes from</h2>
-        <p>The bot searches YouTube for workouts using curated keywords. Each video is scored: views (35%), likes (30%), channel authority (20%), completion rate (15%).</p>
-        <p>The main filter is brand values. 70+ patterns reject content with "fix your body" rhetoric, weight loss focus, or competitive framing. Only calm, instructional bodyweight videos pass through.</p>
+        <p>The bot searches YouTube for workouts using curated keywords. Each video is scored: views (35%), likes (30%), channel authority (20%), completion rate (15%). The main filter is brand values. 70+ patterns reject content with "fix your body" rhetoric, weight loss focus, or competitive framing. Only calm, instructional bodyweight videos pass through.</p>
         <p>YouTube is restricted in Russia, so the bot downloads the video, validates the codec (H.264 for Telegram), transcodes via ffmpeg and publishes as a native file. Smart compression automatically adjusts bitrate and resolution to fit Telegram limits — no manual tuning needed.</p>
       </section>
 
@@ -166,8 +166,6 @@
         <p><strong>Analytics</strong> — embedded bot module. Daily at 00:30: subscribers, posts, completions, retention. Weekly reports on Sundays.</p>
       </section>
 
-      <picture class="case-img-full"><source srcset="../../assets/img/cases/sami/sami-app-ia.webp" type="image/webp"><img src="../../assets/img/cases/sami/sami-app-ia.png" alt="Sami app information architecture — bot structure, modules, data flows" loading="lazy"></picture>
-      <div class="case-caption">Information architecture: bot modules, data flows, agent connections</div>
 
       <!-- 8. Process -->
       <section class="case-section">
