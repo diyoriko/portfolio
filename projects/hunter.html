@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Ловец вакансий — Диёр Хакимов</title>
-  <meta name="description" content="Кейс AI Ловец вакансий: Telegram-бот, который скрейпит hh.ru, Habr и Getmatch, скорит вакансии и пишет сопроводительные через Claude.">
+  <meta name="description" content="Кейс AI Ловец вакансий: Telegram-бот, который скрейпит hh.ru, Habr и Getmatch, скорит вакансии и пишет сопроводительные через Gemini 2.5 Pro + Groq Llama 3.3 (бесплатные AI).">
   <meta property="og:title" content="AI Ловец вакансий — Диёр Хакимов">
   <meta property="og:description" content="Telegram-бот для поиска работы. Скрейпинг, скоринг, AI-сопроводительные, фримиум через Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
@@ -54,8 +54,8 @@
           <div class="case-stat-label">строк TypeScript</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">441</div>
-          <div class="case-stat-label">теста (Vitest)</div>
+          <div class="case-stat-value">35%+</div>
+          <div class="case-stat-label">test coverage</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">3</div>
@@ -92,7 +92,7 @@
       <section class="case-section">
         <span class="case-section-num">4</span>
         <h2 class="case-section-title">Сопроводительные за 5 секунд</h2>
-        <p>Нажимаешь «Письмо» — Claude получает описание вакансии, профиль, контекст компании. Генерирует сопроводительное, которое адресно отвечает на требования. Без выдумок — только факты из профиля.</p>
+        <p>Нажимаешь «Письмо» — Gemini 2.5 Pro получает описание вакансии, профиль, контекст компании. Генерирует сопроводительное, которое адресно отвечает на требования. Без выдумок — только факты из профиля.</p>
         <p>Не нравится — «Другой вариант» перегенерирует с другой структурой. Gemini 2.5 Pro для писем, Groq для парсинга — бесплатные тиры, нулевые затраты на AI.</p>
         <p>Каждое письмо — 5 секунд вместо 15 минут.</p>
       </section>
@@ -128,7 +128,7 @@
         <p><strong>AI:</strong> Gemini 2.5 Pro для писем, Groq Llama 3.3 70B для парсинга (бесплатные тиры)</p>
         <p><strong>Скрейперы:</strong> hh.ru API + Habr Career + Getmatch, ротация User-Agent, rate-limiting</p>
         <p><strong>Инфра:</strong> Railway 24/7 (~$5/мес), GitHub Actions (CI + бэкапы), launchd (стратег)</p>
-        <p><strong>Качество:</strong> 441 теста Vitest, pre-commit typecheck, CodeRabbit ревью</p>
+        <p><strong>Качество:</strong> Vitest, 35%+ coverage, pre-commit typecheck, CodeRabbit ревью</p>
         <p>Один процесс, один файл базы, один сервер. Один Pro-пользователь окупает инфраструктуру.</p>
       </section>
 
@@ -139,7 +139,17 @@
         <a href="https://github.com/diyoriko/hunter" target="_blank" rel="noopener">GitHub</a>
       </div>
 
-      <a class="case-back" href="../index.html">← Все проекты</a>
+      <div class="case-nav">
+        <a class="case-nav-link case-nav-prev" href="sami.html">
+          <span class="case-nav-dir">←</span>
+          <span class="case-nav-name">Sami</span>
+        </a>
+        <a class="case-nav-link case-nav-next" href="vedic.html">
+          <span class="case-nav-name">Vedic Turkiye</span>
+          <span class="case-nav-dir">→</span>
+        </a>
+      </div>
+
 
     </div>
   </main>

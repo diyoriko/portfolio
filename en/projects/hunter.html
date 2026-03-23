@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Job Hunter — Diyor Khakimov</title>
-  <meta name="description" content="AI Job Hunter case study: Telegram bot that scrapes hh.ru, Habr and Getmatch, scores vacancies and writes cover letters via Claude.">
+  <meta name="description" content="AI Job Hunter case study: Telegram bot that scrapes hh.ru, Habr and Getmatch, scores vacancies and writes cover letters via Gemini 2.5 Pro + Groq Llama 3.3 (free AI).">
   <meta property="og:title" content="AI Job Hunter — Diyor Khakimov">
   <meta property="og:description" content="Telegram bot for job search. Scraping, scoring, AI cover letters, freemium via Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
@@ -54,8 +54,8 @@
           <div class="case-stat-label">lines of TypeScript</div>
         </div>
         <div class="case-stat">
-          <div class="case-stat-value">441</div>
-          <div class="case-stat-label">tests (Vitest)</div>
+          <div class="case-stat-value">35%+</div>
+          <div class="case-stat-label">test coverage</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">3</div>
@@ -92,7 +92,7 @@
       <section class="case-section">
         <span class="case-section-num">4</span>
         <h2 class="case-section-title">Cover letters in 5 seconds</h2>
-        <p>Tap "Letter" — Claude receives the vacancy description, user profile, company context. It generates a cover letter that specifically addresses the requirements. No fabrication — only facts from the profile.</p>
+        <p>Tap "Letter" — Gemini 2.5 Pro receives the vacancy description, user profile, company context. It generates a cover letter that specifically addresses the requirements. No fabrication — only facts from the profile.</p>
         <p>Don't like it — "Another version" regenerates with a different structure. Gemini 2.5 Pro for letters, Groq for parsing — free tiers, zero AI costs.</p>
         <p>Each letter — 5 seconds instead of 15 minutes.</p>
       </section>
@@ -128,7 +128,7 @@
         <p><strong>AI:</strong> Gemini 2.5 Pro for letters, Groq Llama 3.3 70B for parsing (free tiers)</p>
         <p><strong>Scrapers:</strong> hh.ru API + Habr Career + Getmatch, User-Agent rotation, rate-limiting</p>
         <p><strong>Infra:</strong> Railway 24/7 (~$5/mo), GitHub Actions (CI + backups), launchd (strategist)</p>
-        <p><strong>Quality:</strong> 441 Vitest tests, pre-commit typecheck, CodeRabbit reviews</p>
+        <p><strong>Quality:</strong> Vitest, 35%+ coverage, pre-commit typecheck, CodeRabbit reviews</p>
         <p>One process, one database file, one server. One Pro user covers the infrastructure cost.</p>
       </section>
 
@@ -139,7 +139,17 @@
         <a href="https://github.com/diyoriko/hunter" target="_blank" rel="noopener">GitHub</a>
       </div>
 
-      <a class="case-back" href="../index.html">← All projects</a>
+      <div class="case-nav">
+        <a class="case-nav-link case-nav-prev" href="sami.html">
+          <span class="case-nav-dir">←</span>
+          <span class="case-nav-name">Sami</span>
+        </a>
+        <a class="case-nav-link case-nav-next" href="vedic.html">
+          <span class="case-nav-name">Vedic Turkiye</span>
+          <span class="case-nav-dir">→</span>
+        </a>
+      </div>
+
 
     </div>
   </main>
