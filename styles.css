@@ -81,6 +81,7 @@
   --radius-lg: 12px;
   --radius-pill: 100px;
   --text-body: rgba(30, 25, 25, 1);
+  --section-gap: 60px;
 }
 
 ::selection {
@@ -431,7 +432,7 @@ button {
   font-size: 20px;
   font-weight: 400;
   color: var(--text-dim);
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .project-name-link:hover {
@@ -461,7 +462,7 @@ button {
   font-family: var(--font-sans);
   color: var(--text-dim);
   font-size: 20px;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .project-info-industry {
@@ -796,7 +797,7 @@ a.project-item .project-arrow {
 /* Text sections: centered 688px column with 34px gutter for numbers */
 .case-section {
   max-width: var(--text-col);
-  margin: 40px auto 30px;
+  margin: var(--section-gap) auto 30px;
   padding-left: var(--content-gutter);
   position: relative;
 }
