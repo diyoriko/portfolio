@@ -30,7 +30,10 @@
       <a href="../../projects/hunter.html">Ru</a>
       <span class="active">En</span>
     </div>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
   </div></nav>
+
+  <div class="nav-mobile" aria-hidden="true"></div>
 
   <main class="main main--case">
 
@@ -76,6 +79,8 @@
         <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Groq Llama 3.3 70B. Three times a day (09:00, 13:00, 17:00 MSK) the bot scrapes hh.ru, Habr Career and Getmatch. Every vacancy goes through personal scoring 0&ndash;100. A morning digest arrives — only what actually fits.</p>
       </section>
 
+      <picture class="case-img-phone"><source srcset="../../assets/img/cases/hunter/hunter-bot-dialog.webp" type="image/webp"><img src="../../assets/img/cases/hunter/hunter-bot-dialog.png" alt="AI Job Hunter — bot dialog: vacancy card, scoring, action buttons, morning digest" loading="lazy"></picture>
+      <div class="case-caption">Bot dialog: vacancy card with score, action buttons, morning digest</div>
 
       <!-- 3. Scoring -->
       <section class="case-section">
@@ -96,8 +101,6 @@
         <p>Tap "Letter" — Gemini 2.5 Pro receives the vacancy description, user profile, company context. It generates a cover letter that specifically addresses the requirements. No fabrication — only facts from the profile. Don't like it — "Another version" regenerates with a different structure. Gemini 2.5 Pro for letters, Groq for parsing — free tiers, zero AI costs.</p>
         <p>Each letter — 5 seconds instead of 15 minutes.</p>
       </section>
-
-      <hr class="case-separator">
 
       <!-- 5. Freemium -->
       <section class="case-section">

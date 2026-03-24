@@ -30,7 +30,10 @@
       <span class="active">Ru</span>
       <a href="../en/projects/hunter.html">En</a>
     </div>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
   </div></nav>
+
+  <div class="nav-mobile" aria-hidden="true"></div>
 
   <main class="main main--case">
 
@@ -76,6 +79,8 @@
         <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Groq Llama 3.3 70B. Три раза в день (09:00, 13:00, 17:00) бот скрейпит hh.ru, Habr Career и Getmatch. Каждая вакансия проходит через персональный скоринг 0–100. Утром приходит дайджест — только то, что реально подходит.</p>
       </section>
 
+      <picture class="case-img-phone"><source srcset="../assets/img/cases/hunter/hunter-bot-dialog.webp" type="image/webp"><img src="../assets/img/cases/hunter/hunter-bot-dialog.png" alt="AI Ловец вакансий — диалог с ботом: карточка вакансии, скоринг, кнопки действий, утренний дайджест" loading="lazy"></picture>
+      <div class="case-caption">Диалог с ботом: карточка вакансии со скором, кнопки действий, утренний дайджест</div>
 
       <!-- 3. Скоринг -->
       <section class="case-section">
@@ -95,8 +100,6 @@
         <h2 class="case-section-title">Сопроводительные за 5 секунд</h2>
         <p>Нажимаешь «Письмо» — Gemini 2.5 Pro получает описание вакансии, профиль, контекст компании. Генерирует сопроводительное, которое адресно отвечает на требования. Без выдумок — только факты из профиля. Не нравится — «Другой вариант» перегенерирует с другой структурой. Gemini 2.5 Pro для писем, Groq для парсинга — бесплатные тиры, нулевые затраты на AI. Каждое письмо — 5 секунд вместо 15 минут.</p>
       </section>
-
-      <hr class="case-separator">
 
       <!-- 5. Фримиум -->
       <section class="case-section">

@@ -320,13 +320,354 @@ function initLightbox() {
   }, { passive: true });
 }
 
-/* --- QA overlay (localhost only) --- */
+/* --- Mobile burger menu --- */
 
-function initQA() {
-  if (!location.hostname.match(/^(localhost|127\.0\.0\.1)$/)) return;
-  const s = document.createElement('script');
-  s.src = '/qa.js';
-  document.body.appendChild(s);
+function initBurger() {
+  const burger = document.querySelector('.nav-burger');
+  const mobile = document.querySelector('.nav-mobile');
+  if (!burger || !mobile) return;
+
+  /* Populate mobile menu from desktop nav */
+  const links = document.querySelector('.nav-links');
+  const lang = document.querySelector('.nav-lang');
+  if (links) {
+    links.querySelectorAll('a').forEach(a => {
+      const clone = a.cloneNode(true);
+      mobile.appendChild(clone);
+    });
+  }
+  if (lang) {
+    const langDiv = document.createElement('div');
+    langDiv.className = 'nav-mobile-lang';
+    langDiv.innerHTML = lang.innerHTML;
+    mobile.appendChild(langDiv);
+  }
+
+  burger.addEventListener('click', () => {
+    const open = burger.classList.toggle('open');
+    mobile.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    mobile.setAttribute('aria-hidden', String(!open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+
+  /* Close on link click */
+  mobile.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') {
+      burger.classList.remove('open');
+      mobile.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      mobile.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+  });
+
+  /* Close on Escape */
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobile.classList.contains('open')) {
+      burger.click();
+    }
+  });
+}
+
+/* --- Dynamic Favicon per case page --- */
+
+function initDynamicFavicon() {
+  const colors = {
+    flora: '#f48fb1', enxt: '#1976d2', teletype: '#4caf50', skysmart: '#ff9800',
+    osme: '#9c27b0', sami: '#222', hunter: '#222', vedic: '#ca4f7d',
+    qlean: '#00bcd4', prosto: '#ff5722', kombo: '#795548',
+    'singularity-hub': '#3f51b5', 'singularity-words': '#3f51b5'
+  };
+  const match = location.pathname.match(/projects\/([a-z-]+)\.html/);
+  if (!match) return;
+  const color = colors[match[1]];
+  if (!color) return;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="${color}"/></svg>`;
+  const link = document.querySelector('link[rel="icon"]');
+  if (link) link.href = 'data:image/svg+xml,' + encodeURIComponent(svg);
+}
+
+/* --- Terminal Easter Egg (press ~) --- */
+
+function initTerminal() {
+  let el = null;
+  const isRu = !location.pathname.includes('/en/');
+
+  const commands = {
+    help: () => isRu
+      ? 'Команды: help, projects, contact, skills, about, clear, exit'
+      : 'Commands: help, projects, contact, skills, about, clear, exit',
+    projects: () => isRu
+      ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
+      : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
+    contact: () => 'telegram: @diyoriko\nemail: diyor.khakimov@gmail.com\nlinkedin: /in/diyoriko',
+    skills: () => isRu
+      ? 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation'
+      : 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation',
+    about: () => isRu
+      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 10 лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
+      : 'Diyor Khakimov — product & brand designer, 10 years of experience.\nBased in Kaş, Turkey. Working remotely.',
+    clear: () => '__CLEAR__',
+    exit: () => '__EXIT__',
+  };
+
+  function create() {
+    el = document.createElement('div');
+    el.id = 'terminal';
+    el.innerHTML =
+      '<div id="term-header"><span>~/diyor.design</span><button id="term-close">&times;</button></div>' +
+      '<div id="term-body"><div id="term-output"></div>' +
+      '<div id="term-line"><span id="term-prompt">→</span><input id="term-input" type="text" autocomplete="off" spellcheck="false"></div></div>';
+    document.body.appendChild(el);
+
+    const style = document.createElement('style');
+    style.textContent =
+      '#terminal{position:fixed;bottom:24px;right:24px;width:420px;max-width:calc(100vw - 32px);' +
+      'background:#1a1a1a;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.35);z-index:9999;' +
+      'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;overflow:hidden;' +
+      'animation:termIn .25s ease}' +
+      '@keyframes termIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}' +
+      '#term-header{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;' +
+      'background:#252525;color:#888;font-size:12px;user-select:none}' +
+      '#term-close{background:none;border:none;color:#666;font-size:18px;cursor:pointer;padding:0 4px;line-height:1}' +
+      '#term-close:hover{color:#fff}' +
+      '#term-body{padding:12px 14px 14px;max-height:320px;overflow-y:auto}' +
+      '#term-output{color:#ccc;white-space:pre-wrap;word-break:break-word;line-height:1.5}' +
+      '#term-output .cmd{color:#f8401c}' +
+      '#term-output .out{color:#aaa}' +
+      '#term-line{display:flex;align-items:center;gap:8px;margin-top:8px}' +
+      '#term-prompt{color:#f8401c;flex-shrink:0}' +
+      '#term-input{flex:1;background:none;border:none;color:#fff;font:inherit;outline:none;caret-color:#f8401c}';
+    document.head.appendChild(style);
+
+    const input = el.querySelector('#term-input');
+    const output = el.querySelector('#term-output');
+    const welcome = isRu ? 'Привет. Введи help для списка команд.' : 'Hi. Type help for available commands.';
+    output.innerHTML = '<span class="out">' + welcome + '</span>\n';
+    input.focus();
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter') return;
+      const cmd = input.value.trim().toLowerCase();
+      input.value = '';
+      if (!cmd) return;
+      output.innerHTML += '<span class="cmd">→ ' + cmd + '</span>\n';
+      const fn = commands[cmd];
+      if (fn) {
+        const result = fn();
+        if (result === '__CLEAR__') { output.innerHTML = ''; return; }
+        if (result === '__EXIT__') { destroy(); return; }
+        output.innerHTML += '<span class="out">' + result + '</span>\n';
+      } else {
+        const msg = isRu ? 'Неизвестная команда. Введи help.' : 'Unknown command. Type help.';
+        output.innerHTML += '<span class="out">' + msg + '</span>\n';
+      }
+      el.querySelector('#term-body').scrollTop = 9999;
+    });
+
+    el.querySelector('#term-close').addEventListener('click', destroy);
+  }
+
+  function destroy() {
+    if (el) { el.remove(); el = null; }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Backquote') {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      e.preventDefault();
+      if (el) destroy(); else create();
+    }
+  });
+}
+
+/* --- Confetti on email copy --- */
+
+function initEmailConfetti() {
+  const emailLink = document.querySelector('a[href^="mailto:"]');
+  if (!emailLink) return;
+
+  emailLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    const email = emailLink.href.replace('mailto:', '');
+    navigator.clipboard.writeText(email).then(() => {
+      /* Show "Copied" tooltip */
+      const tip = document.createElement('span');
+      tip.textContent = document.documentElement.lang === 'en' ? 'Copied!' : 'Скопировано!';
+      tip.style.cssText =
+        'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);' +
+        'background:#222;color:#fff;padding:8px 20px;border-radius:8px;font-family:var(--font-sans);' +
+        'font-size:14px;z-index:10000;animation:tipFade 1.5s ease forwards;pointer-events:none';
+      const style = document.createElement('style');
+      style.textContent = '@keyframes tipFade{0%{opacity:0;transform:translate(-50%,-50%) scale(.9)}10%{opacity:1;transform:translate(-50%,-50%) scale(1)}70%{opacity:1}100%{opacity:0;transform:translate(-50%,-60%)}}';
+      document.head.appendChild(style);
+      document.body.appendChild(tip);
+      setTimeout(() => { tip.remove(); style.remove(); }, 1600);
+
+      /* Confetti burst */
+      fireConfetti();
+    });
+  });
+
+  function fireConfetti() {
+    const canvas = document.createElement('canvas');
+    canvas.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;z-index:9998;pointer-events:none';
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext('2d');
+
+    const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8', '#fff176'];
+    const pieces = [];
+    const cx = canvas.width / 2, cy = canvas.height / 2;
+
+    for (let i = 0; i < 80; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 4 + Math.random() * 8;
+      pieces.push({
+        x: cx, y: cy,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 4,
+        size: 4 + Math.random() * 4,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rotation: Math.random() * 360,
+        rotSpeed: (Math.random() - 0.5) * 12,
+        gravity: 0.12 + Math.random() * 0.08,
+        opacity: 1,
+      });
+    }
+
+    let frame = 0;
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      let alive = false;
+      pieces.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += p.gravity;
+        p.vx *= 0.99;
+        p.rotation += p.rotSpeed;
+        p.opacity -= 0.012;
+        if (p.opacity <= 0) return;
+        alive = true;
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+        ctx.globalAlpha = p.opacity;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+        ctx.restore();
+      });
+      frame++;
+      if (alive && frame < 120) requestAnimationFrame(draw);
+      else canvas.remove();
+    }
+    requestAnimationFrame(draw);
+  }
+}
+
+/* --- "Vanilla" Badge --- */
+
+function initVanillaBadge() {
+  /* Only on index pages */
+  const p = location.pathname;
+  if (p.includes('/projects/') || p.includes('about')) return;
+
+  const badge = document.createElement('div');
+  badge.innerHTML =
+    '<span style="opacity:.5">0 frameworks · 0 dependencies · vanilla everything</span>' +
+    '<span style="width:1px;height:14px;background:rgba(255,255,255,.15);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
+    '<span style="opacity:.5">Shift+G</span> grid' +
+    '<span style="width:1px;height:14px;background:rgba(255,255,255,.15);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
+    '<span style="opacity:.5">~</span> terminal';
+  badge.style.cssText =
+    'position:fixed;bottom:16px;left:50%;transform:translateX(-50%);' +
+    'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
+    'color:#ccc;background:#1a1a1a;padding:8px 16px;border-radius:10px;' +
+    'box-shadow:0 4px 20px rgba(0,0,0,.2);' +
+    'opacity:0;pointer-events:none;white-space:nowrap;' +
+    'transition:opacity .3s;z-index:1';
+  document.body.appendChild(badge);
+
+  /* Show on hover near bottom */
+  document.addEventListener('mousemove', (e) => {
+    badge.style.opacity = e.clientY > window.innerHeight - 80 ? '0.9' : '0';
+  });
+
+}
+
+/* --- Design System Toggle --- */
+
+function initDesignSystemToggle() {
+  let overlay = null;
+  let styleEl = null;
+
+
+  function create() {
+    overlay = document.createElement('div');
+    overlay.id = 'ds-overlay';
+
+    styleEl = document.createElement('style');
+    styleEl.id = 'ds-style';
+    styleEl.textContent =
+      '#ds-overlay{position:fixed;inset:0;z-index:9990;pointer-events:none;animation:dsIn .2s ease}' +
+      '@keyframes dsIn{from{opacity:0}to{opacity:1}}' +
+      '#ds-grid{position:absolute;inset:0;max-width:calc(var(--content-max) + var(--side-padding)*2);' +
+      'margin:0 auto;padding:0 var(--side-padding);display:flex;gap:20px}' +
+      '#ds-grid .col{flex:1;background:rgba(248,64,28,0.04);border-left:1px solid rgba(248,64,28,0.1);' +
+      'border-right:1px solid rgba(248,64,28,0.1)}' +
+      '#ds-panel{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);' +
+      'background:#1a1a1a;color:#ccc;border-radius:12px;padding:14px 20px;' +
+      'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
+      'display:flex;gap:20px;align-items:center;pointer-events:auto;' +
+      'box-shadow:0 12px 40px rgba(0,0,0,.3);white-space:nowrap}' +
+      '#ds-panel .sw{width:14px;height:14px;border-radius:3px;display:inline-block;' +
+      'vertical-align:middle;margin-right:5px;box-shadow:0 0 0 1px rgba(255,255,255,.15)}' +
+      '#ds-panel .sep{width:1px;height:20px;background:rgba(255,255,255,.12)}' +
+      '#ds-panel .lb{color:#666;font-size:9px;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:1px}';
+    document.head.appendChild(styleEl);
+
+    const root = getComputedStyle(document.documentElement);
+    const bg = root.getPropertyValue('--bg').trim();
+    const accent = root.getPropertyValue('--accent').trim();
+    const text = root.getPropertyValue('--text-body').trim();
+    const dim = root.getPropertyValue('--text-dim').trim();
+    const font = root.getPropertyValue('--font-sans').trim().split(',')[0].replace(/'/g, '');
+    const mono = root.getPropertyValue('--font-mono').trim().split(',')[0].replace(/'/g, '');
+
+    let gridHTML = '<div id="ds-grid">';
+    for (let i = 0; i < 12; i++) gridHTML += '<div class="col"></div>';
+    gridHTML += '</div>';
+
+    overlay.innerHTML = gridHTML +
+      '<div id="ds-panel">' +
+        '<div><span class="lb">Colors</span>' +
+        `<span class="sw" style="background:${bg}"></span>bg ` +
+        `<span class="sw" style="background:${accent}"></span>accent ` +
+        `<span class="sw" style="background:${text}"></span>text ` +
+        `<span class="sw" style="background:${dim}"></span>dim</div>` +
+        '<div class="sep"></div>' +
+        `<div><span class="lb">Type</span>${font} · ${mono}</div>` +
+        '<div class="sep"></div>' +
+        '<div><span class="lb">Layout</span>1156px · 12 col · 20px gap</div>' +
+      '</div>';
+
+    document.body.appendChild(overlay);
+  }
+
+  function destroy() {
+    if (overlay) { overlay.remove(); overlay = null; }
+    if (styleEl) { styleEl.remove(); styleEl = null; }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.shiftKey && e.code === 'KeyG') {
+      e.preventDefault();
+      if (overlay) destroy(); else create();
+    }
+  });
 }
 
 /* --- Init --- */
@@ -336,7 +677,12 @@ document.addEventListener('DOMContentLoaded', () => {
   initCaseTabs();
   initProjectLinks();
   initLightbox();
-  initQA();
+  initBurger();
+  initDynamicFavicon();
+  initTerminal();
+  initEmailConfetti();
+  initDesignSystemToggle();
+  initVanillaBadge();
 
   /* GoatCounter loads async — poll until ready */
   const gcInterval = setInterval(() => {

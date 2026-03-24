@@ -30,7 +30,10 @@
       <span class="active">Ru</span>
       <a href="../en/projects/sami.html">En</a>
     </div>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
   </div></nav>
+
+  <div class="nav-mobile" aria-hidden="true"></div>
 
   <main class="main main--case">
 
@@ -104,8 +107,9 @@
       <div class="case-caption">Финальная система: wordmark, овальный знак, монограмма «С»</div>
 
 
-      <!-- Конкурентный анализ -->
+      <!-- 4. Конкурентный анализ -->
       <section class="case-section">
+        <span class="case-section-num">4</span>
         <h2 class="case-section-title">Конкурентный анализ</h2>
         <p>Четыре приложения разобраны экран за экраном: Peloton, FitOn, Freeletics, BetterMe. Онбординг, подписочная модель, тон, визуальный язык. У каждого — свой стиль мотивации: от «до и после» до геймификации силовых.</p>
         <p>Вывод один: все строят продукт вокруг инвентаря и трансформации тела. Сами занимает пустое место — минимализм, коврик, ритуал без давления.</p>
@@ -114,9 +118,9 @@
       <div class="case-img-scroll"><picture><source srcset="../assets/img/cases/sami/sami-competitors.webp" type="image/webp"><img class="case-img-full" src="../assets/img/cases/sami/sami-competitors.png" alt="Конкурентный анализ: UX-разбор Peloton, FitOn, Freeletics, BetterMe — экраны, подписки, тон" loading="lazy"></picture></div>
       <div class="case-caption">UX-разбор 4 приложений: экраны, подписки, тон коммуникации, визуальный язык</div>
 
-      <!-- 4. Сезоны -->
+      <!-- 5. Челленджи -->
       <section class="case-section">
-        <span class="case-section-num">4</span>
+        <span class="case-section-num">5</span>
         <h2 class="case-section-title">Челленджи</h2>
         <p>Один челлендж — 21 день. Три полных недели. Каждый день привязан к своей категории: понедельник — стретчинг, вторник — сила, среда — мобильность. Помимо 21-дневных, есть еженедельные челленджи — короткие цели на неделю.</p>
         <p>Это ритуал, а не программа. Не нужно планировать. Открыл канал — сделал — закрыл.</p>
@@ -124,23 +128,23 @@
       </section>
 
       <div class="case-img-row">
-        <picture><img src="../assets/img/cases/sami/sami-channel-crop.png" alt="Telegram-канал Сами — ежедневные тренировки, обсуждения" loading="lazy"></picture>
-        <picture><source srcset="../assets/img/cases/sami/sami-post.webp" type="image/webp"><img src="../assets/img/cases/sami/sami-post.png" alt="Промо-пост Сами — визуальный стиль сообщества" loading="lazy"></picture>
+        <picture><source srcset="../assets/img/cases/sami/sami-bot-dialog.webp" type="image/webp"><img src="../assets/img/cases/sami/sami-bot-dialog.png" alt="Бот Сами — Story-напоминание, карточка тренировки с Sami Score, меню с кнопками" loading="lazy"></picture>
+        <picture><source srcset="../assets/img/cases/sami/sami-channel-post.webp" type="image/webp"><img src="../assets/img/cases/sami/sami-channel-post.png" alt="Канал Сами — пост с тренировкой, видео, категории, автор, YouTube" loading="lazy"></picture>
       </div>
-      <div class="case-caption">Канал в Telegram и промо-пост: стиль, тон, визуальный язык</div>
+      <div class="case-caption">Бот: Story-напоминание и карточка тренировки. Канал: пост с видео, категориями и автором</div>
 
-      <!-- 5. Контент-пайплайн -->
+      <!-- 6. Контент-пайплайн -->
       <section class="case-section">
-        <span class="case-section-num">5</span>
+        <span class="case-section-num">6</span>
         <h2 class="case-section-title">Откуда контент</h2>
         <p>Бот ищет тренировки на YouTube по курируемым ключевым словам. Каждое видео оценивается: просмотры (35%), лайки (30%), авторитет канала (20%), завершаемость (15%).</p>
         <p>Главный фильтр — ценности бренда. 70+ паттернов отсекают контент с риторикой «исправь своё тело», акцентом на похудении или соревновательностью. Проходит только спокойное, инструкторское видео без инвентаря.</p>
         <p>YouTube в России ограничен, поэтому бот скачивает видео, проверяет кодек (H.264 для Telegram), транскодирует через ffmpeg и публикует как нативный файл. Умное сжатие автоматически подгоняет битрейт и разрешение под лимиты Telegram — без ручной настройки.</p>
       </section>
 
-      <!-- 6. Безопасное пространство -->
+      <!-- 7. Безопасное пространство -->
       <section class="case-section">
-        <span class="case-section-num">6</span>
+        <span class="case-section-num">7</span>
         <h2 class="case-section-title">Безопасное пространство</h2>
         <p>Группа обсуждения защищена многослойной модерацией:</p>
         <ul>
@@ -155,9 +159,9 @@
 
       <hr class="case-separator">
 
-      <!-- 7. Три агента -->
+      <!-- 8. Три агента -->
       <section class="case-section">
-        <span class="case-section-num">7</span>
+        <span class="case-section-num">8</span>
         <h2 class="case-section-title">Три агента</h2>
         <p>Система работает на трёх автономных агентах:</p>
         <p><strong>Стратег</strong> — запускается ежедневно в 09:30 через launchd. Анализирует метрики, бэклог, контент. Формирует задачи и ключевые слова для поиска.</p>
@@ -166,9 +170,9 @@
       </section>
 
 
-      <!-- 8. Процесс -->
+      <!-- 9. Процесс -->
       <section class="case-section">
-        <span class="case-section-num">8</span>
+        <span class="case-section-num">9</span>
         <h2 class="case-section-title">Процесс</h2>
         <p>Весь проект — от концепции до продакшна — одним человеком.</p>
         <ul>
@@ -180,9 +184,9 @@
         </ul>
       </section>
 
-      <!-- 9. Стек -->
+      <!-- 10. Стек -->
       <section class="case-section">
-        <span class="case-section-num">9</span>
+        <span class="case-section-num">10</span>
         <h2 class="case-section-title">Стек</h2>
         <p><strong>Бот:</strong> TypeScript, grammY, SQLite (WAL), node-cron, yt-dlp, ffmpeg</p>
         <p><strong>AI:</strong> Claude API (стратег + аналитика)</p>
