@@ -417,7 +417,7 @@ button {
 .project-name {
   font-size: 25px;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.1;
 }
 
 .project-name-title {
@@ -1137,6 +1137,24 @@ picture.case-img-phone img {
 }
 
 /* External links (Figma, Drive) */
+/* Inline links inside case sections — match .case-links style */
+.case-section a {
+  color: var(--accent);
+  text-decoration: none;
+  background: linear-gradient(to right, var(--accent) 0%, var(--accent) 100%) 0 100% / 100% 1px repeat-x;
+  padding-bottom: 1px;
+  transition: background-size var(--transition-fast);
+}
+
+.case-section a:hover {
+  background-size: 0 1px;
+}
+
+/* Prototype links block after a section — tight gap like paragraph spacing */
+.case-section:has(+ .case-links) {
+  margin-bottom: 0;
+}
+
 .case-links {
   max-width: var(--text-col);
   margin: 8px auto 50px;
