@@ -905,6 +905,18 @@ a.project-item .project-arrow {
   margin: 8px 0 0;
 }
 
+.case-section a {
+  color: var(--accent);
+  text-decoration: none;
+  background: linear-gradient(to right, var(--accent) 0%, var(--accent) 100%) 0 100% / 100% 1px repeat-x;
+  padding-bottom: 1px;
+  transition: background-size var(--transition-fast);
+}
+
+.case-section a:hover {
+  background-size: 0 1px;
+}
+
 .case-section ul {
   font-family: var(--font-sans);
   font-size: 20px;
