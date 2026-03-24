@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    background: #1a1a2e;
+    overflow: hidden;
+  }
+  .icon {
+    width: 48px; height: 48px;
+    background: linear-gradient(135deg, #00B4D8, #00E5A0);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+    animation: icon-float 3s ease-in-out infinite;
+  }
+  .icon::before {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #00B4D8, #00E5A0);
+    opacity: 0.3;
+    filter: blur(8px);
+    animation: icon-glow 3s ease-in-out infinite;
+  }
+  .icon svg {
+    width: 28px; height: 28px;
+    position: relative; z-index: 1;
+  }
+  @keyframes icon-float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-3px) scale(1.04); }
+  }
+  @keyframes icon-glow {
+    0%, 100% { opacity: 0.2; inset: -6px; }
+    50% { opacity: 0.5; inset: -10px; }
+  }
+</style>
+</head><body>
+  <div class="icon">
+    <svg viewBox="0 0 24 24" fill="none">
+      <path d="M17.5 8.5C17.5 8.5 16.5 6 13 6C9.5 6 7 8.5 7 12C7 15.5 9.5 18 13 18C15.5 18 17 16.5 17 16.5" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M15 4.5C15 4.5 14.5 2 16.5 2C18.5 2 18 4.5 17 5.5L15 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</body></html>
