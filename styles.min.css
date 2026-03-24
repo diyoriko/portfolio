@@ -967,7 +967,7 @@ picture.case-img-full {
 .case-body > .case-slideshow-wrap,
 .case-tab-panel > .case-slideshow-wrap {
   max-width: var(--text-col);
-  margin: 20px auto 30px;
+  margin: 30px auto;
   padding-left: var(--content-gutter);
   box-sizing: border-box;
 }
@@ -975,7 +975,7 @@ picture.case-img-full {
 .case-body > .case-img-row,
 .case-tab-panel > .case-img-row {
   max-width: var(--text-col);
-  margin: 20px auto;
+  margin: 30px auto;
   padding-left: var(--content-gutter);
   box-sizing: border-box;
 }
