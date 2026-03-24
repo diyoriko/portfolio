@@ -1077,10 +1077,27 @@ picture.case-img-full {
 
 /* Concept figure inside image row */
 .case-concept {
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
+.case-concept picture,
+.case-concept > img {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+}
+
+.case-concept picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .case-concept figcaption {
+  flex-shrink: 0;
   font-family: var(--font-sans);
   font-size: 14px;
   font-weight: 400;
