@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Ловец вакансий — Диёр Хакимов</title>
-  <meta name="description" content="Кейс AI Ловец вакансий: Telegram-бот, который скрейпит hh.ru, Habr и Getmatch, скорит вакансии и пишет сопроводительные через Gemini 2.5 Pro + Groq Llama 3.3 (бесплатные AI).">
+  <meta name="description" content="Кейс AI Ловец вакансий: Telegram-бот, который скрейпит 5 источников (hh.ru, Habr, Getmatch, SuperJob, HireHi.ru), скорит вакансии и пишет сопроводительные через Gemini 2.5 Pro + Groq Llama 3.3 (бесплатные AI).">
   <meta property="og:title" content="AI Ловец вакансий — Диёр Хакимов">
   <meta property="og:description" content="Telegram-бот для поиска работы. Скрейпинг, скоринг, AI-сопроводительные, фримиум через Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
@@ -55,16 +55,16 @@
 
       <div class="case-stats">
         <div class="case-stat">
-          <div class="case-stat-value">5 000+</div>
-          <div class="case-stat-label">строк TypeScript</div>
+          <div class="case-stat-value">452</div>
+          <div class="case-stat-label">теста (Vitest)</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">5</div>
+          <div class="case-stat-label">источников вакансий</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">35%+</div>
           <div class="case-stat-label">test coverage</div>
-        </div>
-        <div class="case-stat">
-          <div class="case-stat-value">3</div>
-          <div class="case-stat-label">источника вакансий</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">3×</div>
@@ -76,7 +76,7 @@
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Push вместо pull</h2>
-        <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Groq Llama 3.3 70B. Три раза в день (09:00, 13:00, 17:00) бот скрейпит hh.ru, Habr Career и Getmatch. Каждая вакансия проходит через персональный скоринг 0–100. Утром приходит дайджест — только то, что реально подходит.</p>
+        <p>Заполняешь профиль за пару минут — или загружаешь резюме PDF/DOCX, бот извлечёт данные сам через Groq Llama 3.3 70B. Три раза в день (09:00, 13:00, 17:00) бот скрейпит пять источников: hh.ru, Habr Career, Getmatch, SuperJob и HireHi.ru. Каждая вакансия проходит через персональный скоринг 0–100. Утром приходит дайджест — только то, что реально подходит.</p>
       </section>
 
       <picture class="case-img-phone"><source srcset="../assets/img/cases/hunter/hunter-bot-dialog.webp" type="image/webp"><img src="../assets/img/cases/hunter/hunter-bot-dialog.png" alt="AI Ловец вакансий — диалог с ботом: карточка вакансии, скоринг, кнопки действий, утренний дайджест" loading="lazy"></picture>
@@ -105,6 +105,8 @@
       <section class="case-section">
         <span class="case-section-num">5</span>
         <h2 class="case-section-title">Фримиум через Telegram Stars</h2>
+        <p>Сейчас бот работает в режиме бесплатного доступа — все функции открыты для всех пользователей. Монетизация включится после набора аудитории.</p>
+        <p>Запланированная модель:</p>
         <p>Первое письмо к каждой вакансии бесплатно. Рестайл и фильтры — Pro или кредиты.</p>
         <p><strong>Pro:</strong> 200 Stars/нед. или 700 Stars/мес. Безлимит писем, 5 push-алертов за скрейп, фильтры по источнику.</p>
         <p><strong>Кредиты:</strong> 100 Stars = 3 рестайла, 300 Stars = 10. Разовая покупка без обязательств.</p>
@@ -128,9 +130,9 @@
         <p>Весь проект — от продуктовой стратегии и монетизации до продакшна — одним человеком.</p>
         <p><strong>Бот:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
         <p><strong>AI:</strong> Gemini 2.5 Pro для писем, Groq Llama 3.3 70B для парсинга (бесплатные тиры)</p>
-        <p><strong>Скрейперы:</strong> hh.ru API + Habr Career + Getmatch, ротация User-Agent, rate-limiting</p>
+        <p><strong>Скрейперы:</strong> hh.ru API + Habr Career + Getmatch + SuperJob + HireHi.ru, ротация User-Agent, rate-limiting</p>
         <p><strong>Инфра:</strong> Railway 24/7 (~$5/мес), GitHub Actions (CI + бэкапы), launchd (стратег)</p>
-        <p><strong>Качество:</strong> Vitest, 35%+ coverage, pre-commit typecheck, CodeRabbit ревью</p>
+        <p><strong>Качество:</strong> Vitest (452 теста, ~35% coverage), pre-commit typecheck, CodeRabbit ревью</p>
         <p>Один процесс, один файл базы, один сервер. Один Pro-пользователь окупает инфраструктуру.</p>
       </section>
 

@@ -502,16 +502,13 @@ button {
 }
 
 .project-arrow {
-  font-size: 0;
+  font-size: 50px;
+  font-weight: 100;
   color: rgba(34, 34, 34, 0.25);
   transition: color var(--transition-fast);
+  line-height: 1;
+  text-align: right;
   align-self: center;
-  justify-self: end;
-  width: 44px;
-  height: 44px;
-  background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none' stroke='%23000' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='6' y1='22' x2='38' y2='22'/%3E%3Cpolyline points='28,12 38,22 28,32'/%3E%3C/svg%3E") no-repeat center / contain;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none' stroke='%23000' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='6' y1='22' x2='38' y2='22'/%3E%3Cpolyline points='28,12 38,22 28,32'/%3E%3C/svg%3E") no-repeat center / contain;
 }
 
 a.project-item .project-arrow {
@@ -1077,7 +1074,7 @@ picture.case-img-full {
 .case-body > .case-slideshow-wrap,
 .case-tab-panel > .case-slideshow-wrap {
   max-width: var(--text-col);
-  margin: 20px auto;
+  margin: 20px auto 30px;
   padding-left: var(--content-gutter);
   box-sizing: border-box;
 }
@@ -1237,7 +1234,7 @@ picture.case-img-phone img {
 /* External links (Figma, Drive) */
 .case-links {
   max-width: var(--text-col);
-  margin: 60px auto 50px;
+  margin: 8px auto 50px;
   padding-left: var(--content-gutter);
 }
 
@@ -1667,8 +1664,7 @@ picture.case-img-phone img {
   }
 
   .project-arrow {
-    width: 30px;
-    height: 30px;
+    font-size: 36px;
   }
 
   .year-range {

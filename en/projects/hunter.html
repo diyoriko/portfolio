@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Job Hunter — Diyor Khakimov</title>
-  <meta name="description" content="AI Job Hunter case study: Telegram bot that scrapes hh.ru, Habr and Getmatch, scores vacancies and writes cover letters via Gemini 2.5 Pro + Groq Llama 3.3 (free AI).">
+  <meta name="description" content="AI Job Hunter case study: Telegram bot that scrapes 5 sources (hh.ru, Habr, Getmatch, SuperJob, HireHi.ru), scores vacancies and writes cover letters via Gemini 2.5 Pro + Groq Llama 3.3 (free AI).">
   <meta property="og:title" content="AI Job Hunter — Diyor Khakimov">
   <meta property="og:description" content="Telegram bot for job search. Scraping, scoring, AI cover letters, freemium via Telegram Stars.">
   <meta property="og:image" content="https://diyor.design/assets/img/thumb-hunter.png">
@@ -55,16 +55,16 @@
 
       <div class="case-stats">
         <div class="case-stat">
-          <div class="case-stat-value">5,000+</div>
-          <div class="case-stat-label">lines of TypeScript</div>
+          <div class="case-stat-value">452</div>
+          <div class="case-stat-label">tests (Vitest)</div>
+        </div>
+        <div class="case-stat">
+          <div class="case-stat-value">5</div>
+          <div class="case-stat-label">vacancy sources</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">35%+</div>
           <div class="case-stat-label">test coverage</div>
-        </div>
-        <div class="case-stat">
-          <div class="case-stat-value">3</div>
-          <div class="case-stat-label">vacancy sources</div>
         </div>
         <div class="case-stat">
           <div class="case-stat-value">3×</div>
@@ -76,7 +76,7 @@
       <section class="case-section">
         <span class="case-section-num">2</span>
         <h2 class="case-section-title">Push instead of pull</h2>
-        <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Groq Llama 3.3 70B. Three times a day (09:00, 13:00, 17:00 MSK) the bot scrapes hh.ru, Habr Career and Getmatch. Every vacancy goes through personal scoring 0&ndash;100. A morning digest arrives — only what actually fits.</p>
+        <p>Fill out your profile in a couple of minutes — or upload a PDF/DOCX resume, the bot will extract data via Groq Llama 3.3 70B. Three times a day (09:00, 13:00, 17:00 MSK) the bot scrapes five sources: hh.ru, Habr Career, Getmatch, SuperJob and HireHi.ru. Every vacancy goes through personal scoring 0&ndash;100. A morning digest arrives — only what actually fits.</p>
       </section>
 
       <picture class="case-img-phone"><source srcset="../../assets/img/cases/hunter/hunter-bot-dialog.webp" type="image/webp"><img src="../../assets/img/cases/hunter/hunter-bot-dialog.png" alt="AI Job Hunter — bot dialog: vacancy card, scoring, action buttons, morning digest" loading="lazy"></picture>
@@ -106,6 +106,8 @@
       <section class="case-section">
         <span class="case-section-num">5</span>
         <h2 class="case-section-title">Freemium via Telegram Stars</h2>
+        <p>Currently the bot runs in free access mode — all features are available to every user. Monetization will be enabled once the audience grows.</p>
+        <p>Planned model:</p>
         <p>First letter per vacancy — free. Restyle and filters — Pro or credits.</p>
         <p><strong>Pro:</strong> 200 Stars/week or 700 Stars/month. Unlimited letters, 5 push alerts per scrape, source filters.</p>
         <p><strong>Credits:</strong> 100 Stars = 3 restyles, 300 Stars = 10. One-time purchase, no commitment.</p>
@@ -129,9 +131,9 @@
         <p>The entire project — from product strategy and monetization to production — by one person.</p>
         <p><strong>Bot:</strong> TypeScript, grammY, SQLite (WAL), node-cron, cheerio</p>
         <p><strong>AI:</strong> Gemini 2.5 Pro for letters, Groq Llama 3.3 70B for parsing (free tiers)</p>
-        <p><strong>Scrapers:</strong> hh.ru API + Habr Career + Getmatch, User-Agent rotation, rate-limiting</p>
+        <p><strong>Scrapers:</strong> hh.ru API + Habr Career + Getmatch + SuperJob + HireHi.ru, User-Agent rotation, rate-limiting</p>
         <p><strong>Infra:</strong> Railway 24/7 (~$5/mo), GitHub Actions (CI + backups), launchd (strategist)</p>
-        <p><strong>Quality:</strong> Vitest, 35%+ coverage, pre-commit typecheck, CodeRabbit reviews</p>
+        <p><strong>Quality:</strong> Vitest (452 tests, ~35% coverage), pre-commit typecheck, CodeRabbit reviews</p>
         <p>One process, one database file, one server. One Pro user covers the infrastructure cost.</p>
       </section>
 

@@ -474,10 +474,13 @@ function initTerminal() {
   }
 
   document.addEventListener('keydown', (e) => {
-    if (e.code === 'Backquote') {
+    if (e.code === 'Backquote' || e.key === '`' || e.key === 'ё' || e.key === 'Ё') {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       e.preventDefault();
       if (el) destroy(); else create();
+    }
+    if (e.key === 'Escape' && el) {
+      destroy();
     }
   });
 }
@@ -577,22 +580,40 @@ function initVanillaBadge() {
   const badge = document.createElement('div');
   badge.innerHTML =
     '<span style="opacity:.5">0 frameworks · 0 dependencies · vanilla everything</span>' +
-    '<span style="width:1px;height:14px;background:rgba(255,255,255,.15);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
-    '<span style="opacity:.5">Shift+G</span> grid' +
-    '<span style="width:1px;height:14px;background:rgba(255,255,255,.15);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
-    '<span style="opacity:.5">~</span> terminal';
+    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
+    '<span data-action="grid" style="cursor:pointer"><span style="opacity:.5">Shift+G</span> grid</span>' +
+    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
+    '<span data-action="terminal" style="cursor:pointer"><span style="opacity:.5">~</span> terminal</span>' +
+    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
+    '<a href="https://github.com/diyoriko/portfolio" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:4px;vertical-align:middle">' +
+      '<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:middle"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>' +
+      ' GitHub</a>';
   badge.style.cssText =
     'position:fixed;bottom:16px;left:50%;transform:translateX(-50%);' +
     'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
-    'color:#ccc;background:#1a1a1a;padding:8px 16px;border-radius:10px;' +
-    'box-shadow:0 4px 20px rgba(0,0,0,.2);' +
-    'opacity:0;pointer-events:none;white-space:nowrap;' +
-    'transition:opacity .3s;z-index:1';
+    'color:#999;background:rgba(255,255,255,.55);padding:8px 16px;border-radius:6px;' +
+    '-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);' +
+    'border:1px solid rgba(0,0,0,.06);' +
+    'pointer-events:auto;white-space:nowrap;' +
+    'transition:all .3s;z-index:1;cursor:default';
   document.body.appendChild(badge);
 
-  /* Show on hover near bottom */
+  /* Hover near bottom: solid white, black text */
   document.addEventListener('mousemove', (e) => {
-    badge.style.opacity = e.clientY > window.innerHeight - 80 ? '0.9' : '0';
+    const hot = e.clientY > window.innerHeight - 80;
+    badge.style.background = hot ? 'rgba(255,255,255,1)' : 'rgba(255,255,255,.55)';
+    badge.style.color = hot ? '#000' : '#999';
+  });
+
+  /* Make "terminal" and "grid" clickable */
+  badge.addEventListener('click', (e) => {
+    const action = e.target.closest('[data-action]');
+    if (!action) return;
+    if (action.dataset.action === 'terminal') {
+      document.dispatchEvent(new KeyboardEvent('keydown', { code: 'Backquote' }));
+    } else if (action.dataset.action === 'grid') {
+      document.dispatchEvent(new KeyboardEvent('keydown', { code: 'KeyG', shiftKey: true }));
+    }
   });
 
 }
@@ -617,7 +638,7 @@ function initDesignSystemToggle() {
       'margin:0 auto;padding:0 var(--side-padding);display:flex;gap:20px}' +
       '#ds-grid .col{flex:1;background:rgba(248,64,28,0.04);border-left:1px solid rgba(248,64,28,0.1);' +
       'border-right:1px solid rgba(248,64,28,0.1)}' +
-      '#ds-panel{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);' +
+      '#ds-panel{position:fixed;bottom:52px;left:50%;transform:translateX(-50%);' +
       'background:#1a1a1a;color:#ccc;border-radius:12px;padding:14px 20px;' +
       'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
       'display:flex;gap:20px;align-items:center;pointer-events:auto;' +
@@ -670,12 +691,49 @@ function initDesignSystemToggle() {
   });
 }
 
+/* --- Slideshows --- */
+
+function initSlideshows() {
+  document.querySelectorAll('[data-slideshow]').forEach(wrap => {
+    const track = wrap.querySelector('.case-slideshow-track');
+    const imgs = track.querySelectorAll('img');
+    const counter = wrap.querySelector('[data-counter]');
+    const prev = wrap.querySelector('[data-prev]');
+    const next = wrap.querySelector('[data-next]');
+    if (!track || imgs.length < 2) return;
+
+    let current = 0;
+    const total = imgs.length;
+
+    function go(idx) {
+      current = (idx + total) % total;
+      track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      if (counter) counter.textContent = (current + 1) + '/' + total;
+    }
+
+    if (prev) prev.addEventListener('click', () => go(current - 1));
+    if (next) next.addEventListener('click', () => go(current + 1));
+  });
+}
+
+/* --- Nav scroll line --- */
+
+function initNavScrollLine() {
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  }, { passive: true });
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initNavScrollLine();
   initScrollReveal();
   initCaseTabs();
   initProjectLinks();
+  initSlideshows();
   initLightbox();
   initBurger();
   initDynamicFavicon();

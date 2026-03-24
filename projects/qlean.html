@@ -965,7 +965,14 @@
       <h1 class="case-h1">Qlean</h1>
     </div>
 
+    <div class="case-tabs" role="tablist">
+      <button class="case-tab active" data-tab="app" role="tab" aria-selected="true" aria-controls="panel-app">Приложение</button>
+      <button class="case-tab" data-tab="landing" role="tab" aria-selected="false" aria-controls="panel-landing">Лендинг</button>
+    </div>
+
     <div class="case-body">
+
+      <div class="case-tab-panel active" data-panel="app" id="panel-app" role="tabpanel">
 
       <!-- 1. Контекст -->
       <section class="case-section">
@@ -1527,9 +1534,11 @@
         </ul>
       </section>
 
-      <!-- 6. Лендинг уборки офисов -->
+      </div><!-- /panel-app -->
+
+      <div class="case-tab-panel" data-panel="landing" id="panel-landing" role="tabpanel">
+
       <section class="case-section">
-        <span class="case-section-num">6</span>
         <h2 class="case-section-title">Лендинг уборки офисов</h2>
         <p>Помимо приложения клинера, делал лендинг B2B-направления &mdash; уборка офисов. Калькулятор стоимости, гарантии качества, страховой фонд, регламенты, обучение клинеров.</p>
       </section>
@@ -1548,6 +1557,8 @@
         </div>
       </div>
       <div class="case-caption">Лендинг B2B-направления: уборка офисов</div>
+
+      </div><!-- /panel-landing -->
 
       <div class="case-nav">
         <a class="case-nav-link case-nav-prev" href="flora.html">
