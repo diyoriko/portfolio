@@ -406,8 +406,8 @@ function initTerminal() {
       ? 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation'
       : 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation',
     about: () => isRu
-      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 10 лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
-      : 'Diyor Khakimov — product & brand designer, 10 years of experience.\nBased in Kaş, Turkey. Working remotely.',
+      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
+      : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Working remotely.',
     clear: () => '__CLEAR__',
     exit: () => '__EXIT__',
   };
