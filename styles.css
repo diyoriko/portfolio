@@ -277,7 +277,7 @@ button {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0;
-  background: #ffffff;
+  background: var(--bg);
   z-index: 150;
   flex-direction: column;
   align-items: center;
@@ -408,37 +408,6 @@ button {
   animation: cursor-blink 1s step-end infinite;
 }
 
-.project-thumb--appteka {
-  background: linear-gradient(135deg, #00B4D8, #00C9A7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-sans);
-  font-size: 38px;
-  font-weight: 700;
-  color: #fff;
-  border-radius: var(--radius-sm);
-  animation: appteka-pulse 3s ease-in-out infinite;
-}
-
-@keyframes appteka-pulse {
-  0%, 100% { background: linear-gradient(135deg, #00B4D8, #00C9A7); }
-  50% { background: linear-gradient(135deg, #00C9A7, #00B4D8); }
-}
-
-.project-thumb--fd {
-  background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Futura PT", Futura, "Century Gothic", sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1;
-  letter-spacing: 1px;
-}
-
 @keyframes cursor-blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -461,7 +430,7 @@ button {
   font-family: var(--font-sans);
   font-size: 20px;
   font-weight: 400;
-  color: var(--text-faint);
+  color: var(--text-dim);
   margin-top: 4px;
 }
 
@@ -479,6 +448,7 @@ button {
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 25px;
+  line-height: 1.0;
   font-feature-settings: "smcp";
   transition: color var(--transition-fast);
   white-space: nowrap;
@@ -504,7 +474,7 @@ button {
 .project-arrow {
   font-size: 50px;
   font-weight: 100;
-  color: rgba(34, 34, 34, 0.25);
+  color: var(--text-dim);
   transition: color var(--transition-fast);
   line-height: 1;
   text-align: right;
@@ -775,23 +745,6 @@ a.project-item .project-arrow {
   margin-left: auto;
 }
 
-.case-back {
-  display: block;
-  max-width: var(--text-col);
-  margin: 0 auto 50px;
-  padding-left: var(--content-gutter);
-  font-family: var(--font-sans);
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 40px;
-  color: rgba(34, 34, 34, 0.5);
-  transition: color var(--transition-fast);
-}
-
-.case-back:hover {
-  color: var(--accent);
-}
-
 .case-tabs {
   display: flex;
   gap: 12px;
@@ -815,7 +768,7 @@ a.project-item .project-arrow {
   cursor: pointer;
   transition: all var(--transition-base);
   background: rgba(30, 25, 25, 0.04);
-  color: #000000;
+  color: var(--text);
 }
 
 .case-tab.active {
@@ -828,12 +781,8 @@ a.project-item .project-arrow {
 }
 
 .case-tab:focus-visible {
-  outline: 2px solid #000;
+  outline: 2px solid var(--text);
   outline-offset: 2px;
-}
-
-.case-body {
-  /* Full width — sections handle their own centering */
 }
 
 .case-tab-panel {
@@ -842,25 +791,6 @@ a.project-item .project-arrow {
 
 .case-tab-panel.active {
   display: block;
-}
-
-/* Pet project label */
-.case-pet-label {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--text-dim);
-  border: 1px solid var(--line-muted);
-  border-radius: var(--radius-pill);
-  padding: 4px 14px;
-  max-width: var(--text-col);
-  margin: 0 auto 40px;
-  display: block;
-  width: -webkit-fit-content;
-  width: fit-content;
 }
 
 /* Text sections: centered 688px column with 34px gutter for numbers */
@@ -936,30 +866,6 @@ a.project-item .project-arrow {
   font-style: normal;
 }
 
-/* Iteration timeline (v1–v7 compact cards) */
-.case-timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 20px 0;
-}
-.case-timeline-item {
-  display: flex;
-  gap: 12px;
-  align-items: baseline;
-}
-.case-timeline-ver {
-  font-weight: 700;
-  font-size: 13px;
-  color: var(--accent);
-  min-width: 28px;
-  flex-shrink: 0;
-}
-.case-timeline-text {
-  font-size: 15px;
-  line-height: 1.5;
-}
-
 /* Styled blockquote for user research quotes */
 .case-quote {
   max-width: var(--text-col);
@@ -973,24 +879,10 @@ a.project-item .project-arrow {
   font-style: italic;
 }
 
-/* Edge labels: БЫЛО, REDESIGN V1.0, СОЗДАТЕЛЬ, etc. */
-.case-edge-label {
-  position: absolute;
-  right: calc(100% + 20px);
-  top: 0;
-  font-family: var(--font-mono);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: var(--text-body);
-  white-space: nowrap;
-}
-
 /* Separator: wider than text, centered */
 .case-separator {
   border: none;
-  border-top: 1px solid #000000;
+  border-top: 1px solid var(--line);
   width: 100%;
   margin: 100px 0;
 }
@@ -1211,11 +1103,6 @@ picture.case-img-full {
   display: block;
 }
 
-/* Phone-sized image */
-.case-img--phone {
-  max-width: 282px;
-}
-
 /* Phone screenshot — constrained width, left-aligned to content grid */
 picture.case-img-phone {
   display: block;
@@ -1382,13 +1269,6 @@ picture.case-img-phone img {
   margin-left: auto;
 }
 
-/* Centered video (matches text column width) — used for ENXT-style inline screenshots */
-.case-video--centered {
-  max-width: var(--text-col);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Text-aligned video — left edge matches text column (34px inset within 722px) */
 .case-video--text-aligned {
   max-width: var(--text-col);
@@ -1524,10 +1404,6 @@ picture.case-img-phone img {
   min-width: 64px;
   height: 32px;
   padding: 0 8px;
-}
-
-.case-slideshow-btn {
-  display: none;
 }
 
 .case-slideshow-counter {
@@ -1682,10 +1558,6 @@ picture.case-img-phone img {
   .case-slideshow-arrow[data-next] {
     right: 8px;
   }
-
-  .footer-links {
-    gap: 24px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1780,11 +1652,6 @@ picture.case-img-phone img {
     padding: 0;
   }
 
-  .case-back {
-    font-size: 18px;
-    margin-bottom: 32px;
-  }
-
   .case-tabs {
     flex-wrap: wrap;
     margin-bottom: 40px;
@@ -1820,13 +1687,6 @@ picture.case-img-phone img {
 
   .case-section-title {
     display: inline;
-  }
-
-  .case-edge-label {
-    position: static;
-    display: block;
-    margin-bottom: 8px;
-    text-align: left;
   }
 
   .case-section p {
@@ -1892,17 +1752,6 @@ picture.case-img-phone img {
   .case-font-chars {
     font-size: 28px;
     line-height: 32px;
-  }
-
-  .footer {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .footer-links {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   .main--case {

@@ -502,14 +502,19 @@ function initEmailConfetti() {
         'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);' +
         'background:#222;color:#fff;padding:8px 20px;border-radius:8px;font-family:var(--font-sans);' +
         'font-size:14px;z-index:10000;animation:tipFade 1.5s ease forwards;pointer-events:none';
-      const style = document.createElement('style');
-      style.textContent = '@keyframes tipFade{0%{opacity:0;transform:translate(-50%,-50%) scale(.9)}10%{opacity:1;transform:translate(-50%,-50%) scale(1)}70%{opacity:1}100%{opacity:0;transform:translate(-50%,-60%)}}';
-      document.head.appendChild(style);
+      if (!document.getElementById('tip-fade-style')) {
+        var style = document.createElement('style');
+        style.id = 'tip-fade-style';
+        style.textContent = '@keyframes tipFade{0%{opacity:0;transform:translate(-50%,-50%) scale(.9)}10%{opacity:1;transform:translate(-50%,-50%) scale(1)}70%{opacity:1}100%{opacity:0;transform:translate(-50%,-60%)}}';
+        document.head.appendChild(style);
+      }
       document.body.appendChild(tip);
-      setTimeout(() => { tip.remove(); style.remove(); }, 1600);
+      setTimeout(() => { tip.remove(); }, 1600);
 
       /* Confetti burst */
       fireConfetti();
+    }).catch(() => {
+      window.location.href = emailLink.href;
     });
   });
 

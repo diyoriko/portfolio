@@ -11,6 +11,8 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/en/projects/skysmart.html">
   <link rel="canonical" href="https://diyor.design/en/projects/skysmart.html">
+  <link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html">
+  <link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html">
   <meta property="og:locale" content="en_US">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.min.css">
@@ -485,62 +487,6 @@
     </div>
   </main>
 
-  <script src="../../script.min.js"></script>  <script>
-    (function() {
-      var overlay = document.createElement('div');
-      overlay.className = 'case-lightbox';
-      var lbImg = document.createElement('img');
-      overlay.appendChild(lbImg);
-      document.body.appendChild(overlay);
-      overlay.addEventListener('click', function() {
-        overlay.classList.remove('open');
-      });
-      document.querySelectorAll('.case-img-full, .case-img-row img').forEach(function(img) {
-        img.addEventListener('click', function() {
-          lbImg.src = img.src;
-          requestAnimationFrame(function() { overlay.classList.add('open'); });
-        });
-      });
-    })();
-  </script>
-  <script>
-    document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
-      var track = wrap.querySelector('.case-slideshow-track');
-      if (!track) return;
-      var images = track.querySelectorAll('img');
-      if (images.length <= 1) return;
-      var current = 0;
-      var counter = wrap.querySelector('[data-counter]');
-      var slideshow = wrap.querySelector('.case-slideshow');
-      function updateCounter() {
-        if (counter) counter.textContent = (current + 1) + '/' + images.length;
-      }
-      function goTo(index) {
-        if (index < 0) index = images.length - 1;
-        if (index >= images.length) index = 0;
-        current = index;
-        track.style.transform = 'translateX(-' + (current * 100) + '%)';
-        updateCounter();
-      }
-      wrap.querySelectorAll('[data-prev]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current - 1); });
-      });
-      wrap.querySelectorAll('[data-next]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current + 1); });
-      });
-      if (slideshow) {
-        slideshow.addEventListener('scroll', function() {
-          var w = slideshow.offsetWidth;
-          if (w > 0) {
-            var idx = Math.round(slideshow.scrollLeft / w);
-            if (idx !== current && idx >= 0 && idx < images.length) {
-              current = idx;
-              updateCounter();
-            }
-          }
-        });
-      }
-    });
-  </script>
+  <script src="../../script.min.js"></script>
 </body>
 </html>

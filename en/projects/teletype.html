@@ -11,6 +11,8 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/en/projects/teletype.html">
   <link rel="canonical" href="https://diyor.design/en/projects/teletype.html">
+  <link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html">
+  <link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html">
   <meta property="og:locale" content="en_US">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.min.css">
@@ -89,6 +91,7 @@
         <section class="case-section">
           <span class="case-section-num">3</span>
           <h2 class="case-section-title">Values</h2>
+          <p>We defined three core values:</p>
           <ul>
             <li>Always be in touch</li>
             <li>High enterprise standards</li>
@@ -276,7 +279,7 @@
         <section class="case-section">
           <span class="case-section-num">1</span>
           <h2 class="case-section-title">Context</h2>
-          <p>After the identity update, the old landing page no longer matched the new positioning. The visual language was outdated, the structure didn't reflect the product's key strengths, and sign-up conversion was below expectations.</p>
+          <p>After the identity update, the old landing page no longer matched the new positioning. The visual language was outdated and the structure didn't reflect the product's key strengths.</p>
         </section>
 
         <section class="case-section">
@@ -306,7 +309,7 @@
         <section class="case-section">
           <span class="case-section-num">4</span>
           <h2 class="case-section-title">Iterations</h2>
-          <p>We explored 12+ landing concepts: from structure and messaging to visual language. Each iteration refined the balance between information and emotion.</p>
+          <p>We explored 12+ landing concepts: from structure and messaging to visual language.</p>
         </section>
 
         <div class="mac-mockup">
@@ -336,9 +339,9 @@
         </div>
 
         <section class="case-section">
-          <span class="case-section-num">6</span>
+          <span class="case-section-num">5</span>
           <h2 class="case-section-title">Result</h2>
-          <p>The landing page launched alongside the updated brand. It became the entry point for new users and the product's calling card.</p>
+          <p>The landing page launched alongside the updated brand.</p>
         </section>
 
         <div class="case-links">
@@ -360,45 +363,5 @@
   </main>
 
   <script src="../../script.min.js"></script>
-  <script>
-    // Slideshow navigation with counter + side arrows + mobile swipe
-    document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
-      var track = wrap.querySelector('.case-slideshow-track');
-      if (!track) return;
-      var images = track.querySelectorAll('img');
-      if (images.length <= 1) return;
-      var current = 0;
-      var counter = wrap.querySelector('[data-counter]');
-      var slideshow = wrap.querySelector('.case-slideshow');
-      function updateCounter() {
-        if (counter) counter.textContent = (current + 1) + '/' + images.length;
-      }
-      function goTo(index) {
-        if (index < 0) index = images.length - 1;
-        if (index >= images.length) index = 0;
-        current = index;
-        track.style.transform = 'translateX(-' + (current * 100) + '%)';
-        updateCounter();
-      }
-      wrap.querySelectorAll('[data-prev]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current - 1); });
-      });
-      wrap.querySelectorAll('[data-next]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current + 1); });
-      });
-      if (slideshow) {
-        slideshow.addEventListener('scroll', function() {
-          var w = slideshow.offsetWidth;
-          if (w > 0) {
-            var idx = Math.round(slideshow.scrollLeft / w);
-            if (idx !== current && idx >= 0 && idx < images.length) {
-              current = idx;
-              updateCounter();
-            }
-          }
-        });
-      }
-    });
-  </script>
 </body>
 </html>

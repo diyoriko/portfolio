@@ -11,6 +11,8 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://diyor.design/projects/teletype.html">
   <link rel="canonical" href="https://diyor.design/projects/teletype.html">
+  <link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html">
+  <link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html">
   <meta property="og:locale" content="ru_RU">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.min.css">
@@ -89,6 +91,7 @@
         <section class="case-section">
           <span class="case-section-num">3</span>
           <h2 class="case-section-title">Ценности</h2>
+          <p>Зафиксировали три ценности:</p>
           <ul>
             <li>Быть всегда на связи</li>
             <li>Высокие enterprise-стандарты</li>
@@ -224,7 +227,7 @@
           </div>
           <div class="case-font-chars">
             АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ<br>
-            абвгдеёжзийклмнопрстуфхцчщъыьэюя<br>
+            абвгдеёжзийклмнопрстуфхцчшщъыьэюя<br>
             0123456789<br>
             !@#$%^&*( ).
           </div>
@@ -277,7 +280,7 @@
         <section class="case-section">
           <span class="case-section-num">1</span>
           <h2 class="case-section-title">Контекст</h2>
-          <p>После обновления айдентики старый лендинг перестал соответствовать новому позиционированию. Визуальный язык устарел, структура не отражала ключевые преимущества продукта, а конверсия в регистрацию была ниже ожиданий.</p>
+          <p>После обновления айдентики старый лендинг перестал соответствовать новому позиционированию. Визуальный язык устарел, структура не отражала ключевые преимущества продукта.</p>
         </section>
 
         <section class="case-section">
@@ -313,7 +316,7 @@
         <section class="case-section">
           <span class="case-section-num">4</span>
           <h2 class="case-section-title">Итерации</h2>
-          <p>В процессе проработали 12+ концептов лендинга: от структуры и подачи до визуального языка. Каждая итерация уточняла баланс между информативностью и эмоцией.</p>
+          <p>В процессе проработали 12+ концептов лендинга: от структуры и подачи до визуального языка.</p>
         </section>
 
         <div class="mac-mockup">
@@ -338,7 +341,7 @@
         <section class="case-section">
           <span class="case-section-num">5</span>
           <h2 class="case-section-title">Результат</h2>
-          <p>Лендинг спроектирован и готов к запуску вместе с обновлённым брендом. Страница станет точкой входа для новых пользователей.</p>
+          <p>Лендинг спроектирован и готов к запуску вместе с обновлённым брендом.</p>
         </section>
 
         <div class="case-links">
@@ -359,45 +362,6 @@
     </div>
   </main>
 
-  <script src="../script.min.js"></script>  <script>
-    // Slideshow navigation with counter + side arrows + mobile swipe
-    document.querySelectorAll('[data-slideshow]').forEach(function(wrap) {
-      var track = wrap.querySelector('.case-slideshow-track');
-      if (!track) return;
-      var images = track.querySelectorAll('img');
-      if (images.length <= 1) return;
-      var current = 0;
-      var counter = wrap.querySelector('[data-counter]');
-      var slideshow = wrap.querySelector('.case-slideshow');
-      function updateCounter() {
-        if (counter) counter.textContent = (current + 1) + '/' + images.length;
-      }
-      function goTo(index) {
-        if (index < 0) index = images.length - 1;
-        if (index >= images.length) index = 0;
-        current = index;
-        track.style.transform = 'translateX(-' + (current * 100) + '%)';
-        updateCounter();
-      }
-      wrap.querySelectorAll('[data-prev]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current - 1); });
-      });
-      wrap.querySelectorAll('[data-next]').forEach(function(btn) {
-        btn.addEventListener('click', function() { goTo(current + 1); });
-      });
-      if (slideshow) {
-        slideshow.addEventListener('scroll', function() {
-          var w = slideshow.offsetWidth;
-          if (w > 0) {
-            var idx = Math.round(slideshow.scrollLeft / w);
-            if (idx !== current && idx >= 0 && idx < images.length) {
-              current = idx;
-              updateCounter();
-            }
-          }
-        });
-      }
-    });
-  </script>
+  <script src="../script.min.js"></script>
 </body>
 </html>
