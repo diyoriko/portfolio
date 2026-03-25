@@ -217,10 +217,19 @@ button {
 }
 
 /* Radar nav link — mono font + glitch hover */
-.nav-links a.nav-radar {
+.nav-radar {
   font-family: var(--font-mono);
   font-size: 25px;
+  font-weight: 400;
   position: relative;
+  color: var(--text-body);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.nav-radar:hover,
+.nav-radar.active {
+  color: #FF8C00;
 }
 
 .nav-links a.nav-radar:hover {
@@ -229,9 +238,9 @@ button {
 
 @keyframes nav-glitch {
   0%  { text-shadow: none; }
-  20% { text-shadow: -2px 0 #F8401C, 2px 0 #4fc3f7; transform: translateX(-1px); }
-  40% { text-shadow: 2px 0 #F8401C, -2px 0 #4fc3f7; transform: translateX(1px); }
-  60% { text-shadow: -1px 0 #F8401C, 1px 0 #4fc3f7; transform: translateX(0); }
+  20% { text-shadow: -2px 0 #FF8C00, 2px 0 #4fc3f7; transform: translateX(-1px); }
+  40% { text-shadow: 2px 0 #FF8C00, -2px 0 #4fc3f7; transform: translateX(1px); }
+  60% { text-shadow: -1px 0 #FF8C00, 1px 0 #4fc3f7; transform: translateX(0); }
   80% { text-shadow: 1px 0 #ce93d8, -1px 0 #81c784; }
   100% { text-shadow: none; transform: translateX(0); }
 }
@@ -1998,6 +2007,24 @@ picture.case-img-phone img {
   min-height: 16px;
 }
 
+/* Radar page — own accent color */
+.main--radar {
+  --radar-accent: #FF8C00;
+}
+
+.main--radar .radar-tag {
+  color: var(--radar-accent);
+}
+
+.main--radar .radar-line:hover .radar-title {
+  color: var(--radar-accent);
+  text-shadow: -0.5px 0 rgba(255, 140, 0, 0.4), 0.5px 0 rgba(79, 195, 247, 0.3);
+}
+
+.main--radar .radar-line:hover {
+  background: rgba(255, 140, 0, 0.03);
+}
+
 /* Radar page layout */
 .main--radar {
   padding-top: 20px;
@@ -2020,33 +2047,29 @@ picture.case-img-phone img {
 /* Tag filter buttons */
 .radar-tags {
   display: flex;
-  gap: 8px;
+  gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 32px;
 }
 
 .radar-filter {
-  font-family: var(--font-sans);
-  font-size: 18px;
-  font-weight: 400;
-  padding: 8px 20px;
-  border-radius: 0;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  border: none;
   background: none;
   color: var(--text-dim);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .radar-filter:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  color: var(--text);
 }
 
 .radar-filter.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
+  color: var(--radar-accent, var(--accent));
 }
 
 /* Filtered-out lines */
@@ -2068,7 +2091,7 @@ picture.case-img-phone img {
   .radar-source { display: none !important; }
   .radar-title { font-size: 20px; }
   .radar-desc { font-size: 17px; }
-  .radar-filter { font-size: 16px; padding: 6px 14px; }
+  .radar-filter { font-size: 14px; }
 }
 
 /* --- Reading progress bar (case pages) --- */
