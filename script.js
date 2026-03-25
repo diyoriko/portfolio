@@ -1099,115 +1099,51 @@ function animateStat(el) {
 /* --- Cursor trail on 404 --- */
 
 function initCursorTrail() {
-  const canvas = document.getElementById('pixel-canvas');
-  if (!canvas) return;
+  if (!document.querySelector('.e404')) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  const ctx = canvas.getContext('2d');
-  const CELL = 24;
-  const GAP = 1;       /* grid line width */
-  const FADE = 0.012;  /* opacity decay per frame (~2s full fade) */
-  const colors = [
-    [248, 64, 28],   /* accent red */
-    [244, 143, 177], /* pink */
-    [255, 183, 77],  /* orange */
-    [79, 195, 247],  /* cyan */
-    [129, 199, 132], /* green */
-    [206, 147, 216], /* purple */
-  ];
+  const CELL = 24; /* matches .pixel-grid background-size */
+  const POOL_SIZE = 30;
+  const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
+  const pool = [];
+  let idx = 0;
+  const visited = new Set();
 
-  let cols, rows, cells; /* grid state */
-  let mouseX = -1, mouseY = -1;
-  let raf;
-
-  function resize() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    cols = Math.ceil(canvas.width / CELL);
-    rows = Math.ceil(canvas.height / CELL);
-    cells = new Float32Array(cols * rows);     /* opacity per cell */
-    /* Color index per cell (0-5), pre-fill random */
-    if (!resize.ci || resize.ci.length !== cols * rows) {
-      resize.ci = new Uint8Array(cols * rows);
-      for (let i = 0; i < resize.ci.length; i++) resize.ci[i] = Math.floor(Math.random() * 6);
-    }
+  /* Pre-allocate pool of pixel squares */
+  for (let i = 0; i < POOL_SIZE; i++) {
+    const px = document.createElement('div');
+    px.style.cssText =
+      'position:fixed;width:' + CELL + 'px;height:' + CELL + 'px;pointer-events:none;z-index:9990;' +
+      'opacity:0;transition:opacity 1.2s ease;';
+    document.body.appendChild(px);
+    pool.push(px);
   }
-
-  function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    /* Draw grid lines */
-    ctx.strokeStyle = 'rgba(0,0,0,0.04)';
-    ctx.lineWidth = GAP;
-    ctx.beginPath();
-    for (let x = 0; x <= cols; x++) {
-      ctx.moveTo(x * CELL + 0.5, 0);
-      ctx.lineTo(x * CELL + 0.5, canvas.height);
-    }
-    for (let y = 0; y <= rows; y++) {
-      ctx.moveTo(0, y * CELL + 0.5);
-      ctx.lineTo(canvas.width, y * CELL + 0.5);
-    }
-    ctx.stroke();
-
-    /* Light up cells near cursor */
-    if (mouseX >= 0) {
-      const cx = Math.floor(mouseX / CELL);
-      const cy = Math.floor(mouseY / CELL);
-      /* Brush: 3x3 with falloff */
-      for (let dy = -1; dy <= 1; dy++) {
-        for (let dx = -1; dx <= 1; dx++) {
-          const gx = cx + dx, gy = cy + dy;
-          if (gx < 0 || gy < 0 || gx >= cols || gy >= rows) continue;
-          const i = gy * cols + gx;
-          const dist = Math.abs(dx) + Math.abs(dy); /* manhattan */
-          const strength = dist === 0 ? 0.45 : dist === 1 ? 0.2 : 0.08;
-          if (cells[i] < strength) {
-            cells[i] = strength;
-            resize.ci[i] = Math.floor(Math.random() * 6);
-          }
-        }
-      }
-    }
-
-    /* Draw lit cells and fade */
-    let hasActive = false;
-    for (let i = 0; i < cells.length; i++) {
-      if (cells[i] <= 0) continue;
-      hasActive = true;
-      const x = (i % cols) * CELL + GAP;
-      const y = Math.floor(i / cols) * CELL + GAP;
-      const [r, g, b] = colors[resize.ci[i]];
-      ctx.fillStyle = 'rgba(' + r + ',' + g + ',' + b + ',' + cells[i] + ')';
-      ctx.fillRect(x, y, CELL - GAP * 2, CELL - GAP * 2);
-      cells[i] -= FADE;
-      if (cells[i] < 0) cells[i] = 0;
-    }
-
-    if (hasActive || mouseX >= 0) raf = requestAnimationFrame(draw);
-    else raf = null;
-  }
-
-  function ensureLoop() {
-    if (!raf) raf = requestAnimationFrame(draw);
-  }
-
-  resize();
-  window.addEventListener('resize', resize);
 
   document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-    ensureLoop();
-  });
+    /* Snap to grid */
+    const gx = Math.floor(e.clientX / CELL) * CELL;
+    const gy = Math.floor(e.clientY / CELL) * CELL;
+    const key = gx + ',' + gy;
 
-  document.addEventListener('mouseleave', () => {
-    mouseX = -1;
-    mouseY = -1;
-  });
+    /* Skip if this cell was recently painted */
+    if (visited.has(key)) return;
+    visited.add(key);
+    setTimeout(() => visited.delete(key), 1200);
 
-  /* Initial draw for grid lines */
-  ensureLoop();
+    const px = pool[idx];
+    idx = (idx + 1) % POOL_SIZE;
+
+    px.style.transition = 'none';
+    px.style.background = colors[Math.floor(Math.random() * 6)];
+    px.style.left = gx + 'px';
+    px.style.top = gy + 'px';
+    px.style.opacity = '0.25';
+
+    requestAnimationFrame(() => {
+      px.style.transition = 'opacity 1.2s ease';
+      px.style.opacity = '0';
+    });
+  });
 }
 
 /* --- Skeleton cleanup (mark loaded images) --- */
