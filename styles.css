@@ -1980,6 +1980,50 @@ picture.case-img-phone img {
   min-height: 16px;
 }
 
+/* Radar page layout */
+.main--radar {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Tag filter buttons */
+.radar-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.radar-filter {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.radar-filter:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.radar-filter.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Filtered-out lines */
+.radar-line.filtered-out {
+  display: none;
+}
+
 @media (max-width: 900px) {
   .radar { padding: 80px 0 60px; }
   .radar-ascii { font-size: 5px; }
@@ -1993,6 +2037,7 @@ picture.case-img-phone img {
   .radar-source { display: none !important; }
   .radar-title { font-size: 18px; }
   .radar-desc { font-size: 15px; }
+  .radar-filter { font-size: 11px; padding: 5px 10px; }
 }
 
 /* --- Reading progress bar (case pages) --- */

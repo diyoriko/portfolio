@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
+  <title>Radar — Diyor Khakimov</title>
+  <meta name="description" content="What's changing design right now. Curated feed of articles and tools at the intersection of design, AI, and engineering.">
+  <meta property="og:title" content="Radar — Diyor Khakimov">
+  <meta property="og:description" content="What's changing design. Design × AI, Design Engineering, tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://diyor.design/en/radar.html">
+  <meta property="og:locale" content="en_US">
+  <link rel="alternate" hreflang="en" href="https://diyor.design/en/radar.html">
+  <link rel="alternate" hreflang="ru" href="https://diyor.design/radar.html">
+  <link rel="canonical" href="https://diyor.design/en/radar.html">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="stylesheet" href="../styles.min.css">
+
+  <script data-goatcounter="https://diyoriko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+  <nav class="nav"><div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="index.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="radar.html" class="active">Radar</a>
+      </div>
+    </div>
+    <div class="nav-lang">
+      <a href="../radar.html">Ru</a>
+      <span class="active">En</span>
+    </div>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
+  </div></nav>
+
+  <div class="nav-mobile" aria-hidden="true"></div>
+
+  <main class="main main--radar">
+    <div class="radar" id="radar">
+      <div class="radar-header">
+        <pre class="radar-ascii" aria-hidden="true">██████╗  █████╗ ██████╗  █████╗ ██████╗
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██████╔╝███████║██║  ██║███████║██████╔╝
+██╔══██╗██╔══██║██║  ██║██╔══██║██╔══██╗
+██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝</pre>
+        <p class="radar-sub">What's changing design right now</p>
+      </div>
+
+      <nav class="radar-tags" aria-label="Filter by tag">
+        <button class="radar-filter active" data-tag="all">all</button>
+        <button class="radar-filter" data-tag="figma×ai">figma×ai</button>
+        <button class="radar-filter" data-tag="design eng">design eng</button>
+        <button class="radar-filter" data-tag="tools">tools</button>
+        <button class="radar-filter" data-tag="design systems">design systems</button>
+        <button class="radar-filter" data-tag="process">process</button>
+      </nav>
+
+      <div class="radar-feed">
+        <a href="https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/" target="_blank" rel="noopener" class="radar-line reveal" data-tag="figma×ai">
+          <span class="radar-meta"><time>2026.03.24</time><span class="radar-tag">figma×ai</span></span>
+          <span class="radar-title">Agents, Meet the Figma Canvas</span>
+          <span class="radar-desc">Agents write to canvas via MCP server. Design system quality now directly determines output quality.</span>
+          <span class="radar-source">figma.com/blog ↗</span>
+        </a>
+
+        <a href="https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4" target="_blank" rel="noopener" class="radar-line reveal" data-tag="design eng">
+          <span class="radar-meta"><time>2026.03.20</time><span class="radar-tag">design eng</span></span>
+          <span class="radar-title">Designing Delightful Frontends with GPT-5.4</span>
+          <span class="radar-desc">The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.</span>
+          <span class="radar-source">developers.openai.com ↗</span>
+        </a>
+
+        <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" rel="noopener" class="radar-line reveal" data-tag="tools">
+          <span class="radar-meta"><time>2026.03</time><span class="radar-tag">tools</span></span>
+          <span class="radar-title">UI/UX Pro Max Skill — 50K+ stars</span>
+          <span class="radar-desc">161 rules, 67 styles, 57 typography pairings. Works in Claude, Cursor, Copilot.</span>
+          <span class="radar-source">github.com ↗</span>
+        </a>
+
+        <a href="https://www.figma.com/blog/design-systems-ai-mcp/" target="_blank" rel="noopener" class="radar-line reveal" data-tag="design systems">
+          <span class="radar-meta"><time>2026.03</time><span class="radar-tag">design systems</span></span>
+          <span class="radar-title">Design Systems And AI: Why MCP Is The Unlock</span>
+          <span class="radar-desc">MCP servers scan codebases and generate structured design system rules.</span>
+          <span class="radar-source">figma.com/blog ↗</span>
+        </a>
+
+        <a href="https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/" target="_blank" rel="noopener" class="radar-line reveal" data-tag="design eng">
+          <span class="radar-meta"><time>2026</time><span class="radar-tag">design eng</span></span>
+          <span class="radar-title">The Complete Vibe Coding Guide for Designers</span>
+          <span class="radar-desc">Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.</span>
+          <span class="radar-source">muz.li ↗</span>
+        </a>
+
+        <a href="https://www.builder.io/blog/claude-code-for-designers" target="_blank" rel="noopener" class="radar-line reveal" data-tag="tools">
+          <span class="radar-meta"><time>2026.02.25</time><span class="radar-tag">tools</span></span>
+          <span class="radar-title">Claude Code for Designers</span>
+          <span class="radar-desc">Plan mode, live preview, Figma integration. No terminal needed, inside the desktop app.</span>
+          <span class="radar-source">builder.io ↗</span>
+        </a>
+
+        <a href="https://www.figma.com/blog/figma-make-general-availability/" target="_blank" rel="noopener" class="radar-line reveal" data-tag="figma×ai">
+          <span class="radar-meta"><time>2026</time><span class="radar-tag">figma×ai</span></span>
+          <span class="radar-title">Figma Make Is Now Available to All</span>
+          <span class="radar-desc">Prompt-to-design exits beta. Supabase backend, library imports, generation from prompts.</span>
+          <span class="radar-source">figma.com/blog ↗</span>
+        </a>
+      </div>
+
+      <div class="radar-counter" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <script src="../script.min.js"></script>
+</body>
+</html>

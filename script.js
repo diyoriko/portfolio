@@ -1180,6 +1180,34 @@ function initRadarCounter() {
   });
 }
 
+/* --- Radar tag filter --- */
+
+function initRadarFilter() {
+  const tags = document.querySelector('.radar-tags');
+  if (!tags) return;
+
+  const buttons = tags.querySelectorAll('.radar-filter');
+  const lines = document.querySelectorAll('.radar-line[data-tag]');
+
+  tags.addEventListener('click', (e) => {
+    const btn = e.target.closest('.radar-filter');
+    if (!btn) return;
+
+    const tag = btn.dataset.tag;
+
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    lines.forEach(line => {
+      if (tag === 'all' || line.dataset.tag === tag) {
+        line.classList.remove('filtered-out');
+      } else {
+        line.classList.add('filtered-out');
+      }
+    });
+  });
+}
+
 /* --- Skeleton cleanup (mark loaded images) --- */
 
 function initSkeletonCleanup() {
@@ -1215,6 +1243,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCursorTrail();
   initSkeletonCleanup();
   initRadarCounter();
+  initRadarFilter();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {
