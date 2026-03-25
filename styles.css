@@ -2000,13 +2000,13 @@ picture.case-img-phone img {
 
 /* Radar page layout */
 .main--radar {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 
 /* Radar intro video */
 .radar-intro {
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
