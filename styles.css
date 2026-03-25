@@ -1897,7 +1897,7 @@ picture.case-img-phone img {
 .radar {
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: 120px 0 80px;
+  padding: 0;
 }
 
 .radar-header {
