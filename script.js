@@ -1102,42 +1102,46 @@ function initCursorTrail() {
   if (!document.querySelector('.e404')) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  const POOL_SIZE = 20;
+  const CELL = 24; /* matches .pixel-grid background-size */
+  const POOL_SIZE = 30;
   const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
   const pool = [];
   let idx = 0;
-  let lastTime = 0;
+  const visited = new Set();
 
-  /* Pre-allocate pool */
+  /* Pre-allocate pool of pixel squares */
   for (let i = 0; i < POOL_SIZE; i++) {
-    const dot = document.createElement('div');
-    dot.style.cssText =
-      'position:fixed;width:8px;height:8px;border-radius:50%;pointer-events:none;z-index:9990;' +
-      'opacity:0;transition:all 0.8s ease;';
-    document.body.appendChild(dot);
-    pool.push(dot);
+    const px = document.createElement('div');
+    px.style.cssText =
+      'position:fixed;width:' + CELL + 'px;height:' + CELL + 'px;pointer-events:none;z-index:9990;' +
+      'opacity:0;transition:opacity 1.2s ease;';
+    document.body.appendChild(px);
+    pool.push(px);
   }
 
   document.addEventListener('mousemove', (e) => {
-    const now = Date.now();
-    if (now - lastTime < 30) return;
-    lastTime = now;
+    /* Snap to grid */
+    const gx = Math.floor(e.clientX / CELL) * CELL;
+    const gy = Math.floor(e.clientY / CELL) * CELL;
+    const key = gx + ',' + gy;
 
-    const dot = pool[idx];
+    /* Skip if this cell was recently painted */
+    if (visited.has(key)) return;
+    visited.add(key);
+    setTimeout(() => visited.delete(key), 1200);
+
+    const px = pool[idx];
     idx = (idx + 1) % POOL_SIZE;
 
-    /* Reset and reposition */
-    dot.style.transition = 'none';
-    dot.style.background = colors[Math.floor(Math.random() * 6)];
-    dot.style.left = e.clientX + 'px';
-    dot.style.top = e.clientY + 'px';
-    dot.style.transform = 'translate(-50%,-50%)';
-    dot.style.opacity = '0.7';
+    px.style.transition = 'none';
+    px.style.background = colors[Math.floor(Math.random() * 6)];
+    px.style.left = gx + 'px';
+    px.style.top = gy + 'px';
+    px.style.opacity = '0.25';
 
     requestAnimationFrame(() => {
-      dot.style.transition = 'all 0.8s ease';
-      dot.style.opacity = '0';
-      dot.style.transform = 'translate(-50%,-50%) scale(0)';
+      px.style.transition = 'opacity 1.2s ease';
+      px.style.opacity = '0';
     });
   });
 }

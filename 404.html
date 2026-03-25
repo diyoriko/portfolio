@@ -54,18 +54,15 @@
       font-family: var(--font-sans); font-size: 13px;
       color: var(--text-dim); opacity: 0.5; margin-top: 48px;
     }
-    .ghost {
-      position: fixed; font-size: 32px; pointer-events: none;
-      animation: float 3s ease-in-out infinite;
-      opacity: 0.15;
+    /* Pixel grid background */
+    .pixel-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image:
+        linear-gradient(rgba(0,0,0,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,.03) 1px, transparent 1px);
+      background-size: 24px 24px;
     }
-    .g1 { top: 15%; left: 12%; animation-delay: 0s; }
-    .g2 { top: 60%; right: 15%; animation-delay: 1s; }
-    .g3 { bottom: 20%; left: 30%; animation-delay: 2s; font-size: 24px; }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-12px); }
-    }
+    .e404 { position: relative; z-index: 1; }
   </style>
   <script data-goatcounter="https://diyoriko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -96,9 +93,7 @@
     </div>
   </main>
 
-  <div class="ghost g1">👻</div>
-  <div class="ghost g2">🌸</div>
-  <div class="ghost g3">✨</div>
+  <div class="pixel-grid"></div>
 
   <script src="/script.min.js"></script>
 </body>
