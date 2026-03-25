@@ -1114,6 +1114,7 @@ picture.case-img-full {
   min-height: 0;
   overflow: hidden;
   border-radius: var(--radius-sm);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .case-concept picture img {
