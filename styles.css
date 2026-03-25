@@ -2018,9 +2018,11 @@ picture.case-img-phone img {
   min-height: 16px;
 }
 
-/* Radar page — own accent color */
+/* Radar page */
 .main--radar {
   --radar-accent: #E8611A;
+  padding-top: 16px;
+  padding-bottom: 60px;
 }
 
 .main--radar .radar-tag {
@@ -2029,17 +2031,11 @@ picture.case-img-phone img {
 
 .main--radar .radar-line:hover .radar-title {
   color: var(--radar-accent);
-  text-shadow: -0.5px 0 rgba(255, 140, 0, 0.4), 0.5px 0 rgba(79, 195, 247, 0.3);
+  text-shadow: -0.5px 0 rgba(232, 97, 26, 0.4), 0.5px 0 rgba(79, 195, 247, 0.3);
 }
 
 .main--radar .radar-line:hover {
-  background: rgba(255, 140, 0, 0.03);
-}
-
-/* Radar page layout */
-.main--radar {
-  padding-top: 24px;
-  padding-bottom: 60px;
+  background: rgba(232, 97, 26, 0.03);
 }
 
 /* Radar intro video */
