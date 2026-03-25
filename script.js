@@ -582,17 +582,25 @@ function initVanillaBadge() {
   const p = location.pathname;
   if (p.includes('/projects/') || p.includes('about')) return;
 
+  const isMobile = window.innerWidth <= 480;
+
+  const sep = '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>';
+  const ghIcon = '<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:middle"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>';
+  const ghLink = '<a href="https://github.com/diyoriko/portfolio" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:4px;vertical-align:middle">' + ghIcon + ' GitHub</a>';
+
   const badge = document.createElement('div');
-  badge.innerHTML =
-    '<span style="opacity:.5">0 frameworks · 0 dependencies · vanilla everything</span>' +
-    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
-    '<span data-action="grid" style="cursor:pointer"><span style="opacity:.5">Shift+G</span> grid</span>' +
-    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
-    '<span data-action="terminal" style="cursor:pointer"><span style="opacity:.5">~</span> terminal</span>' +
-    '<span style="width:1px;height:14px;background:rgba(0,0,0,.12);display:inline-block;vertical-align:middle;margin:0 12px"></span>' +
-    '<a href="https://github.com/diyoriko/portfolio" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:4px;vertical-align:middle">' +
-      '<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:middle"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>' +
-      ' GitHub</a>';
+
+  if (isMobile) {
+    badge.innerHTML =
+      '<span style="opacity:.5">vanilla everything</span>' + sep + ghLink;
+  } else {
+    badge.innerHTML =
+      '<span style="opacity:.5">0 frameworks · 0 dependencies · vanilla everything</span>' + sep +
+      '<span data-action="grid" style="cursor:pointer"><span style="opacity:.5">Shift+G</span> grid</span>' + sep +
+      '<span data-action="terminal" style="cursor:pointer"><span style="opacity:.5">~</span> terminal</span>' + sep +
+      ghLink;
+  }
+
   badge.style.cssText =
     'position:fixed;bottom:16px;left:50%;transform:translateX(-50%);' +
     'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
@@ -601,14 +609,6 @@ function initVanillaBadge() {
     'border:1px solid rgba(0,0,0,.06);' +
     'pointer-events:auto;white-space:nowrap;' +
     'transition:all .3s;z-index:1;cursor:default';
-
-  /* Hide on mobile */
-  if (window.innerWidth <= 480) {
-    badge.style.display = 'none';
-  }
-  window.addEventListener('resize', () => {
-    badge.style.display = window.innerWidth <= 480 ? 'none' : '';
-  });
 
   document.body.appendChild(badge);
 
