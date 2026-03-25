@@ -216,17 +216,24 @@ button {
   color: var(--accent);
 }
 
-/* Radar nav link — mono font + blinking cursor */
+/* Radar nav link — mono font + glitch hover */
 .nav-links a.nav-radar {
   font-family: var(--font-mono);
-  font-size: 20px;
-  letter-spacing: -0.3px;
+  font-size: 22px;
+  position: relative;
 }
 
-.nav-links a.nav-radar::after {
-  content: '_';
-  animation: cursor-blink 1s step-end infinite;
-  margin-left: 1px;
+.nav-links a.nav-radar:hover {
+  animation: nav-glitch 0.3s ease;
+}
+
+@keyframes nav-glitch {
+  0%  { text-shadow: none; }
+  20% { text-shadow: -2px 0 #F8401C, 2px 0 #4fc3f7; transform: translateX(-1px); }
+  40% { text-shadow: 2px 0 #F8401C, -2px 0 #4fc3f7; transform: translateX(1px); }
+  60% { text-shadow: -1px 0 #F8401C, 1px 0 #4fc3f7; transform: translateX(0); }
+  80% { text-shadow: 1px 0 #ce93d8, -1px 0 #81c784; }
+  100% { text-shadow: none; transform: translateX(0); }
 }
 
 .nav-lang {
