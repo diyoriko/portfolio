@@ -1809,8 +1809,8 @@ picture.case-img-phone img {
     line-height: 32px;
   }
 
-  .case-img-overlay iframe {
-    display: none;
+  .case-img-overlay {
+    overflow: hidden;
   }
 
   .main--case {
