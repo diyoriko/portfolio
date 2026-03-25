@@ -1217,73 +1217,6 @@ picture.case-img-phone img {
   text-indent: 168px;
 }
 
-/* Metrics table */
-.case-metrics {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: var(--font-sans);
-  font-size: 14px;
-  line-height: 1.25;
-  margin: 25px 0;
-  background: #ffffff;
-}
-
-.case-metrics thead {
-  background: #f5f7fa;
-}
-
-.case-metrics th {
-  text-align: left;
-  font-weight: 600;
-  padding: 10px 12px;
-  color: #1E1919;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.case-metrics td {
-  padding: 10px 12px;
-  border-bottom: 1px solid #f0f2f5;
-  color: #333;
-}
-
-.case-metrics .metric-group td {
-  background: #fafafa;
-  font-weight: 600;
-  color: #374151;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.case-metrics .delta {
-  color: var(--accent);
-  font-weight: 500;
-}
-
-/* Compare table (v1 vs v2) */
-.case-compare {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: var(--font-sans);
-  font-size: 14px;
-  line-height: 1.25;
-  margin: 25px 0;
-  background: #ffffff;
-}
-
-.case-compare th {
-  text-align: left;
-  font-weight: 600;
-  padding: 10px 12px;
-  color: #1E1919;
-  background: #f5f7fa;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.case-compare td {
-  padding: 10px 12px;
-  border-bottom: 1px solid #f0f2f5;
-  color: #333;
-}
-
 /* Video poster (static frame replacing video) */
 .case-video {
   position: relative;
@@ -1921,6 +1854,145 @@ picture.case-img-phone img {
   .mac-mockup-viewport {
     height: 300px;
   }
+}
+
+/* --- Radar section (about page) --- */
+
+.radar {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 120px 0 80px;
+}
+
+.radar-header {
+  margin-bottom: 48px;
+}
+
+.radar-ascii {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  line-height: 1.15;
+  color: var(--text-faint);
+  letter-spacing: 0;
+  user-select: none;
+  margin-bottom: 12px;
+}
+
+.radar-sub {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.radar-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.radar-line {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto auto;
+  gap: 0 20px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.radar-line:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.radar-line:hover {
+  background: rgba(248, 64, 28, 0.03);
+}
+
+.radar-line:hover .radar-title {
+  color: var(--accent);
+  text-shadow: -0.5px 0 rgba(248, 64, 28, 0.4), 0.5px 0 rgba(79, 195, 247, 0.3);
+}
+
+.radar-meta {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  padding-top: 2px;
+}
+
+.radar-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.radar-title {
+  grid-column: 2;
+  font-family: var(--font-sans);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text);
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+.radar-desc {
+  grid-column: 2;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.radar-source {
+  display: none;
+}
+
+.radar-line:hover .radar-source {
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 16px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.radar-counter {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  text-align: right;
+  margin-top: 16px;
+  min-height: 16px;
+}
+
+@media (max-width: 900px) {
+  .radar { padding: 80px 0 60px; }
+  .radar-ascii { font-size: 5px; }
+}
+
+@media (max-width: 480px) {
+  .radar { padding: 60px 0 40px; }
+  .radar-ascii { font-size: 4px; overflow: hidden; }
+  .radar-line { grid-template-columns: 1fr; gap: 4px; }
+  .radar-meta { grid-row: auto; flex-direction: row; gap: 12px; }
+  .radar-source { display: none !important; }
+  .radar-title { font-size: 18px; }
+  .radar-desc { font-size: 15px; }
 }
 
 /* --- Reading progress bar (case pages) --- */

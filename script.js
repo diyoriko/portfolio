@@ -454,12 +454,12 @@ function initTerminal() {
     '"Creativity is just connecting things." — Steve Jobs',
   ];
 
-  const commandNames = ['help', 'projects', 'contact', 'skills', 'about', 'open', 'neofetch', 'fortune', 'sudo', 'rm', 'matrix', 'ls', 'git', 'clear', 'exit'];
+  const commandNames = ['help', 'projects', 'contact', 'skills', 'about', 'open', 'neofetch', 'fortune', 'sudo', 'rm', 'matrix', 'ls', 'git', 'radar', 'clear', 'exit'];
 
   const commands = {
     help: () => isRu
-      ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nls -la           файловая система\ngit log          последние коммиты\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
-      : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nls -la           file system\ngit log          recent commits\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
+      ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nls -la           файловая система\ngit log          последние коммиты\nradar            что меняет дизайн\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
+      : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nls -la           file system\ngit log          recent commits\nradar            design × AI feed\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
     projects: () => isRu
       ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
       : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
@@ -522,6 +522,16 @@ function initTerminal() {
       '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff    2K        404.html\n' +
       '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff    1K        favicon.svg\n' +
       '\n' + (isRu ? 'Всего: 0 фреймворков, 0 зависимостей, ~100% ручного кода' : 'Total: 0 frameworks, 0 dependencies, ~100% hand-coded'),
+    radar: () =>
+      '<span style="color:#f8401c">▌ RADAR</span> — ' + (isRu ? 'что сейчас меняет дизайн' : 'what\'s changing design right now') + '\n\n' +
+      '<span style="color:#ffb74d">2026.03.24</span>  <span style="color:#f8401c">[figma×ai]</span>    Agents, Meet the Figma Canvas\n' +
+      '<span style="color:#ffb74d">2026.03.20</span>  <span style="color:#f8401c">[design eng]</span>  Designing Frontends with GPT-5.4\n' +
+      '<span style="color:#ffb74d">2026.03</span>     <span style="color:#f8401c">[tools]</span>       UI/UX Pro Max Skill — 50K+ stars\n' +
+      '<span style="color:#ffb74d">2026.03</span>     <span style="color:#f8401c">[systems]</span>    Design Systems & AI: MCP Is The Unlock\n' +
+      '<span style="color:#ffb74d">2026</span>        <span style="color:#f8401c">[design eng]</span>  Vibe Coding Guide for Designers\n' +
+      '<span style="color:#ffb74d">2026.02.25</span>  <span style="color:#f8401c">[tools]</span>       Claude Code for Designers\n' +
+      '<span style="color:#ffb74d">2026</span>        <span style="color:#f8401c">[figma×ai]</span>    Figma Make — General Availability\n' +
+      '\n<span style="color:#888">' + (isRu ? 'Полный список → about.html#radar' : 'Full list → about.html#radar') + '</span>',
     'git log': () =>
       '<span style="color:#ffb74d">d226f26</span> feat: terminal upgrade, audit fixes, GoatCounter fix\n' +
       '<span style="color:#ffb74d">a5e99b7</span> fix: tighten about-links gap on mobile\n' +
@@ -1146,6 +1156,30 @@ function initCursorTrail() {
   });
 }
 
+/* --- Radar hover counter easter egg --- */
+
+function initRadarCounter() {
+  const feed = document.querySelector('.radar-feed');
+  if (!feed) return;
+
+  const counter = document.querySelector('.radar-counter');
+  let count = 0;
+  const isRu = !location.pathname.includes('/en/');
+
+  feed.querySelectorAll('.radar-line').forEach(line => {
+    line.addEventListener('mouseenter', () => {
+      count++;
+      if (count === 10) {
+        counter.textContent = isRu ? 'Тебе интересно. Это хорошо.' : 'You\'re curious. Good.';
+        counter.style.color = '#F8401C';
+      } else if (count > 10) {
+        counter.textContent = '';
+        counter.style.color = '';
+      }
+    });
+  });
+}
+
 /* --- Skeleton cleanup (mark loaded images) --- */
 
 function initSkeletonCleanup() {
@@ -1180,6 +1214,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initStatCounters();
   initCursorTrail();
   initSkeletonCleanup();
+  initRadarCounter();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {
