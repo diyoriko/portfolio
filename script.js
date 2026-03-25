@@ -968,7 +968,13 @@ function initReadingProgress() {
     bar.style.width = pct + '%';
   }
 
-  window.addEventListener('scroll', update, { passive: true });
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => { update(); ticking = false; });
+      ticking = true;
+    }
+  }, { passive: true });
   update();
 }
 
@@ -1096,26 +1102,43 @@ function initCursorTrail() {
   if (!document.querySelector('.e404')) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  let lastTime = 0;
+  const POOL_SIZE = 20;
   const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
+  const pool = [];
+  let idx = 0;
+  let lastTime = 0;
 
-  document.addEventListener('mousemove', (e) => {
-    const now = Date.now();
-    if (now - lastTime < 30) return; /* throttle to ~33fps */
-    lastTime = now;
-
+  /* Pre-allocate pool */
+  for (let i = 0; i < POOL_SIZE; i++) {
     const dot = document.createElement('div');
     dot.style.cssText =
       'position:fixed;width:8px;height:8px;border-radius:50%;pointer-events:none;z-index:9990;' +
-      'background:' + colors[Math.floor(Math.random() * 6)] + ';' +
-      'left:' + e.clientX + 'px;top:' + e.clientY + 'px;' +
-      'transform:translate(-50%,-50%);opacity:0.7;transition:all 0.8s ease;';
+      'opacity:0;transition:all 0.8s ease;';
     document.body.appendChild(dot);
+    pool.push(dot);
+  }
+
+  document.addEventListener('mousemove', (e) => {
+    const now = Date.now();
+    if (now - lastTime < 30) return;
+    lastTime = now;
+
+    const dot = pool[idx];
+    idx = (idx + 1) % POOL_SIZE;
+
+    /* Reset and reposition */
+    dot.style.transition = 'none';
+    dot.style.background = colors[Math.floor(Math.random() * 6)];
+    dot.style.left = e.clientX + 'px';
+    dot.style.top = e.clientY + 'px';
+    dot.style.transform = 'translate(-50%,-50%)';
+    dot.style.opacity = '0.7';
+
     requestAnimationFrame(() => {
+      dot.style.transition = 'all 0.8s ease';
       dot.style.opacity = '0';
       dot.style.transform = 'translate(-50%,-50%) scale(0)';
     });
-    setTimeout(() => dot.remove(), 800);
   });
 }
 
