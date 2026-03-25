@@ -152,8 +152,11 @@ let observer;
 function initLightbox() {
   const overlay = document.createElement('div');
   overlay.className = 'case-lightbox';
-  overlay.innerHTML = '<img><video autoplay loop muted playsinline style="display:none">';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-label', 'Image viewer');
+  overlay.innerHTML = '<img alt=""><button class="lb-close" aria-label="Close">&times;</button><video autoplay loop muted playsinline style="display:none">';
   document.body.appendChild(overlay);
+  let previousFocus = null;
 
   const lbImg = overlay.querySelector('img');
   const lbVideo = overlay.querySelector('video');
@@ -197,6 +200,8 @@ function initLightbox() {
     resetZoom();
     overlay.classList.add('open');
     overlay.style.touchAction = 'none';
+    previousFocus = document.activeElement;
+    overlay.querySelector('.lb-close').focus();
   }
 
   function closeOverlay() {
@@ -207,7 +212,16 @@ function initLightbox() {
     lbVideo.style.display = 'none';
     lbImg.style.display = '';
     resetZoom();
+    if (previousFocus) previousFocus.focus();
   }
+
+  /* Focus trap */
+  overlay.addEventListener('keydown', (e) => {
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      overlay.querySelector('.lb-close').focus();
+    }
+  });
 
   document.addEventListener('click', (e) => {
     /* Video lightbox */
@@ -393,21 +407,108 @@ function initDynamicFavicon() {
 function initTerminal() {
   let el = null;
   const isRu = !location.pathname.includes('/en/');
+  const history = [];
+  let historyIdx = -1;
+
+  /* Project map for "open" command */
+  const projectMap = {
+    teletype: 'teletype', sami: 'sami', vedic: 'vedic', hunter: 'hunter',
+    enxt: 'enxt', skysmart: 'skysmart', osme: 'osme', flora: 'flora',
+    qlean: 'qlean', prosto: 'prosto', kombo: 'kombo', appteka: 'appteka',
+    hse: 'hse', 'singularity-hub': 'singularity-hub', 'singularity-words': 'singularity-words',
+    /* RU aliases */
+    телетайп: 'teletype', сами: 'sami', ловец: 'hunter', просто: 'prosto', комбо: 'kombo',
+  };
+
+  /* Fortune quotes */
+  const fortunes = [
+    '"Good design is as little design as possible." — Dieter Rams',
+    '"Design is not just what it looks like. Design is how it works." — Steve Jobs',
+    '"Simplicity is the ultimate sophistication." — Leonardo da Vinci',
+    '"The details are not the details. They make the design." — Charles Eames',
+    '"Less, but better." — Dieter Rams',
+    '"Design is intelligence made visible." — Alina Wheeler',
+    '"White space is to be regarded as an active element, not a passive background." — Jan Tschichold',
+    '"A user interface is like a joke. If you have to explain it, it\'s not that good." — Martin LeBlanc',
+    '"Typography is the craft of endowing human language with a durable visual form." — Robert Bringhurst',
+    '"Have no fear of perfection — you\'ll never reach it." — Salvador Dalí',
+    '"The best design is the one you don\'t notice." — Joe Sparano',
+    '"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away." — Antoine de Saint-Exupéry',
+    '"Make it simple, but significant." — Don Draper',
+    '"Color does not add a pleasant quality to design — it reinforces it." — Pierre Bonnard',
+    '"Design creates culture. Culture shapes values. Values determine the future." — Robert L. Peters',
+    '"Every great design begins with an even better story." — Lorinda Mamo',
+    '"People ignore design that ignores people." — Frank Chimero',
+    '"Styles come and go. Good design is a language, not a style." — Massimo Vignelli',
+    '"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design." — Paul Rand',
+    '"You can\'t use up creativity. The more you use, the more you have." — Maya Angelou',
+    '"Design is thinking made visual." — Saul Bass',
+    '"Content precedes design. Design in the absence of content is not design, it\'s decoration." — Jeffrey Zeldman',
+    '"Whitespace is like air: it is necessary for design to breathe." — Wojciech Zieliński',
+    '"Good design is obvious. Great design is transparent." — Joe Sparano',
+    '"If you think good design is expensive, you should look at the cost of bad design." — Ralf Speth',
+    '"The best error message is the one that never shows up." — Thomas Fuchs',
+    '"Consistency is one of the most powerful usability principles." — Jakob Nielsen',
+    '"A beautiful product that doesn\'t work very well is ugly." — Jonathan Ive',
+    '"Design is the silent ambassador of your brand." — Paul Rand',
+    '"Creativity is just connecting things." — Steve Jobs',
+  ];
+
+  const commandNames = ['help', 'projects', 'contact', 'skills', 'about', 'open', 'neofetch', 'fortune', 'sudo', 'rm', 'matrix', 'clear', 'exit'];
 
   const commands = {
     help: () => isRu
-      ? 'Команды: help, projects, contact, skills, about, matrix, clear, exit'
-      : 'Commands: help, projects, contact, skills, about, matrix, clear, exit',
+      ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
+      : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
     projects: () => isRu
       ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
       : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
     contact: () => 'telegram: @diyoriko\nemail: diyor.khakimov@gmail.com\nlinkedin: /in/diyoriko',
-    skills: () => isRu
-      ? 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation'
-      : 'Product Design · Brand Identity · UI/UX · Packaging · Print\nTypeScript · AI Agents · Telegram Bots · Automation',
+    skills: () =>
+      'Design:  Product, Brand, UI/UX, Packaging, Print\nCode:    TypeScript, AI Agents, Bots, Automation',
     about: () => isRu
       ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
       : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Working remotely.',
+    neofetch: () => {
+      const ua = navigator.userAgent;
+      const browser = ua.includes('Chrome') ? 'Chrome' : ua.includes('Firefox') ? 'Firefox' : ua.includes('Safari') ? 'Safari' : 'Unknown';
+      const os = ua.includes('Mac') ? 'macOS' : ua.includes('Win') ? 'Windows' : ua.includes('Linux') ? 'Linux' : 'Unknown';
+      const res = window.innerWidth + 'x' + window.innerHeight;
+      const projects = 15;
+      return '<span style="color:#f8401c">     ██████╗  </span>  <span style="color:#f8401c">diyor</span>@design\n' +
+             '<span style="color:#f8401c">     ██╔══██╗ </span>  ──────────────\n' +
+             '<span style="color:#f8401c">     ██║  ██║ </span>  OS: ' + os + '\n' +
+             '<span style="color:#f8401c">     ██║  ██║ </span>  Browser: ' + browser + '\n' +
+             '<span style="color:#f8401c">     ██████╔╝ </span>  Resolution: ' + res + '\n' +
+             '<span style="color:#f8401c">     ╚═════╝  </span>  Stack: HTML/CSS/JS (vanilla)\n' +
+             '              Projects: ' + projects + '\n' +
+             '              Frameworks: 0\n' +
+             '              Dependencies: 0';
+    },
+    fortune: () => {
+      if (!commands._fortunePool || !commands._fortunePool.length)
+        commands._fortunePool = fortunes.slice().sort(() => Math.random() - 0.5);
+      return commands._fortunePool.pop();
+    },
+    sudo: () => isRu ? 'У вас нет прав. Но есть вкус.' : 'Permission denied. But you have great taste.',
+    'rm -rf /': () => {
+      /* Page destruction effect */
+      const els = document.querySelectorAll('main > *, .nav, .ghost');
+      els.forEach((el, i) => {
+        el.style.transition = 'all 0.8s ease';
+        el.style.transitionDelay = (i * 60) + 'ms';
+        el.style.transform = 'rotate(' + (Math.random() * 40 - 20) + 'deg) translateY(' + (window.innerHeight + 200) + 'px)';
+        el.style.opacity = '0';
+      });
+      setTimeout(() => {
+        els.forEach(el => {
+          el.style.transition = 'all 0.6s ease';
+          el.style.transform = '';
+          el.style.opacity = '';
+        });
+      }, 2500);
+      return isRu ? 'Удаление... шучу. Всё вернётся.' : 'Deleting... just kidding. It\'ll come back.';
+    },
     matrix: () => { startMatrix(); return isRu ? 'Добро пожаловать в Матрицу...' : 'Welcome to the Matrix...'; },
     clear: () => '__CLEAR__',
     exit: () => '__EXIT__',
@@ -419,12 +520,13 @@ function initTerminal() {
     el.innerHTML =
       '<div id="term-header"><span>~/diyor.design</span><button id="term-close">&times;</button></div>' +
       '<div id="term-body"><div id="term-output"></div>' +
-      '<div id="term-line"><span id="term-prompt">→</span><input id="term-input" type="text" autocomplete="off" spellcheck="false"></div></div>';
+      '<div id="term-line"><span id="term-prompt">→</span><input id="term-input" type="text" autocomplete="off" spellcheck="false"></div></div>' +
+      '<div id="term-footer">↑↓ history · Tab autocomplete · clear · Esc close</div>';
     document.body.appendChild(el);
 
     const style = document.createElement('style');
     style.textContent =
-      '#terminal{position:fixed;bottom:24px;right:24px;width:420px;max-width:calc(100vw - 32px);' +
+      '#terminal{position:fixed;bottom:24px;right:24px;width:500px;max-width:calc(100vw - 32px);' +
       'background:#1a1a1a;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.35);z-index:9999;' +
       'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;overflow:hidden;' +
       'animation:termIn .25s ease}' +
@@ -439,7 +541,8 @@ function initTerminal() {
       '#term-output .out{color:#aaa}' +
       '#term-line{display:flex;align-items:center;gap:8px;margin-top:8px}' +
       '#term-prompt{color:#f8401c;flex-shrink:0}' +
-      '#term-input{flex:1;background:none;border:none;color:#fff;font:inherit;outline:none;caret-color:#f8401c}';
+      '#term-input{flex:1;background:none;border:none;color:#fff;font:inherit;outline:none;caret-color:#f8401c}' +
+      '#term-footer{padding:8px 14px;background:#252525;color:#555;font-size:11px;border-top:1px solid #333}';
     document.head.appendChild(style);
 
     const input = el.querySelector('#term-input');
@@ -449,11 +552,83 @@ function initTerminal() {
     input.focus();
 
     input.addEventListener('keydown', (e) => {
+      /* History navigation */
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (history.length && historyIdx < history.length - 1) {
+          historyIdx++;
+          input.value = history[history.length - 1 - historyIdx];
+        }
+        return;
+      }
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (historyIdx > 0) {
+          historyIdx--;
+          input.value = history[history.length - 1 - historyIdx];
+        } else {
+          historyIdx = -1;
+          input.value = '';
+        }
+        return;
+      }
+
+      /* Tab autocomplete */
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        const partial = input.value.trim().toLowerCase();
+        if (!partial) return;
+        /* Check "open <partial>" */
+        if (partial.startsWith('open ')) {
+          const proj = partial.slice(5);
+          const match = Object.keys(projectMap).find(k => k.startsWith(proj));
+          if (match) input.value = 'open ' + match;
+          return;
+        }
+        const match = commandNames.find(c => c.startsWith(partial));
+        if (match) input.value = match;
+        return;
+      }
+
       if (e.key !== 'Enter') return;
-      const cmd = input.value.trim().toLowerCase();
+      const raw = input.value.trim();
+      const cmd = raw.toLowerCase();
       input.value = '';
       if (!cmd) return;
-      output.innerHTML += '<span class="cmd">→ ' + cmd + '</span>\n';
+
+      /* Save to history */
+      history.push(raw);
+      historyIdx = -1;
+
+      output.innerHTML += '<span class="cmd">→ ' + raw + '</span>\n';
+
+      /* Handle "open <project>" */
+      if (cmd.startsWith('open ')) {
+        const proj = cmd.slice(5).trim();
+        const slug = projectMap[proj];
+        if (slug) {
+          const prefix = isRu ? '' : '../en/';
+          const isInProjects = location.pathname.includes('/projects/');
+          const base = isInProjects ? '' : 'projects/';
+          output.innerHTML += '<span class="out">' + (isRu ? 'Открываю ' : 'Opening ') + slug + '...</span>\n';
+          el.querySelector('#term-body').scrollTop = 9999;
+          setTimeout(() => { window.location.href = base + slug + '.html'; }, 400);
+        } else {
+          output.innerHTML += '<span class="out">' + (isRu ? 'Проект не найден. Введи projects для списка.' : 'Project not found. Type projects for the list.') + '</span>\n';
+        }
+        el.querySelector('#term-body').scrollTop = 9999;
+        return;
+      }
+
+      /* Handle "rm -rf /" and variations */
+      const rmCmd = cmd.replace(/\s+/g, ' ');
+      if (rmCmd === 'rm -rf /' || rmCmd === 'rm -rf' || rmCmd === 'rm') {
+        const result = commands['rm -rf /']();
+        output.innerHTML += '<span class="out">' + result + '</span>\n';
+        el.querySelector('#term-body').scrollTop = 9999;
+        return;
+      }
+
       const fn = commands[cmd];
       if (fn) {
         const result = fn();
@@ -826,32 +1001,6 @@ function initConsoleSig() {
   );
 }
 
-/* --- Scramble effect on case titles --- */
-
-function initTitleScramble() {
-  const h1 = document.querySelector('.case-h1');
-  if (!h1) return;
-
-  const target = h1.textContent;
-  const glyphs = '!@#$%^&*()_+-=[]{}|;:,.<>?/~`ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  const len = target.length;
-  let frame = 0;
-  const totalFrames = 30;
-
-  function tick() {
-    let out = '';
-    for (let i = 0; i < len; i++) {
-      if (target[i] === ' ') { out += ' '; continue; }
-      const lockAt = (i / len) * totalFrames;
-      out += frame >= lockAt ? target[i] : glyphs[Math.floor(Math.random() * glyphs.length)];
-    }
-    h1.textContent = out;
-    frame++;
-    if (frame <= totalFrames) requestAnimationFrame(tick);
-  }
-  tick();
-}
-
 /* --- Animated stat counters --- */
 
 function initStatCounters() {
@@ -896,12 +1045,20 @@ function animateStat(el) {
 
 function initCursorTrail() {
   if (!document.querySelector('.e404')) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  let lastTime = 0;
+  const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
 
   document.addEventListener('mousemove', (e) => {
+    const now = Date.now();
+    if (now - lastTime < 30) return; /* throttle to ~33fps */
+    lastTime = now;
+
     const dot = document.createElement('div');
     dot.style.cssText =
       'position:fixed;width:8px;height:8px;border-radius:50%;pointer-events:none;z-index:9990;' +
-      'background:' + ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'][Math.floor(Math.random() * 6)] + ';' +
+      'background:' + colors[Math.floor(Math.random() * 6)] + ';' +
       'left:' + e.clientX + 'px;top:' + e.clientY + 'px;' +
       'transform:translate(-50%,-50%);opacity:0.7;transition:all 0.8s ease;';
     document.body.appendChild(dot);
@@ -931,16 +1088,22 @@ document.addEventListener('DOMContentLoaded', () => {
   initReadingProgress();
   initCaseArrowNav();
   initConsoleSig();
-  initTitleScramble();
   initStatCounters();
   initCursorTrail();
 
-  /* GoatCounter loads async — poll until ready */
-  const gcInterval = setInterval(() => {
-    if (window.goatcounter && window.goatcounter.count) {
-      clearInterval(gcInterval);
-      initGoatCounterEvents();
-    }
-  }, 200);
-  setTimeout(() => clearInterval(gcInterval), 5000);
+  /* GoatCounter loads async — poll until ready, skip if blocked */
+  try {
+    const gcInterval = setInterval(() => {
+      if (window.goatcounter && window.goatcounter.count) {
+        clearInterval(gcInterval);
+        initGoatCounterEvents();
+      }
+    }, 500);
+    setTimeout(() => clearInterval(gcInterval), 5000);
+  } catch (_) { /* blocked by adblocker, ignore */ }
+});
+
+/* Suppress View Transitions AbortError (normal when user clicks fast) */
+window.addEventListener('unhandledrejection', (e) => {
+  if (e.reason && e.reason.name === 'AbortError') e.preventDefault();
 });
