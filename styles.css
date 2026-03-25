@@ -219,7 +219,7 @@ button {
 /* Radar nav link — mono font + glitch hover */
 .nav-links a.nav-radar {
   font-family: var(--font-mono);
-  font-size: 22px;
+  font-size: 25px;
   position: relative;
 }
 
