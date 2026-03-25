@@ -221,7 +221,7 @@ button {
   font-family: var(--font-mono);
   font-size: 25px;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
   position: relative;
   color: var(--text-body);
   text-decoration: none;
