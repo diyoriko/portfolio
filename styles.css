@@ -216,7 +216,7 @@ button {
   color: var(--accent);
 }
 
-/* Radar nav link — mono font + glitch hover */
+/* Radar nav link — mono font + glitch hover, near lang switcher */
 .nav-radar {
   font-family: var(--font-mono);
   font-size: 25px;
@@ -225,6 +225,8 @@ button {
   color: var(--text-body);
   text-decoration: none;
   transition: color var(--transition-fast);
+  margin-left: auto;
+  margin-right: 24px;
 }
 
 .nav-radar:hover,
@@ -232,7 +234,7 @@ button {
   color: #FF8C00;
 }
 
-.nav-links a.nav-radar:hover {
+.nav-radar:hover {
   animation: nav-glitch 0.3s ease;
 }
 
