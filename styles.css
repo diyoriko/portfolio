@@ -2041,6 +2041,39 @@ picture.case-img-phone img {
   display: none;
 }
 
+/* Pick of the day — pulsing accent border */
+.radar-line.radar-pick {
+  border-left: 2px solid var(--accent);
+  padding-left: 16px;
+  animation: radar-pulse 2s ease-in-out infinite;
+}
+
+@keyframes radar-pulse {
+  0%, 100% { border-left-color: var(--accent); }
+  50% { border-left-color: rgba(248, 64, 28, 0.2); }
+}
+
+/* CRT scanlines on hover */
+.radar-line::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.015) 2px,
+    rgba(0, 0, 0, 0.015) 4px
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.radar-line:hover::before {
+  opacity: 1;
+}
+
 @media (max-width: 900px) {
   .radar { padding: 80px 0 60px; }
   .radar-ascii { font-size: 5px; }

@@ -1208,6 +1208,70 @@ function initRadarFilter() {
   });
 }
 
+/* --- Radar: pick of the day (random card pulse) --- */
+
+function initRadarPickOfDay() {
+  const lines = document.querySelectorAll('.radar-line:not(.filtered-out)');
+  if (!lines.length) return;
+  /* Seed from date so same card highlights all day */
+  const today = new Date();
+  const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+  const idx = seed % lines.length;
+  lines[idx].classList.add('radar-pick');
+}
+
+/* --- Konami Code easter egg --- */
+
+function initKonamiCode() {
+  const code = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','KeyB','KeyA'];
+  let pos = 0;
+
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.code === code[pos]) {
+      pos++;
+      if (pos === code.length) {
+        pos = 0;
+        activateKonami();
+      }
+    } else {
+      pos = 0;
+    }
+  });
+
+  function activateKonami() {
+    /* Invert colors */
+    document.body.style.filter = 'invert(1) hue-rotate(180deg)';
+    document.body.style.transition = 'filter 0.3s';
+
+    /* Confetti burst */
+    const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
+    for (let i = 0; i < 80; i++) {
+      const c = document.createElement('div');
+      const size = Math.random() * 8 + 4;
+      c.style.cssText =
+        'position:fixed;pointer-events:none;z-index:9999;border-radius:' + (Math.random() > 0.5 ? '50%' : '0') + ';' +
+        'width:' + size + 'px;height:' + size + 'px;' +
+        'background:' + colors[Math.floor(Math.random() * 6)] + ';' +
+        'left:' + (Math.random() * 100) + 'vw;top:-10px;' +
+        'opacity:1;transition:all ' + (Math.random() * 2 + 1.5) + 's ease;';
+      document.body.appendChild(c);
+      requestAnimationFrame(() => {
+        c.style.top = (60 + Math.random() * 40) + 'vh';
+        c.style.left = (parseFloat(c.style.left) + (Math.random() * 20 - 10)) + 'vw';
+        c.style.opacity = '0';
+        c.style.transform = 'rotate(' + (Math.random() * 720 - 360) + 'deg)';
+      });
+      setTimeout(() => c.remove(), 3500);
+    }
+
+    /* Restore after 3s */
+    setTimeout(() => {
+      document.body.style.filter = '';
+    }, 3000);
+  }
+}
+
 /* --- Skeleton cleanup (mark loaded images) --- */
 
 function initSkeletonCleanup() {
@@ -1244,6 +1308,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkeletonCleanup();
   initRadarCounter();
   initRadarFilter();
+  initRadarPickOfDay();
+  initKonamiCode();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {
