@@ -1,6 +1,27 @@
 /* ============================================
    Portfolio — diyor.design
    Pixel-perfect match to Readymag original
+   ============================================
+
+   TABLE OF CONTENTS
+   ─────────────────
+   1. Fonts & Variables
+   2. Reset
+   3. Navigation
+   4. Main content & Projects list
+   5. About page & Footer
+   6. Case pages (header, meta, tabs, sections, images)
+   7. Content grid (images, captions, slideshows)
+   8. Video & Slideshow components
+   9. Lightbox
+   10. Scroll reveal
+   11. Responsive (900px, 480px)
+   12. Mac mockup
+   13. Reading progress & View transitions
+   14. Skeleton loaders
+   15. Print & Reduced motion
+   16. Lightbox close button
+
    ============================================ */
 
 /* --- Fonts --- */
@@ -1931,6 +1952,25 @@ picture.case-img-phone img {
   view-transition-name: nav;
 }
 
+/* Fallback page transitions for non-Chromium browsers */
+body {
+  animation: pageIn 0.3s ease both;
+}
+
+body.page-leaving {
+  animation: pageOut 0.15s ease both;
+}
+
+@keyframes pageIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes pageOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
 /* --- Print stylesheet --- */
 
 .print-qr {
@@ -2044,6 +2084,31 @@ picture.case-img-phone img {
     opacity: 1;
     transform: none;
   }
+}
+
+/* --- Skeleton loading shimmer for images --- */
+
+.case-img-full,
+.case-img-row img,
+picture img,
+.case-video video {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
+
+.case-img-full[complete],
+.case-img-full[data-loaded],
+.case-img-row img[complete],
+picture img[complete],
+.case-video video[data-loaded] {
+  animation: none;
+  background: none;
+}
+
+@keyframes skeleton-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 /* --- Lightbox close button --- */

@@ -454,12 +454,12 @@ function initTerminal() {
     '"Creativity is just connecting things." — Steve Jobs',
   ];
 
-  const commandNames = ['help', 'projects', 'contact', 'skills', 'about', 'open', 'neofetch', 'fortune', 'sudo', 'rm', 'matrix', 'clear', 'exit'];
+  const commandNames = ['help', 'projects', 'contact', 'skills', 'about', 'open', 'neofetch', 'fortune', 'sudo', 'rm', 'matrix', 'ls', 'git', 'clear', 'exit'];
 
   const commands = {
     help: () => isRu
-      ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
-      : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
+      ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nls -la           файловая система\ngit log          последние коммиты\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
+      : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nls -la           file system\ngit log          recent commits\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
     projects: () => isRu
       ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
       : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
@@ -510,6 +510,25 @@ function initTerminal() {
       return isRu ? 'Удаление... шучу. Всё вернётся.' : 'Deleting... just kidding. It\'ll come back.';
     },
     matrix: () => { startMatrix(); return isRu ? 'Добро пожаловать в Матрицу...' : 'Welcome to the Matrix...'; },
+    ls: () =>
+      '<span style="color:#4fc3f7">drwxr-xr-x</span>  diyor  staff   15 cases    <span style="color:#f8401c">projects/</span>\n' +
+      '<span style="color:#4fc3f7">drwxr-xr-x</span>  diyor  staff  411M        <span style="color:#f8401c">assets/img/</span>\n' +
+      '<span style="color:#4fc3f7">drwxr-xr-x</span>  diyor  staff    9 files   <span style="color:#f8401c">assets/embed/</span>\n' +
+      '<span style="color:#4fc3f7">drwxr-xr-x</span>  diyor  staff  800K        <span style="color:#f8401c">assets/fonts/</span>\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff   42K        script.js\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff   38K        styles.css\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff   20K        index.html\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff    4K        about.html\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff    2K        404.html\n' +
+      '<span style="color:#4fc3f7">-rw-r--r--</span>  diyor  staff    1K        favicon.svg\n' +
+      '\n' + (isRu ? 'Всего: 0 фреймворков, 0 зависимостей, ~100% ручного кода' : 'Total: 0 frameworks, 0 dependencies, ~100% hand-coded'),
+    'git log': () =>
+      '<span style="color:#ffb74d">d226f26</span> feat: terminal upgrade, audit fixes, GoatCounter fix\n' +
+      '<span style="color:#ffb74d">a5e99b7</span> fix: tighten about-links gap on mobile\n' +
+      '<span style="color:#ffb74d">d74c6d6</span> fix: center text-glow higher inside banner on mobile\n' +
+      '<span style="color:#ffb74d">4197812</span> fix: about-bottom double padding on mobile\n' +
+      '<span style="color:#ffb74d">5b6c0e5</span> fix: About page mobile scroll + text-glow size\n' +
+      '\n<span style="color:#888">— github.com/diyoriko/portfolio</span>',
     clear: () => '__CLEAR__',
     exit: () => '__EXIT__',
   };
@@ -620,10 +639,22 @@ function initTerminal() {
         return;
       }
 
-      /* Handle "rm -rf /" and variations */
-      const rmCmd = cmd.replace(/\s+/g, ' ');
-      if (rmCmd === 'rm -rf /' || rmCmd === 'rm -rf' || rmCmd === 'rm') {
+      /* Handle multi-word commands */
+      const normCmd = cmd.replace(/\s+/g, ' ');
+      if (normCmd === 'rm -rf /' || normCmd === 'rm -rf' || normCmd === 'rm') {
         const result = commands['rm -rf /']();
+        output.innerHTML += '<span class="out">' + result + '</span>\n';
+        el.querySelector('#term-body').scrollTop = 9999;
+        return;
+      }
+      if (normCmd === 'git log' || normCmd === 'git') {
+        const result = commands['git log']();
+        output.innerHTML += '<span class="out">' + result + '</span>\n';
+        el.querySelector('#term-body').scrollTop = 9999;
+        return;
+      }
+      if (normCmd === 'ls -la' || normCmd === 'ls -l' || normCmd === 'ls' || normCmd === 'll') {
+        const result = commands['ls']();
         output.innerHTML += '<span class="out">' + result + '</span>\n';
         el.querySelector('#term-body').scrollTop = 9999;
         return;
@@ -778,15 +809,21 @@ function initVanillaBadge() {
   }
 
   badge.style.cssText =
-    'position:fixed;bottom:16px;left:50%;transform:translateX(-50%);' +
+    'position:fixed;bottom:16px;left:50%;transform:translateX(-50%) translateY(20px);' +
     'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
     'color:#999;background:rgba(255,255,255,.55);padding:8px 16px;border-radius:6px;' +
     '-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);' +
     'border:1px solid rgba(0,0,0,.06);' +
     'pointer-events:auto;white-space:nowrap;' +
-    'transition:all .3s;z-index:1;cursor:default';
+    'transition:all .3s;z-index:1;cursor:default;opacity:0';
 
   document.body.appendChild(badge);
+
+  /* Fade-in after 2s — don't distract from first impression */
+  setTimeout(() => {
+    badge.style.opacity = '1';
+    badge.style.transform = 'translateX(-50%) translateY(0)';
+  }, 2000);
 
   /* Hover near bottom: solid white, black text */
   document.addEventListener('mousemove', (e) => {
@@ -995,9 +1032,21 @@ function startMatrix() {
 
 function initConsoleSig() {
   console.log(
-    '%cdiyor.design%c\nProduct & Brand Designer\n\nYou read source? Let\'s talk → t.me/diyoriko',
-    'font-size:28px;font-weight:700;font-family:system-ui;color:#F8401C;',
-    'font-size:12px;font-family:system-ui;color:#888;'
+    '%c' +
+    ' ██████╗  ██╗██╗   ██╗ ██████╗ ██████╗ \n' +
+    ' ██╔══██╗ ██║╚██╗ ██╔╝██╔═══██╗██╔══██╗\n' +
+    ' ██║  ██║ ██║ ╚████╔╝ ██║   ██║██████╔╝\n' +
+    ' ██║  ██║ ██║  ╚██╔╝  ██║   ██║██╔══██╗\n' +
+    ' ██████╔╝ ██║   ██║   ╚██████╔╝██║  ██║\n' +
+    ' ╚═════╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝',
+    'color:#F8401C;font-size:10px;font-family:monospace;line-height:1.2'
+  );
+  console.log(
+    '%cProduct & Brand Designer\n' +
+    'diyor.design\n\n' +
+    'You read source? Let\'s talk → t.me/diyoriko\n' +
+    'Press ~ for secret terminal  |  Shift+G for design system',
+    'font-size:12px;font-family:system-ui;color:#888;line-height:1.6'
   );
 }
 
@@ -1070,6 +1119,19 @@ function initCursorTrail() {
   });
 }
 
+/* --- Skeleton cleanup (mark loaded images) --- */
+
+function initSkeletonCleanup() {
+  document.querySelectorAll('.case-img-full, .case-img-row img, picture img').forEach(img => {
+    if (img.complete) { img.dataset.loaded = ''; return; }
+    img.addEventListener('load', () => { img.dataset.loaded = ''; }, { once: true });
+  });
+  document.querySelectorAll('.case-video video').forEach(v => {
+    if (v.readyState >= 2) { v.dataset.loaded = ''; return; }
+    v.addEventListener('loadeddata', () => { v.dataset.loaded = ''; }, { once: true });
+  });
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1090,6 +1152,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initConsoleSig();
   initStatCounters();
   initCursorTrail();
+  initSkeletonCleanup();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {
@@ -1107,3 +1170,14 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('unhandledrejection', (e) => {
   if (e.reason && e.reason.name === 'AbortError') e.preventDefault();
 });
+
+/* Fallback page-out transition for browsers without View Transitions API */
+if (!document.startViewTransition) {
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.origin !== location.origin) return;
+    e.preventDefault();
+    document.body.classList.add('page-leaving');
+    setTimeout(() => { window.location.href = a.href; }, 150);
+  });
+}
