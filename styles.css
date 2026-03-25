@@ -1651,6 +1651,7 @@ picture.case-img-phone img {
     align-items: flex-start;
     gap: 12px;
     margin-top: 32px;
+    padding: 0;
   }
 
   .about-links {
@@ -1812,6 +1813,12 @@ picture.case-img-phone img {
 
   .case-img-overlay {
     overflow: hidden;
+  }
+
+  .case-img-overlay iframe {
+    bottom: 10% !important;
+    width: 50% !important;
+    height: 35% !important;
   }
 
   .main--case {

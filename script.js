@@ -396,8 +396,8 @@ function initTerminal() {
 
   const commands = {
     help: () => isRu
-      ? 'Команды: help, projects, contact, skills, about, clear, exit'
-      : 'Commands: help, projects, contact, skills, about, clear, exit',
+      ? 'Команды: help, projects, contact, skills, about, matrix, clear, exit'
+      : 'Commands: help, projects, contact, skills, about, matrix, clear, exit',
     projects: () => isRu
       ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
       : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
@@ -408,6 +408,7 @@ function initTerminal() {
     about: () => isRu
       ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
       : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Working remotely.',
+    matrix: () => { startMatrix(); return isRu ? 'Добро пожаловать в Матрицу...' : 'Welcome to the Matrix...'; },
     clear: () => '__CLEAR__',
     exit: () => '__EXIT__',
   };
@@ -779,6 +780,139 @@ function initCaseArrowNav() {
   });
 }
 
+/* --- Matrix Rain (terminal command) --- */
+
+function startMatrix() {
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText = 'position:fixed;inset:0;z-index:9998;pointer-events:none';
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  document.body.appendChild(canvas);
+  const ctx = canvas.getContext('2d');
+
+  const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789ABCDEF';
+  const fontSize = 14;
+  const cols = Math.floor(canvas.width / fontSize);
+  const drops = Array(cols).fill(1);
+
+  let frame = 0;
+  function draw() {
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#0f0';
+    ctx.font = fontSize + 'px monospace';
+
+    for (let i = 0; i < drops.length; i++) {
+      const char = chars[Math.floor(Math.random() * chars.length)];
+      ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+      drops[i]++;
+    }
+
+    frame++;
+    if (frame < 300) requestAnimationFrame(draw);
+    else { canvas.style.transition = 'opacity 1s'; canvas.style.opacity = '0'; setTimeout(() => canvas.remove(), 1000); }
+  }
+  requestAnimationFrame(draw);
+}
+
+/* --- Console.log signature --- */
+
+function initConsoleSig() {
+  console.log(
+    '%cdiyor.design%c\nProduct & Brand Designer\n\nYou read source? Let\'s talk → t.me/diyoriko',
+    'font-size:28px;font-weight:700;font-family:system-ui;color:#F8401C;',
+    'font-size:12px;font-family:system-ui;color:#888;'
+  );
+}
+
+/* --- Scramble effect on case titles --- */
+
+function initTitleScramble() {
+  const h1 = document.querySelector('.case-h1');
+  if (!h1) return;
+
+  const target = h1.textContent;
+  const glyphs = '!@#$%^&*()_+-=[]{}|;:,.<>?/~`ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const len = target.length;
+  let frame = 0;
+  const totalFrames = 30;
+
+  function tick() {
+    let out = '';
+    for (let i = 0; i < len; i++) {
+      if (target[i] === ' ') { out += ' '; continue; }
+      const lockAt = (i / len) * totalFrames;
+      out += frame >= lockAt ? target[i] : glyphs[Math.floor(Math.random() * glyphs.length)];
+    }
+    h1.textContent = out;
+    frame++;
+    if (frame <= totalFrames) requestAnimationFrame(tick);
+  }
+  tick();
+}
+
+/* --- Animated stat counters --- */
+
+function initStatCounters() {
+  const stats = document.querySelectorAll('.case-stat-value');
+  if (!stats.length) return;
+
+  const ob = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      ob.unobserve(entry.target);
+      animateStat(entry.target);
+    });
+  }, { threshold: 0.5 });
+
+  stats.forEach(el => ob.observe(el));
+}
+
+function animateStat(el) {
+  const raw = el.textContent.trim();
+  /* Parse prefix (+, −, -), number, suffix (%, +, etc.) */
+  const match = raw.match(/^([+\u2212−-]?)(\d+(?:[.,]\d+)?)(.*)$/);
+  if (!match) return; /* non-numeric like "4–18", skip */
+
+  const prefix = match[1];
+  const target = parseFloat(match[2].replace(',', '.'));
+  const suffix = match[3];
+  const isFloat = match[2].includes('.') || match[2].includes(',');
+  const duration = 1200;
+  const start = performance.now();
+
+  function tick(now) {
+    const t = Math.min((now - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - t, 3); /* ease-out cubic */
+    const val = target * ease;
+    el.textContent = prefix + (isFloat ? val.toFixed(1) : Math.round(val)) + suffix;
+    if (t < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+/* --- Cursor trail on 404 --- */
+
+function initCursorTrail() {
+  if (!document.querySelector('.e404')) return;
+
+  document.addEventListener('mousemove', (e) => {
+    const dot = document.createElement('div');
+    dot.style.cssText =
+      'position:fixed;width:8px;height:8px;border-radius:50%;pointer-events:none;z-index:9990;' +
+      'background:' + ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'][Math.floor(Math.random() * 6)] + ';' +
+      'left:' + e.clientX + 'px;top:' + e.clientY + 'px;' +
+      'transform:translate(-50%,-50%);opacity:0.7;transition:all 0.8s ease;';
+    document.body.appendChild(dot);
+    requestAnimationFrame(() => {
+      dot.style.opacity = '0';
+      dot.style.transform = 'translate(-50%,-50%) scale(0)';
+    });
+    setTimeout(() => dot.remove(), 800);
+  });
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -796,6 +930,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initVanillaBadge();
   initReadingProgress();
   initCaseArrowNav();
+  initConsoleSig();
+  initTitleScramble();
+  initStatCounters();
+  initCursorTrail();
 
   /* GoatCounter loads async — poll until ready */
   const gcInterval = setInterval(() => {
