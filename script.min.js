@@ -601,6 +601,15 @@ function initVanillaBadge() {
     'border:1px solid rgba(0,0,0,.06);' +
     'pointer-events:auto;white-space:nowrap;' +
     'transition:all .3s;z-index:1;cursor:default';
+
+  /* Hide on mobile */
+  if (window.innerWidth <= 480) {
+    badge.style.display = 'none';
+  }
+  window.addEventListener('resize', () => {
+    badge.style.display = window.innerWidth <= 480 ? 'none' : '';
+  });
+
   document.body.appendChild(badge);
 
   /* Hover near bottom: solid white, black text */
@@ -731,6 +740,45 @@ function initNavScrollLine() {
   }, { passive: true });
 }
 
+/* --- Reading Progress Bar --- */
+
+function initReadingProgress() {
+  if (!document.querySelector('.main--case')) return;
+
+  const bar = document.createElement('div');
+  bar.className = 'reading-progress';
+  document.body.appendChild(bar);
+
+  function update() {
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? Math.min(window.scrollY / docHeight, 1) * 100 : 0;
+    bar.style.width = pct + '%';
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+}
+
+/* --- Arrow key navigation between cases --- */
+
+function initCaseArrowNav() {
+  const prevLink = document.querySelector('.case-nav-prev');
+  const nextLink = document.querySelector('.case-nav-next');
+  if (!prevLink && !nextLink) return;
+
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (document.getElementById('terminal')) return;
+    if (document.querySelector('.case-lightbox.open')) return;
+
+    if (e.key === 'ArrowLeft' && prevLink) {
+      window.location.href = prevLink.href;
+    } else if (e.key === 'ArrowRight' && nextLink) {
+      window.location.href = nextLink.href;
+    }
+  });
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -746,6 +794,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initEmailConfetti();
   initDesignSystemToggle();
   initVanillaBadge();
+  initReadingProgress();
+  initCaseArrowNav();
 
   /* GoatCounter loads async — poll until ready */
   const gcInterval = setInterval(() => {
