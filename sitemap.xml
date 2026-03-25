@@ -145,6 +145,32 @@
   </url>
 
   <url>
+    <loc>https://diyor.design/projects/vedic.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic.html" />
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/vedic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic.html" />
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://diyor.design/projects/hse.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://diyor.design/en/projects/hse.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse.html" />
+    <priority>0.5</priority>
+  </url>
+
+  <url>
     <loc>https://diyor.design/projects/singularity-hub.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub.html" />

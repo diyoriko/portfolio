@@ -1233,13 +1233,3 @@ window.addEventListener('unhandledrejection', (e) => {
   if (e.reason && e.reason.name === 'AbortError') e.preventDefault();
 });
 
-/* Fallback page-out transition for browsers without View Transitions API */
-if (!document.startViewTransition) {
-  document.addEventListener('click', (e) => {
-    const a = e.target.closest('a[href]');
-    if (!a || a.target === '_blank' || a.origin !== location.origin) return;
-    e.preventDefault();
-    document.body.classList.add('page-leaving');
-    setTimeout(() => { window.location.href = a.href; }, 150);
-  });
-}
