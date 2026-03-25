@@ -2000,8 +2000,21 @@ picture.case-img-phone img {
 
 /* Radar page layout */
 .main--radar {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 60px;
+}
+
+/* Radar intro video */
+.radar-intro {
+  margin-bottom: 48px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.radar-intro video {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius-sm);
 }
 
 /* Tag filter buttons */
