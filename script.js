@@ -1156,6 +1156,31 @@ function initCursorTrail() {
   });
 }
 
+/* --- Radar intro: click to unmute/mute --- */
+
+function initRadarIntro() {
+  const wrap = document.querySelector('.radar-intro');
+  if (!wrap) return;
+  const video = wrap.querySelector('video');
+  if (!video) return;
+
+  wrap.title = 'Click to unmute';
+  wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
+
+  wrap.addEventListener('click', () => {
+    video.muted = !video.muted;
+    if (video.muted) {
+      wrap.classList.remove('unmuted');
+      wrap.title = 'Click to unmute';
+      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
+    } else {
+      wrap.classList.add('unmuted');
+      wrap.title = 'Click to mute';
+      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cpath d=\'M19.07 4.93a10 10 0 010 14.14\'/%3E%3Cpath d=\'M15.54 8.46a5 5 0 010 7.07\'/%3E%3C/svg%3E") 12 12, pointer';
+    }
+  });
+}
+
 /* --- Radar hover counter easter egg --- */
 
 function initRadarCounter() {
@@ -1242,6 +1267,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initStatCounters();
   initCursorTrail();
   initSkeletonCleanup();
+  initRadarIntro();
   initRadarCounter();
   initRadarFilter();
 
