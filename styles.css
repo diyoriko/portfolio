@@ -231,7 +231,7 @@ button {
 
 .nav-radar:hover,
 .nav-radar.active {
-  color: #FF8C00;
+  color: #E8611A;
 }
 
 .nav-radar:hover {
@@ -240,9 +240,9 @@ button {
 
 @keyframes nav-glitch {
   0%  { text-shadow: none; }
-  20% { text-shadow: -2px 0 #FF8C00, 2px 0 #4fc3f7; transform: translateX(-1px); }
-  40% { text-shadow: 2px 0 #FF8C00, -2px 0 #4fc3f7; transform: translateX(1px); }
-  60% { text-shadow: -1px 0 #FF8C00, 1px 0 #4fc3f7; transform: translateX(0); }
+  20% { text-shadow: -2px 0 #E8611A, 2px 0 #4fc3f7; transform: translateX(-1px); }
+  40% { text-shadow: 2px 0 #E8611A, -2px 0 #4fc3f7; transform: translateX(1px); }
+  60% { text-shadow: -1px 0 #E8611A, 1px 0 #4fc3f7; transform: translateX(0); }
   80% { text-shadow: 1px 0 #ce93d8, -1px 0 #81c784; }
   100% { text-shadow: none; transform: translateX(0); }
 }
@@ -2015,7 +2015,7 @@ picture.case-img-phone img {
 
 /* Radar page — own accent color */
 .main--radar {
-  --radar-accent: #FF8C00;
+  --radar-accent: #E8611A;
 }
 
 .main--radar .radar-tag {
