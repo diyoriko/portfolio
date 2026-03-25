@@ -2041,18 +2041,6 @@ picture.case-img-phone img {
   display: none;
 }
 
-/* Pick of the day — pulsing accent border */
-.radar-line.radar-pick {
-  border-left: 2px solid var(--accent);
-  padding-left: 16px;
-  animation: radar-pulse 2s ease-in-out infinite;
-}
-
-@keyframes radar-pulse {
-  0%, 100% { border-left-color: var(--accent); }
-  50% { border-left-color: rgba(248, 64, 28, 0.2); }
-}
-
 /* CRT scanlines on hover */
 .radar-line::before {
   content: '';
