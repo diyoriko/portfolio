@@ -2088,22 +2088,13 @@ body.page-leaving {
 
 /* --- Skeleton loading shimmer for images --- */
 
-.case-img-full,
-.case-img-row img,
-picture img,
-.case-video video {
+.case-img-full:not([data-loaded]),
+.case-img-row img:not([data-loaded]),
+picture img:not([data-loaded]),
+.case-video video:not([data-loaded]) {
   background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s ease-in-out infinite;
-}
-
-.case-img-full[complete],
-.case-img-full[data-loaded],
-.case-img-row img[complete],
-picture img[complete],
-.case-video video[data-loaded] {
-  animation: none;
-  background: none;
 }
 
 @keyframes skeleton-shimmer {
