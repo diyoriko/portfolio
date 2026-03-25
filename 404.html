@@ -54,15 +54,11 @@
       font-family: var(--font-sans); font-size: 13px;
       color: var(--text-dim); opacity: 0.5; margin-top: 48px;
     }
-    /* Pixel grid background */
-    .pixel-grid {
+    /* Pixel grid canvas */
+    #pixel-canvas {
       position: fixed; inset: 0; z-index: 0; pointer-events: none;
-      background-image:
-        linear-gradient(rgba(0,0,0,.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0,0,0,.03) 1px, transparent 1px);
-      background-size: 24px 24px;
     }
-    .e404 { position: relative; z-index: 1; }
+    .nav, .e404 { position: relative; z-index: 1; }
   </style>
   <script data-goatcounter="https://diyoriko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -93,7 +89,7 @@
     </div>
   </main>
 
-  <div class="pixel-grid"></div>
+  <canvas id="pixel-canvas"></canvas>
 
   <script src="/script.min.js"></script>
 </body>
