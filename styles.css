@@ -216,6 +216,19 @@ button {
   color: var(--accent);
 }
 
+/* Radar nav link — mono font + blinking cursor */
+.nav-links a.nav-radar {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  letter-spacing: -0.3px;
+}
+
+.nav-links a.nav-radar::after {
+  content: '_';
+  animation: cursor-blink 1s step-end infinite;
+  margin-left: 1px;
+}
+
 .nav-lang {
   display: flex;
   gap: 16px;
@@ -2049,22 +2062,6 @@ picture.case-img-phone img {
   z-index: 101;
   pointer-events: none;
   will-change: width;
-}
-
-/* --- View Transitions (MPA, same-origin) --- */
-
-@view-transition {
-  navigation: auto;
-}
-
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 200ms;
-  animation-timing-function: ease;
-}
-
-.nav {
-  view-transition-name: nav;
 }
 
 /* --- Print stylesheet --- */
