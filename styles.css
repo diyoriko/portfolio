@@ -2011,6 +2011,12 @@ picture.case-img-phone img {
   overflow: hidden;
 }
 
+.radar-intro video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Tag filter buttons */
 .radar-tags {
   display: flex;
