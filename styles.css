@@ -1895,8 +1895,8 @@ picture.case-img-phone img {
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: auto auto;
-  gap: 0 20px;
-  padding: 16px 0;
+  gap: 0 24px;
+  padding: 20px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   text-decoration: none;
   color: inherit;
@@ -1925,24 +1925,22 @@ picture.case-img-phone img {
   flex-direction: column;
   gap: 6px;
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 16px;
   color: var(--text-dim);
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
 .radar-tag {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 14px;
   color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .radar-title {
   grid-column: 2;
   font-family: var(--font-sans);
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 400;
   line-height: 1.3;
   color: var(--text);
   transition: color 0.15s ease, text-shadow 0.15s ease;
@@ -1951,7 +1949,7 @@ picture.case-img-phone img {
 .radar-desc {
   grid-column: 2;
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
   color: var(--text-dim);
   margin-top: 4px;
@@ -1995,13 +1993,12 @@ picture.case-img-phone img {
 }
 
 .radar-filter {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 6px 14px;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 20px;
   border-radius: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   background: none;
   color: var(--text-dim);
   cursor: pointer;
@@ -2035,9 +2032,9 @@ picture.case-img-phone img {
   .radar-line { grid-template-columns: 1fr; gap: 4px; }
   .radar-meta { grid-row: auto; flex-direction: row; gap: 12px; }
   .radar-source { display: none !important; }
-  .radar-title { font-size: 18px; }
-  .radar-desc { font-size: 15px; }
-  .radar-filter { font-size: 11px; padding: 5px 10px; }
+  .radar-title { font-size: 20px; }
+  .radar-desc { font-size: 17px; }
+  .radar-filter { font-size: 16px; padding: 6px 14px; }
 }
 
 /* --- Reading progress bar (case pages) --- */
