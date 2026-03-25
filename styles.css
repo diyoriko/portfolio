@@ -235,6 +235,10 @@ button {
   color: #E8611A;
 }
 
+.nav-radar .kern-r {
+  margin-left: -2px;
+}
+
 .nav-radar:hover {
   animation: nav-glitch 0.3s ease;
 }
@@ -2040,7 +2044,7 @@ picture.case-img-phone img {
 
 /* Radar intro video */
 .radar-intro {
-  margin-bottom: 72px;
+  margin-bottom: 100px;
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
