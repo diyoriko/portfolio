@@ -1104,7 +1104,7 @@ function initCursorTrail() {
 
   const CELL = 24; /* matches .pixel-grid background-size */
   const POOL_SIZE = 30;
-  const colors = ['#F8401C', '#f48fb1', '#ffb74d', '#4fc3f7', '#81c784', '#ce93d8'];
+  const colors = ['#F8401C'];
   const pool = [];
   let idx = 0;
   const visited = new Set();
@@ -1134,7 +1134,7 @@ function initCursorTrail() {
     idx = (idx + 1) % POOL_SIZE;
 
     px.style.transition = 'none';
-    px.style.background = colors[Math.floor(Math.random() * 6)];
+    px.style.background = colors[0];
     px.style.left = gx + 'px';
     px.style.top = gy + 'px';
     px.style.opacity = '0.25';
