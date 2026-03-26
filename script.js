@@ -1205,32 +1205,79 @@ function initRadarCounter() {
   });
 }
 
-/* --- Radar tag filter --- */
+/* --- Radar: render from JSON + filter --- */
 
-function initRadarFilter() {
-  const tags = document.querySelector('.radar-tags');
-  if (!tags) return;
+function initRadarFeed() {
+  const feed = document.querySelector('.radar-feed');
+  const tagsNav = document.querySelector('.radar-tags');
+  if (!feed || !tagsNav) return;
 
-  const buttons = tags.querySelectorAll('.radar-filter');
-  const lines = document.querySelectorAll('.radar-line[data-tag]');
+  const isRu = document.documentElement.lang === 'ru';
+  const jsonPath = isRu ? 'radar-db.json' : '../radar-db.json';
 
-  tags.addEventListener('click', (e) => {
-    const btn = e.target.closest('.radar-filter');
-    if (!btn) return;
+  const TAG_LABELS = isRu
+    ? { 'figma×ai': 'figma × ai', 'design eng': 'дизайн + код', 'tools': 'инструменты', 'design systems': 'дизайн-системы', 'process': 'процесс' }
+    : { 'figma×ai': 'figma×ai', 'design eng': 'design + code', 'tools': 'tools', 'design systems': 'design systems', 'process': 'process' };
 
-    const tag = btn.dataset.tag;
+  const TYPE_ICONS = { article: '📄', tool: '🛠', skill: '⚡', talk: '🎬', research: '📊' };
 
-    buttons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+  fetch(jsonPath)
+    .then(r => r.json())
+    .then(items => {
+      /* Sort by date desc */
+      items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
-    lines.forEach(line => {
-      if (tag === 'all' || line.dataset.tag === tag) {
-        line.classList.remove('filtered-out');
-      } else {
-        line.classList.add('filtered-out');
-      }
-    });
-  });
+      /* Build tag filter buttons */
+      const allTags = [...new Set(items.map(i => i.tag).filter(Boolean))];
+      const allLabel = isRu ? 'все' : 'all';
+      tagsNav.innerHTML = '<button class="radar-filter active" data-tag="all">' + allLabel + '</button>' +
+        allTags.map(tag => {
+          const label = TAG_LABELS[tag] || tag;
+          return '<button class="radar-filter" data-tag="' + tag + '">' + label + '</button>';
+        }).join('');
+
+      /* Render cards */
+      feed.innerHTML = items.map(item => {
+        const tag = item.tag || 'tools';
+        const tagLabel = TAG_LABELS[tag] || item['tag_label_' + (isRu ? 'ru' : 'en')] || tag;
+        const dateStr = (item.date || '').slice(0, 7).replace('-', '.');
+        const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
+        const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
+        const typeIcon = TYPE_ICONS[item.type] || '';
+
+        return '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '">' +
+          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + (typeIcon ? typeIcon + ' ' : '') + tagLabel + '</span></span>' +
+          '<span class="radar-title">' + (item.title || '') + '</span>' +
+          '<span class="radar-desc">' + desc + '</span>' +
+          '<span class="radar-source">' + source + ' ↗</span>' +
+        '</a>';
+      }).join('');
+
+      /* Trigger scroll reveal for new elements */
+      initScrollReveal();
+
+      /* Filter click handler */
+      tagsNav.addEventListener('click', (e) => {
+        const btn = e.target.closest('.radar-filter');
+        if (!btn) return;
+        const selectedTag = btn.dataset.tag;
+
+        tagsNav.querySelectorAll('.radar-filter').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        feed.querySelectorAll('.radar-line').forEach(line => {
+          if (selectedTag === 'all' || line.dataset.tag === selectedTag) {
+            line.classList.remove('filtered-out');
+          } else {
+            line.classList.add('filtered-out');
+          }
+        });
+      });
+
+      /* Re-init hover counter for dynamically rendered items */
+      initRadarCounter();
+    })
+    .catch(() => { /* offline or error — feed stays empty */ });
 }
 
 /* --- Skeleton cleanup (mark loaded images) --- */
@@ -1268,8 +1315,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCursorTrail();
   initSkeletonCleanup();
   initRadarIntro();
-  initRadarCounter();
-  initRadarFilter();
+  initRadarFeed();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {

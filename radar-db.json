@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Agents, Meet the Figma Canvas",
+    "url": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+    "tag": "figma×ai",
+    "desc_ru": "Агенты пишут в canvas через MCP-сервер. Качество дизайн-системы теперь напрямую определяет качество output.",
+    "desc_en": "Agents write to canvas via MCP server. Design system quality now directly determines output quality.",
+    "date": "2026-03-24",
+    "priority": 1,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "Designing Delightful Frontends with GPT-5.4",
+    "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
+    "tag": "design eng",
+    "desc_ru": "Модель понимает визуальную иерархию и бренд-позиционирование. React + Tailwind + Framer Motion.",
+    "desc_en": "The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.",
+    "date": "2026-03-20",
+    "priority": 1,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "Introducing 'vibe design' with Stitch (Google Labs)",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/",
+    "tag": "tools",
+    "desc_ru": "Google Labs запустил Stitch — AI-нативный дизайн-канвас, где из текстового промпта генерируется высококачественный UI. Концепция «vibe design»: описываешь намерение — получаешь готовые экраны с возможностью совместного редактирования. Прямая конкуренция Figma Make и Lovable.",
+    "desc_en": "Google Labs launched Stitch — an AI-native design canvas that generates high-fidelity UI from natural language prompts. Concept of 'vibe design': describe intent, get editable screens with real-time collaboration. Direct competition to Figma Make and Lovable.",
+    "date": "2026-03-18",
+    "priority": 1,
+    "added": "2026-03-26"
+  },
+  {
+    "title": "AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)",
+    "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+    "tag": "tools",
+    "desc_ru": "Опрос инженеров: Claude Code занял 60% аудитории Cursor за 8 месяцев. 95% используют AI еженедельно, 55% регулярно работают с агентами. Для design engineers: Cursor доминирует в стартапах, GitHub Copilot — в энтерпрайзе.",
+    "desc_en": "Engineer survey: Claude Code captured 60% of Cursor's audience in 8 months. 95% use AI tools weekly, 55% regularly use AI agents. For design engineers: Cursor wins at startups, GitHub Copilot defaults in enterprise.",
+    "date": "2026-03-03",
+    "priority": 2,
+    "added": "2026-03-26"
+  },
+  {
+    "title": "UI/UX Pro Max Skill — 50K+ stars",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "tag": "tools",
+    "desc_ru": "161 правило, 67 стилей, 57 типографических пар. Работает в Claude, Cursor, Copilot.",
+    "desc_en": "161 rules, 67 styles, 57 typography pairings. Works in Claude, Cursor, Copilot.",
+    "date": "2026-03-01",
+    "priority": 1,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "Design Systems And AI: Why MCP Is The Unlock",
+    "url": "https://www.figma.com/blog/design-systems-ai-mcp/",
+    "tag": "design systems",
+    "desc_ru": "MCP-серверы сканируют кодовую базу и генерируют структурированные правила дизайн-системы.",
+    "desc_en": "MCP servers scan codebases and generate structured design system rules.",
+    "date": "2026-03-01",
+    "priority": 1,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "Claude Code for Designers",
+    "url": "https://www.builder.io/blog/claude-code-for-designers",
+    "tag": "tools",
+    "desc_ru": "Plan mode, live preview, Figma-интеграция. Без терминала, внутри десктоп-приложения.",
+    "desc_en": "Plan mode, live preview, Figma integration. No terminal needed, inside the desktop app.",
+    "date": "2026-02-25",
+    "priority": 1,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "The Complete Vibe Coding Guide for Designers",
+    "url": "https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/",
+    "tag": "design eng",
+    "desc_ru": "Три слоя AI-инструментов: Exploration, MVP, Engineering. Дизайнеры шипают код без программирования.",
+    "desc_en": "Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.",
+    "date": "2026-01-01",
+    "priority": 2,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "Figma Make Is Now Available to All",
+    "url": "https://www.figma.com/blog/figma-make-general-availability/",
+    "tag": "figma×ai",
+    "desc_ru": "Prompt-to-design вышел из беты. Supabase-бэкенд, импорт библиотек, генерация из промпта.",
+    "desc_en": "Prompt-to-design exits beta. Supabase backend, library imports, generation from prompts.",
+    "date": "2026-01-01",
+    "priority": 2,
+    "added": "2026-03-25"
+  },
+  {
+    "title": "AI Design Systems: Why Tokens, Schema & Generative Rules Matter Now",
+    "url": "https://medium.com/@Rythmuxdesigner/ai-design-systems-why-tokens-schema-generative-rules-matter-now-ca3ab41c96d9",
+    "tag": "design systems",
+    "desc_ru": "Дизайн-системы строятся теперь не для людей — для AI. AI не читает документацию в прозе — он обрабатывает структуру, правила и отношения. Без токенов AI не масштабируется в дизайн-системе. 2026 — год перехода от статичных библиотек к живым генеративным движкам.",
+    "desc_en": "Design systems are now built for AI, not designers. AI doesn't parse prose guidelines — it processes structure, rules, and relationships. Without tokens, AI won't scale inside a design system. 2026 marks the shift from static libraries to living generative engines.",
+    "date": "2025-12-01",
+    "priority": 3,
+    "added": "2026-03-26"
+  }
+]
