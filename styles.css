@@ -1600,9 +1600,6 @@ picture.case-img-phone img {
     gap: 14px;
   }
 
-  .nav-radar {
-    display: none;
-  }
 
   .nav-lang {
     font-size: 20px;
@@ -2117,6 +2114,10 @@ picture.case-img-phone img {
   .radar-ascii { font-size: 4px; overflow: hidden; }
   .radar-title { font-size: 18px; }
   .radar-desc { font-size: 16px; }
+}
+
+@media (max-width: 400px) {
+  .nav-radar { display: none; }
 }
 
 /* --- Reading progress bar (case pages) --- */
