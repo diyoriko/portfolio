@@ -2086,19 +2086,33 @@ picture.case-img-phone img {
 
 
 @media (max-width: 900px) {
-  .radar { padding: 80px 0 60px; }
   .radar-ascii { font-size: 5px; }
+  .radar-line {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .radar-meta {
+    grid-column: 1;
+    grid-row: auto;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .radar-title {
+    grid-column: 1;
+    font-size: 20px;
+  }
+  .radar-desc {
+    grid-column: 1;
+    font-size: 17px;
+  }
+  .radar-source { display: none !important; }
+  .radar-filter { font-size: 14px; }
 }
 
 @media (max-width: 480px) {
-  .radar { padding: 60px 0 40px; }
   .radar-ascii { font-size: 4px; overflow: hidden; }
-  .radar-line { grid-template-columns: 1fr; gap: 4px; }
-  .radar-meta { grid-row: auto; flex-direction: row; gap: 12px; }
-  .radar-source { display: none !important; }
-  .radar-title { font-size: 20px; }
-  .radar-desc { font-size: 17px; }
-  .radar-filter { font-size: 14px; }
+  .radar-title { font-size: 18px; }
+  .radar-desc { font-size: 16px; }
 }
 
 /* --- Reading progress bar (case pages) --- */
