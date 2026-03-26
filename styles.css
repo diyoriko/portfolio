@@ -1600,6 +1600,10 @@ picture.case-img-phone img {
     gap: 14px;
   }
 
+  .nav-radar {
+    display: none;
+  }
+
   .nav-lang {
     font-size: 20px;
     gap: 10px;
