@@ -10,6 +10,17 @@
     "added": "2026-03-25"
   },
   {
+    "title": "I Built 63 Design Skills For Claude - and They're Free",
+    "url": "https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude",
+    "type": "skill",
+    "tag": "tools",
+    "desc_ru": "63 MIT-лицензированных скилла для Claude Code по 8 плагинам: исследования, дизайн-системы, UI, прототипирование.",
+    "desc_en": "Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.",
+    "date": "2026-03-22",
+    "priority": 2,
+    "added": "2026-03-28"
+  },
+  {
     "title": "Designing Delightful Frontends with GPT-5.4",
     "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
     "tag": "design eng",
@@ -20,6 +31,17 @@
     "added": "2026-03-25"
   },
   {
+    "title": "claude-talk-to-figma-mcp",
+    "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "type": "skill",
+    "tag": "figma×ai",
+    "desc_ru": "MCP-сервер: Claude читает и редактирует Figma без Dev Mode — анализ, создание и изменение элементов за 5 минут.",
+    "desc_en": "Community MCP server letting Claude read and modify Figma designs without a Dev Mode license; setup takes ~5 minutes.",
+    "date": "2026-03-20",
+    "priority": 2,
+    "added": "2026-03-28"
+  },
+  {
     "title": "Introducing 'vibe design' with Stitch (Google Labs)",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/",
     "tag": "tools",
@@ -28,6 +50,17 @@
     "date": "2026-03-18",
     "priority": 1,
     "added": "2026-03-26"
+  },
+  {
+    "title": "figma-console-mcp",
+    "url": "https://github.com/southleft/figma-console-mcp",
+    "type": "skill",
+    "tag": "design systems",
+    "desc_ru": "90+ MCP-инструментов для Figma: токены, переменные, создание UI агентом, дебаг плагинов — работает на Free-плане.",
+    "desc_en": "90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.",
+    "date": "2026-03-10",
+    "priority": 2,
+    "added": "2026-03-28"
   },
   {
     "title": "AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)",
