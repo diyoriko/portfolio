@@ -63,8 +63,17 @@
     
     @font-face {
       font-family: 'Cera Mono';
+      src: url('assets/fonts/CeraMono-Regular.woff2') format('woff2'),
+           url('assets/fonts/CeraMono-Regular.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Cera Mono';
       src: url('assets/fonts/CeraMono-Medium.woff2') format('woff2'),
-      url('assets/fonts/CeraMono-Medium.otf') format('opentype');
+           url('assets/fonts/CeraMono-Medium.otf') format('opentype');
       font-weight: 500;
       font-style: normal;
       font-display: swap;
@@ -219,7 +228,7 @@ button {
 /* Radar nav link — mono font + glitch hover */
 .nav-links a.nav-radar {
   font-family: var(--font-mono);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: -1.5px;
 }
 
@@ -1994,11 +2003,14 @@ picture.case-img-phone img {
 }
 
 .radar-line:hover .radar-source {
-  display: inline;
+  display: block;
   grid-column: 11 / 13;
   grid-row: 1;
   text-align: right;
   font-family: var(--font-mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 12px;
   color: var(--text-dim);
 }
