@@ -3,10 +3,10 @@
 <channel>
   <title>Radar — Diyor Khakimov</title>
   <link>https://diyor.design/radar</link>
-  <description>What's changing the design process. Design × AI, tools, engineering.</description>
+  <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 31 Mar 2026 17:32:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 31 Mar 2026 19:26:53 +0000</lastBuildDate>
   <item>
     <title>interface-design</title>
     <link>https://github.com/Dammyjay93/interface-design</link>
@@ -50,6 +50,13 @@
     <guid>https://github.com/arinspunk/claude-talk-to-figma-mcp</guid>
   </item>
   <item>
+    <title>Stitch from Google Labs gets updates with Gemini 3</title>
+    <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-gemini-3/</link>
+    <description>Stitch adds design system import, voice canvas, and multi-screen prototyping powered by Gemini 3 — still free.</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-gemini-3/</guid>
+  </item>
+  <item>
     <title>Introducing 'vibe design' with Stitch (Google Labs)</title>
     <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</link>
     <description>Google Labs launched Stitch — an AI-native design canvas that generates high-fidelity UI from natural language prompts. Concept of 'vibe design': describe intent, get editable screens with real-time collaboration. Direct competition to Figma Make and Lovable.</description>
@@ -57,11 +64,32 @@
     <guid>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</guid>
   </item>
   <item>
+    <title>State of UX 2026: Design Deeper to Differentiate</title>
+    <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
+    <description>NNGroup annual analysis: UI is commoditizing via AI and design systems; research and trust become the differentiators.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/state-of-ux-2026/</guid>
+  </item>
+  <item>
     <title>figma-console-mcp</title>
     <link>https://github.com/southleft/figma-console-mcp</link>
     <description>90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.</description>
     <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/southleft/figma-console-mcp</guid>
+  </item>
+  <item>
+    <title>Figma MCP server can now generate design layers from VS Code</title>
+    <link>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</link>
+    <description>Copilot in VS Code can now pull design context from Figma and push rendered UI back to the canvas as editable frames.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</guid>
+  </item>
+  <item>
+    <title>How to Supercharge your Design System with Slots</title>
+    <link>https://www.figma.com/blog/supercharge-your-design-system-with-slots/</link>
+    <description>Figma Slots let you customize components without detaching — instances still inherit main component updates.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/supercharge-your-design-system-with-slots/</guid>
   </item>
   <item>
     <title>AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)</title>
