@@ -1219,8 +1219,6 @@ function initRadarFeed() {
     ? { 'figma×ai': 'figma × ai', 'design eng': 'дизайн + код', 'tools': 'инструменты', 'design systems': 'дизайн-системы', 'process': 'процесс' }
     : { 'figma×ai': 'figma×ai', 'design eng': 'design + code', 'tools': 'tools', 'design systems': 'design systems', 'process': 'process' };
 
-  const TYPE_ICONS = { article: '📄', tool: '🛠', skill: '⚡', talk: '🎬', research: '📊' };
-
   fetch(jsonPath)
     .then(r => r.json())
     .then(items => {
@@ -1243,10 +1241,9 @@ function initRadarFeed() {
         const dateStr = (item.date || '').slice(0, 7).replace('-', '.');
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
-        const typeIcon = TYPE_ICONS[item.type] || '';
 
         return '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '">' +
-          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + (typeIcon ? typeIcon + ' ' : '') + tagLabel + '</span></span>' +
+          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + tagLabel + '</span></span>' +
           '<span class="radar-title">' + (item.title || '') + '</span>' +
           '<span class="radar-desc">' + desc + '</span>' +
           '<span class="radar-source">' + source + ' ↗</span>' +
