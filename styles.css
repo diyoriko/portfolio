@@ -244,6 +244,16 @@ button {
 .nav-links a.nav-radar:hover {
   animation: nav-glitch 0.3s ease;
 }
+.nav-links a.nav-radar.has-new::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #E8611A;
+  border-radius: 50%;
+  margin-left: 4px;
+  vertical-align: super;
+}
 
 @keyframes nav-glitch {
   0%  { text-shadow: none; }
@@ -1948,7 +1958,7 @@ picture.case-img-phone img {
 }
 
 .radar-line:hover {
-  background: rgba(248, 64, 28, 0.03);
+  background: none;
 }
 
 .radar-line:hover .radar-title {
@@ -1961,7 +1971,7 @@ picture.case-img-phone img {
   grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 2px;
   font-family: var(--font-mono);
   font-size: 16px;
   color: var(--text-dim);
@@ -1975,13 +1985,16 @@ picture.case-img-phone img {
 }
 
 .radar-title {
-  grid-column: 3 / 11;
+  grid-column: 3 / 12;
   font-family: var(--font-sans);
   font-size: 25px;
   font-weight: 400;
   line-height: 1.3;
   color: var(--text);
   transition: color 0.15s ease, text-shadow 0.15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .radar-desc {
@@ -1995,45 +2008,58 @@ picture.case-img-phone img {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 2.8em;
+}
+
+.radar-score {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--radar-accent, var(--accent));
 }
 
 .radar-source {
-  display: none;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s ease;
 }
 
 .radar-line:hover .radar-source {
-  display: block;
-  grid-column: 11 / 13;
-  grid-row: 1;
-  text-align: right;
-  font-family: var(--font-mono);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 12px;
-  color: var(--text-dim);
+  opacity: 1;
 }
 
 .radar-counter {
   font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--text-faint);
-  text-align: right;
-  margin-top: 16px;
-  min-height: 16px;
+  font-size: 13px;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 8px 0 32px;
 }
 
 /* Radar page */
 .main--radar {
   --radar-accent: #E8611A;
-  padding-top: 16px;
+  padding-top: 60px;
   padding-bottom: 60px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='1' height='1' fill='rgba(0,0,0,0.02)'/%3E%3C/svg%3E");
 }
 
 .main--radar .radar-tag {
   color: var(--radar-accent);
 }
+
+.radar-tg {
+  font-family: var(--font-mono);
+  color: var(--radar-accent);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+.radar-tg:hover { opacity: 1; }
 
 .main--radar .radar-line:hover .radar-title {
   color: var(--radar-accent);
@@ -2041,12 +2067,59 @@ picture.case-img-phone img {
 }
 
 .main--radar .radar-line:hover {
-  background: rgba(232, 97, 26, 0.03);
+  background: none;
 }
 
-/* Radar intro video */
+/* Radar banner — full-bleed accent strip */
+.radar-banner {
+  background: var(--radar-accent, #E8611A);
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 24px max(var(--side-padding), calc((100vw - var(--content-max)) / 2));
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.radar-banner-inner {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.radar-banner-ascii {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  line-height: 1.15;
+  color: #fef9ea;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.radar-banner-sub {
+  font-family: var(--font-mono);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fef9ea;
+  margin: 0;
+}
+
+.radar-banner-tg {
+  font-family: var(--font-mono);
+  font-size: 28px;
+  font-weight: 400;
+  color: #fef9ea;
+  text-decoration: none;
+  margin-left: auto;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.radar-banner-tg:hover { opacity: 0.7; }
+
+/* Radar intro video — 8 of 12 content columns */
 .radar-intro {
-  margin-bottom: 100px;
+  max-width: 100%;
+  margin-bottom: 32px;
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
@@ -2056,23 +2129,41 @@ picture.case-img-phone img {
   width: 100%;
   height: auto;
 }
+.radar-intro::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.radar-intro {
+  position: relative;
+}
 
-/* Tag filter buttons */
+/* Tag filter buttons — standalone row between banner and feed */
 .radar-tags {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 20px 0 24px;
 }
 
 .radar-filter {
   font-family: var(--font-mono);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 0;
   border: none;
   background: none;
-  color: var(--text-dim);
+  color: rgba(34, 34, 34, 0.35);
   cursor: pointer;
   transition: color 0.15s ease;
 }
@@ -2082,7 +2173,36 @@ picture.case-img-phone img {
 }
 
 .radar-filter.active {
-  color: var(--radar-accent, var(--accent));
+  color: var(--text);
+}
+
+.radar-filter-sep {
+  color: rgba(34, 34, 34, 0.15);
+  font-size: 16px;
+  user-select: none;
+}
+
+/* Month separator */
+.radar-month {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--text-dim);
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  padding: 32px 0 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Blinking cursor at end of feed */
+.radar-cursor {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  color: var(--text-dim);
+  padding: 24px 0 48px;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  50% { opacity: 0; }
 }
 
 /* Filtered-out lines */
@@ -2092,6 +2212,7 @@ picture.case-img-phone img {
 
 
 @media (max-width: 900px) {
+  .radar-intro { width: 100%; }
   .radar-ascii { font-size: 5px; }
   .radar-line {
     grid-template-columns: 1fr;
@@ -2101,7 +2222,13 @@ picture.case-img-phone img {
     grid-column: 1;
     grid-row: auto;
     flex-direction: row;
-    gap: 12px;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .radar-tag {
+    margin-left: auto;
+    font-size: 14px;
   }
   .radar-title {
     grid-column: 1;
@@ -2111,7 +2238,10 @@ picture.case-img-phone img {
     grid-column: 1;
     font-size: 17px;
   }
-  .radar-source { display: none !important; }
+  .radar-source { font-size: 12px; }
+  .radar-banner-sub { font-size: 20px; }
+  .radar-banner-tg { font-size: 20px; }
+  .radar-tags { row-gap: 8px; }
   .radar-filter { font-size: 14px; }
 }
 

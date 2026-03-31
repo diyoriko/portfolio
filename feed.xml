@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Radar — Diyor Khakimov</title>
+  <link>https://diyor.design/radar</link>
+  <description>What's changing the design process. Design × AI, tools, engineering.</description>
+  <language>en</language>
+  <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
+  <lastBuildDate>Tue, 31 Mar 2026 17:32:15 +0000</lastBuildDate>
+  <item>
+    <title>interface-design</title>
+    <link>https://github.com/Dammyjay93/interface-design</link>
+    <description>Claude Code skill that enforces UI consistency — reads design principles, applies patterns, explains design choices before each component.</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Dammyjay93/interface-design</guid>
+  </item>
+  <item>
+    <title>Agents, Meet the Figma Canvas</title>
+    <link>https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</link>
+    <description>Agents write to canvas via MCP server. Design system quality now directly determines output quality.</description>
+    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</guid>
+  </item>
+  <item>
+    <title>Figma's MCP Just Gave AI Agents 'Write' Access — A First Look</title>
+    <link>https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens</link>
+    <description>Practical walkthrough of what Claude Code and Codex actually do with write access to the Figma canvas via MCP.</description>
+    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens</guid>
+  </item>
+  <item>
+    <title>I Built 63 Design Skills For Claude - and They're Free</title>
+    <link>https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude</link>
+    <description>Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude</guid>
+  </item>
+  <item>
+    <title>Designing Delightful Frontends with GPT-5.4</title>
+    <link>https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</link>
+    <description>The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</guid>
+  </item>
+  <item>
+    <title>claude-talk-to-figma-mcp</title>
+    <link>https://github.com/arinspunk/claude-talk-to-figma-mcp</link>
+    <description>Community MCP server letting Claude read and modify Figma designs without a Dev Mode license; setup takes ~5 minutes.</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/arinspunk/claude-talk-to-figma-mcp</guid>
+  </item>
+  <item>
+    <title>Introducing 'vibe design' with Stitch (Google Labs)</title>
+    <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</link>
+    <description>Google Labs launched Stitch — an AI-native design canvas that generates high-fidelity UI from natural language prompts. Concept of 'vibe design': describe intent, get editable screens with real-time collaboration. Direct competition to Figma Make and Lovable.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</guid>
+  </item>
+  <item>
+    <title>figma-console-mcp</title>
+    <link>https://github.com/southleft/figma-console-mcp</link>
+    <description>90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/southleft/figma-console-mcp</guid>
+  </item>
+  <item>
+    <title>AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)</title>
+    <link>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</link>
+    <description>Engineer survey: Claude Code captured 60% of Cursor's audience in 8 months. 95% use AI tools weekly, 55% regularly use AI agents. For design engineers: Cursor wins at startups, GitHub Copilot defaults in enterprise.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</guid>
+  </item>
+  <item>
+    <title>UI/UX Pro Max Skill — 50K+ stars</title>
+    <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
+    <description>161 rules, 67 styles, 57 typography pairings. Works in Claude, Cursor, Copilot.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</guid>
+  </item>
+  <item>
+    <title>Design Systems And AI: Why MCP Is The Unlock</title>
+    <link>https://www.figma.com/blog/design-systems-ai-mcp/</link>
+    <description>MCP servers scan codebases and generate structured design system rules.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/design-systems-ai-mcp/</guid>
+  </item>
+  <item>
+    <title>Claude Code for Designers</title>
+    <link>https://www.builder.io/blog/claude-code-for-designers</link>
+    <description>Plan mode, live preview, Figma integration. No terminal needed, inside the desktop app.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.builder.io/blog/claude-code-for-designers</guid>
+  </item>
+  <item>
+    <title>The Complete Vibe Coding Guide for Designers</title>
+    <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
+    <description>Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.</description>
+    <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    <guid>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</guid>
+  </item>
+  <item>
+    <title>Figma Make Is Now Available to All</title>
+    <link>https://www.figma.com/blog/figma-make-general-availability/</link>
+    <description>Prompt-to-design exits beta. Supabase backend, library imports, generation from prompts.</description>
+    <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/figma-make-general-availability/</guid>
+  </item>
+  <item>
+    <title>AI Design Systems: Why Tokens, Schema &amp; Generative Rules Matter Now</title>
+    <link>https://medium.com/@Rythmuxdesigner/ai-design-systems-why-tokens-schema-generative-rules-matter-now-ca3ab41c96d9</link>
+    <description>Design systems are now built for AI, not designers. AI doesn't parse prose guidelines — it processes structure, rules, and relationships. Without tokens, AI won't scale inside a design system. 2026 marks the shift from static libraries to living generative engines.</description>
+    <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    <guid>https://medium.com/@Rythmuxdesigner/ai-design-systems-why-tokens-schema-generative-rules-matter-now-ca3ab41c96d9</guid>
+  </item>
+</channel>
+</rss>

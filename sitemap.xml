@@ -10,9 +10,16 @@
   </url>
 
   <url>
-    <loc>https://diyor.design/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about.html" />
+    <loc>https://diyor.design/about</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://diyor.design/radar</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/radar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/radar" />
     <priority>0.9</priority>
   </url>
 
@@ -24,231 +31,226 @@
   </url>
 
   <url>
-    <loc>https://diyor.design/en/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about.html" />
+    <loc>https://diyor.design/en/radar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/radar" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/radar" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://diyor.design/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about" />
     <priority>0.8</priority>
   </url>
 
   <!-- Selected projects -->
 
   <url>
-    <loc>https://diyor.design/projects/teletype.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html" />
+    <loc>https://diyor.design/projects/teletype</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/teletype.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype.html" />
+    <loc>https://diyor.design/en/projects/teletype</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype" />
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/sami.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami.html" />
+    <loc>https://diyor.design/projects/sami</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/sami.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami.html" />
+    <loc>https://diyor.design/en/projects/sami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami" />
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/hunter.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter.html" />
+    <loc>https://diyor.design/projects/hunter</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/hunter.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter.html" />
+    <loc>https://diyor.design/en/projects/hunter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter" />
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/enxt.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt.html" />
+    <loc>https://diyor.design/projects/enxt</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt" />
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/enxt.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt.html" />
+    <loc>https://diyor.design/en/projects/enxt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt" />
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/skysmart.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
+    <loc>https://diyor.design/projects/skysmart</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/skysmart.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart.html" />
+    <loc>https://diyor.design/en/projects/skysmart</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart" />
     <priority>0.7</priority>
   </url>
 
   <!-- Archive projects -->
 
   <url>
-    <loc>https://diyor.design/projects/prosto.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto.html" />
+    <loc>https://diyor.design/projects/prosto</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto" />
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/prosto.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto.html" />
+    <loc>https://diyor.design/en/projects/prosto</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto" />
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/kombo.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo.html" />
+    <loc>https://diyor.design/projects/kombo</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo" />
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/kombo.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo.html" />
+    <loc>https://diyor.design/en/projects/kombo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo" />
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/osme.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
+    <loc>https://diyor.design/projects/osme</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme" />
     <lastmod>2026-03-23</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/osme.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme.html" />
+    <loc>https://diyor.design/en/projects/osme</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/osme" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/osme" />
     <lastmod>2026-03-23</lastmod>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/vedic.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic.html" />
+    <loc>https://diyor.design/projects/vedic</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic" />
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/vedic.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic.html" />
+    <loc>https://diyor.design/en/projects/vedic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic" />
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/hse.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse.html" />
+    <loc>https://diyor.design/projects/hse</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse" />
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/hse.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse.html" />
+    <loc>https://diyor.design/en/projects/hse</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse" />
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/singularity-hub.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub.html" />
+    <loc>https://diyor.design/projects/singularity-hub</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/singularity-hub.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub.html" />
+    <loc>https://diyor.design/en/projects/singularity-hub</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub" />
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/singularity-words.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words.html" />
+    <loc>https://diyor.design/projects/singularity-words</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words" />
     <lastmod>2026-03-20</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/singularity-words.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words.html" />
+    <loc>https://diyor.design/en/projects/singularity-words</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words" />
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/qlean.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean.html" />
+    <loc>https://diyor.design/projects/qlean</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean" />
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/qlean.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean.html" />
+    <loc>https://diyor.design/en/projects/qlean</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean" />
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/flora.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora.html" />
+    <loc>https://diyor.design/projects/flora</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora" />
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/flora.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora.html" />
+    <loc>https://diyor.design/en/projects/flora</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora" />
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/appteka.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/appteka.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/appteka.html" />
+    <loc>https://diyor.design/projects/appteka</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/appteka" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/appteka" />
     <lastmod>2026-03-24</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://diyor.design/en/projects/appteka.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/appteka.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/appteka.html" />
+    <loc>https://diyor.design/en/projects/appteka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/appteka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/appteka" />
     <priority>0.5</priority>
   </url>
 
-  <url>
-    <loc>https://diyor.design/projects/skyeng.html</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skyeng.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skyeng.html" />
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://diyor.design/en/projects/skyeng.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skyeng.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skyeng.html" />
-    <priority>0.4</priority>
-  </url>
 
 </urlset>

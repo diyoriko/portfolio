@@ -3,23 +3,13 @@
     "title": "interface-design",
     "url": "https://github.com/Dammyjay93/interface-design",
     "type": "skill",
-    "tag": "design eng",
+    "tag": "design + code",
     "desc_ru": "Скилл для Claude Code: память + принципы + контроль консистентности — объясняет дизайн-решения перед каждым компонентом.",
     "desc_en": "Claude Code skill that enforces UI consistency — reads design principles, applies patterns, explains design choices before each component.",
     "date": "2026-03-26",
     "priority": 2,
-    "added": "2026-03-31"
-  },
-  {
-    "title": "figma-review-skill",
-    "url": "https://github.com/shomtsm/figma-review-skill",
-    "type": "skill",
-    "tag": "figma×ai",
-    "desc_ru": "Claude Code скилл: ревьюит Figma-макеты с точки зрения инженера и постит комментарии прямо в файл Figma.",
-    "desc_en": "Claude Code skill that reviews Figma designs from an engineer's perspective and posts comments directly into the Figma file.",
-    "date": "2026-03-25",
-    "priority": 2,
-    "added": "2026-03-31"
+    "added": "2026-03-31",
+    "stars": 4341
   },
   {
     "title": "Agents, Meet the Figma Canvas",
@@ -46,7 +36,7 @@
   {
     "title": "I Built 63 Design Skills For Claude - and They're Free",
     "url": "https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude",
-    "type": "skill",
+    "type": "article",
     "tag": "tools",
     "desc_ru": "63 MIT-лицензированных скилла для Claude Code по 8 плагинам: исследования, дизайн-системы, UI, прототипирование.",
     "desc_en": "Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.",
@@ -58,7 +48,7 @@
     "title": "Designing Delightful Frontends with GPT-5.4",
     "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
     "type": "article",
-    "tag": "design eng",
+    "tag": "design + code",
     "desc_ru": "Модель понимает визуальную иерархию и бренд-позиционирование. React + Tailwind + Framer Motion.",
     "desc_en": "The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.",
     "date": "2026-03-20",
@@ -74,7 +64,8 @@
     "desc_en": "Community MCP server letting Claude read and modify Figma designs without a Dev Mode license; setup takes ~5 minutes.",
     "date": "2026-03-20",
     "priority": 2,
-    "added": "2026-03-28"
+    "added": "2026-03-28",
+    "stars": 552
   },
   {
     "title": "Introducing 'vibe design' with Stitch (Google Labs)",
@@ -91,12 +82,13 @@
     "title": "figma-console-mcp",
     "url": "https://github.com/southleft/figma-console-mcp",
     "type": "tool",
-    "tag": "design systems",
+    "tag": "figma×ai",
     "desc_ru": "90+ MCP-инструментов для Figma: токены, переменные, создание UI агентом, дебаг плагинов — работает на Free-плане.",
     "desc_en": "90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.",
     "date": "2026-03-10",
     "priority": 2,
-    "added": "2026-03-28"
+    "added": "2026-03-28",
+    "stars": 1341
   },
   {
     "title": "AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)",
@@ -118,7 +110,8 @@
     "desc_en": "161 rules, 67 styles, 57 typography pairings. Works in Claude, Cursor, Copilot.",
     "date": "2026-03-01",
     "priority": 1,
-    "added": "2026-03-25"
+    "added": "2026-03-25",
+    "stars": 55750
   },
   {
     "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -146,7 +139,7 @@
     "title": "The Complete Vibe Coding Guide for Designers",
     "url": "https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/",
     "type": "article",
-    "tag": "design eng",
+    "tag": "design + code",
     "desc_ru": "Три слоя AI-инструментов: Exploration, MVP, Engineering. Дизайнеры шипают код без программирования.",
     "desc_en": "Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.",
     "date": "2026-01-01",

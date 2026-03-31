@@ -1165,18 +1165,18 @@ function initRadarIntro() {
   if (!video) return;
 
   wrap.title = 'Click to unmute';
-  wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
+  wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23E8611A\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
 
   wrap.addEventListener('click', () => {
     video.muted = !video.muted;
     if (video.muted) {
       wrap.classList.remove('unmuted');
       wrap.title = 'Click to unmute';
-      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
+      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23E8611A\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cline x1=\'23\' y1=\'9\' x2=\'17\' y2=\'15\'/%3E%3Cline x1=\'17\' y1=\'9\' x2=\'23\' y2=\'15\'/%3E%3C/svg%3E") 12 12, pointer';
     } else {
       wrap.classList.add('unmuted');
       wrap.title = 'Click to mute';
-      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23F8401C\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cpath d=\'M19.07 4.93a10 10 0 010 14.14\'/%3E%3Cpath d=\'M15.54 8.46a5 5 0 010 7.07\'/%3E%3C/svg%3E") 12 12, pointer';
+      wrap.style.cursor = 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23E8611A\' stroke-width=\'2\'%3E%3Cpath d=\'M11 5L6 9H2v6h4l5 4V5z\'/%3E%3Cpath d=\'M19.07 4.93a10 10 0 010 14.14\'/%3E%3Cpath d=\'M15.54 8.46a5 5 0 010 7.07\'/%3E%3C/svg%3E") 12 12, pointer';
     }
   });
 }
@@ -1225,56 +1225,112 @@ function initRadarFeed() {
       /* Sort by date desc */
       items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
-      /* Build tag filter buttons */
-      const allTags = [...new Set(items.map(i => i.tag).filter(Boolean))];
+      /* Build type filter buttons (format-based IA) */
+      const TYPE_FILTER_LABELS = isRu
+        ? { 'article': 'статьи', 'tool': 'инструменты', 'skill': 'скиллы', 'research': 'исследования', 'talk': 'доклады' }
+        : { 'article': 'articles', 'tool': 'tools', 'skill': 'skills', 'research': 'research', 'talk': 'talks' };
+      const TYPE_ORDER = ['article', 'tool', 'skill', 'research', 'talk'];
+      const allTypes = TYPE_ORDER.filter(t => items.some(i => (i.type || 'article') === t));
       const allLabel = isRu ? 'все' : 'all';
-      tagsNav.innerHTML = '<button class="radar-filter active" data-tag="all">' + allLabel + '</button>' +
-        allTags.map(tag => {
-          const label = TAG_LABELS[tag] || tag;
-          return '<button class="radar-filter" data-tag="' + tag + '">' + label + '</button>';
+
+      tagsNav.innerHTML = '<button class="radar-filter active" data-filter="all">' + allLabel + '</button>' +
+        allTypes.map(type => {
+          return '<button class="radar-filter" data-filter="' + type + '">' + (TYPE_FILTER_LABELS[type] || type) + '</button>';
         }).join('');
 
-      /* Render cards */
+      /* Render cards with month separators */
+      var lastMonth = '';
+      var ghIcon = '<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-1px"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>';
+      var MONTH_NAMES = isRu
+        ? ['', 'январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
+        : ['', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+
       feed.innerHTML = items.map(item => {
         const tag = item.tag || 'tools';
         const tagLabel = TAG_LABELS[tag] || item['tag_label_' + (isRu ? 'ru' : 'en')] || tag;
-        const dateStr = (item.date || '').slice(0, 7).replace('-', '.');
+        const dateStr = (item.date || '').replace(/-/g, '.');
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
+        var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
 
-        return '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '">' +
-          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + tagLabel + '</span></span>' +
-          '<span class="radar-title">' + (item.title || '') + '</span>' +
+        var separator = '';
+        var month = (item.date || '').slice(0, 7);
+        if (month && month !== lastMonth) {
+          var parts = month.split('-');
+          var monthName = MONTH_NAMES[parseInt(parts[1], 10)] || '';
+          separator = '<div class="radar-month">' + monthName + ' ' + parts[0] + '</div>';
+          lastMonth = month;
+        }
+
+        return separator + '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '" data-type="' + (item.type || 'article') + '">' +
+          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + tagLabel + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
+          '<span class="radar-title" title="' + (item.title || '').replace(/"/g, '&quot;') + '">' + (item.title || '') + '</span>' +
           '<span class="radar-desc">' + desc + '</span>' +
           '<span class="radar-source">' + source + ' ↗</span>' +
         '</a>';
-      }).join('');
+      }).join('') + '<div class="radar-cursor">_</div>';
+
+      /* Stats in counter */
+      var counterEl = document.querySelector('.radar-counter');
+      if (counterEl) {
+        counterEl.textContent = isRu
+          ? items.length + ' публикаций'
+          : items.length + ' articles';
+      }
 
       /* Trigger scroll reveal for new elements */
       initScrollReveal();
 
-      /* Filter click handler */
+      /* Filter click handler — by type, preserve scroll, hide empty month separators */
+      function applyFilter(selected) {
+        feed.querySelectorAll('.radar-line').forEach(line => {
+          line.classList.toggle('filtered-out', selected !== 'all' && line.dataset.type !== selected);
+        });
+        feed.querySelectorAll('.radar-month').forEach(sep => {
+          var next = sep.nextElementSibling;
+          var hasVisible = false;
+          while (next && !next.classList.contains('radar-month')) {
+            if (next.classList.contains('radar-line') && !next.classList.contains('filtered-out')) hasVisible = true;
+            next = next.nextElementSibling;
+          }
+          sep.style.display = hasVisible ? '' : 'none';
+        });
+      }
+
       tagsNav.addEventListener('click', (e) => {
         const btn = e.target.closest('.radar-filter');
         if (!btn) return;
-        const selectedTag = btn.dataset.tag;
+        e.preventDefault();
+        var scrollY = window.scrollY;
 
         tagsNav.querySelectorAll('.radar-filter').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-
-        feed.querySelectorAll('.radar-line').forEach(line => {
-          if (selectedTag === 'all' || line.dataset.tag === selectedTag) {
-            line.classList.remove('filtered-out');
-          } else {
-            line.classList.add('filtered-out');
-          }
-        });
+        applyFilter(btn.dataset.filter);
+        window.scrollTo(0, scrollY);
       });
 
       /* Re-init hover counter for dynamically rendered items */
       initRadarCounter();
     })
     .catch(() => { /* offline or error — feed stays empty */ });
+}
+
+/* --- Radar "new" indicator in nav --- */
+
+function initRadarNewIndicator() {
+  var navLink = document.querySelector('.nav-radar');
+  if (!navLink) return;
+  var isRu = document.documentElement.lang === 'ru';
+  var jsonPath = isRu ? 'radar-db.json' : (window.location.pathname.includes('/en/') ? '../radar-db.json' : 'radar-db.json');
+  /* resolve relative to site root for project pages */
+  if (window.location.pathname.includes('/projects/')) {
+    jsonPath = isRu ? '../radar-db.json' : '../../radar-db.json';
+  }
+  fetch(jsonPath).then(r => r.json()).then(items => {
+    var threeDaysAgo = new Date(Date.now() - 3 * 86400000).toISOString().slice(0, 10);
+    var hasNew = items.some(i => (i.date || '') >= threeDaysAgo);
+    if (hasNew) navLink.classList.add('has-new');
+  }).catch(() => {});
 }
 
 /* --- Skeleton cleanup (mark loaded images) --- */
@@ -1313,6 +1369,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkeletonCleanup();
   initRadarIntro();
   initRadarFeed();
+  initRadarNewIndicator();
 
   /* GoatCounter loads async — poll until ready, skip if blocked */
   try {
