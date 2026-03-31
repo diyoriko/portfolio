@@ -1381,6 +1381,10 @@ picture.case-img-phone img {
   aspect-ratio: 16 / 9;
 }
 
+.case-slideshow--dark .case-slideshow-track picture {
+  height: 100%;
+}
+
 .case-slideshow--dark .case-slideshow-track img {
   height: 100%;
   object-fit: contain;
@@ -1390,6 +1394,12 @@ picture.case-img-phone img {
   display: flex;
   align-items: flex-start;
   transition: transform 0.4s ease;
+}
+
+.case-slideshow-track picture {
+  width: 100%;
+  flex-shrink: 0;
+  display: block;
 }
 
 .case-slideshow-track img {
@@ -1787,6 +1797,7 @@ picture.case-img-phone img {
     transition: none;
   }
 
+  .case-slideshow-track picture,
   .case-slideshow-track img {
     scroll-snap-align: start;
   }
