@@ -1989,6 +1989,13 @@ picture.case-img-phone img {
   padding-top: 4px;
 }
 
+.radar-added {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  opacity: 0.5;
+}
+
 .radar-tag {
   font-family: var(--font-mono);
   font-size: 14px;

@@ -1248,7 +1248,9 @@ function initRadarFeed() {
       feed.innerHTML = items.map(item => {
         const tag = item.tag || 'tools';
         const tagLabel = TAG_LABELS[tag] || item['tag_label_' + (isRu ? 'ru' : 'en')] || tag;
-        const dateStr = (item.date || '').replace(/-/g, '.');
+        const dp = (item.date || '').split('-'); const dateStr = dp.length === 3 ? dp[2] + '.' + dp[1] + '.' + dp[0] : '';
+        const ap = (item.added || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
+        const showAdded = addedStr && addedStr !== dateStr;
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
         var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
@@ -1263,7 +1265,7 @@ function initRadarFeed() {
         }
 
         return separator + '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '" data-type="' + (item.type || 'article') + '">' +
-          '<span class="radar-meta"><time>' + dateStr + '</time><span class="radar-tag">' + tagLabel + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
+          '<span class="radar-meta"><time>' + dateStr + '</time>' + (showAdded ? '<span class="radar-added">' + (isRu ? 'добавлено ' : 'added ') + addedStr + '</span>' : '') + '<span class="radar-tag">' + tagLabel + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
           '<span class="radar-title" title="' + (item.title || '').replace(/"/g, '&quot;') + '">' + (item.title || '') + '</span>' +
           '<span class="radar-desc">' + desc + '</span>' +
           '<span class="radar-source">' + source + ' ↗</span>' +
