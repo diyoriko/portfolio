@@ -64,6 +64,21 @@
     "added": "2026-03-31"
   },
   {
+    "title": "Human Strategy In An AI-Accelerated Workflow",
+    "url": "https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/",
+    "type": "article",
+    "tag": "process",
+    "desc_ru": "Smashing: дизайнеры от создателей макетов к «директорам намерений» — конкретные стратегии работы с AI.",
+    "desc_en": "Smashing Magazine: designers shift from output makers to directors of intent — practical strategies for AI workflows.",
+    "date": "2026-03-24",
+    "priority": 2,
+    "score": 7,
+    "reading_time": 8,
+    "difficulty": "beginner",
+    "has_demo": false,
+    "added": "2026-04-01"
+  },
+  {
     "title": "I Built 63 Design Skills For Claude - and They're Free",
     "url": "https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude",
     "type": "article",
@@ -96,6 +111,23 @@
     "priority": 2,
     "added": "2026-03-28",
     "stars": 551
+  },
+  {
+    "title": "Motion Studio — AI & Visual Animation Editor for VS Code",
+    "url": "https://motion.dev/studio",
+    "type": "tool",
+    "tag": "motion×ai",
+    "tag_label_ru": "Анимация × AI",
+    "tag_label_en": "Motion × AI",
+    "desc_ru": "VS Code расширение с визуальным редактором CSS-переходов и MCP с полной документацией Motion для AI-агентов.",
+    "desc_en": "VS Code extension with real-time transition editing and MCP giving Cursor/Claude full Motion docs as context.",
+    "date": "2026-03-20",
+    "priority": 1,
+    "score": 8,
+    "reading_time": 5,
+    "difficulty": "intermediate",
+    "has_demo": true,
+    "added": "2026-04-01"
   },
   {
     "title": "Stitch from Google Labs gets updates with Gemini 3",
@@ -148,7 +180,7 @@
     "date": "2026-03-10",
     "priority": 2,
     "added": "2026-03-28",
-    "stars": 1349
+    "stars": 1350
   },
   {
     "title": "Figma MCP server can now generate design layers from VS Code",
@@ -201,7 +233,7 @@
     "date": "2026-03-01",
     "priority": 1,
     "added": "2026-03-25",
-    "stars": 56292
+    "stars": 56301
   },
   {
     "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -213,6 +245,21 @@
     "date": "2026-03-01",
     "priority": 1,
     "added": "2026-03-25"
+  },
+  {
+    "title": "Frontend Design — Official Claude Code Plugin",
+    "url": "https://claude.com/plugins/frontend-design",
+    "type": "tool",
+    "tag": "tools",
+    "desc_ru": "Официальный плагин Anthropic: 240+ стилей и 127 пар шрифтов, чтобы Claude не генерировал шаблонный Inter + purple gradient UI.",
+    "desc_en": "Official Anthropic plugin with 240+ aesthetic styles and 127 font pairings to stop Claude defaulting to generic UI.",
+    "date": "2026-03-01",
+    "priority": 1,
+    "score": 8,
+    "reading_time": 4,
+    "difficulty": "intermediate",
+    "has_demo": true,
+    "added": "2026-04-01"
   },
   {
     "title": "Claude Code for Designers",

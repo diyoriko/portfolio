@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 01 Apr 2026 10:06:25 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 10:26:17 +0000</lastBuildDate>
   <item>
     <title>interface-design</title>
     <link>https://github.com/Dammyjay93/interface-design</link>
@@ -43,6 +43,13 @@
     <guid>https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens</guid>
   </item>
   <item>
+    <title>Human Strategy In An AI-Accelerated Workflow</title>
+    <link>https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/</link>
+    <description>Smashing Magazine: designers shift from output makers to directors of intent — practical strategies for AI workflows.</description>
+    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/</guid>
+  </item>
+  <item>
     <title>I Built 63 Design Skills For Claude - and They're Free</title>
     <link>https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude</link>
     <description>Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.</description>
@@ -62,6 +69,13 @@
     <description>Community MCP server letting Claude read and modify Figma designs without a Dev Mode license; setup takes ~5 minutes.</description>
     <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/arinspunk/claude-talk-to-figma-mcp</guid>
+  </item>
+  <item>
+    <title>Motion Studio — AI &amp; Visual Animation Editor for VS Code</title>
+    <link>https://motion.dev/studio</link>
+    <description>VS Code extension with real-time transition editing and MCP giving Cursor/Claude full Motion docs as context.</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://motion.dev/studio</guid>
   </item>
   <item>
     <title>Stitch from Google Labs gets updates with Gemini 3</title>
@@ -127,25 +141,11 @@
     <guid>https://www.figma.com/blog/design-systems-ai-mcp/</guid>
   </item>
   <item>
-    <title>Claude Code for Designers</title>
-    <link>https://www.builder.io/blog/claude-code-for-designers</link>
-    <description>Plan mode, live preview, Figma integration. No terminal needed, inside the desktop app.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.builder.io/blog/claude-code-for-designers</guid>
-  </item>
-  <item>
-    <title>From Claude Code to Figma: Turning Production Code into Editable Figma Designs</title>
-    <link>https://www.figma.com/blog/introducing-claude-code-to-figma/</link>
-    <description>Type 'Send this to Figma' in Claude Code to capture your running UI as fully editable Figma layers.</description>
-    <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/introducing-claude-code-to-figma/</guid>
-  </item>
-  <item>
-    <title>The Complete Vibe Coding Guide for Designers</title>
-    <link>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</link>
-    <description>Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.</description>
-    <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-    <guid>https://muz.li/blog/the-complete-vibe-coding-guide-for-designers-2026/</guid>
+    <title>Frontend Design — Official Claude Code Plugin</title>
+    <link>https://claude.com/plugins/frontend-design</link>
+    <description>Official Anthropic plugin with 240+ aesthetic styles and 127 font pairings to stop Claude defaulting to generic UI.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/plugins/frontend-design</guid>
   </item>
 </channel>
 </rss>
