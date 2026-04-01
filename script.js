@@ -1215,20 +1215,22 @@ function initRadarFeed() {
   const isRu = document.documentElement.lang === 'ru';
   const jsonPath = isRu ? 'radar-db.json' : '../radar-db.json';
 
-  const TAG_LABELS = isRu
-    ? { 'figma×ai': 'figma × ai', 'design eng': 'дизайн + код', 'tools': 'инструменты', 'design systems': 'дизайн-системы', 'process': 'процесс' }
-    : { 'figma×ai': 'figma×ai', 'design eng': 'design + code', 'tools': 'tools', 'design systems': 'design systems', 'process': 'process' };
-
   fetch(jsonPath)
     .then(r => r.json())
-    .then(items => {
+    .then(data => {
+      /* Read _meta registry (single source of truth for tags/types) */
+      var meta = data._meta || {};
+      var tagMeta = meta.tags || {};
+      var typeMeta = meta.types || {};
+      var items = data.items || (Array.isArray(data) ? data : []);
+      var lang = isRu ? 'ru' : 'en';
+
       /* Sort by date desc */
       items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
-      /* Build type filter buttons (format-based IA) */
-      const TYPE_FILTER_LABELS = isRu
-        ? { 'article': 'статьи', 'tool': 'инструменты', 'skill': 'скиллы', 'research': 'исследования', 'talk': 'доклады' }
-        : { 'article': 'articles', 'tool': 'tools', 'skill': 'skills', 'research': 'research', 'talk': 'talks' };
+      /* Build type filter buttons from _meta */
+      var TYPE_FILTER_LABELS = {};
+      for (var k in typeMeta) { TYPE_FILTER_LABELS[k] = typeMeta[k][lang] || k; }
       const TYPE_ORDER = ['article', 'tool', 'skill', 'research', 'talk'];
       const allTypes = TYPE_ORDER.filter(t => items.some(i => (i.type || 'article') === t));
       const allLabel = isRu ? 'все' : 'all';
@@ -1247,7 +1249,7 @@ function initRadarFeed() {
 
       feed.innerHTML = items.map(item => {
         const tag = item.tag || 'tools';
-        const tagLabel = TAG_LABELS[tag] || item['tag_label_' + (isRu ? 'ru' : 'en')] || tag;
+        const tagLabel = (tagMeta[tag] && tagMeta[tag][lang]) || tag;
         const dp = (item.date || '').split('-'); const dateStr = dp.length === 3 ? dp[2] + '.' + dp[1] + '.' + dp[0] : '';
         const ap = (item.added || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
         const showAdded = addedStr && addedStr !== dateStr;
