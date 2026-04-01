@@ -9,7 +9,7 @@
     "date": "2026-03-26",
     "priority": 2,
     "added": "2026-03-31",
-    "stars": 4355
+    "stars": 4356
   },
   {
     "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
@@ -183,6 +183,21 @@
     "stars": 1350
   },
   {
+    "title": "5 MCP Connections Every Design System Team Needs Right Now",
+    "url": "https://learn.thedesignsystem.guide/p/5-mcp-connections-every-design-system",
+    "type": "article",
+    "tag": "design systems",
+    "desc_ru": "5 MCP-подключений для команды дизайн-системы: Figma, GitHub, PostHog, Slack, Mintlify.",
+    "desc_en": "5 ready-to-use MCP connections for design system teams: Figma, GitHub, PostHog, Slack, Mintlify docs.",
+    "date": "2026-03-10",
+    "priority": 2,
+    "score": 5,
+    "reading_time": 5,
+    "difficulty": "intermediate",
+    "has_demo": false,
+    "added": "2026-04-01"
+  },
+  {
     "title": "Figma MCP server can now generate design layers from VS Code",
     "url": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
     "type": "tool",
@@ -233,7 +248,7 @@
     "date": "2026-03-01",
     "priority": 1,
     "added": "2026-03-25",
-    "stars": 56301
+    "stars": 56304
   },
   {
     "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -262,6 +277,24 @@
     "added": "2026-04-01"
   },
   {
+    "title": "Community-Access/accessibility-agents",
+    "url": "https://github.com/Community-Access/accessibility-agents",
+    "type": "skill",
+    "tag": "a11y×ai",
+    "tag_label_ru": "доступность × ИИ",
+    "tag_label_en": "accessibility × AI",
+    "desc_ru": "11 агентов для Claude Code и Copilot — следят за WCAG 2.2 AA в коде, который генерирует ИИ.",
+    "desc_en": "11 agents for Claude Code and Copilot that enforce WCAG 2.2 AA in AI-generated code automatically.",
+    "date": "2026-03-01",
+    "priority": 1,
+    "score": 6,
+    "reading_time": 5,
+    "difficulty": "beginner",
+    "has_demo": true,
+    "added": "2026-04-01",
+    "stars": 207
+  },
+  {
     "title": "Claude Code for Designers",
     "url": "https://www.builder.io/blog/claude-code-for-designers",
     "type": "article",
@@ -285,6 +318,21 @@
     "has_demo": true,
     "desc_ru": "Введите «Send this to Figma» в Claude Code — работающий UI превращается в редактируемые слои Figma.",
     "desc_en": "Type 'Send this to Figma' in Claude Code to capture your running UI as fully editable Figma layers.",
+    "added": "2026-04-01"
+  },
+  {
+    "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
+    "url": "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
+    "type": "article",
+    "tag": "process",
+    "desc_ru": "6 конкретных UX-паттернов для агентных интерфейсов: preview намерений, диал автономии, отмена действий.",
+    "desc_en": "6 UX patterns for agentic AI interfaces: intent preview, autonomy dial, action undo, confidence signal.",
+    "date": "2026-02-12",
+    "priority": 2,
+    "score": 7,
+    "reading_time": 12,
+    "difficulty": "intermediate",
+    "has_demo": false,
     "added": "2026-04-01"
   },
   {

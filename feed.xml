@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 01 Apr 2026 10:26:17 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 01 Apr 2026 10:40:17 +0000</lastBuildDate>
   <item>
     <title>interface-design</title>
     <link>https://github.com/Dammyjay93/interface-design</link>
@@ -106,6 +106,13 @@
     <guid>https://github.com/southleft/figma-console-mcp</guid>
   </item>
   <item>
+    <title>5 MCP Connections Every Design System Team Needs Right Now</title>
+    <link>https://learn.thedesignsystem.guide/p/5-mcp-connections-every-design-system</link>
+    <description>5 ready-to-use MCP connections for design system teams: Figma, GitHub, PostHog, Slack, Mintlify docs.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://learn.thedesignsystem.guide/p/5-mcp-connections-every-design-system</guid>
+  </item>
+  <item>
     <title>Figma MCP server can now generate design layers from VS Code</title>
     <link>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</link>
     <description>Copilot in VS Code can now pull design context from Figma and push rendered UI back to the canvas as editable frames.</description>
@@ -139,13 +146,6 @@
     <description>MCP servers scan codebases and generate structured design system rules.</description>
     <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/design-systems-ai-mcp/</guid>
-  </item>
-  <item>
-    <title>Frontend Design — Official Claude Code Plugin</title>
-    <link>https://claude.com/plugins/frontend-design</link>
-    <description>Official Anthropic plugin with 240+ aesthetic styles and 127 font pairings to stop Claude defaulting to generic UI.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/plugins/frontend-design</guid>
   </item>
 </channel>
 </rss>
