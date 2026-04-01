@@ -33,41 +33,31 @@
     "types": {
       "article": {
         "en": "Articles",
-        "en_s": "article",
         "ru": "статьи",
-        "ru_s": "статья",
         "emoji": "📄",
         "cta": "Read"
       },
       "tool": {
         "en": "Tools",
-        "en_s": "tool",
         "ru": "инструменты",
-        "ru_s": "инструмент",
         "emoji": "🔧",
         "cta": "Try it"
       },
       "skill": {
         "en": "Skills",
-        "en_s": "skill",
         "ru": "скиллы",
-        "ru_s": "скилл",
         "emoji": "⚡",
         "cta": "View"
       },
       "research": {
         "en": "Research",
-        "en_s": "research",
         "ru": "исследования",
-        "ru_s": "исследование",
         "emoji": "🔬",
         "cta": "Read"
       },
       "talk": {
         "en": "Talks",
-        "en_s": "talk",
         "ru": "доклады",
-        "ru_s": "доклад",
         "emoji": "🎙",
         "cta": "Watch"
       }
@@ -84,7 +74,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4356
+      "stars": 4363
     },
     {
       "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
@@ -253,7 +243,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1350
+      "stars": 1354
     },
     {
       "title": "5 MCP Connections Every Design System Team Needs Right Now",
@@ -321,7 +311,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56304
+      "stars": 56536
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",
