@@ -1225,8 +1225,8 @@ function initRadarFeed() {
       var items = data.items || (Array.isArray(data) ? data : []);
       var lang = isRu ? 'ru' : 'en';
 
-      /* Sort by date desc */
-      items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      /* Sort by added date desc (fall back to date) */
+      items.sort((a, b) => (b.added || b.date || '').localeCompare(a.added || a.date || ''));
 
       /* Build tag filter buttons from _meta */
       const TAG_ORDER = ['figma×ai', 'design + code', 'tools', 'design systems', 'process', 'motion×ai', 'a11y×ai'];
@@ -1256,7 +1256,7 @@ function initRadarFeed() {
         var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
 
         var separator = '';
-        var month = (item.date || '').slice(0, 7);
+        var month = (item.added || item.date || '').slice(0, 7);
         if (month && month !== lastMonth) {
           var parts = month.split('-');
           var monthName = MONTH_NAMES[parseInt(parts[1], 10)] || '';
