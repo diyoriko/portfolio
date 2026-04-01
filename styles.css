@@ -1956,7 +1956,6 @@ picture.case-img-phone img {
   grid-template-columns: repeat(12, 1fr);
   column-gap: 20px;
   padding: 20px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
   text-decoration: none;
   color: inherit;
   transition: background 0.15s ease;
@@ -1964,8 +1963,14 @@ picture.case-img-phone img {
   position: relative;
 }
 
-.radar-line:last-child {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+.radar-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: calc(2 * (100% + 20px) / 12);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  pointer-events: none;
 }
 
 .radar-line:hover {
@@ -1991,15 +1996,14 @@ picture.case-img-phone img {
 
 .radar-added {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-dim);
-  opacity: 0.5;
 }
 
-.radar-tag {
+.radar-type {
   font-family: var(--font-mono);
   font-size: 14px;
-  color: var(--accent);
+  color: var(--text-dim);
 }
 
 .radar-title {
@@ -2066,9 +2070,6 @@ picture.case-img-phone img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='1' height='1' fill='rgba(0,0,0,0.02)'/%3E%3C/svg%3E");
 }
 
-.main--radar .radar-tag {
-  color: var(--radar-accent);
-}
 
 .radar-tg {
   font-family: var(--font-mono);
@@ -2122,17 +2123,22 @@ picture.case-img-phone img {
   margin: 0;
 }
 
-.radar-banner-tg {
+.radar-banner-links {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.radar-banner-link {
   font-family: var(--font-mono);
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 400;
   color: #fef9ea;
   text-decoration: none;
-  margin-left: auto;
-  flex-shrink: 0;
   white-space: nowrap;
 }
-.radar-banner-tg:hover { opacity: 0.7; }
+.radar-banner-link:hover { opacity: 0.7; }
 
 /* Radar intro video — 8 of 12 content columns */
 .radar-intro {
@@ -2204,11 +2210,11 @@ picture.case-img-phone img {
 .radar-month {
   font-family: var(--font-mono);
   font-size: 16px;
-  color: var(--text-dim);
+  color: var(--accent);
   text-transform: lowercase;
   letter-spacing: 0.05em;
-  padding: 32px 0 12px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 32px 0 4px;
+  border-bottom: 1px solid var(--accent);
 }
 
 /* Blinking cursor at end of feed */
@@ -2244,9 +2250,9 @@ picture.case-img-phone img {
     gap: 8px;
     font-size: 14px;
   }
-  .radar-tag {
+  .radar-type {
     margin-left: auto;
-    font-size: 14px;
+    font-size: 12px;
   }
   .radar-title {
     grid-column: 1;
@@ -2258,7 +2264,7 @@ picture.case-img-phone img {
   }
   .radar-source { font-size: 12px; }
   .radar-banner-sub { font-size: 20px; }
-  .radar-banner-tg { font-size: 20px; }
+  .radar-banner-link { font-size: 14px; }
   .radar-tags { row-gap: 8px; }
   .radar-filter { font-size: 14px; }
 }

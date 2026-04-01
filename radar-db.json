@@ -33,31 +33,41 @@
     "types": {
       "article": {
         "en": "Articles",
+        "en_s": "article",
         "ru": "статьи",
+        "ru_s": "статья",
         "emoji": "📄",
         "cta": "Read"
       },
       "tool": {
         "en": "Tools",
+        "en_s": "tool",
         "ru": "инструменты",
+        "ru_s": "инструмент",
         "emoji": "🔧",
         "cta": "Try it"
       },
       "skill": {
         "en": "Skills",
+        "en_s": "skill",
         "ru": "скиллы",
+        "ru_s": "скилл",
         "emoji": "⚡",
         "cta": "View"
       },
       "research": {
         "en": "Research",
+        "en_s": "research",
         "ru": "исследования",
+        "ru_s": "исследование",
         "emoji": "🔬",
         "cta": "Read"
       },
       "talk": {
         "en": "Talks",
+        "en_s": "talk",
         "ru": "доклады",
+        "ru_s": "доклад",
         "emoji": "🎙",
         "cta": "Watch"
       }

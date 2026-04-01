@@ -1228,16 +1228,15 @@ function initRadarFeed() {
       /* Sort by date desc */
       items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
-      /* Build type filter buttons from _meta */
-      var TYPE_FILTER_LABELS = {};
-      for (var k in typeMeta) { TYPE_FILTER_LABELS[k] = typeMeta[k][lang] || k; }
-      const TYPE_ORDER = ['article', 'tool', 'skill', 'research', 'talk'];
-      const allTypes = TYPE_ORDER.filter(t => items.some(i => (i.type || 'article') === t));
+      /* Build tag filter buttons from _meta */
+      const TAG_ORDER = ['figma×ai', 'design + code', 'tools', 'design systems', 'process', 'motion×ai', 'a11y×ai'];
+      const allTags = TAG_ORDER.filter(t => items.some(i => (i.tag || 'tools') === t));
       const allLabel = isRu ? 'все' : 'all';
 
       tagsNav.innerHTML = '<button class="radar-filter active" data-filter="all">' + allLabel + '</button>' +
-        allTypes.map(type => {
-          return '<button class="radar-filter" data-filter="' + type + '">' + (TYPE_FILTER_LABELS[type] || type) + '</button>';
+        allTags.map(tag => {
+          var label = (tagMeta[tag] && tagMeta[tag][lang]) || tag;
+          return '<button class="radar-filter" data-filter="' + tag + '">' + label + '</button>';
         }).join('');
 
       /* Render cards with month separators */
@@ -1249,10 +1248,9 @@ function initRadarFeed() {
 
       feed.innerHTML = items.map(item => {
         const tag = item.tag || 'tools';
-        const tagLabel = (tagMeta[tag] && tagMeta[tag][lang]) || tag;
-        const dp = (item.date || '').split('-'); const dateStr = dp.length === 3 ? dp[2] + '.' + dp[1] + '.' + dp[0] : '';
-        const ap = (item.added || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
-        const showAdded = addedStr && addedStr !== dateStr;
+        const itemType = item.type || 'article';
+        const typeLabel = (typeMeta[itemType] && typeMeta[itemType][lang + '_s']) || itemType;
+        const ap = (item.added || item.date || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
         var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
@@ -1267,7 +1265,7 @@ function initRadarFeed() {
         }
 
         return separator + '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '" data-type="' + (item.type || 'article') + '">' +
-          '<span class="radar-meta"><time>' + dateStr + '</time>' + (showAdded ? '<span class="radar-added">' + (isRu ? 'добавлено ' : 'added ') + addedStr + '</span>' : '') + '<span class="radar-tag">' + tagLabel + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
+          '<span class="radar-meta"><span class="radar-type">' + typeLabel + '</span><span class="radar-added">' + addedStr + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
           '<span class="radar-title" title="' + (item.title || '').replace(/"/g, '&quot;') + '">' + (item.title || '') + '</span>' +
           '<span class="radar-desc">' + desc + '</span>' +
           '<span class="radar-source">' + source + ' ↗</span>' +
@@ -1285,10 +1283,10 @@ function initRadarFeed() {
       /* Trigger scroll reveal for new elements */
       initScrollReveal();
 
-      /* Filter click handler — by type, preserve scroll, hide empty month separators */
+      /* Filter click handler — by tag, preserve scroll, hide empty month separators */
       function applyFilter(selected) {
         feed.querySelectorAll('.radar-line').forEach(line => {
-          line.classList.toggle('filtered-out', selected !== 'all' && line.dataset.type !== selected);
+          line.classList.toggle('filtered-out', selected !== 'all' && line.dataset.tag !== selected);
         });
         feed.querySelectorAll('.radar-month').forEach(sep => {
           var next = sep.nextElementSibling;
