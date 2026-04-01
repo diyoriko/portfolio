@@ -461,8 +461,8 @@ function initTerminal() {
       ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nls -la           файловая система\ngit log          последние коммиты\nradar            что меняет дизайн\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
       : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nls -la           file system\ngit log          recent commits\nradar            design × AI feed\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
     projects: () => isRu
-      ? 'Телетайп · Сами · Vedik Astroloji · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
-      : 'Teletype · Sami · Vedik Astroloji · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
+      ? 'Телетайп · Сами · Jyomi · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
+      : 'Teletype · Sami · Jyomi · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
     contact: () => 'telegram: @diyoriko\nemail: diyor.khakimov@gmail.com\nlinkedin: /in/diyoriko',
     skills: () =>
       'Design:  Product, Brand, UI/UX, Packaging, Print\nCode:    TypeScript, AI Agents, Bots, Automation',
