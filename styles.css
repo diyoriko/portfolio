@@ -107,8 +107,7 @@
       --content-gutter: 0px;
       --text-col: 764px;
       --radius-sm: 10px;
-      ─────────────────
-  --radius-lg: 12px;
+      --radius-lg: 12px;
   --radius-pill: 100px;
   --text-body: rgba(30, 25, 25, 1);
   --section-gap: 60px;
@@ -182,7 +181,7 @@ button {
   max-width: var(--content-max);
   margin: 0 auto;
   height: 1px;
-  background: rgba(0, 0, 0, 0.08);
+  background: var(--line-muted);
   opacity: 0;
   transition: opacity .3s;
 }
@@ -220,6 +219,7 @@ button {
 }
 
 .nav-links a:hover,
+.nav-links a:focus-visible,
 .nav-links a.active {
   color: var(--accent);
 }
@@ -276,7 +276,8 @@ button {
 }
 align-items: center;
 
-.nav-lang a:hover {
+.nav-lang a:hover,
+.nav-lang a:focus-visible {
   color: var(--accent);
 }
 
@@ -373,6 +374,7 @@ align-items: center;
 }
 
 .nav-mobile a:hover,
+.nav-mobile a:focus-visible,
 .nav-mobile a.active {
   color: var(--accent);
 }
@@ -463,6 +465,13 @@ align-items: center;
   object-fit: cover;
   object-position: top center;
   align-self: center;
+  overflow: hidden;
+}
+
+.project-thumb iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .project-thumb--cursor {
@@ -507,7 +516,8 @@ align-items: center;
   margin-top: 2px;
 }
 
-.project-name-link:hover {
+.project-name-link:hover,
+.project-name-link:focus-visible {
   color: var(--accent);
 }
 
@@ -656,7 +666,8 @@ a.project-item .project-arrow {
   transition: color var(--transition-fast);
 }
 
-.about-links a:hover {
+.about-links a:hover,
+.about-links a:focus-visible {
   text-decoration: none;
 }
 
@@ -972,7 +983,7 @@ a.project-item .project-arrow {
   display: block;
   width: 100%;
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
   margin: 20px 0;
 }
 
@@ -1000,7 +1011,7 @@ picture.case-img-full {
 .case-body > picture img,
 .case-tab-panel > picture img {
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
 }
 
 .case-body > picture .case-img-full,
@@ -1079,7 +1090,7 @@ picture.case-img-full {
   max-height: 500px;
   overflow-y: auto;
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--line-muted);
 }
 
 .case-img-scroll .case-img-full {
@@ -1090,7 +1101,7 @@ picture.case-img-full {
 /* Bordered images — visible outline for screenshots that blend with white background */
 .case-img-bordered .case-img-full,
 .case-img-bordered img {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--line-muted);
   border-radius: var(--radius-sm);
 }
 
@@ -1159,7 +1170,7 @@ picture.case-img-full {
   min-height: 0;
   overflow: hidden;
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
 }
 
 .case-concept picture img {
@@ -1189,7 +1200,7 @@ picture.case-img-full {
   height: 100%;
   object-fit: cover;
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
   display: block;
 }
 
@@ -1324,7 +1335,7 @@ picture.case-img-phone img {
 .case-video--text-aligned video,
 .case-video--text-aligned img {
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
 }
 
 .case-video + .case-caption {
@@ -1370,7 +1381,7 @@ picture.case-img-phone img {
   border-radius: var(--radius-sm);
   overflow: hidden;
   background: #f5f5f5;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px var(--line-muted);
 }
 
 .case-slideshow--dark {
@@ -1404,7 +1415,7 @@ picture.case-img-phone img {
   height: auto;
   flex-shrink: 0;
   display: block;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
   border-radius: var(--radius-sm);
 }
 
@@ -1846,7 +1857,7 @@ picture.case-img-phone img {
   background: #f5f5f5;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 1px var(--line-muted);
 }
 
 .mac-mockup-titlebar {
@@ -1966,7 +1977,7 @@ picture.case-img-phone img {
   top: 0;
   right: 0;
   left: calc(2 * (100% + 20px) / 12);
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid var(--line-muted);
   pointer-events: none;
 }
 
@@ -2184,7 +2195,7 @@ picture.case-img-phone img {
   padding: 0;
   border: none;
   background: none;
-  color: rgba(34, 34, 34, 0.35);
+  color: var(--text-dim);
   cursor: pointer;
   transition: color 0.15s ease;
 }
@@ -2198,7 +2209,7 @@ picture.case-img-phone img {
 }
 
 .radar-filter-sep {
-  color: rgba(34, 34, 34, 0.15);
+  color: var(--text-faint);
   font-size: 16px;
   user-select: none;
 }
@@ -2274,6 +2285,128 @@ picture.case-img-phone img {
 
 @media (max-width: 400px) {
   .nav-radar { display: none; }
+}
+
+/* --- Dark mode --- */
+
+/* Theme toggle button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 32px;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--text);
+  opacity: 0.4;
+  transition: opacity var(--transition-fast);
+}
+
+.theme-toggle:hover {
+  opacity: 1;
+}
+
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+html.dark .theme-toggle .icon-sun { display: block; }
+html.dark .theme-toggle .icon-moon { display: none; }
+
+/* Dark mode via class (manual toggle) or system preference */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --bg: #1a1a1a;
+    --text: #e0e0e0;
+    --text-body: #e0e0e0;
+    --text-dim: #888888;
+    --text-faint: rgba(255, 255, 255, 0.15);
+    --line: rgba(255, 255, 255, 0.1);
+    --line-muted: rgba(255, 255, 255, 0.08);
+    --selection-bg: #F8401C;
+    --selection-color: #fff;
+  }
+}
+
+html.dark {
+  --bg: #1a1a1a;
+  --text: #e0e0e0;
+  --text-body: #e0e0e0;
+  --text-dim: #888888;
+  --text-faint: rgba(255, 255, 255, 0.15);
+  --line: rgba(255, 255, 255, 0.1);
+  --line-muted: rgba(255, 255, 255, 0.08);
+  --selection-bg: #F8401C;
+  --selection-color: #fff;
+}
+
+/* Component dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) .nav { background: rgba(26, 26, 26, 0.85); }
+  :root:not(.light) .nav::after { background: rgba(255, 255, 255, 0.08); }
+  :root:not(.light) .nav-mobile { background: #1a1a1a; }
+  :root:not(.light) .about-bottom { background: rgba(26, 26, 26, 0.85); }
+  :root:not(.light) .project-thumb { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); }
+  :root:not(.light) .case-img-full,
+  :root:not(.light) .case-body > picture img,
+  :root:not(.light) .case-tab-panel > picture img,
+  :root:not(.light) .case-img-row img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+  :root:not(.light) .case-lightbox { background: rgba(0, 0, 0, 0.95); }
+  :root:not(.light) .case-tab { background: rgba(255, 255, 255, 0.06); }
+  :root:not(.light) .case-tab:not(.active):hover { background: rgba(255, 255, 255, 0.1); }
+  :root:not(.light) .case-img-scroll { border-color: rgba(255, 255, 255, 0.08); }
+  :root:not(.light) .case-img-bordered .case-img-full,
+  :root:not(.light) .case-img-bordered img { border-color: rgba(255, 255, 255, 0.08); }
+  :root:not(.light) .case-concept picture,
+  :root:not(.light) .case-concept > img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+  :root:not(.light) .case-slideshow { background: #222; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); }
+  :root:not(.light) .case-slideshow-track img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+  :root:not(.light) .case-slideshow-arrow { background: rgba(255, 255, 255, 0.15); color: #fff; }
+  :root:not(.light) .case-slideshow-arrow:hover { background: rgba(255, 255, 255, 0.3); }
+  :root:not(.light) .mac-mockup { background: #111; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+  :root:not(.light) .mac-mockup-titlebar { background: #222; }
+  :root:not(.light) .mac-mockup-url { color: rgba(255, 255, 255, 0.3); }
+  :root:not(.light) .mac-mockup-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
+  :root:not(.light) .case-img-full:not([data-loaded]),
+  :root:not(.light) .case-img-row img:not([data-loaded]),
+  :root:not(.light) picture img:not([data-loaded]),
+  :root:not(.light) .case-video video:not([data-loaded]) {
+    background: linear-gradient(90deg, #222 25%, #2a2a2a 50%, #222 75%);
+    background-size: 200% 100%;
+  }
+}
+
+html.dark .nav { background: rgba(26, 26, 26, 0.85); }
+html.dark .nav::after { background: rgba(255, 255, 255, 0.08); }
+html.dark .nav-mobile { background: #1a1a1a; }
+html.dark .about-bottom { background: rgba(26, 26, 26, 0.85); }
+html.dark .project-thumb { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); }
+html.dark .case-img-full,
+html.dark .case-body > picture img,
+html.dark .case-tab-panel > picture img,
+html.dark .case-img-row img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+html.dark .case-lightbox { background: rgba(0, 0, 0, 0.95); }
+html.dark .case-tab { background: rgba(255, 255, 255, 0.06); }
+html.dark .case-tab:not(.active):hover { background: rgba(255, 255, 255, 0.1); }
+html.dark .case-img-scroll { border-color: rgba(255, 255, 255, 0.08); }
+html.dark .case-img-bordered .case-img-full,
+html.dark .case-img-bordered img { border-color: rgba(255, 255, 255, 0.08); }
+html.dark .case-concept picture,
+html.dark .case-concept > img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+html.dark .case-slideshow { background: #222; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); }
+html.dark .case-slideshow-track img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+html.dark .case-slideshow-arrow { background: rgba(255, 255, 255, 0.15); color: #fff; }
+html.dark .case-slideshow-arrow:hover { background: rgba(255, 255, 255, 0.3); }
+html.dark .mac-mockup { background: #111; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06); }
+html.dark .mac-mockup-titlebar { background: #222; }
+html.dark .mac-mockup-url { color: rgba(255, 255, 255, 0.3); }
+html.dark .mac-mockup-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
+html.dark .case-img-full:not([data-loaded]),
+html.dark .case-img-row img:not([data-loaded]),
+html.dark picture img:not([data-loaded]),
+html.dark .case-video video:not([data-loaded]) {
+  background: linear-gradient(90deg, #222 25%, #2a2a2a 50%, #222 75%);
+  background-size: 200% 100%;
 }
 
 /* --- Reading progress bar (case pages) --- */

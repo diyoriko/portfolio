@@ -819,12 +819,15 @@ function initVanillaBadge() {
       ghLink + sep + tplLink;
   }
 
+  const isDark = () => document.documentElement.classList.contains('dark') ||
+    (!document.documentElement.classList.contains('light') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
   badge.style.cssText =
     'position:fixed;bottom:16px;left:50%;transform:translateX(-50%) translateY(20px);' +
     'font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;' +
-    'color:#999;background:rgba(255,255,255,.55);padding:8px 16px;border-radius:6px;' +
+    'color:#999;background:' + (isDark() ? 'rgba(30,30,30,.55)' : 'rgba(255,255,255,.55)') + ';padding:8px 16px;border-radius:6px;' +
     '-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);' +
-    'border:1px solid rgba(0,0,0,.06);' +
+    'border:1px solid ' + (isDark() ? 'rgba(255,255,255,.06)' : 'rgba(0,0,0,.06)') + ';' +
     'pointer-events:auto;white-space:nowrap;' +
     'transition:all .3s;z-index:1;cursor:default;opacity:0';
 
@@ -836,11 +839,14 @@ function initVanillaBadge() {
     badge.style.transform = 'translateX(-50%) translateY(0)';
   }, 2000);
 
-  /* Hover near bottom: solid white, black text */
+  /* Hover near bottom: solid bg, contrasted text */
   document.addEventListener('mousemove', (e) => {
     const hot = e.clientY > window.innerHeight - 80;
-    badge.style.background = hot ? 'rgba(255,255,255,1)' : 'rgba(255,255,255,.55)';
-    badge.style.color = hot ? '#000' : '#999';
+    const dk = isDark();
+    badge.style.background = hot
+      ? (dk ? 'rgba(30,30,30,1)' : 'rgba(255,255,255,1)')
+      : (dk ? 'rgba(30,30,30,.55)' : 'rgba(255,255,255,.55)');
+    badge.style.color = hot ? (dk ? '#eee' : '#000') : '#999';
   });
 
   /* Make "terminal" and "grid" clickable */
@@ -1349,9 +1355,61 @@ function initSkeletonCleanup() {
   });
 }
 
+/* --- Theme Toggle --- */
+
+function initThemeToggle() {
+  const root = document.documentElement;
+  const stored = localStorage.getItem('theme');
+
+  /* Apply stored preference immediately (also in <head> inline, but safety net) */
+  if (stored === 'dark') root.classList.add('dark');
+  else if (stored === 'light') root.classList.add('light');
+
+  /* Inject toggle button next to nav-lang */
+  const navLang = document.querySelector('.nav-lang');
+  if (!navLang) return;
+
+  const btn = document.createElement('button');
+  btn.className = 'theme-toggle';
+  btn.setAttribute('aria-label', 'Toggle dark mode');
+  btn.innerHTML = '<span class="icon-moon">☽</span><span class="icon-sun">☀</span>';
+  navLang.prepend(btn);
+
+  /* Also add to mobile nav */
+  const mobileNav = document.querySelector('.nav-mobile');
+  if (mobileNav) {
+    const mBtn = btn.cloneNode(true);
+    mBtn.style.fontSize = '28px';
+    mBtn.style.marginLeft = '0';
+    mBtn.style.marginTop = '8px';
+    mobileNav.appendChild(mBtn);
+    mBtn.addEventListener('click', toggle);
+  }
+
+  function isDark() {
+    return root.classList.contains('dark') ||
+      (!root.classList.contains('light') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  }
+
+  function toggle() {
+    if (isDark()) {
+      root.classList.remove('dark');
+      root.classList.add('light');
+      localStorage.setItem('theme', 'light');
+    } else {
+      root.classList.remove('light');
+      root.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  }
+
+  btn.addEventListener('click', toggle);
+}
+
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initThemeToggle();
   initNavScrollLine();
   initScrollReveal();
   initCaseTabs();
