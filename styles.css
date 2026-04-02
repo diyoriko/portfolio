@@ -2301,6 +2301,7 @@ picture.case-img-phone img {
   font-family: var(--font-mono);
   font-size: 20px;
   color: var(--text-dim);
+  text-align: center;
   padding: 24px 0 48px;
   animation: blink 1s step-end infinite;
 }
