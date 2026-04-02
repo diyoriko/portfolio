@@ -74,7 +74,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 131079,
+      "stars": 131113,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -120,10 +120,25 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14093,
+      "stars": 14094,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
+      "added": "2026-04-02"
+    },
+    {
+      "title": "GenUI vs. Vibe Coding: Who's Designing?",
+      "url": "https://www.nngroup.com/articles/genui-vs-vibe/",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "NNGroup: GenUI — ИИ сам решает добавить UI-элемент; vibe coding — пользователь просит. Разные парадигмы требуют разных критериев оценки.",
+      "desc_en": "NNGroup defines the split: GenUI is AI deciding to build UI; vibe coding is users asking for it. Each requires a different quality bar.",
+      "date": "2026-03-27",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
       "added": "2026-04-02"
     },
     {
@@ -326,6 +341,22 @@
       "added": "2026-04-02"
     },
     {
+      "title": "Agency Agents — 193 Specialized AI Agent Personas for Design, Engineering, and Marketing",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "193 специализированных AI-агента с дизайн-дивизией (UI, UX, Brand) — нативно работают в Claude Code, Cursor и 13 других инструментах.",
+      "desc_en": "193 specialist AI agents including UI Designer, UX Researcher, and Brand Guardian — native to Claude Code and 13 other AI coding tools.",
+      "date": "2026-03-14",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 12,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-02",
+      "stars": 68537
+    },
+    {
       "title": "figma-console-mcp",
       "url": "https://github.com/southleft/figma-console-mcp",
       "type": "tool",
@@ -403,7 +434,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56929
+      "stars": 56939
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",

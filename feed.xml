@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 02 Apr 2026 08:36:42 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Apr 2026 08:55:01 +0000</lastBuildDate>
   <item>
     <title>Superpowers — agentic skills framework for Claude Code</title>
     <link>https://github.com/obra/superpowers</link>
@@ -38,6 +38,14 @@
     <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/GLips/Figma-Context-MCP</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>GenUI vs. Vibe Coding: Who's Designing?</title>
+    <link>https://www.nngroup.com/articles/genui-vs-vibe/</link>
+    <description>NNGroup defines the split: GenUI is AI deciding to build UI; vibe coding is users asking for it. Each requires a different quality bar.</description>
+    <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/genui-vs-vibe/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>interface-design</title>
@@ -158,14 +166,6 @@
     <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://hera.video</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>figma-console-mcp</title>
-    <link>https://github.com/southleft/figma-console-mcp</link>
-    <description>90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/southleft/figma-console-mcp</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
