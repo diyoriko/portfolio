@@ -1372,7 +1372,7 @@ function initThemeToggle() {
   const btn = document.createElement('button');
   btn.className = 'theme-toggle';
   btn.setAttribute('aria-label', 'Toggle dark mode');
-  btn.innerHTML = '<span class="icon-moon">☽</span><span class="icon-sun">☀</span>';
+  btn.innerHTML = '<span class="icon-moon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg></span><span class="icon-sun">☀</span>';
   navLang.prepend(btn);
 
   /* Also add to mobile nav */
