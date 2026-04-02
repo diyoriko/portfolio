@@ -2330,8 +2330,13 @@ picture.case-img-phone img {
     grid-row: auto;
     flex-direction: row;
     align-items: baseline;
-    gap: 8px;
+    gap: 4px;
     font-size: 14px;
+  }
+  .radar-meta > *:not(:last-child)::after {
+    content: '·';
+    margin-left: 4px;
+    color: var(--text-faint);
   }
   .radar-type {
     margin-left: 0;
