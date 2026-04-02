@@ -74,7 +74,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 131010,
+      "stars": 131079,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -96,6 +96,21 @@
       "added": "2026-04-02"
     },
     {
+      "title": "Your Ticket Is a Prompt",
+      "url": "https://dheer.co/tickets-are-prompts/",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Атомарные задачи вредят агентам: как переписать тикеты под агентные рабочие процессы.",
+      "desc_en": "Atomic tickets harm agents: how to rewrite task descriptions for agentic workflows.",
+      "date": "2026-03-29",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-02"
+    },
+    {
       "title": "Figma-Context-MCP — Figma layout context for AI coding agents",
       "url": "https://github.com/GLips/Figma-Context-MCP",
       "type": "tool",
@@ -105,7 +120,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14092,
+      "stars": 14093,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -137,6 +152,21 @@
       "desc_ru": "906 дизайнеров: 89% работают быстрее с ИИ; 73% нанимателей уже требуют знание AI-инструментов.",
       "desc_en": "906 designers surveyed: 89% say AI makes them faster; 73% of hiring managers now require AI tool proficiency.",
       "added": "2026-04-01"
+    },
+    {
+      "title": "I Built a Design Team Out of AI Agents",
+      "url": "https://marieclairedean.substack.com/p/i-built-a-design-team-out-of-ai-agents",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Designpowers: 10 специализированных агентов, закрывающих весь дизайн-процесс от Discovery до Ship.",
+      "desc_en": "Designpowers: 10 specialist agents covering the full design process from Discovery to Ship.",
+      "date": "2026-03-26",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-02"
     },
     {
       "title": "Design Systems Report 2026",
@@ -373,7 +403,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56903
+      "stars": 56929
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -518,6 +548,22 @@
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
       "stars": 59
+    },
+    {
+      "title": "awesome-claude-skills — Curated Hub for Claude Code Skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "10k+ звёзд: полный каталог Claude-скиллов с дизайн-, UI- и Figma-разделами.",
+      "desc_en": "10k-star curated directory of Claude Skills with design, UI, and Figma sections.",
+      "date": "2026-02-01",
+      "priority": 2,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-02",
+      "stars": 10347
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",

@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 02 Apr 2026 07:58:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Apr 2026 08:36:42 +0000</lastBuildDate>
   <item>
     <title>Superpowers — agentic skills framework for Claude Code</title>
     <link>https://github.com/obra/superpowers</link>
@@ -22,6 +22,14 @@
     <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Your Ticket Is a Prompt</title>
+    <link>https://dheer.co/tickets-are-prompts/</link>
+    <description>Atomic tickets harm agents: how to rewrite task descriptions for agentic workflows.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://dheer.co/tickets-are-prompts/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Figma-Context-MCP — Figma layout context for AI coding agents</title>
@@ -46,6 +54,14 @@
     <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/state-of-the-designer-2026/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>I Built a Design Team Out of AI Agents</title>
+    <link>https://marieclairedean.substack.com/p/i-built-a-design-team-out-of-ai-agents</link>
+    <description>Designpowers: 10 specialist agents covering the full design process from Discovery to Ship.</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://marieclairedean.substack.com/p/i-built-a-design-team-out-of-ai-agents</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Design Systems Report 2026</title>
@@ -149,22 +165,6 @@
     <description>90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.</description>
     <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/southleft/figma-console-mcp</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>5 MCP Connections Every Design System Team Needs Right Now</title>
-    <link>https://learn.thedesignsystem.guide/p/5-mcp-connections-every-design-system</link>
-    <description>5 ready-to-use MCP connections for design system teams: Figma, GitHub, PostHog, Slack, Mintlify docs.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://learn.thedesignsystem.guide/p/5-mcp-connections-every-design-system</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Figma MCP server can now generate design layers from VS Code</title>
-    <link>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</link>
-    <description>Copilot in VS Code can now pull design context from Figma and push rendered UI back to the canvas as editable frames.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</guid>
     <category>Figma × AI</category>
   </item>
 </channel>
