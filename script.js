@@ -1227,7 +1227,7 @@ function initRadarFeed() {
       var lang = isRu ? 'ru' : 'en';
 
       /* Sort by added date desc (fall back to date) */
-      items.sort((a, b) => (b.added || b.date || '').localeCompare(a.added || a.date || ''));
+      items.sort((a, b) => (b.date || b.added || '').localeCompare(a.date || a.added || ''));
 
       /* Build tag filter buttons from _meta */
       const TAG_ORDER = ['figma×ai', 'design + code', 'tools', 'design systems', 'process', 'motion×ai', 'a11y×ai'];
@@ -1251,13 +1251,13 @@ function initRadarFeed() {
         const tag = item.tag || 'tools';
         const itemType = item.type || 'article';
         const typeLabel = (typeMeta[itemType] && typeMeta[itemType][lang + '_s']) || itemType;
-        const ap = (item.added || item.date || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
+        const ap = (item.date || item.added || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
         var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
 
         var separator = '';
-        var month = (item.added || item.date || '').slice(0, 7);
+        var month = (item.date || item.added || '').slice(0, 7);
         if (month && month !== lastMonth) {
           var parts = month.split('-');
           var monthName = MONTH_NAMES[parseInt(parts[1], 10)] || '';
