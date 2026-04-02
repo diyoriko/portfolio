@@ -2322,6 +2322,9 @@ picture.case-img-phone img {
     grid-template-columns: 1fr;
     gap: 4px;
   }
+  .radar-line::before {
+    left: 0;
+  }
   .radar-meta {
     grid-column: 1;
     grid-row: auto;
@@ -2331,7 +2334,7 @@ picture.case-img-phone img {
     font-size: 14px;
   }
   .radar-type {
-    margin-left: auto;
+    margin-left: 0;
     font-size: 12px;
   }
   .radar-title {
