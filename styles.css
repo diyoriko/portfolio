@@ -2148,6 +2148,64 @@ picture.case-img-phone img {
 }
 .radar-banner-link:hover { opacity: 0.7; }
 
+/* Radar subscribe — inline email form */
+.radar-subscribe {
+  margin-top: -8px;
+  margin-bottom: 32px;
+}
+
+.radar-subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.radar-subscribe-label {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.radar-subscribe-input {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid var(--text-faint);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+  outline: none;
+  min-width: 200px;
+  transition: border-color 0.2s;
+}
+
+.radar-subscribe-input::placeholder {
+  color: var(--text-faint);
+}
+
+.radar-subscribe-input:focus {
+  border-color: var(--radar-accent, #E8611A);
+}
+
+.radar-subscribe-btn {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid var(--radar-accent, #E8611A);
+  border-radius: 4px;
+  background: var(--radar-accent, #E8611A);
+  color: #fef9ea;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.radar-subscribe-btn:hover {
+  opacity: 0.8;
+}
+
 /* Radar intro video — 8 of 12 content columns */
 .radar-intro {
   max-width: 100%;
@@ -2273,6 +2331,7 @@ picture.case-img-phone img {
   .radar-source { font-size: 12px; }
   .radar-banner-sub { font-size: 20px; }
   .radar-banner-link { font-size: 14px; }
+  .radar-subscribe-input { min-width: 160px; }
   .radar-tags { row-gap: 8px; }
   .radar-filter { font-size: 14px; }
 }
@@ -2401,6 +2460,9 @@ html.dark .mac-mockup { background: #111; box-shadow: 0 0 0 1px rgba(255, 255, 2
 html.dark .mac-mockup-titlebar { background: #222; }
 html.dark .mac-mockup-url { color: rgba(255, 255, 255, 0.3); }
 html.dark .mac-mockup-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
+html.dark .radar-subscribe-input { border-color: rgba(255, 255, 255, 0.15); color: #fef9ea; }
+html.dark .radar-subscribe-input::placeholder { color: rgba(255, 255, 255, 0.25); }
+html.dark .radar-subscribe-label { color: rgba(255, 255, 255, 0.4); }
 html.dark .case-img-full:not([data-loaded]),
 html.dark .case-img-row img:not([data-loaded]),
 html.dark picture img:not([data-loaded]),
