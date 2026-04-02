@@ -960,6 +960,27 @@ function initSlideshows() {
   });
 }
 
+/* --- Nav active state (auto-detect from URL) --- */
+
+function initNavActive() {
+  const links = document.querySelectorAll('.nav-links a');
+  if (!links.length) return;
+  const path = location.pathname.replace(/\/+$/, '') || '/';
+  links.forEach(a => {
+    const href = a.getAttribute('href');
+    const isProjects = href === '.' || href === './' || href === '../' || href === '/' || href === '';
+    const isAbout = /about/i.test(href);
+    const isRadar = /radar/i.test(href);
+    if ((path.includes('/projects/') || path === '/' || path === '') && isProjects) {
+      a.classList.add('active');
+    } else if (path.includes('/about') && isAbout) {
+      a.classList.add('active');
+    } else if (path.includes('/radar') && isRadar) {
+      a.classList.add('active');
+    }
+  });
+}
+
 /* --- Nav scroll line --- */
 
 function initNavScrollLine() {
@@ -1409,6 +1430,7 @@ function initThemeToggle() {
 /* --- Init --- */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initNavActive();
   initThemeToggle();
   initNavScrollLine();
   initScrollReveal();
