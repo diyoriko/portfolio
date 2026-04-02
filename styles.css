@@ -2169,6 +2169,7 @@ picture.case-img-phone img {
 .radar-subscribe-form {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
