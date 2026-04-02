@@ -65,6 +65,22 @@
   },
   "items": [
     {
+      "title": "Superpowers — agentic skills framework for Claude Code",
+      "url": "https://github.com/obra/superpowers",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "Фреймворк навыков для Claude Code: brainstorming, планирование, отладка — 131K звёзд.",
+      "desc_en": "Skills framework for Claude Code: brainstorming, planning, debugging — 131K stars.",
+      "date": "2026-04-02",
+      "priority": 1,
+      "score": 9,
+      "stars": 131010,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-02"
+    },
+    {
       "title": "Building a Figma-Driven MCP Production Pipeline",
       "url": "https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline",
       "type": "article",
@@ -77,6 +93,22 @@
       "date": "2026-03-31",
       "desc_ru": "Пошаговый гайд по production-пайплайну Figma MCP: конфигурация IDE, секвенс вызовов инструментов и правила автоматизации.",
       "desc_en": "Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.",
+      "added": "2026-04-02"
+    },
+    {
+      "title": "Figma-Context-MCP — Figma layout context for AI coding agents",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "MCP-сервер, который упрощает ответы Figma API для точной генерации кода в Cursor и Claude Code.",
+      "desc_en": "MCP server that simplifies Figma API responses so AI agents generate more accurate code.",
+      "date": "2026-03-28",
+      "priority": 1,
+      "score": 9,
+      "stars": 14092,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
       "added": "2026-04-02"
     },
     {
@@ -247,6 +279,21 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-03-31"
+    },
+    {
+      "title": "Hera — AI motion graphics generator",
+      "url": "https://hera.video",
+      "type": "tool",
+      "tag": "motion×ai",
+      "desc_ru": "Генератор моушн-графики из текста. Y Combinator, бесплатный план.",
+      "desc_en": "Text-to-motion-graphics generator. Y Combinator backed, free tier available.",
+      "date": "2026-03-15",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-02"
     },
     {
       "title": "figma-console-mcp",

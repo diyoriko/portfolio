@@ -6,13 +6,29 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 02 Apr 2026 07:58:19 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Apr 2026 07:58:55 +0000</lastBuildDate>
+  <item>
+    <title>Superpowers — agentic skills framework for Claude Code</title>
+    <link>https://github.com/obra/superpowers</link>
+    <description>Skills framework for Claude Code: brainstorming, planning, debugging — 131K stars.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/obra/superpowers</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Building a Figma-Driven MCP Production Pipeline</title>
     <link>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</link>
     <description>Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.</description>
     <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Figma-Context-MCP — Figma layout context for AI coding agents</title>
+    <link>https://github.com/GLips/Figma-Context-MCP</link>
+    <description>MCP server that simplifies Figma API responses so AI agents generate more accurate code.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/GLips/Figma-Context-MCP</guid>
     <category>Figma × AI</category>
   </item>
   <item>
@@ -120,6 +136,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Hera — AI motion graphics generator</title>
+    <link>https://hera.video</link>
+    <description>Text-to-motion-graphics generator. Y Combinator backed, free tier available.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://hera.video</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>figma-console-mcp</title>
     <link>https://github.com/southleft/figma-console-mcp</link>
     <description>90+ MCP tools bridging Figma and code: token/variable CRUD, agent-driven UI creation, plugin console — works on Free plans.</description>
@@ -142,30 +166,6 @@
     <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>How to Supercharge your Design System with Slots</title>
-    <link>https://www.figma.com/blog/supercharge-your-design-system-with-slots/</link>
-    <description>Figma Slots let you customize components without detaching — instances still inherit main component updates.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/supercharge-your-design-system-with-slots/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)</title>
-    <link>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</link>
-    <description>Engineer survey: Claude Code captured 60% of Cursor's audience in 8 months. 95% use AI tools weekly, 55% regularly use AI agents. For design engineers: Cursor wins at startups, GitHub Copilot defaults in enterprise.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>UI/UX Pro Max Skill — 50K+ stars</title>
-    <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
-    <description>161 rules, 67 styles, 57 typography pairings. Works in Claude, Cursor, Copilot.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
