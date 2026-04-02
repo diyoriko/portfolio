@@ -467,8 +467,8 @@ function initTerminal() {
     skills: () =>
       'Design:  Product, Brand, UI/UX, Packaging, Print\nCode:    TypeScript, AI Agents, Bots, Automation',
     about: () => isRu
-      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Работаю удалённо.'
-      : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Working remotely.',
+      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Готов к релокации.'
+      : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Open to relocation.',
     neofetch: () => {
       const ua = navigator.userAgent;
       const browser = ua.includes('Chrome') ? 'Chrome' : ua.includes('Firefox') ? 'Firefox' : ua.includes('Safari') ? 'Safari' : 'Unknown';

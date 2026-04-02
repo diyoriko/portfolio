@@ -643,6 +643,7 @@ a.project-item .project-arrow {
   font-family: var(--font-sans);
   font-size: 20px;
   font-weight: 400;
+  line-height: 1.35;
   color: var(--text);
   margin-bottom: 0;
 }
@@ -1674,6 +1675,11 @@ picture.case-img-phone img {
     gap: 12px;
     margin-top: 32px;
     padding: 0;
+  }
+
+  .about-bottom p {
+    font-size: 18px;
+    line-height: 1.35;
   }
 
   .about-links {
