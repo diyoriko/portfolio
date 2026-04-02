@@ -65,6 +65,21 @@
   },
   "items": [
     {
+      "title": "Building a Figma-Driven MCP Production Pipeline",
+      "url": "https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline",
+      "type": "article",
+      "tag": "figma×ai",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "date": "2026-03-31",
+      "desc_ru": "Пошаговый гайд по production-пайплайну Figma MCP: конфигурация IDE, секвенс вызовов инструментов и правила автоматизации.",
+      "desc_en": "Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.",
+      "added": "2026-04-02"
+    },
+    {
       "title": "interface-design",
       "url": "https://github.com/Dammyjay93/interface-design",
       "type": "skill",
@@ -74,7 +89,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4363
+      "stars": 4372
     },
     {
       "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
@@ -175,7 +190,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 551
+      "stars": 553
     },
     {
       "title": "Motion Studio — AI & Visual Animation Editor for VS Code",
@@ -243,7 +258,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1354
+      "stars": 1366
     },
     {
       "title": "5 MCP Connections Every Design System Team Needs Right Now",
@@ -311,7 +326,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56536
+      "stars": 56902
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -353,7 +368,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 207
+      "stars": 208
     },
     {
       "title": "Claude Code for Designers",
@@ -395,6 +410,38 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-01"
+    },
+    {
+      "title": "mcp-design-system-extractor — Storybook MCP Server for AI Assistants",
+      "url": "https://github.com/freema/mcp-design-system-extractor",
+      "type": "tool",
+      "tag": "design systems",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 4,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "date": "2026-02-04",
+      "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
+      "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
+      "added": "2026-04-02",
+      "stars": 59
+    },
+    {
+      "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
+      "url": "https://github.com/superdesigndev/superdesign",
+      "type": "tool",
+      "tag": "design + code",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "date": "2026-01-12",
+      "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
+      "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
+      "added": "2026-04-02",
+      "stars": 6250
     },
     {
       "title": "The Complete Vibe Coding Guide for Designers",

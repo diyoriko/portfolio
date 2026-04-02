@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 01 Apr 2026 18:59:25 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Apr 2026 07:57:27 +0000</lastBuildDate>
+  <item>
+    <title>Building a Figma-Driven MCP Production Pipeline</title>
+    <link>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</link>
+    <description>Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>interface-design</title>
     <link>https://github.com/Dammyjay93/interface-design</link>
@@ -158,14 +166,6 @@
     <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>Design Systems And AI: Why MCP Is The Unlock</title>
-    <link>https://www.figma.com/blog/design-systems-ai-mcp/</link>
-    <description>MCP servers scan codebases and generate structured design system rules.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/design-systems-ai-mcp/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
