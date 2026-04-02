@@ -813,7 +813,7 @@ function initVanillaBadge() {
       '<span style="opacity:.5">vanilla everything</span>' + sep + ghLink + sep + tplLink;
   } else {
     badge.innerHTML =
-      '<span style="opacity:.5">0 frameworks · 0 dependencies · vanilla everything</span>' + sep +
+      '<span style="opacity:.5">vanilla everything</span>' + sep +
       '<span data-action="grid" style="cursor:pointer"><span style="opacity:.5">Shift+G</span> grid</span>' + sep +
       '<span data-action="terminal" style="cursor:pointer"><span style="opacity:.5">~</span> terminal</span>' + sep +
       ghLink + sep + tplLink;
