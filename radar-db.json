@@ -326,7 +326,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56902
+      "stars": 56903
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -369,6 +369,51 @@
       "has_demo": true,
       "added": "2026-04-01",
       "stars": 208
+    },
+    {
+      "title": "Introducing the New v0",
+      "url": "https://vercel.com/blog/introducing-the-new-v0",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Vercel обновил v0: агентские сессии с git-интеграцией, от промпта до задеплоенного UI в одном воркфлоу.",
+      "desc_en": "Vercel's v0 gains full agentic workflows with git integration — from prompt to deployed UI in one session.",
+      "date": "2026-03-01",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-02"
+    },
+    {
+      "title": "AI-Powered Prototyping with Design Systems",
+      "url": "https://vercel.com/blog/ai-powered-prototyping-with-design-systems",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Как v0 использует токены и shadcn/ui для генерации брендированных интерфейсов без ручного маппинга.",
+      "desc_en": "How v0 uses design system tokens and primitives to generate on-brand UIs without manual token mapping.",
+      "date": "2026-03-01",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-02"
+    },
+    {
+      "title": "Claude Code vs Cursor: What to Choose in 2026",
+      "url": "https://www.builder.io/blog/cursor-vs-claude-code",
+      "type": "article",
+      "tag": "tools",
+      "desc_ru": "Builder.io: агент-first (Claude Code) vs IDE-first (Cursor) — когда использовать каждый и как совмещать.",
+      "desc_en": "Agent-first vs IDE-first AI coding — practical guide on when to use Claude Code, Cursor, or both together.",
+      "date": "2026-03-01",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 7,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-02"
     },
     {
       "title": "Claude Code for Designers",
