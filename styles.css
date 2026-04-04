@@ -2309,6 +2309,14 @@ picture.case-img-phone img {
   50% { opacity: 0; }
 }
 
+.radar-error {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 48px 0;
+}
+
 /* Filtered-out lines */
 .radar-line.filtered-out {
   display: none;
@@ -2449,6 +2457,9 @@ html.dark {
   :root:not(.light) .mac-mockup-titlebar { background: #222; }
   :root:not(.light) .mac-mockup-url { color: rgba(255, 255, 255, 0.3); }
   :root:not(.light) .mac-mockup-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
+  :root:not(.light) .radar-subscribe-input { border-color: rgba(255, 255, 255, 0.15); color: #fef9ea; }
+  :root:not(.light) .radar-subscribe-input::placeholder { color: rgba(255, 255, 255, 0.25); }
+  :root:not(.light) .radar-subscribe-label { color: rgba(255, 255, 255, 0.4); }
   :root:not(.light) .case-img-full:not([data-loaded]),
   :root:not(.light) .case-img-row img:not([data-loaded]),
   :root:not(.light) picture img:not([data-loaded]),
