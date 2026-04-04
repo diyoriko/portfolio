@@ -1266,7 +1266,7 @@ function initRadarFeed() {
       tagsNav.innerHTML = '<button class="radar-filter active" data-filter="all">' + allLabel + '</button>' +
         allTags.map(tag => {
           var label = (tagMeta[tag] && tagMeta[tag][lang]) || tag;
-          return '<button class="radar-filter" data-filter="' + tag + '">' + label + '</button>';
+          return '<button class="radar-filter" data-filter="' + escapeHtml(tag) + '">' + escapeHtml(label) + '</button>';
         }).join('');
 
       /* Render cards with month separators */
@@ -1280,7 +1280,7 @@ function initRadarFeed() {
         const tag = item.tag || 'tools';
         const itemType = item.type || 'article';
         const typeLabel = (typeMeta[itemType] && typeMeta[itemType][lang + '_s']) || itemType;
-        const ap = (item.date || item.added || '').split('-'); const addedStr = ap.length === 3 ? ap[2] + '.' + ap[1] + '.' + ap[0] : '';
+        const ap = (item.date || item.added || '').split('-'); const addedStr = ap.length === 3 ? escapeHtml(ap[2]) + '.' + escapeHtml(ap[1]) + '.' + escapeHtml(ap[0]) : '';
         const desc = isRu ? (item.desc_ru || item.desc_en || '') : (item.desc_en || item.desc_ru || '');
         const source = (item.url || '').replace(/https?:\/\/(www\.)?/, '').split('/')[0];
         var stars = item.stars && item.stars >= 100 ? ghIcon + ' ' + (item.stars >= 1000 ? (item.stars / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : item.stars) : '';
