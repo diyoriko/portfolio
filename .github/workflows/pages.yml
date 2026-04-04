@@ -31,6 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Clean artifacts
+        run: rm -rf .git .github .DS_Store serve.py README.md LICENSE
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
