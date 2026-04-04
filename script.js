@@ -1,5 +1,7 @@
 /* Portfolio — diyor.design */
 
+function escapeHtml(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+
 const REVEAL_THRESHOLD = 0.15;
 
 /* --- Scroll Reveal --- */
@@ -393,7 +395,7 @@ function initDynamicFavicon() {
     qlean: '#00bcd4', prosto: '#ff5722', kombo: '#795548',
     'singularity-hub': '#3f51b5', 'singularity-words': '#3f51b5'
   };
-  const match = location.pathname.match(/projects\/([a-z-]+)\.html/);
+  const match = location.pathname.match(/projects\/([a-z-]+)/);
   if (!match) return;
   const color = colors[match[1]];
   if (!color) return;
@@ -629,7 +631,7 @@ function initTerminal() {
       history.push(raw);
       historyIdx = -1;
 
-      output.innerHTML += '<span class="cmd">→ ' + raw + '</span>\n';
+      output.innerHTML += '<span class="cmd">→ ' + escapeHtml(raw) + '</span>\n';
 
       /* Handle "open <project>" */
       if (cmd.startsWith('open ')) {
@@ -1292,11 +1294,11 @@ function initRadarFeed() {
           lastMonth = month;
         }
 
-        return separator + '<a href="' + item.url + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + tag + '" data-type="' + (item.type || 'article') + '">' +
-          '<span class="radar-meta"><span class="radar-type">' + typeLabel + '</span><span class="radar-added">' + addedStr + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
-          '<span class="radar-title" title="' + (item.title || '').replace(/"/g, '&quot;') + '">' + (item.title || '') + '</span>' +
-          '<span class="radar-desc">' + desc + '</span>' +
-          '<span class="radar-source">' + source + ' ↗</span>' +
+        return separator + '<a href="' + escapeHtml(item.url || '') + '" target="_blank" rel="noopener" class="radar-line reveal" data-tag="' + escapeHtml(tag) + '" data-type="' + escapeHtml(item.type || 'article') + '">' +
+          '<span class="radar-meta"><span class="radar-type">' + escapeHtml(typeLabel) + '</span><span class="radar-added">' + addedStr + '</span>' + (stars ? '<span class="radar-score">' + stars + '</span>' : '') + '</span>' +
+          '<span class="radar-title" title="' + escapeHtml(item.title || '') + '">' + escapeHtml(item.title || '') + '</span>' +
+          '<span class="radar-desc">' + escapeHtml(desc) + '</span>' +
+          '<span class="radar-source">' + escapeHtml(source) + ' ↗</span>' +
         '</a>';
       }).join('') + '<div class="radar-cursor">_</div>';
 
@@ -1342,7 +1344,10 @@ function initRadarFeed() {
       /* Re-init hover counter for dynamically rendered items */
       initRadarCounter();
     })
-    .catch(() => { /* offline or error — feed stays empty */ });
+    .catch(() => {
+      var container = document.querySelector('.radar-feed');
+      if (container) container.innerHTML = '<p class="radar-error">Could not load articles. Try refreshing.</p>';
+    });
 }
 
 /* --- Radar "new" indicator in nav --- */
@@ -1356,9 +1361,10 @@ function initRadarNewIndicator() {
   if (window.location.pathname.includes('/projects/')) {
     jsonPath = isRu ? '../radar-db.json' : '../../radar-db.json';
   }
-  fetch(jsonPath).then(r => r.json()).then(items => {
+  fetch(jsonPath).then(r => r.json()).then(data => {
+    var list = Array.isArray(data) ? data : (data.items || []);
     var threeDaysAgo = new Date(Date.now() - 3 * 86400000).toISOString().slice(0, 10);
-    var hasNew = items.some(i => (i.date || '') >= threeDaysAgo);
+    var hasNew = list.some(i => (i.date || '') >= threeDaysAgo);
     if (hasNew) navLink.classList.add('has-new');
   }).catch(() => {});
 }
