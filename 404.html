@@ -62,6 +62,18 @@
       background-size: 24px 24px;
     }
     .e404 { position: relative; z-index: 1; }
+    @media (prefers-color-scheme: dark) {
+      :root:not(.light) .pixel-grid {
+        background-image:
+          linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      }
+    }
+    html.dark .pixel-grid {
+      background-image:
+        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+    }
   </style>
   <script data-goatcounter="https://diyoriko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
