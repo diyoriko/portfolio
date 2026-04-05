@@ -6,6 +6,7 @@
     <loc>https://diyor.design/</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/" />
+    <lastmod>2026-04-04</lastmod>
     <priority>1.0</priority>
   </url>
 
@@ -13,6 +14,7 @@
     <loc>https://diyor.design/about</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.9</priority>
   </url>
 
@@ -20,6 +22,7 @@
     <loc>https://diyor.design/radar</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/radar" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/radar" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.9</priority>
   </url>
 
@@ -27,6 +30,7 @@
     <loc>https://diyor.design/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.9</priority>
   </url>
 
@@ -34,6 +38,7 @@
     <loc>https://diyor.design/en/radar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/radar" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/radar" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.8</priority>
   </url>
 
@@ -41,6 +46,7 @@
     <loc>https://diyor.design/en/about</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/about" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/about" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.8</priority>
   </url>
 
@@ -57,6 +63,7 @@
     <loc>https://diyor.design/en/projects/teletype</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/teletype" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/teletype" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -71,6 +78,7 @@
     <loc>https://diyor.design/en/projects/sami</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/sami" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/sami" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -85,6 +93,7 @@
     <loc>https://diyor.design/en/projects/hunter</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -92,12 +101,14 @@
     <loc>https://diyor.design/projects/enxt</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/enxt</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -112,6 +123,7 @@
     <loc>https://diyor.design/en/projects/skysmart</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/skysmart" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/skysmart" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -121,12 +133,14 @@
     <loc>https://diyor.design/projects/prosto</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/prosto</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/prosto" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/prosto" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
 
@@ -134,12 +148,14 @@
     <loc>https://diyor.design/projects/kombo</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/kombo</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/kombo" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/kombo" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
 
@@ -162,12 +178,14 @@
     <loc>https://diyor.design/projects/vedic</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/vedic</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/vedic" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/vedic" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -175,12 +193,14 @@
     <loc>https://diyor.design/projects/hse</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/hse</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hse" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hse" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
 
@@ -195,6 +215,7 @@
     <loc>https://diyor.design/en/projects/singularity-hub</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-hub" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-hub" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.4</priority>
   </url>
 
@@ -209,6 +230,7 @@
     <loc>https://diyor.design/en/projects/singularity-words</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/singularity-words" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/singularity-words" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.4</priority>
   </url>
 
@@ -216,12 +238,14 @@
     <loc>https://diyor.design/projects/qlean</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/qlean</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/qlean" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/qlean" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.4</priority>
   </url>
 
@@ -229,12 +253,14 @@
     <loc>https://diyor.design/projects/flora</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://diyor.design/en/projects/flora</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/flora" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/flora" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.4</priority>
   </url>
 
@@ -249,6 +275,7 @@
     <loc>https://diyor.design/en/projects/appteka</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/appteka" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/appteka" />
+    <lastmod>2026-04-04</lastmod>
     <priority>0.5</priority>
   </url>
 
