@@ -469,8 +469,8 @@ function initTerminal() {
     skills: () =>
       'Design:  Product, Brand, UI/UX, Packaging, Print\nCode:    TypeScript, AI Agents, Bots, Automation',
     about: () => isRu
-      ? 'Диёр Хакимов — продуктовый и бренд-дизайнер, 6+ лет опыта.\nЖиву в Каше, Турция. Готов к релокации.'
-      : 'Diyor Khakimov — product & brand designer, 6+ years of experience.\nBased in Kaş, Turkey. Open to relocation.',
+      ? 'Диёр Хакимов — продуктовый дизайнер и разработчик, 10+ лет опыта.\nЖиву в Каше, Турция. Готов к релокации.'
+      : 'Diyor Khakimov — product designer & developer, 10+ years of experience.\nBased in Kaş, Turkey. Open to relocation.',
     neofetch: () => {
       const ua = navigator.userAgent;
       const browser = ua.includes('Chrome') ? 'Chrome' : ua.includes('Firefox') ? 'Firefox' : ua.includes('Safari') ? 'Safari' : 'Unknown';
@@ -1088,7 +1088,7 @@ function initConsoleSig() {
     'color:#F8401C;font-size:10px;font-family:monospace;line-height:1.2'
   );
   console.log(
-    '%cProduct & Brand Designer\n' +
+    '%cProduct Designer & Developer\n' +
     'diyor.design\n\n' +
     'You read source? Let\'s talk → t.me/diyoriko\n' +
     'Press ~ for secret terminal  |  Shift+G for design system',
