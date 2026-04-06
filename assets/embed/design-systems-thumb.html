@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1b2e;
+  }
+  .venn {
+    position: relative;
+    width: 48px;
+    height: 32px;
+  }
+  .c {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    top: 2px;
+  }
+  .c1 { left: 0; background: #5b8def; }
+  .c2 { left: 18px; background: #8bb4f8; mix-blend-mode: screen; }
+</style>
+</head>
+<body>
+  <div class="venn">
+    <div class="c c1"></div>
+    <div class="c c2"></div>
+  </div>
+</body>
+</html>
