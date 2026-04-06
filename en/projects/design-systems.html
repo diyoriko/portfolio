@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Systems — Diyor Khakimov</title>
+  <meta name="description" content="Working with VKUI and Plasma design systems: tokens, components, cross-platform support, documentation.">
+  <meta property="og:title" content="Design Systems — Diyor Khakimov">
+  <meta property="og:description" content="Working with VKUI and Plasma design systems: tokens, components, cross-platform support, documentation.">
+  <meta property="og:image" content="https://diyor.design/assets/img/thumb-design-systems.png">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://diyor.design/en/projects/design-systems">
+  <link rel="canonical" href="https://diyor.design/en/projects/design-systems">
+  <link rel="alternate" hreflang="ru" href="https://diyor.design/projects/design-systems">
+  <link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/design-systems">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Design Systems — Diyor Khakimov">
+  <meta name="twitter:description" content="Working with VKUI and Plasma design systems: tokens, components, cross-platform support, documentation.">
+  <meta name="twitter:image" content="https://diyor.design/assets/img/thumb-design-systems.png">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+  <link rel="preload" href="../../assets/fonts/OceanicGrotesk-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../assets/fonts/OceanicGrotesk-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../styles.min.css">
+
+  <script data-goatcounter="https://diyoriko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CreativeWork","name":"Design Systems","description":"Working with VKUI and Plasma design systems: tokens, components, cross-platform support, documentation.","author":{"@type":"Person","name":"Diyor Khakimov"},"url":"https://diyor.design/en/projects/design-systems"}
+  </script>
+</head>
+<body>
+
+  <nav class="nav"><div class="nav-inner">
+    <div class="nav-left">
+      <div class="nav-links">
+        <a href="../">Projects</a>
+        <a href="../about">About</a>
+        <a href="../../radar" class="nav-radar">Rada<span class="kern-r">r</span></a>
+      </div>
+    </div>
+    <div class="nav-lang">
+      <a href="../../projects/design-systems">Ru</a>
+      <span class="active">En</span>
+    </div>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
+  </div></nav>
+
+  <div class="nav-mobile" aria-hidden="true"></div>
+
+  <main class="main main--case">
+
+    <div class="case-meta">Product Designer · VK, SberDevices · 2020–2022</div>
+    <div class="case-header">
+      <div class="case-header-thumb"><iframe src="../../assets/embed/design-systems-thumb.html" loading="lazy"></iframe></div>
+      <h1 class="case-h1">Design Systems</h1>
+    </div>
+
+    <div class="case-tabs" role="tablist">
+      <button class="case-tab active" data-tab="vkui" role="tab" aria-selected="true" aria-controls="panel-vkui">VKUI</button>
+      <button class="case-tab" data-tab="plasma" role="tab" aria-selected="false" aria-controls="panel-plasma">Plasma</button>
+    </div>
+
+    <div class="case-body">
+
+      <!-- ==================== VKUI ==================== -->
+      <div class="case-tab-panel active" data-panel="vkui" id="panel-vkui" role="tabpanel">
+
+        <section class="case-section">
+          <span class="case-section-num">1</span>
+          <h2 class="case-section-title">Context</h2>
+          <p>VKUI is VK's design system. Components, tokens, usage guidelines. <a href="https://github.com/VKCOM/VKUI" target="_blank" rel="noopener">Open-source React library on GitHub</a>.</p>
+          <p>Products built on VKUI: VK Messenger, VK Dobro, Mail, Cloud, Calendar by Mail.ru. Plus thousands of mini apps by third-party developers.</p>
+          <p>In 2022, Mail.ru Group became VK. Two independent systems — Paradigm and VKUI — merged into one. 120 shared tokens. React as the single technology.</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">2</span>
+          <h2 class="case-section-title">My Role</h2>
+          <p>Worked within the system as a product designer. Built layouts from VKUI components, used tokens to switch between platforms. Contributed to the library: proposed component improvements, fixed mismatches between Figma and code.</p>
+        </section>
+
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">6</div>
+            <div class="case-stat-label">Figma libraries</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">120+</div>
+            <div class="case-stat-label">design tokens</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">4,150+</div>
+            <div class="case-stat-label">icons</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">5</div>
+            <div class="case-stat-label">platforms</div>
+          </div>
+        </div>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-cover.webp" alt="VKUI — design system overview: table of contents, library connection, color system, typography" loading="lazy">
+        <div class="case-caption">VKUI overview: component library table of contents</div>
+
+        <section class="case-section">
+          <span class="case-section-num">3</span>
+          <h2 class="case-section-title">Library Architecture</h2>
+          <p>Six Figma libraries. Common — shared components. iOS and Android — platform-specific variants.</p>
+          <p>Tokens Base — 3 components, 234 styles, 171 variables. Appearance Tokens — 519 styles. Icons Library — 4,150 components.</p>
+          <p>Connect the libraries you need. Choose a platform via tokens. Components adapt automatically.</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-libraries.webp" alt="Connecting VKUI libraries in Figma: Common, iOS, Android, Tokens Base, Appearance Tokens, Icons" loading="lazy">
+        <div class="case-caption">Library connection: each owns a distinct responsibility zone</div>
+
+        <section class="case-section">
+          <span class="case-section-num">4</span>
+          <h2 class="case-section-title">Color System</h2>
+          <p>Each color in Figma maps to a developer token. Web: <code>--vkui--color_text_accent</code>. Android: <code>VkTheme.colors.text.textAccent</code>. iOS: <code>UIColor.vkui.textAccent</code>.</p>
+          <p>Tokens grouped by usage area, not by value. Text, icons, backgrounds, borders — separate folders.</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-colors.webp" alt="VKUI color system: tokens grouped by usage, Accent with Web, Android, iOS mapping" loading="lazy">
+        <div class="case-caption">Accent, Primary, Medium — each token mapped across three platforms</div>
+
+        <section class="case-section">
+          <span class="case-section-num">5</span>
+          <h2 class="case-section-title">Typography</h2>
+          <p>Two font families: fontFamilyAccent for headings, fontFamilyBase for body text. Three weight variants each.</p>
+          <p>Title 1 (24/28), Title 2 (20/24), Title 3 (17/22), Headline 1 (16/20), Headline 2 (15/20), Text (16/20).</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-typography.webp" alt="VKUI typography: Title, Headline, Text styles with size/lineHeight parameters" loading="lazy">
+        <div class="case-caption">Typographic scale: from Title 1 to Text</div>
+
+        <section class="case-section">
+          <span class="case-section-num">6</span>
+          <h2 class="case-section-title">Dark Theme & Platforms</h2>
+          <p>All components use color tokens. Light and dark themes switch via Appearance. One layout, two modes.</p>
+          <p>Five platforms: iOS, Android, vkCom, Desktop, Auto. Token switching rebuilds components: radii, spacing, control sizes.</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-dark.webp" alt="VKUI: switching between light and dark themes via Appearance tokens" loading="lazy">
+        <div class="case-caption">Dark theme: Appearance switching, components adapt automatically</div>
+
+        <div class="case-img-row">
+          <img src="../../assets/img/cases/design-systems/vkui-platform-ios.webp" alt="VKUI: settings interface in iOS style" loading="lazy">
+          <img src="../../assets/img/cases/design-systems/vkui-platform-android.webp" alt="VKUI: same interface in Android style" loading="lazy">
+        </div>
+        <div class="case-caption">One screen — two platforms. Token switching</div>
+
+        <section class="case-section">
+          <span class="case-section-num">7</span>
+          <h2 class="case-section-title">Components & Documentation</h2>
+          <p>Figma components mirror code. Search via Assets, configure via parameters: Size, Mode, Appearance, Disabled, Icon.</p>
+          <p>Documentation lives next to each component. Four banner types: "Good to know," "Important," "Forbidden," "Allowed." Styleguide pages have live examples with source code.</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-components.webp" alt="Using Button component: parameters, variants, Styleguide link" loading="lazy">
+        <div class="case-caption">Button: Size, Mode, Appearance mirror React props</div>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/vkui-docs.webp" alt="Component documentation: Good to know, Important, Forbidden, Allowed banners" loading="lazy">
+        <div class="case-caption">Component documentation with four banner types</div>
+
+        <hr class="case-separator">
+
+        <section class="case-section">
+          <span class="case-section-num">8</span>
+          <h2 class="case-section-title">Takeaways</h2>
+          <p>A design system is not a component library. It's a contract between design and development. A token in Figma = a variable in code.</p>
+          <p>One system serving hundreds of products. A token error ripples across the entire ecosystem. Documentation is not optional — it's part of the component.</p>
+          <p>The Paradigm–VKUI merger is an example of how unifying two systems is harder than building one from scratch. 120 shared tokens took months of cross-team audit.</p>
+        </section>
+
+      </div>
+
+      <!-- ==================== Plasma ==================== -->
+      <div class="case-tab-panel" data-panel="plasma" id="panel-plasma" role="tabpanel">
+
+        <section class="case-section">
+          <span class="case-section-num">1</span>
+          <h2 class="case-section-title">Context</h2>
+          <p>Plasma is SberDevices' design system for the Salute virtual assistant ecosystem. Every application in the ecosystem is built on Plasma.</p>
+          <p><a href="https://github.com/salute-developers/plasma" target="_blank" rel="noopener">Open-source monorepo on GitHub</a>. TypeScript 78%, styled-components. Seven core packages: plasma-ui, plasma-web, plasma-b2c, plasma-tokens, plasma-tokens-web, plasma-tokens-b2c, plasma-icons.</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">2</span>
+          <h2 class="case-section-title">My Role</h2>
+          <p>Worked with Plasma as an interface designer for Salute ecosystem devices. Used tokens and components to build Canvas Apps. Studied how the system scales across devices with different interaction models.</p>
+        </section>
+
+        <div class="case-stats">
+          <div class="case-stat">
+            <div class="case-stat-value">7</div>
+            <div class="case-stat-label">core packages</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">5,000+</div>
+            <div class="case-stat-label">releases</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">10,000</div>
+            <div class="case-stat-label">commits</div>
+          </div>
+          <div class="case-stat">
+            <div class="case-stat-value">3</div>
+            <div class="case-stat-label">breakpoints</div>
+          </div>
+        </div>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/plasma-cover.webp" alt="Plasma UI kit — SberDevices design system cover" loading="lazy">
+        <div class="case-caption">Plasma UI kit: the Salute ecosystem design system</div>
+
+        <section class="case-section">
+          <span class="case-section-num">3</span>
+          <h2 class="case-section-title">Components</h2>
+          <p>Buttons, cards, controls, navigation bars — all in the Figma library. Each component scales through tokens across three breakpoints.</p>
+        </section>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/plasma-buttons.webp" alt="Plasma: button library — sizes S, M, L, states Primary, Secondary, Normal, Disabled" loading="lazy">
+        <div class="case-caption">Buttons: sizes, states, variants — full component matrix</div>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/plasma-cards.webp" alt="Plasma: Discovery cards, Payment Status — component variants" loading="lazy">
+        <div class="case-caption">Cards: Discovery, informational, payment statuses</div>
+
+        <img class="case-img-full" src="../../assets/img/cases/design-systems/plasma-controls.webp" alt="Plasma: Switch, Checkbox, Radio, Suggestion — controls" loading="lazy">
+        <div class="case-caption">Controls: Switch, Checkbox, Radio, Suggestion</div>
+
+        <section class="case-section">
+          <span class="case-section-num">4</span>
+          <h2 class="case-section-title">Tokens & Responsiveness</h2>
+          <p>CSS variables prefixed with <code>--plasma-*</code>. Colors, typography, spacing, shadows, radii.</p>
+          <p>Color tokens: surfaces, text, buttons, overlays. States: hover, active, focus. Semantic: accent, success, warning, critical, info.</p>
+          <p>Three breakpoints: mobile (up to 559px), tablet (560–959px), desktop (960px+). Tokens scale through media queries.</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">5</span>
+          <h2 class="case-section-title">Package Architecture</h2>
+          <p>plasma-core — single source of truth for values. plasma-ui — components for devices (SberBox, SberPortal). plasma-web — web applications. plasma-b2c — B2C adaptation.</p>
+          <p>Separate token packages per environment. Storybook for each package. Documentation at plasma.sberdevices.ru.</p>
+        </section>
+
+        <section class="case-section">
+          <span class="case-section-num">6</span>
+          <h2 class="case-section-title">Typography</h2>
+          <p>SB Sans Text, SB Sans Cond Mono, SB Sans Text Mono. Unified typographic scale across the ecosystem — text looks the same on SberBox, tablet, and browser.</p>
+          <p>React components replace standard HTML tags. Instead of h1 — a component with sizing from tokens.</p>
+        </section>
+
+        <hr class="case-separator">
+
+        <section class="case-section">
+          <span class="case-section-num">7</span>
+          <h2 class="case-section-title">Takeaways</h2>
+          <p>Plasma runs on voice-controlled devices. SberBox — a TV. SberPortal — a desk screen. Web — a standard browser. Three interaction models, one component system.</p>
+          <p>A monorepo with seven packages demands discipline. A change in core requires validation across all dependents.</p>
+          <p>Here I saw how a design system scales beyond the screen. Voice interfaces, devices without keyboards. Tokens work everywhere — if the architecture is sound.</p>
+        </section>
+
+      </div>
+
+    </div>
+
+    <div class="case-nav">
+      <a class="case-nav-link case-nav-prev" href="skysmart">
+        <span class="case-nav-dir">←</span>
+        <span class="case-nav-name">Skysmart</span>
+      </a>
+      <a class="case-nav-link case-nav-next" href="qlean">
+        <span class="case-nav-name">Qlean</span>
+        <span class="case-nav-dir">→</span>
+      </a>
+    </div>
+
+  </main>
+
+  <script src="../../script.min.js"></script>
+</body>
+</html>
