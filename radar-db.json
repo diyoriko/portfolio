@@ -65,6 +65,38 @@
   },
   "items": [
     {
+      "title": "How I Use Claude Code to Vibe Code My Designs",
+      "url": "https://goodenoughdesigner.substack.com/p/how-i-use-claude-code-to-vibe-code",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Воркфлоу: Figma JSON-токены → кастомный shadcn/ui → Figma Console MCP для генерации вариантов и перевода дизайна в код.",
+      "desc_en": "Workflow: Figma JSON tokens → custom shadcn/ui theme → Figma Console MCP to generate variants and turn designs into code.",
+      "date": "2026-04-04",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-07"
+    },
+    {
+      "title": "awesome-agent-skills — 1,060+ skills from official dev teams for Claude Code, Cursor, Codex",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "13k+ звёзд: скиллы от Figma, Anthropic, Vercel, Stripe для Claude Code, Cursor, Codex, Gemini CLI и других инструментов.",
+      "desc_en": "13k-star catalog of 1,060+ agent skills from official teams including Figma, Anthropic, Vercel, and Stripe.",
+      "date": "2026-04-03",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 10,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-03",
+      "stars": 14501,
+      "tg_message_id": 361
+    },
+    {
       "title": "Superpowers — agentic skills framework for Claude Code",
       "url": "https://github.com/obra/superpowers",
       "type": "skill",
@@ -74,11 +106,45 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 131113,
+      "stars": 138113,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 362
+    },
+    {
+      "title": "Cursor 3: Design Mode, Agents Window, and Parallel Execution",
+      "url": "https://cursor.com/changelog",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Cursor 3 добавляет Design Mode — аннотирование UI элементов в браузере — и параллельный запуск агентов в облаке.",
+      "desc_en": "Cursor 3 ships Design Mode for annotating browser UI elements and an Agents Window for parallel cloud agent runs.",
+      "date": "2026-04-02",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-03",
+      "tg_message_id": 363
+    },
+    {
+      "title": "awesome-design-md — Brand Design Systems as DESIGN.md for AI Agents",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "type": "tool",
+      "tag": "design systems",
+      "desc_ru": "55 DESIGN.md файлов от Figma, Linear, Stripe — скопируй в проект, AI воспроизводит UI нужного бренда.",
+      "desc_en": "55 DESIGN.md files from Figma, Linear, Stripe — drop one in your project, AI builds matching brand UI.",
+      "date": "2026-04-01",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-02",
+      "stars": 25448,
+      "tg_message_id": 364
     },
     {
       "title": "Building a Figma-Driven MCP Production Pipeline",
@@ -93,7 +159,54 @@
       "date": "2026-03-31",
       "desc_ru": "Пошаговый гайд по production-пайплайну Figma MCP: конфигурация IDE, секвенс вызовов инструментов и правила автоматизации.",
       "desc_en": "Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.",
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 365
+    },
+    {
+      "title": "Agentic AI, Design Systems & Figma: A Practical Guide",
+      "url": "https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma",
+      "type": "article",
+      "tag": "figma×ai",
+      "desc_ru": "6 конкретных шагов для подготовки Figma-компонентов к работе с AI-агентами: токены, пропсы, состояния, слоты.",
+      "desc_en": "Six concrete steps to make Figma components AI-agent-ready: tokens, prop matching, states, slots, Code Connect.",
+      "date": "2026-03-31",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-02",
+      "tg_message_id": 366
+    },
+    {
+      "title": "What Your Components Look Like as Data",
+      "url": "https://blog.murphytrueman.com/what-your-components-look-like-as-data/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Как решения в Figma становятся машиночитаемыми данными — и почему это меняет подход к структуре компонентов в эпоху AI.",
+      "desc_en": "How Figma design decisions become machine-readable data for AI tools, and why this changes how you should structure components.",
+      "date": "2026-03-31",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-05"
+    },
+    {
+      "title": "Designers, You're Not at the Kids' Table Anymore",
+      "url": "https://southleft.com/insights/design-systems/designers-youre-not-at-the-kids-table-anymore/",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "AI + MCP + дизайн-система: дизайнеры впервые могут вносить продакшн-код, не осваивая традиционное программирование.",
+      "desc_en": "AI tools + MCP + structured design systems now let designers contribute production code without traditional programming skills.",
+      "date": "2026-03-30",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-05"
     },
     {
       "title": "Your Ticket Is a Prompt",
@@ -108,7 +221,8 @@
       "reading_time": 5,
       "difficulty": "beginner",
       "has_demo": false,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 367
     },
     {
       "title": "Figma-Context-MCP — Figma layout context for AI coding agents",
@@ -120,11 +234,12 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14094,
+      "stars": 14180,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 368
     },
     {
       "title": "GenUI vs. Vibe Coding: Who's Designing?",
@@ -139,7 +254,8 @@
       "reading_time": 8,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 369
     },
     {
       "title": "interface-design",
@@ -151,7 +267,8 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4372
+      "stars": 4419,
+      "tg_message_id": 370
     },
     {
       "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
@@ -166,7 +283,8 @@
       "has_demo": false,
       "desc_ru": "906 дизайнеров: 89% работают быстрее с ИИ; 73% нанимателей уже требуют знание AI-инструментов.",
       "desc_en": "906 designers surveyed: 89% say AI makes them faster; 73% of hiring managers now require AI tool proficiency.",
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 371
     },
     {
       "title": "I Built a Design Team Out of AI Agents",
@@ -181,7 +299,25 @@
       "reading_time": 8,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 372
+    },
+    {
+      "title": "harness — Meta-skill that designs domain-specific agent teams for Claude Code",
+      "url": "https://github.com/revfactory/harness",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "Мета-скилл для Claude Code: автоматически проектирует команды агентов под конкретный домен и генерирует их скиллы.",
+      "desc_en": "Claude Code meta-skill that decomposes a project into specialized agent teams and auto-generates their supporting skills.",
+      "date": "2026-03-26",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 5,
+      "difficulty": "advanced",
+      "has_demo": false,
+      "added": "2026-04-03",
+      "stars": 2035,
+      "tg_message_id": 373
     },
     {
       "title": "Design Systems Report 2026",
@@ -196,7 +332,8 @@
       "has_demo": false,
       "desc_ru": "Только 40% команд имеют пайплайн токенов; данные 147 практиков о реальном влиянии ИИ на дизайн-системы.",
       "desc_en": "Only 40% of teams have token pipelines; AI impact on design systems still mixed across 147 practitioners.",
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 374
     },
     {
       "title": "Agents, Meet the Figma Canvas",
@@ -207,7 +344,8 @@
       "desc_en": "Agents write to canvas via MCP server. Design system quality now directly determines output quality.",
       "date": "2026-03-24",
       "priority": 1,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 375
     },
     {
       "title": "Figma's MCP Just Gave AI Agents 'Write' Access — A First Look",
@@ -218,7 +356,8 @@
       "desc_en": "Practical walkthrough of what Claude Code and Codex actually do with write access to the Figma canvas via MCP.",
       "date": "2026-03-24",
       "priority": 2,
-      "added": "2026-03-31"
+      "added": "2026-03-31",
+      "tg_message_id": 376
     },
     {
       "title": "Human Strategy In An AI-Accelerated Workflow",
@@ -233,7 +372,23 @@
       "reading_time": 8,
       "difficulty": "beginner",
       "has_demo": false,
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 377
+    },
+    {
+      "title": "Figma Skills for MCP",
+      "url": "https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "Официальные скиллы Figma для MCP: 5 готовых инструкций для AI-агентов — создание файлов, экранов и кода из дизайн-системы.",
+      "desc_en": "5 official Figma MCP skills letting AI agents create files, build screens, generate code, and document design system rules.",
+      "date": "2026-03-24",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-05"
     },
     {
       "title": "I Built 63 Design Skills For Claude - and They're Free",
@@ -244,7 +399,8 @@
       "desc_en": "Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.",
       "date": "2026-03-22",
       "priority": 2,
-      "added": "2026-03-28"
+      "added": "2026-03-28",
+      "tg_message_id": 378
     },
     {
       "title": "Designing Delightful Frontends with GPT-5.4",
@@ -255,7 +411,8 @@
       "desc_en": "The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.",
       "date": "2026-03-20",
       "priority": 1,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 379
     },
     {
       "title": "claude-talk-to-figma-mcp",
@@ -267,7 +424,8 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 553
+      "stars": 560,
+      "tg_message_id": 380
     },
     {
       "title": "Motion Studio — AI & Visual Animation Editor for VS Code",
@@ -282,7 +440,8 @@
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 381
     },
     {
       "title": "Stitch from Google Labs gets updates with Gemini 3",
@@ -297,7 +456,8 @@
       "reading_time": 5,
       "difficulty": "beginner",
       "has_demo": true,
-      "added": "2026-03-31"
+      "added": "2026-03-31",
+      "tg_message_id": 382
     },
     {
       "title": "Introducing 'vibe design' with Stitch (Google Labs)",
@@ -308,7 +468,8 @@
       "desc_en": "Google Labs launched Stitch — an AI-native design canvas that generates high-fidelity UI from natural language prompts. Concept of 'vibe design': describe intent, get editable screens with real-time collaboration. Direct competition to Figma Make and Lovable.",
       "date": "2026-03-18",
       "priority": 1,
-      "added": "2026-03-26"
+      "added": "2026-03-26",
+      "tg_message_id": 383
     },
     {
       "title": "State of UX 2026: Design Deeper to Differentiate",
@@ -323,7 +484,8 @@
       "reading_time": 12,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-03-31"
+      "added": "2026-03-31",
+      "tg_message_id": 384
     },
     {
       "title": "Hera — AI motion graphics generator",
@@ -338,7 +500,8 @@
       "reading_time": 3,
       "difficulty": "beginner",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 385
     },
     {
       "title": "Agency Agents — 193 Specialized AI Agent Personas for Design, Engineering, and Marketing",
@@ -354,7 +517,8 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 68537
+      "stars": 73607,
+      "tg_message_id": 386
     },
     {
       "title": "figma-console-mcp",
@@ -366,7 +530,8 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1366
+      "stars": 1404,
+      "tg_message_id": 387
     },
     {
       "title": "5 MCP Connections Every Design System Team Needs Right Now",
@@ -381,7 +546,8 @@
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 388
     },
     {
       "title": "Figma MCP server can now generate design layers from VS Code",
@@ -396,7 +562,8 @@
       "reading_time": 3,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-03-31"
+      "added": "2026-03-31",
+      "tg_message_id": 389
     },
     {
       "title": "How to Supercharge your Design System with Slots",
@@ -411,7 +578,8 @@
       "reading_time": 7,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-03-31"
+      "added": "2026-03-31",
+      "tg_message_id": 390
     },
     {
       "title": "AI Tooling for Software Engineers in 2026 (Pragmatic Engineer Survey)",
@@ -422,7 +590,8 @@
       "desc_en": "Engineer survey: Claude Code captured 60% of Cursor's audience in 8 months. 95% use AI tools weekly, 55% regularly use AI agents. For design engineers: Cursor wins at startups, GitHub Copilot defaults in enterprise.",
       "date": "2026-03-03",
       "priority": 2,
-      "added": "2026-03-26"
+      "added": "2026-03-26",
+      "tg_message_id": 391
     },
     {
       "title": "UI/UX Pro Max Skill — 50K+ stars",
@@ -434,7 +603,8 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 56939
+      "stars": 60208,
+      "tg_message_id": 392
     },
     {
       "title": "Design Systems And AI: Why MCP Is The Unlock",
@@ -445,7 +615,8 @@
       "desc_en": "MCP servers scan codebases and generate structured design system rules.",
       "date": "2026-03-01",
       "priority": 1,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 393
     },
     {
       "title": "Frontend Design — Official Claude Code Plugin",
@@ -460,7 +631,8 @@
       "reading_time": 4,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 394
     },
     {
       "title": "Community-Access/accessibility-agents",
@@ -476,7 +648,8 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 208
+      "stars": 212,
+      "tg_message_id": 395
     },
     {
       "title": "Introducing the New v0",
@@ -491,7 +664,8 @@
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 396
     },
     {
       "title": "AI-Powered Prototyping with Design Systems",
@@ -506,7 +680,8 @@
       "reading_time": 6,
       "difficulty": "intermediate",
       "has_demo": true,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 397
     },
     {
       "title": "Claude Code vs Cursor: What to Choose in 2026",
@@ -521,7 +696,8 @@
       "reading_time": 7,
       "difficulty": "beginner",
       "has_demo": false,
-      "added": "2026-04-02"
+      "added": "2026-04-02",
+      "tg_message_id": 398
     },
     {
       "title": "Claude Code for Designers",
@@ -532,7 +708,8 @@
       "desc_en": "Plan mode, live preview, Figma integration. No terminal needed, inside the desktop app.",
       "date": "2026-02-25",
       "priority": 1,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 399
     },
     {
       "title": "From Claude Code to Figma: Turning Production Code into Editable Figma Designs",
@@ -547,7 +724,8 @@
       "has_demo": true,
       "desc_ru": "Введите «Send this to Figma» в Claude Code — работающий UI превращается в редактируемые слои Figma.",
       "desc_en": "Type 'Send this to Figma' in Claude Code to capture your running UI as fully editable Figma layers.",
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 400
     },
     {
       "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
@@ -562,7 +740,8 @@
       "reading_time": 12,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-04-01"
+      "added": "2026-04-01",
+      "tg_message_id": 401
     },
     {
       "title": "mcp-design-system-extractor — Storybook MCP Server for AI Assistants",
@@ -578,7 +757,8 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 59
+      "stars": 59,
+      "tg_message_id": 402
     },
     {
       "title": "awesome-claude-skills — Curated Hub for Claude Code Skills",
@@ -594,7 +774,24 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 10347
+      "stars": 10709,
+      "tg_message_id": 403
+    },
+    {
+      "title": "Claude Code Frontend Design Toolkit",
+      "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "type": "skill",
+      "tag": "tools",
+      "desc_ru": "Кураторский список 70+ ресурсов: скиллы, плагины, MCP-серверы и CLAUDE.md паттерны для качественного UI из Claude Code.",
+      "desc_en": "Curated list of 70+ resources: skills, plugins, MCP servers, and CLAUDE.md patterns for better UI output from Claude Code.",
+      "date": "2026-02-01",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-07",
+      "stars": 50
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -610,7 +807,8 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6250
+      "stars": 6274,
+      "tg_message_id": 404
     },
     {
       "title": "The Complete Vibe Coding Guide for Designers",
@@ -621,7 +819,8 @@
       "desc_en": "Three layers of AI tools: Exploration, MVP, Engineering. Designers ship code without programming.",
       "date": "2026-01-01",
       "priority": 2,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 405
     },
     {
       "title": "Figma Make Is Now Available to All",
@@ -632,7 +831,8 @@
       "desc_en": "Prompt-to-design exits beta. Supabase backend, library imports, generation from prompts.",
       "date": "2026-01-01",
       "priority": 2,
-      "added": "2026-03-25"
+      "added": "2026-03-25",
+      "tg_message_id": 406
     },
     {
       "title": "AI Design Systems: Why Tokens, Schema & Generative Rules Matter Now",
@@ -643,7 +843,8 @@
       "desc_en": "Design systems are now built for AI, not designers. AI doesn't parse prose guidelines — it processes structure, rules, and relationships. Without tokens, AI won't scale inside a design system. 2026 marks the shift from static libraries to living generative engines.",
       "date": "2025-12-01",
       "priority": 3,
-      "added": "2026-03-26"
+      "added": "2026-03-26",
+      "tg_message_id": 407
     }
   ]
 }
