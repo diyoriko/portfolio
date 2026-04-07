@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Teletype Text Glow</title>
+  <script src="embed-theme.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -28,6 +29,10 @@
       text-indent: 9.4em;
       opacity: 0.9;
       box-sizing: border-box;
+    }
+    html[data-theme="dark"] #animated-text {
+      color: #e8e3da;
+      mix-blend-mode: screen;
     }
 
     .char {
