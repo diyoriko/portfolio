@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 02 Apr 2026 08:55:01 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Apr 2026 07:44:42 +0000</lastBuildDate>
+  <item>
+    <title>How I Use Claude Code to Vibe Code My Designs</title>
+    <link>https://goodenoughdesigner.substack.com/p/how-i-use-claude-code-to-vibe-code</link>
+    <description>Workflow: Figma JSON tokens → custom shadcn/ui theme → Figma Console MCP to generate variants and turn designs into code.</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://goodenoughdesigner.substack.com/p/how-i-use-claude-code-to-vibe-code</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>awesome-agent-skills — 1,060+ skills from official dev teams for Claude Code, Cursor, Codex</title>
+    <link>https://github.com/VoltAgent/awesome-agent-skills</link>
+    <description>13k-star catalog of 1,060+ agent skills from official teams including Figma, Anthropic, Vercel, and Stripe.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/VoltAgent/awesome-agent-skills</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Superpowers — agentic skills framework for Claude Code</title>
     <link>https://github.com/obra/superpowers</link>
@@ -16,12 +32,52 @@
     <category>Tools</category>
   </item>
   <item>
+    <title>Cursor 3: Design Mode, Agents Window, and Parallel Execution</title>
+    <link>https://cursor.com/changelog</link>
+    <description>Cursor 3 ships Design Mode for annotating browser UI elements and an Agents Window for parallel cloud agent runs.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://cursor.com/changelog</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>awesome-design-md — Brand Design Systems as DESIGN.md for AI Agents</title>
+    <link>https://github.com/VoltAgent/awesome-design-md</link>
+    <description>55 DESIGN.md files from Figma, Linear, Stripe — drop one in your project, AI builds matching brand UI.</description>
+    <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/VoltAgent/awesome-design-md</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Building a Figma-Driven MCP Production Pipeline</title>
     <link>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</link>
     <description>Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.</description>
     <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Agentic AI, Design Systems &amp; Figma: A Practical Guide</title>
+    <link>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</link>
+    <description>Six concrete steps to make Figma components AI-agent-ready: tokens, prop matching, states, slots, Code Connect.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>What Your Components Look Like as Data</title>
+    <link>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</link>
+    <description>How Figma design decisions become machine-readable data for AI tools, and why this changes how you should structure components.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Designers, You're Not at the Kids' Table Anymore</title>
+    <link>https://southleft.com/insights/design-systems/designers-youre-not-at-the-kids-table-anymore/</link>
+    <description>AI tools + MCP + structured design systems now let designers contribute production code without traditional programming skills.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://southleft.com/insights/design-systems/designers-youre-not-at-the-kids-table-anymore/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Your Ticket Is a Prompt</title>
@@ -72,6 +128,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>harness — Meta-skill that designs domain-specific agent teams for Claude Code</title>
+    <link>https://github.com/revfactory/harness</link>
+    <description>Claude Code meta-skill that decomposes a project into specialized agent teams and auto-generates their supporting skills.</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/revfactory/harness</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>Design Systems Report 2026</title>
     <link>https://report.zeroheight.com/</link>
     <description>Only 40% of teams have token pipelines; AI impact on design systems still mixed across 147 practitioners.</description>
@@ -102,70 +166,6 @@
     <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>I Built 63 Design Skills For Claude - and They're Free</title>
-    <link>https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude</link>
-    <description>Open-source collection of 63 Claude Code design skills across 8 plugins: research, systems, UI, strategy, prototyping, and design ops.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Designing Delightful Frontends with GPT-5.4</title>
-    <link>https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</link>
-    <description>The model understands visual hierarchy and brand positioning. Stack: React + Tailwind + Framer Motion.</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>claude-talk-to-figma-mcp</title>
-    <link>https://github.com/arinspunk/claude-talk-to-figma-mcp</link>
-    <description>Community MCP server letting Claude read and modify Figma designs without a Dev Mode license; setup takes ~5 minutes.</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/arinspunk/claude-talk-to-figma-mcp</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Motion Studio — AI &amp; Visual Animation Editor for VS Code</title>
-    <link>https://motion.dev/studio</link>
-    <description>VS Code extension with real-time transition editing and MCP giving Cursor/Claude full Motion docs as context.</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://motion.dev/studio</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Stitch from Google Labs gets updates with Gemini 3</title>
-    <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-gemini-3/</link>
-    <description>Stitch adds design system import, voice canvas, and multi-screen prototyping powered by Gemini 3 — still free.</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-gemini-3/</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Introducing 'vibe design' with Stitch (Google Labs)</title>
-    <link>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</link>
-    <description>Google Labs launched Stitch — an AI-native design canvas that generates high-fidelity UI from natural language prompts. Concept of 'vibe design': describe intent, get editable screens with real-time collaboration. Direct competition to Figma Make and Lovable.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>State of UX 2026: Design Deeper to Differentiate</title>
-    <link>https://www.nngroup.com/articles/state-of-ux-2026/</link>
-    <description>NNGroup annual analysis: UI is commoditizing via AI and design systems; research and trust become the differentiators.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/state-of-ux-2026/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Hera — AI motion graphics generator</title>
-    <link>https://hera.video</link>
-    <description>Text-to-motion-graphics generator. Y Combinator backed, free tier available.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://hera.video</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
