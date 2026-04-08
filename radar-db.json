@@ -65,6 +65,21 @@
   },
   "items": [
     {
+      "title": "Storybook MCP with Dominic Nguyen",
+      "url": "https://bradfrost.com/blog/post/storybook-mcp-with-dominic-nguyen/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Брэд Фрост и создатель Storybook: как Storybook MCP позволяет ИИ создавать фичи из компонентов системы.",
+      "desc_en": "Brad Frost and Storybook founder on how Storybook MCP lets AI generate new features using existing system components.",
+      "date": "2026-04-05",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-08"
+    },
+    {
       "title": "How I Use Claude Code to Vibe Code My Designs",
       "url": "https://goodenoughdesigner.substack.com/p/how-i-use-claude-code-to-vibe-code",
       "type": "article",
@@ -93,7 +108,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 14501,
+      "stars": 14722,
       "tg_message_id": 361
     },
     {
@@ -106,7 +121,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 138113,
+      "stars": 140376,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -143,7 +158,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 25448,
+      "stars": 33016,
       "tg_message_id": 364
     },
     {
@@ -234,7 +249,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14180,
+      "stars": 14209,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -267,7 +282,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4419,
+      "stars": 4429,
       "tg_message_id": 370
     },
     {
@@ -316,7 +331,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2035,
+      "stars": 2133,
       "tg_message_id": 373
     },
     {
@@ -334,6 +349,21 @@
       "desc_en": "Only 40% of teams have token pipelines; AI impact on design systems still mixed across 147 practitioners.",
       "added": "2026-04-01",
       "tg_message_id": 374
+    },
+    {
+      "title": "AI in design systems: What's changing in 2026",
+      "url": "https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Элис Холладей: три сдвига в дизайн-системах 2026 — MCP-управление, дизайн-с-кодом и схемы компонентов.",
+      "desc_en": "Elyse Holladay on three shifts reshaping design systems in 2026: MCP steering, design-with-code, and component schemas.",
+      "date": "2026-03-25",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-08"
     },
     {
       "title": "Agents, Meet the Figma Canvas",
@@ -424,7 +454,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 560,
+      "stars": 562,
       "tg_message_id": 380
     },
     {
@@ -517,7 +547,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 73607,
+      "stars": 75235,
       "tg_message_id": 386
     },
     {
@@ -530,7 +560,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1404,
+      "stars": 1421,
       "tg_message_id": 387
     },
     {
@@ -603,7 +633,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 60208,
+      "stars": 61057,
       "tg_message_id": 392
     },
     {
@@ -648,7 +678,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 212,
+      "stars": 214,
       "tg_message_id": 395
     },
     {
@@ -774,7 +804,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 10709,
+      "stars": 10801,
       "tg_message_id": 403
     },
     {
@@ -791,7 +821,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 50
+      "stars": 54
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -807,7 +837,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6274,
+      "stars": 6277,
       "tg_message_id": 404
     },
     {
