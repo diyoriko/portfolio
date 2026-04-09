@@ -83,21 +83,6 @@
   </url>
 
   <url>
-    <loc>https://diyor.design/projects/hunter</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter" />
-    <lastmod>2026-03-20</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://diyor.design/en/projects/hunter</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/hunter" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/hunter" />
-    <lastmod>2026-04-04</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
     <loc>https://diyor.design/projects/enxt</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://diyor.design/projects/enxt" />
     <xhtml:link rel="alternate" hreflang="en" href="https://diyor.design/en/projects/enxt" />
