@@ -391,7 +391,7 @@ function initBurger() {
 function initDynamicFavicon() {
   const colors = {
     flora: '#f48fb1', enxt: '#1976d2', teletype: '#4caf50', skysmart: '#ff9800',
-    osme: '#9c27b0', sami: '#222', hunter: '#222', vedic: '#ca4f7d',
+    osme: '#9c27b0', sami: '#222', vedic: '#ca4f7d',
     qlean: '#00bcd4', prosto: '#ff5722', kombo: '#795548',
     'singularity-hub': '#3f51b5', 'singularity-words': '#3f51b5'
   };
@@ -414,12 +414,12 @@ function initTerminal() {
 
   /* Project map for "open" command */
   const projectMap = {
-    teletype: 'teletype', sami: 'sami', vedic: 'vedic', hunter: 'hunter',
+    teletype: 'teletype', sami: 'sami', vedic: 'vedic',
     enxt: 'enxt', skysmart: 'skysmart', osme: 'osme', flora: 'flora',
     qlean: 'qlean', prosto: 'prosto', kombo: 'kombo', appteka: 'appteka',
     hse: 'hse', 'singularity-hub': 'singularity-hub', 'singularity-words': 'singularity-words',
     /* RU aliases */
-    телетайп: 'teletype', сами: 'sami', ловец: 'hunter', просто: 'prosto', комбо: 'kombo',
+    телетайп: 'teletype', сами: 'sami', просто: 'prosto', комбо: 'kombo',
   };
 
   /* Fortune quotes */
@@ -463,8 +463,8 @@ function initTerminal() {
       ? 'projects\ncontact\nskills\nabout\nopen <проект>    перейти к кейсу\nls -la           файловая система\ngit log          последние коммиты\nradar            что меняет дизайн\nneofetch         системная инфо\nfortune          цитата о дизайне\nsudo\nrm -rf /\nmatrix'
       : 'projects\ncontact\nskills\nabout\nopen <project>   go to case\nls -la           file system\ngit log          recent commits\nradar            design × AI feed\nneofetch         system info\nfortune          design quote\nsudo\nrm -rf /\nmatrix',
     projects: () => isRu
-      ? 'Телетайп · Сами · Jyomi · Ловец · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
-      : 'Teletype · Sami · Jyomi · Hunter · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
+      ? 'Телетайп · Сами · Jyomi · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Просто · Комбо'
+      : 'Teletype · Sami · Jyomi · ENXT · Skysmart · Osme · Flora Delivery · Qlean · Prosto · Kombo',
     contact: () => 'telegram: @diyoriko\nemail: diyor.khakimov@gmail.com\nlinkedin: /in/diyoriko',
     skills: () =>
       'Design:  Product, Brand, UI/UX, Packaging, Print\nCode:    TypeScript, AI Agents, Bots, Automation',
