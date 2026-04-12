@@ -65,6 +65,133 @@
   },
   "items": [
     {
+      "title": "State of Prototyping: Spring 2026",
+      "url": "https://survey.uxtools.co/spring-2026",
+      "type": "research",
+      "tag": "process",
+      "desc_ru": "Опрос 1478 дизайнеров: Claude — #2 инструмент после Figma, 59% создали AI-инструмент самостоятельно.",
+      "desc_en": "Survey of 1,478 designers: Claude is #2 weekly tool after Figma; 59% built their own AI tool in 6 months.",
+      "date": "2026-04-10",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 8,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-11",
+      "tg_message_id": 420
+    },
+    {
+      "title": "Redesigning Workflows for AI",
+      "url": "https://www.uxtigers.com/post/workflow-redesign",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Команды, переосмыслившие весь воркфлоу под AI, зарабатывают больше, чем использующие AI точечно.",
+      "desc_en": "Teams that redesigned entire workflows around AI outperformed those using AI for isolated tasks.",
+      "date": "2026-04-10",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-12",
+      "tg_message_id": 422
+    },
+    {
+      "title": "AI Interaction Atlas — Open Source AI UX Reference",
+      "url": "https://ai-interaction.com/",
+      "type": "tool",
+      "tag": "process",
+      "desc_ru": "Открытая библиотека 100+ UX-паттернов для продуктов с ИИ — примеры, визуальные схемы, компоненты.",
+      "desc_en": "Open-source reference with 100+ patterns, visual examples, and reusable components for designing AI experiences.",
+      "date": "2026-04-07",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 15,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-08",
+      "tg_message_id": 415
+    },
+    {
+      "title": "The new era of UX — Jenny Wen on designing Claude at Anthropic",
+      "url": "https://www.youtube.com/watch?v=b2RNduOpZ_Q",
+      "type": "talk",
+      "tag": "process",
+      "desc_ru": "Дизайнер Anthropic — о том, как проектируется сам Claude: и AI-модель, и пользовательский продукт.",
+      "desc_en": "Anthropic's Jenny Wen on designing Claude — both the AI model behavior and the user-facing product.",
+      "date": "2026-04-07",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 28,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-09",
+      "tg_message_id": 417
+    },
+    {
+      "title": "Identifying Necessary Transparency Moments In Agentic AI (Part 1)",
+      "url": "https://www.smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Фреймворк из 4 инструментов для определения, когда агентный AI должен объяснять свои действия пользователю.",
+      "desc_en": "Four-tool framework for mapping agentic AI decision points to the right transparency moments for user trust.",
+      "date": "2026-04-07",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 14,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-10",
+      "tg_message_id": 419
+    },
+    {
+      "title": "Should Designers 'Code'?",
+      "url": "https://lukew.com/ff/entry.asp?2147",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Люк Вроблевски: AI-агенты впервые за десять лет делают участие дизайнеров в production-коде практичным.",
+      "desc_en": "Luke Wroblewski: AI coding agents have reopened production code for designers after a decade away.",
+      "date": "2026-04-07",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-11",
+      "tg_message_id": 421
+    },
+    {
+      "title": "ShadCN Themer — Theme Browser and Builder for shadcn/ui",
+      "url": "https://shadcnthemer.com",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Инструмент для просмотра и создания тем shadcn/ui с настройкой цветов и шрифтов — без регистрации.",
+      "desc_en": "Browse and create shadcn/ui themes with customizable colors and fonts — free, no sign-up.",
+      "date": "2026-04-07",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 2,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-12",
+      "tg_message_id": 423
+    },
+    {
+      "title": "How Uber Built an Agentic System to Automate Design Specs in Minutes",
+      "url": "https://www.uber.com/blog/automate-design-specs/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "uSpec от Uber: Cursor + Figma Console MCP читает Figma-ссылку компонента и за минуты генерирует полную спецификацию — анатомию, API, токены, доступность. Раньше это занимало недели.",
+      "desc_en": "Uber's uSpec: Cursor IDE + Figma Console MCP reads a component's Figma link and auto-generates complete anatomy, API tables, token mappings, and accessibility specs — from weeks to minutes.",
+      "date": "2026-04-06",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-08"
+    },
+    {
       "title": "Storybook MCP with Dominic Nguyen",
       "url": "https://bradfrost.com/blog/post/storybook-mcp-with-dominic-nguyen/",
       "type": "article",
@@ -108,8 +235,23 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 14722,
+      "stars": 15236,
       "tg_message_id": 361
+    },
+    {
+      "title": "Build With More Context in Figma Make: Kits and Attachments",
+      "url": "https://www.figma.com/blog/introducing-make-kits-and-make-attachments/",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "Make Kits: упаковываете компоненты, npm-пакеты и правила — Figma Make строит прототипы из production-компонентов. Attachments добавляют PDF, markdown, код или бренд-гайды прямо в промпт.",
+      "desc_en": "Make Kits package components, npm packages, and usage guidelines so Figma Make starts every prototype from production-aligned components. Attachments add PDFs, markdown, code, or brand files directly to any Make prompt.",
+      "date": "2026-04-02",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-08"
     },
     {
       "title": "Superpowers — agentic skills framework for Claude Code",
@@ -121,7 +263,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 140376,
+      "stars": 147502,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -158,8 +300,24 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 33016,
+      "stars": 44342,
       "tg_message_id": 364
+    },
+    {
+      "title": "The approval interface",
+      "url": "https://carlsz.dev/posts/approval-interface",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Практические паттерны для UI подтверждения действий AI-агентов — как сохранить контроль человека в масштабе.",
+      "desc_en": "Practical UX patterns for AI agent approval flows — keeping humans in the loop as orchestration scales.",
+      "date": "2026-04-01",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-09",
+      "tg_message_id": 418
     },
     {
       "title": "Building a Figma-Driven MCP Production Pipeline",
@@ -249,7 +407,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14209,
+      "stars": 14280,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -282,7 +440,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4429,
+      "stars": 4481,
       "tg_message_id": 370
     },
     {
@@ -331,7 +489,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2133,
+      "stars": 2334,
       "tg_message_id": 373
     },
     {
@@ -454,7 +612,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 562,
+      "stars": 564,
       "tg_message_id": 380
     },
     {
@@ -534,6 +692,22 @@
       "tg_message_id": 385
     },
     {
+      "title": "Motion × Figma Make — Code-Grade Animations in Figma Sites",
+      "url": "https://motion.dev/docs/figma",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "Motion.dev теперь работает внутри Figma Make и Figma Sites — анимации без отдельного редактора кода.",
+      "desc_en": "Motion.dev animations now run inside Figma Make and Figma Sites, no separate code editor required.",
+      "date": "2026-03-15",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-08",
+      "tg_message_id": 416
+    },
+    {
       "title": "Agency Agents — 193 Specialized AI Agent Personas for Design, Engineering, and Marketing",
       "url": "https://github.com/msitarzewski/agency-agents",
       "type": "skill",
@@ -547,7 +721,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 75235,
+      "stars": 78522,
       "tg_message_id": 386
     },
     {
@@ -560,7 +734,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1421,
+      "stars": 1458,
       "tg_message_id": 387
     },
     {
@@ -633,7 +807,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 61057,
+      "stars": 63219,
       "tg_message_id": 392
     },
     {
@@ -678,7 +852,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 214,
+      "stars": 217,
       "tg_message_id": 395
     },
     {
@@ -804,7 +978,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 10801,
+      "stars": 11050,
       "tg_message_id": 403
     },
     {
@@ -821,7 +995,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 54
+      "stars": 61
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -837,7 +1011,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6277,
+      "stars": 6290,
       "tg_message_id": 404
     },
     {
