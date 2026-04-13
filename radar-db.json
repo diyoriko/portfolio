@@ -97,6 +97,21 @@
       "tg_message_id": 422
     },
     {
+      "title": "Agents Are the Most Honest Reviewers Your Design System Will Ever Have",
+      "url": "https://blog.murphytrueman.com/agents-are-the-most-honest-reviewers-your-design-system-will-ever-have/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Как AI-агенты выявляют несоответствия в дизайн-системе точнее, чем ревью вручную — практический опыт.",
+      "desc_en": "How AI agents surface design system inconsistencies more reliably than manual review — a practitioner's account.",
+      "date": "2026-04-08",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-13"
+    },
+    {
       "title": "AI Interaction Atlas — Open Source AI UX Reference",
       "url": "https://ai-interaction.com/",
       "type": "tool",
@@ -235,7 +250,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 15236,
+      "stars": 15432,
       "tg_message_id": 361
     },
     {
@@ -263,7 +278,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 147502,
+      "stars": 149079,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -300,7 +315,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 44342,
+      "stars": 46774,
       "tg_message_id": 364
     },
     {
@@ -407,7 +422,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14280,
+      "stars": 14298,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -440,7 +455,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4481,
+      "stars": 4494,
       "tg_message_id": 370
     },
     {
@@ -489,7 +504,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2334,
+      "stars": 2392,
       "tg_message_id": 373
     },
     {
@@ -612,7 +627,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 564,
+      "stars": 566,
       "tg_message_id": 380
     },
     {
@@ -721,7 +736,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 78522,
+      "stars": 79072,
       "tg_message_id": 386
     },
     {
@@ -734,7 +749,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1458,
+      "stars": 1466,
       "tg_message_id": 387
     },
     {
@@ -807,7 +822,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 63219,
+      "stars": 63924,
       "tg_message_id": 392
     },
     {
@@ -852,7 +867,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 217,
+      "stars": 219,
       "tg_message_id": 395
     },
     {
@@ -961,7 +976,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 59,
+      "stars": 60,
       "tg_message_id": 402
     },
     {
@@ -978,7 +993,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11050,
+      "stars": 11145,
       "tg_message_id": 403
     },
     {
@@ -995,7 +1010,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 61
+      "stars": 63
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1011,7 +1026,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6290,
+      "stars": 6289,
       "tg_message_id": 404
     },
     {
