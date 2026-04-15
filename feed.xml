@@ -6,7 +6,103 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 08 Apr 2026 10:15:11 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Apr 2026 08:49:51 +0000</lastBuildDate>
+  <item>
+    <title>Squash and Stretch: Bringing SVG Icons to Life</title>
+    <link>https://www.joshwcomeau.com/animation/squash-and-stretch/</link>
+    <description>Interactive guide applying squash-and-stretch to SVG icons using CSS path() transitions and the Motion library.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.joshwcomeau.com/animation/squash-and-stretch/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>8 Tips for Writing Agent Skills</title>
+    <link>https://www.philschmid.de/agent-skills-tips</link>
+    <description>Practical tips for writing effective agent skills: descriptions, lean instructions, testing, and when to retire them.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.philschmid.de/agent-skills-tips</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>State of Prototyping: Spring 2026</title>
+    <link>https://survey.uxtools.co/spring-2026</link>
+    <description>Survey of 1,478 designers: Claude is #2 weekly tool after Figma; 59% built their own AI tool in 6 months.</description>
+    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://survey.uxtools.co/spring-2026</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Redesigning Workflows for AI</title>
+    <link>https://www.uxtigers.com/post/workflow-redesign</link>
+    <description>Teams that redesigned entire workflows around AI outperformed those using AI for isolated tasks.</description>
+    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.uxtigers.com/post/workflow-redesign</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Handmade Designs: The New Trust Signal</title>
+    <link>https://www.nngroup.com/articles/handmade-designs/</link>
+    <description>NNGroup: AI-fatigued users now read handmade aesthetics as a trust signal, which shifts how to frame design quality.</description>
+    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/handmade-designs/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Agents Are the Most Honest Reviewers Your Design System Will Ever Have</title>
+    <link>https://blog.murphytrueman.com/agents-are-the-most-honest-reviewers-your-design-system-will-ever-have/</link>
+    <description>How AI agents surface design system inconsistencies more reliably than manual review — a practitioner's account.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/agents-are-the-most-honest-reviewers-your-design-system-will-ever-have/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>AI Interaction Atlas — Open Source AI UX Reference</title>
+    <link>https://ai-interaction.com/</link>
+    <description>Open-source reference with 100+ patterns, visual examples, and reusable components for designing AI experiences.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://ai-interaction.com/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>The new era of UX — Jenny Wen on designing Claude at Anthropic</title>
+    <link>https://www.youtube.com/watch?v=b2RNduOpZ_Q</link>
+    <description>Anthropic's Jenny Wen on designing Claude — both the AI model behavior and the user-facing product.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.youtube.com/watch?v=b2RNduOpZ_Q</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Identifying Necessary Transparency Moments In Agentic AI (Part 1)</title>
+    <link>https://www.smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/</link>
+    <description>Four-tool framework for mapping agentic AI decision points to the right transparency moments for user trust.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Should Designers 'Code'?</title>
+    <link>https://lukew.com/ff/entry.asp?2147</link>
+    <description>Luke Wroblewski: AI coding agents have reopened production code for designers after a decade away.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://lukew.com/ff/entry.asp?2147</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>ShadCN Themer — Theme Browser and Builder for shadcn/ui</title>
+    <link>https://shadcnthemer.com</link>
+    <description>Browse and create shadcn/ui themes with customizable colors and fonts — free, no sign-up.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://shadcnthemer.com</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>How Uber Built an Agentic System to Automate Design Specs in Minutes</title>
+    <link>https://www.uber.com/blog/automate-design-specs/</link>
+    <description>Uber's uSpec: Cursor IDE + Figma Console MCP reads a component's Figma link and auto-generates complete anatomy, API tables, token mappings, and accessibility specs — from weeks to minutes.</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.uber.com/blog/automate-design-specs/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>Storybook MCP with Dominic Nguyen</title>
     <link>https://bradfrost.com/blog/post/storybook-mcp-with-dominic-nguyen/</link>
@@ -30,6 +126,14 @@
     <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/VoltAgent/awesome-agent-skills</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>Build With More Context in Figma Make: Kits and Attachments</title>
+    <link>https://www.figma.com/blog/introducing-make-kits-and-make-attachments/</link>
+    <description>Make Kits package components, npm packages, and usage guidelines so Figma Make starts every prototype from production-aligned components. Attachments add PDFs, markdown, code, or brand files directly to any Make prompt.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/introducing-make-kits-and-make-attachments/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Superpowers — agentic skills framework for Claude Code</title>
@@ -56,116 +160,12 @@
     <category>Design Systems</category>
   </item>
   <item>
-    <title>Building a Figma-Driven MCP Production Pipeline</title>
-    <link>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</link>
-    <description>Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Agentic AI, Design Systems &amp; Figma: A Practical Guide</title>
-    <link>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</link>
-    <description>Six concrete steps to make Figma components AI-agent-ready: tokens, prop matching, states, slots, Code Connect.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>What Your Components Look Like as Data</title>
-    <link>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</link>
-    <description>How Figma design decisions become machine-readable data for AI tools, and why this changes how you should structure components.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Designers, You're Not at the Kids' Table Anymore</title>
-    <link>https://southleft.com/insights/design-systems/designers-youre-not-at-the-kids-table-anymore/</link>
-    <description>AI tools + MCP + structured design systems now let designers contribute production code without traditional programming skills.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://southleft.com/insights/design-systems/designers-youre-not-at-the-kids-table-anymore/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Your Ticket Is a Prompt</title>
-    <link>https://dheer.co/tickets-are-prompts/</link>
-    <description>Atomic tickets harm agents: how to rewrite task descriptions for agentic workflows.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://dheer.co/tickets-are-prompts/</guid>
+    <title>The approval interface</title>
+    <link>https://carlsz.dev/posts/approval-interface</link>
+    <description>Practical UX patterns for AI agent approval flows — keeping humans in the loop as orchestration scales.</description>
+    <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://carlsz.dev/posts/approval-interface</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Figma-Context-MCP — Figma layout context for AI coding agents</title>
-    <link>https://github.com/GLips/Figma-Context-MCP</link>
-    <description>MCP server that simplifies Figma API responses so AI agents generate more accurate code.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/GLips/Figma-Context-MCP</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>GenUI vs. Vibe Coding: Who's Designing?</title>
-    <link>https://www.nngroup.com/articles/genui-vs-vibe/</link>
-    <description>NNGroup defines the split: GenUI is AI deciding to build UI; vibe coding is users asking for it. Each requires a different quality bar.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/genui-vs-vibe/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>interface-design</title>
-    <link>https://github.com/Dammyjay93/interface-design</link>
-    <description>Claude Code skill that enforces UI consistency — reads design principles, applies patterns, explains design choices before each component.</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Dammyjay93/interface-design</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>State of the Designer 2026: Designers Are Leaning Into the Messy Middle</title>
-    <link>https://www.figma.com/blog/state-of-the-designer-2026/</link>
-    <description>906 designers surveyed: 89% say AI makes them faster; 73% of hiring managers now require AI tool proficiency.</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/state-of-the-designer-2026/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>I Built a Design Team Out of AI Agents</title>
-    <link>https://marieclairedean.substack.com/p/i-built-a-design-team-out-of-ai-agents</link>
-    <description>Designpowers: 10 specialist agents covering the full design process from Discovery to Ship.</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://marieclairedean.substack.com/p/i-built-a-design-team-out-of-ai-agents</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>harness — Meta-skill that designs domain-specific agent teams for Claude Code</title>
-    <link>https://github.com/revfactory/harness</link>
-    <description>Claude Code meta-skill that decomposes a project into specialized agent teams and auto-generates their supporting skills.</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/revfactory/harness</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Design Systems Report 2026</title>
-    <link>https://report.zeroheight.com/</link>
-    <description>Only 40% of teams have token pipelines; AI impact on design systems still mixed across 147 practitioners.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://report.zeroheight.com/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>AI in design systems: What's changing in 2026</title>
-    <link>https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/</link>
-    <description>Elyse Holladay on three shifts reshaping design systems in 2026: MCP steering, design-with-code, and component schemas.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Agents, Meet the Figma Canvas</title>
-    <link>https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</link>
-    <description>Agents write to canvas via MCP server. Design system quality now directly determines output quality.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
