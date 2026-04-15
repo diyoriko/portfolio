@@ -6,23 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 15 Apr 2026 08:49:51 +0000</lastBuildDate>
-  <item>
-    <title>Squash and Stretch: Bringing SVG Icons to Life</title>
-    <link>https://www.joshwcomeau.com/animation/squash-and-stretch/</link>
-    <description>Interactive guide applying squash-and-stretch to SVG icons using CSS path() transitions and the Motion library.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.joshwcomeau.com/animation/squash-and-stretch/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>8 Tips for Writing Agent Skills</title>
-    <link>https://www.philschmid.de/agent-skills-tips</link>
-    <description>Practical tips for writing effective agent skills: descriptions, lean instructions, testing, and when to retire them.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.philschmid.de/agent-skills-tips</guid>
-    <category>Tools</category>
-  </item>
+  <lastBuildDate>Mon, 13 Apr 2026 07:26:01 +0000</lastBuildDate>
   <item>
     <title>State of Prototyping: Spring 2026</title>
     <link>https://survey.uxtools.co/spring-2026</link>
@@ -37,14 +21,6 @@
     <description>Teams that redesigned entire workflows around AI outperformed those using AI for isolated tasks.</description>
     <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://www.uxtigers.com/post/workflow-redesign</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Handmade Designs: The New Trust Signal</title>
-    <link>https://www.nngroup.com/articles/handmade-designs/</link>
-    <description>NNGroup: AI-fatigued users now read handmade aesthetics as a trust signal, which shifts how to frame design quality.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/handmade-designs/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -166,6 +142,30 @@
     <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://carlsz.dev/posts/approval-interface</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Building a Figma-Driven MCP Production Pipeline</title>
+    <link>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</link>
+    <description>Practitioner guide to a production Figma MCP pipeline: IDE config, tool call sequencing, and automation rules.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.francescatabor.com/articles/2026/3/31/building-a-figma-driven-mcp-production-pipeline</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Agentic AI, Design Systems &amp; Figma: A Practical Guide</title>
+    <link>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</link>
+    <description>Six concrete steps to make Figma components AI-agent-ready: tokens, prop matching, states, slots, Code Connect.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://christinevallaure.substack.com/p/agentic-ai-design-systems-and-figma</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>What Your Components Look Like as Data</title>
+    <link>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</link>
+    <description>How Figma design decisions become machine-readable data for AI tools, and why this changes how you should structure components.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/what-your-components-look-like-as-data/</guid>
+    <category>Design Systems</category>
   </item>
 </channel>
 </rss>

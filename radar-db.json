@@ -65,38 +65,6 @@
   },
   "items": [
     {
-      "title": "Squash and Stretch: Bringing SVG Icons to Life",
-      "url": "https://www.joshwcomeau.com/animation/squash-and-stretch/",
-      "type": "article",
-      "tag": "design + code",
-      "desc_ru": "Интерактивный гайд: принцип squash & stretch для SVG-иконок через CSS path() и библиотеку Motion.",
-      "desc_en": "Interactive guide applying squash-and-stretch to SVG icons using CSS path() transitions and the Motion library.",
-      "date": "2026-04-13",
-      "priority": 2,
-      "score": 8,
-      "reading_time": 15,
-      "difficulty": "intermediate",
-      "has_demo": true,
-      "added": "2026-04-15",
-      "tg_message_id": 426
-    },
-    {
-      "title": "8 Tips for Writing Agent Skills",
-      "url": "https://www.philschmid.de/agent-skills-tips",
-      "type": "article",
-      "tag": "tools",
-      "desc_ru": "Практический гайд: структура описания, лаконичные инструкции, тестирование и когда навык стоит удалить.",
-      "desc_en": "Practical tips for writing effective agent skills: descriptions, lean instructions, testing, and when to retire them.",
-      "date": "2026-04-13",
-      "priority": 2,
-      "score": 6,
-      "reading_time": 7,
-      "difficulty": "intermediate",
-      "has_demo": false,
-      "added": "2026-04-15",
-      "tg_message_id": 428
-    },
-    {
       "title": "State of Prototyping: Spring 2026",
       "url": "https://survey.uxtools.co/spring-2026",
       "type": "research",
@@ -129,22 +97,6 @@
       "tg_message_id": 422
     },
     {
-      "title": "Handmade Designs: The New Trust Signal",
-      "url": "https://www.nngroup.com/articles/handmade-designs/",
-      "type": "article",
-      "tag": "process",
-      "desc_ru": "NNGroup: пользователи с AI-усталостью воспринимают «рукотворную» эстетику как сигнал доверия к продукту.",
-      "desc_en": "NNGroup: AI-fatigued users now read handmade aesthetics as a trust signal, which shifts how to frame design quality.",
-      "date": "2026-04-10",
-      "priority": 2,
-      "score": 7,
-      "reading_time": 8,
-      "difficulty": "beginner",
-      "has_demo": false,
-      "added": "2026-04-15",
-      "tg_message_id": 427
-    },
-    {
       "title": "Agents Are the Most Honest Reviewers Your Design System Will Ever Have",
       "url": "https://blog.murphytrueman.com/agents-are-the-most-honest-reviewers-your-design-system-will-ever-have/",
       "type": "article",
@@ -157,8 +109,7 @@
       "reading_time": 6,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-04-13",
-      "tg_message_id": 424
+      "added": "2026-04-13"
     },
     {
       "title": "AI Interaction Atlas — Open Source AI UX Reference",
@@ -299,7 +250,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 15783,
+      "stars": 15432,
       "tg_message_id": 361
     },
     {
@@ -327,7 +278,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 152981,
+      "stars": 149079,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -364,7 +315,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 51729,
+      "stars": 46774,
       "tg_message_id": 364
     },
     {
@@ -471,7 +422,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14353,
+      "stars": 14298,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -504,7 +455,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4524,
+      "stars": 4494,
       "tg_message_id": 370
     },
     {
@@ -553,7 +504,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2505,
+      "stars": 2392,
       "tg_message_id": 373
     },
     {
@@ -676,7 +627,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 570,
+      "stars": 566,
       "tg_message_id": 380
     },
     {
@@ -785,7 +736,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 80121,
+      "stars": 79072,
       "tg_message_id": 386
     },
     {
@@ -798,7 +749,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1491,
+      "stars": 1466,
       "tg_message_id": 387
     },
     {
@@ -871,7 +822,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 65178,
+      "stars": 63924,
       "tg_message_id": 392
     },
     {
@@ -916,7 +867,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 221,
+      "stars": 219,
       "tg_message_id": 395
     },
     {
@@ -1042,7 +993,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11290,
+      "stars": 11145,
       "tg_message_id": 403
     },
     {
@@ -1059,7 +1010,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 67
+      "stars": 63
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1075,7 +1026,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6294,
+      "stars": 6289,
       "tg_message_id": 404
     },
     {
