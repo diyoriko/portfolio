@@ -1259,7 +1259,7 @@ function initRadarFeed() {
       items.sort((a, b) => (b.date || b.added || '').localeCompare(a.date || a.added || ''));
 
       /* Build tag filter buttons from _meta */
-      const TAG_ORDER = ['figma×ai', 'design + code', 'tools', 'design systems', 'process', 'motion×ai', 'a11y×ai'];
+      const TAG_ORDER = ['figma×ai', 'design + code', 'skills', 'tools', 'design systems', 'process', 'motion×ai', 'a11y×ai'];
       const allTags = TAG_ORDER.filter(t => items.some(i => (i.tag || 'tools') === t));
       const allLabel = isRu ? 'все' : 'all';
 
