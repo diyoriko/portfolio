@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 15 Apr 2026 08:56:36 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 20 Apr 2026 08:34:28 +0000</lastBuildDate>
+  <item>
+    <title>One Developer, Two Dozen Agents, Zero Alignment</title>
+    <link>https://maggieappleton.com/zero-alignment</link>
+    <description>Maggie Appleton (GitHub Next): implementation is solved; alignment is now the bottleneck in multi-agent dev teams.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://maggieappleton.com/zero-alignment</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>design-extract — Extract Any Website's Complete Design System as a Claude Code Skill</title>
+    <link>https://github.com/Manavarya09/design-extract</link>
+    <description>Claude Code skill that crawls any site and extracts its full design system as tokens, Tailwind config, and CSS vars.</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Manavarya09/design-extract</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Squash and Stretch: Bringing SVG Icons to Life</title>
     <link>https://www.joshwcomeau.com/animation/squash-and-stretch/</link>
@@ -21,7 +37,7 @@
     <description>Practical tips for writing effective agent skills: descriptions, lean instructions, testing, and when to retire them.</description>
     <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://www.philschmid.de/agent-skills-tips</guid>
-    <category>Tools</category>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>State of Prototyping: Spring 2026</title>
@@ -125,7 +141,7 @@
     <description>13k-star catalog of 1,060+ agent skills from official teams including Figma, Anthropic, Vercel, and Stripe.</description>
     <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/VoltAgent/awesome-agent-skills</guid>
-    <category>Tools</category>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Build With More Context in Figma Make: Kits and Attachments</title>
@@ -141,7 +157,7 @@
     <description>Skills framework for Claude Code: brainstorming, planning, debugging — 131K stars.</description>
     <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/obra/superpowers</guid>
-    <category>Tools</category>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Cursor 3: Design Mode, Agents Window, and Parallel Execution</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://cursor.com/changelog</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>awesome-design-md — Brand Design Systems as DESIGN.md for AI Agents</title>
-    <link>https://github.com/VoltAgent/awesome-design-md</link>
-    <description>55 DESIGN.md files from Figma, Linear, Stripe — drop one in your project, AI builds matching brand UI.</description>
-    <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/VoltAgent/awesome-design-md</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>The approval interface</title>
-    <link>https://carlsz.dev/posts/approval-interface</link>
-    <description>Practical UX patterns for AI agent approval flows — keeping humans in the loop as orchestration scales.</description>
-    <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://carlsz.dev/posts/approval-interface</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>

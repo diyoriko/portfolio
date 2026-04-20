@@ -69,6 +69,37 @@
   },
   "items": [
     {
+      "title": "One Developer, Two Dozen Agents, Zero Alignment",
+      "url": "https://maggieappleton.com/zero-alignment",
+      "type": "talk",
+      "tag": "process",
+      "desc_ru": "Maggie Appleton (GitHub Next): реализация решена, новый боттлнек — выравнивание команды при работе с агентами.",
+      "desc_en": "Maggie Appleton (GitHub Next): implementation is solved; alignment is now the bottleneck in multi-agent dev teams.",
+      "date": "2026-04-19",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 20,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-20"
+    },
+    {
+      "title": "design-extract — Extract Any Website's Complete Design System as a Claude Code Skill",
+      "url": "https://github.com/Manavarya09/design-extract",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл Claude Code: снимает дизайн-систему любого сайта — токены W3C, Tailwind, CSS-переменные, WCAG-оценку.",
+      "desc_en": "Claude Code skill that crawls any site and extracts its full design system as tokens, Tailwind config, and CSS vars.",
+      "date": "2026-04-15",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "added": "2026-04-20",
+      "stars": 1107
+    },
+    {
       "title": "Squash and Stretch: Bringing SVG Icons to Life",
       "url": "https://www.joshwcomeau.com/animation/squash-and-stretch/",
       "type": "article",
@@ -303,7 +334,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 15783,
+      "stars": 16505,
       "tg_message_id": 361
     },
     {
@@ -331,7 +362,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 152981,
+      "stars": 160638,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -368,7 +399,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 51729,
+      "stars": 60851,
       "tg_message_id": 364
     },
     {
@@ -475,7 +506,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14353,
+      "stars": 14437,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -508,7 +539,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4524,
+      "stars": 4572,
       "tg_message_id": 370
     },
     {
@@ -557,7 +588,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2505,
+      "stars": 2695,
       "tg_message_id": 373
     },
     {
@@ -680,7 +711,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 570,
+      "stars": 576,
       "tg_message_id": 380
     },
     {
@@ -789,7 +820,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 80121,
+      "stars": 83762,
       "tg_message_id": 386
     },
     {
@@ -802,7 +833,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1491,
+      "stars": 1531,
       "tg_message_id": 387
     },
     {
@@ -875,7 +906,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 65178,
+      "stars": 67991,
       "tg_message_id": 392
     },
     {
@@ -920,7 +951,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 221,
+      "stars": 229,
       "tg_message_id": 395
     },
     {
@@ -1029,7 +1060,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 60,
+      "stars": 62,
       "tg_message_id": 402
     },
     {
@@ -1046,7 +1077,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11290,
+      "stars": 11519,
       "tg_message_id": 403
     },
     {
@@ -1063,7 +1094,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 67
+      "stars": 78
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1079,7 +1110,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6294,
+      "stars": 6311,
       "tg_message_id": 404
     },
     {
