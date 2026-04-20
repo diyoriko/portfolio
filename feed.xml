@@ -6,13 +6,21 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 20 Apr 2026 08:34:28 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 20 Apr 2026 08:57:40 +0000</lastBuildDate>
   <item>
     <title>One Developer, Two Dozen Agents, Zero Alignment</title>
     <link>https://maggieappleton.com/zero-alignment</link>
     <description>Maggie Appleton (GitHub Next): implementation is solved; alignment is now the bottleneck in multi-agent dev teams.</description>
     <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://maggieappleton.com/zero-alignment</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Your UX Skills Were Built for One Kind of Intelligence</title>
+    <link>https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world</link>
+    <description>UX is shifting to agent behavior design — five concrete techniques for delegation patterns, oversight, and control.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world</guid>
     <category>Process</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/obra/superpowers</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Cursor 3: Design Mode, Agents Window, and Parallel Execution</title>
-    <link>https://cursor.com/changelog</link>
-    <description>Cursor 3 ships Design Mode for annotating browser UI elements and an Agents Window for parallel cloud agent runs.</description>
-    <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://cursor.com/changelog</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>

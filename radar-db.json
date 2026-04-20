@@ -81,6 +81,22 @@
       "reading_time": 20,
       "difficulty": "intermediate",
       "has_demo": false,
+      "added": "2026-04-20",
+      "tg_message_id": 430
+    },
+    {
+      "title": "Your UX Skills Were Built for One Kind of Intelligence",
+      "url": "https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "UX переходит к дизайну поведения агентов: пять техник для делегирования, надзора и контроля.",
+      "desc_en": "UX is shifting to agent behavior design — five concrete techniques for delegation patterns, oversight, and control.",
+      "date": "2026-04-16",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
       "added": "2026-04-20"
     },
     {
@@ -97,7 +113,8 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 1107
+      "stars": 1109,
+      "tg_message_id": 429
     },
     {
       "title": "Squash and Stretch: Bringing SVG Icons to Life",
@@ -334,7 +351,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 16505,
+      "stars": 16508,
       "tg_message_id": 361
     },
     {
@@ -362,7 +379,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 160638,
+      "stars": 160679,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -399,7 +416,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 60851,
+      "stars": 60885,
       "tg_message_id": 364
     },
     {
@@ -506,7 +523,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14437,
+      "stars": 14438,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -588,7 +605,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2695,
+      "stars": 2696,
       "tg_message_id": 373
     },
     {
@@ -820,7 +837,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 83762,
+      "stars": 83770,
       "tg_message_id": 386
     },
     {
@@ -833,7 +850,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1531,
+      "stars": 1532,
       "tg_message_id": 387
     },
     {
@@ -906,7 +923,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 67991,
+      "stars": 67998,
       "tg_message_id": 392
     },
     {
@@ -1077,7 +1094,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11519,
+      "stars": 11520,
       "tg_message_id": 403
     },
     {
