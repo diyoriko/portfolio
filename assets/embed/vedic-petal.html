@@ -2,43 +2,107 @@
 <html>
 <head>
 <meta charset="utf-8">
+<title>Jyomi · Moon phases</title>
 <script src="embed-theme.js"></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { width: 100%; height: 100%; overflow: hidden; }
   body {
-    background: #faf5f0;
-    position: relative;
+    background: #0f0f10;
+    display: grid;
+    place-items: center;
   }
-  html[data-theme="dark"] body { background: #1a1015; }
-  .p {
-    position: absolute;
-    will-change: transform, top;
+  html[data-theme="light"] body { background: #faf5f0; }
+
+  .moon-wrap {
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    max-width: 70%;
+    max-height: 80%;
+    display: grid;
+    place-items: center;
   }
-  .p svg { display: block; }
-  .p1 { left: 35%; width: 48px; animation: fall1 5s cubic-bezier(.25,.1,.25,1) infinite; }
-  .p2 { left: 55%; width: 36px; animation: fall2 5s cubic-bezier(.25,.1,.25,1) 2.5s infinite backwards; opacity: 0.7; }
-  @keyframes fall1 {
-    0%   { top: -60px; transform: rotate(-10deg) translateX(0); }
-    15%  { transform: rotate(5deg) translateX(8px); }
-    30%  { transform: rotate(-15deg) translateX(-4px); }
-    50%  { transform: rotate(8deg) translateX(12px); }
-    70%  { transform: rotate(-8deg) translateX(-2px); }
-    85%  { transform: rotate(12deg) translateX(6px); }
-    100% { top: calc(100% + 10px); transform: rotate(-5deg) translateX(2px); }
-  }
-  @keyframes fall2 {
-    0%   { top: -50px; transform: rotate(12deg) translateX(0); }
-    20%  { transform: rotate(-6deg) translateX(-10px); }
-    40%  { transform: rotate(10deg) translateX(5px); }
-    60%  { transform: rotate(-10deg) translateX(-6px); }
-    80%  { transform: rotate(5deg) translateX(3px); }
-    100% { top: calc(100% + 10px); transform: rotate(-4deg) translateX(-2px); }
-  }
+  svg { width: 100%; height: 100%; display: block; overflow: visible; }
+
+  .disc        { fill: #2d2a28; }
+  .lit         { fill: #f0f0f0; opacity: 0.92; }
+  .rim         { fill: none; stroke: #f0f0f0; stroke-opacity: 0.18; stroke-width: 0.6; }
+
+  html[data-theme="light"] .disc { fill: #d8d8d8; }
+  html[data-theme="light"] .lit  { fill: #1a1015; opacity: 0.92; }
+  html[data-theme="light"] .rim  { stroke: #1a1015; stroke-opacity: 0.18; }
 </style>
 </head>
 <body>
-<div class="p p1"><svg viewBox="0 0 32 38"><path d="M16 3C16 3 8 11 7.5 19C7.2 24 10 28 14.5 28.5C19 29 22.5 25 22.5 20C22.5 12 16 3 16 3Z" fill="#CA4F7D" opacity=".9"/><path d="M15.5 7C15.5 7 14 14 13.5 20C13.2 24 14 27 14.5 28" stroke="#fff" stroke-width=".7" fill="none" opacity=".5" stroke-linecap="round"/><path d="M14 13C12.5 15 10.5 17 9 18.5" stroke="#fff" stroke-width=".5" fill="none" opacity=".35" stroke-linecap="round"/><path d="M13.8 18C12 20 10.5 22 10 23" stroke="#fff" stroke-width=".5" fill="none" opacity=".3" stroke-linecap="round"/><path d="M16 12C17.5 14 19.5 16 21 17" stroke="#fff" stroke-width=".5" fill="none" opacity=".35" stroke-linecap="round"/><path d="M15 17C17 19 19 21 20.5 22" stroke="#fff" stroke-width=".5" fill="none" opacity=".3" stroke-linecap="round"/></svg></div>
-<div class="p p2"><svg viewBox="0 0 32 38"><path d="M16 3C16 3 8 11 7.5 19C7.2 24 10 28 14.5 28.5C19 29 22.5 25 22.5 20C22.5 12 16 3 16 3Z" fill="#CA4F7D" opacity=".9"/><path d="M15.5 7C15.5 7 14 14 13.5 20C13.2 24 14 27 14.5 28" stroke="#fff" stroke-width=".7" fill="none" opacity=".5" stroke-linecap="round"/><path d="M14 13C12.5 15 10.5 17 9 18.5" stroke="#fff" stroke-width=".5" fill="none" opacity=".35" stroke-linecap="round"/><path d="M16 12C17.5 14 19.5 16 21 17" stroke="#fff" stroke-width=".5" fill="none" opacity=".35" stroke-linecap="round"/></svg></div>
+<div class="moon-wrap">
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <defs>
+      <filter id="moon-glow" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="2.4" result="b" />
+        <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <circle class="disc" cx="50" cy="50" r="36" />
+    <path id="moon-lit" class="lit" filter="url(#moon-glow)" d="" />
+    <circle class="rim" cx="50" cy="50" r="36" />
+  </svg>
+</div>
+<script>
+  /*
+   * Animates the Moon through its synodic cycle.
+   * Mirrors MoonWordmark.tsx terminator-arc math from Jyomi:
+   *   phase ∈ [0, 1) — 0 new moon, 0.25 first quarter, 0.5 full, 0.75 last quarter
+   *   illumination = (1 - cos(2π × phase)) / 2
+   *   tx = r × cos(2π × phase)  — terminator x-offset
+   *   waxing when phase < 0.5
+   *
+   * Cycle 12 s — slow enough to feel deliberate, not jittery.
+   */
+  (function () {
+    var path = document.getElementById('moon-lit');
+    var cx = 50, cy = 50, r = 36;
+    var CYCLE_MS = 12000;
+
+    function buildD(phase) {
+      var TWO_PI = Math.PI * 2;
+      var il = (1 - Math.cos(TWO_PI * phase)) / 2;
+      if (il < 0.005) return ''; // new moon — invisible
+      if (il > 0.995) {
+        // Full moon — emit a full disc as two arcs.
+        return 'M ' + cx + ' ' + (cy - r) +
+               ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy + r) +
+               ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy - r) + ' Z';
+      }
+      var tx  = r * Math.cos(TWO_PI * phase);
+      var atx = Math.abs(tx);
+      var wax = phase < 0.5;
+      if (wax) {
+        return 'M ' + cx + ' ' + (cy - r) +
+               ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy + r) +
+               ' A ' + atx + ' ' + r + ' 0 0 ' + (tx > 0 ? 0 : 1) + ' ' + cx + ' ' + (cy - r) + ' Z';
+      }
+      return 'M ' + cx + ' ' + (cy - r) +
+             ' A ' + r + ' ' + r + ' 0 0 0 ' + cx + ' ' + (cy + r) +
+             ' A ' + atx + ' ' + r + ' 0 0 ' + (tx > 0 ? 1 : 0) + ' ' + cx + ' ' + (cy - r) + ' Z';
+    }
+
+    var reduceMotion = window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (reduceMotion) {
+      // Show a fixed waxing-gibbous frame and stop.
+      path.setAttribute('d', buildD(0.35));
+      return;
+    }
+
+    var start = performance.now();
+    function tick(t) {
+      var phase = ((t - start) % CYCLE_MS) / CYCLE_MS;
+      path.setAttribute('d', buildD(phase));
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  })();
+</script>
 </body>
 </html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jyomi · Wordmark</title>
+<script src="embed-theme.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; }
+  body {
+    background: #0f0f10;
+    display: grid;
+    place-items: center;
+  }
+  html[data-theme="light"] body { background: #faf5f0; }
+
+  .wordmark {
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-weight: 600;
+    font-size: clamp(80px, 22vw, 320px);
+    letter-spacing: -0.035em;
+    color: #f0f0f0;
+    line-height: 1;
+    display: inline-flex;
+    align-items: baseline;
+    user-select: none;
+  }
+  html[data-theme="light"] .wordmark { color: #1a1015; }
+
+  .moon-o {
+    width: 0.55em;
+    height: 0.55em;
+    margin-bottom: 0.05em;
+    overflow: visible;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .disc { fill: #2d2a28; }
+  .lit  { fill: #f0f0f0; opacity: 0.92; }
+  html[data-theme="light"] .disc { fill: #d8d8d8; }
+  html[data-theme="light"] .lit  { fill: #1a1015; opacity: 0.92; }
+</style>
+</head>
+<body>
+<span class="wordmark" aria-label="Jyomi">
+  Jy<svg class="moon-o" viewBox="0 0 100 100" aria-hidden="true">
+    <defs>
+      <filter id="moon-glow" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="4" result="b" />
+        <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <circle class="disc" cx="50" cy="50" r="42" />
+    <path id="moon-lit" class="lit" filter="url(#moon-glow)" d="" />
+  </svg>mi
+</span>
+<script>
+  /*
+   * Live Moon phase for the wordmark "o".
+   * Mirrors MoonWordmark.tsx — the canonical Jyomi wordmark from the brand kit.
+   * Reference new moon: 2000-01-06 18:14 UTC. Synodic cycle: 29.530588853 days.
+   */
+  (function () {
+    var SYNODIC = 29.530588853 * 86400000;
+    var REF = Date.UTC(2000, 0, 6, 18, 14);
+    var phase = ((Date.now() - REF) % SYNODIC) / SYNODIC;
+    if (phase < 0) phase += 1;
+
+    var path = document.getElementById('moon-lit');
+    var cx = 50, cy = 50, r = 42;
+    var TWO_PI = Math.PI * 2;
+    var il = (1 - Math.cos(TWO_PI * phase)) / 2;
+    var d = '';
+    if (il < 0.005) {
+      d = '';
+    } else if (il > 0.995) {
+      d = 'M ' + cx + ' ' + (cy - r) +
+          ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy + r) +
+          ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy - r) + ' Z';
+    } else {
+      var tx  = r * Math.cos(TWO_PI * phase);
+      var atx = Math.abs(tx);
+      var wax = phase < 0.5;
+      d = wax
+        ? 'M ' + cx + ' ' + (cy - r) +
+          ' A ' + r + ' ' + r + ' 0 0 1 ' + cx + ' ' + (cy + r) +
+          ' A ' + atx + ' ' + r + ' 0 0 ' + (tx > 0 ? 0 : 1) + ' ' + cx + ' ' + (cy - r) + ' Z'
+        : 'M ' + cx + ' ' + (cy - r) +
+          ' A ' + r + ' ' + r + ' 0 0 0 ' + cx + ' ' + (cy + r) +
+          ' A ' + atx + ' ' + r + ' 0 0 ' + (tx > 0 ? 1 : 0) + ' ' + cx + ' ' + (cy - r) + ' Z';
+    }
+    path.setAttribute('d', d);
+  })();
+</script>
+</body>
+</html>
