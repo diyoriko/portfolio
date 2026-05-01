@@ -1,1 +1,48 @@
-/Users/diyoriko/.config/git/hooks/pre-push
+#!/usr/bin/env bash
+#
+# Global pre-push hook — rate-limits pushes to prevent GitHub bot detection.
+# Installed via: git config --global core.hooksPath ~/.config/git/hooks
+#
+# Override for emergencies: GIT_PUSH_NO_LIMIT=1 git push
+
+set -euo pipefail
+
+TIMESTAMP_FILE="$HOME/.git-push-timestamps"
+COOLDOWN_SECONDS=180  # 3 minutes
+
+# Allow emergency override
+if [[ "${GIT_PUSH_NO_LIMIT:-0}" == "1" ]]; then
+  echo "[pre-push] Rate limit bypassed (GIT_PUSH_NO_LIMIT=1)"
+  exit 0
+fi
+
+# Read last push timestamp
+if [[ -f "$TIMESTAMP_FILE" ]]; then
+  last_push=$(cat "$TIMESTAMP_FILE" 2>/dev/null || echo "0")
+  # Validate it's a number
+  if ! [[ "$last_push" =~ ^[0-9]+$ ]]; then
+    last_push=0
+  fi
+else
+  last_push=0
+fi
+
+now=$(date +%s)
+elapsed=$((now - last_push))
+
+if [[ $elapsed -lt $COOLDOWN_SECONDS ]]; then
+  remaining=$((COOLDOWN_SECONDS - elapsed))
+  echo ""
+  echo "  ⏳ Rate limit: wait $remaining more seconds before pushing"
+  echo "     (prevents GitHub bot detection)"
+  echo ""
+  echo "  Last push was ${elapsed}s ago. Cooldown is ${COOLDOWN_SECONDS}s."
+  echo "  Override: GIT_PUSH_NO_LIMIT=1 git push"
+  echo ""
+  exit 1
+fi
+
+# Record current push timestamp
+echo "$now" > "$TIMESTAMP_FILE"
+
+exit 0
