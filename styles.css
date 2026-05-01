@@ -24,44 +24,9 @@
    ============================================ */
    
    /* --- Fonts --- */
-   
+   /* DM Sans loaded via Google Fonts <link> in HTML <head>; preconnect there for perf. */
+
    @font-face {
-     font-family: 'Oceanic Grotesk';
-     src: url('assets/fonts/OceanicGrotesk-Regular.woff2') format('woff2'),
-     url('assets/fonts/OceanicGrotesk-Regular.otf') format('opentype');
-     font-weight: 400;
-     font-style: normal;
-     font-display: swap;
-    }
-    
-    @font-face {
-      font-family: 'Oceanic Grotesk';
-      src: url('assets/fonts/OceanicGrotesk-Medium.woff2') format('woff2'),
-      url('assets/fonts/OceanicGrotesk-Medium.otf') format('opentype');
-      font-weight: 500;
-      font-style: normal;
-      font-display: swap;
-    }
-    
-    @font-face {
-      font-family: 'Oceanic Grotesk';
-      src: url('assets/fonts/OceanicGrotesk-Bold.woff2') format('woff2'),
-      url('assets/fonts/OceanicGrotesk-Bold.otf') format('opentype');
-      font-weight: 700;
-      font-style: normal;
-      font-display: swap;
-    }
-    
-    @font-face {
-      font-family: 'Oceanic Grotesk';
-      src: url('assets/fonts/OceanicGrotesk-Extrabold.woff2') format('woff2'),
-      url('assets/fonts/OceanicGrotesk-Extrabold.otf') format('opentype');
-      font-weight: 800;
-      font-style: normal;
-      font-display: swap;
-    }
-    
-    @font-face {
       font-family: 'Cera Mono';
       src: url('assets/fonts/CeraMono-Regular.woff2') format('woff2'),
            url('assets/fonts/CeraMono-Regular.otf') format('opentype');
@@ -89,7 +54,7 @@
       --accent: #F8401C;
       --line: #000000;
       
-      --font-sans: 'Oceanic Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       --font-mono: 'Cera Mono', 'SF Mono', 'Fira Code', monospace;
       
       --selection-bg: #F8401C;
@@ -1398,6 +1363,35 @@ picture.case-img-phone img {
 .case-slideshow--dark .case-slideshow-track img {
   height: 100%;
   object-fit: contain;
+}
+
+/* Landings carousel — fixed-height viewport, each slide scrolls inside to reveal a full page */
+.case-slideshow--landings {
+  height: min(80vh, 760px);
+  background: #0f0f10;
+}
+
+.case-slideshow--landings .case-slideshow-track {
+  height: 100%;
+  align-items: stretch;
+}
+
+.case-slideshow--landings .case-slideshow-track picture {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  display: block;
+}
+
+.case-slideshow--landings .case-slideshow-track img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .case-slideshow-track {
