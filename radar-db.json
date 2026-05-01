@@ -69,6 +69,143 @@
   },
   "items": [
     {
+      "title": "garden-skills — Web Design, RAG & Image Generation Skills for Claude",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Коллекция скиллов от ConardLi: веб-дизайн, RAG и генерация изображений — 1291 звезда.",
+      "desc_en": "ConardLi's open-source Claude skill collection: web design, local RAG retrieval, and image generation.",
+      "date": "2026-04-25",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-26",
+      "stars": 1493,
+      "tg_message_id": 446
+    },
+    {
+      "title": "make-interfaces-feel-better — UI Polish Skill for Claude Code",
+      "url": "https://github.com/jakubkrehel/make-interfaces-feel-better",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл для Claude Code на основе статьи Якуба Крехела — 12 CSS-техник: text-wrap, концентрические радиусы, staggered-анимации.",
+      "desc_en": "Claude Code skill encoding Jakub Krehel's 12 interface polish techniques — text-wrap, concentric radius, icon animations.",
+      "date": "2026-04-23",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "added": "2026-04-24",
+      "stars": 667,
+      "tg_message_id": 439
+    },
+    {
+      "title": "open-codesign — Open-Source Local-First Claude Design Alternative",
+      "url": "https://github.com/OpenCoworkAI/open-codesign",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Опенсорс-альтернатива Claude Design: промпты → прототипы, слайды, PDF офлайн с любой AI-моделью.",
+      "desc_en": "Open-source, local-first Claude Design alternative. Converts prompts to prototypes, slides, and PDFs with any AI model.",
+      "date": "2026-04-23",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-27",
+      "stars": 2893
+    },
+    {
+      "title": "Accesstive — AI WCAG Audit with One-Click Code Fixes",
+      "url": "https://accesstive.com/access-ai-audit/",
+      "type": "tool",
+      "tag": "a11y×ai",
+      "desc_ru": "ИИ сканирует сайт на WCAG/ADA-нарушения в реальном времени и предлагает исправления кода одним кликом.",
+      "desc_en": "AI scans pages for WCAG and ADA violations in real time, suggests one-click code fixes, and exports compliance reports.",
+      "date": "2026-04-23",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-04-27"
+    },
+    {
+      "title": "web-design-skill — AI Web Pages from Functional to Stunning",
+      "url": "https://github.com/ConardLi/web-design-skill",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл от ConardLi превращает функциональные AI-страницы в визуально сильные интерфейсы.",
+      "desc_en": "ConardLi Claude Code skill upgrades AI-generated web pages from functional to visually polished.",
+      "date": "2026-04-21",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-24",
+      "stars": 1493,
+      "tg_message_id": 443
+    },
+    {
+      "title": "accessibility-scanner — GitHub Action for AI-Powered WCAG Fixes",
+      "url": "https://github.com/github/accessibility-scanner",
+      "type": "tool",
+      "tag": "a11y×ai",
+      "desc_ru": "Официальный GitHub Action (267★): сканирует WCAG-нарушения, создаёт issues и передаёт их Copilot для автоматических фиксов.",
+      "desc_en": "GitHub's official Action (267★): scans for WCAG violations, files issues, and auto-assigns them to Copilot for fix suggestions.",
+      "date": "2026-04-21",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-26",
+      "stars": 267,
+      "tg_message_id": 444
+    },
+    {
+      "title": "Mouth Coding",
+      "url": "https://bradfrost.com/blog/post/mouth-coding/",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Брэд Фрост строит сайт за час через разговор с AI вслух — новый паттерн совместного дизайна поверх дизайн-системы.",
+      "desc_en": "Brad Frost builds a full website in 1 hour via spoken conversation with AI, backed by a design system foundation.",
+      "date": "2026-04-20",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 8,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-24",
+      "tg_message_id": 438
+    },
+    {
+      "title": "Design System Archaeology",
+      "url": "https://blog.murphytrueman.com/design-system-archaeology/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Мёрфи Труман: принципы software archaeology помогают разобраться в недокументированных решениях дизайн-систем.",
+      "desc_en": "Murphy Trueman applies software archaeology to design systems — a method for decoding undocumented component decisions.",
+      "date": "2026-04-20",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-04-26",
+      "tg_message_id": 448
+    },
+    {
       "title": "One Developer, Two Dozen Agents, Zero Alignment",
       "url": "https://maggieappleton.com/zero-alignment",
       "type": "talk",
@@ -85,6 +222,22 @@
       "tg_message_id": 430
     },
     {
+      "title": "Introducing Claude Design",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Anthropic запустила Claude Design: прототипы и слайды из промпта, экспорт в HTML, handoff в Claude Code.",
+      "desc_en": "Anthropic launched Claude Design: generate prototypes and slides from prompts, export to HTML, hand off to Claude Code.",
+      "date": "2026-04-17",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-21",
+      "tg_message_id": 435
+    },
+    {
       "title": "Your UX Skills Were Built for One Kind of Intelligence",
       "url": "https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world",
       "type": "article",
@@ -97,7 +250,8 @@
       "reading_time": 6,
       "difficulty": "intermediate",
       "has_demo": false,
-      "added": "2026-04-20"
+      "added": "2026-04-20",
+      "tg_message_id": 432
     },
     {
       "title": "design-extract — Extract Any Website's Complete Design System as a Claude Code Skill",
@@ -113,8 +267,62 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 1109,
+      "stars": 1654,
       "tg_message_id": 429
+    },
+    {
+      "title": "guizang-ppt-skill — Magazine HTML Decks as a Claude Code Skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл генерирует горизонтальные HTML-слайды в стиле журнала: 10 лэйаутов, 5 тем, WebGL-фоны.",
+      "desc_en": "Skill generates horizontal magazine-style HTML decks: 10 layouts, 5 curated themes, WebGL hero backgrounds.",
+      "date": "2026-04-15",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "star_velocity": "783★/2h",
+      "added": "2026-04-24",
+      "stars": 3314,
+      "tg_message_id": 442
+    },
+    {
+      "title": "logo-generator-skill — SVG Logo & Showcase Generator for Claude Code",
+      "url": "https://github.com/op7418/logo-generator-skill",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл (776★) от op7418: генерирует 6+ SVG-вариантов логотипа и showcase-изображения через Gemini 3.1 Flash.",
+      "desc_en": "Skill (776★) by op7418: generates 6+ SVG logo variants plus professional showcase images via Gemini 3.1 Flash.",
+      "date": "2026-04-15",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-26",
+      "stars": 810,
+      "tg_message_id": 445
+    },
+    {
+      "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Claude Code скилл: 13 типов диаграмм (архитектура, флоучарт, sequence) в виде HTML+SVG без зависимостей.",
+      "desc_en": "Claude Code skill for 13 diagram types — architecture, flowchart, sequence — as self-contained HTML+SVG files.",
+      "date": "2026-04-14",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "added": "2026-04-21",
+      "stars": 1974,
+      "tg_message_id": 436
     },
     {
       "title": "Squash and Stretch: Bringing SVG Icons to Life",
@@ -147,6 +355,39 @@
       "has_demo": false,
       "added": "2026-04-15",
       "tg_message_id": 428
+    },
+    {
+      "title": "Vibe coding is accelerating the erosion of design authority",
+      "url": "https://newsletter.uxdesign.cc/p/vibe-coding-is-accelerating-the-erosion",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Тейшейра: вайб-кодинг передаёт дизайн-авторитет тому, кто пишет промпт, а не дизайнеру.",
+      "desc_en": "Fabricio Teixeira: vibe coding shifts design authority from designers to whoever writes the prompt.",
+      "date": "2026-04-13",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-04-26",
+      "tg_message_id": 447
+    },
+    {
+      "title": "Why AI Sucks at Front-End Development",
+      "url": "https://nerdy.dev/why-ai-sucks-at-front-end",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Адам Аргайл (Google Chrome) объясняет, почему AI проваливается на сложном CSS, состояниях компонентов и a11y.",
+      "desc_en": "Adam Argyle breaks down why AI fails at complex CSS, component states, and accessibility — with concrete failure modes.",
+      "date": "2026-04-12",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-21",
+      "tg_message_id": 437
     },
     {
       "title": "State of Prototyping: Spring 2026",
@@ -351,7 +592,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 16508,
+      "stars": 19047,
       "tg_message_id": 361
     },
     {
@@ -379,7 +620,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 160679,
+      "stars": 169276,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -416,7 +657,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 60885,
+      "stars": 66413,
       "tg_message_id": 364
     },
     {
@@ -434,6 +675,23 @@
       "has_demo": false,
       "added": "2026-04-09",
       "tg_message_id": 418
+    },
+    {
+      "title": "skills-best-practices — Professional Skill Writing Guide for AI Agents",
+      "url": "https://github.com/mgechev/skills-best-practices",
+      "type": "article",
+      "tag": "skills",
+      "desc_ru": "Руководство: структура SKILL.md, валидация через LLM, прогрессивное раскрытие и тестирование навыков агентов.",
+      "desc_en": "Guide for writing professional-grade agent skills: SKILL.md structure, LLM validation, progressive disclosure, and edge-case testing.",
+      "date": "2026-04-01",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-04-27",
+      "stars": 1846
     },
     {
       "title": "Building a Figma-Driven MCP Production Pipeline",
@@ -498,6 +756,23 @@
       "added": "2026-04-05"
     },
     {
+      "title": "The WebAIM Million 2026",
+      "url": "https://webaim.org/projects/million/",
+      "type": "research",
+      "tag": "a11y×ai",
+      "desc_ru": "95,9% главных страниц не проходят WCAG; отчёт прямо связывает рост ошибок с вайб-кодингом.",
+      "desc_en": "95.9% of homepages fail WCAG; report directly links rising failure rate to vibe coding and AI-generated markup.",
+      "date": "2026-03-30",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-04-24",
+      "tg_message_id": 441
+    },
+    {
       "title": "Your Ticket Is a Prompt",
       "url": "https://dheer.co/tickets-are-prompts/",
       "type": "article",
@@ -523,7 +798,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14438,
+      "stars": 14531,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -556,7 +831,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4572,
+      "stars": 4667,
       "tg_message_id": 370
     },
     {
@@ -605,7 +880,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2696,
+      "stars": 2930,
       "tg_message_id": 373
     },
     {
@@ -728,7 +1003,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 576,
+      "stars": 578,
       "tg_message_id": 380
     },
     {
@@ -837,7 +1112,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 83770,
+      "stars": 87614,
       "tg_message_id": 386
     },
     {
@@ -850,7 +1125,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1532,
+      "stars": 1579,
       "tg_message_id": 387
     },
     {
@@ -923,7 +1198,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 67998,
+      "stars": 71126,
       "tg_message_id": 392
     },
     {
@@ -968,7 +1243,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 229,
+      "stars": 247,
       "tg_message_id": 395
     },
     {
@@ -1064,6 +1339,23 @@
       "tg_message_id": 401
     },
     {
+      "title": "design-motion-principles — Motion Audit Skill Trained on Kowalski, Krehel & Tompkins",
+      "url": "https://github.com/kylezantos/design-motion-principles",
+      "type": "skill",
+      "tag": "motion×ai",
+      "desc_ru": "Скилл для Claude Code с аудитом анимаций в стиле трёх дизайнеров: сдержанность Ковальски, полировка Крехела, экспериментализм Томпкинса.",
+      "desc_en": "Claude Code skill for motion audits in three modes: Kowalski restraint, Krehel polish, Tompkins experimentation.",
+      "date": "2026-02-06",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "added": "2026-04-24",
+      "stars": 335,
+      "tg_message_id": 440
+    },
+    {
       "title": "mcp-design-system-extractor — Storybook MCP Server for AI Assistants",
       "url": "https://github.com/freema/mcp-design-system-extractor",
       "type": "tool",
@@ -1077,7 +1369,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 62,
+      "stars": 63,
       "tg_message_id": 402
     },
     {
@@ -1094,7 +1386,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11520,
+      "stars": 11841,
       "tg_message_id": 403
     },
     {
@@ -1111,7 +1403,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 78
+      "stars": 91
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1127,7 +1419,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6311,
+      "stars": 6344,
       "tg_message_id": 404
     },
     {
