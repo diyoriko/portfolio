@@ -69,6 +69,74 @@
   },
   "items": [
     {
+      "title": "Refero Styles — Brand Design Library for AI Agents",
+      "url": "https://styles.refero.design",
+      "type": "tool",
+      "tag": "design systems",
+      "desc_ru": "Поиск брендовых стилей по настроению или URL — экспортирует DESIGN.md с токенами и компонентами для AI-агентов.",
+      "desc_en": "Search brand design references by mood or URL; exports machine-readable DESIGN.md with tokens for AI agents.",
+      "date": "2026-05-07",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-08",
+      "tg_message_id": 470
+    },
+    {
+      "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+      "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Методология Perplexity: прогрессивная загрузка контекста, копилка граблей, сначала пишешь тесты — потом скилл.",
+      "desc_en": "Perplexity's methodology: progressive context loading, gotchas flywheel, write evals before writing the skill body.",
+      "date": "2026-05-05",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "tg_message_id": 465
+    },
+    {
+      "title": "Agent Skills — Engineering Discipline in AI Workflows",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "type": "article",
+      "tag": "skills",
+      "desc_ru": "Адди Osmani: 6-фазный фреймворк для AI-агентов — slash-команды, таблицы против рационализации, доказательства верификации.",
+      "desc_en": "Addy Osmani's checklist framework for AI agents: 6 lifecycle phases, slash commands, anti-rationalization tables to enforce discipline.",
+      "date": "2026-05-03",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-06",
+      "tg_message_id": 467
+    },
+    {
+      "title": "Draftsmanship",
+      "url": "https://www.proofofconcept.pub/p/draftsmanship",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "David Hoang: фото руки до промпта даёт AI лучший input, чем текст — скетч как спецификация.",
+      "desc_en": "Photograph your sketch and use it as AI input — David Hoang's method for cleaner output from Claude and v0.",
+      "date": "2026-05-03",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-06",
+      "tg_message_id": 468
+    },
+    {
       "title": "Testing agents on design systems",
       "url": "https://pjonori.blog/posts/testing-agents-on-design-systems/",
       "type": "article",
@@ -116,7 +184,8 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "expanded_window": false,
-      "added": "2026-05-04"
+      "added": "2026-05-04",
+      "tg_message_id": 462
     },
     {
       "title": "Scroll-Driven Animations",
@@ -149,7 +218,25 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "expanded_window": false,
-      "added": "2026-05-04"
+      "added": "2026-05-04",
+      "tg_message_id": 463
+    },
+    {
+      "title": "Component.md — Machine-Readable Component Specs with uSpec 2.0",
+      "url": "https://ianguisard.substack.com/p/componentmd",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Формат Component.md + open-source uSpec 2.0 генерирует AI-читаемые спеки компонентов из Figma-файла.",
+      "desc_en": "Component.md format plus open-source uSpec 2.0 generates AI-readable component specs from Figma for code agents.",
+      "date": "2026-04-29",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "tg_message_id": 466
     },
     {
       "title": "Agents with Taste",
@@ -183,8 +270,26 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 89,
+      "stars": 119,
       "tg_message_id": 457
+    },
+    {
+      "title": "agent-skills — Production-Grade Engineering Skills for Claude Code and Cursor",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "28k-звёздный набор из 20 воркфлоу от Addy Osmani (Google): spec → deploy для Claude Code и Cursor, MIT.",
+      "desc_en": "28k-star set of 20 production workflows by Addy Osmani (Google): spec through deploy for Claude Code and Cursor.",
+      "date": "2026-04-28",
+      "priority": 1,
+      "score": 10,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "stars": 38657,
+      "tg_message_id": 464
     },
     {
       "title": "design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File",
@@ -201,8 +306,25 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 68,
+      "stars": 80,
       "tg_message_id": 454
+    },
+    {
+      "title": "Claude Design Is Not a Design Systems Tool. That's Okay.",
+      "url": "https://southleft.substack.com/p/claude-design-is-not-a-design-systems",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Southleft: Claude Design создаёт inline-теги вместо реальных компонентов. Для production — Figma + MCP.",
+      "desc_en": "Claude Design generates inline elements, not real components — use Figma + MCP for production design system work.",
+      "date": "2026-04-27",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-06",
+      "tg_message_id": 469
     },
     {
       "title": "Design Systems Are Now Inference Systems",
@@ -218,7 +340,8 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "expanded_window": false,
-      "added": "2026-05-04"
+      "added": "2026-05-04",
+      "tg_message_id": 461
     },
     {
       "title": "garden-skills — Web Design, RAG & Image Generation Skills for Claude",
@@ -235,7 +358,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 2208,
+      "stars": 3787,
       "tg_message_id": 446
     },
     {
@@ -253,7 +376,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 1629,
+      "stars": 1994,
       "tg_message_id": 458
     },
     {
@@ -270,7 +393,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 732,
+      "stars": 777,
       "tg_message_id": 439
     },
     {
@@ -288,7 +411,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 4430,
+      "stars": 5476,
       "tg_message_id": 449
     },
     {
@@ -323,7 +446,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 2208,
+      "stars": 3787,
       "tg_message_id": 443
     },
     {
@@ -341,7 +464,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 271,
+      "stars": 274,
       "tg_message_id": 444
     },
     {
@@ -410,6 +533,23 @@
       "tg_message_id": 435
     },
     {
+      "title": "Output Isn't Design",
+      "url": "https://linear.app/now/output-isn-t-design",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Карри Саарайнен (Linear): AI генерирует убедительные интерфейсы, но пропускает понимание проблемы.",
+      "desc_en": "Karri Saarinen (Linear): AI produces plausible interfaces but skips the problem-fit thinking that makes design real.",
+      "date": "2026-04-17",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-08",
+      "tg_message_id": 471
+    },
+    {
       "title": "Your UX Skills Were Built for One Kind of Intelligence",
       "url": "https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world",
       "type": "article",
@@ -439,7 +579,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2030,
+      "stars": 2433,
       "tg_message_id": 429
     },
     {
@@ -458,7 +598,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 4780,
+      "stars": 6379,
       "tg_message_id": 442
     },
     {
@@ -476,7 +616,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 960,
+      "stars": 1008,
       "tg_message_id": 445
     },
     {
@@ -493,7 +633,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2177,
+      "stars": 2297,
       "tg_message_id": 436
     },
     {
@@ -641,7 +781,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 19935,
+      "stars": 36374,
       "tg_message_id": 455
     },
     {
@@ -799,7 +939,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 20099,
+      "stars": 21147,
       "tg_message_id": 361
     },
     {
@@ -827,7 +967,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 177490,
+      "stars": 185504,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -864,7 +1004,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 70434,
+      "stars": 75035,
       "tg_message_id": 364
     },
     {
@@ -898,7 +1038,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1867,
+      "stars": 1876,
       "tg_message_id": 450
     },
     {
@@ -1006,7 +1146,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14604,
+      "stars": 14698,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1039,7 +1179,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4736,
+      "stars": 4791,
       "tg_message_id": 370
     },
     {
@@ -1088,7 +1228,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3098,
+      "stars": 3241,
       "tg_message_id": 373
     },
     {
@@ -1211,7 +1351,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 584,
+      "stars": 590,
       "tg_message_id": 380
     },
     {
@@ -1320,7 +1460,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 91550,
+      "stars": 95882,
       "tg_message_id": 386
     },
     {
@@ -1333,7 +1473,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1616,
+      "stars": 1658,
       "tg_message_id": 387
     },
     {
@@ -1406,7 +1546,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 73628,
+      "stars": 76539,
       "tg_message_id": 392
     },
     {
@@ -1451,7 +1591,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 259,
+      "stars": 267,
       "tg_message_id": 395
     },
     {
@@ -1560,7 +1700,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 378,
+      "stars": 416,
       "tg_message_id": 440
     },
     {
@@ -1577,7 +1717,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 63,
+      "stars": 64,
       "tg_message_id": 402
     },
     {
@@ -1594,7 +1734,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12092,
+      "stars": 12361,
       "tg_message_id": 403
     },
     {
@@ -1611,7 +1751,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 102
+      "stars": 213
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1627,7 +1767,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6379,
+      "stars": 6443,
       "tg_message_id": 404
     },
     {
