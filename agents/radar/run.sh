@@ -270,6 +270,18 @@ if [ -z "$REPORT" ]; then
   exit 1
 fi
 
+# SECURITY: if Claude CLI returned an auth/API error, the response can echo back
+# the malformed Authorization header (i.e. the OAuth token itself). Never persist
+# such content — abort early and notify admin without writing a file.
+if echo "$REPORT" | head -c 200 | grep -qE "^(API Error:|Authentication error|Invalid API key|Bearer )"; then
+  echo "$(date -Iseconds) API error response detected — refusing to persist (would leak credentials)"
+  if [ -n "$NOTIFY_BOT_TOKEN" ]; then
+    curl -s -X POST "https://api.telegram.org/bot${NOTIFY_BOT_TOKEN}/sendMessage" \
+      -d "chat_id=${ADMIN_CHAT_ID}" --data-urlencode "text=📡 Radar — $DATE — API error (likely token issue). Run aborted to prevent credential leak. Check workflow logs (which are auto-redacted by GitHub) and rotate the OAuth token." > /dev/null 2>&1 || true
+  fi
+  exit 1
+fi
+
 echo "$REPORT" > "$REPORT_FILE"
 echo "$(date -Iseconds) Report saved$([ "$TIMED_OUT" -eq 1 ] && echo " (partial — timeout recovery)")"
 
