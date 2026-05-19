@@ -1,0 +1,67 @@
+name: Radar Agent
+
+on:
+  schedule:
+    # 06:30 MSK (UTC+3) = 03:30 UTC daily
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - full
+          - scout-only
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run Radar
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RADAR_BOT_TOKEN: ${{ secrets.RADAR_BOT_TOKEN }}
+          NOTIFY_BOT_TOKEN: ${{ secrets.NOTIFY_BOT_TOKEN }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          ADMIN_TELEGRAM_ID: '85013206'
+          RADAR_CHANNEL_ID: '@diyoriko_radar'
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: |
+          chmod +x agents/radar/*.sh
+          bash agents/radar/run.sh "${{ inputs.mode || 'auto' }}"
+
+      - name: Upload stream log if failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-debug-${{ github.run_id }}
+          path: |
+            /tmp/tmp.*.stream.jsonl
+            agents/radar/reports/*-stream-debug.jsonl
+          retention-days: 7
+          if-no-files-found: ignore

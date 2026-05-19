@@ -69,6 +69,349 @@
   },
   "items": [
     {
+      "title": "Your Design System Is Fragmenting into Agent Files",
+      "url": "https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Дизайн-системы распадаются на агентные файлы — DESIGN.md, SKILL.md и контекстные конфиги вместо единой библиотеки.",
+      "desc_en": "Design systems are splitting into agent-readable files: DESIGN.md, SKILL.md, and agent configs instead of a single library.",
+      "date": "2026-05-15",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-19",
+      "tg_message_id": 472
+    },
+    {
+      "title": "Context-Based Design Systems, Revisited",
+      "url": "https://southleft.substack.com/p/context-based-design-systems-revisited",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Качество контекста, который вы передаёте агентам, напрямую определяет точность генерации из вашей дизайн-системы.",
+      "desc_en": "The quality of context provided upstream to AI agents directly determines how accurately your design system is implemented.",
+      "date": "2026-05-13",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-19",
+      "tg_message_id": 474
+    },
+    {
+      "title": "Refero Styles — Brand Design Library for AI Agents",
+      "url": "https://styles.refero.design",
+      "type": "tool",
+      "tag": "design systems",
+      "desc_ru": "Поиск брендовых стилей по настроению или URL — экспортирует DESIGN.md с токенами и компонентами для AI-агентов.",
+      "desc_en": "Search brand design references by mood or URL; exports machine-readable DESIGN.md with tokens for AI agents.",
+      "date": "2026-05-07",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-08",
+      "tg_message_id": 470
+    },
+    {
+      "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+      "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Методология Perplexity: прогрессивная загрузка контекста, копилка граблей, сначала пишешь тесты — потом скилл.",
+      "desc_en": "Perplexity's methodology: progressive context loading, gotchas flywheel, write evals before writing the skill body.",
+      "date": "2026-05-05",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "tg_message_id": 465
+    },
+    {
+      "title": "Agent Skills — Engineering Discipline in AI Workflows",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "type": "article",
+      "tag": "skills",
+      "desc_ru": "Адди Osmani: 6-фазный фреймворк для AI-агентов — slash-команды, таблицы против рационализации, доказательства верификации.",
+      "desc_en": "Addy Osmani's checklist framework for AI agents: 6 lifecycle phases, slash commands, anti-rationalization tables to enforce discipline.",
+      "date": "2026-05-03",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-06",
+      "tg_message_id": 467
+    },
+    {
+      "title": "Draftsmanship",
+      "url": "https://www.proofofconcept.pub/p/draftsmanship",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "David Hoang: фото руки до промпта даёт AI лучший input, чем текст — скетч как спецификация.",
+      "desc_en": "Photograph your sketch and use it as AI input — David Hoang's method for cleaner output from Claude and v0.",
+      "date": "2026-05-03",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-06",
+      "tg_message_id": 468
+    },
+    {
+      "title": "Testing agents on design systems",
+      "url": "https://pjonori.blog/posts/testing-agents-on-design-systems/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "ПиДжей Онори запустил агентов на двух версиях дизайн-системы: документация важнее MCP, результаты воспроизводимы.",
+      "desc_en": "PJ Onori built a testing framework pitting agents against two design system versions: documentation beats MCP context dumps.",
+      "date": "2026-05-01",
+      "priority": 1,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "advanced",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-03",
+      "tg_message_id": 459
+    },
+    {
+      "title": "html-anything — Agentic HTML Editor with 75 Skills",
+      "url": "https://github.com/nexu-io/html-anything",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Агентный HTML-редактор с 75 скиллами и 9 форматами вывода: от лэйаутов и постеров до прототипов и DataFeed.",
+      "desc_en": "Agentic HTML editor from the open-design team: 75 skills, 9 output formats from magazine layouts to prototypes, ships to HTML/PNG/PDF.",
+      "date": "2026-05-01",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-19",
+      "stars": 3676,
+      "tg_message_id": 473
+    },
+    {
+      "title": "Designing stable interfaces for streaming content",
+      "url": "https://www.smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Паттерны для стриминг-интерфейсов: управление скроллом, стабильность лэйаута, буферизация DOM — с кодом.",
+      "desc_en": "Patterns for streaming UIs: controlled auto-scroll, layout stability, and batched DOM updates — with code examples.",
+      "date": "2026-04-30",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 10,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-03",
+      "tg_message_id": 460
+    },
+    {
+      "title": "Agentic Experience Design Is a New Discipline",
+      "url": "https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Мари-Клер Дин: агентный UX-дизайн формируется как отдельная профессиональная дисциплина.",
+      "desc_en": "Marie-Claire Dean: agentic experience design is crystallizing as a distinct professional discipline.",
+      "date": "2026-04-30",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-04",
+      "tg_message_id": 462
+    },
+    {
+      "title": "Rive AI Agent Is Now Free for All Users",
+      "url": "https://www.rive.app/blog/free-rive-ai-agent",
+      "type": "article",
+      "tag": "motion×ai",
+      "desc_ru": "Rive открыл AI-агент для всех пользователей, включая бесплатный план — вопросы и генерация кода анимаций.",
+      "desc_en": "Rive's AI agent for answering questions and generating animation code inside the editor is now accessible on the free plan.",
+      "date": "2026-04-30",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-19"
+    },
+    {
+      "title": "Scroll-Driven Animations",
+      "url": "https://www.joshwcomeau.com/animation/scroll-driven-animations/",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Исчерпывающее руководство по CSS Animation Timeline API — скролл-анимации без JavaScript на живых демо.",
+      "desc_en": "Deep-dive guide to CSS Animation Timeline API: scroll-triggered animations without any JavaScript, with interactive demos.",
+      "date": "2026-04-29",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 25,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-01",
+      "tg_message_id": 456
+    },
+    {
+      "title": "The accessibility problem isn't design. It's engineering.",
+      "url": "https://gbbns.co/journal/accessibility-problem-isnt-design/",
+      "type": "article",
+      "tag": "a11y×ai",
+      "desc_ru": "Практик: ИИ-код без контекста — главная причина кризиса доступности, а не дизайн-решения.",
+      "desc_en": "Practitioner: AI-generated code without accessibility context is the primary driver of failures, not design decisions.",
+      "date": "2026-04-29",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-04",
+      "tg_message_id": 463
+    },
+    {
+      "title": "Component.md — Machine-Readable Component Specs with uSpec 2.0",
+      "url": "https://ianguisard.substack.com/p/componentmd",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Формат Component.md + open-source uSpec 2.0 генерирует AI-читаемые спеки компонентов из Figma-файла.",
+      "desc_en": "Component.md format plus open-source uSpec 2.0 generates AI-readable component specs from Figma for code agents.",
+      "date": "2026-04-29",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "tg_message_id": 466
+    },
+    {
+      "title": "Agents with Taste",
+      "url": "https://emilkowal.ski/ui/agents-with-taste",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "Эмил Ковальски: как упаковать easing-кривые, тайминги анимаций и типографику в SKILL.md, чтобы AI-агент воспроизводил твой вкус.",
+      "desc_en": "Emil Kowalski: how to encode easing curves, animation timing, and typography rules into SKILL.md files that AI agents can reliably follow.",
+      "date": "2026-04-28",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-30",
+      "tg_message_id": 452
+    },
+    {
+      "title": "A11Y.md — Accessibility Context System for AI-Driven Development",
+      "url": "https://github.com/fecarrico/A11Y.md",
+      "type": "skill",
+      "tag": "a11y×ai",
+      "desc_ru": "Файл контекста в стиле DESIGN.md: добавляет правила WCAG в AI-агент, чтобы доступный код был дефолтом.",
+      "desc_en": "DESIGN.md-style context file that installs WCAG rules into AI coding agents so accessible HTML is the default output.",
+      "date": "2026-04-28",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-01",
+      "stars": 134,
+      "tg_message_id": 457
+    },
+    {
+      "title": "agent-skills — Production-Grade Engineering Skills for Claude Code and Cursor",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "28k-звёздный набор из 20 воркфлоу от Addy Osmani (Google): spec → deploy для Claude Code и Cursor, MIT.",
+      "desc_en": "28k-star set of 20 production workflows by Addy Osmani (Google): spec through deploy for Claude Code and Cursor.",
+      "date": "2026-04-28",
+      "priority": 1,
+      "score": 10,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-05",
+      "stars": 43603,
+      "tg_message_id": 464
+    },
+    {
+      "title": "design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File",
+      "url": "https://github.com/bergside/design-md-figma",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "Figma-плагин автоматически извлекает токены и стили и генерирует DESIGN.md и SKILL.md для Claude Code, Cursor и Codex.",
+      "desc_en": "Figma plugin that extracts tokens and local styles from any file and outputs DESIGN.md and SKILL.md for Claude Code, Cursor, and Codex.",
+      "date": "2026-04-27",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-04-30",
+      "stars": 86,
+      "tg_message_id": 454
+    },
+    {
+      "title": "Claude Design Is Not a Design Systems Tool. That's Okay.",
+      "url": "https://southleft.substack.com/p/claude-design-is-not-a-design-systems",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Southleft: Claude Design создаёт inline-теги вместо реальных компонентов. Для production — Figma + MCP.",
+      "desc_en": "Claude Design generates inline elements, not real components — use Figma + MCP for production design system work.",
+      "date": "2026-04-27",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-06",
+      "tg_message_id": 469
+    },
+    {
+      "title": "Design Systems Are Now Inference Systems",
+      "url": "https://www.proofofconcept.pub/p/design-systems-are-now-inference",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Дэвид Хоанг: токены должны хранить намерение, а не только значения — иначе система не работает с ИИ-агентами.",
+      "desc_en": "David Hoang: tokens need semantic intent, not just values — or your design system won't serve AI agents.",
+      "date": "2026-04-26",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 9,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-04",
+      "tg_message_id": 461
+    },
+    {
       "title": "garden-skills — Web Design, RAG & Image Generation Skills for Claude",
       "url": "https://github.com/ConardLi/garden-skills",
       "type": "skill",
@@ -83,8 +426,26 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1493,
+      "stars": 5298,
       "tg_message_id": 446
+    },
+    {
+      "title": "agent-sprite-forge — AI Sprite Sheet & Animated GIF Generator from Prompts",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "type": "skill",
+      "tag": "motion×ai",
+      "desc_ru": "Agent skill: генерирует 2D-спрайты, анимированные GIF и прозрачные PNG-кадры из текстового промпта.",
+      "desc_en": "Agent skill that generates 2D sprite sheets, animated GIFs, and transparent PNG frames directly from text prompts.",
+      "date": "2026-04-25",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-01",
+      "stars": 2221,
+      "tg_message_id": 458
     },
     {
       "title": "make-interfaces-feel-better — UI Polish Skill for Claude Code",
@@ -100,7 +461,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 667,
+      "stars": 830,
       "tg_message_id": 439
     },
     {
@@ -118,7 +479,8 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 2893
+      "stars": 6136,
+      "tg_message_id": 449
     },
     {
       "title": "Accesstive — AI WCAG Audit with One-Click Code Fixes",
@@ -134,7 +496,8 @@
       "difficulty": "beginner",
       "has_demo": true,
       "expanded_window": true,
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "tg_message_id": 451
     },
     {
       "title": "web-design-skill — AI Web Pages from Functional to Stunning",
@@ -151,7 +514,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 1493,
+      "stars": 5298,
       "tg_message_id": 443
     },
     {
@@ -169,7 +532,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 267,
+      "stars": 279,
       "tg_message_id": 444
     },
     {
@@ -238,6 +601,23 @@
       "tg_message_id": 435
     },
     {
+      "title": "Output Isn't Design",
+      "url": "https://linear.app/now/output-isn-t-design",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Карри Саарайнен (Linear): AI генерирует убедительные интерфейсы, но пропускает понимание проблемы.",
+      "desc_en": "Karri Saarinen (Linear): AI produces plausible interfaces but skips the problem-fit thinking that makes design real.",
+      "date": "2026-04-17",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-08",
+      "tg_message_id": 471
+    },
+    {
       "title": "Your UX Skills Were Built for One Kind of Intelligence",
       "url": "https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world",
       "type": "article",
@@ -267,7 +647,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 1654,
+      "stars": 2704,
       "tg_message_id": 429
     },
     {
@@ -286,7 +666,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 3314,
+      "stars": 10105,
       "tg_message_id": 442
     },
     {
@@ -304,7 +684,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 810,
+      "stars": 1046,
       "tg_message_id": 445
     },
     {
@@ -321,7 +701,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 1974,
+      "stars": 2412,
       "tg_message_id": 436
     },
     {
@@ -372,6 +752,23 @@
       "expanded_window": true,
       "added": "2026-04-26",
       "tg_message_id": 447
+    },
+    {
+      "title": "AI-generated UI is inaccessible by default",
+      "url": "https://frontendmasters.com/blog/ai-generated-ui-is-inaccessible-by-default/",
+      "type": "article",
+      "tag": "a11y×ai",
+      "desc_ru": "Пять уровней защиты от недоступного AI-кода: промпты, ESLint, axe-core, CI и готовые доступные компоненты (Headless UI, Radix).",
+      "desc_en": "Five-layer system—prompt constraints, ESLint, axe-core, CI, accessible libs—to make AI-generated React components actually pass WCAG.",
+      "date": "2026-04-13",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-04-30",
+      "tg_message_id": 453
     },
     {
       "title": "Why AI Sucks at Front-End Development",
@@ -436,6 +833,24 @@
       "has_demo": false,
       "added": "2026-04-15",
       "tg_message_id": 427
+    },
+    {
+      "title": "open-design — Local-First Claude Design Alternative with 71 Design Systems",
+      "url": "https://github.com/nexu-io/open-design",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Open-source альтернатива Claude Design: 71 дизайн-система, HTML/PDF/PPTX, поддержка Claude Code, Cursor, Codex, Gemini CLI.",
+      "desc_en": "Open-source Claude Design alternative: 71 design systems, sandboxed preview, HTML/PDF/PPTX export, runs on Claude Code and Cursor.",
+      "date": "2026-04-10",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-01",
+      "stars": 45997,
+      "tg_message_id": 455
     },
     {
       "title": "Agents Are the Most Honest Reviewers Your Design System Will Ever Have",
@@ -592,7 +1007,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 19047,
+      "stars": 22273,
       "tg_message_id": 361
     },
     {
@@ -620,7 +1035,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 169276,
+      "stars": 197612,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -657,7 +1072,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 66413,
+      "stars": 81144,
       "tg_message_id": 364
     },
     {
@@ -691,7 +1106,8 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1846
+      "stars": 1899,
+      "tg_message_id": 450
     },
     {
       "title": "Building a Figma-Driven MCP Production Pipeline",
@@ -798,7 +1214,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14531,
+      "stars": 14800,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -831,7 +1247,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4667,
+      "stars": 4856,
       "tg_message_id": 370
     },
     {
@@ -880,7 +1296,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 2930,
+      "stars": 3441,
       "tg_message_id": 373
     },
     {
@@ -1003,7 +1419,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 578,
+      "stars": 596,
       "tg_message_id": 380
     },
     {
@@ -1112,7 +1528,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 87614,
+      "stars": 100600,
       "tg_message_id": 386
     },
     {
@@ -1125,7 +1541,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1579,
+      "stars": 1694,
       "tg_message_id": 387
     },
     {
@@ -1198,7 +1614,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 71126,
+      "stars": 80376,
       "tg_message_id": 392
     },
     {
@@ -1243,7 +1659,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 247,
+      "stars": 275,
       "tg_message_id": 395
     },
     {
@@ -1352,7 +1768,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 335,
+      "stars": 467,
       "tg_message_id": 440
     },
     {
@@ -1369,7 +1785,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 63,
+      "stars": 64,
       "tg_message_id": 402
     },
     {
@@ -1386,7 +1802,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 11841,
+      "stars": 12687,
       "tg_message_id": 403
     },
     {
@@ -1403,7 +1819,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 91
+      "stars": 291
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1419,7 +1835,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6344,
+      "stars": 6479,
       "tg_message_id": 404
     },
     {

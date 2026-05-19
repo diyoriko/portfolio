@@ -6,166 +6,166 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 27 Apr 2026 11:46:19 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 19 May 2026 11:07:44 +0000</lastBuildDate>
   <item>
-    <title>garden-skills — Web Design, RAG &amp; Image Generation Skills for Claude</title>
-    <link>https://github.com/ConardLi/garden-skills</link>
-    <description>ConardLi's open-source Claude skill collection: web design, local RAG retrieval, and image generation.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ConardLi/garden-skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>make-interfaces-feel-better — UI Polish Skill for Claude Code</title>
-    <link>https://github.com/jakubkrehel/make-interfaces-feel-better</link>
-    <description>Claude Code skill encoding Jakub Krehel's 12 interface polish techniques — text-wrap, concentric radius, icon animations.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/jakubkrehel/make-interfaces-feel-better</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>open-codesign — Open-Source Local-First Claude Design Alternative</title>
-    <link>https://github.com/OpenCoworkAI/open-codesign</link>
-    <description>Open-source, local-first Claude Design alternative. Converts prompts to prototypes, slides, and PDFs with any AI model.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/OpenCoworkAI/open-codesign</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Accesstive — AI WCAG Audit with One-Click Code Fixes</title>
-    <link>https://accesstive.com/access-ai-audit/</link>
-    <description>AI scans pages for WCAG and ADA violations in real time, suggests one-click code fixes, and exports compliance reports.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://accesstive.com/access-ai-audit/</guid>
-    <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>web-design-skill — AI Web Pages from Functional to Stunning</title>
-    <link>https://github.com/ConardLi/web-design-skill</link>
-    <description>ConardLi Claude Code skill upgrades AI-generated web pages from functional to visually polished.</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ConardLi/web-design-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>accessibility-scanner — GitHub Action for AI-Powered WCAG Fixes</title>
-    <link>https://github.com/github/accessibility-scanner</link>
-    <description>GitHub's official Action (267★): scans for WCAG violations, files issues, and auto-assigns them to Copilot for fix suggestions.</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/github/accessibility-scanner</guid>
-    <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>Mouth Coding</title>
-    <link>https://bradfrost.com/blog/post/mouth-coding/</link>
-    <description>Brad Frost builds a full website in 1 hour via spoken conversation with AI, backed by a design system foundation.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://bradfrost.com/blog/post/mouth-coding/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Design System Archaeology</title>
-    <link>https://blog.murphytrueman.com/design-system-archaeology/</link>
-    <description>Murphy Trueman applies software archaeology to design systems — a method for decoding undocumented component decisions.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/design-system-archaeology/</guid>
+    <title>Your Design System Is Fragmenting into Agent Files</title>
+    <link>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</link>
+    <description>Design systems are splitting into agent-readable files: DESIGN.md, SKILL.md, and agent configs instead of a single library.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</guid>
     <category>Design Systems</category>
   </item>
   <item>
-    <title>One Developer, Two Dozen Agents, Zero Alignment</title>
-    <link>https://maggieappleton.com/zero-alignment</link>
-    <description>Maggie Appleton (GitHub Next): implementation is solved; alignment is now the bottleneck in multi-agent dev teams.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://maggieappleton.com/zero-alignment</guid>
+    <title>Context-Based Design Systems, Revisited</title>
+    <link>https://southleft.substack.com/p/context-based-design-systems-revisited</link>
+    <description>The quality of context provided upstream to AI agents directly determines how accurately your design system is implemented.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://southleft.substack.com/p/context-based-design-systems-revisited</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Refero Styles — Brand Design Library for AI Agents</title>
+    <link>https://styles.refero.design</link>
+    <description>Search brand design references by mood or URL; exports machine-readable DESIGN.md with tokens for AI agents.</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://styles.refero.design</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Designing, Refining, and Maintaining Agent Skills at Perplexity</title>
+    <link>https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity</link>
+    <description>Perplexity's methodology: progressive context loading, gotchas flywheel, write evals before writing the skill body.</description>
+    <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity</guid>
     <category>Process</category>
   </item>
   <item>
-    <title>Introducing Claude Design</title>
-    <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
-    <description>Anthropic launched Claude Design: generate prototypes and slides from prompts, export to HTML, hand off to Claude Code.</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
+    <title>Agent Skills — Engineering Discipline in AI Workflows</title>
+    <link>https://addyosmani.com/blog/agent-skills/</link>
+    <description>Addy Osmani's checklist framework for AI agents: 6 lifecycle phases, slash commands, anti-rationalization tables to enforce discipline.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://addyosmani.com/blog/agent-skills/</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Draftsmanship</title>
+    <link>https://www.proofofconcept.pub/p/draftsmanship</link>
+    <description>Photograph your sketch and use it as AI input — David Hoang's method for cleaner output from Claude and v0.</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.proofofconcept.pub/p/draftsmanship</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Testing agents on design systems</title>
+    <link>https://pjonori.blog/posts/testing-agents-on-design-systems/</link>
+    <description>PJ Onori built a testing framework pitting agents against two design system versions: documentation beats MCP context dumps.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://pjonori.blog/posts/testing-agents-on-design-systems/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>html-anything — Agentic HTML Editor with 75 Skills</title>
+    <link>https://github.com/nexu-io/html-anything</link>
+    <description>Agentic HTML editor from the open-design team: 75 skills, 9 output formats from magazine layouts to prototypes, ships to HTML/PNG/PDF.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/nexu-io/html-anything</guid>
     <category>Tools</category>
   </item>
   <item>
-    <title>Your UX Skills Were Built for One Kind of Intelligence</title>
-    <link>https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world</link>
-    <description>UX is shifting to agent behavior design — five concrete techniques for delegation patterns, oversight, and control.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://marieclairedean.substack.com/p/your-ux-skills-were-built-for-a-world</guid>
+    <title>Designing stable interfaces for streaming content</title>
+    <link>https://www.smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/</link>
+    <description>Patterns for streaming UIs: controlled auto-scroll, layout stability, and batched DOM updates — with code examples.</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Agentic Experience Design Is a New Discipline</title>
+    <link>https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new</link>
+    <description>Marie-Claire Dean: agentic experience design is crystallizing as a distinct professional discipline.</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new</guid>
     <category>Process</category>
   </item>
   <item>
-    <title>design-extract — Extract Any Website's Complete Design System as a Claude Code Skill</title>
-    <link>https://github.com/Manavarya09/design-extract</link>
-    <description>Claude Code skill that crawls any site and extracts its full design system as tokens, Tailwind config, and CSS vars.</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Manavarya09/design-extract</guid>
-    <category>Skills &amp; Plugins</category>
+    <title>Rive AI Agent Is Now Free for All Users</title>
+    <link>https://www.rive.app/blog/free-rive-ai-agent</link>
+    <description>Rive's AI agent for answering questions and generating animation code inside the editor is now accessible on the free plan.</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.rive.app/blog/free-rive-ai-agent</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
-    <title>guizang-ppt-skill — Magazine HTML Decks as a Claude Code Skill</title>
-    <link>https://github.com/op7418/guizang-ppt-skill</link>
-    <description>Skill generates horizontal magazine-style HTML decks: 10 layouts, 5 curated themes, WebGL hero backgrounds.</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-ppt-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>logo-generator-skill — SVG Logo &amp; Showcase Generator for Claude Code</title>
-    <link>https://github.com/op7418/logo-generator-skill</link>
-    <description>Skill (776★) by op7418: generates 6+ SVG logo variants plus professional showcase images via Gemini 3.1 Flash.</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/logo-generator-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>diagram-design — 13 Editorial Diagram Types as a Claude Code Skill</title>
-    <link>https://github.com/cathrynlavery/diagram-design</link>
-    <description>Claude Code skill for 13 diagram types — architecture, flowchart, sequence — as self-contained HTML+SVG files.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/cathrynlavery/diagram-design</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Squash and Stretch: Bringing SVG Icons to Life</title>
-    <link>https://www.joshwcomeau.com/animation/squash-and-stretch/</link>
-    <description>Interactive guide applying squash-and-stretch to SVG icons using CSS path() transitions and the Motion library.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.joshwcomeau.com/animation/squash-and-stretch/</guid>
+    <title>Scroll-Driven Animations</title>
+    <link>https://www.joshwcomeau.com/animation/scroll-driven-animations/</link>
+    <description>Deep-dive guide to CSS Animation Timeline API: scroll-triggered animations without any JavaScript, with interactive demos.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.joshwcomeau.com/animation/scroll-driven-animations/</guid>
     <category>Design Engineering</category>
   </item>
   <item>
-    <title>8 Tips for Writing Agent Skills</title>
-    <link>https://www.philschmid.de/agent-skills-tips</link>
-    <description>Practical tips for writing effective agent skills: descriptions, lean instructions, testing, and when to retire them.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.philschmid.de/agent-skills-tips</guid>
+    <title>The accessibility problem isn't design. It's engineering.</title>
+    <link>https://gbbns.co/journal/accessibility-problem-isnt-design/</link>
+    <description>Practitioner: AI-generated code without accessibility context is the primary driver of failures, not design decisions.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://gbbns.co/journal/accessibility-problem-isnt-design/</guid>
+    <category>Accessibility × AI</category>
+  </item>
+  <item>
+    <title>Component.md — Machine-Readable Component Specs with uSpec 2.0</title>
+    <link>https://ianguisard.substack.com/p/componentmd</link>
+    <description>Component.md format plus open-source uSpec 2.0 generates AI-readable component specs from Figma for code agents.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://ianguisard.substack.com/p/componentmd</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Agents with Taste</title>
+    <link>https://emilkowal.ski/ui/agents-with-taste</link>
+    <description>Emil Kowalski: how to encode easing curves, animation timing, and typography rules into SKILL.md files that AI agents can reliably follow.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://emilkowal.ski/ui/agents-with-taste</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>A11Y.md — Accessibility Context System for AI-Driven Development</title>
+    <link>https://github.com/fecarrico/A11Y.md</link>
+    <description>DESIGN.md-style context file that installs WCAG rules into AI coding agents so accessible HTML is the default output.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/fecarrico/A11Y.md</guid>
+    <category>Accessibility × AI</category>
+  </item>
+  <item>
+    <title>agent-skills — Production-Grade Engineering Skills for Claude Code and Cursor</title>
+    <link>https://github.com/addyosmani/agent-skills</link>
+    <description>28k-star set of 20 production workflows by Addy Osmani (Google): spec through deploy for Claude Code and Cursor.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/addyosmani/agent-skills</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
-    <title>Vibe coding is accelerating the erosion of design authority</title>
-    <link>https://newsletter.uxdesign.cc/p/vibe-coding-is-accelerating-the-erosion</link>
-    <description>Fabricio Teixeira: vibe coding shifts design authority from designers to whoever writes the prompt.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://newsletter.uxdesign.cc/p/vibe-coding-is-accelerating-the-erosion</guid>
-    <category>Design Engineering</category>
+    <title>design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File</title>
+    <link>https://github.com/bergside/design-md-figma</link>
+    <description>Figma plugin that extracts tokens and local styles from any file and outputs DESIGN.md and SKILL.md for Claude Code, Cursor, and Codex.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/bergside/design-md-figma</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
-    <title>Why AI Sucks at Front-End Development</title>
-    <link>https://nerdy.dev/why-ai-sucks-at-front-end</link>
-    <description>Adam Argyle breaks down why AI fails at complex CSS, component states, and accessibility — with concrete failure modes.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://nerdy.dev/why-ai-sucks-at-front-end</guid>
-    <category>Design Engineering</category>
+    <title>Claude Design Is Not a Design Systems Tool. That's Okay.</title>
+    <link>https://southleft.substack.com/p/claude-design-is-not-a-design-systems</link>
+    <description>Claude Design generates inline elements, not real components — use Figma + MCP for production design system work.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://southleft.substack.com/p/claude-design-is-not-a-design-systems</guid>
+    <category>Design Systems</category>
   </item>
   <item>
-    <title>State of Prototyping: Spring 2026</title>
-    <link>https://survey.uxtools.co/spring-2026</link>
-    <description>Survey of 1,478 designers: Claude is #2 weekly tool after Figma; 59% built their own AI tool in 6 months.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://survey.uxtools.co/spring-2026</guid>
-    <category>Process</category>
+    <title>Design Systems Are Now Inference Systems</title>
+    <link>https://www.proofofconcept.pub/p/design-systems-are-now-inference</link>
+    <description>David Hoang: tokens need semantic intent, not just values — or your design system won't serve AI agents.</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.proofofconcept.pub/p/design-systems-are-now-inference</guid>
+    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
