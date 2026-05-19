@@ -69,6 +69,40 @@
   },
   "items": [
     {
+      "title": "Your Design System Is Fragmenting into Agent Files",
+      "url": "https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Дизайн-системы распадаются на агентные файлы — DESIGN.md, SKILL.md и контекстные конфиги вместо единой библиотеки.",
+      "desc_en": "Design systems are splitting into agent-readable files: DESIGN.md, SKILL.md, and agent configs instead of a single library.",
+      "date": "2026-05-15",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-19",
+      "tg_message_id": 472
+    },
+    {
+      "title": "Context-Based Design Systems, Revisited",
+      "url": "https://southleft.substack.com/p/context-based-design-systems-revisited",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "Качество контекста, который вы передаёте агентам, напрямую определяет точность генерации из вашей дизайн-системы.",
+      "desc_en": "The quality of context provided upstream to AI agents directly determines how accurately your design system is implemented.",
+      "date": "2026-05-13",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-05-19",
+      "tg_message_id": 474
+    },
+    {
       "title": "Refero Styles — Brand Design Library for AI Agents",
       "url": "https://styles.refero.design",
       "type": "tool",
@@ -152,6 +186,24 @@
       "expanded_window": false,
       "added": "2026-05-03",
       "tg_message_id": 459
+    },
+    {
+      "title": "html-anything — Agentic HTML Editor with 75 Skills",
+      "url": "https://github.com/nexu-io/html-anything",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Агентный HTML-редактор с 75 скиллами и 9 форматами вывода: от лэйаутов и постеров до прототипов и DataFeed.",
+      "desc_en": "Agentic HTML editor from the open-design team: 75 skills, 9 output formats from magazine layouts to prototypes, ships to HTML/PNG/PDF.",
+      "date": "2026-05-01",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-19",
+      "stars": 3626,
+      "tg_message_id": 473
     },
     {
       "title": "Designing stable interfaces for streaming content",
@@ -270,7 +322,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 131,
+      "stars": 134,
       "tg_message_id": 457
     },
     {
@@ -288,7 +340,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 43016,
+      "stars": 43584,
       "tg_message_id": 464
     },
     {
@@ -358,7 +410,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5114,
+      "stars": 5290,
       "tg_message_id": 446
     },
     {
@@ -376,7 +428,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2196,
+      "stars": 2219,
       "tg_message_id": 458
     },
     {
@@ -393,7 +445,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 819,
+      "stars": 830,
       "tg_message_id": 439
     },
     {
@@ -411,7 +463,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6047,
+      "stars": 6131,
       "tg_message_id": 449
     },
     {
@@ -446,7 +498,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5114,
+      "stars": 5290,
       "tg_message_id": 443
     },
     {
@@ -464,7 +516,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 278,
+      "stars": 279,
       "tg_message_id": 444
     },
     {
@@ -579,7 +631,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2604,
+      "stars": 2704,
       "tg_message_id": 429
     },
     {
@@ -598,7 +650,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 8730,
+      "stars": 10048,
       "tg_message_id": 442
     },
     {
@@ -616,7 +668,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1032,
+      "stars": 1046,
       "tg_message_id": 445
     },
     {
@@ -633,7 +685,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2358,
+      "stars": 2412,
       "tg_message_id": 436
     },
     {
@@ -781,7 +833,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 40617,
+      "stars": 45894,
       "tg_message_id": 455
     },
     {
@@ -939,7 +991,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 21728,
+      "stars": 22264,
       "tg_message_id": 361
     },
     {
@@ -967,7 +1019,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 191484,
+      "stars": 197511,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1004,7 +1056,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 78886,
+      "stars": 81117,
       "tg_message_id": 364
     },
     {
@@ -1038,7 +1090,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1893,
+      "stars": 1899,
       "tg_message_id": 450
     },
     {
@@ -1146,7 +1198,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14751,
+      "stars": 14800,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1179,7 +1231,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4824,
+      "stars": 4856,
       "tg_message_id": 370
     },
     {
@@ -1228,7 +1280,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3373,
+      "stars": 3439,
       "tg_message_id": 373
     },
     {
@@ -1351,7 +1403,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 593,
+      "stars": 596,
       "tg_message_id": 380
     },
     {
@@ -1460,7 +1512,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 97445,
+      "stars": 100510,
       "tg_message_id": 386
     },
     {
@@ -1473,7 +1525,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1673,
+      "stars": 1694,
       "tg_message_id": 387
     },
     {
@@ -1546,7 +1598,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 78630,
+      "stars": 80334,
       "tg_message_id": 392
     },
     {
@@ -1591,7 +1643,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 273,
+      "stars": 275,
       "tg_message_id": 395
     },
     {
@@ -1700,7 +1752,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 440,
+      "stars": 467,
       "tg_message_id": 440
     },
     {
@@ -1734,7 +1786,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12529,
+      "stars": 12685,
       "tg_message_id": 403
     },
     {
@@ -1751,7 +1803,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 219
+      "stars": 290
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1767,7 +1819,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6459,
+      "stars": 6479,
       "tg_message_id": 404
     },
     {
