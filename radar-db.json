@@ -202,7 +202,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 3664,
+      "stars": 3676,
       "tg_message_id": 473
     },
     {
@@ -238,6 +238,22 @@
       "expanded_window": false,
       "added": "2026-05-04",
       "tg_message_id": 462
+    },
+    {
+      "title": "Rive AI Agent Is Now Free for All Users",
+      "url": "https://www.rive.app/blog/free-rive-ai-agent",
+      "type": "article",
+      "tag": "motion×ai",
+      "desc_ru": "Rive открыл AI-агент для всех пользователей, включая бесплатный план — вопросы и генерация кода анимаций.",
+      "desc_en": "Rive's AI agent for answering questions and generating animation code inside the editor is now accessible on the free plan.",
+      "date": "2026-04-30",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-19"
     },
     {
       "title": "Scroll-Driven Animations",
@@ -340,7 +356,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 43601,
+      "stars": 43603,
       "tg_message_id": 464
     },
     {
@@ -410,7 +426,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5293,
+      "stars": 5298,
       "tg_message_id": 446
     },
     {
@@ -463,7 +479,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6135,
+      "stars": 6136,
       "tg_message_id": 449
     },
     {
@@ -498,7 +514,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5293,
+      "stars": 5298,
       "tg_message_id": 443
     },
     {
@@ -650,7 +666,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 10092,
+      "stars": 10105,
       "tg_message_id": 442
     },
     {
@@ -833,7 +849,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 45963,
+      "stars": 45997,
       "tg_message_id": 455
     },
     {
@@ -991,7 +1007,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 22269,
+      "stars": 22273,
       "tg_message_id": 361
     },
     {
@@ -1019,7 +1035,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 197589,
+      "stars": 197612,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1056,7 +1072,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 81137,
+      "stars": 81144,
       "tg_message_id": 364
     },
     {
@@ -1512,7 +1528,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 100572,
+      "stars": 100600,
       "tg_message_id": 386
     },
     {
@@ -1598,7 +1614,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 80365,
+      "stars": 80376,
       "tg_message_id": 392
     },
     {

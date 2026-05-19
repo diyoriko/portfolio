@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 19 May 2026 10:42:43 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 19 May 2026 11:07:44 +0000</lastBuildDate>
   <item>
     <title>Your Design System Is Fragmenting into Agent Files</title>
     <link>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</link>
@@ -88,6 +88,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Rive AI Agent Is Now Free for All Users</title>
+    <link>https://www.rive.app/blog/free-rive-ai-agent</link>
+    <description>Rive's AI agent for answering questions and generating animation code inside the editor is now accessible on the free plan.</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.rive.app/blog/free-rive-ai-agent</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>Scroll-Driven Animations</title>
     <link>https://www.joshwcomeau.com/animation/scroll-driven-animations/</link>
     <description>Deep-dive guide to CSS Animation Timeline API: scroll-triggered animations without any JavaScript, with interactive demos.</description>
@@ -158,14 +166,6 @@
     <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://www.proofofconcept.pub/p/design-systems-are-now-inference</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>garden-skills — Web Design, RAG &amp; Image Generation Skills for Claude</title>
-    <link>https://github.com/ConardLi/garden-skills</link>
-    <description>ConardLi's open-source Claude skill collection: web design, local RAG retrieval, and image generation.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ConardLi/garden-skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
