@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 19 May 2026 11:07:44 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 21 May 2026 07:12:28 +0000</lastBuildDate>
   <item>
     <title>Your Design System Is Fragmenting into Agent Files</title>
     <link>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</link>
@@ -160,12 +160,12 @@
     <category>Design Systems</category>
   </item>
   <item>
-    <title>Design Systems Are Now Inference Systems</title>
-    <link>https://www.proofofconcept.pub/p/design-systems-are-now-inference</link>
-    <description>David Hoang: tokens need semantic intent, not just values — or your design system won't serve AI agents.</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.proofofconcept.pub/p/design-systems-are-now-inference</guid>
-    <category>Design Systems</category>
+    <title>Buddy — Anima's AI Design Agent for Figma</title>
+    <link>https://www.animaapp.com/blog/genai/figma-ai-design-agent/</link>
+    <description>Figma plugin that runs an AI agent on your canvas using your design system's actual components and variables — no terminal needed.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.animaapp.com/blog/genai/figma-ai-design-agent/</guid>
+    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
