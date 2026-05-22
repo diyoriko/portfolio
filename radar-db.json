@@ -69,6 +69,22 @@
   },
   "items": [
     {
+      "title": "The Figma design agent is here",
+      "url": "https://www.figma.com/blog/the-figma-agent-is-here/",
+      "type": "tool",
+      "tag": "figma×ai",
+      "priority": 1,
+      "score": 10,
+      "date": "2026-05-20",
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "desc_en": "Figma's native AI design agent rolls out in beta: design system-aware generation, bulk editing, and multi-direction exploration directly on the canvas.",
+      "desc_ru": "Нативный ИИ-агент Figma вышел в бета: генерация с учётом токенов, массовое редактирование и мультистайл прямо на холсте.",
+      "added": "2026-05-22"
+    },
+    {
       "title": "Your Design System Is Fragmenting into Agent Files",
       "url": "https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/",
       "type": "article",
@@ -202,7 +218,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 4354,
+      "stars": 4522,
       "tg_message_id": 473
     },
     {
@@ -356,8 +372,24 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 44350,
+      "stars": 44693,
       "tg_message_id": 464
+    },
+    {
+      "title": "FigJam Is Now Your Coding Agent's Whiteboard Too",
+      "url": "https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/",
+      "type": "tool",
+      "tag": "figma×ai",
+      "priority": 2,
+      "score": 8,
+      "date": "2026-04-28",
+      "reading_time": 4,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "desc_en": "New figma-use-figjam MCP skill lets AI coding agents read and write to FigJam boards: stickies, diagrams, architecture layouts, and project plans.",
+      "desc_ru": "Новый MCP-скилл figma-use-figjam позволяет ИИ-агентам читать и писать в FigJam: стикеры, диаграммы, архитектурные схемы и планы.",
+      "added": "2026-05-22"
     },
     {
       "title": "design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File",
@@ -442,7 +474,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5507,
+      "stars": 5610,
       "tg_message_id": 446
     },
     {
@@ -460,7 +492,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2255,
+      "stars": 2269,
       "tg_message_id": 458
     },
     {
@@ -477,7 +509,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 837,
+      "stars": 839,
       "tg_message_id": 439
     },
     {
@@ -495,7 +527,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6233,
+      "stars": 6291,
       "tg_message_id": 449
     },
     {
@@ -530,7 +562,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5507,
+      "stars": 5610,
       "tg_message_id": 443
     },
     {
@@ -548,7 +580,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 282,
+      "stars": 286,
       "tg_message_id": 444
     },
     {
@@ -663,7 +695,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2851,
+      "stars": 2861,
       "tg_message_id": 429
     },
     {
@@ -682,7 +714,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 10781,
+      "stars": 11078,
       "tg_message_id": 442
     },
     {
@@ -700,7 +732,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1050,
+      "stars": 1055,
       "tg_message_id": 445
     },
     {
@@ -717,7 +749,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2425,
+      "stars": 2431,
       "tg_message_id": 436
     },
     {
@@ -865,7 +897,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 48314,
+      "stars": 49231,
       "tg_message_id": 455
     },
     {
@@ -1023,7 +1055,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 22532,
+      "stars": 22678,
       "tg_message_id": 361
     },
     {
@@ -1051,7 +1083,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 200552,
+      "stars": 202001,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1088,7 +1120,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 81951,
+      "stars": 82470,
       "tg_message_id": 364
     },
     {
@@ -1122,7 +1154,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1906,
+      "stars": 1909,
       "tg_message_id": 450
     },
     {
@@ -1230,7 +1262,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14820,
+      "stars": 14830,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1263,7 +1295,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4871,
+      "stars": 4883,
       "tg_message_id": 370
     },
     {
@@ -1312,7 +1344,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3488,
+      "stars": 3505,
       "tg_message_id": 373
     },
     {
@@ -1544,7 +1576,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 103130,
+      "stars": 103881,
       "tg_message_id": 386
     },
     {
@@ -1557,7 +1589,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1705,
+      "stars": 1716,
       "tg_message_id": 387
     },
     {
@@ -1630,7 +1662,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 81072,
+      "stars": 81455,
       "tg_message_id": 392
     },
     {
@@ -1784,7 +1816,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 473,
+      "stars": 477,
       "tg_message_id": 440
     },
     {
@@ -1818,7 +1850,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12754,
+      "stars": 12779,
       "tg_message_id": 403
     },
     {
@@ -1835,7 +1867,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 295
+      "stars": 296
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1851,7 +1883,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6486,
+      "stars": 6489,
       "tg_message_id": 404
     },
     {

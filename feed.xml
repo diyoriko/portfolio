@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 21 May 2026 07:12:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 07:09:27 +0000</lastBuildDate>
+  <item>
+    <title>The Figma design agent is here</title>
+    <link>https://www.figma.com/blog/the-figma-agent-is-here/</link>
+    <description>Figma's native AI design agent rolls out in beta: design system-aware generation, bulk editing, and multi-direction exploration directly on the canvas.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/the-figma-agent-is-here/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Your Design System Is Fragmenting into Agent Files</title>
     <link>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</link>
@@ -144,27 +152,19 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>FigJam Is Now Your Coding Agent's Whiteboard Too</title>
+    <link>https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/</link>
+    <description>New figma-use-figjam MCP skill lets AI coding agents read and write to FigJam boards: stickies, diagrams, architecture layouts, and project plans.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
     <title>design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File</title>
     <link>https://github.com/bergside/design-md-figma</link>
     <description>Figma plugin that extracts tokens and local styles from any file and outputs DESIGN.md and SKILL.md for Claude Code, Cursor, and Codex.</description>
     <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/bergside/design-md-figma</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Claude Design Is Not a Design Systems Tool. That's Okay.</title>
-    <link>https://southleft.substack.com/p/claude-design-is-not-a-design-systems</link>
-    <description>Claude Design generates inline elements, not real components — use Figma + MCP for production design system work.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://southleft.substack.com/p/claude-design-is-not-a-design-systems</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Buddy — Anima's AI Design Agent for Figma</title>
-    <link>https://www.animaapp.com/blog/genai/figma-ai-design-agent/</link>
-    <description>Figma plugin that runs an AI agent on your canvas using your design system's actual components and variables — no terminal needed.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.animaapp.com/blog/genai/figma-ai-design-agent/</guid>
     <category>Figma × AI</category>
   </item>
 </channel>
