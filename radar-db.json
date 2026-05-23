@@ -102,6 +102,23 @@
       "tg_message_id": 472
     },
     {
+      "title": "claude2figma — 4 Skills That Keep AI on Your Design System Rails",
+      "url": "https://github.com/senlindesign/claude2figma",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "4 навыка для Claude Code, которые принудительно привязывают компоненты Figma к мастерам и значения к токенам вместо хардкода.",
+      "desc_en": "4 Claude Code skills enforcing Figma design system compliance: components stay linked to masters, values bind to tokens not hardcoded.",
+      "date": "2026-05-15",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 4,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-05-23",
+      "stars": 50
+    },
+    {
       "title": "Context-Based Design Systems, Revisited",
       "url": "https://southleft.substack.com/p/context-based-design-systems-revisited",
       "type": "article",
@@ -218,7 +235,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 4522,
+      "stars": 4626,
       "tg_message_id": 473
     },
     {
@@ -372,7 +389,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 44693,
+      "stars": 44972,
       "tg_message_id": 464
     },
     {
@@ -392,6 +409,22 @@
       "added": "2026-05-22"
     },
     {
+      "title": "Tools the Vercel product design team actually uses",
+      "url": "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Реальный инструментарий дизайн-команды Vercel: расширение Paper, параллельные треды Conductor, UI Fork и связка Claude+Codex для ревью.",
+      "desc_en": "Vercel design team's actual AI workflow: Paper page-extractor, Conductor parallel threads, UI Fork variant tool, Claude+Codex code review pairing.",
+      "date": "2026-04-28",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-23"
+    },
+    {
       "title": "design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File",
       "url": "https://github.com/bergside/design-md-figma",
       "type": "tool",
@@ -406,7 +439,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 90,
+      "stars": 92,
       "tg_message_id": 454
     },
     {
@@ -474,7 +507,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5610,
+      "stars": 5686,
       "tg_message_id": 446
     },
     {
@@ -492,7 +525,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2269,
+      "stars": 2287,
       "tg_message_id": 458
     },
     {
@@ -509,7 +542,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 839,
+      "stars": 849,
       "tg_message_id": 439
     },
     {
@@ -527,7 +560,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6291,
+      "stars": 6324,
       "tg_message_id": 449
     },
     {
@@ -562,7 +595,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5610,
+      "stars": 5686,
       "tg_message_id": 443
     },
     {
@@ -580,7 +613,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 286,
+      "stars": 288,
       "tg_message_id": 444
     },
     {
@@ -695,7 +728,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2861,
+      "stars": 2874,
       "tg_message_id": 429
     },
     {
@@ -714,7 +747,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 11078,
+      "stars": 11381,
       "tg_message_id": 442
     },
     {
@@ -732,7 +765,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1055,
+      "stars": 1058,
       "tg_message_id": 445
     },
     {
@@ -749,7 +782,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2431,
+      "stars": 2433,
       "tg_message_id": 436
     },
     {
@@ -897,7 +930,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 49231,
+      "stars": 50094,
       "tg_message_id": 455
     },
     {
@@ -1055,7 +1088,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 22678,
+      "stars": 22777,
       "tg_message_id": 361
     },
     {
@@ -1083,7 +1116,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 202001,
+      "stars": 203153,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1120,7 +1153,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 82470,
+      "stars": 82821,
       "tg_message_id": 364
     },
     {
@@ -1262,7 +1295,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14830,
+      "stars": 14837,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1344,7 +1377,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3505,
+      "stars": 3514,
       "tg_message_id": 373
     },
     {
@@ -1576,7 +1609,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 103881,
+      "stars": 104313,
       "tg_message_id": 386
     },
     {
@@ -1589,7 +1622,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1716,
+      "stars": 1721,
       "tg_message_id": 387
     },
     {
@@ -1662,7 +1695,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 81455,
+      "stars": 81773,
       "tg_message_id": 392
     },
     {
@@ -1816,7 +1849,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 477,
+      "stars": 492,
       "tg_message_id": 440
     },
     {
@@ -1850,7 +1883,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12779,
+      "stars": 12804,
       "tg_message_id": 403
     },
     {
@@ -1867,7 +1900,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 296
+      "stars": 299
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1883,7 +1916,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6489,
+      "stars": 6491,
       "tg_message_id": 404
     },
     {

@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 22 May 2026 07:09:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 23 May 2026 06:31:58 +0000</lastBuildDate>
   <item>
     <title>The Figma design agent is here</title>
     <link>https://www.figma.com/blog/the-figma-agent-is-here/</link>
@@ -22,6 +22,14 @@
     <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>claude2figma — 4 Skills That Keep AI on Your Design System Rails</title>
+    <link>https://github.com/senlindesign/claude2figma</link>
+    <description>4 Claude Code skills enforcing Figma design system compliance: components stay linked to masters, values bind to tokens not hardcoded.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/senlindesign/claude2figma</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Context-Based Design Systems, Revisited</title>
@@ -157,14 +165,6 @@
     <description>New figma-use-figjam MCP skill lets AI coding agents read and write to FigJam boards: stickies, diagrams, architecture layouts, and project plans.</description>
     <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>design-md-figma — Extract DESIGN.md and SKILL.md from Any Figma File</title>
-    <link>https://github.com/bergside/design-md-figma</link>
-    <description>Figma plugin that extracts tokens and local styles from any file and outputs DESIGN.md and SKILL.md for Claude Code, Cursor, and Codex.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bergside/design-md-figma</guid>
     <category>Figma × AI</category>
   </item>
 </channel>
