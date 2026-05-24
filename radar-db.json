@@ -85,6 +85,22 @@
       "added": "2026-05-22"
     },
     {
+      "title": "Train Your Judgement",
+      "url": "https://emilkowal.ski/ui/train-your-judgement",
+      "type": "article",
+      "tag": "motion×ai",
+      "desc_ru": "Интерактивные упражнения на вкус в анимации + скилл-файл для передачи стандартов движения AI-агенту.",
+      "desc_en": "Interactive animation-judgment exercises and a design engineering skill file for feeding motion standards to coding agents.",
+      "date": "2026-05-18",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-24"
+    },
+    {
       "title": "Your Design System Is Fragmenting into Agent Files",
       "url": "https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/",
       "type": "article",
@@ -116,7 +132,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 50
+      "stars": 51
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -235,7 +251,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 4626,
+      "stars": 4720,
       "tg_message_id": 473
     },
     {
@@ -371,7 +387,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 135,
+      "stars": 137,
       "tg_message_id": 457
     },
     {
@@ -389,7 +405,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 44972,
+      "stars": 45211,
       "tg_message_id": 464
     },
     {
@@ -507,7 +523,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5686,
+      "stars": 5790,
       "tg_message_id": 446
     },
     {
@@ -525,7 +541,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2287,
+      "stars": 2308,
       "tg_message_id": 458
     },
     {
@@ -542,7 +558,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 849,
+      "stars": 870,
       "tg_message_id": 439
     },
     {
@@ -560,7 +576,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6324,
+      "stars": 6352,
       "tg_message_id": 449
     },
     {
@@ -595,7 +611,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5686,
+      "stars": 5790,
       "tg_message_id": 443
     },
     {
@@ -728,7 +744,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2874,
+      "stars": 2890,
       "tg_message_id": 429
     },
     {
@@ -747,7 +763,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 11381,
+      "stars": 11593,
       "tg_message_id": 442
     },
     {
@@ -765,7 +781,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1058,
+      "stars": 1062,
       "tg_message_id": 445
     },
     {
@@ -782,7 +798,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2433,
+      "stars": 2452,
       "tg_message_id": 436
     },
     {
@@ -930,7 +946,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 50094,
+      "stars": 50787,
       "tg_message_id": 455
     },
     {
@@ -1088,7 +1104,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 22777,
+      "stars": 22875,
       "tg_message_id": 361
     },
     {
@@ -1116,7 +1132,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 203153,
+      "stars": 204230,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1153,7 +1169,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 82821,
+      "stars": 83180,
       "tg_message_id": 364
     },
     {
@@ -1187,7 +1203,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1909,
+      "stars": 1908,
       "tg_message_id": 450
     },
     {
@@ -1295,7 +1311,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14837,
+      "stars": 14843,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1328,7 +1344,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4883,
+      "stars": 4886,
       "tg_message_id": 370
     },
     {
@@ -1377,7 +1393,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3514,
+      "stars": 3523,
       "tg_message_id": 373
     },
     {
@@ -1609,7 +1625,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 104313,
+      "stars": 104569,
       "tg_message_id": 386
     },
     {
@@ -1622,7 +1638,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1721,
+      "stars": 1722,
       "tg_message_id": 387
     },
     {
@@ -1695,7 +1711,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 81773,
+      "stars": 82077,
       "tg_message_id": 392
     },
     {
@@ -1849,7 +1865,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 492,
+      "stars": 509,
       "tg_message_id": 440
     },
     {
@@ -1883,7 +1899,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12804,
+      "stars": 12831,
       "tg_message_id": 403
     },
     {
@@ -1916,7 +1932,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6491,
+      "stars": 6496,
       "tg_message_id": 404
     },
     {
