@@ -132,7 +132,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 51
+      "stars": 52
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -150,6 +150,22 @@
       "expanded_window": false,
       "added": "2026-05-19",
       "tg_message_id": 474
+    },
+    {
+      "title": "Dessn — Design Directly in Production Codebases",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Облачный инструмент для дизайнеров: итерации в реальной кодовой базе без локального окружения, бесплатный тир.",
+      "desc_en": "Cloud-based tool for iterating on live production codebases without local setup; free tier available today.",
+      "date": "2026-05-12",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-05-25"
     },
     {
       "title": "Refero Styles — Brand Design Library for AI Agents",
@@ -251,7 +267,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 4720,
+      "stars": 4876,
       "tg_message_id": 473
     },
     {
@@ -303,6 +319,22 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19"
+    },
+    {
+      "title": "Tolerating Inaccessibility",
+      "url": "https://webaim.org/blog/tolerating-inaccessibility/",
+      "type": "article",
+      "tag": "a11y×ai",
+      "desc_ru": "WebAIM: в 2026 г. среднее число ошибок доступности выросло до 56,1 — проблема культурная, а не техническая.",
+      "desc_en": "WebAIM: pages average 56.1 accessibility errors in 2026 (up from 51), arguing the barrier is cultural, not technical.",
+      "date": "2026-04-30",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": true,
+      "added": "2026-05-25"
     },
     {
       "title": "Scroll-Driven Animations",
@@ -405,7 +437,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 45211,
+      "stars": 45501,
       "tg_message_id": 464
     },
     {
@@ -523,7 +555,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 5790,
+      "stars": 5972,
       "tg_message_id": 446
     },
     {
@@ -541,7 +573,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2308,
+      "stars": 2342,
       "tg_message_id": 458
     },
     {
@@ -558,7 +590,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 870,
+      "stars": 873,
       "tg_message_id": 439
     },
     {
@@ -576,7 +608,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6352,
+      "stars": 6379,
       "tg_message_id": 449
     },
     {
@@ -611,7 +643,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 5790,
+      "stars": 5972,
       "tg_message_id": 443
     },
     {
@@ -629,7 +661,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 288,
+      "stars": 289,
       "tg_message_id": 444
     },
     {
@@ -744,7 +776,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2890,
+      "stars": 2911,
       "tg_message_id": 429
     },
     {
@@ -763,7 +795,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 11593,
+      "stars": 11876,
       "tg_message_id": 442
     },
     {
@@ -781,7 +813,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1062,
+      "stars": 1066,
       "tg_message_id": 445
     },
     {
@@ -798,7 +830,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2452,
+      "stars": 2466,
       "tg_message_id": 436
     },
     {
@@ -946,7 +978,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 50787,
+      "stars": 51575,
       "tg_message_id": 455
     },
     {
@@ -1104,7 +1136,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 22875,
+      "stars": 22989,
       "tg_message_id": 361
     },
     {
@@ -1132,7 +1164,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 204230,
+      "stars": 205511,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1169,7 +1201,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 83180,
+      "stars": 83765,
       "tg_message_id": 364
     },
     {
@@ -1203,7 +1235,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1908,
+      "stars": 1910,
       "tg_message_id": 450
     },
     {
@@ -1311,7 +1343,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14843,
+      "stars": 14858,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1344,7 +1376,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4886,
+      "stars": 4894,
       "tg_message_id": 370
     },
     {
@@ -1393,7 +1425,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 3523,
+      "stars": 3535,
       "tg_message_id": 373
     },
     {
@@ -1516,7 +1548,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 599,
+      "stars": 601,
       "tg_message_id": 380
     },
     {
@@ -1625,7 +1657,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 104569,
+      "stars": 104882,
       "tg_message_id": 386
     },
     {
@@ -1638,7 +1670,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1722,
+      "stars": 1724,
       "tg_message_id": 387
     },
     {
@@ -1711,7 +1743,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 82077,
+      "stars": 82442,
       "tg_message_id": 392
     },
     {
@@ -1865,7 +1897,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 509,
+      "stars": 521,
       "tg_message_id": 440
     },
     {
@@ -1899,7 +1931,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 12831,
+      "stars": 12855,
       "tg_message_id": 403
     },
     {
@@ -1916,7 +1948,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 299
+      "stars": 304
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -1932,7 +1964,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6496,
+      "stars": 6498,
       "tg_message_id": 404
     },
     {

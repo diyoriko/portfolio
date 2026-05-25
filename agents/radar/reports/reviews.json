@@ -826,5 +826,75 @@
         "effort": "small"
       }
     ]
+  },
+  {
+    "effective_queries": [
+      "design AI tool product launch May 2026 — found Dessn (May 12, shipped, free tier available)",
+      "WebFetch sidebar.io — found WebAIM blog post and confirmed uxdesign.cc and Murphy Trueman candidates",
+      "WebFetch blog.murphytrueman.com — surfaced new post dates accurately, enabling date-based filtering"
+    ],
+    "weak_queries": [
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — generic trend articles, no design-specific shipped items",
+      "Claude Code OR Cursor designers workflow 2026 — only comparison articles already in DB",
+      "new Figma plugin AI Claude agent shipped 2026 — Figma design agent and Figma MCP already in DB",
+      "site:github.com figma tokens skill claude design 2026 — all repos returned below 50-star threshold (work-with-design-systems: 43★)",
+      "site:github.com AI design prototype tool stars 2026 — returns curated list pages, star-count filter syntax unsupported",
+      "motion AI animation design Rive Framer Lottielab shipped 2026 — listicles and comparison guides only",
+      "accessibility AI WCAG automated tool shipped 2026 — round-ups from 2025, no new 2026 tool launches",
+      "WebFetch t.me/s/github_repos — non-design repos this run (bytedance/Lance, humanize-text); 3rd weak run",
+      "WebFetch southleft.substack.com — 403 error",
+      "WebFetch github.com/op7418 — guizang-ppt-skill already in DB; other repos non-design-specific",
+      "WebFetch github.com/ConardLi — garden-skills already in DB; other repos non-design-specific"
+    ],
+    "coverage_gaps": [
+      "motion×ai — Rive blog confirms no new posts since April 30 (already in DB); no other motion AI tools found",
+      "skills — no new design-specific Claude skills above 50-star threshold discovered this run",
+      "heydesigner.com — returned 403 for first time; losing highest-ROI source would significantly reduce discovery quality"
+    ],
+    "tag_balance": "design systems (21), skills (21), process (20), design+code (18), figma×ai (17) are well-populated. tools (9), a11y×ai (7), motion×ai (6) remain underrepresented. a11y×ai starvation rescue applied this run.",
+    "rejected_count": 15,
+    "top_rejection_reasons": [
+      "Already in DB: Figma design agent, garden-skills, guizang-ppt-skill, Rive AI Agent",
+      "Outside 30-day freshness window: Murphy Trueman posts from Jan–March 2026 (not-perfect-just-honest: Jan 31; might-be-ai-ready: March 6)",
+      "Medium paywall: uxdesign.cc article on Claude Code + Figma design systems inaccessible for 2nd consecutive run",
+      "Below 50-star threshold: work-with-design-systems (43★), figma-skill repos unverified",
+      "Generic trend content: vibe coding and agentic engineering round-ups with no design engineering angle"
+    ],
+    "query_suggestions": [
+      {
+        "query": "WebFetch https://muz.li/blog",
+        "why": "Muzli publishes detailed Figma ecosystem walkthroughs; missed a Figma agent deep-dive article this run because Muzli is not in source rotation. High editorial quality for figma×ai coverage."
+      },
+      {
+        "query": "RETIRE site:github.com AI design prototype tool stars 2026",
+        "why": "Star-count filter syntax unsupported by search engine; consistently returns curated list pages not individual repos. 2nd consecutive weak run."
+      },
+      {
+        "query": "WebFetch https://designtoolsweekly.com",
+        "why": "Dedicated design tools newsletter for early discovery; needed as a backup now that heydesigner.com returned 403 this run."
+      },
+      {
+        "query": "RETIRE WebFetch https://t.me/s/github_repos",
+        "why": "3 consecutive runs returning only non-design repos; general GitHub trending channel is too noisy for our narrow design/skills topic."
+      },
+      {
+        "query": "RETIRE WebFetch https://github.com/anthropics/awesome-agent-skills",
+        "why": "Should have been permanently removed after April 27 review confirmed 3 consecutive 404s — still listed in prompt source rotation."
+      }
+    ],
+    "notes": "heydesigner.com returned 403 for the first time — this is the highest-ROI source and its absence cut discovery quality significantly this run. southleft.substack.com also returned 403. Medium paywall continues to block uxdesign.cc articles (2nd consecutive run confirmed); the uxdesign.cc piece on Claude Code + Figma design systems (sidebar.io-featured, May 15) remains inaccessible despite being a confirmed strong figma×ai P1. Murphy Trueman blog is actively publishing but all newly discovered posts date from Jan–March 2026, outside the 30-day design systems window. The two-item output reflects genuine scarcity of new shipped design×AI tooling this week combined with the heydesigner.com outage, not a search algorithm failure.",
+    "date": "2026-05-25",
+    "radar_ideas": [
+      {
+        "idea": "Add days-since-last-item to each tag chip in the filter bar (e.g. 'a11y×ai · 25d') so readers can see which tags are actively updated versus in a slow news cycle.",
+        "area": "ux",
+        "effort": "small"
+      },
+      {
+        "idea": "If sidebar.io or heydesigner.com return non-200 on any run, emit a named warning in the review output so the operator can substitute a backup source before coverage degrades across multiple runs.",
+        "area": "feature",
+        "effort": "small"
+      }
+    ]
   }
 ]

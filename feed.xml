@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 24 May 2026 06:56:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 25 May 2026 08:15:00 +0000</lastBuildDate>
   <item>
     <title>The Figma design agent is here</title>
     <link>https://www.figma.com/blog/the-figma-agent-is-here/</link>
@@ -46,6 +46,14 @@
     <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     <guid>https://southleft.substack.com/p/context-based-design-systems-revisited</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Dessn — Design Directly in Production Codebases</title>
+    <link>https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/</link>
+    <description>Cloud-based tool for iterating on live production codebases without local setup; free tier available today.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>Refero Styles — Brand Design Library for AI Agents</title>
@@ -120,6 +128,14 @@
     <category>Motion × AI</category>
   </item>
   <item>
+    <title>Tolerating Inaccessibility</title>
+    <link>https://webaim.org/blog/tolerating-inaccessibility/</link>
+    <description>WebAIM: pages average 56.1 accessibility errors in 2026 (up from 51), arguing the barrier is cultural, not technical.</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <guid>https://webaim.org/blog/tolerating-inaccessibility/</guid>
+    <category>Accessibility × AI</category>
+  </item>
+  <item>
     <title>Scroll-Driven Animations</title>
     <link>https://www.joshwcomeau.com/animation/scroll-driven-animations/</link>
     <description>Deep-dive guide to CSS Animation Timeline API: scroll-triggered animations without any JavaScript, with interactive demos.</description>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://emilkowal.ski/ui/agents-with-taste</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>A11Y.md — Accessibility Context System for AI-Driven Development</title>
-    <link>https://github.com/fecarrico/A11Y.md</link>
-    <description>DESIGN.md-style context file that installs WCAG rules into AI coding agents so accessible HTML is the default output.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/fecarrico/A11Y.md</guid>
-    <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>agent-skills — Production-Grade Engineering Skills for Claude Code and Cursor</title>
-    <link>https://github.com/addyosmani/agent-skills</link>
-    <description>28k-star set of 20 production workflows by Addy Osmani (Google): spec through deploy for Claude Code and Cursor.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/addyosmani/agent-skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
