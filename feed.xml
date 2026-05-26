@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 25 May 2026 08:15:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 26 May 2026 07:08:53 +0000</lastBuildDate>
+  <item>
+    <title>AI in Design Report 2026</title>
+    <link>https://stateofaidesign.com/</link>
+    <description>906-respondent survey: 50% of designers shipped AI-generated code to production; average toolstack doubled to 7 tools.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://stateofaidesign.com/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>The Figma design agent is here</title>
     <link>https://www.figma.com/blog/the-figma-agent-is-here/</link>
@@ -46,6 +54,14 @@
     <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     <guid>https://southleft.substack.com/p/context-based-design-systems-revisited</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Practical Interface Patterns For AI Transparency (Part 2)</title>
+    <link>https://www.smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/</link>
+    <description>Four named patterns for AI agent UX transparency: Living Breadcrumb, Dynamic Checklist, Thinking Toggle, Audit Trail.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Dessn — Design Directly in Production Codebases</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://gbbns.co/journal/accessibility-problem-isnt-design/</guid>
     <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>Component.md — Machine-Readable Component Specs with uSpec 2.0</title>
-    <link>https://ianguisard.substack.com/p/componentmd</link>
-    <description>Component.md format plus open-source uSpec 2.0 generates AI-readable component specs from Figma for code agents.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://ianguisard.substack.com/p/componentmd</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Agents with Taste</title>
-    <link>https://emilkowal.ski/ui/agents-with-taste</link>
-    <description>Emil Kowalski: how to encode easing curves, animation timing, and typography rules into SKILL.md files that AI agents can reliably follow.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://emilkowal.ski/ui/agents-with-taste</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
