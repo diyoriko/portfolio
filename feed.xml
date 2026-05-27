@@ -6,13 +6,21 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 26 May 2026 07:08:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 27 May 2026 07:55:02 +0000</lastBuildDate>
   <item>
     <title>AI in Design Report 2026</title>
     <link>https://stateofaidesign.com/</link>
     <description>906-respondent survey: 50% of designers shipped AI-generated code to production; average toolstack doubled to 7 tools.</description>
     <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     <guid>https://stateofaidesign.com/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>The Orchestration Tax Is You</title>
+    <link>https://addyosmani.com/blog/orchestration-tax/</link>
+    <description>Human attention cannot be parallelized — cap active agents to your actual review capacity, not the maximum number you can spawn.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://addyosmani.com/blog/orchestration-tax/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -45,6 +53,14 @@
     <description>4 Claude Code skills enforcing Figma design system compliance: components stay linked to masters, values bind to tokens not hardcoded.</description>
     <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/senlindesign/claude2figma</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>impeccable — Design Language Skill That Stops AI-Generated UIs from Looking Like AI</title>
+    <link>https://github.com/pbakaus/impeccable</link>
+    <description>23 commands for Claude Code, Cursor, and other harnesses teaching AI typography, color, and spacing rules to stop defaulting to purple gradients and Inter font.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/pbakaus/impeccable</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
@@ -149,22 +165,6 @@
     <description>WebAIM: pages average 56.1 accessibility errors in 2026 (up from 51), arguing the barrier is cultural, not technical.</description>
     <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://webaim.org/blog/tolerating-inaccessibility/</guid>
-    <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>Scroll-Driven Animations</title>
-    <link>https://www.joshwcomeau.com/animation/scroll-driven-animations/</link>
-    <description>Deep-dive guide to CSS Animation Timeline API: scroll-triggered animations without any JavaScript, with interactive demos.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.joshwcomeau.com/animation/scroll-driven-animations/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>The accessibility problem isn't design. It's engineering.</title>
-    <link>https://gbbns.co/journal/accessibility-problem-isnt-design/</link>
-    <description>Practitioner: AI-generated code without accessibility context is the primary driver of failures, not design decisions.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://gbbns.co/journal/accessibility-problem-isnt-design/</guid>
     <category>Accessibility × AI</category>
   </item>
 </channel>
