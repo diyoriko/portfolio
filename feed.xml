@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 27 May 2026 07:55:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 28 May 2026 07:17:11 +0000</lastBuildDate>
+  <item>
+    <title>guizang-social-card-skill — Social Media Card Generator for Claude Code</title>
+    <link>https://github.com/op7418/guizang-social-card-skill</link>
+    <description>Claude Code skill generates editorial social cards (Xiaohongshu carousels, WeChat covers) across 28 layouts via Playwright PNG render.</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-social-card-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Figma Agent: A First Look</title>
+    <link>https://www.shapes.gg/figma-agent-a-first-look/</link>
+    <description>Five practical tests: Figma Agent works for decks and component-rich UIs; fails on icon sets and business cards.</description>
+    <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.shapes.gg/figma-agent-a-first-look/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>AI in Design Report 2026</title>
     <link>https://stateofaidesign.com/</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     <guid>https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Rive AI Agent Is Now Free for All Users</title>
-    <link>https://www.rive.app/blog/free-rive-ai-agent</link>
-    <description>Rive's AI agent for answering questions and generating animation code inside the editor is now accessible on the free plan.</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.rive.app/blog/free-rive-ai-agent</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Tolerating Inaccessibility</title>
-    <link>https://webaim.org/blog/tolerating-inaccessibility/</link>
-    <description>WebAIM: pages average 56.1 accessibility errors in 2026 (up from 51), arguing the barrier is cultural, not technical.</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://webaim.org/blog/tolerating-inaccessibility/</guid>
-    <category>Accessibility × AI</category>
   </item>
 </channel>
 </rss>
