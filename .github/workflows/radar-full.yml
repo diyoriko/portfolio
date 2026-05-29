@@ -1,22 +1,22 @@
-name: Radar Scout
+name: Radar Full
 
-# Scout-only passes, twice daily. Lightweight: scout + dedup + Telegram + commit DB.
-# Algorithm review + weekly email digest + RSS-on-deploy run in the separate weekly
-# "Radar Full" workflow (radar-full.yml), so multiple daily runs never duplicate them.
+# Weekly full pass: scout + Phase-2 algorithm review + Phase-3 radar ideas + weekly
+# email digest (Buttondown) + RSS regen. Runs once a week so the digest and review
+# fire exactly once. Daily scouting lives in the separate "Radar Scout" workflow.
 on:
   schedule:
-    # 06:30 + 18:30 MSK (UTC+3) = 03:30 + 15:30 UTC, every day
-    - cron: '30 3,15 * * *'
+    # 06:00 MSK (UTC+3) = 03:00 UTC, Mondays — 30 min before the Monday scout pass
+    - cron: '0 3 * * 1'
   workflow_dispatch:
     inputs:
       mode:
         description: 'Run mode'
         required: false
-        default: 'scout-only'
+        default: 'full'
         type: choice
         options:
-          - scout-only
           - full
+          - scout-only
           - auto
 
 concurrency:
@@ -45,7 +45,7 @@ jobs:
       - name: Install Claude CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Run Radar Scout
+      - name: Run Radar Full
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RADAR_BOT_TOKEN: ${{ secrets.RADAR_BOT_TOKEN }}
@@ -57,7 +57,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x agents/radar/*.sh
-          bash agents/radar/run.sh "${{ inputs.mode || 'scout-only' }}"
+          bash agents/radar/run.sh "${{ inputs.mode || 'full' }}"
 
       - name: Upload stream log if failed
         if: failure()

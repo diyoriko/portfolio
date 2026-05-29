@@ -113,6 +113,114 @@ try:
 except: pass
 " 2>/dev/null)
 
+# === GitHub API discovery (algorithm v3) ===
+# WebSearch site:github.com queries consistently surfaced <50-star repos and could
+# not verify star counts (see reviews 2026-05-04/19). Query the GitHub Search API
+# directly: sorted by stars, with verified counts + computed star-velocity so the
+# auto-promote rules can actually fire. Authenticated via GITHUB_TOKEN when present.
+GITHUB_CANDIDATES=$(python3 - "$DB_FILE" <<'PYEOF' 2>/dev/null || true
+import json, sys, os, datetime
+from urllib.request import urlopen, Request
+from urllib.parse import quote
+
+db_file = sys.argv[1]
+try:
+    raw = json.load(open(db_file))
+    items = raw.get('items', raw) if isinstance(raw, dict) else raw
+    known = {(i.get('url','') or '').rstrip('/').replace('https://www.','https://') for i in items}
+except Exception:
+    known = set()
+
+token = os.environ.get('GITHUB_TOKEN', '').strip()
+hdrs = {'Accept': 'application/vnd.github+json', 'User-Agent': 'radar-scout'}
+if token:
+    hdrs['Authorization'] = f'Bearer {token}'
+
+today = datetime.date.today()
+# Focus on recently-created repos: that's where new skills/tools/breakouts live, and
+# it filters out established mega-repos that sort-by-stars would otherwise drag in.
+created_since = (today - datetime.timedelta(days=120)).isoformat()
+# Design×AI relevance keywords — a candidate must mention at least one. Filters out
+# generic high-star repos (remote desktop, zk bridges) that match a bare "ui"/"design".
+KW = ('figma','design system','design-system','ux','frontend','css','tailwind','shadcn',
+      'token','claude','cursor',' mcp','prototyp','a11y','accessib','motion','animation',
+      'design engineer','vibe cod','ui kit','ui library','component library','design tool')
+queries = [
+    'claude skill design OR figma OR frontend in:name,description',
+    'figma plugin AI OR mcp in:name,description',
+    'design system AI tokens in:name,description',
+    '"design engineering" OR "design tool" AI in:name,description',
+]
+seen, rows = set(), []
+for q in queries:
+    url = (f'https://api.github.com/search/repositories?q={quote(q)}+created:>={created_since}'
+           f'&sort=stars&order=desc&per_page=10')
+    try:
+        data = json.loads(urlopen(Request(url, headers=hdrs), timeout=12).read())
+    except Exception:
+        continue
+    for r in data.get('items', []):
+        full = r.get('full_name','')
+        html = r.get('html_url','')
+        norm = html.rstrip('/').replace('https://www.','https://')
+        if not full or norm in seen or norm in known:
+            continue
+        stars = r.get('stargazers_count', 0)
+        if stars < 30:
+            continue
+        blob = ((r.get('description') or '') + ' ' + full).lower()
+        if not any(k in blob for k in KW):
+            continue
+        seen.add(norm)
+        try:
+            created = datetime.date.fromisoformat(r.get('created_at','')[:10])
+            age = max((today - created).days, 0)
+        except Exception:
+            age = 999
+        velscore = stars / max(age, 1)
+        # Real velocity auto-promote (true short-window spike) vs lifetime avg (labelled honestly)
+        if age <= 1 and stars >= 50:
+            vel = f' [VELOCITY {stars}*/{age or 1}d ->P1]'
+        elif age <= 7 and stars >= 200:
+            vel = f' [VELOCITY {stars}*/{age}d ->P1]'
+        else:
+            vel = f' [~{int(velscore)}*/day avg, {age}d old]'
+        desc = (r.get('description') or '').replace('\n',' ')[:80]
+        rows.append((velscore, f'- {full} *{stars}{vel} :: {desc} -> {html}'))
+
+rows.sort(key=lambda x: -x[0])
+for _, line in rows[:12]:
+    print(line)
+PYEOF
+)
+
+# === Auto-retire chronically weak queries (closes the self-review loop) ===
+# Base queries were hardcoded as "run ALL 8", so queries the review flagged weak for
+# 8-9 consecutive runs kept getting re-run and re-flagged. Aggregate weak_queries across
+# recent reviews and retire the worst offenders. Guardrails for a thin funnel where
+# "weak" often just means "nothing new today": (1) require flagged weak >=3 of last 6
+# reviews AND effective 0 times in that window — protects queries that occasionally hit;
+# (2) cap at 2 so the base set never collapses. Recomputed each run, so it rotates.
+RETIRED_QUERIES=$(python3 - "$REPORTS_DIR/reviews.json" <<'PYEOF' 2>/dev/null || true
+import json, sys, re
+from collections import Counter
+try:
+    reviews = json.load(open(sys.argv[1]))
+except Exception:
+    sys.exit(0)
+def canon(s):
+    return re.split(r'\s+[—-]\s+', s, maxsplit=1)[0].strip().lower()
+weak, eff = Counter(), Counter()
+for rv in reviews[-6:]:
+    for w in rv.get('weak_queries', []): weak[canon(w)] += 1
+    for e in rv.get('effective_queries', []): eff[canon(e)] += 1
+cands = [(q, n) for q, n in weak.items() if n >= 3 and eff.get(q, 0) == 0]
+cands.sort(key=lambda x: -x[1])
+for q, _ in cands[:2]:
+    print(q)
+PYEOF
+)
+
 # === Build prompt ===
 {
   cat "$AGENT_DIR/prompt.md"
@@ -143,6 +251,22 @@ except: pass
 " 2>/dev/null || true
   echo ""
 
+  # GitHub API candidates — verified stars + velocity, already deduped against the DB
+  if [ -n "$GITHUB_CANDIDATES" ]; then
+    echo "## GitHub API candidates (verified star counts — already deduped against DB):"
+    echo "These come from the GitHub Search API sorted by stars. Star counts are AUTHORITATIVE — use them for scoring and the star-velocity auto-promote rules. Apply the same quality gate (design relevance, shipped, workflow-change). A [VELOCITY ... -> P1] tag means the velocity rule fires: promote to priority 1."
+    echo "$GITHUB_CANDIDATES"
+    echo ""
+  fi
+
+  # Auto-retired queries — closes the self-review loop without manual prompt edits
+  if [ -n "$RETIRED_QUERIES" ]; then
+    echo "## AUTO-RETIRED queries (DO NOT RUN — flagged weak 3+ times by past reviews):"
+    echo "$RETIRED_QUERIES" | sed 's/^/  - /'
+    echo "Skip every required query whose text matches one of the above. Replace each retired slot with a suggested query from the reviews below, or a fresh query targeting a coverage gap."
+    echo ""
+  fi
+
   REVIEWS_FILE="$REPORTS_DIR/reviews.json"
   if [ -f "$REVIEWS_FILE" ]; then
     echo "## Past Algorithm Reviews (most recent 3) — APPLY suggestions this run:"
@@ -162,7 +286,7 @@ try:
         print()
 except: pass
 " 2>/dev/null || true
-    echo "ACTION: Run at least TWO of the suggested queries above (beyond the 8 required) and SKIP the weak queries listed."
+    echo "ACTION: Run at least TWO suggested queries above (beyond the base required set) and SKIP the weak/auto-retired queries listed."
     echo ""
   fi
 
@@ -643,8 +767,10 @@ if ideas_summary: print(f\"💡 {ideas_summary}\")
     --data-urlencode "text=${NOTIFY:0:4000}" > /dev/null 2>&1 || true
 fi
 
-# === Buttondown weekly digest (Monday only) ===
-if [ "$(date +%u)" -eq 1 ] && [ -x "$AGENT_DIR/send-digest.sh" ]; then
+# === Buttondown weekly digest (full mode only) ===
+# Gated on MODE, not weekday: with multiple scout runs per day, a weekday gate would
+# fire the digest once per run on Mondays. Full mode runs once/week (radar-full.yml).
+if [ "$MODE" = "full" ] && [ -x "$AGENT_DIR/send-digest.sh" ]; then
   bash "$AGENT_DIR/send-digest.sh" 2>/dev/null || echo "$(date -Iseconds) Buttondown digest skipped"
 fi
 
