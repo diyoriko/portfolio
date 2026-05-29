@@ -16,34 +16,35 @@ Find the most important signals from the past 7 days. Quality over quantity. Onl
 
 Run multiple targeted searches. Don't stop at the first results — dig deeper.
 
-#### Required searches (run ALL 8 — BATCH them in ONE parallel tool-call block):
-**IMPORTANT: Call all 8 WebSearch tools in a SINGLE message as parallel tool calls.** This cuts network latency from 8×serial to 1×parallel. Do NOT run them one-by-one.
+#### Required searches (BATCH them in ONE parallel tool-call block):
+**IMPORTANT: Call these WebSearch tools in a SINGLE message as parallel tool calls.** This cuts network latency from N×serial to 1×parallel. Do NOT run them one-by-one.
+
+**This base list is data-driven, not fixed.** The run context below may list AUTO-RETIRED queries (flagged weak 3+ times by past reviews) — do NOT run those; replace each retired slot with a suggested query from past reviews or a fresh query targeting a coverage gap.
 
 1. `Figma AI MCP agents design 2026` — Figma ecosystem, MCP, Make, Skills, plugins
 2. `"design engineering" OR "vibe coding" AI shipped 2026` — designers shipping code
 3. `Claude Code OR Cursor designers workflow 2026` — AI coding for designers
 4. `design systems AI tokens automation 2026` — machine-readable systems
-5. `site:github.com Claude skill design OR figma OR UI trending 2026` — new GitHub skills, MCP servers
-6. `site:github.com ".claude" OR ".cursorrules" OR "agent skills" design UI UX 2026` — skills repos, agent configs for design
-7. `UX research AI synthesis shipped 2026 dovetail OR maze OR condens` — AI research tools for process tag
-8. `site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026` — practitioner publications
+5. `UX research AI synthesis shipped 2026 dovetail OR maze OR condens` — AI research tools for process tag
+6. `site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026` — practitioner publications
+
+**GitHub repos: do NOT use `site:github.com` WebSearch** — it surfaces stale low-star repos and can't verify counts. New skills/tools/MCP-servers come from the **GitHub API candidates** block in the run context below, with authoritative star counts and computed velocity. Validate those for design relevance and quality instead.
 
 #### Optional (if required had <3 good results, run up to 5):
-9. `site:producthunt.com design AI 2026` — new design tools
-10. `UX research AI automation 2026`
-11. `site:medium.com "design engineer" AI workflow 2026` — practitioner stories
-12. `Framer OR Webflow AI launch 2026` — no-code + AI tools
-13. `motion animation AI generative Figma plugin OR VS Code tool shipped 2026` — AI-powered motion/animation tools
+7. `site:producthunt.com design AI 2026` — new design tools
+8. `UX research AI automation 2026`
+9. `site:medium.com "design engineer" AI workflow 2026` — practitioner stories
+10. `Framer OR Webflow AI launch 2026` — no-code + AI tools
+11. `motion animation AI generative Figma plugin OR VS Code tool shipped 2026` — AI-powered motion/animation tools
 
-#### Curated sources (WebFetch ALL 8 — batch in ONE parallel block, same as searches):
-14. WebFetch `https://sidebar.io` — 5 hand-picked design+tech links daily. Check for design×AI relevance.
-15. WebFetch `https://heydesigner.com` — curated links for design engineers. Check latest items.
-16. WebFetch `https://t.me/s/github_repos` — trending GitHub repos. Filter for design/UI/AI tools and skills.
-17. WebFetch `https://shir-man.com/homepage` — live AI/tech aggregator (HN + GitHub trending + Lobsters + Midjourney). Structured data with star counts and view counts. Filter for design/skills/tools. Replaces the lossy denis_news_feed Telegram mirror.
-18. WebFetch `https://t.me/s/denissexy` — Denis Shiryaev's editorial Russian-language channel (~129k subs). Catches Claude/Cursor skills from Chinese and Russian devs 2-3 days before English Twitter. Filter for skills, tools, design workflows.
-19. WebFetch `https://github.com/anthropics/awesome-agent-skills` — official skills catalog. Check recent commits/additions for new design/UI skills.
-20. WebFetch `https://github.com/op7418?tab=repositories` — ships Claude skills regularly (guizang-ppt-skill etc). Check recent repo creations.
-21. WebFetch `https://github.com/ConardLi?tab=repositories` — design-adjacent AI skills (web-design-skill etc). Check recent repo creations.
+#### Curated sources (WebFetch ALL — batch in ONE parallel block, same as searches):
+12. WebFetch `https://sidebar.io` — 5 hand-picked design+tech links daily. Check for design×AI relevance.
+13. WebFetch `https://heydesigner.com` — curated links for design engineers. Check latest items.
+14. WebFetch `https://t.me/s/github_repos` — trending GitHub repos. Filter for design/UI/AI tools and skills.
+15. WebFetch `https://github.com/op7418?tab=repositories` — ships Claude skills regularly (guizang-ppt-skill etc). Check recent repo creations.
+16. WebFetch `https://github.com/ConardLi?tab=repositories` — design-adjacent AI skills (web-design-skill etc). Check recent repo creations.
+
+> Retired sources (algorithm v3, removed after repeated dead runs): `shir-man.com` (WebFetch gets only a JS loading skeleton), `t.me/s/denissexy` (zero design-relevant content across confirmed runs), `github.com/anthropics/awesome-agent-skills` (404, 3+ consecutive runs). Chinese/Russian early-signal is now covered by the op7418 / ConardLi repo watches and the GitHub API candidates block.
 
 #### Adaptive queries
 If past algorithm reviews are provided below and suggest new queries, run those as additional optional searches. Prioritize suggestions that address identified coverage gaps.
