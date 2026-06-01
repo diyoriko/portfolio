@@ -69,6 +69,22 @@
   },
   "items": [
     {
+      "title": "You are no longer the user. You are the principal.",
+      "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Вместо «пользователя» — «принципал»: в агентных интерфейсах человек делегирует полномочия, а не управляет напрямую.",
+      "desc_en": "Reframes design for agentic UIs: you no longer operate software, you authorize agents — introducing the 'principal' mental model.",
+      "date": "2026-05-28",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-06-01"
+    },
+    {
       "title": "guizang-social-card-skill — Social Media Card Generator for Claude Code",
       "url": "https://github.com/op7418/guizang-social-card-skill",
       "type": "skill",
@@ -83,7 +99,23 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 2187
+      "stars": 2199
+    },
+    {
+      "title": "7 things that Vibe Design can't replicate",
+      "url": "https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e",
+      "type": "article",
+      "tag": "design + code",
+      "desc_ru": "VP IBM по дизайну называет 7 конкретных вещей, которые вайб-дизайн не заменит: компромиссы, исследования, голос бренда, системная согласованность.",
+      "desc_en": "IBM VP Design lists 7 things AI vibe-design cannot replicate: design trade-offs, research context, brand voice, system consistency.",
+      "date": "2026-05-27",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "beginner",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-06-01"
     },
     {
       "title": "Figma Agent: A First Look",
@@ -214,7 +246,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 32102
+      "stars": 32112
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -365,7 +397,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 5637,
+      "stars": 5638,
       "tg_message_id": 473
     },
     {
@@ -535,7 +567,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 47485,
+      "stars": 47488,
       "tg_message_id": 464
     },
     {
@@ -653,7 +685,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 6855,
+      "stars": 6854,
       "tg_message_id": 446
     },
     {
@@ -671,7 +703,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2515,
+      "stars": 2516,
       "tg_message_id": 458
     },
     {
@@ -741,7 +773,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 6855,
+      "stars": 6854,
       "tg_message_id": 443
     },
     {
@@ -893,7 +925,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 13910,
+      "stars": 13924,
       "tg_message_id": 442
     },
     {
@@ -1076,7 +1108,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 56634,
+      "stars": 56644,
       "tg_message_id": 455
     },
     {
@@ -1234,7 +1266,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 23806,
+      "stars": 23809,
       "tg_message_id": 361
     },
     {
@@ -1262,7 +1294,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 214050,
+      "stars": 214071,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1299,7 +1331,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 86246,
+      "stars": 86253,
       "tg_message_id": 364
     },
     {
@@ -1441,7 +1473,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14932,
+      "stars": 14935,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1523,7 +1555,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 4778,
+      "stars": 4789,
       "tg_message_id": 373
     },
     {
@@ -1755,7 +1787,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 106496,
+      "stars": 106501,
       "tg_message_id": 386
     },
     {
@@ -1841,7 +1873,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 85696,
+      "stars": 85705,
       "tg_message_id": 392
     },
     {
@@ -2029,7 +2061,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 13075,
+      "stars": 13076,
       "tg_message_id": 403
     },
     {

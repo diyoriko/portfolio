@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 01 Jun 2026 06:32:25 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 01 Jun 2026 06:50:39 +0000</lastBuildDate>
+  <item>
+    <title>You are no longer the user. You are the principal.</title>
+    <link>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</link>
+    <description>Reframes design for agentic UIs: you no longer operate software, you authorize agents — introducing the 'principal' mental model.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>guizang-social-card-skill — Social Media Card Generator for Claude Code</title>
     <link>https://github.com/op7418/guizang-social-card-skill</link>
@@ -14,6 +22,14 @@
     <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/op7418/guizang-social-card-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>7 things that Vibe Design can't replicate</title>
+    <link>https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e</link>
+    <description>IBM VP Design lists 7 things AI vibe-design cannot replicate: design trade-offs, research context, brand voice, system consistency.</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Figma Agent: A First Look</title>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/nexu-io/html-anything</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>Designing stable interfaces for streaming content</title>
-    <link>https://www.smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/</link>
-    <description>Patterns for streaming UIs: controlled auto-scroll, layout stability, and batched DOM updates — with code examples.</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/04/designing-stable-interfaces-streaming-content/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Agentic Experience Design Is a New Discipline</title>
-    <link>https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new</link>
-    <description>Marie-Claire Dean: agentic experience design is crystallizing as a distinct professional discipline.</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    <guid>https://marieclairedean.substack.com/p/agentic-experience-design-is-a-new</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
