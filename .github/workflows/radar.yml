@@ -40,7 +40,10 @@ jobs:
           node-version: '22'
 
       - name: Install Claude CLI
-        run: npm install -g @anthropic-ai/claude-code
+        # Pinned: auto-latest let a new CLI surface the Workflow/Agent tools,
+        # which the scout tried to use and stalled on (silent 2026-05-29..06-01).
+        # Bump deliberately after testing, not silently. See PR #52/#54.
+        run: npm install -g @anthropic-ai/claude-code@2.1.159
 
       - name: Run Radar
         env:
