@@ -69,6 +69,22 @@
   },
   "items": [
     {
+      "title": "Designing for AI Means Designing Like It's 1999",
+      "url": "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Аргумент за явные, ограниченные AI-интерфейсы — как ранний веб: меньше магии, больше читаемых состояний.",
+      "desc_en": "Argues that AI interfaces should be explicit and constrained like early web — not opaque and magical.",
+      "date": "2026-06-01",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-06-01"
+    },
+    {
       "title": "You are no longer the user. You are the principal.",
       "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
       "type": "article",
@@ -99,7 +115,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 2199
+      "stars": 2286
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -246,7 +262,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 32112
+      "stars": 32175
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -397,7 +413,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 5638,
+      "stars": 5669,
       "tg_message_id": 473
     },
     {
@@ -567,7 +583,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 47488,
+      "stars": 47528,
       "tg_message_id": 464
     },
     {
@@ -685,7 +701,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 6854,
+      "stars": 6861,
       "tg_message_id": 446
     },
     {
@@ -703,7 +719,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2516,
+      "stars": 2520,
       "tg_message_id": 458
     },
     {
@@ -720,7 +736,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 902,
+      "stars": 903,
       "tg_message_id": 439
     },
     {
@@ -738,7 +754,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6576,
+      "stars": 6579,
       "tg_message_id": 449
     },
     {
@@ -773,7 +789,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 6854,
+      "stars": 6861,
       "tg_message_id": 443
     },
     {
@@ -791,7 +807,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 290,
+      "stars": 289,
       "tg_message_id": 444
     },
     {
@@ -925,7 +941,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 13924,
+      "stars": 14005,
       "tg_message_id": 442
     },
     {
@@ -943,7 +959,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1094,
+      "stars": 1095,
       "tg_message_id": 445
     },
     {
@@ -1108,7 +1124,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 56644,
+      "stars": 56719,
       "tg_message_id": 455
     },
     {
@@ -1266,7 +1282,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 23809,
+      "stars": 23822,
       "tg_message_id": 361
     },
     {
@@ -1294,7 +1310,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 214071,
+      "stars": 214246,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1331,7 +1347,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 86253,
+      "stars": 86301,
       "tg_message_id": 364
     },
     {
@@ -1473,7 +1489,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14935,
+      "stars": 14939,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1506,7 +1522,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4942,
+      "stars": 4943,
       "tg_message_id": 370
     },
     {
@@ -1555,7 +1571,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 4789,
+      "stars": 4858,
       "tg_message_id": 373
     },
     {
@@ -1787,7 +1803,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 106501,
+      "stars": 106535,
       "tg_message_id": 386
     },
     {
@@ -1800,7 +1816,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1757,
+      "stars": 1758,
       "tg_message_id": 387
     },
     {
@@ -1873,7 +1889,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 85705,
+      "stars": 85782,
       "tg_message_id": 392
     },
     {
@@ -2081,6 +2097,23 @@
       "stars": 333
     },
     {
+      "title": "FigmaLint — AI-Powered Component Auditor for WCAG and Design System Compliance",
+      "url": "https://github.com/southleft/figmalint",
+      "type": "tool",
+      "tag": "a11y×ai",
+      "desc_ru": "Плагин Figma: AI-аудит компонентов на соответствие WCAG, токенам дизайн-системы и готовность к разработке.",
+      "desc_en": "Figma plugin that audits components for WCAG compliance, design token adoption, and developer readiness with AI.",
+      "date": "2026-01-31",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-06-01",
+      "stars": 60
+    },
+    {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
       "url": "https://github.com/superdesigndev/superdesign",
       "type": "tool",
@@ -2094,7 +2127,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6528,
+      "stars": 6530,
       "tg_message_id": 404
     },
     {

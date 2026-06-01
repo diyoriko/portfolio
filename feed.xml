@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 01 Jun 2026 06:50:39 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 01 Jun 2026 09:12:29 +0000</lastBuildDate>
+  <item>
+    <title>Designing for AI Means Designing Like It's 1999</title>
+    <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
+    <description>Argues that AI interfaces should be explicit and constrained like early web — not opaque and magical.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>You are no longer the user. You are the principal.</title>
     <link>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</link>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     <guid>https://pjonori.blog/posts/testing-agents-on-design-systems/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>html-anything — Agentic HTML Editor with 75 Skills</title>
-    <link>https://github.com/nexu-io/html-anything</link>
-    <description>Agentic HTML editor from the open-design team: 75 skills, 9 output formats from magazine layouts to prototypes, ships to HTML/PNG/PDF.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/nexu-io/html-anything</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
