@@ -83,7 +83,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 1766
+      "stars": 2187
     },
     {
       "title": "Figma Agent: A First Look",
@@ -214,7 +214,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 31710
+      "stars": 32102
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -365,7 +365,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 5485,
+      "stars": 5637,
       "tg_message_id": 473
     },
     {
@@ -535,7 +535,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 47254,
+      "stars": 47485,
       "tg_message_id": 464
     },
     {
@@ -653,7 +653,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 6767,
+      "stars": 6855,
       "tg_message_id": 446
     },
     {
@@ -671,7 +671,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2482,
+      "stars": 2515,
       "tg_message_id": 458
     },
     {
@@ -688,7 +688,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 898,
+      "stars": 902,
       "tg_message_id": 439
     },
     {
@@ -706,7 +706,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6556,
+      "stars": 6576,
       "tg_message_id": 449
     },
     {
@@ -741,7 +741,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 6767,
+      "stars": 6855,
       "tg_message_id": 443
     },
     {
@@ -874,7 +874,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 2987,
+      "stars": 2999,
       "tg_message_id": 429
     },
     {
@@ -893,7 +893,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 13594,
+      "stars": 13910,
       "tg_message_id": 442
     },
     {
@@ -911,7 +911,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1092,
+      "stars": 1094,
       "tg_message_id": 445
     },
     {
@@ -928,7 +928,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2497,
+      "stars": 2503,
       "tg_message_id": 436
     },
     {
@@ -1076,7 +1076,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 56082,
+      "stars": 56634,
       "tg_message_id": 455
     },
     {
@@ -1234,7 +1234,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 23669,
+      "stars": 23806,
       "tg_message_id": 361
     },
     {
@@ -1262,7 +1262,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 213171,
+      "stars": 214050,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1299,7 +1299,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 85964,
+      "stars": 86246,
       "tg_message_id": 364
     },
     {
@@ -1333,7 +1333,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1922,
+      "stars": 1923,
       "tg_message_id": 450
     },
     {
@@ -1441,7 +1441,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14925,
+      "stars": 14932,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1474,7 +1474,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4931,
+      "stars": 4942,
       "tg_message_id": 370
     },
     {
@@ -1523,7 +1523,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 4353,
+      "stars": 4778,
       "tg_message_id": 373
     },
     {
@@ -1646,7 +1646,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 608,
+      "stars": 609,
       "tg_message_id": 380
     },
     {
@@ -1755,7 +1755,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 106240,
+      "stars": 106496,
       "tg_message_id": 386
     },
     {
@@ -1768,7 +1768,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1753,
+      "stars": 1757,
       "tg_message_id": 387
     },
     {
@@ -1841,7 +1841,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 85266,
+      "stars": 85696,
       "tg_message_id": 392
     },
     {
@@ -1886,7 +1886,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 285,
+      "stars": 286,
       "tg_message_id": 395
     },
     {
@@ -1995,7 +1995,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 606,
+      "stars": 615,
       "tg_message_id": 440
     },
     {
@@ -2029,7 +2029,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 13040,
+      "stars": 13075,
       "tg_message_id": 403
     },
     {
@@ -2046,7 +2046,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 332
+      "stars": 333
     },
     {
       "title": "Superdesign — AI Design Agent for Claude Code and Cursor",
@@ -2062,7 +2062,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6525,
+      "stars": 6528,
       "tg_message_id": 404
     },
     {
