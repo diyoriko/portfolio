@@ -37,7 +37,7 @@ Run multiple targeted searches. Don't stop at the first results — dig deeper.
 12. `Framer OR Webflow AI launch 2026` — no-code + AI tools
 13. `motion animation AI generative Figma plugin OR VS Code tool shipped 2026` — AI-powered motion/animation tools
 
-#### Curated sources (WebFetch ALL 8 — batch in ONE parallel block, same as searches):
+#### Curated sources (WebFetch ALL 9 — batch in ONE parallel block, same as searches):
 14. WebFetch `https://sidebar.io` — 5 hand-picked design+tech links daily. Check for design×AI relevance.
 15. WebFetch `https://heydesigner.com` — curated links for design engineers. Check latest items.
 16. WebFetch `https://t.me/s/github_repos` — trending GitHub repos. Filter for design/UI/AI tools and skills.
@@ -46,6 +46,7 @@ Run multiple targeted searches. Don't stop at the first results — dig deeper.
 19. WebFetch `https://github.com/anthropics/awesome-agent-skills` — official skills catalog. Check recent commits/additions for new design/UI skills.
 20. WebFetch `https://github.com/op7418?tab=repositories` — ships Claude skills regularly (guizang-ppt-skill etc). Check recent repo creations.
 21. WebFetch `https://github.com/ConardLi?tab=repositories` — design-adjacent AI skills (web-design-skill etc). Check recent repo creations.
+22. WebFetch `https://newsletter.uxdesign.cc` — UX Collective's publicly accessible Substack mirror. High-signal design×AI articles; use these public URLs instead of Medium/uxdesign.cc links which are paywalled and bot-blocked.
 
 #### Adaptive queries
 If past algorithm reviews are provided below and suggest new queries, run those as additional optional searches. Prioritize suggestions that address identified coverage gaps.

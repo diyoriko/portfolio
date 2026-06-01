@@ -290,6 +290,7 @@ DB_RESULT=$(python3 -c "
 import json, re, sys
 from urllib.parse import urlparse, urlunparse
 from urllib.request import urlopen, Request
+from urllib.error import HTTPError
 
 def norm_url(u):
     p = urlparse(u.strip().rstrip('/'))
@@ -298,18 +299,23 @@ def norm_url(u):
         host = host[4:]
     return urlunparse(('https', host, p.path.rstrip('/'), '', '', ''))
 
+# Codes that mean 'host answered, page exists' even though it refused our bot
+# (Medium/uxdesign.cc 403, method-not-allowed 405, rate-limit 429, auth 401).
+# These are real articles behind bot-blocks/paywalls, not dead links.
+ALIVE_BLOCK_CODES = {401, 403, 405, 429}
+
 def url_ok(u):
-    try:
-        req = Request(u, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})
-        code = urlopen(req, timeout=8).status
-        return 200 <= code < 400
-    except:
+    for method in ('HEAD', 'GET'):
         try:
-            req = Request(u, method='GET', headers={'User-Agent': 'Mozilla/5.0'})
-            code = urlopen(req, timeout=8).status
+            code = urlopen(Request(u, method=method, headers={'User-Agent': 'Mozilla/5.0'}), timeout=8).status
             return 200 <= code < 400
-        except:
-            return False
+        except HTTPError as e:
+            if e.code in ALIVE_BLOCK_CODES:
+                return True
+            # other HTTP errors (404/410/5xx): try next method, then give up
+        except Exception:
+            pass
+    return False
 
 report = open('$REPORT_FILE').read()
 
