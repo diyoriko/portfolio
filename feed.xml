@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 01 Jun 2026 09:12:29 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 02 Jun 2026 08:20:55 +0000</lastBuildDate>
   <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
     <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
@@ -22,6 +22,14 @@
     <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Figma Make, Now on Your Local Code</title>
+    <link>https://www.figma.com/blog/figma-make-now-on-your-local-code/</link>
+    <description>Figma Make beta connects to your codebase — select elements visually, the agent edits code and opens a PR.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/figma-make-now-on-your-local-code/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>guizang-social-card-skill — Social Media Card Generator for Claude Code</title>
@@ -70,6 +78,14 @@
     <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-figma-agent-is-here/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>The Interface Is No Longer the Product</title>
+    <link>https://blog.mozilla.ai/the-interface-is-no-longer-the-product/</link>
+    <description>Mozilla AI argues that AI agents make structured content the real product — the interface becomes just one view over it.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.mozilla.ai/the-interface-is-no-longer-the-product/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Train Your Judgement</title>
@@ -150,22 +166,6 @@
     <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     <guid>https://addyosmani.com/blog/agent-skills/</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Draftsmanship</title>
-    <link>https://www.proofofconcept.pub/p/draftsmanship</link>
-    <description>Photograph your sketch and use it as AI input — David Hoang's method for cleaner output from Claude and v0.</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.proofofconcept.pub/p/draftsmanship</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Testing agents on design systems</title>
-    <link>https://pjonori.blog/posts/testing-agents-on-design-systems/</link>
-    <description>PJ Onori built a testing framework pitting agents against two design system versions: documentation beats MCP context dumps.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://pjonori.blog/posts/testing-agents-on-design-systems/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
