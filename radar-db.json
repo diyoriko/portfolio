@@ -131,7 +131,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 2491
+      "stars": 2662
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -277,7 +277,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 100
+      "stars": 122
     },
     {
       "title": "impeccable — Design Language Skill That Stops AI-Generated UIs from Looking Like AI",
@@ -294,7 +294,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 33097
+      "stars": 33756
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -445,7 +445,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 5818,
+      "stars": 5927,
       "tg_message_id": 473
     },
     {
@@ -597,7 +597,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 140,
+      "stars": 141,
       "tg_message_id": 457
     },
     {
@@ -615,7 +615,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 47692,
+      "stars": 47875,
       "tg_message_id": 464
     },
     {
@@ -733,7 +733,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 7028,
+      "stars": 7155,
       "tg_message_id": 446
     },
     {
@@ -751,7 +751,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2535,
+      "stars": 2556,
       "tg_message_id": 458
     },
     {
@@ -768,7 +768,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 909,
+      "stars": 910,
       "tg_message_id": 439
     },
     {
@@ -786,7 +786,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6601,
+      "stars": 6616,
       "tg_message_id": 449
     },
     {
@@ -821,7 +821,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 7028,
+      "stars": 7155,
       "tg_message_id": 443
     },
     {
@@ -839,7 +839,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 289,
+      "stars": 298,
       "tg_message_id": 444
     },
     {
@@ -954,7 +954,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 3013,
+      "stars": 3025,
       "tg_message_id": 429
     },
     {
@@ -973,7 +973,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 14251,
+      "stars": 14570,
       "tg_message_id": 442
     },
     {
@@ -991,8 +991,25 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1102,
+      "stars": 1110,
       "tg_message_id": 445
+    },
+    {
+      "title": "specification.website — Platform-Agnostic Web Spec for HTML, Accessibility, and Agent-Readiness",
+      "url": "https://github.com/jdevalk/specification.website",
+      "type": "tool",
+      "tag": "a11y×ai",
+      "desc_ru": "Платформенно-нейтральная веб-спецификация с WCAG, SEO и MCP-сервером — один источник истины для HTML, доступности и AI-агентов.",
+      "desc_en": "Platform-agnostic web spec covering HTML, WCAG accessibility, SEO, and agent-readiness, with an MCP server for AI agent access.",
+      "date": "2026-04-15",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 15,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-06-03",
+      "stars": 467
     },
     {
       "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
@@ -1008,7 +1025,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2512,
+      "stars": 2515,
       "tg_message_id": 436
     },
     {
@@ -1156,7 +1173,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 57266,
+      "stars": 57845,
       "tg_message_id": 455
     },
     {
@@ -1314,7 +1331,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 23953,
+      "stars": 24075,
       "tg_message_id": 361
     },
     {
@@ -1342,7 +1359,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 215271,
+      "stars": 216344,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1379,7 +1396,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 86642,
+      "stars": 86973,
       "tg_message_id": 364
     },
     {
@@ -1413,7 +1430,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1926,
+      "stars": 1925,
       "tg_message_id": 450
     },
     {
@@ -1521,7 +1538,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14955,
+      "stars": 14973,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1554,7 +1571,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4948,
+      "stars": 4952,
       "tg_message_id": 370
     },
     {
@@ -1603,7 +1620,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 5329,
+      "stars": 5593,
       "tg_message_id": 373
     },
     {
@@ -1835,7 +1852,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 106804,
+      "stars": 107076,
       "tg_message_id": 386
     },
     {
@@ -1848,7 +1865,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1759,
+      "stars": 1768,
       "tg_message_id": 387
     },
     {
@@ -1921,7 +1938,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 86237,
+      "stars": 86679,
       "tg_message_id": 392
     },
     {
@@ -1966,7 +1983,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-01",
-      "stars": 290,
+      "stars": 291,
       "tg_message_id": 395
     },
     {
@@ -2075,7 +2092,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 624,
+      "stars": 625,
       "tg_message_id": 440
     },
     {
@@ -2092,7 +2109,7 @@
       "desc_ru": "MCP-сервер, дающий AI-ассистенту прямой доступ к компонентам и токенам живого Storybook.",
       "desc_en": "MCP server that connects AI assistants to a live Storybook instance to browse components and extract design tokens.",
       "added": "2026-04-02",
-      "stars": 65,
+      "stars": 66,
       "tg_message_id": 402
     },
     {
@@ -2109,7 +2126,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 13100,
+      "stars": 13129,
       "tg_message_id": 403
     },
     {
@@ -2126,7 +2143,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-07",
-      "stars": 335
+      "stars": 338
     },
     {
       "title": "FigmaLint — AI-Powered Component Auditor for WCAG and Design System Compliance",
@@ -2159,7 +2176,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6530,
+      "stars": 6531,
       "tg_message_id": 404
     },
     {
