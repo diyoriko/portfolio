@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 03 Jun 2026 08:45:10 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 04 Jun 2026 08:15:29 +0000</lastBuildDate>
   <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
     <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
@@ -30,6 +30,14 @@
     <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/figma-make-now-on-your-local-code/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Introducing Dynamic Workflows in Claude Code</title>
+    <link>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</link>
+    <description>Claude Code now writes orchestration scripts to spawn parallel subagents — weeks of migration or audit work completes in days.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>guizang-social-card-skill — Social Media Card Generator for Claude Code</title>
@@ -61,6 +69,14 @@
     <description>906-respondent survey: 50% of designers shipped AI-generated code to production; average toolstack doubled to 7 tools.</description>
     <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     <guid>https://stateofaidesign.com/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Two LLM UI Patterns That Aren't Chat</title>
+    <link>https://poyo.co/note/20260525T094605/</link>
+    <description>Two alternative LLM UI structures beyond chat: a comparison table and a decomposition tree, each with a shipped demo.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://poyo.co/note/20260525T094605/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     <guid>https://styles.refero.design</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Designing, Refining, and Maintaining Agent Skills at Perplexity</title>
-    <link>https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity</link>
-    <description>Perplexity's methodology: progressive context loading, gotchas flywheel, write evals before writing the skill body.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Agent Skills — Engineering Discipline in AI Workflows</title>
-    <link>https://addyosmani.com/blog/agent-skills/</link>
-    <description>Addy Osmani's checklist framework for AI agents: 6 lifecycle phases, slash commands, anti-rationalization tables to enforce discipline.</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://addyosmani.com/blog/agent-skills/</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
