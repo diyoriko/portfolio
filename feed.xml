@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 04 Jun 2026 08:15:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 05 Jun 2026 07:58:40 +0000</lastBuildDate>
+  <item>
+    <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
+    <link>https://github.com/ideogram-oss/ideogram4</link>
+    <description>First open-weight Ideogram model; excels at text-in-image rendering for logos, banners, and signage, with hex color steering.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/ideogram-oss/ideogram4</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>The Parts of Your System You Never Wrote Down</title>
+    <link>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</link>
+    <description>AI agents fill undocumented design decisions with internet defaults; document unconventional choices or they vanish.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
     <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Dessn — Design Directly in Production Codebases</title>
-    <link>https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/</link>
-    <description>Cloud-based tool for iterating on live production codebases without local setup; free tier available today.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Refero Styles — Brand Design Library for AI Agents</title>
-    <link>https://styles.refero.design</link>
-    <description>Search brand design references by mood or URL; exports machine-readable DESIGN.md with tokens for AI agents.</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://styles.refero.design</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>

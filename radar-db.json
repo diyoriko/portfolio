@@ -69,6 +69,40 @@
   },
   "items": [
     {
+      "title": "Ideogram 4 — First Open-Weight Image Model for Design",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Первая open-weight модель Ideogram: точный рендеринг текста в изображениях — логотипы, баннеры, вывески — с управлением цветом.",
+      "desc_en": "First open-weight Ideogram model; excels at text-in-image rendering for logos, banners, and signage, with hex color steering.",
+      "date": "2026-06-03",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 3,
+      "difficulty": "advanced",
+      "has_demo": true,
+      "expanded_window": false,
+      "star_velocity": "550★/24h",
+      "added": "2026-06-05",
+      "stars": 1088
+    },
+    {
+      "title": "The Parts of Your System You Never Wrote Down",
+      "url": "https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/",
+      "type": "article",
+      "tag": "design systems",
+      "desc_ru": "AI-агенты заполняют незадокументированные решения интернет-усреднением — нестандартные выборы нужно фиксировать явно.",
+      "desc_en": "AI agents fill undocumented design decisions with internet defaults; document unconventional choices or they vanish.",
+      "date": "2026-06-03",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-06-05"
+    },
+    {
       "title": "Designing for AI Means Designing Like It's 1999",
       "url": "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999",
       "type": "article",
@@ -147,7 +181,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 2801
+      "stars": 2904
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -309,7 +343,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 126
+      "stars": 135
     },
     {
       "title": "impeccable — Design Language Skill That Stops AI-Generated UIs from Looking Like AI",
@@ -326,7 +360,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 34223
+      "stars": 34532
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -477,7 +511,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 6003,
+      "stars": 6109,
       "tg_message_id": 473
     },
     {
@@ -647,7 +681,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 48154,
+      "stars": 48346,
       "tg_message_id": 464
     },
     {
@@ -697,7 +731,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 101,
+      "stars": 102,
       "tg_message_id": 454
     },
     {
@@ -765,7 +799,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 7260,
+      "stars": 7350,
       "tg_message_id": 446
     },
     {
@@ -783,7 +817,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2573,
+      "stars": 2582,
       "tg_message_id": 458
     },
     {
@@ -800,7 +834,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 915,
+      "stars": 918,
       "tg_message_id": 439
     },
     {
@@ -818,7 +852,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6636,
+      "stars": 6669,
       "tg_message_id": 449
     },
     {
@@ -853,7 +887,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 7260,
+      "stars": 7350,
       "tg_message_id": 443
     },
     {
@@ -871,7 +905,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 303,
+      "stars": 307,
       "tg_message_id": 444
     },
     {
@@ -986,7 +1020,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 3042,
+      "stars": 3059,
       "tg_message_id": 429
     },
     {
@@ -1005,7 +1039,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 14831,
+      "stars": 15108,
       "tg_message_id": 442
     },
     {
@@ -1023,7 +1057,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1116,
+      "stars": 1122,
       "tg_message_id": 445
     },
     {
@@ -1041,7 +1075,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-03",
-      "stars": 488
+      "stars": 530
     },
     {
       "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
@@ -1057,7 +1091,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2520,
+      "stars": 2527,
       "tg_message_id": 436
     },
     {
@@ -1205,7 +1239,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 58380,
+      "stars": 59084,
       "tg_message_id": 455
     },
     {
@@ -1363,7 +1397,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 24167,
+      "stars": 24277,
       "tg_message_id": 361
     },
     {
@@ -1391,7 +1425,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 217353,
+      "stars": 218365,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1428,7 +1462,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 87266,
+      "stars": 87603,
       "tg_message_id": 364
     },
     {
@@ -1462,7 +1496,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1926,
+      "stars": 1928,
       "tg_message_id": 450
     },
     {
@@ -1570,7 +1604,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 14991,
+      "stars": 14998,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1603,7 +1637,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 4958,
+      "stars": 4966,
       "tg_message_id": 370
     },
     {
@@ -1652,7 +1686,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 5796,
+      "stars": 6039,
       "tg_message_id": 373
     },
     {
@@ -1884,7 +1918,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 107335,
+      "stars": 107588,
       "tg_message_id": 386
     },
     {
@@ -1897,7 +1931,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1776,
+      "stars": 1783,
       "tg_message_id": 387
     },
     {
@@ -1970,7 +2004,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 87145,
+      "stars": 87573,
       "tg_message_id": 392
     },
     {
@@ -2124,7 +2158,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 628,
+      "stars": 633,
       "tg_message_id": 440
     },
     {
@@ -2158,7 +2192,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 13155,
+      "stars": 13186,
       "tg_message_id": 403
     },
     {
