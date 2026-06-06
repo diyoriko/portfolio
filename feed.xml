@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 05 Jun 2026 07:58:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 06 Jun 2026 06:51:35 +0000</lastBuildDate>
   <item>
     <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
     <link>https://github.com/ideogram-oss/ideogram4</link>
@@ -30,6 +30,14 @@
     <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>The Speed of Prototyping in the Age of AI</title>
+    <link>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</link>
+    <description>A practitioner documents 4x faster time-to-PR with AI agents and argues that what changed is which tasks you take on, not just how fast.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>You are no longer the user. You are the principal.</title>
@@ -120,6 +128,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>anydesign — Reverse-Engineer Any Visual Reference into DTCG Tokens and design.md</title>
+    <link>https://github.com/uxKero/anydesign</link>
+    <description>Claude skill that reverse-engineers any image, URL, or Figma file into DTCG tokens, a structured design.md, and an optional WCAG contrast audit.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/uxKero/anydesign</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Train Your Judgement</title>
     <link>https://emilkowal.ski/ui/train-your-judgement</link>
     <description>Interactive animation-judgment exercises and a design engineering skill file for feeding motion standards to coding agents.</description>
@@ -144,27 +160,11 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
-    <title>impeccable — Design Language Skill That Stops AI-Generated UIs from Looking Like AI</title>
-    <link>https://github.com/pbakaus/impeccable</link>
-    <description>23 commands for Claude Code, Cursor, and other harnesses teaching AI typography, color, and spacing rules to stop defaulting to purple gradients and Inter font.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/pbakaus/impeccable</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Context-Based Design Systems, Revisited</title>
-    <link>https://southleft.substack.com/p/context-based-design-systems-revisited</link>
-    <description>The quality of context provided upstream to AI agents directly determines how accurately your design system is implemented.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://southleft.substack.com/p/context-based-design-systems-revisited</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Practical Interface Patterns For AI Transparency (Part 2)</title>
-    <link>https://www.smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/</link>
-    <description>Four named patterns for AI agent UX transparency: Living Breadcrumb, Dynamic Checklist, Thinking Toggle, Audit Trail.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/</guid>
+    <title>wondelai/skills — 48 UX and Product Methodology Frameworks as Claude Code Skills</title>
+    <link>https://github.com/wondelai/skills</link>
+    <description>48 UX and product frameworks — Lean UX, Design Sprint, UX Heuristics, Refactoring UI, Hooked — packaged as installable Claude Code skills.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/wondelai/skills</guid>
     <category>Process</category>
   </item>
 </channel>
