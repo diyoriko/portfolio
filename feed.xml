@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 06 Jun 2026 06:51:35 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 07 Jun 2026 07:49:41 +0000</lastBuildDate>
   <item>
     <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
     <link>https://github.com/ideogram-oss/ideogram4</link>
