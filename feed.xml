@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 08 Jun 2026 08:40:21 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Jun 2026 07:10:20 +0000</lastBuildDate>
+  <item>
+    <title>Loop Engineering</title>
+    <link>https://addyosmani.com/blog/loop-engineering/</link>
+    <description>Stop prompting agents; design the loop that prompts them. Addy Osmani on moving past vibe coding to loop engineering.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://addyosmani.com/blog/loop-engineering/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>baoyu-design — Run Claude Design Locally as an Agent Skill</title>
+    <link>https://github.com/JimLiu/baoyu-design</link>
+    <description>Packages Claude Design as an installable agent skill for Claude Code, Cursor, and Codex — 24 built-in design skills.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/JimLiu/baoyu-design</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
     <link>https://github.com/ideogram-oss/ideogram4</link>
@@ -46,6 +62,14 @@
     <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     <guid>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Voice In, Visuals Out</title>
+    <link>https://allenpike.com/2026/voice-in-visuals-out/</link>
+    <description>Concrete latency budgets for voice-input AI interfaces: ≤200ms for voice, up to 1000ms tolerated for visual output.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    <guid>https://allenpike.com/2026/voice-in-visuals-out/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>You are no longer the user. You are the principal.</title>
@@ -142,30 +166,6 @@
     <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.mozilla.ai/the-interface-is-no-longer-the-product/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>anydesign — Reverse-Engineer Any Visual Reference into DTCG Tokens and design.md</title>
-    <link>https://github.com/uxKero/anydesign</link>
-    <description>Claude skill that reverse-engineers any image, URL, or Figma file into DTCG tokens, a structured design.md, and an optional WCAG contrast audit.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/uxKero/anydesign</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Train Your Judgement</title>
-    <link>https://emilkowal.ski/ui/train-your-judgement</link>
-    <description>Interactive animation-judgment exercises and a design engineering skill file for feeding motion standards to coding agents.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://emilkowal.ski/ui/train-your-judgement</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Your Design System Is Fragmenting into Agent Files</title>
-    <link>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</link>
-    <description>Design systems are splitting into agent-readable files: DESIGN.md, SKILL.md, and agent configs instead of a single library.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/your-design-system-is-fragmenting-into-agent-files/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
