@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 09 Jun 2026 07:10:20 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 10 Jun 2026 07:58:25 +0000</lastBuildDate>
   <item>
     <title>Loop Engineering</title>
     <link>https://addyosmani.com/blog/loop-engineering/</link>
@@ -24,6 +24,14 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>The Four Design Jobs AI Created (So Far)</title>
+    <link>https://www.nngroup.com/articles/design-jobs-ai-created/</link>
+    <description>NNGroup distinguishes four types of AI design work and why each needs different skills and definitions of quality.</description>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/design-jobs-ai-created/</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
     <link>https://github.com/ideogram-oss/ideogram4</link>
     <description>First open-weight Ideogram model; excels at text-in-image rendering for logos, banners, and signage, with hex color steering.</description>
@@ -38,6 +46,14 @@
     <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>diffusionstudio/lottie — Open-Source Skill for AI-Generated Lottie Animations</title>
+    <link>https://github.com/diffusionstudio/lottie</link>
+    <description>Claude Code skill that generates production-ready Lottie animations from a prompt with live preview.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/diffusionstudio/lottie</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
@@ -150,22 +166,6 @@
     <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>The Figma design agent is here</title>
-    <link>https://www.figma.com/blog/the-figma-agent-is-here/</link>
-    <description>Figma's native AI design agent rolls out in beta: design system-aware generation, bulk editing, and multi-direction exploration directly on the canvas.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/the-figma-agent-is-here/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>The Interface Is No Longer the Product</title>
-    <link>https://blog.mozilla.ai/the-interface-is-no-longer-the-product/</link>
-    <description>Mozilla AI argues that AI agents make structured content the real product — the interface becomes just one view over it.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.mozilla.ai/the-interface-is-no-longer-the-product/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
