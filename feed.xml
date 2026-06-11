@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 10 Jun 2026 07:58:25 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 11 Jun 2026 08:28:03 +0000</lastBuildDate>
+  <item>
+    <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
+    <link>https://github.com/plugin87/ux-ui-agent-skills</link>
+    <description>17-skill Claude Code kit with DTCG tokens, WCAG 2.2 auditing, and 138 brand design systems; v2.3.0 adds motion tokens.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/plugin87/ux-ui-agent-skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Loop Engineering</title>
     <link>https://addyosmani.com/blog/loop-engineering/</link>
@@ -32,6 +40,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Check designs: catch what's off, ship what's right</title>
+    <link>https://forum.figma.com/product-updates-3/check-designs-catch-what-s-off-ship-what-s-right-54551</link>
+    <description>Figma's Check Designs flags token drift and WCAG contrast violations and swaps in correct design system values in one click.</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://forum.figma.com/product-updates-3/check-designs-catch-what-s-off-ship-what-s-right-54551</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
     <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
     <link>https://github.com/ideogram-oss/ideogram4</link>
     <description>First open-weight Ideogram model; excels at text-in-image rendering for logos, banners, and signage, with hex color steering.</description>
@@ -54,6 +70,14 @@
     <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/diffusionstudio/lottie</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Figma Make: Plan Mode, Web Search, and Queued Messages</title>
+    <link>https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make</link>
+    <description>Figma Make can now draft a step-by-step build plan for you to review and edit before generation starts; also gains web search.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
@@ -141,30 +165,6 @@
     <description>906-respondent survey: 50% of designers shipped AI-generated code to production; average toolstack doubled to 7 tools.</description>
     <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     <guid>https://stateofaidesign.com/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Two LLM UI Patterns That Aren't Chat</title>
-    <link>https://poyo.co/note/20260525T094605/</link>
-    <description>Two alternative LLM UI structures beyond chat: a comparison table and a decomposition tree, each with a shipped demo.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://poyo.co/note/20260525T094605/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>The Orchestration Tax Is You</title>
-    <link>https://addyosmani.com/blog/orchestration-tax/</link>
-    <description>Human attention cannot be parallelized — cap active agents to your actual review capacity, not the maximum number you can spawn.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://addyosmani.com/blog/orchestration-tax/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Designing how designers master AI</title>
-    <link>https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945</link>
-    <description>Concrete technique for designers to master AI tools: 30-min sessions pairing one tool with one job-to-be-done.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945</guid>
     <category>Process</category>
   </item>
 </channel>
