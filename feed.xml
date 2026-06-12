@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 11 Jun 2026 08:28:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 12 Jun 2026 08:15:43 +0000</lastBuildDate>
   <item>
     <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
     <link>https://github.com/plugin87/ux-ui-agent-skills</link>
@@ -14,6 +14,14 @@
     <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/plugin87/ux-ui-agent-skills</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>How I Validated Design Decisions Before Writing Production Code</title>
+    <link>https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/</link>
+    <description>Slack design team: AI-assisted exploratory prototypes surface edge cases and replace weeks of production iteration.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Loop Engineering</title>
@@ -96,6 +104,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>align-dev — AI Coding Standards Generator with Design Tokens and WCAG</title>
+    <link>https://github.com/razr001/align-dev</link>
+    <description>Generates shared SKILL.md coding standards for Claude Code/Cursor teams: 49 UI presets, design tokens, WCAG checks.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/razr001/align-dev</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>The Speed of Prototyping in the Age of AI</title>
     <link>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</link>
     <description>A practitioner documents 4x faster time-to-PR with AI agents and argues that what changed is which tasks you take on, not just how fast.</description>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Figma Agent: A First Look</title>
-    <link>https://www.shapes.gg/figma-agent-a-first-look/</link>
-    <description>Five practical tests: Figma Agent works for decks and component-rich UIs; fails on icon sets and business cards.</description>
-    <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.shapes.gg/figma-agent-a-first-look/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>AI in Design Report 2026</title>
-    <link>https://stateofaidesign.com/</link>
-    <description>906-respondent survey: 50% of designers shipped AI-generated code to production; average toolstack doubled to 7 tools.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://stateofaidesign.com/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
