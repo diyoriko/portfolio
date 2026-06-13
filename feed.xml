@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 12 Jun 2026 08:15:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 07:15:12 +0000</lastBuildDate>
+  <item>
+    <title>What is AX?</title>
+    <link>https://maeda.pm/2026/06/11/what-is-ax/</link>
+    <description>John Maeda defines Agent Experience: agents collapse the Gulf of Execution while expanding the Gulf of Evaluation.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://maeda.pm/2026/06/11/what-is-ax/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
     <link>https://github.com/plugin87/ux-ui-agent-skills</link>
@@ -88,6 +96,14 @@
     <category>Figma × AI</category>
   </item>
   <item>
+    <title>How To Make Your Design System AI-Ready</title>
+    <link>https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/</link>
+    <description>Three-layer methodology (spec files, tokens, audit scripts) for reducing inconsistencies in AI-generated prototypes.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Designing for AI Means Designing Like It's 1999</title>
     <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
     <description>Argues that AI interfaces should be explicit and constrained like early web — not opaque and magical.</description>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     <guid>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>guizang-social-card-skill — Social Media Card Generator for Claude Code</title>
-    <link>https://github.com/op7418/guizang-social-card-skill</link>
-    <description>Claude Code skill generates editorial social cards (Xiaohongshu carousels, WeChat covers) across 28 layouts via Playwright PNG render.</description>
-    <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-social-card-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>7 things that Vibe Design can't replicate</title>
-    <link>https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e</link>
-    <description>IBM VP Design lists 7 things AI vibe-design cannot replicate: design trade-offs, research context, brand voice, system consistency.</description>
-    <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/7-things-that-vibe-design-cant-replicate-014e3089f86e</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
