@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 13 Jun 2026 07:15:12 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 14 Jun 2026 08:07:55 +0000</lastBuildDate>
   <item>
     <title>What is AX?</title>
     <link>https://maeda.pm/2026/06/11/what-is-ax/</link>
@@ -32,12 +32,28 @@
     <category>Process</category>
   </item>
   <item>
+    <title>effective-html — HTML Artifact Skills for Claude Code</title>
+    <link>https://github.com/plannotator/effective-html</link>
+    <description>Three Claude Code skills for visual HTML outputs: general HTML, full-screen SVG architecture diagrams, and plan-page documents.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/plannotator/effective-html</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>Loop Engineering</title>
     <link>https://addyosmani.com/blog/loop-engineering/</link>
     <description>Stop prompting agents; design the loop that prompts them. Addy Osmani on moving past vibe coding to loop engineering.</description>
     <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://addyosmani.com/blog/loop-engineering/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>awesome-claude-design — 68 Company DESIGN.md Templates for Claude Design</title>
+    <link>https://github.com/VoltAgent/awesome-claude-design</link>
+    <description>68 ready-to-drop DESIGN.md files for Claude Design covering major tech companies; scaffold a full UI in one shot.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/VoltAgent/awesome-claude-design</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>baoyu-design — Run Claude Design Locally as an Agent Skill</title>
@@ -149,22 +165,6 @@
     <description>Reframes design for agentic UIs: you no longer operate software, you authorize agents — introducing the 'principal' mental model.</description>
     <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Figma Make, Now on Your Local Code</title>
-    <link>https://www.figma.com/blog/figma-make-now-on-your-local-code/</link>
-    <description>Figma Make beta connects to your codebase — select elements visually, the agent edits code and opens a PR.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/figma-make-now-on-your-local-code/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Introducing Dynamic Workflows in Claude Code</title>
-    <link>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</link>
-    <description>Claude Code now writes orchestration scripts to spawn parallel subagents — weeks of migration or audit work completes in days.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</guid>
     <category>Process</category>
   </item>
 </channel>
