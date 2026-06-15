@@ -85,6 +85,24 @@
       "added": "2026-06-13"
     },
     {
+      "title": "Bernini — ByteDance Open-Source Video Generation and Motion Transfer Framework",
+      "url": "https://github.com/bytedance/Bernini",
+      "type": "tool",
+      "tag": "motion×ai",
+      "priority": 2,
+      "score": 8,
+      "date": "2026-06-11",
+      "reading_time": 12,
+      "difficulty": "advanced",
+      "has_demo": true,
+      "expanded_window": false,
+      "star_velocity": "368★/7d",
+      "desc_ru": "Открытый фреймворк ByteDance для генерации и редактирования видео с переносом motion-паттернов между сценами.",
+      "desc_en": "Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.",
+      "added": "2026-06-15",
+      "stars": 812
+    },
+    {
       "title": "ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code",
       "url": "https://github.com/plugin87/ux-ui-agent-skills",
       "type": "skill",
@@ -99,7 +117,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-11",
-      "stars": 223
+      "stars": 222
     },
     {
       "title": "How I Validated Design Decisions Before Writing Production Code",
@@ -133,7 +151,7 @@
       "expanded_window": false,
       "star_velocity": "214★/7d",
       "added": "2026-06-14",
-      "stars": 764
+      "stars": 862
     },
     {
       "title": "Loop Engineering",
@@ -166,7 +184,23 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-14",
-      "stars": 2682
+      "stars": 2699
+    },
+    {
+      "title": "UI Skills — Curated Skill Directory for Design Engineers",
+      "url": "https://www.ui-skills.com/",
+      "type": "tool",
+      "tag": "skills",
+      "priority": 1,
+      "score": 9,
+      "date": "2026-06-09",
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "desc_ru": "109 кураторских навыков для дизайн-инженеров: доступность, motion и визуальное качество интерфейса.",
+      "desc_en": "109 curated skills for design engineers covering accessibility, motion, and interface visual craft.",
+      "added": "2026-06-15"
     },
     {
       "title": "baoyu-design — Run Claude Design Locally as an Agent Skill",
@@ -184,7 +218,7 @@
       "expanded_window": false,
       "star_velocity": "561★/3d",
       "added": "2026-06-09",
-      "stars": 1005
+      "stars": 1109
     },
     {
       "title": "The Four Design Jobs AI Created (So Far)",
@@ -234,7 +268,7 @@
       "expanded_window": false,
       "star_velocity": "550★/24h",
       "added": "2026-06-05",
-      "stars": 2016
+      "stars": 2039
     },
     {
       "title": "The Parts of Your System You Never Wrote Down",
@@ -268,7 +302,7 @@
       "expanded_window": false,
       "star_velocity": "1800★/7d",
       "added": "2026-06-10",
-      "stars": 2585
+      "stars": 2772
     },
     {
       "title": "Figma Make: Plan Mode, Web Search, and Queued Messages",
@@ -349,7 +383,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-12",
-      "stars": 428
+      "stars": 429
     },
     {
       "title": "The Speed of Prototyping in the Age of AI",
@@ -446,7 +480,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 3473
+      "stars": 3539
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -591,7 +625,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-06",
-      "stars": 108
+      "stars": 109
     },
     {
       "title": "Train Your Judgement",
@@ -641,7 +675,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 161
+      "stars": 167
     },
     {
       "title": "wondelai/skills — 48 UX and Product Methodology Frameworks as Claude Code Skills",
@@ -658,7 +692,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-06",
-      "stars": 1332
+      "stars": 1346
     },
     {
       "title": "Building a General-Purpose Accessibility Agent — and What We Learned",
@@ -691,7 +725,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 38142
+      "stars": 38497
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -842,7 +876,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 6721,
+      "stars": 6786,
       "tg_message_id": 473
     },
     {
@@ -1012,7 +1046,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 58792,
+      "stars": 59907,
       "tg_message_id": 464
     },
     {
@@ -1062,7 +1096,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 109,
+      "stars": 111,
       "tg_message_id": 454
     },
     {
@@ -1130,7 +1164,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 7928,
+      "stars": 7997,
       "tg_message_id": 446
     },
     {
@@ -1148,7 +1182,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 2696,
+      "stars": 2744,
       "tg_message_id": 458
     },
     {
@@ -1165,7 +1199,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 975,
+      "stars": 976,
       "tg_message_id": 439
     },
     {
@@ -1183,7 +1217,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6826,
+      "stars": 6839,
       "tg_message_id": 449
     },
     {
@@ -1218,7 +1252,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 7928,
+      "stars": 7997,
       "tg_message_id": 443
     },
     {
@@ -1236,7 +1270,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 311,
+      "stars": 312,
       "tg_message_id": 444
     },
     {
@@ -1351,7 +1385,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-20",
-      "stars": 3201,
+      "stars": 3224,
       "tg_message_id": 429
     },
     {
@@ -1370,7 +1404,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 17091,
+      "stars": 17307,
       "tg_message_id": 442
     },
     {
@@ -1388,7 +1422,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1216,
+      "stars": 1237,
       "tg_message_id": 445
     },
     {
@@ -1406,7 +1440,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-03",
-      "stars": 671
+      "stars": 679
     },
     {
       "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
@@ -1422,7 +1456,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2581,
+      "stars": 2585,
       "tg_message_id": 436
     },
     {
@@ -1570,7 +1604,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 64461,
+      "stars": 65116,
       "tg_message_id": 455
     },
     {
@@ -1728,7 +1762,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 25264,
+      "stars": 25384,
       "tg_message_id": 361
     },
     {
@@ -1756,7 +1790,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 227247,
+      "stars": 228336,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1793,7 +1827,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 90059,
+      "stars": 90333,
       "tg_message_id": 364
     },
     {
@@ -1827,7 +1861,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-04-27",
-      "stars": 1958,
+      "stars": 1963,
       "tg_message_id": 450
     },
     {
@@ -1951,7 +1985,7 @@
       "date": "2026-03-28",
       "priority": 1,
       "score": 9,
-      "stars": 15099,
+      "stars": 15109,
       "reading_time": 5,
       "difficulty": "intermediate",
       "has_demo": true,
@@ -1984,7 +2018,7 @@
       "date": "2026-03-26",
       "priority": 2,
       "added": "2026-03-31",
-      "stars": 5043,
+      "stars": 5060,
       "tg_message_id": 370
     },
     {
@@ -2033,7 +2067,7 @@
       "difficulty": "advanced",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 6943,
+      "stars": 6980,
       "tg_message_id": 373
     },
     {
@@ -2156,7 +2190,7 @@
       "date": "2026-03-20",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 618,
+      "stars": 619,
       "tg_message_id": 380
     },
     {
@@ -2265,7 +2299,7 @@
       "difficulty": "intermediate",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 112968,
+      "stars": 113344,
       "tg_message_id": 386
     },
     {
@@ -2278,7 +2312,7 @@
       "date": "2026-03-10",
       "priority": 2,
       "added": "2026-03-28",
-      "stars": 1818,
+      "stars": 1824,
       "tg_message_id": 387
     },
     {
@@ -2351,7 +2385,7 @@
       "date": "2026-03-01",
       "priority": 1,
       "added": "2026-03-25",
-      "stars": 91399,
+      "stars": 91837,
       "tg_message_id": 392
     },
     {
@@ -2505,7 +2539,7 @@
       "difficulty": "intermediate",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 689,
+      "stars": 695,
       "tg_message_id": 440
     },
     {
@@ -2539,7 +2573,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-02",
-      "stars": 13440,
+      "stars": 13472,
       "tg_message_id": 403
     },
     {
@@ -2589,7 +2623,7 @@
       "desc_ru": "Опенсорсный AI-агент дизайна для IDE: генерирует UI-компоненты из текста прямо внутри Cursor или Claude Code.",
       "desc_en": "Open-source AI design agent for IDEs: generate UI mockups from natural language inside Cursor or Claude Code.",
       "added": "2026-04-02",
-      "stars": 6567,
+      "stars": 6572,
       "tg_message_id": 404
     },
     {

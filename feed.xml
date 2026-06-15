@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 14 Jun 2026 08:07:55 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 15 Jun 2026 09:51:26 +0000</lastBuildDate>
   <item>
     <title>What is AX?</title>
     <link>https://maeda.pm/2026/06/11/what-is-ax/</link>
@@ -14,6 +14,14 @@
     <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://maeda.pm/2026/06/11/what-is-ax/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Bernini — ByteDance Open-Source Video Generation and Motion Transfer Framework</title>
+    <link>https://github.com/bytedance/Bernini</link>
+    <description>Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/bytedance/Bernini</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
@@ -54,6 +62,14 @@
     <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/VoltAgent/awesome-claude-design</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>UI Skills — Curated Skill Directory for Design Engineers</title>
+    <link>https://www.ui-skills.com/</link>
+    <description>109 curated skills for design engineers covering accessibility, motion, and interface visual craft.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.ui-skills.com/</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>baoyu-design — Run Claude Design Locally as an Agent Skill</title>
@@ -150,22 +166,6 @@
     <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     <guid>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Voice In, Visuals Out</title>
-    <link>https://allenpike.com/2026/voice-in-visuals-out/</link>
-    <description>Concrete latency budgets for voice-input AI interfaces: ≤200ms for voice, up to 1000ms tolerated for visual output.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://allenpike.com/2026/voice-in-visuals-out/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>You are no longer the user. You are the principal.</title>
-    <link>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</link>
-    <description>Reframes design for agentic UIs: you no longer operate software, you authorize agents — introducing the 'principal' mental model.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
