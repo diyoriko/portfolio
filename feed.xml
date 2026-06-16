@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 15 Jun 2026 09:51:26 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 16 Jun 2026 09:15:58 +0000</lastBuildDate>
+  <item>
+    <title>pixel2motion — AI Logo Animation Skill for Claude Code and Codex</title>
+    <link>https://github.com/nolangz/pixel2motion</link>
+    <description>Claude/Codex skill that converts raster logos to animated SVGs with HTML showcases, GIF previews, and motion QA evidence.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/nolangz/pixel2motion</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>What is AX?</title>
     <link>https://maeda.pm/2026/06/11/what-is-ax/</link>
@@ -22,6 +30,14 @@
     <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/bytedance/Bernini</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Building Glass for the Web</title>
+    <link>https://aave.com/design/building-glass-for-the-web</link>
+    <description>Aave Labs details cross-browser Liquid Glass using SVG feDisplacementMap filters and WebGL shaders, with Safari-specific fixes.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://aave.com/design/building-glass-for-the-web</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
@@ -149,22 +165,6 @@
     <description>Case study: design team shipped a Figma plugin in 48 hours using Cursor, Claude, GitHub, and Lovable.</description>
     <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://intodesignsystems.substack.com/p/build-figma-plugin-with-ai</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>align-dev — AI Coding Standards Generator with Design Tokens and WCAG</title>
-    <link>https://github.com/razr001/align-dev</link>
-    <description>Generates shared SKILL.md coding standards for Claude Code/Cursor teams: 49 UI presets, design tokens, WCAG checks.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/razr001/align-dev</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>The Speed of Prototyping in the Age of AI</title>
-    <link>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</link>
-    <description>A practitioner documents 4x faster time-to-PR with AI agents and argues that what changed is which tasks you take on, not just how fast.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    <guid>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</guid>
     <category>Design Engineering</category>
   </item>
 </channel>
