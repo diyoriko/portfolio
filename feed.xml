@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 16 Jun 2026 09:15:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 17 Jun 2026 08:48:40 +0000</lastBuildDate>
+  <item>
+    <title>What Figma Made Visible</title>
+    <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
+    <description>Figma's hands-on friction taught designers why decisions matter — AI tools risk eliminating that learning mechanism.</description>
+    <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/what-figma-made-visible/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Every Frame Perfect</title>
+    <link>https://tonsky.me/blog/every-frame-perfect/</link>
+    <description>Every animation frame should look intentional — test mid-transition states, not just start and end.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://tonsky.me/blog/every-frame-perfect/</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>pixel2motion — AI Logo Animation Skill for Claude Code and Codex</title>
     <link>https://github.com/nolangz/pixel2motion</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Designing for AI Means Designing Like It's 1999</title>
-    <link>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</link>
-    <description>Argues that AI interfaces should be explicit and constrained like early web — not opaque and magical.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>How Designers Built a Working Figma Plugin in 48 Hours with Cursor, GitHub, Claude and Lovable</title>
-    <link>https://intodesignsystems.substack.com/p/build-figma-plugin-with-ai</link>
-    <description>Case study: design team shipped a Figma plugin in 48 hours using Cursor, Claude, GitHub, and Lovable.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://intodesignsystems.substack.com/p/build-figma-plugin-with-ai</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
