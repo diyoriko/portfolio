@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 17 Jun 2026 08:48:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 08:29:54 +0000</lastBuildDate>
   <item>
     <title>What Figma Made Visible</title>
     <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
@@ -14,6 +14,22 @@
     <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/what-figma-made-visible/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Designing With Uncertainty: How AI Supercharges Probabilistic Thinking</title>
+    <link>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</link>
+    <description>Practical framework for designing under AI uncertainty: confidence scoring, assumption-based A/B tests, and HITL implementation patterns.</description>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>styleseed — Design Judgment Engine for Claude Code and Cursor</title>
+    <link>https://github.com/bitjaru/styleseed</link>
+    <description>Design engine for Claude Code and Cursor: 74 visual rules, 7 brand skins, named motion system to prevent generic AI-generated UI.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/bitjaru/styleseed</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Every Frame Perfect</title>
@@ -29,6 +45,14 @@
     <description>Claude/Codex skill that converts raster logos to animated SVGs with HTML showcases, GIF previews, and motion QA evidence.</description>
     <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/nolangz/pixel2motion</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>LottieFiles Motion System — Define Your Motion Design System Inside Figma</title>
+    <link>https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations</link>
+    <description>Plugin v114 adds a motion system layer to Figma: define easing curves, animation presets, and tokens for consistent application.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations</guid>
     <category>Motion × AI</category>
   </item>
   <item>
@@ -141,30 +165,6 @@
     <description>AI agents fill undocumented design decisions with internet defaults; document unconventional choices or they vanish.</description>
     <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>diffusionstudio/lottie — Open-Source Skill for AI-Generated Lottie Animations</title>
-    <link>https://github.com/diffusionstudio/lottie</link>
-    <description>Claude Code skill that generates production-ready Lottie animations from a prompt with live preview.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/diffusionstudio/lottie</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Figma Make: Plan Mode, Web Search, and Queued Messages</title>
-    <link>https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make</link>
-    <description>Figma Make can now draft a step-by-step build plan for you to review and edit before generation starts; also gains web search.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>How To Make Your Design System AI-Ready</title>
-    <link>https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/</link>
-    <description>Three-layer methodology (spec files, tokens, audit scripts) for reducing inconsistencies in AI-generated prototypes.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/</guid>
     <category>Design Systems</category>
   </item>
 </channel>
