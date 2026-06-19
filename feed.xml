@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 18 Jun 2026 08:29:54 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 19 Jun 2026 09:02:54 +0000</lastBuildDate>
   <item>
     <title>What Figma Made Visible</title>
     <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
@@ -80,6 +80,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>BuilderIO/skills — Visual Plan and Recap Skills for Coding Agents</title>
+    <link>https://github.com/BuilderIO/skills</link>
+    <description>Builder.io's coding-agent skills: /visual-plan for interactive diagrams, /visual-recap for visual PR diffs.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/BuilderIO/skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
     <link>https://github.com/plugin87/ux-ui-agent-skills</link>
     <description>17-skill Claude Code kit with DTCG tokens, WCAG 2.2 auditing, and 138 brand design systems; v2.3.0 adds motion tokens.</description>
@@ -102,6 +110,14 @@
     <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/plannotator/effective-html</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Can Your AI Pass the Accessibility Test?</title>
+    <link>https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/</link>
+    <description>Aaron Gustafson's shift-left AI accessibility workflow: embed automated checks from Figma design through CI code review.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/</guid>
+    <category>Accessibility × AI</category>
   </item>
   <item>
     <title>Loop Engineering</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://forum.figma.com/product-updates-3/check-designs-catch-what-s-off-ship-what-s-right-54551</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Ideogram 4 — First Open-Weight Image Model for Design</title>
-    <link>https://github.com/ideogram-oss/ideogram4</link>
-    <description>First open-weight Ideogram model; excels at text-in-image rendering for logos, banners, and signage, with hex color steering.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ideogram-oss/ideogram4</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>The Parts of Your System You Never Wrote Down</title>
-    <link>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</link>
-    <description>AI agents fill undocumented design decisions with internet defaults; document unconventional choices or they vanish.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
