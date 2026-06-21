@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 20 Jun 2026 07:21:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 21 Jun 2026 08:21:14 +0000</lastBuildDate>
   <item>
     <title>What Figma Made Visible</title>
     <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
@@ -21,6 +21,14 @@
     <description>Practical framework for designing under AI uncertainty: confidence scoring, assumption-based A/B tests, and HITL implementation patterns.</description>
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Six Layers of AI Experience</title>
+    <link>https://emilycampbell.co/writing/layers-of-ai-experience</link>
+    <description>Six-layer framework for auditing AI products — from interface to governance and emergent behavior.</description>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://emilycampbell.co/writing/layers-of-ai-experience</guid>
     <category>Process</category>
   </item>
   <item>
@@ -120,6 +128,14 @@
     <category>Accessibility × AI</category>
   </item>
   <item>
+    <title>prototype-to-figma-skill — Turn Claude Code Prototypes into Reviewable Figma Files</title>
+    <link>https://github.com/alima-max/prototype-to-figma-skill</link>
+    <description>Converts a Claude Code prototype into Figma files with per-state frames and interaction annotations for async review.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/alima-max/prototype-to-figma-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>Loop Engineering</title>
     <link>https://addyosmani.com/blog/loop-engineering/</link>
     <description>Stop prompting agents; design the loop that prompts them. Addy Osmani on moving past vibe coding to loop engineering.</description>
@@ -144,28 +160,12 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
-    <title>baoyu-design — Run Claude Design Locally as an Agent Skill</title>
-    <link>https://github.com/JimLiu/baoyu-design</link>
-    <description>Packages Claude Design as an installable agent skill for Claude Code, Cursor, and Codex — 24 built-in design skills.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/JimLiu/baoyu-design</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>The Four Design Jobs AI Created (So Far)</title>
-    <link>https://www.nngroup.com/articles/design-jobs-ai-created/</link>
-    <description>NNGroup distinguishes four types of AI design work and why each needs different skills and definitions of quality.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/design-jobs-ai-created/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Check designs: catch what's off, ship what's right</title>
-    <link>https://forum.figma.com/product-updates-3/check-designs-catch-what-s-off-ship-what-s-right-54551</link>
-    <description>Figma's Check Designs flags token drift and WCAG contrast violations and swaps in correct design system values in one click.</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://forum.figma.com/product-updates-3/check-designs-catch-what-s-off-ship-what-s-right-54551</guid>
-    <category>Figma × AI</category>
+    <title>Claude Code For Designers: A Practical Guide</title>
+    <link>https://nervegna.substack.com/p/claude-code-for-designers-a-practical</link>
+    <description>Step-by-step guide for designers to ship production-ready sites with Claude Code, avoiding generic AI output.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://nervegna.substack.com/p/claude-code-for-designers-a-practical</guid>
+    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
