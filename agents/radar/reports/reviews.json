@@ -1242,5 +1242,73 @@
         "effort": "small"
       }
     ]
+  },
+  {
+    "effective_queries": [
+      "Figma AI MCP agents design 2026 — surfaced current agent feature state and Config 2026 context",
+      "Config 2026 Figma announcements design agent shipped June 24 25 — confirmed pre-Config feature releases",
+      "WebFetch figma.com/release-notes — primary source for both items; June 16 and June 18 entries confirmed",
+      "WebFetch sidebar.io — surfaced Microsoft haptics article and addyosmani SDLC piece for evaluation",
+      "WebFetch smashingmagazine.com newsletter 562 and 563 — revealed UX writing skill and cuellarfr/design-skills as skills candidates"
+    ],
+    "weak_queries": [
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — generic trend roundups, no newly shipped products or techniques",
+      "Claude Code OR Cursor designers workflow 2026 — comparison articles only, all already in DB",
+      "design systems AI tokens automation 2026 — marketing content and existing DB reports, seventh consecutive weak run",
+      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned old articles and newsletter index pages",
+      "UX research AI synthesis shipped 2026 — tool roundup listicles only, no newly shipped unique tools",
+      "site:uxdesign.cc AI design shipped June 2026 — no uxdesign.cc results; site-restricted search continues to fail for this domain"
+    ],
+    "coverage_gaps": [
+      "motion×ai — Rive and Lottielab blogs silent again this week; no new motion AI tools found; starvation continues",
+      "a11y×ai — no new shipped accessibility AI tools or articles within 90-day window; starvation continues despite rescue rule",
+      "tools — zero new standalone AI design tools discovered; category at 12 items for fifth consecutive run",
+      "skills — all new design-specific GitHub skill repos found this week below 50-star threshold (UI Craft 46 stars, cuellarfr/design-skills 33 stars)"
+    ],
+    "tag_balance": "figma×ai dominates fresh content again (both items); process/skills/design+code/design-systems are well-stocked but new items are scarce; motion×ai and a11y×ai in starvation despite 90-day windows; tools category flat for five runs",
+    "rejected_count": 12,
+    "top_rejection_reasons": [
+      "Below 50-star GitHub threshold: UI Craft 46 stars (strong skill candidate at 28 domains, anti-slop detection, v0.21.0 June 11 — just below bar), cuellarfr/design-skills 33 stars",
+      "No AI connection strong enough to meet quality bar: Microsoft haptics guide, addyosmani new-sdlc-vibe-coding (engineering-focused)",
+      "Outside freshness window for skills tag: alirezarezvani/claude-skills v2.8.2 released May 23 (30 days old, skills window is 7 days); star count also inconsistent across sources (107 vs 18.7k)",
+      "Comparison articles already in DB: multiple Claude Code vs Cursor pieces",
+      "Marketing roundups and listicles: AI tools for UX research, design tokens automation"
+    ],
+    "query_suggestions": [
+      {
+        "query": "WebFetch https://www.figma.com/blog/ immediately after Config 2026 (June 24-25)",
+        "why": "Config announcements will be the primary signal source next run; fetching the blog directly finds posts before aggregators"
+      },
+      {
+        "query": "site:rive.app/blog OR site:lottielab.com/blog AI feature update 2026",
+        "why": "motion×ai starvation is now 5+ runs; Rive and Lottielab are the primary sources for this tag and need direct monitoring rather than waiting for aggregators"
+      },
+      {
+        "query": "educlopez/ui-craft github stars count",
+        "why": "UI Craft is the strongest skills discovery this week (28 domains, 4 automated modes, anti-slop detection, v0.21.0 June 11) but has only 46 stars; worth weekly tracking to catch when it crosses the 50-star threshold"
+      },
+      {
+        "query": "RETIRE: design systems AI tokens automation 2026 — seventh consecutive weak run; replace with 'tokens.studio release notes 2026' or 'supernova.io AI update June 2026' for more targeted shipped-tooling signals",
+        "why": "Returns only marketing content every run without exception"
+      },
+      {
+        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens — consistently returns comparison roundups, not workflow signals",
+        "why": "Listicle format every run; no newly shipped tools ever surface from this query"
+      }
+    ],
+    "notes": "Fifth consecutive very low signal week. Config 2026 (Figma's annual conference, June 24-25) starts tomorrow — next run should find multiple concrete Figma announcements and is expected to be significantly higher signal. Both items this run come from Figma's official release notes, which is structurally less ideal than blog posts (same domain for two items). seangoedecke.com timed out (not a 403 — transient); worth retrying next run. alirezarezvani/claude-skills showed inconsistent star counts across sources (107 in one result, 18.7k in another) and v2.8.2 is 30 days old — excluded on both grounds. Google Labs remotion skill (generates walkthrough videos from Stitch designs) appeared in VoltAgent catalog as a potential motion×ai candidate but date and standalone URL could not be verified within budget; flag for next run. VoltAgent/awesome-agent-skills successfully replaced anthropics/awesome-agent-skills (which had 404 for two consecutive runs).",
+    "date": "2026-06-22",
+    "radar_ideas": [
+      {
+        "idea": "Add a 'Config 2026' editorial burst label for the cluster of Figma announcements expected from June 24-25. Batch them in the Telegram post under a single header ('From Config 2026:') rather than posting 3-4 individual items, giving readers a clearer signal-to-noise ratio on conference drops versus regular shipped items.",
+        "area": "telegram",
+        "effort": "small"
+      },
+      {
+        "idea": "Figma release notes (figma.com/release-notes) are a high-signal source but individual entries lack standalone URLs, forcing two DB items to share the same URL. Consider adding a 'changelog entry' display variant: a compact card showing source name, date, and feature bullet — visually distinct from article/tool cards — that accepts a page URL plus a date anchor as the canonical reference.",
+        "area": "ux",
+        "effort": "medium"
+      }
+    ]
   }
 ]

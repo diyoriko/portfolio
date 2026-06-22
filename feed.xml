@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 21 Jun 2026 08:21:14 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 09:36:43 +0000</lastBuildDate>
+  <item>
+    <title>Figma design agent gets web search</title>
+    <link>https://www.figma.com/release-notes/</link>
+    <description>Figma design agent can now search the web; pull live references and real content into prompts without leaving your file.</description>
+    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/release-notes/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>What Figma Made Visible</title>
     <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
@@ -30,6 +38,14 @@
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://emilycampbell.co/writing/layers-of-ai-experience</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Figma MCP server expands: Slides creation, local fonts, Xcode support, asset exports</title>
+    <link>https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server</link>
+    <description>Figma MCP server now creates and updates Slides, renders local fonts, exports assets as JPG/SVG/PDF, and works with Xcode for iOS handoff.</description>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>styleseed — Design Judgment Engine for Claude Code and Cursor</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/VoltAgent/awesome-claude-design</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>UI Skills — Curated Skill Directory for Design Engineers</title>
-    <link>https://www.ui-skills.com/</link>
-    <description>109 curated skills for design engineers covering accessibility, motion, and interface visual craft.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.ui-skills.com/</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Claude Code For Designers: A Practical Guide</title>
-    <link>https://nervegna.substack.com/p/claude-code-for-designers-a-practical</link>
-    <description>Step-by-step guide for designers to ship production-ready sites with Claude Code, avoiding generic AI output.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://nervegna.substack.com/p/claude-code-for-designers-a-practical</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
