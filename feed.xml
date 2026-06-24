@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 23 Jun 2026 07:08:36 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 24 Jun 2026 07:08:25 +0000</lastBuildDate>
   <item>
     <title>Figma design agent gets web search</title>
     <link>https://www.figma.com/release-notes/</link>
@@ -30,6 +30,14 @@
     <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/what-figma-made-visible/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>taste-skill — Reverse-Engineer Any Website's Design DNA into Tokens and Trade-off Principles</title>
+    <link>https://github.com/senlindesign/taste-skill</link>
+    <description>Claude Code skill that extracts concrete tokens plus the reasoning behind each design decision from any URL.</description>
+    <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/senlindesign/taste-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Designing With Uncertainty: How AI Supercharges Probabilistic Thinking</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/</guid>
     <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>prototype-to-figma-skill — Turn Claude Code Prototypes into Reviewable Figma Files</title>
-    <link>https://github.com/alima-max/prototype-to-figma-skill</link>
-    <description>Converts a Claude Code prototype into Figma files with per-state frames and interaction annotations for async review.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/alima-max/prototype-to-figma-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
