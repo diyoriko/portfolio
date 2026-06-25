@@ -6,7 +6,39 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 24 Jun 2026 07:08:25 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 25 Jun 2026 07:05:16 +0000</lastBuildDate>
+  <item>
+    <title>Introducing Figma Motion: Your Canvas Now Has a Timeline</title>
+    <link>https://www.figma.com/blog/introducing-figma-motion/</link>
+    <description>Figma adds a native animation timeline with keyframes and exports to CSS, React, MP4, WebM, and Animated SVG.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/introducing-figma-motion/</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Code on the Figma Canvas</title>
+    <link>https://www.figma.com/blog/code-on-the-figma-canvas/</link>
+    <description>Code Layers put live code on the Figma canvas—compare implementations side-by-side and sync changes to repos.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/code-on-the-figma-canvas/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Figma's Design Agent, Now with Custom Tools and Greater Context</title>
+    <link>https://www.figma.com/blog/agent-custom-tools-context-skills/</link>
+    <description>Figma's agent gains generative plugins, shader fills, MCP connectors, and team-shareable Skills slash commands.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/agent-custom-tools-context-skills/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Figma's 2026 AI Report: Can AI Help Us Collaborate Better?</title>
+    <link>https://www.figma.com/blog/2026-ai-report/</link>
+    <description>Figma's 3-year dataset: designers doing dev work doubled (21→41%) and AI helps solo work more than collaboration.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/2026-ai-report/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Figma design agent gets web search</title>
     <link>https://www.figma.com/release-notes/</link>
@@ -134,38 +166,6 @@
     <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/BuilderIO/skills</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code</title>
-    <link>https://github.com/plugin87/ux-ui-agent-skills</link>
-    <description>17-skill Claude Code kit with DTCG tokens, WCAG 2.2 auditing, and 138 brand design systems; v2.3.0 adds motion tokens.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/plugin87/ux-ui-agent-skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>How I Validated Design Decisions Before Writing Production Code</title>
-    <link>https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/</link>
-    <description>Slack design team: AI-assisted exploratory prototypes surface edge cases and replace weeks of production iteration.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>effective-html — HTML Artifact Skills for Claude Code</title>
-    <link>https://github.com/plannotator/effective-html</link>
-    <description>Three Claude Code skills for visual HTML outputs: general HTML, full-screen SVG architecture diagrams, and plan-page documents.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/plannotator/effective-html</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Can Your AI Pass the Accessibility Test?</title>
-    <link>https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/</link>
-    <description>Aaron Gustafson's shift-left AI accessibility workflow: embed automated checks from Figma design through CI code review.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/</guid>
-    <category>Accessibility × AI</category>
   </item>
 </channel>
 </rss>
