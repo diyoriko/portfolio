@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 25 Jun 2026 07:05:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 26 Jun 2026 07:15:19 +0000</lastBuildDate>
   <item>
     <title>Introducing Figma Motion: Your Canvas Now Has a Timeline</title>
     <link>https://www.figma.com/blog/introducing-figma-motion/</link>
@@ -38,6 +38,22 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/2026-ai-report/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Config 2026: New Materials, New Tools and a More Expressive Canvas</title>
+    <link>https://www.figma.com/blog/config-2026-recap/</link>
+    <description>Config 2026: Shader Fills from text, Generative Plugins, 20+ Weave tools—now in Figma.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/config-2026-recap/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Connecting Figma and Weave</title>
+    <link>https://www.figma.com/blog/connecting-figma-and-weave/</link>
+    <description>20+ Weave AI tools—style transfer, product photography, material extraction—now available directly inside Figma Design.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/connecting-figma-and-weave/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Figma design agent gets web search</title>
@@ -112,6 +128,14 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding</title>
+    <link>https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding</link>
+    <description>Eric Bailey: vibe coding builds genuinely accessible UIs faster—not just compliant but usable.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding</guid>
+    <category>Accessibility × AI</category>
+  </item>
+  <item>
     <title>Every Frame Perfect</title>
     <link>https://tonsky.me/blog/every-frame-perfect/</link>
     <description>Every animation frame should look intentional — test mid-transition states, not just start and end.</description>
@@ -142,30 +166,6 @@
     <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://maeda.pm/2026/06/11/what-is-ax/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Bernini — ByteDance Open-Source Video Generation and Motion Transfer Framework</title>
-    <link>https://github.com/bytedance/Bernini</link>
-    <description>Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bytedance/Bernini</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Building Glass for the Web</title>
-    <link>https://aave.com/design/building-glass-for-the-web</link>
-    <description>Aave Labs details cross-browser Liquid Glass using SVG feDisplacementMap filters and WebGL shaders, with Safari-specific fixes.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://aave.com/design/building-glass-for-the-web</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>BuilderIO/skills — Visual Plan and Recap Skills for Coding Agents</title>
-    <link>https://github.com/BuilderIO/skills</link>
-    <description>Builder.io's coding-agent skills: /visual-plan for interactive diagrams, /visual-recap for visual PR diffs.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/BuilderIO/skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
