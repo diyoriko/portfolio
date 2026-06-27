@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 26 Jun 2026 07:15:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 27 Jun 2026 06:48:15 +0000</lastBuildDate>
+  <item>
+    <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
+    <link>https://github.com/educlopez/ui-craft</link>
+    <description>31 design domains, 33 anti-slop rules, deterministic UICraftScore 0-100, and an MCP server with quality gates. v1.0.0 released June 26.</description>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/educlopez/ui-craft</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Your Design System's Newest Author Is an Agent</title>
+    <link>https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/</link>
+    <description>Agents now modify tokens and components faster than humans can review; version tokens like an API and assign explicit review ownership before agent changes ship.</description>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>Introducing Figma Motion: Your Canvas Now Has a Timeline</title>
     <link>https://www.figma.com/blog/introducing-figma-motion/</link>
@@ -53,6 +69,14 @@
     <description>20+ Weave AI tools—style transfer, product photography, material extraction—now available directly inside Figma Design.</description>
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/connecting-figma-and-weave/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Quick Start Guide to Generative Plugins and Shaders in Figma</title>
+    <link>https://help.figma.com/hc/en-us/articles/41147702210071-Quick-start-guide-to-generative-plugins-and-shaders</link>
+    <description>Describe the plugin you need and the Figma agent builds it with no API knowledge required; shaders generate from a text prompt or image reference.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/41147702210071-Quick-start-guide-to-generative-plugins-and-shaders</guid>
     <category>Figma × AI</category>
   </item>
   <item>
@@ -142,30 +166,6 @@
     <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://tonsky.me/blog/every-frame-perfect/</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>pixel2motion — AI Logo Animation Skill for Claude Code and Codex</title>
-    <link>https://github.com/nolangz/pixel2motion</link>
-    <description>Claude/Codex skill that converts raster logos to animated SVGs with HTML showcases, GIF previews, and motion QA evidence.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/nolangz/pixel2motion</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>LottieFiles Motion System — Define Your Motion Design System Inside Figma</title>
-    <link>https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations</link>
-    <description>Plugin v114 adds a motion system layer to Figma: define easing curves, animation presets, and tokens for consistent application.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>What is AX?</title>
-    <link>https://maeda.pm/2026/06/11/what-is-ax/</link>
-    <description>John Maeda defines Agent Experience: agents collapse the Gulf of Execution while expanding the Gulf of Evaluation.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://maeda.pm/2026/06/11/what-is-ax/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
