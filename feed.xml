@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 27 Jun 2026 06:48:15 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 28 Jun 2026 07:43:52 +0000</lastBuildDate>
   <item>
     <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
     <link>https://github.com/educlopez/ui-craft</link>
@@ -144,6 +144,14 @@
     <category>Figma × AI</category>
   </item>
   <item>
+    <title>Framer 3: AI Agents, Branching, and Community</title>
+    <link>https://www.framer.com/updates/framer-3</link>
+    <description>Framer ships AI agents that design pages, create components, write code, and run accessibility audits inside the canvas.</description>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/framer-3</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>styleseed — Design Judgment Engine for Claude Code and Cursor</title>
     <link>https://github.com/bitjaru/styleseed</link>
     <description>Design engine for Claude Code and Cursor: 74 visual rules, 7 brand skins, named motion system to prevent generic AI-generated UI.</description>
@@ -158,14 +166,6 @@
     <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding</guid>
     <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>Every Frame Perfect</title>
-    <link>https://tonsky.me/blog/every-frame-perfect/</link>
-    <description>Every animation frame should look intentional — test mid-transition states, not just start and end.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://tonsky.me/blog/every-frame-perfect/</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>

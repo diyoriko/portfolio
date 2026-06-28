@@ -276,7 +276,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-24",
-      "stars": 190
+      "stars": 193
     },
     {
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
@@ -343,6 +343,22 @@
       "added": "2026-06-23"
     },
     {
+      "title": "Framer 3: AI Agents, Branching, and Community",
+      "url": "https://www.framer.com/updates/framer-3",
+      "type": "tool",
+      "tag": "tools",
+      "desc_en": "Framer ships AI agents that design pages, create components, write code, and run accessibility audits inside the canvas.",
+      "desc_ru": "Framer 3 запустил AI-агентов: проектируют страницы, пишут код и проводят аудит доступности прямо в редакторе.",
+      "date": "2026-06-16",
+      "priority": 1,
+      "score": 8,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-06-28"
+    },
+    {
       "title": "styleseed — Design Judgment Engine for Claude Code and Cursor",
       "url": "https://github.com/bitjaru/styleseed",
       "type": "skill",
@@ -357,7 +373,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-18",
-      "stars": 603
+      "stars": 604
     },
     {
       "title": "The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding",
@@ -407,7 +423,7 @@
       "expanded_window": false,
       "star_velocity": "170★/3d",
       "added": "2026-06-16",
-      "stars": 1156
+      "stars": 1238
     },
     {
       "title": "LottieFiles Motion System — Define Your Motion Design System Inside Figma",
@@ -457,7 +473,7 @@
       "desc_ru": "Открытый фреймворк ByteDance для генерации и редактирования видео с переносом motion-паттернов между сценами.",
       "desc_en": "Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.",
       "added": "2026-06-15",
-      "stars": 965
+      "stars": 968
     },
     {
       "title": "Building Glass for the Web",
@@ -491,7 +507,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/8d",
       "added": "2026-06-19",
-      "stars": 2779
+      "stars": 2818
     },
     {
       "title": "ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code",
@@ -508,7 +524,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-11",
-      "stars": 420
+      "stars": 428
     },
     {
       "title": "How I Validated Design Decisions Before Writing Production Code",
@@ -542,7 +558,7 @@
       "expanded_window": false,
       "star_velocity": "214★/7d",
       "added": "2026-06-14",
-      "stars": 1179
+      "stars": 1181
     },
     {
       "title": "Can Your AI Pass the Accessibility Test?",
@@ -575,7 +591,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-21",
-      "stars": 115
+      "stars": 117
     },
     {
       "title": "Loop Engineering",
@@ -608,7 +624,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-14",
-      "stars": 2872
+      "stars": 2880
     },
     {
       "title": "UI Skills — Curated Skill Directory for Design Engineers",
@@ -658,7 +674,7 @@
       "expanded_window": false,
       "star_velocity": "561★/3d",
       "added": "2026-06-09",
-      "stars": 2045
+      "stars": 2099
     },
     {
       "title": "The Four Design Jobs AI Created (So Far)",
