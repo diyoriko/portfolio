@@ -1,65 +1,6 @@
 [
   {
     "effective_queries": [
-      "Figma AI MCP agents design 2026",
-      "design systems AI tokens automation 2026",
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "site:smashingmagazine.com OR site:css-tricks.com AI design 2026"
-    ],
-    "weak_queries": [
-      "site:lobste.rs design AI 2026",
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026",
-      "Claude Code OR Cursor designers workflow 2026",
-      "site:news.ycombinator.com design AI tool 2026"
-    ],
-    "coverage_gaps": [
-      "motion × AI — no items in DB on AI-generated animation or motion design",
-      "accessibility × AI — no items on a11y automation for designers",
-      "process (1 item) severely under-represented vs figma×ai (6) and tools (6)"
-    ],
-    "tag_balance": "figma×ai and tools are saturated at 6 each; process has only 1 item despite being high-relevance; design+code and design systems are moderate at 3 each",
-    "rejected_count": 14,
-    "top_rejection_reasons": [
-      "outside 7-day window (Code to Canvas from Feb 17 was a significant DB miss from prior runs)",
-      "opinion/philosophy articles without actionable workflow change (Smashing Magazine Human Strategy piece)",
-      "listicles and vibe coding roundups with no design-specific signal",
-      "GitHub repos with unverifiable star count — unclear if above 50-star threshold"
-    ],
-    "query_suggestions": [
-      {
-        "query": "AI motion animation CSS Framer design tool shipped 2026",
-        "why": "motion×ai is a gap — no DB items cover AI-generated animation or micro-interaction workflows for designers"
-      },
-      {
-        "query": "a11y accessibility AI tool designer audit shipped 2026",
-        "why": "a11y×ai gap — no DB items on accessibility automation, a growing concern as AI-generated UIs ship without manual checks"
-      },
-      {
-        "query": "Figma community plugin AI shipped site:figma.com 2026",
-        "why": "Figma community plugins often ship under the radar; current broad Figma queries return only official blog content"
-      },
-      {
-        "query": "\"design engineer\" OR \"design technologist\" workflow tool shipped 2026 site:medium.com OR site:substack.com",
-        "why": "design+code tag is under-served by current practitioner queries; Substack is where many design engineers write now"
-      }
-    ],
-    "notes": "Figma Code to Canvas (Feb 17, 2026) was a significant item missed by prior runs — not in DB despite being 6 weeks old. It's the most concrete code↔design bridge shipped this year. Both new items this run are research type; next run should skew toward tools and skills to rebalance. The VoltAgent/awesome-agent-skills repo (9.5K stars) was considered but dropped due to unclear publish date and list-of-lists format — worth revisiting if a specific design skill set from it can be surfaced.",
-    "date": "2026-04-01",
-    "radar_ideas": [
-      {
-        "idea": "Add a difficulty filter to radar.html (beginner / intermediate / advanced toggle) so non-technical designers can hide advanced items like MCP configuration guides",
-        "area": "ux",
-        "effort": "small"
-      },
-      {
-        "idea": "For tool-type Telegram posts, add a one-liner 'Try it: <exact step>' at the end — e.g. 'Try it: type Send this to Figma in Claude Code' — to drive immediate action from the channel",
-        "area": "telegram",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "site:github.com Claude skill design OR figma OR UI trending 2026",
       "AI motion animation CSS Framer design tool shipped 2026",
       "site:smashingmagazine.com OR site:css-tricks.com AI design 2026"
@@ -1307,6 +1248,72 @@
       {
         "idea": "Figma release notes (figma.com/release-notes) are a high-signal source but individual entries lack standalone URLs, forcing two DB items to share the same URL. Consider adding a 'changelog entry' display variant: a compact card showing source name, date, and feature bullet — visually distinct from article/tool cards — that accepts a page URL plus a date anchor as the canonical reference.",
         "area": "ux",
+        "effort": "medium"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "Figma Config 2026 announcements shipped June 24 25 — confirmed all major Config posts are in DB; no wasted fetch budget on already-known items",
+      "github_repos Telegram WebFetch — highest-ROI velocity source this run: surfaced looper (440+★ in 11 days), liquid-glass, and recall in one fetch",
+      "sidebar.io WebFetch — surfaced LukeW AI Steering Layer and uxdesign.cc Rethinking Figma; reliable for practitioner articles within 7-day window",
+      "site:rive.app blog motion AI feature animation 2026 — confirmed Rive blog silent since April 30 efficiently via search, saving a WebFetch slot",
+      "op7418?tab=repositories WebFetch — tracked CodePilot (6k★, updated June 29); author-level monitoring is productive for high-signal creators"
+    ],
+    "weak_queries": [
+      "accessibility AI tool WCAG shipped June 2026 — returned only generic compliance guides and roundup listicles, no newly shipped design tools",
+      "design AI tool shipped launched June 2026 new product — returned months-old launches (Canva AI 2.0, Claude Design) and unrelated enterprise press releases",
+      "Framer OR Webflow AI feature launch June 2026 — comparison articles only; Framer 3 already in DB, no net-new signal",
+      "site:github.com Claude skill design OR figma OR UI trending 2026 — returned opinion blog posts and aggregator lists rather than new GitHub repos",
+      "site:github.com .claude OR agent skills design UI UX new June 2026 — surfaced repos already in DB or below 50★ threshold"
+    ],
+    "coverage_gaps": [
+      "tools — CodePilot (op7418, 6k★) is closest new candidate but too general-purpose; tools tag at 13 items for 6th consecutive run without net-new additions",
+      "a11y×ai — no newly shipped AI accessibility tools or articles found within 90-day window; tag at 13 items in DB so not technically starved but zero fresh signal this run",
+      "motion×ai — Rive blog silent since April 30; Lottielab blog not fetched this run despite being a primary source; only editorial motion content available",
+      "skills — master5d/claude-design-skills (Emil Kowalski-inspired bundle: fixing-accessibility, motion-performance, baseline-ui, interface-design) has only 10★; worth weekly monitoring"
+    ],
+    "tag_balance": "process (36) and skills (32) dominate; figma×ai (29) exhausted this run as all Config 2026 posts are now in DB; motion×ai (14) and a11y×ai (13) growing slowly; tools (13) stagnant for 6 runs; DB is fully current on Config 2026 — next Figma signal expected when Code Layers early access opens in July",
+    "rejected_count": 12,
+    "top_rejection_reasons": [
+      "already in DB — 6 Config 2026 Figma posts (motion, code layers, agent, weave, recap, AI report) all confirmed present in the skip list",
+      "too general-purpose with no design angle — CodePilot (6k★) is a multi-model desktop AI client; samasante/liquid-glass (314★) is a React component with no AI connection",
+      "below 50★ threshold — master5d/claude-design-skills (10★) and multiple other new skill repos",
+      "opinion analysis without concrete workflow change — uxdesign.cc Rethinking Figma is Config 2026 analysis, not a technique or tool you can try"
+    ],
+    "query_suggestions": [
+      {
+        "query": "WebFetch https://shir-man.com/api/rss",
+        "why": "The homepage returns only a JavaScript loading shell; the RSS API endpoint may expose structured aggregated data from HN/GitHub/Lobsters — try before retiring this source permanently"
+      },
+      {
+        "query": "WebFetch https://lottielab.com/blog",
+        "why": "motion×ai is persistently weak; Lottielab was not fetched this run despite being a primary source alongside Rive; should be added to required curated sources"
+      },
+      {
+        "query": "RETIRE: heydesigner.com WebFetch — replace with 'site:heydesigner.com AI design engineering June 2026' search query",
+        "why": "403 for 5+ consecutive runs; a site-scoped search returns snippet content without hitting the auth wall"
+      },
+      {
+        "query": "Figma Code Layers early access designer workflow July 2026",
+        "why": "Code Layers early access starts July 2026 per Config announcements; first practitioner reports will surface then and are expected to be high-signal for design+code tag"
+      },
+      {
+        "query": "master5d/claude-design-skills github stars",
+        "why": "Emil Kowalski-inspired bundle with design-credible skills (fixing-accessibility, motion-performance, baseline-ui) currently at 10★; monitor weekly until it crosses the 50★ inclusion threshold"
+      }
+    ],
+    "notes": "Config 2026 (June 24-25) was the expected major signal event this run, but all Figma announcements are already in the DB — the radar was ahead of this run. Primary discovery this week is looper (ksimback, 440+★ in 11 days) from github_repos Telegram, which continues to be the highest-ROI velocity-signal source. seangoedecke.com timed out for the 3rd consecutive run — remove from source rotation or switch to a search-first approach. shir-man.com homepage returns a JavaScript loading shell with no actual data; the RSS API endpoint should be tried next run before retiring the source. CodePilot by op7418 (6k★, ships MCP+skills support, updated June 29) was the tempting tools-tag candidate but was rejected because its primary use case is general AI chat, not design-specific workflows. Lottielab blog should be added to required curated sources to give motion×ai coverage comparable to what Rive provides. The process tag (36 items) is the largest in the DB; the LukeW Steering Layer article is included because context-management UIs for non-technical team members is genuinely new framing not covered by existing process items.",
+    "date": "2026-06-29",
+    "radar_ideas": [
+      {
+        "idea": "Add a star-velocity badge (e.g., '280★/7d') next to skills items in radar.html — momentum is the primary signal for this tag and it is not conveyed by the score field or star count alone",
+        "area": "ux",
+        "effort": "small"
+      },
+      {
+        "idea": "Add a tag filter row above the item list on radar.html — with 190 items across 8 tags, return visitors who have already read all figma×ai items have no way to browse only motion×ai or skills without scrolling the full feed",
+        "area": "feature",
         "effort": "medium"
       }
     ]

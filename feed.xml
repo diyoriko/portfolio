@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 28 Jun 2026 07:43:52 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jun 2026 08:41:31 +0000</lastBuildDate>
   <item>
     <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
     <link>https://github.com/educlopez/ui-craft</link>
@@ -80,6 +80,14 @@
     <category>Figma × AI</category>
   </item>
   <item>
+    <title>Principles in Motion</title>
+    <link>https://www.figma.com/blog/principles-in-motion/</link>
+    <description>Figma's motion designers explain motion prompting: sketching animation intent in words before touching keyframes.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/principles-in-motion/</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>Figma design agent gets web search</title>
     <link>https://www.figma.com/release-notes/</link>
     <description>Figma design agent can now search the web; pull live references and real content into prompts without leaving your file.</description>
@@ -94,6 +102,14 @@
     <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>looper — Visual Review-Gated Agent Loop Designer for Claude Code</title>
+    <link>https://github.com/ksimback/looper</link>
+    <description>Claude Code skill that coaches you through designing a review-gated, verifiable agent loop before any files change.</description>
+    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/ksimback/looper</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>What Figma Made Visible</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/framer-3</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>styleseed — Design Judgment Engine for Claude Code and Cursor</title>
-    <link>https://github.com/bitjaru/styleseed</link>
-    <description>Design engine for Claude Code and Cursor: 74 visual rules, 7 brand skins, named motion system to prevent generic AI-generated UI.</description>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bitjaru/styleseed</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding</title>
-    <link>https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding</link>
-    <description>Eric Bailey: vibe coding builds genuinely accessible UIs faster—not just compliant but usable.</description>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding</guid>
-    <category>Accessibility × AI</category>
   </item>
 </channel>
 </rss>

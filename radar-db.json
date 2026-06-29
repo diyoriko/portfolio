@@ -83,7 +83,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-27",
-      "stars": 50
+      "stars": 51
     },
     {
       "title": "Your Design System's Newest Author Is an Agent",
@@ -214,6 +214,22 @@
       "added": "2026-06-27"
     },
     {
+      "title": "Principles in Motion",
+      "url": "https://www.figma.com/blog/principles-in-motion/",
+      "type": "article",
+      "tag": "motion×ai",
+      "desc_ru": "Дизайнеры Figma о motion prompting — как задавать характер анимации через текст до работы с keyframes.",
+      "desc_en": "Figma's motion designers explain motion prompting: sketching animation intent in words before touching keyframes.",
+      "date": "2026-06-24",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-06-29"
+    },
+    {
       "title": "Figma design agent gets web search",
       "url": "https://www.figma.com/release-notes/",
       "type": "tool",
@@ -246,6 +262,24 @@
       "added": "2026-06-23"
     },
     {
+      "title": "looper — Visual Review-Gated Agent Loop Designer for Claude Code",
+      "url": "https://github.com/ksimback/looper",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл /looper для Claude Code: собеседует вас по структуре агентного цикла и добавляет review-gates до запуска.",
+      "desc_en": "Claude Code skill that coaches you through designing a review-gated, verifiable agent loop before any files change.",
+      "date": "2026-06-18",
+      "priority": 1,
+      "score": 9,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "star_velocity": "~280★/7d",
+      "added": "2026-06-29",
+      "stars": 508
+    },
+    {
       "title": "What Figma Made Visible",
       "url": "https://blog.murphytrueman.com/what-figma-made-visible/",
       "type": "article",
@@ -276,7 +310,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-24",
-      "stars": 193
+      "stars": 196
     },
     {
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
@@ -373,7 +407,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-18",
-      "stars": 604
+      "stars": 608
     },
     {
       "title": "The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding",
@@ -423,7 +457,7 @@
       "expanded_window": false,
       "star_velocity": "170★/3d",
       "added": "2026-06-16",
-      "stars": 1238
+      "stars": 1260
     },
     {
       "title": "LottieFiles Motion System — Define Your Motion Design System Inside Figma",
@@ -473,7 +507,7 @@
       "desc_ru": "Открытый фреймворк ByteDance для генерации и редактирования видео с переносом motion-паттернов между сценами.",
       "desc_en": "Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.",
       "added": "2026-06-15",
-      "stars": 968
+      "stars": 970
     },
     {
       "title": "Building Glass for the Web",
@@ -507,7 +541,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/8d",
       "added": "2026-06-19",
-      "stars": 2818
+      "stars": 2868
     },
     {
       "title": "ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code",
@@ -524,7 +558,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-11",
-      "stars": 428
+      "stars": 430
     },
     {
       "title": "How I Validated Design Decisions Before Writing Production Code",
@@ -558,7 +592,7 @@
       "expanded_window": false,
       "star_velocity": "214★/7d",
       "added": "2026-06-14",
-      "stars": 1181
+      "stars": 1190
     },
     {
       "title": "Can Your AI Pass the Accessibility Test?",
@@ -591,7 +625,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-21",
-      "stars": 117
+      "stars": 118
     },
     {
       "title": "Loop Engineering",
@@ -624,7 +658,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-14",
-      "stars": 2880
+      "stars": 2902
     },
     {
       "title": "UI Skills — Curated Skill Directory for Design Engineers",
@@ -674,7 +708,7 @@
       "expanded_window": false,
       "star_velocity": "561★/3d",
       "added": "2026-06-09",
-      "stars": 2099
+      "stars": 2130
     },
     {
       "title": "The Four Design Jobs AI Created (So Far)",
@@ -724,7 +758,7 @@
       "expanded_window": false,
       "star_velocity": "550★/24h",
       "added": "2026-06-05",
-      "stars": 2277
+      "stars": 2322
     },
     {
       "title": "The Parts of Your System You Never Wrote Down",
@@ -758,7 +792,7 @@
       "expanded_window": false,
       "star_velocity": "1800★/7d",
       "added": "2026-06-10",
-      "stars": 3862
+      "stars": 4063
     },
     {
       "title": "Figma Make: Plan Mode, Web Search, and Queued Messages",
@@ -936,7 +970,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 4092
+      "stars": 4151
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -1081,7 +1115,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-06",
-      "stars": 123
+      "stars": 124
     },
     {
       "title": "Train Your Judgement",
@@ -1131,7 +1165,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-23",
-      "stars": 175
+      "stars": 174
     },
     {
       "title": "wondelai/skills — 48 UX and Product Methodology Frameworks as Claude Code Skills",
@@ -1148,7 +1182,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-06",
-      "stars": 1468
+      "stars": 1488
     },
     {
       "title": "Building a General-Purpose Accessibility Agent — and What We Learned",
@@ -1181,7 +1215,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 41699
+      "stars": 42140
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -1332,7 +1366,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 7298,
+      "stars": 7356,
       "tg_message_id": 473
     },
     {
@@ -1500,7 +1534,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 184,
+      "stars": 186,
       "tg_message_id": 457
     },
     {
@@ -1518,7 +1552,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 67091,
+      "stars": 67776,
       "tg_message_id": 464
     },
     {
@@ -1568,7 +1602,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 122,
+      "stars": 124,
       "tg_message_id": 454
     },
     {
@@ -1636,7 +1670,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 8788,
+      "stars": 8876,
       "tg_message_id": 446
     },
     {
@@ -1654,7 +1688,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 3041,
+      "stars": 3062,
       "tg_message_id": 458
     },
     {
@@ -1671,7 +1705,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 1981,
+      "stars": 2027,
       "tg_message_id": 439
     },
     {
@@ -1689,7 +1723,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 6989,
+      "stars": 7003,
       "tg_message_id": 449
     },
     {
@@ -1724,7 +1758,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 8788,
+      "stars": 8876,
       "tg_message_id": 443
     },
     {
@@ -1742,7 +1776,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 324,
+      "stars": 326,
       "tg_message_id": 444
     },
     {
@@ -1876,7 +1910,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 19122,
+      "stars": 19349,
       "tg_message_id": 442
     },
     {
@@ -1894,7 +1928,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1321,
+      "stars": 1328,
       "tg_message_id": 445
     },
     {
@@ -1912,7 +1946,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-03",
-      "stars": 722
+      "stars": 728
     },
     {
       "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
@@ -1928,7 +1962,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2643,
+      "stars": 2652,
       "tg_message_id": 436
     },
     {
@@ -2076,7 +2110,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 71754,
+      "stars": 72632,
       "tg_message_id": 455
     },
     {
@@ -2234,7 +2268,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 26587,
+      "stars": 26777,
       "tg_message_id": 361
     },
     {
@@ -2262,7 +2296,7 @@
       "date": "2026-04-02",
       "priority": 1,
       "score": 9,
-      "stars": 239595,
+      "stars": 241029,
       "reading_time": 10,
       "difficulty": "intermediate",
       "has_demo": true,
