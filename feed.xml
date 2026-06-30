@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 29 Jun 2026 08:41:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 30 Jun 2026 07:13:18 +0000</lastBuildDate>
+  <item>
+    <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
+    <link>https://github.com/Pluviobyte/video-production-skills</link>
+    <description>Skills library for AI-generated motion videos: dark SaaS style, opener sequences, and animation quality checks.</description>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Pluviobyte/video-production-skills</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
     <link>https://github.com/educlopez/ui-craft</link>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Framer 3: AI Agents, Branching, and Community</title>
-    <link>https://www.framer.com/updates/framer-3</link>
-    <description>Framer ships AI agents that design pages, create components, write code, and run accessibility audits inside the canvas.</description>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/framer-3</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
