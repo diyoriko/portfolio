@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 01 Jul 2026 08:01:56 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Jul 2026 07:00:53 +0000</lastBuildDate>
+  <item>
+    <title>39 Principles for Designing Human-AI Interaction</title>
+    <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
+    <description>Applied framework of 39 principles for designing AI interfaces that calibrate appropriate user reliance.</description>
+    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
     <link>https://github.com/Pluviobyte/video-production-skills</link>
@@ -14,6 +22,14 @@
     <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Pluviobyte/video-production-skills</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Figma Just Made Your Design System Debt Everyone's Problem. Now Use It.</title>
+    <link>https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf</link>
+    <description>Post-Config 2026 analysis of how Code Layers surfaces design system debt and why teams should audit now.</description>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://emilycampbell.co/writing/layers-of-ai-experience</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Figma MCP server expands: Slides creation, local fonts, Xcode support, asset exports</title>
-    <link>https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server</link>
-    <description>Figma MCP server now creates and updates Slides, renders local fonts, exports assets as JPG/SVG/PDF, and works with Xcode for iOS handoff.</description>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>4 Ways We're Using Our MCP Server at Figma</title>
-    <link>https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/</link>
-    <description>Figma's team shows 4 real MCP workflows: living decks, FigJam from live data, bidirectional design-code sync.</description>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
