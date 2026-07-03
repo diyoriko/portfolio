@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 02 Jul 2026 07:00:53 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 03 Jul 2026 06:58:40 +0000</lastBuildDate>
   <item>
     <title>39 Principles for Designing Human-AI Interaction</title>
     <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
@@ -112,6 +112,14 @@
     <category>Motion × AI</category>
   </item>
   <item>
+    <title>The Problem Is Prompt Debt</title>
+    <link>https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html</link>
+    <description>Prompts accumulate like technical debt — how to track, version, and manage them before they compound into a mess.</description>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>Figma design agent gets web search</title>
     <link>https://www.figma.com/release-notes/</link>
     <description>Figma design agent can now search the web; pull live references and real content into prompts without leaving your file.</description>
@@ -157,14 +165,6 @@
     <description>Practical framework for designing under AI uncertainty: confidence scoring, assumption-based A/B tests, and HITL implementation patterns.</description>
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Six Layers of AI Experience</title>
-    <link>https://emilycampbell.co/writing/layers-of-ai-experience</link>
-    <description>Six-layer framework for auditing AI products — from interface to governance and emergent behavior.</description>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://emilycampbell.co/writing/layers-of-ai-experience</guid>
     <category>Process</category>
   </item>
 </channel>
