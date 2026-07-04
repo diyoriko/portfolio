@@ -44,6 +44,13 @@ Run multiple targeted searches. Don't stop at the first results — dig deeper.
 15. WebFetch `https://github.com/op7418?tab=repositories` — ships Claude skills regularly (guizang-ppt-skill etc). Check recent repo creations.
 16. WebFetch `https://github.com/ConardLi?tab=repositories` — design-adjacent AI skills (web-design-skill etc). Check recent repo creations.
 
+#### Design-systems / tokens / Figma-platform changelogs (WebFetch — high-signal for the owner's work stack: DTCG · Style Dictionary · Tokens Studio · Figma Variables · Claude Code):
+17. WebFetch `https://github.com/style-dictionary/style-dictionary/releases` — Style Dictionary releases. Flag new major/minor + DTCG-related changes.
+18. WebFetch `https://github.com/tokens-studio/figma-plugin/releases` — Tokens Studio plugin releases. Flag sync/DTCG/Figma-Variables changes.
+19. WebFetch `https://www.figma.com/release-notes/` — Figma platform. Flag Variables / Dev Mode / REST API / plugin-API updates relevant to design↔code.
+20. WebFetch `https://docs.claude.com/en/release-notes/claude-code` — Claude Code changelog. Flag features useful for a designer's agentic workflow (skills, hooks, MCP, subagents).
+21. WebFetch `https://github.com/design-tokens/community-group` — DTCG spec activity. Flag spec milestones / format changes.
+
 > Retired sources (algorithm v3, removed after repeated dead runs): `shir-man.com` (WebFetch gets only a JS loading skeleton), `t.me/s/denissexy` (zero design-relevant content across confirmed runs), `github.com/anthropics/awesome-agent-skills` (404, 3+ consecutive runs). Chinese/Russian early-signal is now covered by the op7418 / ConardLi repo watches and the GitHub API candidates block.
 
 #### Adaptive queries

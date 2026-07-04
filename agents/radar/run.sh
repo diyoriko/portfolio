@@ -144,12 +144,14 @@ created_since = (today - datetime.timedelta(days=120)).isoformat()
 # generic high-star repos (remote desktop, zk bridges) that match a bare "ui"/"design".
 KW = ('figma','design system','design-system','ux','frontend','css','tailwind','shadcn',
       'token','claude','cursor',' mcp','prototyp','a11y','accessib','motion','animation',
-      'design engineer','vibe cod','ui kit','ui library','component library','design tool')
+      'design engineer','vibe cod','ui kit','ui library','component library','design tool',
+      'style dictionary','style-dictionary','tokens studio','dtcg','design tokens','variables')
 queries = [
     'claude skill design OR figma OR frontend in:name,description',
     'figma plugin AI OR mcp in:name,description',
     'design system AI tokens in:name,description',
     '"design engineering" OR "design tool" AI in:name,description',
+    'design tokens OR "style dictionary" OR "tokens studio" OR dtcg in:name,description',
 ]
 seen, rows = set(), []
 for q in queries:
