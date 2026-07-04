@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 03 Jul 2026 06:58:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 04 Jul 2026 06:40:21 +0000</lastBuildDate>
   <item>
     <title>39 Principles for Designing Human-AI Interaction</title>
     <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
@@ -14,6 +14,14 @@
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Got skills? Make the Figma agent a better collaborator</title>
+    <link>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</link>
+    <description>Figma agent skills can simulate stakeholder feedback, automate design rituals, and connect to Slack and Notion today.</description>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/senlindesign/taste-skill</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Designing With Uncertainty: How AI Supercharges Probabilistic Thinking</title>
-    <link>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</link>
-    <description>Practical framework for designing under AI uncertainty: confidence scoring, assumption-based A/B tests, and HITL implementation patterns.</description>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
