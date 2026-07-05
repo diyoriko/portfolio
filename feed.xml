@@ -6,13 +6,21 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 04 Jul 2026 06:40:21 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 07:01:29 +0000</lastBuildDate>
   <item>
     <title>39 Principles for Designing Human-AI Interaction</title>
     <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
     <description>Applied framework of 39 principles for designing AI interfaces that calibrate appropriate user reliance.</description>
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Matching AI Modality To User Intent: Designing The Right Interface</title>
+    <link>https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/</link>
+    <description>Framework for matching AI interface modality — voice, form, dashboard — to user intent and physical context, with downloadable templates.</description>
+    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -128,6 +136,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Legibility of Effort</title>
+    <link>https://eieio.games/blog/legibility-of-effort/</link>
+    <description>LLMs broke effort legibility: designers now need deliberate choices to signal their work isn't AI-generated.</description>
+    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://eieio.games/blog/legibility-of-effort/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
     <title>Figma design agent gets web search</title>
     <link>https://www.figma.com/release-notes/</link>
     <description>Figma design agent can now search the web; pull live references and real content into prompts without leaving your file.</description>
@@ -149,22 +165,6 @@
     <description>Claude Code skill that coaches you through designing a review-gated, verifiable agent loop before any files change.</description>
     <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/ksimback/looper</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>What Figma Made Visible</title>
-    <link>https://blog.murphytrueman.com/what-figma-made-visible/</link>
-    <description>Figma's hands-on friction taught designers why decisions matter — AI tools risk eliminating that learning mechanism.</description>
-    <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/what-figma-made-visible/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>taste-skill — Reverse-Engineer Any Website's Design DNA into Tokens and Trade-off Principles</title>
-    <link>https://github.com/senlindesign/taste-skill</link>
-    <description>Claude Code skill that extracts concrete tokens plus the reasoning behind each design decision from any URL.</description>
-    <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/senlindesign/taste-skill</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
