@@ -2,64 +2,6 @@
   {
     "effective_queries": [
       "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "AI motion animation CSS Framer design tool shipped 2026",
-      "site:smashingmagazine.com OR site:css-tricks.com AI design 2026"
-    ],
-    "weak_queries": [
-      "site:lobste.rs design AI 2026",
-      "site:news.ycombinator.com design AI tool 2026",
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026",
-      "\"design engineer\" OR \"design technologist\" workflow tool shipped 2026 site:medium.com OR site:substack.com"
-    ],
-    "coverage_gaps": [
-      "a11y×ai — A11y Agent (real-time sub-12ms browser linter, Feb 2026) surfaced but could not confirm product URL vs architectural writeup; still zero items in DB",
-      "brand×ai — no DB items covering AI in brand identity or logo workflows; growing practitioner use case",
-      "process — improving (2 to 3 items) but still under-represented relative to figma×ai (7) and tools (6)"
-    ],
-    "tag_balance": "figma×ai (7) and tools (6) dominate; motion×ai opens as new tag; process rising slowly; a11y×ai and brand×ai remain at zero",
-    "rejected_count": 12,
-    "top_rejection_reasons": [
-      "too close to existing DB items — Figma community plugins overlapped with canvas agents coverage",
-      "no confirmed ship date within 7 days — agentic engineering articles referenced 2026 broadly",
-      "overview/listicle format — vibe coding guides returned were round-up articles, not workflow tools",
-      "no design-specific angle — HN and Lobste.rs threads discussed AI code quality generically"
-    ],
-    "query_suggestions": [
-      {
-        "query": "a11y accessibility AI real-time linter design tool site:github.com OR site:producthunt.com 2026",
-        "why": "A11y Agent appeared twice across runs but needs a product page, not a technical writeup — more specific targeting may surface it or a shipped alternative"
-      },
-      {
-        "query": "brand identity logo AI tool designer shipped 2026",
-        "why": "brand×ai is a complete gap; brand designers are a key audience and AI brand tools are actively shipping"
-      },
-      {
-        "query": "site:framer.com update OR launch 2026",
-        "why": "Framer ships frequently and is a primary design-engineering tool; no Framer-specific items exist in DB despite being in scope"
-      },
-      {
-        "query": "\"design system\" OR \"design tokens\" MCP server shipped github.com 2026",
-        "why": "Design systems tag has 4 items but none are MCP servers specifically for tokens/systems automation — a concrete gap given how much token+AI coverage exists at article level"
-      }
-    ],
-    "notes": "Motion Studio was a direct win from the motion×ai query suggested in the previous run — confirms that acting on algorithm review suggestions yields results. Lobste.rs and HN queries have now returned low signal across three consecutive runs; recommend retiring both and replacing with the Framer and a11y queries above. The Anthropic official frontend-design plugin appeared across multiple independent search contexts (GitHub, claude.com, practitioner blogs) confirming it is real and shipped — distinct from the community UI/UX Pro Max Skill already in DB. The A11y Agent (Cameron Cundiff, Medium Feb 2026) remains a strong candidate but the only source is a Medium architecture post with no product URL; needs one more search pass with a more targeted query before inclusion.",
-    "date": "2026-04-01",
-    "radar_ideas": [
-      {
-        "idea": "When a new tag is added for the first time (e.g. motion×ai), show a 'new' marker next to it in the radar.html filter bar so readers notice the taxonomy is expanding",
-        "area": "ux",
-        "effort": "small"
-      },
-      {
-        "idea": "Telegram posts: append difficulty level as plain text label (beginner / intermediate / advanced) at the end of each item so subscribers can skip items outside their context without clicking",
-        "area": "telegram",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
       "a11y accessibility AI real-time linter design tool site:github.com OR site:producthunt.com 2026",
       "site:thedesignsystem.guide MCP design tokens 2026",
       "Figma AI MCP agents design 2026"
@@ -1315,6 +1257,78 @@
         "idea": "Add a tag filter row above the item list on radar.html — with 190 items across 8 tags, return visitors who have already read all figma×ai items have no way to browse only motion×ai or skills without scrolling the full feed",
         "area": "feature",
         "effort": "medium"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "Figma AI MCP agents design 2026 — consistently surfaces relevant Figma ecosystem content",
+      "Figma Code Layers early access designer workflow July 2026 — confirmed early access opening in July; surfaced new practitioner coverage",
+      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — found the July 3 Quiet AI article from Smashing",
+      "sidebar.io WebFetch — highest-ROI source again; both final items traceable here"
+    ],
+    "weak_queries": [
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — trend roundups and statistics, no newly shipped tools (8th consecutive weak run)",
+      "Claude Code OR Cursor designers workflow 2026 — comparison articles only, all already in DB",
+      "design systems AI tokens automation 2026 — marketing content and roundups, no shipped tooling (8th consecutive weak run)",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — listicle comparisons only, no newly shipped unique tools",
+      "site:uxdesign.cc AI design shipped July 2026 — returned no July 2026 results; site-scoped search consistently fails for this domain",
+      "lottielab OR rive AI animation feature shipped July 2026 — comparison reviews only; lottielab.com/blog returned 404 blocking verification",
+      "accessibility AI WCAG tool shipped July 2026 — roundup guides only, no July 2026 launch announcements"
+    ],
+    "coverage_gaps": [
+      "tools — zero new standalone AI design tools for 7+ consecutive weeks; category static at 13 items",
+      "motion×ai — Lottielab Magic Animator (AI animation from Figma designs) mentioned across multiple sources but lottielab.com/blog returned 404; strongest motion×ai candidate blocked",
+      "a11y×ai — no newly shipped tools or articles in July 2026 window despite per-tag rescue rule",
+      "skills — all new design-specific repos this week below 50★ threshold (madebysan/claude-figma-skills at 0★, nafiurrahmanniloy/figma-skill at 3★)"
+    ],
+    "tag_balance": "process (39) and figma×ai (30) dominate; tools (13) and a11y×ai (13) have been static for 6+ weeks; skills (35) slowing; motion×ai (17) needs direct source monitoring to avoid systematic misses",
+    "rejected_count": 19,
+    "top_rejection_reasons": [
+      "below 50★ threshold (madebysan/claude-figma-skills 0★, nafiurrahmanniloy/figma-skill 3★, ConardLi/reacticle 53★ borderline)",
+      "already in database (all Figma Config 2026 content across 6+ DB entries, op7418 repos all previously included)",
+      "no design connection (Denis channel shifted to general AI news, OpenAI model launches, cultural topics this week)",
+      "roundup/listicle format with no newly shipped tools (UX research tools comparisons, accessibility testing roundups, vibe coding statistics)",
+      "no AI angle (Shader Lab — visually interesting keyframe shader editor for creative developers, open-source, no AI component detected)"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens — replace with: dovetail OR notably AI feature shipped July 2026",
+        "why": "Eight consecutive weak runs returning only comparison listicles; targeted vendor-name query will surface actual feature launches"
+      },
+      {
+        "query": "RETIRE: design systems AI tokens automation 2026 — replace with: tokens.studio OR supernova.io changelog July 2026",
+        "why": "Eight consecutive weak runs; targeted changelog query avoids marketing content and surfaces specific shipped features"
+      },
+      {
+        "query": "WebFetch https://www.lottielab.com/changelog",
+        "why": "lottielab.com/blog returned 404 this run; changelog is a common alternative URL and would surface the Magic Animator AI feature with exact ship date for motion×ai coverage"
+      },
+      {
+        "query": "\"Sean Goedecke\" design engineer AI workflow July 2026",
+        "why": "seangoedecke.com WebFetch has timed out 4 consecutive runs; removing the direct URL and searching by name may surface content via aggregators without the timeout failure"
+      },
+      {
+        "query": "WebFetch https://www.smashingmagazine.com/articles/",
+        "why": "site:smashingmagazine.com search consistently returns old content via search engine lag; fetching the articles index directly would find the freshest posts without delay"
+      },
+      {
+        "query": "madebysan claude-figma-skills github stars 2026",
+        "why": "madebysan/claude-figma-skills has 8 well-structured Figma automation skills (review, autopilot, extract, import, tickets, cleanup, component docs) with video demo — monitor weekly until it crosses 50★"
+      }
+    ],
+    "notes": "Seventh consecutive low-signal week. Two solid items found via sidebar.io and direct Smashing Magazine search. Denis channel content has fully shifted to general AI/culture with no design tool mentions for multiple consecutive runs; value as design-signal source is declining. The Figma Code Layers early access opening in July 2026 is the week's most significant shipped event, but all associated content (figma.com/blog/code-on-the-figma-canvas/) is already in DB — this is a discovery timing issue, not a quality gap. Lottielab Magic Animator remains the strongest unverified motion×ai candidate; lottielab.com/blog returning 404 has now blocked verification for 2 runs — the changelog URL must be tried next run. seangoedecke.com has timed out 4 consecutive runs; remove from required WebFetch rotation permanently and switch to name-based search.",
+    "date": "2026-07-06",
+    "radar_ideas": [
+      {
+        "idea": "Add a 'last signal' age indicator to tag filter chips on radar.html — e.g. 'tools · 47d' showing days since last item added — so readers understand tag sparsity without needing tooltips or explanations",
+        "area": "ux",
+        "effort": "small"
+      },
+      {
+        "idea": "Replace lottielab.com/blog (404) with lottielab.com/changelog in required curated sources; remove seangoedecke.com from WebFetch rotation after 4 consecutive timeouts and switch to a name-based search query",
+        "area": "content",
+        "effort": "small"
       }
     ]
   }

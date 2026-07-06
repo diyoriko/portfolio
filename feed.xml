@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 05 Jul 2026 07:01:29 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 06 Jul 2026 08:12:44 +0000</lastBuildDate>
+  <item>
+    <title>Users Don't Need More Tools: They Need Seamless Integrations</title>
+    <link>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</link>
+    <description>Quiet AI: design AI features as invisible background automation inside existing tools, not standalone platforms competing for attention.</description>
+    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>39 Principles for Designing Human-AI Interaction</title>
     <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
@@ -22,6 +30,14 @@
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Understanding Is the New Bottleneck</title>
+    <link>https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html</link>
+    <description>Agents write code faster than teams absorb it; four concrete techniques to keep comprehension a first-class practice.</description>
+    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Got skills? Make the Figma agent a better collaborator</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/release-notes/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Direct Every Frame with Runway Aleph 2.0, Now in Figma Weave</title>
-    <link>https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/</link>
-    <description>Runway Aleph 2.0 is now in Figma Weave — frame-level AI video direction: change angles, characters, environments without reshoots.</description>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>looper — Visual Review-Gated Agent Loop Designer for Claude Code</title>
-    <link>https://github.com/ksimback/looper</link>
-    <description>Claude Code skill that coaches you through designing a review-gated, verifiable agent loop before any files change.</description>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ksimback/looper</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
