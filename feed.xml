@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 06 Jul 2026 08:12:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 07:07:01 +0000</lastBuildDate>
   <item>
     <title>Users Don't Need More Tools: They Need Seamless Integrations</title>
     <link>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</link>
@@ -62,6 +62,14 @@
     <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Why Accessibility Is An Operational Capability, Not A Feature</title>
+    <link>https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/</link>
+    <description>Reframes a11y as infrastructure; shows how to constrain AI tools with Cursor rules before generation, not after.</description>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/</guid>
+    <category>Accessibility × AI</category>
   </item>
   <item>
     <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
@@ -158,14 +166,6 @@
     <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://eieio.games/blog/legibility-of-effort/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Figma design agent gets web search</title>
-    <link>https://www.figma.com/release-notes/</link>
-    <description>Figma design agent can now search the web; pull live references and real content into prompts without leaving your file.</description>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/release-notes/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
