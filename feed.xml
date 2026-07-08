@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 07 Jul 2026 07:07:01 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 06:20:08 +0000</lastBuildDate>
+  <item>
+    <title>Astryx — Meta's Open-Source Agent-Ready Design System</title>
+    <link>https://astryx.atmeta.com</link>
+    <description>Meta open-sources Astryx: 160+ components, CLI doubles as MCP server, humans and AI build from the same reference.</description>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://astryx.atmeta.com</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>guizang-material-illustration — Swiss Editorial Illustration Skill for Claude Code</title>
+    <link>https://github.com/op7418/guizang-material-illustration</link>
+    <description>New guizang skill: Swiss-editorial explanation diagrams, chart beautification, and labeled illustrations for Claude Code.</description>
+    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-material-illustration</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Users Don't Need More Tools: They Need Seamless Integrations</title>
     <link>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/principles-in-motion/</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>The Problem Is Prompt Debt</title>
-    <link>https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html</link>
-    <description>Prompts accumulate like technical debt — how to track, version, and manage them before they compound into a mess.</description>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Legibility of Effort</title>
-    <link>https://eieio.games/blog/legibility-of-effort/</link>
-    <description>LLMs broke effort legibility: designers now need deliberate choices to signal their work isn't AI-generated.</description>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://eieio.games/blog/legibility-of-effort/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
