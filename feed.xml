@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 08 Jul 2026 06:20:08 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 09 Jul 2026 07:07:03 +0000</lastBuildDate>
   <item>
     <title>Astryx — Meta's Open-Source Agent-Ready Design System</title>
     <link>https://astryx.atmeta.com</link>
@@ -14,6 +14,14 @@
     <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://astryx.atmeta.com</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Never mind the prompts, here's the thinking</title>
+    <link>https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f</link>
+    <description>A year rebuilding a studio's design process around AI found no speed gains — but a fundamentally different quality of output.</description>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>guizang-material-illustration — Swiss Editorial Illustration Skill for Claude Code</title>
@@ -62,6 +70,14 @@
     <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>awesome-design-skills — 67 DESIGN.md and SKILL.md Files for AI Coding Agents</title>
+    <link>https://github.com/bergside/awesome-design-skills</link>
+    <description>67 aesthetic design skill files (glassmorphism to brutalism) in SKILL.md format for Claude Design, Stitch, Codex, and Cursor.</description>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/bergside/awesome-design-skills</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/connecting-figma-and-weave/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Quick Start Guide to Generative Plugins and Shaders in Figma</title>
-    <link>https://help.figma.com/hc/en-us/articles/41147702210071-Quick-start-guide-to-generative-plugins-and-shaders</link>
-    <description>Describe the plugin you need and the Figma agent builds it with no API knowledge required; shaders generate from a text prompt or image reference.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://help.figma.com/hc/en-us/articles/41147702210071-Quick-start-guide-to-generative-plugins-and-shaders</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Principles in Motion</title>
-    <link>https://www.figma.com/blog/principles-in-motion/</link>
-    <description>Figma's motion designers explain motion prompting: sketching animation intent in words before touching keyframes.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/principles-in-motion/</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
