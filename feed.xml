@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 09 Jul 2026 07:07:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 07:08:48 +0000</lastBuildDate>
   <item>
     <title>Astryx — Meta's Open-Source Agent-Ready Design System</title>
     <link>https://astryx.atmeta.com</link>
@@ -29,6 +29,14 @@
     <description>New guizang skill: Swiss-editorial explanation diagrams, chart beautification, and labeled illustrations for Claude Code.</description>
     <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/op7418/guizang-material-illustration</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor</title>
+    <link>https://github.com/MengTo/Skills</link>
+    <description>75 design skills for Claude Code, Codex and Cursor — web design, landing pages, motion, WebGL, UI styles, and a video-to-prompt converter.</description>
+    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/MengTo/Skills</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
@@ -61,6 +69,14 @@
     <description>Agents write code faster than teams absorb it; four concrete techniques to keep comprehension a first-class practice.</description>
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>paper-design/shaders — Zero-Dependency GPU Shaders as React Components</title>
+    <link>https://github.com/paper-design/shaders</link>
+    <description>Zero-dependency canvas shaders usable as React components or GLSL — gradients, filters, logo animations, noise effects.</description>
+    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/paper-design/shaders</guid>
     <category>Design Engineering</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/2026-ai-report/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Config 2026: New Materials, New Tools and a More Expressive Canvas</title>
-    <link>https://www.figma.com/blog/config-2026-recap/</link>
-    <description>Config 2026: Shader Fills from text, Generative Plugins, 20+ Weave tools—now in Figma.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/config-2026-recap/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Connecting Figma and Weave</title>
-    <link>https://www.figma.com/blog/connecting-figma-and-weave/</link>
-    <description>20+ Weave AI tools—style transfer, product photography, material extraction—now available directly inside Figma Design.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/connecting-figma-and-weave/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
