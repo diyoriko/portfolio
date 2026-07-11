@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 10 Jul 2026 07:08:48 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 06:07:00 +0000</lastBuildDate>
+  <item>
+    <title>GPT-5.6 Is Now Available in Figma Make</title>
+    <link>https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/</link>
+    <description>GPT-5.6 in Figma Make self-heals build errors instead of stopping, reducing back-and-forth to reach a working prototype.</description>
+    <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Astryx — Meta's Open-Source Agent-Ready Design System</title>
     <link>https://astryx.atmeta.com</link>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/agent-custom-tools-context-skills/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Figma's 2026 AI Report: Can AI Help Us Collaborate Better?</title>
-    <link>https://www.figma.com/blog/2026-ai-report/</link>
-    <description>Figma's 3-year dataset: designers doing dev work doubled (21→41%) and AI helps solo work more than collaboration.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/2026-ai-report/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
