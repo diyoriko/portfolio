@@ -69,6 +69,22 @@
   },
   "items": [
     {
+      "title": "getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents",
+      "url": "https://getdesign.md/",
+      "type": "tool",
+      "tag": "design systems",
+      "desc_ru": "Каталог из 300+ DESIGN.md-файлов с разбором дизайн-систем крупных брендов для AI-агентов.",
+      "desc_en": "Browseable catalog of 300+ DESIGN.md analyses for Apple, Stripe, Airbnb and 300 more brands — drop into your coding agent.",
+      "date": "2026-07-10",
+      "priority": 2,
+      "score": 6,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-07-12"
+    },
+    {
       "title": "GPT-5.6 Is Now Available in Figma Make",
       "url": "https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/",
       "type": "tool",
@@ -131,7 +147,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-08",
-      "stars": 538
+      "stars": 569
     },
     {
       "title": "MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor",
@@ -148,7 +164,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-10",
-      "stars": 1644
+      "stars": 1883
     },
     {
       "title": "Users Don't Need More Tools: They Need Seamless Integrations",
@@ -229,7 +245,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-10",
-      "stars": 2979
+      "stars": 2999
     },
     {
       "title": "Got skills? Make the Figma agent a better collaborator",
@@ -262,7 +278,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-09",
-      "stars": 1718
+      "stars": 1726
     },
     {
       "title": "video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor",
@@ -328,7 +344,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-27",
-      "stars": 176
+      "stars": 178
     },
     {
       "title": "Your Design System's Newest Author Is an Agent",
@@ -554,7 +570,7 @@
       "expanded_window": true,
       "star_velocity": "~280★/7d",
       "added": "2026-06-29",
-      "stars": 658
+      "stars": 664
     },
     {
       "title": "What Figma Made Visible",
@@ -587,7 +603,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-24",
-      "stars": 221
+      "stars": 222
     },
     {
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
@@ -684,7 +700,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-18",
-      "stars": 667
+      "stars": 671
     },
     {
       "title": "The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding",
@@ -717,7 +733,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-03",
-      "stars": 1810
+      "stars": 1819
     },
     {
       "title": "Every Frame Perfect",
@@ -751,7 +767,7 @@
       "expanded_window": false,
       "star_velocity": "170★/3d",
       "added": "2026-06-16",
-      "stars": 1598
+      "stars": 1623
     },
     {
       "title": "LottieFiles Motion System — Define Your Motion Design System Inside Figma",
@@ -801,7 +817,7 @@
       "desc_ru": "Открытый фреймворк ByteDance для генерации и редактирования видео с переносом motion-паттернов между сценами.",
       "desc_en": "Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.",
       "added": "2026-06-15",
-      "stars": 1080
+      "stars": 1082
     },
     {
       "title": "Building Glass for the Web",
@@ -835,7 +851,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/8d",
       "added": "2026-06-19",
-      "stars": 3594
+      "stars": 3603
     },
     {
       "title": "ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code",
@@ -886,7 +902,7 @@
       "expanded_window": false,
       "star_velocity": "214★/7d",
       "added": "2026-06-14",
-      "stars": 1340
+      "stars": 1346
     },
     {
       "title": "Can Your AI Pass the Accessibility Test?",
@@ -919,7 +935,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-21",
-      "stars": 127
+      "stars": 128
     },
     {
       "title": "liquid-glass — Headless React Lens for Apple's iOS 26 Liquid Glass Effect",
@@ -936,7 +952,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-01",
-      "stars": 434
+      "stars": 439
     },
     {
       "title": "Tokens Studio 2.11.9 — Real-Time Bidirectional Figma Plugin Sync",
@@ -985,7 +1001,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-14",
-      "stars": 3072
+      "stars": 3083
     },
     {
       "title": "UI Skills — Curated Skill Directory for Design Engineers",
@@ -1035,7 +1051,7 @@
       "expanded_window": false,
       "star_velocity": "561★/3d",
       "added": "2026-06-09",
-      "stars": 2531
+      "stars": 2541
     },
     {
       "title": "The Four Design Jobs AI Created (So Far)",
@@ -1085,7 +1101,7 @@
       "expanded_window": false,
       "star_velocity": "550★/24h",
       "added": "2026-06-05",
-      "stars": 2473
+      "stars": 2483
     },
     {
       "title": "The Parts of Your System You Never Wrote Down",
@@ -1119,7 +1135,7 @@
       "expanded_window": false,
       "star_velocity": "1800★/7d",
       "added": "2026-06-10",
-      "stars": 4713
+      "stars": 4730
     },
     {
       "title": "Figma Make: Plan Mode, Web Search, and Queued Messages",

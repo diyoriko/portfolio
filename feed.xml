@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 11 Jul 2026 06:07:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 06:23:13 +0000</lastBuildDate>
+  <item>
+    <title>getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents</title>
+    <link>https://getdesign.md/</link>
+    <description>Browseable catalog of 300+ DESIGN.md analyses for Apple, Stripe, Airbnb and 300 more brands — drop into your coding agent.</description>
+    <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://getdesign.md/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>GPT-5.6 Is Now Available in Figma Make</title>
     <link>https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/</link>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/code-on-the-figma-canvas/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Figma's Design Agent, Now with Custom Tools and Greater Context</title>
-    <link>https://www.figma.com/blog/agent-custom-tools-context-skills/</link>
-    <description>Figma's agent gains generative plugins, shader fills, MCP connectors, and team-shareable Skills slash commands.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/agent-custom-tools-context-skills/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
