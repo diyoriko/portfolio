@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 13 Jul 2026 06:51:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 06:00:32 +0000</lastBuildDate>
   <item>
     <title>getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents</title>
     <link>https://getdesign.md/</link>
@@ -112,6 +112,14 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>frontend-slides — HTML Slides Skill with Visual Design Templates</title>
+    <link>https://github.com/zarazhangrui/frontend-slides</link>
+    <description>Claude Code skill that picks a visual direction from a design template library and generates polished HTML slide decks.</description>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/zarazhangrui/frontend-slides</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
     <link>https://github.com/Pluviobyte/video-production-skills</link>
     <description>Skills library for AI-generated motion videos: dark SaaS style, opener sequences, and animation quality checks.</description>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/introducing-figma-motion/</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Code on the Figma Canvas</title>
-    <link>https://www.figma.com/blog/code-on-the-figma-canvas/</link>
-    <description>Code Layers put live code on the Figma canvas—compare implementations side-by-side and sync changes to repos.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/code-on-the-figma-canvas/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
