@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 14 Jul 2026 06:00:32 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 05:58:43 +0000</lastBuildDate>
+  <item>
+    <title>Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors</title>
+    <link>https://dovetail.com/blog/suns-out-2026-launch/</link>
+    <description>Dovetail ships queryable digital twins built from real customer data, AI agents, and MCP connectors to Linear, Slack, Notion, and Canva.</description>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://dovetail.com/blog/suns-out-2026-launch/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex</title>
+    <link>https://github.com/oso95/scroll-world</link>
+    <description>Claude Code skill that turns any brand brief into a scroll-scrubbed 3D world, using Higgsfield and Seedance for AI camera flight video generation.</description>
+    <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/oso95/scroll-world</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents</title>
     <link>https://getdesign.md/</link>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/educlopez/ui-craft</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Your Design System's Newest Author Is an Agent</title>
-    <link>https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/</link>
-    <description>Agents now modify tokens and components faster than humans can review; version tokens like an API and assign explicit review ownership before agent changes ship.</description>
-    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Introducing Figma Motion: Your Canvas Now Has a Timeline</title>
-    <link>https://www.figma.com/blog/introducing-figma-motion/</link>
-    <description>Figma adds a native animation timeline with keyframes and exports to CSS, React, MP4, WebM, and Animated SVG.</description>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/introducing-figma-motion/</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
