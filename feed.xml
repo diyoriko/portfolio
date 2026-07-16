@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 15 Jul 2026 05:58:43 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 06:04:38 +0000</lastBuildDate>
+  <item>
+    <title>No, People Don't Want More AI In Their Life</title>
+    <link>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</link>
+    <description>Case for 'Quiet AI': background tools users never notice, over visible AI features that most users actively resist.</description>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors</title>
     <link>https://dovetail.com/blog/suns-out-2026-launch/</link>
@@ -16,12 +24,28 @@
     <category>Process</category>
   </item>
   <item>
+    <title>kill-ai-slop — Agent Skill to Remove AI Visual Pattern Clichés from UI</title>
+    <link>https://github.com/yetone/kill-ai-slop</link>
+    <description>Detects and removes tell-tale AI visual pattern clichés from generated UI; installable in Claude Code or Cursor today.</description>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/yetone/kill-ai-slop</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex</title>
     <link>https://github.com/oso95/scroll-world</link>
     <description>Claude Code skill that turns any brand brief into a scroll-scrubbed 3D world, using Higgsfield and Seedance for AI camera flight video generation.</description>
     <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/oso95/scroll-world</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Three.js-Object-Sculptor — Image-to-Animated-3D Codex Plugin</title>
+    <link>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</link>
+    <description>Codex plugin that converts object images into animation-ready procedural Three.js models with no external assets.</description>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</guid>
+    <category>3D + AI</category>
   </item>
   <item>
     <title>getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents</title>
@@ -142,30 +166,6 @@
     <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Pluviobyte/video-production-skills</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Figma Just Made Your Design System Debt Everyone's Problem. Now Use It.</title>
-    <link>https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf</link>
-    <description>Post-Config 2026 analysis of how Code Layers surfaces design system debt and why teams should audit now.</description>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Why Accessibility Is An Operational Capability, Not A Feature</title>
-    <link>https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/</link>
-    <description>Reframes a11y as infrastructure; shows how to constrain AI tools with Cursor rules before generation, not after.</description>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/</guid>
-    <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>ui-craft — Design Engineering Skill with Anti-Slop Detection and UICraftScore</title>
-    <link>https://github.com/educlopez/ui-craft</link>
-    <description>31 design domains, 33 anti-slop rules, deterministic UICraftScore 0-100, and an MCP server with quality gates. v1.0.0 released June 26.</description>
-    <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/educlopez/ui-craft</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
