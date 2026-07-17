@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 16 Jul 2026 06:04:38 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 06:07:52 +0000</lastBuildDate>
   <item>
     <title>No, People Don't Want More AI In Their Life</title>
     <link>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</link>
@@ -14,6 +14,14 @@
     <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Taste Cannot Be Delegated</title>
+    <link>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</link>
+    <description>Taste can be assisted but not delegated — why individual design judgment matters more, not less, in the AI age.</description>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/zarazhangrui/frontend-slides</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor</title>
-    <link>https://github.com/Pluviobyte/video-production-skills</link>
-    <description>Skills library for AI-generated motion videos: dark SaaS style, opener sequences, and animation quality checks.</description>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Pluviobyte/video-production-skills</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
