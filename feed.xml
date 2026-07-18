@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 17 Jul 2026 06:07:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 18 Jul 2026 05:50:10 +0000</lastBuildDate>
+  <item>
+    <title>Design Systems Need Evals</title>
+    <link>https://blog.murphytrueman.com/design-systems-need-evals/</link>
+    <description>Making your design system AI-readable isn't enough — evals are the missing layer to verify agents actually follow it.</description>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/design-systems-need-evals/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>No, People Don't Want More AI In Their Life</title>
     <link>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</link>
@@ -157,14 +165,6 @@
     <description>67 aesthetic design skill files (glassmorphism to brutalism) in SKILL.md format for Claude Design, Stitch, Codex, and Cursor.</description>
     <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/bergside/awesome-design-skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>frontend-slides — HTML Slides Skill with Visual Design Templates</title>
-    <link>https://github.com/zarazhangrui/frontend-slides</link>
-    <description>Claude Code skill that picks a visual direction from a design template library and generates polished HTML slide decks.</description>
-    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/zarazhangrui/frontend-slides</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
