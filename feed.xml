@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 18 Jul 2026 05:50:10 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 19 Jul 2026 06:20:37 +0000</lastBuildDate>
   <item>
     <title>Design Systems Need Evals</title>
     <link>https://blog.murphytrueman.com/design-systems-need-evals/</link>
@@ -14,6 +14,14 @@
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/design-systems-need-evals/</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Bring Code-Backed Screens onto the Canvas with Variables Attached</title>
+    <link>https://releasebot.io/updates/figma</link>
+    <description>Figma design import now binds colors, type and spacing to existing variables instead of hardcoded values.</description>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://releasebot.io/updates/figma</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>No, People Don't Want More AI In Their Life</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>awesome-design-skills — 67 DESIGN.md and SKILL.md Files for AI Coding Agents</title>
-    <link>https://github.com/bergside/awesome-design-skills</link>
-    <description>67 aesthetic design skill files (glassmorphism to brutalism) in SKILL.md format for Claude Design, Stitch, Codex, and Cursor.</description>
-    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bergside/awesome-design-skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
