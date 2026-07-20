@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 19 Jul 2026 06:20:37 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 20 Jul 2026 06:41:33 +0000</lastBuildDate>
+  <item>
+    <title>pixel-point/aval — Interactive Web Video Format with Animation State Machines</title>
+    <link>https://github.com/pixel-point/aval</link>
+    <description>Open-source web video format: named animation states, frame-accurate transitions via &lt;video>, no JS scrubbing.</description>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/pixel-point/aval</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>Design Systems Need Evals</title>
     <link>https://blog.murphytrueman.com/design-systems-need-evals/</link>
@@ -38,6 +46,14 @@
     <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Wait, Who Made This?</title>
+    <link>https://newsletter.uxdesign.cc/p/wait-who-made-this</link>
+    <description>Fabricio Teixeira on AI provenance: when anything can be generated, teams rethink authorship and trust in creative work.</description>
+    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://newsletter.uxdesign.cc/p/wait-who-made-this</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>paper-design/shaders — Zero-Dependency GPU Shaders as React Components</title>
-    <link>https://github.com/paper-design/shaders</link>
-    <description>Zero-dependency canvas shaders usable as React components or GLSL — gradients, filters, logo animations, noise effects.</description>
-    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/paper-design/shaders</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Got skills? Make the Figma agent a better collaborator</title>
-    <link>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</link>
-    <description>Figma agent skills can simulate stakeholder feedback, automate design rituals, and connect to Slack and Notion today.</description>
-    <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>

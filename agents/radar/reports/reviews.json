@@ -1,69 +1,6 @@
 [
   {
     "effective_queries": [
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "\"design system\" OR \"design tokens\" MCP server shipped github.com 2026",
-      "Figma AI MCP agents design 2026"
-    ],
-    "weak_queries": [
-      "brand identity logo AI tool designer shipped 2026",
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens",
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026",
-      "Claude Code OR Cursor designers workflow 2026"
-    ],
-    "coverage_gaps": [
-      "motion×ai — Magic Animator (best candidate) launched April 2025, not 2026; no new AI motion tool found this week",
-      "process — Dovetail/Maze/Condens search returned category overviews only, no specific 2026 feature launches",
-      "a11y×ai — designedbysom/accessibility-linter is a Claude skill for a11y mid-design but star count likely below threshold"
-    ],
-    "tag_balance": "figma×ai (8) and tools (7) remain over-represented. design+code improves to 4 with Superdesign. design systems improves to 6 with Storybook MCP. process (4) and motion×ai (1) remain under-served.",
-    "rejected_count": 15,
-    "top_rejection_reasons": [
-      "Already in database or very similar to existing item",
-      "Launched pre-2026 or mid-2025 — not fresh enough",
-      "No AI component — traditional tool returned by AI query",
-      "GitHub stars below 50 threshold",
-      "No specific 2026 update for established product"
-    ],
-    "query_suggestions": [
-      {
-        "query": "site:dovetail.com OR site:maze.co feature update 2026",
-        "why": "Direct site search finds feature launches vs listicles that dominate the broad UX research query"
-      },
-      {
-        "query": "\"AI design agent\" OR \"design agent\" shipped site:github.com 2026",
-        "why": "Superdesign (6,250 stars, Jan 2026) was missed 3 consecutive runs; this framing would have caught it; retire the Cursor/Claude designers query which only surfaces developer comparisons"
-      },
-      {
-        "query": "site:lottielab.com OR site:rive.app AI animation feature 2026",
-        "why": "Magic Animator is by Lottielab; Rive is the leading motion tool — company blogs surface 2026 AI feature updates vs plugin discovery noise"
-      },
-      {
-        "query": "RETIRE: brand identity logo AI tool designer shipped 2026",
-        "why": "Two consecutive runs returned only established generic logo generators (Brandmark, Looka, Canva) — brand×ai market has no new professional-grade tools shipping in this cycle"
-      },
-      {
-        "query": "RETIRE: Claude Code OR Cursor designers workflow 2026",
-        "why": "Three consecutive runs producing only developer-focused tool comparisons with no designer-specific content; replace with AI design agent query above"
-      }
-    ],
-    "notes": "Superdesign (6,250 stars, PH Jan 2026 launch) was missed across 3 prior runs — the design+code gap was never surfaced by the Cursor/Claude designers query because it returns developer comparisons, not tools. The GitHub site: query with design-agent framing found it immediately. Framer Convert (March 2026) is a genuine Framer launch but is a CRO/A/B testing feature, not design or AI — excluded correctly. The designagentlab/skills repo (17 stars, Feb 2026) is thematically right — Claude skills for designers — but too early-stage; worth revisiting in 4–6 weeks if stars grow past 50.",
-    "date": "2026-04-02",
-    "radar_ideas": [
-      {
-        "idea": "Add one 'gap line' to the weekly Telegram post naming which topic was actively searched but came up empty (e.g. 'motion×ai: nothing new found this week'). Signals the radar is looking, not just curating known sources.",
-        "area": "telegram",
-        "effort": "small"
-      },
-      {
-        "idea": "Show item count per tag in the filter bar on radar.html (e.g. 'figma×ai (8)') so readers can see which areas are saturated vs thin at a glance.",
-        "area": "ux",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced awesome-claude-skills (10.3k stars) and multiple skill repos",
       "\"AI design agent\" OR \"design agent\" shipped site:github.com 2026 — confirmed Designpowers and its GitHub repo",
       "WebFetch sidebar.io — surfaced both Designpowers article and tickets-are-prompts within 7-day window",
@@ -1333,6 +1270,75 @@
       {
         "idea": "Add a drought indicator to the Telegram post footer when a tag has received no new items in 4+ consecutive weeks. One line such as 'a11y×ai: no new items in 6 weeks — send leads to @diyoriko' surfaces blind spots to the community and may generate reader-submitted signals.",
         "area": "telegram",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "dovetail OR notably AI feature shipped July 2026 — confirmed Dovetail July 14 launch with MCP connectors and digital twins (already in DB, but validates query targeting)",
+      "site:uxdesign.cc AI design July 2026 — surfaced fresh July articles including Fabricio Teixeira newsletter on AI provenance",
+      "t.me/s/github_repos Telegram WebFetch — found pixel-point/aval (1.2k★) trending; highest-ROI velocity source again this run",
+      "releasebot.io/updates/figma WebFetch — confirmed all July Figma updates with exact dates; confirmed all are already in DB",
+      "shir-man.com/api/rss WebFetch — RSS endpoint returned structured content for the first time (homepage returned JS shell in prior runs); non-design-focused this week but source is now confirmed working"
+    ],
+    "weak_queries": [
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — trend statistics and roundups only, no shipped tools; 10th consecutive weak run",
+      "Claude Code OR Cursor designers workflow 2026 — comparison articles only, all already in DB",
+      "tokens.studio OR supernova.io changelog July 2026 — returned integration docs and a June 2026 entry only; no July entries; retiring this query",
+      "site:github.com Claude skill design OR figma OR UI trending 2026 — repos already in DB or below 50★ threshold",
+      "site:github.com \".claude\" OR \".cursorrules\" OR \"agent skills\" design UI UX 2026 — same repos as prior 5+ runs; retiring this query",
+      "heydesigner.com WebFetch — 403 Forbidden for 10+ consecutive runs; permanently retiring",
+      "accessibility AI tool WCAG shipped July 2026 — roundup guides and compliance articles only; zero new July launches found",
+      "motion animation AI Lottielab Rive update July 2026 — comparison reviews only; lottielab.com/updates returned 404 again (4th consecutive)"
+    ],
+    "coverage_gaps": [
+      "tools — zero new standalone AI design tools shipped; tag at 13 items for 10+ consecutive weeks with no net-new additions; this is now the radar's most persistent gap",
+      "a11y×ai — zero candidates found this run; no newly shipped accessibility AI tools or articles within 90-day window; rescue rule not triggerable with zero candidates",
+      "motion×ai — Lottielab Magic Animator remains the strongest unverified candidate (blocked by 4 consecutive 404s); Rive blog silent; no new signal this run",
+      "3d×ai — only 1 item in entire DB; no search strategy in current rotation targets this; no discovery possible without dedicated query"
+    ],
+    "tag_balance": "process (43) and skills (41) continue to dominate; tools (13) has been static for 10+ consecutive weeks; 3d×ai (1) severely underrepresented; this run adds one process and one design+code item, deepening existing concentration",
+    "rejected_count": 12,
+    "top_rejection_reasons": [
+      "already in database — Dovetail Summer 2026 launch, all July Figma updates (concurrent image edits July 7, GPT-5.6 in Make July 9, Code Layers early access July 16) all already tracked",
+      "paywalled or inaccessible — uxdesign.cc Medium articles redirected to auth wall, namethatui.com returned 403",
+      "conceptual without concrete workflow change — 'The interface has left the building' (Om Prakash), 'Designers are sharpening knives for the wrong fight' (paywalled)",
+      "below 50★ threshold — madebysan/claude-figma-skills still near 0★ after 2 weeks monitoring, stem-illustration-skill (12★)",
+      "no design or AI connection — ConardLi easy-agent (881★, recreating Claude Code for learning), spec-kit (122k★, spec-driven development framework)"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: heydesigner.com WebFetch — replace with: site:heydesigner.com AI design engineering July 2026",
+        "why": "403 for 10+ consecutive runs with no recovery; site-scoped search returns snippet content without hitting the auth wall"
+      },
+      {
+        "query": "RETIRE: site:github.com \".claude\" OR \".cursorrules\" OR \"agent skills\" design UI UX 2026",
+        "why": "Returns the same repos every run for 6+ weeks; zero new discovery value; github_repos Telegram channel finds trending repos more accurately"
+      },
+      {
+        "query": "RETIRE: tokens.studio OR supernova.io changelog July 2026",
+        "why": "Returns integration docs only across every run; when design-systems tag needs coverage, use WebFetch of feedback.tokens.studio/changelog directly"
+      },
+      {
+        "query": "WebFetch https://www.lottielab.com/what-s-new",
+        "why": "/updates and /changelog both 404 for 4 consecutive runs; /what-s-new is a common SaaS URL pattern; Lottielab Magic Animator is the strongest unverified motion×ai candidate for 6+ weeks running"
+      },
+      {
+        "query": "site:producthunt.com design AI tool launch July 2026",
+        "why": "tools tag has been static for 10+ weeks; ProductHunt is the most reliable source for new standalone design tool launches not covered by any current required query"
+      },
+      {
+        "query": "WebFetch https://github.com/pixel-point",
+        "why": "pixel-point (aval creators) consistently ships quality design engineering tools; monitoring their org page surfaces new repos before they trend"
+      }
+    ],
+    "notes": "10th consecutive low-signal week. All major Figma July events are either already in DB or use the already-indexed releasebot.io/figma URL — the radar is running ahead of aggregators on Figma coverage, which is good but leaves little net-new to add. Denis channel has been entirely off-topic for design for 4+ consecutive runs (general AI pricing, ChatGPT vs Claude comparisons); its utility as a design signal source has dropped to near zero. shir-man.com/api/rss returned structured content for the first time this run — endpoint confirmed working; non-design content this week but worth keeping in rotation. The strongest new discovery is pixel-point/aval (appeared in github_repos Telegram at 749★, fetched at 1.2k★ suggesting rapid growth) — included despite no explicit AI angle because the state-machine video format is a genuine design engineering workflow improvement from a credible source. madebysan/claude-figma-skills has been monitored for 2 weeks and remains near 0★. The tools tag drought (10+ weeks without net-new additions) is now the radar's most persistent structural gap; adding a ProductHunt weekly scan as a required source is the highest-leverage fix available.",
+    "date": "2026-07-20",
+    "radar_ideas": [
+      {
+        "idea": "Add a 'DE' (design engineering) badge distinct from the AI indicator on radar.html item cards, so readers can distinguish tools like aval that are pure design engineering wins from AI-native tools — reduces confusion when non-AI items appear in the feed.",
+        "area": "ux",
         "effort": "small"
       }
     ]

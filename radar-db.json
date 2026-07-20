@@ -73,6 +73,23 @@
   },
   "items": [
     {
+      "title": "pixel-point/aval — Interactive Web Video Format with Animation State Machines",
+      "url": "https://github.com/pixel-point/aval",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Open-source формат веб-видео с именованными состояниями и точными переходами между кадрами — без JS-скруббинга.",
+      "desc_en": "Open-source web video format: named animation states, frame-accurate transitions via <video>, no JS scrubbing.",
+      "date": "2026-07-19",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-07-20",
+      "stars": 1244
+    },
+    {
       "title": "Design Systems Need Evals",
       "url": "https://blog.murphytrueman.com/design-systems-need-evals/",
       "type": "article",
@@ -137,6 +154,22 @@
       "added": "2026-07-17"
     },
     {
+      "title": "Wait, Who Made This?",
+      "url": "https://newsletter.uxdesign.cc/p/wait-who-made-this",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Fabricio Teixeira о проблеме авторства в AI-эпоху: кому доверять дизайну, если любое решение может быть сгенерировано?",
+      "desc_en": "Fabricio Teixeira on AI provenance: when anything can be generated, teams rethink authorship and trust in creative work.",
+      "date": "2026-07-15",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 7,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-07-20"
+    },
+    {
       "title": "Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors",
       "url": "https://dovetail.com/blog/suns-out-2026-launch/",
       "type": "tool",
@@ -167,7 +200,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 628
+      "stars": 645
     },
     {
       "title": "scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex",
@@ -185,7 +218,7 @@
       "expanded_window": false,
       "star_velocity": "1.6k★/7d",
       "added": "2026-07-15",
-      "stars": 3647
+      "stars": 3960
     },
     {
       "title": "Three.js-Object-Sculptor — Image-to-Animated-3D Codex Plugin",
@@ -202,7 +235,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 1107
+      "stars": 1191
     },
     {
       "title": "getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents",
@@ -283,7 +316,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-08",
-      "stars": 711
+      "stars": 719
     },
     {
       "title": "MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor",
@@ -300,7 +333,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-10",
-      "stars": 2390
+      "stars": 2424
     },
     {
       "title": "Users Don't Need More Tools: They Need Seamless Integrations",
@@ -381,7 +414,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-10",
-      "stars": 3101
+      "stars": 3112
     },
     {
       "title": "Got skills? Make the Figma agent a better collaborator",
@@ -414,7 +447,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-09",
-      "stars": 1832
+      "stars": 1844
     },
     {
       "title": "frontend-slides — HTML Slides Skill with Visual Design Templates",
@@ -431,7 +464,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-14",
-      "stars": 25894
+      "stars": 25960
     },
     {
       "title": "video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor",
@@ -448,7 +481,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-30",
-      "stars": 553
+      "stars": 555
     },
     {
       "title": "Figma Just Made Your Design System Debt Everyone's Problem. Now Use It.",
@@ -497,7 +530,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-27",
-      "stars": 198
+      "stars": 197
     },
     {
       "title": "Your Design System's Newest Author Is an Agent",
@@ -723,7 +756,7 @@
       "expanded_window": true,
       "star_velocity": "~280★/7d",
       "added": "2026-06-29",
-      "stars": 685
+      "stars": 686
     },
     {
       "title": "What Figma Made Visible",
@@ -756,7 +789,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-24",
-      "stars": 238
+      "stars": 240
     },
     {
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
@@ -853,7 +886,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-18",
-      "stars": 797
+      "stars": 805
     },
     {
       "title": "The Case for an Accessibility Designer Vibe Coding When All His Coworkers Are Also Vibe Coding",
@@ -886,7 +919,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-03",
-      "stars": 1862
+      "stars": 1865
     },
     {
       "title": "Every Frame Perfect",
@@ -920,7 +953,7 @@
       "expanded_window": false,
       "star_velocity": "170★/3d",
       "added": "2026-06-16",
-      "stars": 1700
+      "stars": 1708
     },
     {
       "title": "LottieFiles Motion System — Define Your Motion Design System Inside Figma",
@@ -970,7 +1003,7 @@
       "desc_ru": "Открытый фреймворк ByteDance для генерации и редактирования видео с переносом motion-паттернов между сценами.",
       "desc_en": "Open-source framework for video generation and editing; transfers motion style and camera movement between scenes.",
       "added": "2026-06-15",
-      "stars": 1136
+      "stars": 1145
     },
     {
       "title": "Building Glass for the Web",
@@ -1004,7 +1037,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/8d",
       "added": "2026-06-19",
-      "stars": 3693
+      "stars": 3705
     },
     {
       "title": "ux-ui-agent-skills — DTCG Tokens, WCAG 2.2, and 138 Design Systems for Claude Code",
@@ -1021,7 +1054,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-11",
-      "stars": 460
+      "stars": 462
     },
     {
       "title": "How I Validated Design Decisions Before Writing Production Code",
@@ -1055,7 +1088,7 @@
       "expanded_window": false,
       "star_velocity": "214★/7d",
       "added": "2026-06-14",
-      "stars": 1383
+      "stars": 1391
     },
     {
       "title": "Can Your AI Pass the Accessibility Test?",
@@ -1154,7 +1187,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-14",
-      "stars": 3157
+      "stars": 3163
     },
     {
       "title": "UI Skills — Curated Skill Directory for Design Engineers",
@@ -1204,7 +1237,7 @@
       "expanded_window": false,
       "star_velocity": "561★/3d",
       "added": "2026-06-09",
-      "stars": 2698
+      "stars": 2719
     },
     {
       "title": "The Four Design Jobs AI Created (So Far)",
@@ -1254,7 +1287,7 @@
       "expanded_window": false,
       "star_velocity": "550★/24h",
       "added": "2026-06-05",
-      "stars": 2536
+      "stars": 2541
     },
     {
       "title": "The Parts of Your System You Never Wrote Down",
@@ -1288,7 +1321,7 @@
       "expanded_window": false,
       "star_velocity": "1800★/7d",
       "added": "2026-06-10",
-      "stars": 4854
+      "stars": 4864
     },
     {
       "title": "Figma Make: Plan Mode, Web Search, and Queued Messages",
@@ -1483,7 +1516,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-28",
-      "stars": 5184
+      "stars": 5210
     },
     {
       "title": "7 things that Vibe Design can't replicate",
@@ -1695,7 +1728,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-06",
-      "stars": 1673
+      "stars": 1679
     },
     {
       "title": "Building a General-Purpose Accessibility Agent — and What We Learned",
@@ -1728,7 +1761,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-27",
-      "stars": 47954
+      "stars": 48162
     },
     {
       "title": "Context-Based Design Systems, Revisited",
@@ -1879,7 +1912,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-05-19",
-      "stars": 7842,
+      "stars": 7858,
       "tg_message_id": 473
     },
     {
@@ -2063,7 +2096,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 198,
+      "stars": 199,
       "tg_message_id": 457
     },
     {
@@ -2081,7 +2114,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-05",
-      "stars": 79189,
+      "stars": 79354,
       "tg_message_id": 464
     },
     {
@@ -2131,7 +2164,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-30",
-      "stars": 131,
+      "stars": 132,
       "tg_message_id": 454
     },
     {
@@ -2199,7 +2232,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 9614,
+      "stars": 9633,
       "tg_message_id": 446
     },
     {
@@ -2217,7 +2250,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 3386,
+      "stars": 3391,
       "tg_message_id": 458
     },
     {
@@ -2234,7 +2267,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-24",
-      "stars": 2409,
+      "stars": 2418,
       "tg_message_id": 439
     },
     {
@@ -2252,7 +2285,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-27",
-      "stars": 7323,
+      "stars": 7325,
       "tg_message_id": 449
     },
     {
@@ -2287,7 +2320,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-24",
-      "stars": 9614,
+      "stars": 9633,
       "tg_message_id": 443
     },
     {
@@ -2455,7 +2488,7 @@
       "expanded_window": false,
       "star_velocity": "783★/2h",
       "added": "2026-04-24",
-      "stars": 21774,
+      "stars": 21852,
       "tg_message_id": 442
     },
     {
@@ -2473,7 +2506,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-04-26",
-      "stars": 1537,
+      "stars": 1543,
       "tg_message_id": 445
     },
     {
@@ -2491,7 +2524,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-06-03",
-      "stars": 769
+      "stars": 771
     },
     {
       "title": "diagram-design — 13 Editorial Diagram Types as a Claude Code Skill",
@@ -2507,7 +2540,7 @@
       "difficulty": "beginner",
       "has_demo": true,
       "added": "2026-04-21",
-      "stars": 2842,
+      "stars": 2844,
       "tg_message_id": 436
     },
     {
@@ -2655,7 +2688,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-05-01",
-      "stars": 79574,
+      "stars": 79805,
       "tg_message_id": 455
     },
     {
@@ -2813,7 +2846,7 @@
       "difficulty": "beginner",
       "has_demo": false,
       "added": "2026-04-03",
-      "stars": 28394,
+      "stars": 28466,
       "tg_message_id": 361
     },
     {
