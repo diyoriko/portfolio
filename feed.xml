@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 21 Jul 2026 06:19:36 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 22 Jul 2026 06:16:51 +0000</lastBuildDate>
+  <item>
+    <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
+    <link>https://github.com/jamiemill/layers-skills</link>
+    <description>Nine installable AI skills guiding designers through seven layers of product thinking before jumping to screens.</description>
+    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/jamiemill/layers-skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>pixel-point/aval — Interactive Web Video Format with Animation State Machines</title>
     <link>https://github.com/pixel-point/aval</link>
@@ -88,6 +96,14 @@
     <category>3D + AI</category>
   </item>
   <item>
+    <title>toolcraft — Starter Kit for Building Custom Design Apps with AI Agents</title>
+    <link>https://github.com/pixel-point/toolcraft</link>
+    <description>React/TypeScript starter kit from pixel-point for building bespoke design tools like gradient generators and shader apps with AI agents.</description>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/pixel-point/toolcraft</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
     <title>scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex</title>
     <link>https://github.com/oso95/scroll-world</link>
     <description>Claude Code skill that turns any brand brief into a scroll-scrubbed 3D world, using Higgsfield and Seedance for AI camera flight video generation.</description>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/MengTo/Skills</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Users Don't Need More Tools: They Need Seamless Integrations</title>
-    <link>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</link>
-    <description>Quiet AI: design AI features as invisible background automation inside existing tools, not standalone platforms competing for attention.</description>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>39 Principles for Designing Human-AI Interaction</title>
-    <link>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</link>
-    <description>Applied framework of 39 principles for designing AI interfaces that calibrate appropriate user reliance.</description>
-    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
