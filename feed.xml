@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 22 Jul 2026 06:16:51 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 23 Jul 2026 06:23:15 +0000</lastBuildDate>
   <item>
     <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
     <link>https://github.com/jamiemill/layers-skills</link>
@@ -30,6 +30,14 @@
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/design-systems-need-evals/</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>bolt-slides — Web-App Presentation Skill for Claude Code, Codex, and Cursor</title>
+    <link>https://github.com/stackblitz/bolt-slides</link>
+    <description>StackBlitz skill for agents to build live web-app decks — each slide is a working, responsive page with 30+ components.</description>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/stackblitz/bolt-slides</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Bring Code-Backed Screens onto the Canvas with Variables Attached</title>
@@ -104,6 +112,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>Against Design System Federation</title>
+    <link>https://karolinaszczur.com/journal/against-design-system-federation/</link>
+    <description>Karolina Szczur argues pure federated governance reliably fails; a hybrid model with centralized ownership works better in practice.</description>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://karolinaszczur.com/journal/against-design-system-federation/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex</title>
     <link>https://github.com/oso95/scroll-world</link>
     <description>Claude Code skill that turns any brand brief into a scroll-scrubbed 3D world, using Higgsfield and Seedance for AI camera flight video generation.</description>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>guizang-material-illustration — Swiss Editorial Illustration Skill for Claude Code</title>
-    <link>https://github.com/op7418/guizang-material-illustration</link>
-    <description>New guizang skill: Swiss-editorial explanation diagrams, chart beautification, and labeled illustrations for Claude Code.</description>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-material-illustration</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor</title>
-    <link>https://github.com/MengTo/Skills</link>
-    <description>75 design skills for Claude Code, Codex and Cursor — web design, landing pages, motion, WebGL, UI styles, and a video-to-prompt converter.</description>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/MengTo/Skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
