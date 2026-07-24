@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 23 Jul 2026 06:23:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 24 Jul 2026 06:15:18 +0000</lastBuildDate>
+  <item>
+    <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
+    <link>https://motion.dev/magazine/introducing-motion-ui</link>
+    <description>Animated React sections drop into any design system via shadcn tokens; an AI button builds a customization prompt for your agent.</description>
+    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://motion.dev/magazine/introducing-motion-ui</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
     <link>https://github.com/jamiemill/layers-skills</link>
@@ -14,6 +22,22 @@
     <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/jamiemill/layers-skills</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>thinking-orbs — Animated Loading States for AI Agent Interfaces</title>
+    <link>https://github.com/Jakubantalik/thinking-orbs</link>
+    <description>React npm package with 6 animated AI thinking states (working, searching, composing) with auto dark/light mode.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Jakubantalik/thinking-orbs</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex</title>
+    <link>https://github.com/Vincentwei1021/video-shotcraft</link>
+    <description>Claude Code skill with 106 shot recipes and Remotion templates for cinematic product video production.</description>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Vincentwei1021/video-shotcraft</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>pixel-point/aval — Interactive Web Video Format with Animation State Machines</title>
@@ -142,30 +166,6 @@
     <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://getdesign.md/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>GPT-5.6 Is Now Available in Figma Make</title>
-    <link>https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/</link>
-    <description>GPT-5.6 in Figma Make self-heals build errors instead of stopping, reducing back-and-forth to reach a working prototype.</description>
-    <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/gpt-5-6-is-now-available-in-figma-make/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Astryx — Meta's Open-Source Agent-Ready Design System</title>
-    <link>https://astryx.atmeta.com</link>
-    <description>Meta open-sources Astryx: 160+ components, CLI doubles as MCP server, humans and AI build from the same reference.</description>
-    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://astryx.atmeta.com</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Never mind the prompts, here's the thinking</title>
-    <link>https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f</link>
-    <description>A year rebuilding a studio's design process around AI found no speed gains — but a fundamentally different quality of output.</description>
-    <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
