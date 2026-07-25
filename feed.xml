@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 24 Jul 2026 06:15:18 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 25 Jul 2026 06:06:35 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
     <link>https://motion.dev/magazine/introducing-motion-ui</link>
@@ -32,11 +32,27 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>pireel — Open-Source Browser-Based AI Video Editor with MCP Agent Control</title>
+    <link>https://github.com/pireel/pireel</link>
+    <description>Browser-based AI video editor for talking-head content with storyboarding, design systems, kinetic captions, and full MCP agent control.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/pireel/pireel</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex</title>
     <link>https://github.com/Vincentwei1021/video-shotcraft</link>
     <description>Claude Code skill with 106 shot recipes and Remotion templates for cinematic product video production.</description>
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Vincentwei1021/video-shotcraft</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>OpenChatCut — Local-First AI Video Editor with Agent Skills and MCP</title>
+    <link>https://github.com/0xsline/OpenChatCut</link>
+    <description>Local-first conversational AI video editor with professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.</description>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/0xsline/OpenChatCut</guid>
     <category>Motion × AI</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/oso95/scroll-world</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Three.js-Object-Sculptor — Image-to-Animated-3D Codex Plugin</title>
-    <link>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</link>
-    <description>Codex plugin that converts object images into animation-ready procedural Three.js models with no external assets.</description>
-    <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents</title>
-    <link>https://getdesign.md/</link>
-    <description>Browseable catalog of 300+ DESIGN.md analyses for Apple, Stripe, Airbnb and 300 more brands — drop into your coding agent.</description>
-    <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://getdesign.md/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
