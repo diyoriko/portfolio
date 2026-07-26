@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 25 Jul 2026 06:06:35 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 06:27:32 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
     <link>https://motion.dev/magazine/introducing-motion-ui</link>
@@ -37,6 +37,14 @@
     <description>Browser-based AI video editor for talking-head content with storyboarding, design systems, kinetic captions, and full MCP agent control.</description>
     <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/pireel/pireel</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>story-to-handdrawn-video — Story Text to Hand-Drawn Diary Comic Animation Skill for Claude Code and Codex</title>
+    <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
+    <description>Remotion-based agent skill converting story text or ordered illustrations into hand-drawn diary-comic animations.</description>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/gnipbao/story-to-handdrawn-video</guid>
     <category>Motion × AI</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://karolinaszczur.com/journal/against-design-system-federation/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>scroll-world — Cinematic 3D Scroll Experience Skill for Claude Code and Codex</title>
-    <link>https://github.com/oso95/scroll-world</link>
-    <description>Claude Code skill that turns any brand brief into a scroll-scrubbed 3D world, using Higgsfield and Seedance for AI camera flight video generation.</description>
-    <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/oso95/scroll-world</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
