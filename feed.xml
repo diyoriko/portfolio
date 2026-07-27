@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 26 Jul 2026 06:27:32 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 06:57:41 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
     <link>https://motion.dev/magazine/introducing-motion-ui</link>
@@ -14,6 +14,14 @@
     <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://motion.dev/magazine/introducing-motion-ui</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>AI Personality Is a Design Problem</title>
+    <link>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</link>
+    <description>Designing voice and personality for AI products is a UX design problem, not a marketing decision.</description>
+    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
@@ -62,6 +70,22 @@
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/0xsline/OpenChatCut</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Earning Taste and Judgment</title>
+    <link>https://addyosmani.com/blog/earning-judgment/</link>
+    <description>Addy Osmani on how to earn genuine taste and judgment as a practitioner when AI handles the easy parts.</description>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://addyosmani.com/blog/earning-judgment/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Designing with Web Standards: The Playbook for This AI Moment</title>
+    <link>https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d</link>
+    <description>Web standards as the practical foundation for AI-compatible design in the current tooling landscape.</description>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>pixel-point/aval — Interactive Web Video Format with Animation State Machines</title>
@@ -142,30 +166,6 @@
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/yetone/kill-ai-slop</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>img2threejs — Reference Image to Procedural Three.js Claude Code Skill</title>
-    <link>https://github.com/hoainho/img2threejs</link>
-    <description>Converts reference images into procedural, animation-ready Three.js code via an AI agent pipeline with staged visual quality gates.</description>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/hoainho/img2threejs</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>toolcraft — Starter Kit for Building Custom Design Apps with AI Agents</title>
-    <link>https://github.com/pixel-point/toolcraft</link>
-    <description>React/TypeScript starter kit from pixel-point for building bespoke design tools like gradient generators and shader apps with AI agents.</description>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/pixel-point/toolcraft</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Against Design System Federation</title>
-    <link>https://karolinaszczur.com/journal/against-design-system-federation/</link>
-    <description>Karolina Szczur argues pure federated governance reliably fails; a hybrid model with centralized ownership works better in practice.</description>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://karolinaszczur.com/journal/against-design-system-federation/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
