@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 28 Jul 2026 06:19:25 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 06:19:20 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
     <link>https://motion.dev/magazine/introducing-motion-ui</link>
@@ -30,6 +30,14 @@
     <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/jamiemill/layers-skills</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Lottie Creator 2.0: A Powerful Web-Based Lottie Animation Tool</title>
+    <link>https://lottiefiles.com/blog/working-with-lottie-animations/lottie-creator-a-powerful-web-based-lottie-animation-tool</link>
+    <description>Lottie Creator 2.0 adds AI text-to-animation, physics simulator, and imports from 16 formats including PSD, AEP, and Rive.</description>
+    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://lottiefiles.com/blog/working-with-lottie-animations/lottie-creator-a-powerful-web-based-lottie-animation-tool</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>thinking-orbs — Animated Loading States for AI Agent Interfaces</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://dovetail.com/blog/suns-out-2026-launch/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>kill-ai-slop — Agent Skill to Remove AI Visual Pattern Clichés from UI</title>
-    <link>https://github.com/yetone/kill-ai-slop</link>
-    <description>Detects and removes tell-tale AI visual pattern clichés from generated UI; installable in Claude Code or Cursor today.</description>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/yetone/kill-ai-slop</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
