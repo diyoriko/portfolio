@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 29 Jul 2026 06:19:20 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 30 Jul 2026 06:16:47 +0000</lastBuildDate>
+  <item>
+    <title>Use Auto Layout with CSS Flexbox in Mind</title>
+    <link>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</link>
+    <description>Figma's July 2026 auto layout update closes six CSS Flexbox handoff gaps, eliminating workarounds developers previously needed to add.</description>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
     <link>https://motion.dev/magazine/introducing-motion-ui</link>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.producthunt.com/products/v2fun</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>Dovetail Summer Launch '26: Digital Twins, AI Agents, and MCP Connectors</title>
-    <link>https://dovetail.com/blog/suns-out-2026-launch/</link>
-    <description>Dovetail ships queryable digital twins built from real customer data, AI agents, and MCP connectors to Linear, Slack, Notion, and Canva.</description>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://dovetail.com/blog/suns-out-2026-launch/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
