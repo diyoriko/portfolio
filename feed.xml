@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 30 Jul 2026 06:16:47 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 31 Jul 2026 06:35:49 +0000</lastBuildDate>
+  <item>
+    <title>The AI Aesthetic</title>
+    <link>https://blog.jim-nielsen.com/2026/ai-aesthetic/</link>
+    <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
+    <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Use Auto Layout with CSS Flexbox in Mind</title>
     <link>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</link>
@@ -30,6 +38,14 @@
     <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>CodePen 2.0</title>
+    <link>https://chriscoyier.net/2026/07/30/codepen-2-0/</link>
+    <description>CodePen 2.0 ships live collaboration, npm package support, file imports, and one-click deploy for design engineer prototypes.</description>
+    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://chriscoyier.net/2026/07/30/codepen-2-0/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Wait, Who Made This?</title>
-    <link>https://newsletter.uxdesign.cc/p/wait-who-made-this</link>
-    <description>Fabricio Teixeira on AI provenance: when anything can be generated, teams rethink authorship and trust in creative work.</description>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://newsletter.uxdesign.cc/p/wait-who-made-this</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>V2Fun — AI 3D Character Generation with Motion Capture from Video</title>
-    <link>https://www.producthunt.com/products/v2fun</link>
-    <description>Web platform: generate 3D characters from images or prompts, enhance with 8K textures, and animate with AI motion capture from regular video.</description>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.producthunt.com/products/v2fun</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
