@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 31 Jul 2026 06:35:49 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 06:20:28 +0000</lastBuildDate>
+  <item>
+    <title>AI Fluency Isn't the Finish Line</title>
+    <link>https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/</link>
+    <description>Figma: 93% say AI skills essential but 47% report team/leader speed gaps — three concrete actions.</description>
+    <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>A Properties Panel and Annotations, Now in Figma Make</title>
+    <link>https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/</link>
+    <description>Figma Make adds Properties Panel and annotations — edit spacing, type, layout visually without prompting the agent.</description>
+    <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>The AI Aesthetic</title>
     <link>https://blog.jim-nielsen.com/2026/ai-aesthetic/</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://releasebot.io/updates/figma</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>No, People Don't Want More AI In Their Life</title>
-    <link>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</link>
-    <description>Case for 'Quiet AI': background tools users never notice, over visible AI features that most users actively resist.</description>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/07/people-dont-want-more-ai/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Taste Cannot Be Delegated</title>
-    <link>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</link>
-    <description>Taste can be assisted but not delegated — why individual design judgment matters more, not less, in the AI age.</description>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
