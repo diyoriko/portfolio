@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 01 Aug 2026 06:20:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 02 Aug 2026 06:26:44 +0000</lastBuildDate>
+  <item>
+    <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
+    <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
+    <description>ByteDance's Seedance 2.5 generates 30-second videos in a single pass with reference-based motion control for brand-consistent output.</description>
+    <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>AI Fluency Isn't the Finish Line</title>
     <link>https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/</link>
@@ -29,6 +37,14 @@
     <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
     <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Digital Tools, Human Expression: The Visual Identity Behind Config 2026</title>
+    <link>https://www.figma.com/blog/the-visual-identity-behind-config-2026/</link>
+    <description>How Figma's design team built Config 2026's visual identity using their own AI-enabled tools, from ideation to final output.</description>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/the-visual-identity-behind-config-2026/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/design-systems-need-evals/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>bolt-slides — Web-App Presentation Skill for Claude Code, Codex, and Cursor</title>
-    <link>https://github.com/stackblitz/bolt-slides</link>
-    <description>StackBlitz skill for agents to build live web-app decks — each slide is a working, responsive page with 30+ components.</description>
-    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/stackblitz/bolt-slides</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Bring Code-Backed Screens onto the Canvas with Variables Attached</title>
-    <link>https://releasebot.io/updates/figma</link>
-    <description>Figma design import now binds colors, type and spacing to existing variables instead of hardcoded values.</description>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://releasebot.io/updates/figma</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
