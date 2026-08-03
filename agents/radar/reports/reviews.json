@@ -1,70 +1,6 @@
 [
   {
     "effective_queries": [
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "\"multi-agent\" design workflow OR \"agent team\" design shipped 2026",
-      "WebFetch sidebar.io"
-    ],
-    "weak_queries": [
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026",
-      "Claude Code OR Cursor designers workflow 2026",
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens",
-      "motion animation AI generative Figma plugin OR VS Code tool shipped 2026",
-      "WebFetch t.me/s/github_repos",
-      "WebFetch t.me/s/denis_news_feed"
-    ],
-    "coverage_gaps": [
-      "motion×ai — Rive AI Coding Agent (January 2026) is a strong candidate but outside 7-day window; Magic Animator (Lottielabs) confirmed as April 2025, not 2026",
-      "process — no Dovetail/Maze feature launches found this week; category still at 5 items",
-      "a11y×ai — 1 item in DB after multiple runs"
-    ],
-    "tag_balance": "figma×ai (9) and tools (10) are over-represented; motion×ai (2) and a11y×ai (1) severely under-represented; adding Agency Agents brings tools to 11",
-    "rejected_count": 14,
-    "top_rejection_reasons": [
-      "content dated 2025 not 2026 — Magic Animator ux-news article is April 2025",
-      "GitHub star count below 50 threshold — figma-skill (0), ux-designer-skill (3), Claude-Code-Frontend-Design-Toolkit (42)",
-      "generic vibe coding overviews with no concrete designer workflow change",
-      "Medium paywall — Christine Vallaure agentic AI article and design engineer symptom article both unverifiable",
-      "topic already saturated — Figma Skills help doc would be 9th figma×ai item with marginal new information"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: WebFetch t.me/s/github_repos",
-        "why": "Zero design-relevant results across 6+ consecutive runs — channel covers backend infrastructure and systems programming, not design or UI tools"
-      },
-      {
-        "query": "RETIRE: WebFetch t.me/s/denis_news_feed",
-        "why": "Zero design-relevant results across 6+ consecutive runs — channel is developer/AI-systems focused; not useful for this radar"
-      },
-      {
-        "query": "RETIRE: Claude Code OR Cursor designers workflow 2026",
-        "why": "4 consecutive runs returning only developer tool comparison articles; replaced by multi-agent and AI design agent queries which catch better content"
-      },
-      {
-        "query": "site:producthunt.com design animation motion AI 2026",
-        "why": "Product Hunt surfaces new motion tools within 24-48h of launch — fills the persistent motion×ai gap that blog searches consistently miss"
-      },
-      {
-        "query": "site:rive.app/blog OR site:lottielab.com/blog 2026",
-        "why": "Direct company blog searches for the two leading motion tools; both ship AI features that appear on their own blogs first before aggregators"
-      },
-      {
-        "query": "\"agent persona\" OR \"agent profile\" site:github.com design OR UI 2026",
-        "why": "Agency Agents was surfaced by the multi-agent query, not the GitHub skills query — this framing catches specialist persona repos before they go viral"
-      }
-    ],
-    "notes": "Agency Agents (68.5k stars, ~10k/week at launch in March 2026) was surfaced by the multi-agent workflow query, not the primary GitHub skills query — the skills query framing is too narrow for persona-based repos. Magic Animator (Lottielabs) appeared in multiple sources as a strong motion×ai candidate but the authoritative ux-news.com article date is April 2025, not 2026 — likely resurfaced in aggregators with wrong year. Rive Scripting + AI Coding Agent (launched January 13, 2026) remains a valid motion×ai candidate but is outside the 7-day window; should be proactively fetched next run via site:rive.app/blog. Sidebar.io continues to be the highest-signal curated source — both items this run appeared there. Telegram channels have definitively failed across 6+ runs and should be retired from the required sources list.",
-    "date": "2026-04-02",
-    "radar_ideas": [
-      {
-        "idea": "Add item type as a prefix label in Telegram channel posts — [TOOL], [ARTICLE], [SKILL] before the title — so subscribers can visually filter the content type without clicking through.",
-        "area": "telegram",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "motion animation AI generative Figma plugin OR VS Code tool shipped 2026 — confirmed Magic Animator Figma Community plugin (Jan 29, 2026) with authoritative date",
       "site:producthunt.com design animation motion AI 2026 — surfaced Motn AI launched April 9, fills motion×ai gap with this-week freshness",
       "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced nafiurrahmanniloy/figma-skill and szilu/ux-designer-skill worth monitoring for star growth",
@@ -1358,6 +1294,75 @@
       {
         "idea": "Add a 'last item added' date per tag in the admin or review view so starvation is immediately visible without manual counting (e.g. 'a11y×ai — last item 21 days ago')",
         "area": "feature",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "sidebar.io WebFetch — returned 15 articles from past 7 days; surfaced both quality candidates (NNGroup survey, Smashing article)",
+      "shir-man.com/api/rss WebFetch — CONFIRMED WORKING per July 27 suggestion; returned structured HN trending data; non-design content this week but endpoint now reliable",
+      "releasebot.io/updates/figma WebFetch — confirmed July 30 Figma Make editing panel and July 24 CSS auto layout updates with exact dates; all URLs already in DB"
+    ],
+    "weak_queries": [
+      "site:github.com Claude skill design OR figma OR UI trending 2026 — all repos below 50-star threshold or already in DB; 12th consecutive weak run; should retire",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — comparison listicles only; no new July/August launches found",
+      "motion animation AI generative Figma plugin OR lottie shipped August 2026 — Figma Motion content all in DB; Figma community plugin pages returned 403",
+      "site:producthunt.com design AI tool launched 2026 — Aug 2 daily leaderboard had no design-specific tools; query surface is too broad",
+      "accessibility AI tool shipped 2026 axe-core OR webaim OR deque OR WCAG — comparison guides and roundups only; no newly-shipped tools found",
+      "design engineering AI workflow tool shipped August 2026 — returned mechanical engineering results and already-in-DB Cursor 3 content"
+    ],
+    "coverage_gaps": [
+      "tools — 12th consecutive week without net-new standalone AI design tool; tag static at 15 items; ProductHunt daily leaderboard fetch not producing results despite 3 consecutive reviews recommending it as required source",
+      "3d×ai — only 2 items total in DB; no dedicated search in current rotation; no discovery mechanism exists",
+      "motion×ai — lottielab.com returned 404 across /changelog, /updates, /what-s-new for 6 consecutive runs; Rive blog silent; Figma Motion→Lottie community plugins unverifiable via 403",
+      "figma×ai — all July-August Figma updates (editing panel, CSS auto layout, properties panel) confirmed by releasebot but all URLs already in DB"
+    ],
+    "tag_balance": "process (48) and skills (43) dominate; design+code (39), figma×ai (33), design-systems (32) well-covered; motion×ai (25) and a11y×ai (15) mid-tier; tools (15) stagnant for 12 weeks; 3d×ai (2) nearly absent with no discovery mechanism",
+    "rejected_count": 16,
+    "top_rejection_reasons": [
+      "already in database — URL or same topic covered by existing entry",
+      "below 50-star GitHub threshold — figma-skills: 0 stars, figma-skill: 3 stars, both rejected",
+      "403 Forbidden or 404 — could not verify content (Originkit, Figma community plugin pages, lottielab all failed)",
+      "abstract opinion without concrete workflow change — doc.cc algorithmic atelier and Smashing article both flagged as primarily philosophical",
+      "no design×AI connection — rescript transcript editor, terminal tools, SwiftUI retrospective, HN engineering benchmarks"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: site:github.com Claude skill design OR figma OR UI trending 2026",
+        "why": "12 consecutive weak runs; results are below 50-star or already in DB; github_repos Telegram channel surfaces trending repos more reliably"
+      },
+      {
+        "query": "RETIRE: t.me/s/denissexy WebFetch",
+        "why": "6+ consecutive runs of off-topic content (general AI model pricing and comparisons); zero design-specific mentions for 6 weeks; effectively zero signal value for this radar"
+      },
+      {
+        "query": "WebFetch https://motion.dev/blog",
+        "why": "motion.dev is authoritative for Motion library updates; motion×ai tag needs a reliable direct source; not currently in rotation"
+      },
+      {
+        "query": "WebFetch https://www.rive.app/blog",
+        "why": "Rive is the top shipped motion×ai product in DB; their blog is the primary update source; current rotation includes MCP docs but not the blog"
+      },
+      {
+        "query": "WebFetch https://www.producthunt.com/leaderboard/daily/2026/8/3",
+        "why": "Promote to required curated source; tools tag has been empty for 12 weeks; this is the highest-leverage fix recommended in 3 consecutive past reviews but still unimplemented; rotate date each run"
+      },
+      {
+        "query": "site:figma.com/community/plugin AI 2026",
+        "why": "Figma community plugins bridge existing tools (Motion→Lottie, MCP integrations) and surface before GitHub repos; currently not searched"
+      },
+      {
+        "query": "lottielab magic animator 2026 site:producthunt.com OR site:twitter.com OR site:x.com",
+        "why": "lottielab.com has failed across 6 URL patterns for 6 runs; a social/ProductHunt search may surface a working announcement URL for the strongest unverified motion×ai candidate"
+      }
+    ],
+    "notes": "12th consecutive low-signal week. Both items are borderline priority 2 — the quality bar was stretched. Denis channel (denissexy) formally recommended for retirement: 6+ consecutive weeks of off-topic content with zero design-specific mentions. shir-man.com/api/rss confirmed working per July 27 suggestion — endpoint is reliable; content this week was HN trending (non-design), but the source is now established. releasebot data confirmed two Figma Make updates on July 30 (editing panel + properties panel), but properties panel URL is already in DB and editing panel has no standalone URL. lottielab.com returned 404 for the 6th consecutive run across three URL patterns; this candidate should be pursued via social search rather than direct site fetch. The tools tag drought at 12+ weeks remains the most persistent structural gap; promoting ProductHunt daily leaderboard to a required curated source is the single highest-leverage fix recommended across the past 4 reviews and still unimplemented.",
+    "date": "2026-08-03",
+    "radar_ideas": [
+      {
+        "idea": "Add a one-line 'sparse week' note to Telegram posts when fewer than 3 items are published — e.g. '(2 signals this week — quality bar held, nothing else passed)' — so subscribers understand thin issues are intentional curation, not a missed update",
+        "area": "telegram",
         "effort": "small"
       }
     ]

@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 02 Aug 2026 06:26:44 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 03 Aug 2026 06:58:25 +0000</lastBuildDate>
   <item>
     <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
     <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
@@ -24,6 +24,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>No New Name Has Replaced 'UX'</title>
+    <link>https://www.nngroup.com/articles/no-new-name-ux/</link>
+    <description>Survey of 604 practitioners: 'UX' remains the field's title as AI makes design artifacts accessible to non-designers.</description>
+    <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/no-new-name-ux/</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>A Properties Panel and Annotations, Now in Figma Make</title>
     <link>https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/</link>
     <description>Figma Make adds Properties Panel and annotations — edit spacing, type, layout visually without prompting the agent.</description>
@@ -37,6 +45,14 @@
     <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
     <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>The Bull and Bear Case for Digital Design in the Age of AI</title>
+    <link>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</link>
+    <description>Andy Budd: AI removes the barriers that protected designers — autonomy rewards judgment, exposes its absence.</description>
+    <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>pixel-point/aval — Interactive Web Video Format with Animation State Machines</title>
-    <link>https://github.com/pixel-point/aval</link>
-    <description>Open-source web video format: named animation states, frame-accurate transitions via &lt;video>, no JS scrubbing.</description>
-    <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/pixel-point/aval</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Design Systems Need Evals</title>
-    <link>https://blog.murphytrueman.com/design-systems-need-evals/</link>
-    <description>Making your design system AI-readable isn't enough — evals are the missing layer to verify agents actually follow it.</description>
-    <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/design-systems-need-evals/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
