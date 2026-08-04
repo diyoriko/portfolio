@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 03 Aug 2026 06:58:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 06:17:46 +0000</lastBuildDate>
+  <item>
+    <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
+    <link>https://github.com/microsoft/skill-recorder</link>
+    <description>Microsoft desktop app records on-screen work sessions and uses Copilot CLI to reconstruct them as reusable agent skills.</description>
+    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/microsoft/skill-recorder</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
     <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
@@ -157,14 +165,6 @@
     <description>Addy Osmani on how to earn genuine taste and judgment as a practitioner when AI handles the easy parts.</description>
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://addyosmani.com/blog/earning-judgment/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Designing with Web Standards: The Playbook for This AI Moment</title>
-    <link>https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d</link>
-    <description>Web standards as the practical foundation for AI-compatible design in the current tooling landscape.</description>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d</guid>
     <category>Design Engineering</category>
   </item>
 </channel>
