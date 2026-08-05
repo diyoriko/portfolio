@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 04 Aug 2026 06:17:46 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 05 Aug 2026 06:13:04 +0000</lastBuildDate>
   <item>
     <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
     <link>https://github.com/microsoft/skill-recorder</link>
@@ -14,6 +14,14 @@
     <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/microsoft/skill-recorder</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Designing for the Proxy</title>
+    <link>https://uxdesign.cc/designing-for-the-proxy-2606ffac2335</link>
+    <description>Why designing content for AI intermediaries at the expense of human readers is the new design antipattern.</description>
+    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/designing-for-the-proxy-2606ffac2335</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
@@ -62,6 +70,14 @@
     <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>ai-design-skills — 44 Agent Skills for Designing AI Products</title>
+    <link>https://github.com/Owl-Listener/ai-design-skills</link>
+    <description>44 skills for designing AI products: model interaction, alignment, evaluation, and agent orchestration.</description>
+    <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Owl-Listener/ai-design-skills</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Digital Tools, Human Expression: The Visual Identity Behind Config 2026</title>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Vincentwei1021/video-shotcraft</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>OpenChatCut — Local-First AI Video Editor with Agent Skills and MCP</title>
-    <link>https://github.com/0xsline/OpenChatCut</link>
-    <description>Local-first conversational AI video editor with professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.</description>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/0xsline/OpenChatCut</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Earning Taste and Judgment</title>
-    <link>https://addyosmani.com/blog/earning-judgment/</link>
-    <description>Addy Osmani on how to earn genuine taste and judgment as a practitioner when AI handles the easy parts.</description>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://addyosmani.com/blog/earning-judgment/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
