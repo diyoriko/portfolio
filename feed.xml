@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 05 Aug 2026 06:13:04 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 06 Aug 2026 06:16:17 +0000</lastBuildDate>
+  <item>
+    <title>morphicons — Universal Morphing System for Stroke-Based Icons with Spring Physics</title>
+    <link>https://github.com/guillermolg00/morphicons</link>
+    <description>Zero-config icon morphing for Lucide, Tabler, Heroicons — spring physics, 745★, live playground at morphicons.com.</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/guillermolg00/morphicons</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>interior — Micro-Interactions for React, Built for the Half-Second After a Click</title>
+    <link>https://github.com/ddoemonn/interior</link>
+    <description>React micro-interaction components with headless hooks, Motion physics, and DESIGN.md — 499★, demo at interior.dev.</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/ddoemonn/interior</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
     <link>https://github.com/microsoft/skill-recorder</link>
@@ -149,22 +165,6 @@
     <description>Browser-based AI video editor for talking-head content with storyboarding, design systems, kinetic captions, and full MCP agent control.</description>
     <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/pireel/pireel</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>story-to-handdrawn-video — Story Text to Hand-Drawn Diary Comic Animation Skill for Claude Code and Codex</title>
-    <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
-    <description>Remotion-based agent skill converting story text or ordered illustrations into hand-drawn diary-comic animations.</description>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/gnipbao/story-to-handdrawn-video</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex</title>
-    <link>https://github.com/Vincentwei1021/video-shotcraft</link>
-    <description>Claude Code skill with 106 shot recipes and Remotion templates for cinematic product video production.</description>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Vincentwei1021/video-shotcraft</guid>
     <category>Motion × AI</category>
   </item>
 </channel>
