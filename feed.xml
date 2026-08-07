@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 06 Aug 2026 06:16:17 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 07 Aug 2026 05:20:43 +0000</lastBuildDate>
   <item>
     <title>morphicons — Universal Morphing System for Stroke-Based Icons with Spring Physics</title>
     <link>https://github.com/guillermolg00/morphicons</link>
@@ -22,6 +22,14 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/ddoemonn/interior</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Better Code, Fewer Tokens: The Benefits of Code Connect in MCP</title>
+    <link>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</link>
+    <description>Code Connect in MCP feeds agents real component context: 29% fewer tokens, 20% faster tasks, measurably better code quality.</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Jakubantalik/thinking-orbs</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>pireel — Open-Source Browser-Based AI Video Editor with MCP Agent Control</title>
-    <link>https://github.com/pireel/pireel</link>
-    <description>Browser-based AI video editor for talking-head content with storyboarding, design systems, kinetic captions, and full MCP agent control.</description>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/pireel/pireel</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
