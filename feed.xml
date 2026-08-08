@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 07 Aug 2026 05:20:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 04:43:56 +0000</lastBuildDate>
   <item>
     <title>morphicons — Universal Morphing System for Stroke-Based Icons with Spring Physics</title>
     <link>https://github.com/guillermolg00/morphicons</link>
@@ -30,6 +30,14 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>The Naked Designer: What Happens When You Can't Hide Behind Craft</title>
+    <link>https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/</link>
+    <description>Microsoft Design: when AI handles execution, designer value comes down to whether you have genuine conviction.</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://lottiefiles.com/blog/working-with-lottie-animations/lottie-creator-a-powerful-web-based-lottie-animation-tool</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>thinking-orbs — Animated Loading States for AI Agent Interfaces</title>
-    <link>https://github.com/Jakubantalik/thinking-orbs</link>
-    <description>React npm package with 6 animated AI thinking states (working, searching, composing) with auto dark/light mode.</description>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Jakubantalik/thinking-orbs</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
