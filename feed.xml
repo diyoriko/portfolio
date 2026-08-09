@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 08 Aug 2026 04:43:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 04:57:58 +0000</lastBuildDate>
+  <item>
+    <title>Code, Craft, and the Making of Nested Folders</title>
+    <link>https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/</link>
+    <description>Figma rebuilt its permissions and content model from scratch to ship 10-level nested folders — a frank case study in design tool engineering trade-offs.</description>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>morphicons — Universal Morphing System for Stroke-Based Icons with Spring Physics</title>
     <link>https://github.com/guillermolg00/morphicons</link>
@@ -88,6 +96,14 @@
     <category>Figma × AI</category>
   </item>
   <item>
+    <title>Originkit — Free Animated Component Library for React and Framer</title>
+    <link>https://www.originkit.dev/</link>
+    <description>50 free animated components for React, Next.js, and Framer with an MCP server so AI assistants can browse and import them directly.</description>
+    <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.originkit.dev/</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>The AI Aesthetic</title>
     <link>https://blog.jim-nielsen.com/2026/ai-aesthetic/</link>
     <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://chriscoyier.net/2026/07/30/codepen-2-0/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>layers-skills — AI Skills for Product Designers Across Seven Design Layers</title>
-    <link>https://github.com/jamiemill/layers-skills</link>
-    <description>Nine installable AI skills guiding designers through seven layers of product thinking before jumping to screens.</description>
-    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/jamiemill/layers-skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Lottie Creator 2.0: A Powerful Web-Based Lottie Animation Tool</title>
-    <link>https://lottiefiles.com/blog/working-with-lottie-animations/lottie-creator-a-powerful-web-based-lottie-animation-tool</link>
-    <description>Lottie Creator 2.0 adds AI text-to-animation, physics simulator, and imports from 16 formats including PSD, AEP, and Rive.</description>
-    <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://lottiefiles.com/blog/working-with-lottie-animations/lottie-creator-a-powerful-web-based-lottie-animation-tool</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
