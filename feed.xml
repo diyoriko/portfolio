@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 09 Aug 2026 04:57:58 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 05:14:59 +0000</lastBuildDate>
+  <item>
+    <title>Auto Mode Is Now Default in Claude Code</title>
+    <link>https://claude.com/blog/auto-mode-default-in-claude-code</link>
+    <description>Claude Code defaults to auto mode — safe commands run uninterrupted, enabling longer overnight design-to-code sessions.</description>
+    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/blog/auto-mode-default-in-claude-code</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>Code, Craft, and the Making of Nested Folders</title>
     <link>https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/</link>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>CodePen 2.0</title>
-    <link>https://chriscoyier.net/2026/07/30/codepen-2-0/</link>
-    <description>CodePen 2.0 ships live collaboration, npm package support, file imports, and one-click deploy for design engineer prototypes.</description>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://chriscoyier.net/2026/07/30/codepen-2-0/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
