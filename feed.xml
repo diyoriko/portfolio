@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 10 Aug 2026 05:14:59 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 04:56:15 +0000</lastBuildDate>
   <item>
     <title>Auto Mode Is Now Default in Claude Code</title>
     <link>https://claude.com/blog/auto-mode-default-in-claude-code</link>
@@ -14,6 +14,14 @@
     <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://claude.com/blog/auto-mode-default-in-claude-code</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>oil-motion — AI Video to Interactive Web Animation Skill</title>
+    <link>https://github.com/oil-oil/oil-motion</link>
+    <description>Agent skill that converts AI-generated video frames into scroll-, mouse-, and touch-linked web animations.</description>
+    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/oil-oil/oil-motion</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Code, Craft, and the Making of Nested Folders</title>
@@ -144,28 +152,20 @@
     <category>Process</category>
   </item>
   <item>
+    <title>better-design — MCP Server with 31 Real Design Systems for AI Agents</title>
+    <link>https://github.com/marvkr/better-design</link>
+    <description>Open-source MCP server giving AI coding agents 31 real design systems (Linear, Stripe, Vercel) with actual tokens.</description>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/marvkr/better-design</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Use Auto Layout with CSS Flexbox in Mind</title>
     <link>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</link>
     <description>Figma's July 2026 auto layout update closes six CSS Flexbox handoff gaps, eliminating workarounds developers previously needed to add.</description>
     <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Introducing Motion UI — Animated React Sections with MotionScore and AI Adaptation</title>
-    <link>https://motion.dev/magazine/introducing-motion-ui</link>
-    <description>Animated React sections drop into any design system via shadcn tokens; an AI button builds a customization prompt for your agent.</description>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://motion.dev/magazine/introducing-motion-ui</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>AI Personality Is a Design Problem</title>
-    <link>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</link>
-    <description>Designing voice and personality for AI products is a UX design problem, not a marketing decision.</description>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?sk=b159b61f2abcb25776fd87985724be7e</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
