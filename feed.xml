@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 11 Aug 2026 04:56:15 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 05:20:49 +0000</lastBuildDate>
+  <item>
+    <title>Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills</title>
+    <link>https://agent-plugins.org</link>
+    <description>Vendor-neutral open standard for packaging AI agent skills as portable plugins, backed by Cursor, OpenAI, Microsoft, Amazon, and Vercel.</description>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://agent-plugins.org</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Auto Mode Is Now Default in Claude Code</title>
     <link>https://claude.com/blog/auto-mode-default-in-claude-code</link>
@@ -80,6 +88,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>The Last Product Design Tool</title>
+    <link>https://writing.mariusz.cc/ultimate-product-design-tool</link>
+    <description>Argues that tldraw wireframes plus AI code generation on top of a design system makes high-fidelity Figma mockups unnecessary.</description>
+    <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://writing.mariusz.cc/ultimate-product-design-tool</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
     <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
     <description>ByteDance's Seedance 2.5 generates 30-second videos in a single pass with reference-based motion control for brand-consistent output.</description>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-visual-identity-behind-config-2026/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>better-design — MCP Server with 31 Real Design Systems for AI Agents</title>
-    <link>https://github.com/marvkr/better-design</link>
-    <description>Open-source MCP server giving AI coding agents 31 real design systems (Linear, Stripe, Vercel) with actual tokens.</description>
-    <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/marvkr/better-design</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Use Auto Layout with CSS Flexbox in Mind</title>
-    <link>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</link>
-    <description>Figma's July 2026 auto layout update closes six CSS Flexbox handoff gaps, eliminating workarounds developers previously needed to add.</description>
-    <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
