@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 12 Aug 2026 05:20:49 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 05:23:19 +0000</lastBuildDate>
   <item>
     <title>Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills</title>
     <link>https://agent-plugins.org</link>
@@ -40,6 +40,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>State of AI in Design Systems — July 2026</title>
+    <link>https://state-of-ai-in-design-systems.netlify.app</link>
+    <description>Survey of 20 design systems documents 187 AI affordances across MCP servers, llms.txt, agent skills, and editor rules.</description>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://state-of-ai-in-design-systems.netlify.app</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>morphicons — Universal Morphing System for Stroke-Based Icons with Spring Physics</title>
     <link>https://github.com/guillermolg00/morphicons</link>
     <description>Zero-config icon morphing for Lucide, Tabler, Heroicons — spring physics, 745★, live playground at morphicons.com.</description>
@@ -70,6 +78,14 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>New in Axe MCP Server: More Automated Coverage and Streamlined Developer Workflows</title>
+    <link>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</link>
+    <description>Axe MCP server now auto-runs keyboard IGTs and batch-fixes up to 25 accessibility issues inside AI coding workflows.</description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</guid>
+    <category>Accessibility × AI</category>
   </item>
   <item>
     <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
@@ -149,22 +165,6 @@
     <description>Andy Budd: AI removes the barriers that protected designers — autonomy rewards judgment, exposes its absence.</description>
     <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>ai-design-skills — 44 Agent Skills for Designing AI Products</title>
-    <link>https://github.com/Owl-Listener/ai-design-skills</link>
-    <description>44 skills for designing AI products: model interaction, alignment, evaluation, and agent orchestration.</description>
-    <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Owl-Listener/ai-design-skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Digital Tools, Human Expression: The Visual Identity Behind Config 2026</title>
-    <link>https://www.figma.com/blog/the-visual-identity-behind-config-2026/</link>
-    <description>How Figma's design team built Config 2026's visual identity using their own AI-enabled tools, from ideation to final output.</description>
-    <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/the-visual-identity-behind-config-2026/</guid>
     <category>Process</category>
   </item>
 </channel>
