@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 13 Aug 2026 05:23:19 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 05:20:52 +0000</lastBuildDate>
+  <item>
+    <title>Let Your Designs Fail for the Right Reasons</title>
+    <link>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</link>
+    <description>Firefox UX prototyped in the real app with Claude, not Figma, to remove simulation ambiguity from usability testing.</description>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills</title>
     <link>https://agent-plugins.org</link>
@@ -157,14 +165,6 @@
     <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
     <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>The Bull and Bear Case for Digital Design in the Age of AI</title>
-    <link>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</link>
-    <description>Andy Budd: AI removes the barriers that protected designers — autonomy rewards judgment, exposes its absence.</description>
-    <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/</guid>
     <category>Process</category>
   </item>
 </channel>
