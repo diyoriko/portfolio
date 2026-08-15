@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 14 Aug 2026 05:20:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 04:11:15 +0000</lastBuildDate>
+  <item>
+    <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
+    <link>https://isolate.video</link>
+    <description>Turns screen recordings into product demo videos with AI motion zoom, UI spotlight tracking, and generated background music.</description>
+    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://isolate.video</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Let Your Designs Fail for the Right Reasons</title>
     <link>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</link>
@@ -14,6 +22,14 @@
     <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Beautiful UI — Component Library for AI-Native Interfaces</title>
+    <link>https://beautifului.dev</link>
+    <description>19+ copy-paste React components for AI products: approval cards, reasoning traces, streaming text, and agent task panels.</description>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://beautifului.dev</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Originkit — Free Animated Component Library for React and Framer</title>
-    <link>https://www.originkit.dev/</link>
-    <description>50 free animated components for React, Next.js, and Framer with an MCP server so AI assistants can browse and import them directly.</description>
-    <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.originkit.dev/</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>The AI Aesthetic</title>
-    <link>https://blog.jim-nielsen.com/2026/ai-aesthetic/</link>
-    <description>Jim Nielsen names AI interface conventions—shimmering loaders, streaming text, beige palettes—now spreading from AI apps to all software.</description>
-    <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
