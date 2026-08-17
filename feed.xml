@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 16 Aug 2026 04:14:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 04:25:05 +0000</lastBuildDate>
   <item>
     <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
     <link>https://isolate.video</link>
@@ -45,6 +45,14 @@
     <description>Survey of 4,902 devs: AI writes poor CSS, anchor positioning tops the wish list, browser gaps still block production adoption.</description>
     <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://2026.stateofcss.com</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Building Tactile UX: Honoring Intentional Design With Lottie</title>
+    <link>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</link>
+    <description>How distance-based math maps clicks to specific Lottie segments, preserving animators' intent without physics engines.</description>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</guid>
     <category>Design Engineering</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>AI Fluency Isn't the Finish Line</title>
-    <link>https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/</link>
-    <description>Figma: 93% say AI skills essential but 47% report team/leader speed gaps — three concrete actions.</description>
-    <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
