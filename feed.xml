@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 17 Aug 2026 04:25:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 04:16:14 +0000</lastBuildDate>
   <item>
     <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
     <link>https://isolate.video</link>
@@ -48,11 +48,27 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>book-to-skill — Convert Any Technical Book or Document into a Claude Code Skill</title>
+    <link>https://github.com/Leutenegger/book-to-skill</link>
+    <description>Converts PDF, EPUB, DOCX, and other formats into indexed Claude Code skills—24–51× more token-efficient than pasting docs as context.</description>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Leutenegger/book-to-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>Building Tactile UX: Honoring Intentional Design With Lottie</title>
     <link>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</link>
     <description>How distance-based math maps clicks to specific Lottie segments, preserving animators' intent without physics engines.</description>
     <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>airship — Visual Editor That Connects Your Dev Server to Claude Code</title>
+    <link>https://github.com/0xnyn/airship</link>
+    <description>CLI reverse proxy that renders your running app in device frames—select any element, describe the change, and Claude Code edits the source directly.</description>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/0xnyn/airship</guid>
     <category>Design Engineering</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/designing-for-the-proxy-2606ffac2335</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>The Last Product Design Tool</title>
-    <link>https://writing.mariusz.cc/ultimate-product-design-tool</link>
-    <description>Argues that tldraw wireframes plus AI code generation on top of a design system makes high-fidelity Figma mockups unnecessary.</description>
-    <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://writing.mariusz.cc/ultimate-product-design-tool</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Seedance 2.5: One-Take Creation and Flexible Referencing</title>
-    <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
-    <description>ByteDance's Seedance 2.5 generates 30-second videos in a single pass with reference-based motion control for brand-consistent output.</description>
-    <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
