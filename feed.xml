@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 18 Aug 2026 04:16:14 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 04:16:41 +0000</lastBuildDate>
+  <item>
+    <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
+    <link>https://github.com/wanghuan9/skilldock</link>
+    <description>Desktop app to install, browse, and switch AI skills across Claude Code, Cursor, Codex, Windsurf, and Gemini CLI.</description>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/wanghuan9/skilldock</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
     <link>https://isolate.video</link>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/microsoft/skill-recorder</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Designing for the Proxy</title>
-    <link>https://uxdesign.cc/designing-for-the-proxy-2606ffac2335</link>
-    <description>Why designing content for AI intermediaries at the expense of human readers is the new design antipattern.</description>
-    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/designing-for-the-proxy-2606ffac2335</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
