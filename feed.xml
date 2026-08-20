@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 19 Aug 2026 04:16:41 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 04:13:12 +0000</lastBuildDate>
   <item>
     <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
     <link>https://github.com/wanghuan9/skilldock</link>
@@ -30,6 +30,14 @@
     <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Try These 10 Skills—and Show Off Your Own</title>
+    <link>https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/</link>
+    <description>Figma walks through 10 ready-to-use agent skills and shows how to author custom ones directly inside Figma.</description>
+    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Let Your Designs Fail for the Right Reasons</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</guid>
     <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>skill-recorder — Record Any Work Session and Convert It Into a Reusable Agent Skill</title>
-    <link>https://github.com/microsoft/skill-recorder</link>
-    <description>Microsoft desktop app records on-screen work sessions and uses Copilot CLI to reconstruct them as reusable agent skills.</description>
-    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/microsoft/skill-recorder</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
