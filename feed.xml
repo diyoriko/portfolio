@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 20 Aug 2026 04:13:12 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 04:17:01 +0000</lastBuildDate>
   <item>
     <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
     <link>https://github.com/wanghuan9/skilldock</link>
@@ -14,6 +14,22 @@
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/wanghuan9/skilldock</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>Agent Experience Needs Failure Affordances</title>
+    <link>https://blog.ronbronson.com/agent-experience-needs-failure-affordances</link>
+    <description>Why autonomous AI agents need intentional failure states — a UX framework for failure affordances in agent interfaces.</description>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.ronbronson.com/agent-experience-needs-failure-affordances</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Shading Motion</title>
+    <link>https://blog.maximeheckel.com/posts/shading-motion/</link>
+    <description>WebGPU tutorial: use in-scene motion — optical flow, blob tracking, temporal decay — as creative input for shader effects.</description>
+    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.maximeheckel.com/posts/shading-motion/</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>The Naked Designer: What Happens When You Can't Hide Behind Craft</title>
-    <link>https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/</link>
-    <description>Microsoft Design: when AI handles execution, designer value comes down to whether you have genuine conviction.</description>
-    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>New in Axe MCP Server: More Automated Coverage and Streamlined Developer Workflows</title>
-    <link>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</link>
-    <description>Axe MCP server now auto-runs keyboard IGTs and batch-fixes up to 25 accessibility issues inside AI coding workflows.</description>
-    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</guid>
-    <category>Accessibility × AI</category>
   </item>
 </channel>
 </rss>
