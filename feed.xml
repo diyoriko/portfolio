@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 21 Aug 2026 04:17:01 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 22 Aug 2026 04:13:22 +0000</lastBuildDate>
+  <item>
+    <title>The Task Isn't the Job</title>
+    <link>https://sunilpai.dev/posts/the-task-isnt-the-job/</link>
+    <description>Jobs-to-be-done applied to AI agents — cheap execution reveals which parts of work still require human judgment.</description>
+    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://sunilpai.dev/posts/the-task-isnt-the-job/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
     <link>https://github.com/wanghuan9/skilldock</link>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/ddoemonn/interior</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Better Code, Fewer Tokens: The Benefits of Code Connect in MCP</title>
-    <link>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</link>
-    <description>Code Connect in MCP feeds agents real component context: 29% fewer tokens, 20% faster tasks, measurably better code quality.</description>
-    <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
