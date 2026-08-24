@@ -6,13 +6,29 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 23 Aug 2026 04:15:28 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 24 Aug 2026 04:32:08 +0000</lastBuildDate>
+  <item>
+    <title>ThreeUI — Open-Source Three.js and WebGL Community Component Catalog</title>
+    <link>https://github.com/MengTo/threeui</link>
+    <description>Login-free catalog of 50 Three.js and WebGL UI components with live demos at threeui.com, by the MengTo/Skills creator.</description>
+    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/MengTo/threeui</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>The Task Isn't the Job</title>
     <link>https://sunilpai.dev/posts/the-task-isnt-the-job/</link>
     <description>Jobs-to-be-done applied to AI agents — cheap execution reveals which parts of work still require human judgment.</description>
     <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://sunilpai.dev/posts/the-task-isnt-the-job/</guid>
+    <category>Process</category>
+  </item>
+  <item>
+    <title>Claude Academy — Official Free Learning Platform from Anthropic</title>
+    <link>https://academy.claude.com/</link>
+    <description>Anthropic's free official learning hub: self-paced courses, developer tutorials, and certification paths for Claude.</description>
+    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://academy.claude.com/</guid>
     <category>Process</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/oil-oil/oil-motion</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Code, Craft, and the Making of Nested Folders</title>
-    <link>https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/</link>
-    <description>Figma rebuilt its permissions and content model from scratch to ship 10-level nested folders — a frank case study in design tool engineering trade-offs.</description>
-    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>State of AI in Design Systems — July 2026</title>
-    <link>https://state-of-ai-in-design-systems.netlify.app</link>
-    <description>Survey of 20 design systems documents 187 AI affordances across MCP servers, llms.txt, agent skills, and editor rules.</description>
-    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://state-of-ai-in-design-systems.netlify.app</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>

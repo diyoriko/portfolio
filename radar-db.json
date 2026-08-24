@@ -73,6 +73,23 @@
   },
   "items": [
     {
+      "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
+      "url": "https://github.com/MengTo/threeui",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Каталог 50 React/Three.js/WebGL UI-компонентов с живым демо на threeui.com — от автора MengTo/Skills.",
+      "desc_en": "Login-free catalog of 50 Three.js and WebGL UI components with live demos at threeui.com, by the MengTo/Skills creator.",
+      "date": "2026-08-24",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 4,
+      "difficulty": "advanced",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-08-24",
+      "stars": 3053
+    },
+    {
       "title": "The Task Isn't the Job",
       "url": "https://sunilpai.dev/posts/the-task-isnt-the-job/",
       "type": "article",
@@ -89,6 +106,22 @@
       "added": "2026-08-22"
     },
     {
+      "title": "Claude Academy — Official Free Learning Platform from Anthropic",
+      "url": "https://academy.claude.com/",
+      "type": "tool",
+      "tag": "process",
+      "desc_ru": "Официальная бесплатная платформа Anthropic: курсы, туториалы и сертификационные пути по Claude.",
+      "desc_en": "Anthropic's free official learning hub: self-paced courses, developer tutorials, and certification paths for Claude.",
+      "date": "2026-08-21",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-08-24"
+    },
+    {
       "title": "Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf",
       "url": "https://github.com/wanghuan9/skilldock",
       "type": "tool",
@@ -103,7 +136,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-19",
-      "stars": 466
+      "stars": 472
     },
     {
       "title": "Agent Experience Needs Failure Affordances",
@@ -136,7 +169,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 2713
+      "stars": 2722
     },
     {
       "title": "Shading Motion",
@@ -169,7 +202,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 1805
+      "stars": 1812
     },
     {
       "title": "Isolate.video — Screen Recordings to Polished Product Demo Videos",
@@ -315,7 +348,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-18",
-      "stars": 526
+      "stars": 534
     },
     {
       "title": "Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills",
@@ -365,7 +398,7 @@
       "expanded_window": false,
       "star_velocity": "700★/7d",
       "added": "2026-08-11",
-      "stars": 1985
+      "stars": 2002
     },
     {
       "title": "Code, Craft, and the Making of Nested Folders",
@@ -414,7 +447,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 1859
+      "stars": 1906
     },
     {
       "title": "interior — Micro-Interactions for React, Built for the Half-Second After a Click",
@@ -431,7 +464,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 638
+      "stars": 642
     },
     {
       "title": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP",
@@ -496,7 +529,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-04",
-      "stars": 3358
+      "stars": 3367
     },
     {
       "title": "Designing for the Proxy",
@@ -852,7 +885,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-24",
-      "stars": 2554
+      "stars": 2560
     },
     {
       "title": "pireel — Open-Source Browser-Based AI Video Editor with MCP Agent Control",
@@ -869,7 +902,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1007
+      "stars": 1012
     },
     {
       "title": "story-to-handdrawn-video — Story Text to Hand-Drawn Diary Comic Animation Skill for Claude Code and Codex",
@@ -886,7 +919,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-26",
-      "stars": 1520
+      "stars": 1526
     },
     {
       "title": "video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex",
@@ -904,7 +937,7 @@
       "expanded_window": false,
       "star_velocity": "636★/7d",
       "added": "2026-07-24",
-      "stars": 6072
+      "stars": 6176
     },
     {
       "title": "OpenChatCut — Local-First AI Video Editor with Agent Skills and MCP",
@@ -921,7 +954,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1323
+      "stars": 1336
     },
     {
       "title": "Earning Taste and Judgment",
@@ -1019,7 +1052,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-23",
-      "stars": 848
+      "stars": 852
     },
     {
       "title": "Bring Code-Backed Screens onto the Canvas with Variables Attached",
@@ -1132,7 +1165,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 1044
+      "stars": 1048
     },
     {
       "title": "img2threejs — Reference Image to Procedural Three.js Claude Code Skill",
@@ -1150,7 +1183,7 @@
       "expanded_window": false,
       "star_velocity": "487★/7d",
       "added": "2026-07-21",
-      "stars": 12882
+      "stars": 13081
     },
     {
       "title": "toolcraft — Starter Kit for Building Custom Design Apps with AI Agents",
@@ -1167,7 +1200,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-22",
-      "stars": 642
+      "stars": 645
     },
     {
       "title": "Against Design System Federation",
@@ -1201,7 +1234,7 @@
       "expanded_window": false,
       "star_velocity": "1.6k★/7d",
       "added": "2026-07-15",
-      "stars": 8465
+      "stars": 8512
     },
     {
       "title": "Three.js-Object-Sculptor — Image-to-Animated-3D Codex Plugin",
@@ -1218,7 +1251,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 1609
+      "stars": 1613
     },
     {
       "title": "getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents",
@@ -1315,7 +1348,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-08",
-      "stars": 1042
+      "stars": 1050
     },
     {
       "title": "MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor",
@@ -1332,7 +1365,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-10",
-      "stars": 5206
+      "stars": 5227
     },
     {
       "title": "Users Don't Need More Tools: They Need Seamless Integrations",
@@ -1413,7 +1446,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-10",
-      "stars": 3356
+      "stars": 3361
     },
     {
       "title": "Got skills? Make the Figma agent a better collaborator",
@@ -1446,7 +1479,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-09",
-      "stars": 2478
+      "stars": 2492
     },
     {
       "title": "frontend-slides — HTML Slides Skill with Visual Design Templates",
@@ -1463,7 +1496,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-14",
-      "stars": 27977
+      "stars": 28017
     },
     {
       "title": "video-production-skills — Reusable AI Motion Design and Video Production Skills for Codex, Claude Code, and Cursor",
@@ -1480,7 +1513,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-06-30",
-      "stars": 620
+      "stars": 621
     },
     {
       "title": "Figma Just Made Your Design System Debt Everyone's Problem. Now Use It.",

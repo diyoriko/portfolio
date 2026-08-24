@@ -1,71 +1,6 @@
 [
   {
     "effective_queries": [
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "WebFetch heydesigner.com",
-      "WebFetch sidebar.io",
-      "WebFetch t.me/s/github_repos"
-    ],
-    "weak_queries": [
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — generic vibe coding overviews only (7th consecutive weak run)",
-      "Claude Code OR Cursor designers workflow 2026 — developer tool comparisons only (6th consecutive weak run)",
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — category listicles, no specific 2026 tool launches",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned only DB-resident articles",
-      "Figma AI MCP agents design 2026 — all results already in DB",
-      "WebFetch t.me/s/denis_news_feed — zero design-relevant content (9th consecutive run)"
-    ],
-    "coverage_gaps": [
-      "a11y×ai — WebAIM Million 2026 found (95.9% of sites have WCAG failures; report cites vibe coding as contributing cause) but outside 7-day window; strongest a11y candidate across all 9 runs",
-      "motion×ai — no new 2026-window AI motion tool found this run; category still at 2 items",
-      "tools — only 5 items in DB; new shipped standalone AI design tools underrepresented"
-    ],
-    "tag_balance": "process, design systems, figma×ai each at 13 items — well covered; a11y×ai critically underrepresented at 1 item after 9 runs; motion×ai at 2 items; tools at 5 items needs attention",
-    "rejected_count": 13,
-    "top_rejection_reasons": [
-      "outside 7-day window: WebAIM Million 2026 (updated Mar 30), Adam Argyle nerdy.dev article (Apr 12), StyleSeed v2.1.1 (Apr 10)",
-      "below 50-star threshold: phazurlabs/ux-ui-mastery (2 stars)",
-      "all results already in DB: Figma MCP query returned only known articles",
-      "generic vibe coding or LLM content without concrete design tool or technique",
-      "date unverifiable: brandstructure.figma.site article (year 2026, no day or month confirmed)"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: \"design engineering\" OR \"vibe coding\" AI shipped 2026",
-        "why": "7 consecutive runs returning generic overviews only; no designer-specific shipped tools surfaced; budget better spent on targeted alternatives"
-      },
-      {
-        "query": "RETIRE: Claude Code OR Cursor designers workflow 2026",
-        "why": "6 consecutive runs returning developer comparison articles; confirmed off-topic for design workflow content"
-      },
-      {
-        "query": "RETIRE: WebFetch t.me/s/denis_news_feed",
-        "why": "9 consecutive runs with zero design-relevant content; confirmed off-topic channel"
-      },
-      {
-        "query": "site:producthunt.com design AI tool 2026",
-        "why": "PH surfaces new shipped design tools within 24-48h of launch; would cover tools tag gap (5 items) and catch motion×ai launches that blog searches miss"
-      },
-      {
-        "query": "WebFetch https://webaim.org/projects/million/",
-        "why": "WebAIM Million 2026 is the definitive annual a11y study; surfaces in February each year; should be fetched proactively in March-April window to catch annual publication — a11y×ai has 1 item after 9 runs"
-      },
-      {
-        "query": "accessibility AI tool design audit shipped 2026",
-        "why": "Broader a11y query not yet tried; a11y×ai tag has 1 item across all runs; category-specific search may surface tools rather than reports"
-      }
-    ],
-    "notes": "t.me/s/github_repos delivered 1 useful result (design-extract, 719 stars at time of listing vs 1.1k on direct fetch) for the first time across 9 runs — borderline case for retirement but may be worth keeping for one more run. HeyDesigner and sidebar.io remain highest-signal sources: all 3 final items appeared there first. WebAIM Million 2026 (95.9% of homepages fail WCAG; attributes failures partly to vibe coding) is the most important missed item across all runs — the 7-day window is the only barrier. Adam Argyle's 'Why AI sucks at front-end development' (nerdy.dev, Apr 12, Google Chrome DevRel) missed window by 1 day and is a strong priority-1 candidate if it resurfaces next run. Luke W entry 2148 is a distinct article from DB entry 2147 — different title, different topic, same author.",
-    "date": "2026-04-20",
-    "radar_ideas": [
-      {
-        "idea": "Show item count next to each tag label in the radar.html filter bar (e.g., 'a11y×ai (1)', 'motion×ai (2)'), making editorial coverage gaps visible without needing to filter each tag individually.",
-        "area": "ux",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "sidebar.io WebFetch — surfaced both final items within 48h of publication",
       "heydesigner.com WebFetch — confirmed both items and surfaced near-miss (Adam Argyle, nerdy.dev, Apr 12)",
       "site:github.com Claude skill design OR figma OR UI trending 2026 — found styleseed (304 stars, v2.1.1 Apr 10) and ux-ui-mastery (3 stars, disqualified)"
@@ -1364,6 +1299,70 @@
       {
         "idea": "Add a 'Low signal week' indicator to the Telegram post when the run produces only P2 items — readers can calibrate expectations instead of wondering if they missed something important",
         "area": "telegram",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "sidebar.io WebFetch — 8 curated articles from Aug 14-21 with clean titles and URLs; found Claude Academy and agentbehavior.dev",
+      "t.me/s/github_repos WebFetch — 20 repos with star counts; flagged MengTo/threeui (confirmed 3.1k★ via follow-up fetch) and autoprompt-skill (721★)",
+      "producthunt.com/leaderboard/daily/2026/8/23 — T-1 approach confirmed working; Claude Academy (159 upvotes) verified as top design-adjacent launch",
+      "github.com/topics/claude-design WebFetch — all major claude-design repos accounted for; confirmed open-design at 90.8k★",
+      "Figma AI MCP agents design August 2026 — confirmed all Figma August updates (agent skills authoring, MCP) are already in DB",
+      "framer.com/updates/ WebFetch — confirmed August 12 'Agents: Reasoning and Fast Mode' update but no unique per-entry URL found to reference"
+    ],
+    "weak_queries": [
+      "site:smashingmagazine.com OR site:alistapart.com AI design 2026 — category index pages and in-DB articles only; 15th consecutive weak run; retire",
+      "open source 3D web design AI tool site:github.com 2026 — returned GitHub topic index pages only, not specific repos",
+      "lottielab changelog OR beta 2026 animation AI — all results already in DB; lottielab.com still 404 for 9th consecutive run",
+      "accessibility AI tool shipped August 2026 deque OR webaim OR a11yproject — roundup comparison guides only; no newly-shipped tools",
+      "design AI tool launched August 2026 Claude skills OR Cursor plugin — comparison listicles; Muse Code August mention single-source and unverifiable",
+      "Figma plugin OR Framer OR Webflow AI launch August 2026 — Framer Workshop mentioned in search results but does not appear in framer.com/updates/ changelog; Webflow AEO is private beta only"
+    ],
+    "coverage_gaps": [
+      "tools — 15th consecutive week without a net-new standalone AI design tool; tag at 19 items; Framer Agents Reasoning update (Aug 12) was strong candidate but has no standalone URL in framer.com/updates/",
+      "3d×ai — only 2 items in DB; MengTo/threeui has 3.1k stars but no confirmed AI angle so not included as 3d×ai; tag still lacks any discovery path producing AI+3D results",
+      "motion×ai — motion.dev last post July 23 (in DB); Rive blog silent since June 4; tag entering dormancy with no primary sources updating"
+    ],
+    "tag_balance": "process (57), design+code (47), skills (47) continue to dominate. tools (19) and 3d×ai (2) structurally starved with no discovery path producing results in 15 consecutive runs. motion×ai (30) not starved but all primary sources silent 30+ days. a11y×ai (20) adequate but no new items found this run.",
+    "rejected_count": 16,
+    "top_rejection_reasons": [
+      "already in DB — all Figma August agent/skill updates confirmed in DB; Smashing Magazine August articles in DB; Framer 3 in DB",
+      "no design connection — autoprompt-skill (721★) and claudish-to-english (581★) are general coding-agent tools with no design-specific functionality",
+      "no standalone URL — Framer Agents Reasoning and Fast Mode (Aug 12) confirmed shipped but framer.com/updates/ is a living changelog with no per-entry permalinks found",
+      "abstract/opinion without shipped product — Adobe/Jessica Walsh 'Is design dead' piece; superposition.jem.computer design-specs essay",
+      "score too low after penalties — agentbehavior.dev (base 4, no demo, single source → score 2); uxdesign.cc 'How to become an AI Designer' (base 6, article, single source → score 2)",
+      "unverifiable — Muse Code August 2026 launch cited in one comparison listicle only; Framer Workshop name not found in framer.com/updates/ changelog"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: site:smashingmagazine.com OR site:alistapart.com AI design 2026",
+        "why": "15 consecutive weak runs returning only category pages and in-DB items; replace with WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/ when design-systems tag needs coverage"
+      },
+      {
+        "query": "RETIRE: heydesigner.com WebFetch",
+        "why": "Returned 403 Forbidden for 8+ consecutive runs; zero content retrieved in any 2026 run; remove from curated sources rotation"
+      },
+      {
+        "query": "WebFetch https://www.framer.com/updates/agents-reasoning-fast-mode",
+        "why": "Framer Agents Reasoning and Fast Mode update confirmed shipped Aug 12 via changelog fetch but permalink URL unknown; this slug or similar would verify it for tools tag inclusion next run"
+      },
+      {
+        "query": "WebFetch https://www.superdesign.dev/blog",
+        "why": "Superdesign is already in DB and runs a design-skills-focused blog; may surface new skill reviews or launches before GitHub trending picks them up"
+      },
+      {
+        "query": "3D WebGL design component library AI agent site:github.com 2026",
+        "why": "3d×ai has only 2 items; MengTo/threeui found via Telegram channel but has no AI angle; a more targeted search may surface repos that combine Three.js with Claude/AI coding agent integration"
+      }
+    ],
+    "notes": "15th consecutive low-signal week; 2 items at minimum threshold. The heydesigner.com WebFetch returned 403 again (8th+ consecutive run) and must be removed from rotation. shir-man.com/homepage returned only the dashboard UI shell with no actual trending content. The Smashing Magazine query should be formally retired after 15 weak runs — same recommendation from Aug 17 review, still not actioned. The most promising near-miss was the Framer Agents Reasoning and Fast Mode update (Aug 12, confirmed shipped) but framer.com/updates/ appears to be a single-page changelog without per-entry permalinks, making it unreferenceable. If individual Framer update slugs exist (e.g. framer.com/updates/agents-reasoning-fast-mode), fetching one would confirm. Primary motion×ai sources (motion.dev, Rive) have been silent 30+ days; motion×ai may need a quarterly-cadence window expansion similar to a11y×ai. MengTo/threeui confirmed at 3.1k stars with live demo at threeui.com — strong design+code resource but no AI integration found in documentation.",
+    "date": "2026-08-24",
+    "radar_ideas": [
+      {
+        "idea": "Add a 'via' attribution chip to radar cards showing the curation source (e.g. 'via sidebar.io', 'via GitHub trending') — one line in the card footer with a link to the source feed, so readers can discover the signal sources and follow them directly",
+        "area": "ux",
         "effort": "small"
       }
     ]
