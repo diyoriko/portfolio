@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 24 Aug 2026 04:32:08 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Aug 2026 04:19:32 +0000</lastBuildDate>
   <item>
     <title>ThreeUI — Open-Source Three.js and WebGL Community Component Catalog</title>
     <link>https://github.com/MengTo/threeui</link>
@@ -14,6 +14,14 @@
     <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/MengTo/threeui</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents</title>
+    <link>https://github.com/kgoedecke/doop</link>
+    <description>Open-source canvas where AI agents join as live collaborators, streaming designs through a built-in MCP server.</description>
+    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/kgoedecke/doop</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>The Task Isn't the Job</title>
@@ -54,6 +62,14 @@
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/bergside/design-md-chrome</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Agent Behavior — Open Standard for Documenting AI Agent Conduct</title>
+    <link>https://agentbehavior.dev</link>
+    <description>Open spec for writing how an AI agent should behave, versioned in .agents/behaviors/ alongside the codebase.</description>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://agentbehavior.dev</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Shading Motion</title>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://agent-plugins.org</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Auto Mode Is Now Default in Claude Code</title>
-    <link>https://claude.com/blog/auto-mode-default-in-claude-code</link>
-    <description>Claude Code defaults to auto mode — safe commands run uninterrupted, enabling longer overnight design-to-code sessions.</description>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/blog/auto-mode-default-in-claude-code</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>oil-motion — AI Video to Interactive Web Animation Skill</title>
-    <link>https://github.com/oil-oil/oil-motion</link>
-    <description>Agent skill that converts AI-generated video frames into scroll-, mouse-, and touch-linked web animations.</description>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/oil-oil/oil-motion</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
