@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 25 Aug 2026 04:19:32 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 04:15:06 +0000</lastBuildDate>
+  <item>
+    <title>scroll-craft — Premium Scroll-Driven Website Skill for Claude Code</title>
+    <link>https://github.com/nateherkai/scroll-craft</link>
+    <description>Claude Code skill builds cinematic scroll-driven sites with 8 templates, an anti-slop refuse list, and screenshot verification.</description>
+    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/nateherkai/scroll-craft</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Is Agentic — Website Agent-Readiness Auditor</title>
+    <link>https://is-agentic.com</link>
+    <description>Scores any URL for AI agent discoverability — checks server rendering, document structure, error handling, and interface availability.</description>
+    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://is-agentic.com</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>ThreeUI — Open-Source Three.js and WebGL Community Component Catalog</title>
     <link>https://github.com/MengTo/threeui</link>
@@ -38,6 +54,14 @@
     <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://academy.claude.com/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Every Fork Looks Like Adoption</title>
+    <link>https://blog.murphytrueman.com/every-fork-looks-like-adoption</link>
+    <description>AI coding agents accelerate component forking. Three metrics to detect real reuse vs hidden fragmentation in design systems.</description>
+    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://blog.murphytrueman.com/every-fork-looks-like-adoption</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
@@ -141,30 +165,6 @@
     <description>Converts PDF, EPUB, DOCX, and other formats into indexed Claude Code skills—24–51× more token-efficient than pasting docs as context.</description>
     <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Leutenegger/book-to-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Building Tactile UX: Honoring Intentional Design With Lottie</title>
-    <link>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</link>
-    <description>How distance-based math maps clicks to specific Lottie segments, preserving animators' intent without physics engines.</description>
-    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>airship — Visual Editor That Connects Your Dev Server to Claude Code</title>
-    <link>https://github.com/0xnyn/airship</link>
-    <description>CLI reverse proxy that renders your running app in device frames—select any element, describe the change, and Claude Code edits the source directly.</description>
-    <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/0xnyn/airship</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills</title>
-    <link>https://agent-plugins.org</link>
-    <description>Vendor-neutral open standard for packaging AI agent skills as portable plugins, backed by Cursor, OpenAI, Microsoft, Amazon, and Vercel.</description>
-    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://agent-plugins.org</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
