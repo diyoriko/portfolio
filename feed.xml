@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 26 Aug 2026 04:15:06 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 27 Aug 2026 14:35:34 +0000</lastBuildDate>
   <item>
     <title>scroll-craft — Premium Scroll-Driven Website Skill for Claude Code</title>
     <link>https://github.com/nateherkai/scroll-craft</link>
@@ -62,6 +62,14 @@
     <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/every-fork-looks-like-adoption</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Sightlines No. 2: What Leaders Need to Know About Building Agents</title>
+    <link>https://www.figma.com/blog/sightlines-issue-no2/</link>
+    <description>Figma leaders survey: transparency over perfection, governance checkpoints, and ship-and-learn principles for agentic product design.</description>
+    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/sightlines-issue-no2/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://2026.stateofcss.com</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>book-to-skill — Convert Any Technical Book or Document into a Claude Code Skill</title>
-    <link>https://github.com/Leutenegger/book-to-skill</link>
-    <description>Converts PDF, EPUB, DOCX, and other formats into indexed Claude Code skills—24–51× more token-efficient than pasting docs as context.</description>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Leutenegger/book-to-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
