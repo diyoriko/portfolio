@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 28 Aug 2026 15:42:17 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 29 Aug 2026 10:27:44 +0000</lastBuildDate>
+  <item>
+    <title>CodePilot — Multi-Model AI Agent Desktop Client</title>
+    <link>https://github.com/op7418/CodePilot</link>
+    <description>Multi-model AI desktop app by op7418: 17+ providers, MCP servers, and a skills marketplace in one client.</description>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/CodePilot</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>The AI Interface Museum</title>
+    <link>https://interfaces.kylejeong.com/</link>
+    <description>Browsable archive of 50+ AI interfaces from 2011–2026, documenting interaction patterns from Siri to autonomous agents.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://interfaces.kylejeong.com/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>scroll-craft — Premium Scroll-Driven Website Skill for Claude Code</title>
     <link>https://github.com/nateherkai/scroll-craft</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Let Your Designs Fail for the Right Reasons</title>
-    <link>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</link>
-    <description>Firefox UX prototyped in the real app with Claude, not Figma, to remove simulation ambiguity from usability testing.</description>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Beautiful UI — Component Library for AI-Native Interfaces</title>
-    <link>https://beautifului.dev</link>
-    <description>19+ copy-paste React components for AI products: approval cards, reasoning traces, streaming text, and agent task panels.</description>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://beautifului.dev</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
