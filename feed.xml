@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 29 Aug 2026 10:27:44 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 09:32:08 +0000</lastBuildDate>
   <item>
     <title>CodePilot — Multi-Model AI Agent Desktop Client</title>
     <link>https://github.com/op7418/CodePilot</link>
@@ -38,6 +38,14 @@
     <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://is-agentic.com</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>Amagine3D — Parametric 3D Hardware Enclosure Design from Product Descriptions</title>
+    <link>https://github.com/amagine-ai/Amagine3D</link>
+    <description>AI agent turns hardware descriptions and reference images into editable parametric CAD enclosures exporting STEP, STL, and 3MF.</description>
+    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/amagine-ai/Amagine3D</guid>
+    <category>3D + AI</category>
   </item>
   <item>
     <title>ThreeUI — Open-Source Three.js and WebGL Community Component Catalog</title>
@@ -128,6 +136,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Balsa UI — Agent-Native Open-Code Component System for Vue and React</title>
+    <link>https://balsa-ui.com</link>
+    <description>Open-code components with machine-readable specs so AI agents can install, extend, and evolve your design system.</description>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://balsa-ui.com</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Shading Motion</title>
     <link>https://blog.maximeheckel.com/posts/shading-motion/</link>
     <description>WebGPU tutorial: use in-scene motion — optical flow, blob tracking, temporal decay — as creative input for shader effects.</description>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://isolate.video</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>New EU Guidelines for AI Labelling</title>
-    <link>https://www.smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/</link>
-    <description>EU AI Act active Aug 2: sparkle icons alone fail compliance — plain-text 'AI-generated' labels are required and must work with screen readers.</description>
-    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Try These 10 Skills—and Show Off Your Own</title>
-    <link>https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/</link>
-    <description>Figma walks through 10 ready-to-use agent skills and shows how to author custom ones directly inside Figma.</description>
-    <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
