@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 30 Aug 2026 09:32:08 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 31 Aug 2026 10:11:02 +0000</lastBuildDate>
+  <item>
+    <title>Topview Motion Studio — Agent OS for Marketing and Filmmaking</title>
+    <link>https://topview.ai</link>
+    <description>AI agent canvas that plans scenes, routes across video generation models, and assembles marketing films without After Effects.</description>
+    <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://topview.ai</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>CodePilot — Multi-Model AI Agent Desktop Client</title>
     <link>https://github.com/op7418/CodePilot</link>
@@ -62,6 +70,14 @@
     <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/kgoedecke/doop</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill</title>
+    <link>https://github.com/kacperkapusciak/goldie</link>
+    <description>Claude Code skill that generates App Store screenshots and preview videos from an iOS simulator — framework agnostic.</description>
+    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/kacperkapusciak/goldie</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>The Task Isn't the Job</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.maximeheckel.com/posts/shading-motion/</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>TypeUI — MCP Design System Platform with 80+ Visual Styles for AI Coding Agents</title>
-    <link>https://github.com/bergside/typeui</link>
-    <description>MCP server and CLI that supplies design systems and 80+ visual styles to AI coding tools like Claude Code and Cursor in plain language.</description>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bergside/typeui</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Isolate.video — Screen Recordings to Polished Product Demo Videos</title>
-    <link>https://isolate.video</link>
-    <description>Turns screen recordings into product demo videos with AI motion zoom, UI spotlight tracking, and generated background music.</description>
-    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://isolate.video</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
