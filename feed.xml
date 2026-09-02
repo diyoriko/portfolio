@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 01 Sep 2026 08:58:24 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 02 Sep 2026 08:10:40 +0000</lastBuildDate>
   <item>
     <title>Topview Motion Studio — Agent OS for Marketing and Filmmaking</title>
     <link>https://topview.ai</link>
@@ -22,6 +22,14 @@
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/op7418/CodePilot</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>The Custodial Era of UX: Cleaning Up After AI</title>
+    <link>https://www.nngroup.com/articles/ai-ux-debt/</link>
+    <description>NNGroup: AI lets teams build faster than UX can evaluate, shifting designers toward auditing and refining AI-generated work rather than starting from scratch.</description>
+    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/ai-ux-debt/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>The AI Interface Museum</title>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://balsa-ui.com</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Shading Motion</title>
-    <link>https://blog.maximeheckel.com/posts/shading-motion/</link>
-    <description>WebGPU tutorial: use in-scene motion — optical flow, blob tracking, temporal decay — as creative input for shader effects.</description>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.maximeheckel.com/posts/shading-motion/</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
