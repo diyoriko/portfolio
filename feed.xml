@@ -6,7 +6,31 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 02 Sep 2026 08:10:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 03 Sep 2026 08:19:30 +0000</lastBuildDate>
+  <item>
+    <title>mesurer — Browser UI Inspector with AI Agent Feedback</title>
+    <link>https://github.com/ibelick/mesurer</link>
+    <description>Browser UI inspector: measure, annotate live interfaces, and share visual feedback with AI coding agents.</description>
+    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/ibelick/mesurer</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>Open Design System Bench — AI-Readiness Score for Design Systems</title>
+    <link>https://christophhellmuth.com/open-design-system-bench/</link>
+    <description>Scores design systems for AI-readiness on 7 dimensions and runs coding agents against component libraries.</description>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://christophhellmuth.com/open-design-system-bench/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>refactoring-ui-skill — Refactoring UI Principles as a Claude Code Skill</title>
+    <link>https://github.com/s0xDk/refactoring-ui-skill</link>
+    <description>Claude Code skill applying Refactoring UI's constrained type, spacing, and color scales to building interfaces.</description>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/s0xDk/refactoring-ui-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Topview Motion Studio — Agent OS for Marketing and Filmmaking</title>
     <link>https://topview.ai</link>
@@ -142,30 +166,6 @@
     <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.ronbronson.com/agent-experience-needs-failure-affordances</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>design-md-chrome — Extract Any Website's Design System as DESIGN.md for AI Tools</title>
-    <link>https://github.com/bergside/design-md-chrome</link>
-    <description>Chrome extension that extracts visual styles from any live website and generates DESIGN.md or SKILL.md for AI coding agents.</description>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/bergside/design-md-chrome</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Agent Behavior — Open Standard for Documenting AI Agent Conduct</title>
-    <link>https://agentbehavior.dev</link>
-    <description>Open spec for writing how an AI agent should behave, versioned in .agents/behaviors/ alongside the codebase.</description>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://agentbehavior.dev</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Balsa UI — Agent-Native Open-Code Component System for Vue and React</title>
-    <link>https://balsa-ui.com</link>
-    <description>Open-code components with machine-readable specs so AI agents can install, extend, and evolve your design system.</description>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://balsa-ui.com</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
