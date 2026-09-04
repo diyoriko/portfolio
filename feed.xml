@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 03 Sep 2026 08:19:30 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 04 Sep 2026 08:16:10 +0000</lastBuildDate>
   <item>
     <title>mesurer — Browser UI Inspector with AI Agent Feedback</title>
     <link>https://github.com/ibelick/mesurer</link>
@@ -14,6 +14,14 @@
     <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/ibelick/mesurer</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill</title>
+    <link>https://github.com/op7418/guizang-yingzao-skill</link>
+    <description>Transforms Chinese architecture and travel photos into art-directed editorial posters via GPT Image in Claude Code.</description>
+    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-yingzao-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Open Design System Bench — AI-Readiness Score for Design Systems</title>
@@ -24,12 +32,36 @@
     <category>Design Systems</category>
   </item>
   <item>
+    <title>How Coinbase Used Code Connect to Shrink Token Costs</title>
+    <link>https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/</link>
+    <description>Coinbase's design system team cut token costs 22.5% and improved design system adherence using Figma Code Connect.</description>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>refactoring-ui-skill — Refactoring UI Principles as a Claude Code Skill</title>
     <link>https://github.com/s0xDk/refactoring-ui-skill</link>
     <description>Claude Code skill applying Refactoring UI's constrained type, spacing, and color scales to building interfaces.</description>
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/s0xDk/refactoring-ui-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Behind the Build: Generative Plugins and Shaders at Figma</title>
+    <link>https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/</link>
+    <description>Figma's generative plugins and shaders now support animation, mouse interaction, and Community publishing.</description>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Framer Agents: 3D Transforms</title>
+    <link>https://www.framer.com/updates/</link>
+    <description>Framer's Agent now generates 3D Transform layers — Rotate XYZ, Perspective, Depth — all editable on the canvas.</description>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>Topview Motion Studio — Agent OS for Marketing and Filmmaking</title>
@@ -134,38 +166,6 @@
     <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://blog.murphytrueman.com/every-fork-looks-like-adoption</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>The AI-Native SDLC Playbook</title>
-    <link>https://claude.com/blog/the-ai-native-sdlc-playbook</link>
-    <description>Anthropic's six-stage SDLC playbook uses a versioned artifact chain (intent.md → plan.md) that reframes design alignment as the new bottleneck.</description>
-    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/blog/the-ai-native-sdlc-playbook</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Sightlines No. 2: What Leaders Need to Know About Building Agents</title>
-    <link>https://www.figma.com/blog/sightlines-issue-no2/</link>
-    <description>Figma leaders survey: transparency over perfection, governance checkpoints, and ship-and-learn principles for agentic product design.</description>
-    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/sightlines-issue-no2/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Skilldock — Desktop Skill Manager for Claude Code, Cursor, Codex, and Windsurf</title>
-    <link>https://github.com/wanghuan9/skilldock</link>
-    <description>Desktop app to install, browse, and switch AI skills across Claude Code, Cursor, Codex, Windsurf, and Gemini CLI.</description>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/wanghuan9/skilldock</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Agent Experience Needs Failure Affordances</title>
-    <link>https://blog.ronbronson.com/agent-experience-needs-failure-affordances</link>
-    <description>Why autonomous AI agents need intentional failure states — a UX framework for failure affordances in agent interfaces.</description>
-    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.ronbronson.com/agent-experience-needs-failure-affordances</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
