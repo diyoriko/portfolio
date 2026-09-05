@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 04 Sep 2026 08:16:10 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 08:00:45 +0000</lastBuildDate>
+  <item>
+    <title>JudgmentKit — Judgment Layer for AI-Generated UI</title>
+    <link>https://judgmentkit.ai</link>
+    <description>Forces AI agents to declare user activity, decision, and disclosure scope before building any interface — v0.8.0.</description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://judgmentkit.ai</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>mesurer — Browser UI Inspector with AI Agent Feedback</title>
     <link>https://github.com/ibelick/mesurer</link>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://academy.claude.com/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Every Fork Looks Like Adoption</title>
-    <link>https://blog.murphytrueman.com/every-fork-looks-like-adoption</link>
-    <description>AI coding agents accelerate component forking. Three metrics to detect real reuse vs hidden fragmentation in design systems.</description>
-    <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://blog.murphytrueman.com/every-fork-looks-like-adoption</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
