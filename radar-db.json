@@ -73,6 +73,24 @@
   },
   "items": [
     {
+      "title": "M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Браузерный канвас для прототипов Material 3 с генерацией одного промпта для Claude Code, Codex или Gemini CLI.",
+      "desc_en": "Browser canvas for sketching Material 3 screens; copies a single AI prompt for Claude Code, Codex, or Gemini CLI.",
+      "date": "2026-09-05",
+      "priority": 1,
+      "score": 7,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "star_velocity": "~3300★/7d",
+      "added": "2026-09-06",
+      "stars": 3988
+    },
+    {
       "title": "JudgmentKit — Judgment Layer for AI-Generated UI",
       "url": "https://judgmentkit.ai",
       "type": "tool",
@@ -89,6 +107,22 @@
       "added": "2026-09-05"
     },
     {
+      "title": "Framer Agents: 3D Transforms",
+      "url": "https://www.framer.com/updates/agent-3d-transforms",
+      "type": "tool",
+      "tag": "motion×ai",
+      "desc_ru": "Агент Framer теперь создаёт 3D-трансформации: Rotate XYZ, Perspective, Backface — все слои остаются редактируемыми.",
+      "desc_en": "Framer's design agent now generates Rotate XYZ, Perspective, and Backface effects — all layers stay editable on canvas.",
+      "date": "2026-09-04",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-09-06"
+    },
+    {
       "title": "mesurer — Browser UI Inspector with AI Agent Feedback",
       "url": "https://github.com/ibelick/mesurer",
       "type": "tool",
@@ -103,7 +137,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 494
+      "stars": 497
     },
     {
       "title": "guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill",
@@ -120,7 +154,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-04",
-      "stars": 330
+      "stars": 350
     },
     {
       "title": "Open Design System Bench — AI-Readiness Score for Design Systems",
@@ -169,7 +203,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 525
+      "stars": 530
     },
     {
       "title": "Behind the Build: Generative Plugins and Shaders at Figma",
@@ -204,6 +238,39 @@
       "added": "2026-09-04"
     },
     {
+      "title": "Supernova Editor MCP — Write Access for AI Agents",
+      "url": "https://www.supernova.io/blog/introducing-supernova-editor-mcp",
+      "type": "tool",
+      "tag": "design systems",
+      "desc_ru": "Supernova MCP с правами записи: агенты переименовывают компоненты, пишут документацию и находят дрейф.",
+      "desc_en": "Supernova's public-beta MCP lets AI agents write to your design system — rename components, draft docs, detect drift.",
+      "date": "2026-09-01",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-09-06"
+    },
+    {
+      "title": "Clarity — AI Writing Skill by Addy Osmani",
+      "url": "https://github.com/addyosmani/clarity",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Скилл Claude Code: режимы интервью, переписывания и ревью для документации, спеков и UX-копирайтинга. 172★.",
+      "desc_en": "18-rule Claude Code skill: interview, rewrite, and review modes for specs, docs, and UX copy. 172★.",
+      "date": "2026-09-01",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 4,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-09-06",
+      "stars": 172
+    },
+    {
       "title": "Topview Motion Studio — Agent OS for Marketing and Filmmaking",
       "url": "https://topview.ai",
       "type": "tool",
@@ -234,7 +301,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-29",
-      "stars": 6446
+      "stars": 6444
     },
     {
       "title": "The Custodial Era of UX: Cleaning Up After AI",
@@ -283,7 +350,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-26",
-      "stars": 1831
+      "stars": 2024
     },
     {
       "title": "Is Agentic — Website Agent-Readiness Auditor",
@@ -316,7 +383,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-30",
-      "stars": 2472
+      "stars": 2500
     },
     {
       "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
@@ -333,7 +400,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-24",
-      "stars": 5145
+      "stars": 5210
     },
     {
       "title": "Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents",
@@ -350,7 +417,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-25",
-      "stars": 596
+      "stars": 608
     },
     {
       "title": "goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill",
@@ -368,7 +435,7 @@
       "expanded_window": false,
       "star_velocity": "896★/7d",
       "added": "2026-08-31",
-      "stars": 1786
+      "stars": 1828
     },
     {
       "title": "The Task Isn't the Job",
@@ -465,7 +532,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-19",
-      "stars": 509
+      "stars": 514
     },
     {
       "title": "Agent Experience Needs Failure Affordances",
@@ -498,7 +565,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 2794
+      "stars": 2800
     },
     {
       "title": "Agent Behavior — Open Standard for Documenting AI Agent Conduct",
@@ -579,7 +646,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 1875
+      "stars": 1880
     },
     {
       "title": "Isolate.video — Screen Recordings to Polished Product Demo Videos",
@@ -741,7 +808,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-18",
-      "stars": 660
+      "stars": 662
     },
     {
       "title": "Measuring Time Savings from Figma Make",
@@ -807,7 +874,7 @@
       "expanded_window": false,
       "star_velocity": "700★/7d",
       "added": "2026-08-11",
-      "stars": 2171
+      "stars": 2181
     },
     {
       "title": "Code, Craft, and the Making of Nested Folders",
@@ -856,7 +923,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 2349
+      "stars": 2365
     },
     {
       "title": "interior — Micro-Interactions for React, Built for the Half-Second After a Click",
@@ -873,7 +940,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 763
+      "stars": 764
     },
     {
       "title": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP",
@@ -938,7 +1005,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-04",
-      "stars": 3838
+      "stars": 3853
     },
     {
       "title": "Designing for the Proxy",
