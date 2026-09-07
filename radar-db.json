@@ -88,7 +88,7 @@
       "expanded_window": false,
       "star_velocity": "~3300★/7d",
       "added": "2026-09-06",
-      "stars": 3988
+      "stars": 4453
     },
     {
       "title": "JudgmentKit — Judgment Layer for AI-Generated UI",
@@ -137,7 +137,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 497
+      "stars": 501
     },
     {
       "title": "guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill",
@@ -154,7 +154,23 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-04",
-      "stars": 350
+      "stars": 368
+    },
+    {
+      "title": "The Call for an Agentic Standard",
+      "url": "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Разные агенты запрашивают одни данные снова и снова: автор предлагает общий контракт взаимодействия для агентных продуктов.",
+      "desc_en": "AI agents keep re-requesting the same user data; proposes a shared interaction contract across agentic products.",
+      "date": "2026-09-03",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-09-07"
     },
     {
       "title": "Open Design System Bench — AI-Readiness Score for Design Systems",
@@ -203,7 +219,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 530
+      "stars": 535
     },
     {
       "title": "Behind the Build: Generative Plugins and Shaders at Figma",
@@ -268,7 +284,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-06",
-      "stars": 172
+      "stars": 174
     },
     {
       "title": "Topview Motion Studio — Agent OS for Marketing and Filmmaking",
@@ -301,7 +317,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-29",
-      "stars": 6444
+      "stars": 6449
     },
     {
       "title": "The Custodial Era of UX: Cleaning Up After AI",
@@ -350,7 +366,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-26",
-      "stars": 2024
+      "stars": 2104
     },
     {
       "title": "Is Agentic — Website Agent-Readiness Auditor",
@@ -383,7 +399,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-30",
-      "stars": 2500
+      "stars": 2594
     },
     {
       "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
@@ -400,7 +416,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-24",
-      "stars": 5210
+      "stars": 5286
     },
     {
       "title": "Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents",
@@ -417,7 +433,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-25",
-      "stars": 608
+      "stars": 618
     },
     {
       "title": "goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill",
@@ -435,7 +451,7 @@
       "expanded_window": false,
       "star_velocity": "896★/7d",
       "added": "2026-08-31",
-      "stars": 1828
+      "stars": 1884
     },
     {
       "title": "The Task Isn't the Job",
@@ -532,7 +548,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-19",
-      "stars": 514
+      "stars": 522
     },
     {
       "title": "Agent Experience Needs Failure Affordances",
@@ -646,7 +662,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 1880
+      "stars": 1884
     },
     {
       "title": "Isolate.video — Screen Recordings to Polished Product Demo Videos",
@@ -808,7 +824,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-18",
-      "stars": 662
+      "stars": 669
     },
     {
       "title": "Measuring Time Savings from Figma Make",
@@ -825,6 +841,22 @@
       "has_demo": false,
       "expanded_window": true,
       "added": "2026-08-27"
+    },
+    {
+      "title": "Framer Video Shaders",
+      "url": "https://www.framer.com/updates/video-shaders",
+      "type": "tool",
+      "tag": "tools",
+      "desc_ru": "Шейдеры Framer теперь принимают видео: Chromatic Aberration получил стеклянное искажение и дисперсию для веб-видео.",
+      "desc_en": "Framer shaders now accept video input; Chromatic Aberration gains glass-like curvature and dispersion controls for web video.",
+      "date": "2026-08-11",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 2,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-09-07"
     },
     {
       "title": "Agent Plugins v1.0.0 — Open Standard for Portable AI Agent Skills",
@@ -874,7 +906,7 @@
       "expanded_window": false,
       "star_velocity": "700★/7d",
       "added": "2026-08-11",
-      "stars": 2181
+      "stars": 2195
     },
     {
       "title": "Code, Craft, and the Making of Nested Folders",
@@ -923,7 +955,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 2365
+      "stars": 2377
     },
     {
       "title": "interior — Micro-Interactions for React, Built for the Half-Second After a Click",
@@ -940,7 +972,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 764
+      "stars": 768
     },
     {
       "title": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP",
@@ -1005,7 +1037,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-04",
-      "stars": 3853
+      "stars": 3871
     },
     {
       "title": "Designing for the Proxy",
@@ -1070,7 +1102,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-09-05",
-      "stars": 528
+      "stars": 532
     },
     {
       "title": "AI Fluency Isn't the Finish Line",
@@ -1215,7 +1247,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-05",
-      "stars": 168
+      "stars": 169
     },
     {
       "title": "Digital Tools, Human Expression: The Visual Identity Behind Config 2026",
@@ -1248,7 +1280,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-08-11",
-      "stars": 227
+      "stars": 228
     },
     {
       "title": "Use Auto Layout with CSS Flexbox in Mind",
@@ -1378,7 +1410,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-24",
-      "stars": 2654
+      "stars": 2661
     },
     {
       "title": "pireel — Open-Source Browser-Based AI Video Editor with MCP Agent Control",
@@ -1395,7 +1427,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1157
+      "stars": 1165
     },
     {
       "title": "story-to-handdrawn-video — Story Text to Hand-Drawn Diary Comic Animation Skill for Claude Code and Codex",
@@ -1412,7 +1444,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-26",
-      "stars": 1823
+      "stars": 1867
     },
     {
       "title": "video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex",
@@ -1430,7 +1462,7 @@
       "expanded_window": false,
       "star_velocity": "636★/7d",
       "added": "2026-07-24",
-      "stars": 7505
+      "stars": 7653
     },
     {
       "title": "OpenChatCut — Local-First AI Video Editor with Agent Skills and MCP",
@@ -1447,7 +1479,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1589
+      "stars": 1617
     },
     {
       "title": "Earning Taste and Judgment",
@@ -1512,7 +1544,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-20",
-      "stars": 1387
+      "stars": 1388
     },
     {
       "title": "Design Systems Need Evals",
@@ -1545,7 +1577,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-23",
-      "stars": 919
+      "stars": 925
     },
     {
       "title": "Bring Code-Backed Screens onto the Canvas with Variables Attached",
@@ -1658,7 +1690,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 1111
+      "stars": 1122
     },
     {
       "title": "img2threejs — Reference Image to Procedural Three.js Claude Code Skill",
@@ -1676,7 +1708,7 @@
       "expanded_window": false,
       "star_velocity": "487★/7d",
       "added": "2026-07-21",
-      "stars": 15245
+      "stars": 15438
     },
     {
       "title": "toolcraft — Starter Kit for Building Custom Design Apps with AI Agents",
@@ -1693,7 +1725,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-07-22",
-      "stars": 737
+      "stars": 743
     },
     {
       "title": "Against Design System Federation",
@@ -1727,7 +1759,7 @@
       "expanded_window": false,
       "star_velocity": "1.6k★/7d",
       "added": "2026-07-15",
-      "stars": 8999
+      "stars": 9074
     },
     {
       "title": "Three.js-Object-Sculptor — Image-to-Animated-3D Codex Plugin",
@@ -1744,7 +1776,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-16",
-      "stars": 1641
+      "stars": 1643
     },
     {
       "title": "getdesign.md — 300+ Curated DESIGN.md Files for AI Coding Agents",
@@ -1841,7 +1873,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-08",
-      "stars": 1107
+      "stars": 1113
     },
     {
       "title": "MengTo/Skills — 75 Design Skills for Claude Code, Codex and Cursor",

@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 06 Sep 2026 08:11:31 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 08:42:51 +0000</lastBuildDate>
   <item>
     <title>M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts</title>
     <link>https://github.com/lnkiai/m3e-canvas</link>
@@ -46,6 +46,14 @@
     <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/op7418/guizang-yingzao-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>The Call for an Agentic Standard</title>
+    <link>https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370</link>
+    <description>AI agents keep re-requesting the same user data; proposes a shared interaction contract across agentic products.</description>
+    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Open Design System Bench — AI-Readiness Score for Design Systems</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/amagine-ai/Amagine3D</guid>
     <category>3D + AI</category>
-  </item>
-  <item>
-    <title>ThreeUI — Open-Source Three.js and WebGL Community Component Catalog</title>
-    <link>https://github.com/MengTo/threeui</link>
-    <description>Login-free catalog of 50 Three.js and WebGL UI components with live demos at threeui.com, by the MengTo/Skills creator.</description>
-    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/MengTo/threeui</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>

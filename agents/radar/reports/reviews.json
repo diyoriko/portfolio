@@ -1,74 +1,6 @@
 [
   {
     "effective_queries": [
-      "site:github.com Claude skill design OR figma OR UI trending 2026",
-      "accessibility AI tool design audit shipped 2026",
-      "WebFetch sidebar.io",
-      "WebFetch heydesigner.com",
-      "WebFetch github.com/op7418?tab=repositories",
-      "WebFetch t.me/s/github_repos"
-    ],
-    "weak_queries": [
-      "Figma AI MCP agents design 2026 — all results DB-resident (9th consecutive run)",
-      "design systems AI tokens automation 2026 — generic guides, no newly shipped tools",
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — listicles and comparison guides only",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — all results DB-resident",
-      "site:newsletter.uxdesign.cc 2026 — editorial newsletters, no shipped tools or demos",
-      "WebFetch github.com/anthropics/awesome-agent-skills — 404 again (3rd consecutive run)"
-    ],
-    "coverage_gaps": [
-      "motion×ai — no new items this run; Seedance-Product-Video (op7418, 129★, Apr 13) is a starvation candidate but outside 7-day window by 7 days",
-      "tools — only 6 items in DB; open-codesign adds one but standalone web tools remain hard to discover systematically",
-      "Figma community plugins — FigClaw (Claude agent-loop plugin) surfaced via heydesigner but returned 403 on direct Figma community fetch; no reliable pipeline for monitoring new Figma community releases"
-    ],
-    "tag_balance": "skills (17) and design+code (15) over-represented; tools (6) and a11y×ai (3) remain starved; motion×ai (3) also thin; process (15) skews toward NNGroup-style essays rather than shipped tools",
-    "rejected_count": 14,
-    "top_rejection_reasons": [
-      "editorial opinion with no demo or actionable technique — jonnyburch Apr 24, microsoft.design Apr 13, newsletter.uxdesign.cc Apr 20",
-      "date unverifiable — appeared in 2026 searches but launch date unknown (ZeroZ-lab/cc-design, mgechev date estimated)",
-      "all results already in DB — Figma MCP catalog, Smashing Magazine articles, Figma canvas agents",
-      "too few GitHub stars — sub-50 (nafiurrahmanniloy/figma-skill: 1★, phazurlabs/ux-ui-mastery: 3★)",
-      "published November 2025 — outside all tiered windows (LogRocket Figma MCP structuring article)"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: Figma AI MCP agents design 2026",
-        "why": "9 consecutive runs returning only DB-resident results; all Figma AI news surfaces faster via sidebar.io and heydesigner — budget better spent elsewhere"
-      },
-      {
-        "query": "RETIRE: site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026",
-        "why": "Consistent pattern of DB-resident articles across 5+ runs; Smashing publishes slowly and is already picked up by sidebar.io aggregation"
-      },
-      {
-        "query": "RETIRE: WebFetch github.com/anthropics/awesome-agent-skills",
-        "why": "404 for 3 consecutive runs; replace with WebFetch github.com/VoltAgent/awesome-agent-skills which is actively maintained with 1,060+ items"
-      },
-      {
-        "query": "site:github.com AI design prototype tool 2026 stars:>100",
-        "why": "Would catch tools like open-codesign and ZeroZ-lab/cc-design more reliably; fills the retired Figma and Smashing query slots"
-      },
-      {
-        "query": "new Figma plugin AI Claude agent 2026",
-        "why": "FigClaw (Claude agent-loop Figma plugin) surfaced via heydesigner but couldn't be verified; a targeted search for new Figma plugins would catch these before aggregators do"
-      }
-    ],
-    "notes": "open-codesign (2.9k★, Apr 23) came from t.me/s/github_repos — the channel proposed for retirement. Second useful result in 11 runs; retirement should remain pending rather than confirmed. heydesigner surfaced FigClaw (agent-loop Figma plugin, not chat-based) but direct Figma community URL returned 403 — recurring pattern for Figma community plugin URLs that needs a different fetch strategy. anthropics/awesome-agent-skills has returned 404 for 3 consecutive runs and should be permanently removed. sidebar.io and heydesigner remain highest-ROI sources per run. mgechev/skills-best-practices (1.8k★, Google engineer, Minko Gechev) could not have launch date confirmed — a standing challenge for GitHub repos without explicit CHANGELOG dates; included with expanded_window and conservative date estimate.",
-    "date": "2026-04-27",
-    "radar_ideas": [
-      {
-        "idea": "Replace the anthropics/awesome-agent-skills WebFetch (404 for 3+ consecutive runs) with WebFetch of https://github.com/VoltAgent/awesome-agent-skills which is actively maintained and includes regular design skill additions",
-        "area": "content",
-        "effort": "small"
-      },
-      {
-        "idea": "Add 'skill author' attribution field to DB items in the skills tag — surfacing op7418, ConardLi, mgechev as authors would let radar.html show a skill author leaderboard, helping users find quality skill sources rather than only individual items",
-        "area": "feature",
-        "effort": "medium"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "WebFetch heydesigner.com — 3 new candidates found within 7-day window (Agentic XD, Design Systems Inference, Component.md)",
       "WebFetch sidebar.io — 2 new candidates found (accessibility problem piece, Output isn't design)",
       "new Figma plugin AI Claude agent 2026 — confirmed no new major Figma plugins since canvas agents launch; validated DB completeness"
@@ -1396,6 +1328,89 @@
       {
         "idea": "Promote WebFetch producthunt.com/leaderboard/daily/{T-1} from optional-suggested to required curated source, rotating the date each run. Found Topview Motion Studio this run; worked in Aug 17 run. Formally retire the site:producthunt.com search query it replaces.",
         "area": "content",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "Figma AI MCP agents design 2026 — returned relevant results but all already in DB",
+      "iOS OR mobile app Store preview screenshot skill Claude Code github 2026 — found shots (236★) but topic covered by goldie in DB",
+      "WebFetch sidebar.io — surfaced the agentic standard article (Sept 3) and the critical design engineering manifesto",
+      "WebFetch framer.com/updates/ — confirmed Video Shaders (Aug 11) not yet in DB; URL pattern verified via direct fetch"
+    ],
+    "weak_queries": [
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — 17th consecutive weak run; trend roundups only; RETIRE",
+      "Claude Code OR Cursor designers workflow 2026 — 17th consecutive weak run; comparison articles all in DB; RETIRE",
+      "design systems AI tokens automation 2026 — 17th consecutive weak run; marketing guides only; RETIRE",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — 17th consecutive weak run; buyer's guide roundups only; RETIRE",
+      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — 17th consecutive weak run; Wikipedia and category index pages only; RETIRE",
+      "open source 3D web design AI tool site:github.com 2026 — returned GitHub topic index pages only; no specific repos surfaced",
+      "motion animation AI design tool September 2026 shipped — Autodesk SIGGRAPH VFX tools only; no web-design-relevant finds",
+      "WebFetch shir-man.com/homepage — returned JS-rendered dashboard shell with no trending data; 4th consecutive empty run",
+      "WebFetch newsletter.uxdesign.cc — returned subscription header only; no article content accessible"
+    ],
+    "coverage_gaps": [
+      "tools — 17th consecutive week without net-new standalone AI design tool; Framer Video Shaders fills the tag via expanded 30-day window",
+      "3d×ai — only 3 items in DB; no discovery path yielding qualified items; open source 3D search returned topic index pages only",
+      "motion×ai — motion.dev last post July 23 in DB; Rive blog silent since June; Framer Video Shaders is closest new item but has no AI component",
+      "Smashing Magazine August 2026 — archive at smashingmagazine.com/2026/08/ returns 404; a referenced article about autonomous websites continuously optimized by agents (Aug 25) was mentioned in search snippet but URL not retrievable"
+    ],
+    "tag_balance": "process (64) and skills (52) heavily overrepresented; tools (25) underrepresented with no reliable discovery path. This run adds 1 tools (expanded window) and 1 process. 3d×ai remains at 3 items with no new candidates and no dedicated search angle producing results.",
+    "rejected_count": 14,
+    "top_rejection_reasons": [
+      "duplicate topic in DB — shots (236★) mirrors goldie App Store screenshot skill already in DB",
+      "zero or insufficient GitHub stars — figma-skills (0★)",
+      "not design-specific enough — easy-agent (990★ ConardLi), commerce-agents (786★ Anthropic)",
+      "no publication date or unverifiable author — fourmodes.teybannerman.com",
+      "personal blog with insufficient credibility signal — pipshea.net manifesto",
+      "URL not verifiable — Smashing autonomous websites article referenced in snippet but archive returns 404",
+      "comparison and roundup articles with no new tool shipped — all 17 consecutive runs of Claude Code vs Cursor query"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: \"design engineering\" OR \"vibe coding\" AI shipped 2026",
+        "why": "17th consecutive weak run; has never returned a qualifying item across entire 2026 run history"
+      },
+      {
+        "query": "RETIRE: Claude Code OR Cursor designers workflow 2026",
+        "why": "17th consecutive weak run; comparison articles only, all already in DB"
+      },
+      {
+        "query": "RETIRE: design systems AI tokens automation 2026",
+        "why": "17th consecutive weak run; marketing guides only; replace with WebFetch supernova.io/blog when design-systems tag needs coverage"
+      },
+      {
+        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens",
+        "why": "17th consecutive weak run; buyer guide roundups only; replace with WebFetch dovetail.com/blog"
+      },
+      {
+        "query": "RETIRE: site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026",
+        "why": "17th consecutive weak run; returns Wikipedia and category index pages; replace with WebFetch smashingmagazine.com/the-smashing-newsletter"
+      },
+      {
+        "query": "RETIRE: WebFetch shir-man.com/homepage",
+        "why": "4th consecutive empty run returning only a JS-rendered dashboard shell that WebFetch cannot parse; not recoverable without JS execution"
+      },
+      {
+        "query": "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/",
+        "why": "Replaces the retired Smashing search query; newsletter index is more reliable than site: search for surfacing new SM articles"
+      },
+      {
+        "query": "WebFetch https://www.rive.app/blog",
+        "why": "Rive blog silent since June 4 per prior reviews; direct fetch may surface newer motion×ai posts not caught by search queries"
+      },
+      {
+        "query": "autonomous websites AI agents post-launch optimization site:smashingmagazine.com 2026",
+        "why": "Search snippet referenced a Smashing article about autonomous websites continuously optimized by agents (Aug 25) that archive fetch could not retrieve; targeted query may find the direct URL"
+      }
+    ],
+    "notes": "17th consecutive low-signal week; output at 2 items (minimum threshold). Framer Video Shaders (Aug 11) is the strongest find this run — confirmed via direct WebFetch of the URL, which returned full update content; URL pattern matches existing Framer entries in DB. The agentic standard article from uxdesign.cc (Sept 3) is the only fresh process item found this week, surfaced via sidebar.io curation. The 5 persistently-weak required queries have now been flagged for retirement across 17 consecutive runs without a single qualifying item returned — formal removal from the prompt is critical to stop wasting budget. shir-man.com/homepage is confirmed unreliable for the 4th consecutive run (JS-rendered dashboard requires browser execution, not WebFetch). newsletter.uxdesign.cc remains inaccessible via WebFetch (returns subscription header only). The Smashing Magazine August 2026 archive returned 404 again; the August 25 autonomous websites article would have been a strong candidate if the URL were recoverable.",
+    "date": "2026-09-07",
+    "radar_ideas": [
+      {
+        "idea": "Add a subtle visual indicator to radar cards for items with expanded_window:true — e.g., a muted date color or 'older' label — so readers can calibrate freshness expectations without reading fine print",
+        "area": "ux",
         "effort": "small"
       }
     ]
