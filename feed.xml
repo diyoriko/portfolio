@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 07 Sep 2026 08:42:51 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 08:24:02 +0000</lastBuildDate>
+  <item>
+    <title>Lucet — Open-Source AI Interface Components for Edge States</title>
+    <link>https://lucet.design</link>
+    <description>Open-source component library for AI edge states — refusals, interruptions, rate limits, stale answers — with design rationale for each pattern.</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://lucet.design</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>HyperFrames — HTML-to-Video Agent Framework with 20 Production Skills</title>
+    <link>https://github.com/heygen-com/hyperframes</link>
+    <description>Converts HTML/CSS/animations to deterministic MP4 video with 20 agent skills and frame.md — a DESIGN.md superset for video composition.</description>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/heygen-com/hyperframes</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts</title>
     <link>https://github.com/lnkiai/m3e-canvas</link>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/nateherkai/scroll-craft</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Is Agentic — Website Agent-Readiness Auditor</title>
-    <link>https://is-agentic.com</link>
-    <description>Scores any URL for AI agent discoverability — checks server rendering, document structure, error handling, and interface availability.</description>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://is-agentic.com</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Amagine3D — Parametric 3D Hardware Enclosure Design from Product Descriptions</title>
-    <link>https://github.com/amagine-ai/Amagine3D</link>
-    <description>AI agent turns hardware descriptions and reference images into editable parametric CAD enclosures exporting STEP, STL, and 3MF.</description>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/amagine-ai/Amagine3D</guid>
-    <category>3D + AI</category>
   </item>
 </channel>
 </rss>
