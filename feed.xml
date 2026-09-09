@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 08 Sep 2026 08:24:02 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Sep 2026 08:26:07 +0000</lastBuildDate>
   <item>
     <title>Lucet — Open-Source AI Interface Components for Edge States</title>
     <link>https://lucet.design</link>
@@ -32,6 +32,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>camera-to-blender — Phone Photo to 3D Model Auto-Imported into Blender</title>
+    <link>https://github.com/ahujasid/camera-to-blender</link>
+    <description>Photograph any real object and get a cleaned, AI-generated 3D model auto-imported into Blender in under 60 seconds.</description>
+    <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/ahujasid/camera-to-blender</guid>
+    <category>3D + AI</category>
+  </item>
+  <item>
     <title>JudgmentKit — Judgment Layer for AI-Generated UI</title>
     <link>https://judgmentkit.ai</link>
     <description>Forces AI agents to declare user activity, decision, and disclosure scope before building any interface — v0.8.0.</description>
@@ -46,6 +54,14 @@
     <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/agent-3d-transforms</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>holo-card-studio — Holographic Trading Card Skill for Blender and Three.js</title>
+    <link>https://github.com/EverettFish/holo-card-studio</link>
+    <description>Codex skill: describe a card concept, get a layered Blender file and a Three.js viewer with parallax and holographic effects.</description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/EverettFish/holo-card-studio</guid>
+    <category>3D + AI</category>
   </item>
   <item>
     <title>mesurer — Browser UI Inspector with AI Agent Feedback</title>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://www.nngroup.com/articles/ai-ux-debt/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>The AI Interface Museum</title>
-    <link>https://interfaces.kylejeong.com/</link>
-    <description>Browsable archive of 50+ AI interfaces from 2011–2026, documenting interaction patterns from Siri to autonomous agents.</description>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://interfaces.kylejeong.com/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>scroll-craft — Premium Scroll-Driven Website Skill for Claude Code</title>
-    <link>https://github.com/nateherkai/scroll-craft</link>
-    <description>Claude Code skill builds cinematic scroll-driven sites with 8 templates, an anti-slop refuse list, and screenshot verification.</description>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/nateherkai/scroll-craft</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
