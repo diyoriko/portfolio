@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 09 Sep 2026 08:26:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Sep 2026 08:25:44 +0000</lastBuildDate>
+  <item>
+    <title>DialKit — Live UI Parameter Editor for Design Engineers</title>
+    <link>https://www.dialkit.dev/</link>
+    <description>Open-source control panel for React/Vue/Svelte that binds live sliders, color pickers, and animation editors directly to code with no reload.</description>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.dialkit.dev/</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>Lucet — Open-Source AI Interface Components for Edge States</title>
     <link>https://lucet.design</link>
@@ -144,28 +152,20 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>shots — AI App Store Screenshot Skill Using GPT Image 2 for Claude Code</title>
+    <link>https://github.com/hypersocialinc/shots</link>
+    <description>Claude Code skill that scrapes app metadata, generates polished App Store marketing composites via GPT Image 2, and crops to spec for ~$0.50.</description>
+    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/hypersocialinc/shots</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>Topview Motion Studio — Agent OS for Marketing and Filmmaking</title>
     <link>https://topview.ai</link>
     <description>AI agent canvas that plans scenes, routes across video generation models, and assembles marketing films without After Effects.</description>
     <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     <guid>https://topview.ai</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>CodePilot — Multi-Model AI Agent Desktop Client</title>
-    <link>https://github.com/op7418/CodePilot</link>
-    <description>Multi-model AI desktop app by op7418: 17+ providers, MCP servers, and a skills marketplace in one client.</description>
-    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/CodePilot</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>The Custodial Era of UX: Cleaning Up After AI</title>
-    <link>https://www.nngroup.com/articles/ai-ux-debt/</link>
-    <description>NNGroup: AI lets teams build faster than UX can evaluate, shifting designers toward auditing and refining AI-generated work rather than starting from scratch.</description>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/ai-ux-debt/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>

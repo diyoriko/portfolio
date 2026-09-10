@@ -73,6 +73,22 @@
   },
   "items": [
     {
+      "title": "DialKit — Live UI Parameter Editor for Design Engineers",
+      "url": "https://www.dialkit.dev/",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_en": "Open-source control panel for React/Vue/Svelte that binds live sliders, color pickers, and animation editors directly to code with no reload.",
+      "desc_ru": "Опенсорс-библиотека: живые слайдеры, палитры и редакторы анимаций прямо в React/Vue/Svelte-коде без перезагрузки.",
+      "date": "2026-09-09",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-09-10"
+    },
+    {
       "title": "Lucet — Open-Source AI Interface Components for Edge States",
       "url": "https://lucet.design",
       "type": "tool",
@@ -103,7 +119,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-08",
-      "stars": 48097
+      "stars": 48538
     },
     {
       "title": "M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts",
@@ -121,7 +137,7 @@
       "expanded_window": false,
       "star_velocity": "~3300★/7d",
       "added": "2026-09-06",
-      "stars": 5371
+      "stars": 5644
     },
     {
       "title": "camera-to-blender — Phone Photo to 3D Model Auto-Imported into Blender",
@@ -138,7 +154,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-09",
-      "stars": 779
+      "stars": 791
     },
     {
       "title": "JudgmentKit — Judgment Layer for AI-Generated UI",
@@ -188,7 +204,7 @@
       "expanded_window": false,
       "star_velocity": "~250★/7d",
       "added": "2026-09-09",
-      "stars": 1189
+      "stars": 1278
     },
     {
       "title": "mesurer — Browser UI Inspector with AI Agent Feedback",
@@ -205,7 +221,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 505
+      "stars": 510
     },
     {
       "title": "guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill",
@@ -222,7 +238,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-04",
-      "stars": 395
+      "stars": 400
     },
     {
       "title": "The Call for an Agentic Standard",
@@ -287,7 +303,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 539
+      "stars": 544
     },
     {
       "title": "Behind the Build: Generative Plugins and Shaders at Figma",
@@ -352,7 +368,24 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-06",
-      "stars": 187
+      "stars": 189
+    },
+    {
+      "title": "shots — AI App Store Screenshot Skill Using GPT Image 2 for Claude Code",
+      "url": "https://github.com/hypersocialinc/shots",
+      "type": "skill",
+      "tag": "skills",
+      "desc_en": "Claude Code skill that scrapes app metadata, generates polished App Store marketing composites via GPT Image 2, and crops to spec for ~$0.50.",
+      "desc_ru": "Скилл для Claude Code: анализирует приложение, генерирует маркетинговые скриншоты через GPT Image 2 и обрезает по формату — ~$0.50 за набор.",
+      "date": "2026-09-01",
+      "priority": 2,
+      "score": 4,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-09-10",
+      "stars": 237
     },
     {
       "title": "Topview Motion Studio — Agent OS for Marketing and Filmmaking",
@@ -434,7 +467,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-26",
-      "stars": 2211
+      "stars": 2262
     },
     {
       "title": "Is Agentic — Website Agent-Readiness Auditor",
@@ -467,7 +500,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-30",
-      "stars": 2872
+      "stars": 3280
     },
     {
       "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
@@ -484,7 +517,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-24",
-      "stars": 5416
+      "stars": 5485
     },
     {
       "title": "Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents",
@@ -501,7 +534,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-25",
-      "stars": 631
+      "stars": 635
     },
     {
       "title": "goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill",
@@ -519,7 +552,7 @@
       "expanded_window": false,
       "star_velocity": "896★/7d",
       "added": "2026-08-31",
-      "stars": 1936
+      "stars": 1980
     },
     {
       "title": "The Task Isn't the Job",
@@ -616,7 +649,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-19",
-      "stars": 534
+      "stars": 543
     },
     {
       "title": "Agent Experience Needs Failure Affordances",
@@ -649,7 +682,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 2806
+      "stars": 2809
     },
     {
       "title": "Agent Behavior — Open Standard for Documenting AI Agent Conduct",
@@ -730,7 +763,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 1897
+      "stars": 1900
     },
     {
       "title": "Isolate.video — Screen Recordings to Polished Product Demo Videos",
@@ -892,7 +925,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-18",
-      "stars": 673
+      "stars": 677
     },
     {
       "title": "Measuring Time Savings from Figma Make",
@@ -974,7 +1007,7 @@
       "expanded_window": false,
       "star_velocity": "700★/7d",
       "added": "2026-08-11",
-      "stars": 2312
+      "stars": 2336
     },
     {
       "title": "Code, Craft, and the Making of Nested Folders",
@@ -1023,7 +1056,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-06",
-      "stars": 2424
+      "stars": 2442
     },
     {
       "title": "interior — Micro-Interactions for React, Built for the Half-Second After a Click",
@@ -1105,7 +1138,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-04",
-      "stars": 3895
+      "stars": 3903
     },
     {
       "title": "Designing for the Proxy",
@@ -1170,7 +1203,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-09-05",
-      "stars": 537
+      "stars": 538
     },
     {
       "title": "AI Fluency Isn't the Finish Line",
@@ -1315,7 +1348,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-05",
-      "stars": 171
+      "stars": 172
     },
     {
       "title": "Digital Tools, Human Expression: The Visual Identity Behind Config 2026",
@@ -1348,7 +1381,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-08-11",
-      "stars": 231
+      "stars": 233
     },
     {
       "title": "Use Auto Layout with CSS Flexbox in Mind",
@@ -1495,7 +1528,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1173
+      "stars": 1176
     },
     {
       "title": "story-to-handdrawn-video — Story Text to Hand-Drawn Diary Comic Animation Skill for Claude Code and Codex",
@@ -1512,7 +1545,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-26",
-      "stars": 1898
+      "stars": 1913
     },
     {
       "title": "video-shotcraft — Cinematic Product Video Skill for Claude Code and Codex",
@@ -1530,7 +1563,7 @@
       "expanded_window": false,
       "star_velocity": "636★/7d",
       "added": "2026-07-24",
-      "stars": 7855
+      "stars": 7969
     },
     {
       "title": "OpenChatCut — Local-First AI Video Editor with Agent Skills and MCP",
@@ -1547,7 +1580,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-07-25",
-      "stars": 1670
+      "stars": 1693
     },
     {
       "title": "Earning Taste and Judgment",
