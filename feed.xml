@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 11 Sep 2026 08:20:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 08:15:44 +0000</lastBuildDate>
   <item>
     <title>Anatomy of AI Input</title>
     <link>https://ibelick.com/anatomy-ai-input</link>
@@ -24,12 +24,28 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>AI Canvas, Synthetic Self, The Prompt Is the Product</title>
+    <link>https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6</link>
+    <description>Fabricio Teixeira on AI canvases as writable design surfaces, AI-generated identity, and prompts as primary design artifacts.</description>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>Lucet — Open-Source AI Interface Components for Edge States</title>
     <link>https://lucet.design</link>
     <description>Open-source component library for AI edge states — refusals, interruptions, rate limits, stale answers — with design rationale for each pattern.</description>
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://lucet.design</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>When the Canvas Starts Acting, Who's Really in Control?</title>
+    <link>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</link>
+    <description>How agentic canvases (Figma, Miro) shift designer control from interactions to orchestration and attention management.</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>HyperFrames — HTML-to-Video Agent Framework with 20 Production Skills</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.supernova.io/blog/introducing-supernova-editor-mcp</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Clarity — AI Writing Skill by Addy Osmani</title>
-    <link>https://github.com/addyosmani/clarity</link>
-    <description>18-rule Claude Code skill: interview, rewrite, and review modes for specs, docs, and UX copy. 172★.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/addyosmani/clarity</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>shots — AI App Store Screenshot Skill Using GPT Image 2 for Claude Code</title>
-    <link>https://github.com/hypersocialinc/shots</link>
-    <description>Claude Code skill that scrapes app metadata, generates polished App Store marketing composites via GPT Image 2, and crops to spec for ~$0.50.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/hypersocialinc/shots</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
