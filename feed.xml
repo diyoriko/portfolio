@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 12 Sep 2026 08:15:44 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 08:36:55 +0000</lastBuildDate>
   <item>
     <title>Anatomy of AI Input</title>
     <link>https://ibelick.com/anatomy-ai-input</link>
@@ -32,6 +32,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>apple-design-skill — Cross-Platform Apple HIG Reviewer for Claude Code, Cursor, and Codex</title>
+    <link>https://github.com/dickwu/apple-design-skill</link>
+    <description>Apple HIG reviewer skill for Claude Code, Cursor, and Codex. Covers Flutter, React Native, SwiftUI, and more.</description>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/dickwu/apple-design-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>Lucet — Open-Source AI Interface Components for Edge States</title>
     <link>https://lucet.design</link>
     <description>Open-source component library for AI edge states — refusals, interruptions, rate limits, stale answers — with design rationale for each pattern.</description>
@@ -46,6 +54,14 @@
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>anything2explainer — Any Topic to Motion-Graphics Explainer Video Skill</title>
+    <link>https://github.com/Vincentwei1021/anything2explainer</link>
+    <description>Claude Code skill that generates motion explainer videos with TTS voiceover, subtitles, and chapter progress bars.</description>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Vincentwei1021/anything2explainer</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>HyperFrames — HTML-to-Video Agent Framework with 20 Production Skills</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Framer Agents: 3D Transforms</title>
-    <link>https://www.framer.com/updates/</link>
-    <description>Framer's Agent now generates 3D Transform layers — Rotate XYZ, Perspective, Depth — all editable on the canvas.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Supernova Editor MCP — Write Access for AI Agents</title>
-    <link>https://www.supernova.io/blog/introducing-supernova-editor-mcp</link>
-    <description>Supernova's public-beta MCP lets AI agents write to your design system — rename components, draft docs, detect drift.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.supernova.io/blog/introducing-supernova-editor-mcp</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
