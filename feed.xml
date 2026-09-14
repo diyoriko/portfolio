@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 13 Sep 2026 08:36:55 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 09:19:48 +0000</lastBuildDate>
   <item>
     <title>Anatomy of AI Input</title>
     <link>https://ibelick.com/anatomy-ai-input</link>
@@ -62,6 +62,14 @@
     <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Vincentwei1021/anything2explainer</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>How to Connect Your Design System to Claude Code, Cursor, Codex and VS Code</title>
+    <link>https://www.supernova.io/blog/connect-design-system-mcp-claude-code</link>
+    <description>Step-by-step commands to connect a design system MCP server to Claude Code, with scope and team-sharing decisions covered.</description>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.supernova.io/blog/connect-design-system-mcp-claude-code</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>HyperFrames — HTML-to-Video Agent Framework with 20 Production Skills</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/s0xDk/refactoring-ui-skill</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Behind the Build: Generative Plugins and Shaders at Figma</title>
-    <link>https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/</link>
-    <description>Figma's generative plugins and shaders now support animation, mouse interaction, and Community publishing.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
