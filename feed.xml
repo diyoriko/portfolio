@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 14 Sep 2026 09:19:48 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 08:59:34 +0000</lastBuildDate>
   <item>
     <title>Anatomy of AI Input</title>
     <link>https://ibelick.com/anatomy-ai-input</link>
@@ -40,6 +40,14 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>Why Design System Documentation Goes Out of Date</title>
+    <link>https://www.supernova.io/blog/why-design-system-documentation-goes-out-of-date</link>
+    <description>Why design system docs drift and how AI agents via Editor MCP can run semantic consistency passes at scale.</description>
+    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.supernova.io/blog/why-design-system-documentation-goes-out-of-date</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>Lucet — Open-Source AI Interface Components for Edge States</title>
     <link>https://lucet.design</link>
     <description>Open-source component library for AI edge states — refusals, interruptions, rate limits, stale answers — with design rationale for each pattern.</description>
@@ -54,6 +62,14 @@
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>generative-a11y — Accessibility Runtime for Streaming AI Interfaces</title>
+    <link>https://github.com/bhaveshchow20/generative-a11y</link>
+    <description>Runtime that paces streaming AI tokens into meaningful screen-reader announcements without rebuilding your UI.</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/bhaveshchow20/generative-a11y</guid>
+    <category>Accessibility × AI</category>
   </item>
   <item>
     <title>anything2explainer — Any Topic to Motion-Graphics Explainer Video Skill</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://christophhellmuth.com/open-design-system-bench/</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>How Coinbase Used Code Connect to Shrink Token Costs</title>
-    <link>https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/</link>
-    <description>Coinbase's design system team cut token costs 22.5% and improved design system adherence using Figma Code Connect.</description>
-    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>refactoring-ui-skill — Refactoring UI Principles as a Claude Code Skill</title>
-    <link>https://github.com/s0xDk/refactoring-ui-skill</link>
-    <description>Claude Code skill applying Refactoring UI's constrained type, spacing, and color scales to building interfaces.</description>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/s0xDk/refactoring-ui-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
