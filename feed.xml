@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 15 Sep 2026 08:59:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 08:54:50 +0000</lastBuildDate>
+  <item>
+    <title>Planning with Agents</title>
+    <link>https://maggieappleton.com/planning-agents</link>
+    <description>Maggie Appleton on designing visual, collaborative planning interfaces for AI agents instead of dense CLI text.</description>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://maggieappleton.com/planning-agents</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Anatomy of AI Input</title>
     <link>https://ibelick.com/anatomy-ai-input</link>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Open Design System Bench — AI-Readiness Score for Design Systems</title>
-    <link>https://christophhellmuth.com/open-design-system-bench/</link>
-    <description>Scores design systems for AI-readiness on 7 dimensions and runs coding agents against component libraries.</description>
-    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://christophhellmuth.com/open-design-system-bench/</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
