@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 16 Sep 2026 08:54:50 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 17 Sep 2026 08:58:25 +0000</lastBuildDate>
+  <item>
+    <title>Try These 5 Weave Tools—and Share Your Own</title>
+    <link>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</link>
+    <description>Figma opens Weave tool publishing to the community; five AI image tools now run inside the canvas without switching apps.</description>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Planning with Agents</title>
     <link>https://maggieappleton.com/planning-agents</link>
@@ -22,6 +30,14 @@
     <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://ibelick.com/anatomy-ai-input</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>3dviz-pro-max — Agent Skill for Creative 3D Visualization with 223 Recipes</title>
+    <link>https://github.com/viettranx/3dviz-pro-max</link>
+    <description>Describe a scene in natural language and get a runnable Three.js or Blender project with 223 curated recipes.</description>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/viettranx/3dviz-pro-max</guid>
+    <category>3D + AI</category>
   </item>
   <item>
     <title>DialKit — Live UI Parameter Editor for Design Engineers</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/ibelick/mesurer</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill</title>
-    <link>https://github.com/op7418/guizang-yingzao-skill</link>
-    <description>Transforms Chinese architecture and travel photos into art-directed editorial posters via GPT Image in Claude Code.</description>
-    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-yingzao-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>The Call for an Agentic Standard</title>
-    <link>https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370</link>
-    <description>AI agents keep re-requesting the same user data; proposes a shared interaction contract across agentic products.</description>
-    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
