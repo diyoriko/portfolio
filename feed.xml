@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 17 Sep 2026 08:58:25 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 08:33:26 +0000</lastBuildDate>
+  <item>
+    <title>Designing with AI</title>
+    <link>https://buzzusborne.com/work/designing-with-ai/</link>
+    <description>Help Scout rebuilt their design system to be machine-legible and shipped an internal AI prototyping environment backed by real components.</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://buzzusborne.com/work/designing-with-ai/</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>Try These 5 Weave Tools—and Share Your Own</title>
     <link>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</link>
@@ -22,6 +30,14 @@
     <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://maggieappleton.com/planning-agents</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>page-mascot — AI Sprite Sheet Generator and Interactive Web Mascot Skill</title>
+    <link>https://github.com/nilbuild/page-mascot</link>
+    <description>Prompt /page-mascot with a character description and the skill draws a 9×9 sprite sheet and embeds an interactive cursor-following mascot as a web component.</description>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/nilbuild/page-mascot</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Anatomy of AI Input</title>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/agent-3d-transforms</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>holo-card-studio — Holographic Trading Card Skill for Blender and Three.js</title>
-    <link>https://github.com/EverettFish/holo-card-studio</link>
-    <description>Codex skill: describe a card concept, get a layered Blender file and a Three.js viewer with parallax and holographic effects.</description>
-    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/EverettFish/holo-card-studio</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>mesurer — Browser UI Inspector with AI Agent Feedback</title>
-    <link>https://github.com/ibelick/mesurer</link>
-    <description>Browser UI inspector: measure, annotate live interfaces, and share visual feedback with AI coding agents.</description>
-    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ibelick/mesurer</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
