@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 18 Sep 2026 08:33:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 19 Sep 2026 08:19:10 +0000</lastBuildDate>
   <item>
     <title>Designing with AI</title>
     <link>https://buzzusborne.com/work/designing-with-ai/</link>
@@ -14,6 +14,14 @@
     <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://buzzusborne.com/work/designing-with-ai/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>guizang-product-video-skill — On-Brand Software Promotional Video Skill for Claude Code and Codex</title>
+    <link>https://github.com/op7418/guizang-product-video-skill</link>
+    <description>Creates software promo videos by reusing your product's actual components, tokens, colors, and design language.</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-product-video-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Try These 5 Weave Tools—and Share Your Own</title>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://judgmentkit.ai</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Framer Agents: 3D Transforms</title>
-    <link>https://www.framer.com/updates/agent-3d-transforms</link>
-    <description>Framer's design agent now generates Rotate XYZ, Perspective, and Backface effects — all layers stay editable on canvas.</description>
-    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/agent-3d-transforms</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
