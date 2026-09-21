@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 20 Sep 2026 08:53:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 09:21:49 +0000</lastBuildDate>
   <item>
     <title>Designing with AI</title>
     <link>https://buzzusborne.com/work/designing-with-ai/</link>
@@ -22,6 +22,14 @@
     <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/op7418/guizang-product-video-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Compositor — Free Open-Source Photoshop Alternative for Mac</title>
+    <link>https://github.com/robbietilton/Compositor</link>
+    <description>Free open-source Mac image editor by designer Robbie Tilton — 3.9k stars in 3 days, AI background removal and content-aware fill.</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/robbietilton/Compositor</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>Try These 5 Weave Tools—and Share Your Own</title>
@@ -120,6 +128,14 @@
     <category>Accessibility × AI</category>
   </item>
   <item>
+    <title>Framer Agents: CMS List Field</title>
+    <link>https://www.framer.com/updates/cms-list-field</link>
+    <description>Framer agents now auto-convert repeated CMS fields into Lists — simpler content modeling for Framer site builders.</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/cms-list-field</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>anything2explainer — Any Topic to Motion-Graphics Explainer Video Skill</title>
     <link>https://github.com/Vincentwei1021/anything2explainer</link>
     <description>Claude Code skill that generates motion explainer videos with TTS voiceover, subtitles, and chapter progress bars.</description>
@@ -150,22 +166,6 @@
     <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/lnkiai/m3e-canvas</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>camera-to-blender — Phone Photo to 3D Model Auto-Imported into Blender</title>
-    <link>https://github.com/ahujasid/camera-to-blender</link>
-    <description>Photograph any real object and get a cleaned, AI-generated 3D model auto-imported into Blender in under 60 seconds.</description>
-    <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/ahujasid/camera-to-blender</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>JudgmentKit — Judgment Layer for AI-Generated UI</title>
-    <link>https://judgmentkit.ai</link>
-    <description>Forces AI agents to declare user activity, decision, and disclosure scope before building any interface — v0.8.0.</description>
-    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://judgmentkit.ai</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
