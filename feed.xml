@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 21 Sep 2026 09:21:49 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 22 Sep 2026 08:53:44 +0000</lastBuildDate>
+  <item>
+    <title>Introducing Motion Studio</title>
+    <link>https://motion.dev/magazine/introducing-motion-studio</link>
+    <description>Motion's web-based animation editor launches Ultramotion, an AI agent that edits keyframes in under a second and writes changes back to code.</description>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://motion.dev/magazine/introducing-motion-studio</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>Designing with AI</title>
     <link>https://buzzusborne.com/work/designing-with-ai/</link>
@@ -158,14 +166,6 @@
     <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/heygen-com/hyperframes</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts</title>
-    <link>https://github.com/lnkiai/m3e-canvas</link>
-    <description>Browser canvas for sketching Material 3 screens; copies a single AI prompt for Claude Code, Codex, or Gemini CLI.</description>
-    <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/lnkiai/m3e-canvas</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
