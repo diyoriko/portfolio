@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 22 Sep 2026 08:53:44 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 08:52:33 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
@@ -14,6 +14,14 @@
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://motion.dev/magazine/introducing-motion-studio</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>superdesign-skill — Design Skill for Claude Code and 70+ Coding Agents</title>
+    <link>https://github.com/superdesigndev/superdesign-skill</link>
+    <description>Installable skill for 70+ coding agents that generates branchable UI drafts with design judgment on an infinite canvas from the terminal.</description>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/superdesigndev/superdesign-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Designing with AI</title>
@@ -38,6 +46,14 @@
     <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/robbietilton/Compositor</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>The 3 Roles of Context for AI Agents</title>
+    <link>https://www.nngroup.com/articles/3-agent-context-roles/</link>
+    <description>NNGroup study: curating global, local, and ambient context for AI agents matters more than prompt quality.</description>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.nngroup.com/articles/3-agent-context-roles/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Try These 5 Weave Tools—and Share Your Own</title>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Vincentwei1021/anything2explainer</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>How to Connect Your Design System to Claude Code, Cursor, Codex and VS Code</title>
-    <link>https://www.supernova.io/blog/connect-design-system-mcp-claude-code</link>
-    <description>Step-by-step commands to connect a design system MCP server to Claude Code, with scope and team-sharing decisions covered.</description>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.supernova.io/blog/connect-design-system-mcp-claude-code</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>HyperFrames — HTML-to-Video Agent Framework with 20 Production Skills</title>
-    <link>https://github.com/heygen-com/hyperframes</link>
-    <description>Converts HTML/CSS/animations to deterministic MP4 video with 20 agent skills and frame.md — a DESIGN.md superset for video composition.</description>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/heygen-com/hyperframes</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
