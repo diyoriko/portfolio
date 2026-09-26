@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 25 Sep 2026 09:08:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 08:53:29 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
@@ -21,6 +21,14 @@
     <description>Installable skill for 70+ coding agents that generates branchable UI drafts with design judgment on an infinite canvas from the terminal.</description>
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/superdesigndev/superdesign-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>golive-skill — Deploy Agent-Built Products with Hosting, Database, Domain and Payments</title>
+    <link>https://github.com/mikehasa/golive-skill</link>
+    <description>Agent skill that handles hosting, database, domain, and payments for Claude Code-built products via Vercel, Supabase, and Stripe.</description>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/mikehasa/golive-skill</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/cms-list-field</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>anything2explainer — Any Topic to Motion-Graphics Explainer Video Skill</title>
-    <link>https://github.com/Vincentwei1021/anything2explainer</link>
-    <description>Claude Code skill that generates motion explainer videos with TTS voiceover, subtitles, and chapter progress bars.</description>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Vincentwei1021/anything2explainer</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
