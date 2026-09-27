@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 26 Sep 2026 08:53:29 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 27 Sep 2026 09:35:49 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
@@ -30,6 +30,14 @@
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/mikehasa/golive-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>I Gave My Website a Boss Fight</title>
+    <link>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</link>
+    <description>Paul Bakaus built a fully interactive retro site with Claude by constraining it to a fixed 4096-color palette and pixel grid.</description>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Designing with AI</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/bhaveshchow20/generative-a11y</guid>
     <category>Accessibility × AI</category>
-  </item>
-  <item>
-    <title>Framer Agents: CMS List Field</title>
-    <link>https://www.framer.com/updates/cms-list-field</link>
-    <description>Framer agents now auto-convert repeated CMS fields into Lists — simpler content modeling for Framer site builders.</description>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/cms-list-field</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
