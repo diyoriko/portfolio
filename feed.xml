@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 28 Sep 2026 10:15:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 10:09:03 +0000</lastBuildDate>
   <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
@@ -38,6 +38,14 @@
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Framer Skills — Reusable Agent Instructions for Design Systems and CMS Workflows</title>
+    <link>https://www.framer.com/updates/skills</link>
+    <description>Framer's new agent skill system saves reusable design system guidelines, writing styles, and CMS workflows for the Framer AI agent.</description>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/skills</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>Webflow Agents: MCP Interactions and Cloud Deployment</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://lucet.design</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>When the Canvas Starts Acting, Who's Really in Control?</title>
-    <link>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</link>
-    <description>How agentic canvases (Figma, Miro) shift designer control from interactions to orchestration and attention management.</description>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://newsletter.uxdesign.cc/p/when-the-canvas-starts-acting-whos</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
