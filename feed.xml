@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 29 Sep 2026 10:09:03 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 10:02:10 +0000</lastBuildDate>
+  <item>
+    <title>onetake — Continuous-Motion Product Video Skill for Claude Code</title>
+    <link>https://github.com/feitangyuan/onetake</link>
+    <description>Claude Agent Skill that generates product launch films with a single unbroken camera — every scene visually flows from the one before, no cuts.</description>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/feitangyuan/onetake</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Agentic Translation in Webflow Localize</title>
+    <link>https://webflow.com/updates/agentic-translation</link>
+    <description>Webflow Localize now uses AI agents to translate and continuously sync multilingual site content whenever the primary locale changes.</description>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/updates/agentic-translation</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/dickwu/apple-design-skill</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Why Design System Documentation Goes Out of Date</title>
-    <link>https://www.supernova.io/blog/why-design-system-documentation-goes-out-of-date</link>
-    <description>Why design system docs drift and how AI agents via Editor MCP can run semantic consistency passes at scale.</description>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.supernova.io/blog/why-design-system-documentation-goes-out-of-date</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Lucet — Open-Source AI Interface Components for Edge States</title>
-    <link>https://lucet.design</link>
-    <description>Open-source component library for AI edge states — refusals, interruptions, rate limits, stale answers — with design rationale for each pattern.</description>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://lucet.design</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
