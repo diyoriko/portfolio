@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 30 Sep 2026 10:02:10 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 10:29:28 +0000</lastBuildDate>
   <item>
     <title>onetake — Continuous-Motion Product Video Skill for Claude Code</title>
     <link>https://github.com/feitangyuan/onetake</link>
@@ -22,6 +22,22 @@
     <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/updates/agentic-translation</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>shapeshift — One Text Input That Morphs Into the Right UI Component</title>
+    <link>https://github.com/anishfn/shapeshift</link>
+    <description>One input box that morphs into the right UI—event card, checklist, color picker—based on what you type.</description>
+    <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/anishfn/shapeshift</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>logo-design-skill — Comprehensive Logo Design Skill for Claude, Codex and Gemini CLI</title>
+    <link>https://github.com/kaankiziltug/logo-design-skill</link>
+    <description>Logo design skill for Claude, Codex, and Gemini CLI with 1,400+ SVG reference library and audit tools.</description>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/kaankiziltug/logo-design-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Introducing Motion Studio</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.dialkit.dev/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>AI Canvas, Synthetic Self, The Prompt Is the Product</title>
-    <link>https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6</link>
-    <description>Fabricio Teixeira on AI canvases as writable design surfaces, AI-generated identity, and prompts as primary design artifacts.</description>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>apple-design-skill — Cross-Platform Apple HIG Reviewer for Claude Code, Cursor, and Codex</title>
-    <link>https://github.com/dickwu/apple-design-skill</link>
-    <description>Apple HIG reviewer skill for Claude Code, Cursor, and Codex. Covers Flutter, React Native, SwiftUI, and more.</description>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/dickwu/apple-design-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
