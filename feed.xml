@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 01 Oct 2026 10:29:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 10:04:44 +0000</lastBuildDate>
+  <item>
+    <title>Workflow Lab: From Design System to Campaign in Figma Weave</title>
+    <link>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</link>
+    <description>End-to-end workflow using Figma Weave nodes to turn a design system into localized campaign assets.</description>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>onetake — Continuous-Motion Product Video Skill for Claude Code</title>
     <link>https://github.com/feitangyuan/onetake</link>
@@ -38,6 +46,14 @@
     <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/kaankiziltug/logo-design-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>motion-video-kit — Professional Business Film Skill for Claude Code with GSAP and Three.js</title>
+    <link>https://github.com/echris6/motion-video-kit</link>
+    <description>Claude Code skill for producing launch-grade business commercials with GSAP motion and optional Three.js.</description>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/echris6/motion-video-kit</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Introducing Motion Studio</title>
@@ -149,22 +165,6 @@
     <description>Eight-layer breakdown of AI input fields covering mechanics, context bar, tool triggers, attachments, suggestions, controls, states, and edge cases.</description>
     <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://ibelick.com/anatomy-ai-input</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>3dviz-pro-max — Agent Skill for Creative 3D Visualization with 223 Recipes</title>
-    <link>https://github.com/viettranx/3dviz-pro-max</link>
-    <description>Describe a scene in natural language and get a runnable Three.js or Blender project with 223 curated recipes.</description>
-    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/viettranx/3dviz-pro-max</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>DialKit — Live UI Parameter Editor for Design Engineers</title>
-    <link>https://www.dialkit.dev/</link>
-    <description>Open-source control panel for React/Vue/Svelte that binds live sliders, color pickers, and animation editors directly to code with no reload.</description>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.dialkit.dev/</guid>
     <category>Design Engineering</category>
   </item>
 </channel>
