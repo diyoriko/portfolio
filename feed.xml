@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 02 Oct 2026 10:04:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 09:28:50 +0000</lastBuildDate>
+  <item>
+    <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
+    <link>https://github.com/emilkowalski/skills</link>
+    <description>42.9k-star skills collection; 13 tools encoding animation, UI taste, and mobile expertise for AI agents. New break-ui skill added Oct 2.</description>
+    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/emilkowalski/skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Workflow Lab: From Design System to Campaign in Figma Weave</title>
     <link>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</link>
@@ -158,14 +166,6 @@
     <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/nilbuild/page-mascot</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Anatomy of AI Input</title>
-    <link>https://ibelick.com/anatomy-ai-input</link>
-    <description>Eight-layer breakdown of AI input fields covering mechanics, context bar, tool triggers, attachments, suggestions, controls, states, and edge cases.</description>
-    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://ibelick.com/anatomy-ai-input</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
