@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 03 Oct 2026 09:28:50 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 10:05:28 +0000</lastBuildDate>
   <item>
     <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
     <link>https://github.com/emilkowalski/skills</link>
@@ -64,6 +64,14 @@
     <category>Motion × AI</category>
   </item>
   <item>
+    <title>reelmimic — Multi-Agent Tool That Clones Any Video's Visual Style</title>
+    <link>https://github.com/edenfunf/reelmimic</link>
+    <description>Analyzes reference videos for pacing, framing, and color, then generates new animations in the same style across 7 drawing engines.</description>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/edenfunf/reelmimic</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>Introducing Motion Studio</title>
     <link>https://motion.dev/magazine/introducing-motion-studio</link>
     <description>Motion's web-based animation editor launches Ultramotion, an AI agent that edits keyframes in under a second and writes changes back to code.</description>
@@ -112,6 +120,14 @@
     <category>Tools</category>
   </item>
   <item>
+    <title>Webflow MCP: Agents Can Now Build Interactions, Filter CMS, and Deploy Cloud Apps</title>
+    <link>https://webflow.com/updates/mcp-interactions-cloud</link>
+    <description>Webflow MCP now lets agents create GSAP interactions with scroll/hover/click triggers, filter CMS fields, and deploy Webflow Cloud apps.</description>
+    <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/updates/mcp-interactions-cloud</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>Designing with AI</title>
     <link>https://buzzusborne.com/work/designing-with-ai/</link>
     <description>Help Scout rebuilt their design system to be machine-legible and shipped an internal AI prototyping environment backed by real components.</description>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Planning with Agents</title>
-    <link>https://maggieappleton.com/planning-agents</link>
-    <description>Maggie Appleton on designing visual, collaborative planning interfaces for AI agents instead of dense CLI text.</description>
-    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://maggieappleton.com/planning-agents</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>page-mascot — AI Sprite Sheet Generator and Interactive Web Mascot Skill</title>
-    <link>https://github.com/nilbuild/page-mascot</link>
-    <description>Prompt /page-mascot with a character description and the skill draws a 9×9 sprite sheet and embeds an interactive cursor-following mascot as a web component.</description>
-    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/nilbuild/page-mascot</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>

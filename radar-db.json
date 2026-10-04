@@ -87,7 +87,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-03",
-      "stars": 42905
+      "stars": 43061
     },
     {
       "title": "Workflow Lab: From Design System to Campaign in Figma Weave",
@@ -120,7 +120,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-30",
-      "stars": 1385
+      "stars": 1471
     },
     {
       "title": "Agentic Translation in Webflow Localize",
@@ -154,7 +154,7 @@
       "expanded_window": false,
       "star_velocity": "730★/7d",
       "added": "2026-10-01",
-      "stars": 786
+      "stars": 797
     },
     {
       "title": "logo-design-skill — Comprehensive Logo Design Skill for Claude, Codex and Gemini CLI",
@@ -172,7 +172,7 @@
       "expanded_window": false,
       "star_velocity": "900★/5d",
       "added": "2026-10-01",
-      "stars": 1579
+      "stars": 1763
     },
     {
       "title": "motion-video-kit — Professional Business Film Skill for Claude Code with GSAP and Three.js",
@@ -190,7 +190,24 @@
       "expanded_window": false,
       "star_velocity": "270★/7d",
       "added": "2026-10-02",
-      "stars": 967
+      "stars": 990
+    },
+    {
+      "title": "reelmimic — Multi-Agent Tool That Clones Any Video's Visual Style",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "type": "tool",
+      "tag": "motion×ai",
+      "desc_en": "Analyzes reference videos for pacing, framing, and color, then generates new animations in the same style across 7 drawing engines.",
+      "desc_ru": "Анализирует референс-видео по темпу, кадрированию и цвету и создаёт новые анимации в том же стиле через 7 движков.",
+      "date": "2026-09-25",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-10-04",
+      "stars": 1188
     },
     {
       "title": "Introducing Motion Studio",
@@ -223,7 +240,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-23",
-      "stars": 620
+      "stars": 621
     },
     {
       "title": "golive-skill — Deploy Agent-Built Products with Hosting, Database, Domain and Payments",
@@ -240,7 +257,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-26",
-      "stars": 1189
+      "stars": 1205
     },
     {
       "title": "I Gave My Website a Boss Fight",
@@ -291,6 +308,22 @@
       "added": "2026-09-28"
     },
     {
+      "title": "Webflow MCP: Agents Can Now Build Interactions, Filter CMS, and Deploy Cloud Apps",
+      "url": "https://webflow.com/updates/mcp-interactions-cloud",
+      "type": "tool",
+      "tag": "tools",
+      "desc_en": "Webflow MCP now lets agents create GSAP interactions with scroll/hover/click triggers, filter CMS fields, and deploy Webflow Cloud apps.",
+      "desc_ru": "Агенты через Webflow MCP создают анимации на GSAP, фильтруют CMS и деплоят Cloud-приложения.",
+      "date": "2026-09-21",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 3,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-10-04"
+    },
+    {
       "title": "Designing with AI",
       "url": "https://buzzusborne.com/work/designing-with-ai/",
       "type": "article",
@@ -322,7 +355,7 @@
       "expanded_window": false,
       "star_velocity": "80★/24h",
       "added": "2026-09-19",
-      "stars": 672
+      "stars": 678
     },
     {
       "title": "Compositor — Free Open-Source Photoshop Alternative for Mac",
@@ -340,7 +373,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/24h",
       "added": "2026-09-21",
-      "stars": 7116
+      "stars": 7444
     },
     {
       "title": "The 3 Roles of Context for AI Agents",
@@ -405,7 +438,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-18",
-      "stars": 845
+      "stars": 849
     },
     {
       "title": "Anatomy of AI Input",
@@ -439,7 +472,7 @@
       "expanded_window": false,
       "star_velocity": "440★/7d",
       "added": "2026-09-17",
-      "stars": 636
+      "stars": 646
     },
     {
       "title": "DialKit — Live UI Parameter Editor for Design Engineers",
@@ -488,7 +521,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-13",
-      "stars": 937
+      "stars": 947
     },
     {
       "title": "Why Design System Documentation Goes Out of Date",
@@ -619,7 +652,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-08",
-      "stars": 56055
+      "stars": 56437
     },
     {
       "title": "M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts",
@@ -637,7 +670,7 @@
       "expanded_window": false,
       "star_velocity": "~3300★/7d",
       "added": "2026-09-06",
-      "stars": 8600
+      "stars": 8653
     },
     {
       "title": "camera-to-blender — Phone Photo to 3D Model Auto-Imported into Blender",
@@ -704,7 +737,7 @@
       "expanded_window": false,
       "star_velocity": "~250★/7d",
       "added": "2026-09-09",
-      "stars": 1855
+      "stars": 1862
     },
     {
       "title": "mesurer — Browser UI Inspector with AI Agent Feedback",
@@ -738,7 +771,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-04",
-      "stars": 480
+      "stars": 481
     },
     {
       "title": "The Call for an Agentic Standard",
@@ -950,7 +983,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-11",
-      "stars": 7128
+      "stars": 7138
     },
     {
       "title": "claude-skill-aso-appstore-screenshots — Two-Stage iOS Screenshot Generator for Claude Code",
@@ -1000,7 +1033,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-29",
-      "stars": 76443
+      "stars": 76907
     },
     {
       "title": "jakubkrehel/skills — 11 UI Agent Skills for Typography, Accessibility, and Product Writing",
@@ -1017,7 +1050,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-03",
-      "stars": 7428
+      "stars": 7440
     },
     {
       "title": "Topview Motion Studio — Agent OS for Marketing and Filmmaking",
@@ -1066,7 +1099,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-29",
-      "stars": 6495
+      "stars": 6492
     },
     {
       "title": "The Custodial Era of UX: Cleaning Up After AI",
@@ -1147,7 +1180,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-26",
-      "stars": 2918
+      "stars": 2932
     },
     {
       "title": "Is Agentic — Website Agent-Readiness Auditor",
@@ -1180,7 +1213,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-30",
-      "stars": 6284
+      "stars": 6287
     },
     {
       "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
@@ -1197,7 +1230,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-24",
-      "stars": 6394
+      "stars": 6419
     },
     {
       "title": "Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents",
@@ -1214,7 +1247,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-25",
-      "stars": 791
+      "stars": 799
     },
     {
       "title": "goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill",
@@ -1232,7 +1265,7 @@
       "expanded_window": false,
       "star_velocity": "896★/7d",
       "added": "2026-08-31",
-      "stars": 2381
+      "stars": 2397
     },
     {
       "title": "The Task Isn't the Job",
@@ -1345,7 +1378,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-19",
-      "stars": 606
+      "stars": 607
     },
     {
       "title": "Agent Experience Needs Failure Affordances",
@@ -1378,7 +1411,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 2958
+      "stars": 2965
     },
     {
       "title": "Agent Behavior — Open Standard for Documenting AI Agent Conduct",
@@ -1459,7 +1492,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-23",
-      "stars": 2009
+      "stars": 2010
     },
     {
       "title": "Isolate.video — Screen Recordings to Polished Product Demo Videos",
@@ -1703,7 +1736,7 @@
       "expanded_window": false,
       "star_velocity": "700★/7d",
       "added": "2026-08-11",
-      "stars": 2488
+      "stars": 2509
     },
     {
       "title": "Code, Craft, and the Making of Nested Folders",
