@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 04 Oct 2026 10:05:28 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 10:53:15 +0000</lastBuildDate>
   <item>
     <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
     <link>https://github.com/emilkowalski/skills</link>
@@ -22,6 +22,14 @@
     <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Libraries.dev — Agent Skill for 7 Crafted UI Component Libraries</title>
+    <link>https://github.com/Jakubantalik/Libraries.dev</link>
+    <description>Agent skill that reviews your project and auto-installs the right one of seven crafted UI component libraries.</description>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Jakubantalik/Libraries.dev</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>onetake — Continuous-Motion Product Video Skill for Claude Code</title>
@@ -70,6 +78,14 @@
     <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/edenfunf/reelmimic</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>What It Takes to Build Great Products Now</title>
+    <link>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</link>
+    <description>Figma outlines practical AI-era techniques: compare multiple directions on canvas, align code via Code Connect, use the agent for critiques.</description>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Introducing Motion Studio</title>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/robbietilton/Compositor</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>The 3 Roles of Context for AI Agents</title>
-    <link>https://www.nngroup.com/articles/3-agent-context-roles/</link>
-    <description>NNGroup study: curating global, local, and ambient context for AI agents matters more than prompt quality.</description>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.nngroup.com/articles/3-agent-context-roles/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Try These 5 Weave Tools—and Share Your Own</title>
-    <link>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</link>
-    <description>Figma opens Weave tool publishing to the community; five AI image tools now run inside the canvas without switching apps.</description>
-    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>

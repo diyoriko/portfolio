@@ -1,77 +1,6 @@
 [
   {
     "effective_queries": [
-      "Figma AI MCP agents design 2026 — confirmed Figma MCP Catalog existence and full agent landscape",
-      "Follow-up title searches for uxdesign.cc candidates — confirmed URLs, authors, and May 2026 dates for both final items",
-      "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced 6+ new repos (all below 50★ threshold; useful for monitoring pipeline)"
-    ],
-    "weak_queries": [
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — comparison guides only, 9th consecutive weak run",
-      "design systems AI tokens automation 2026 — marketing content and existing DB reports only; no newly shipped tooling",
-      "Claude Code OR Cursor designers workflow 2026 — only comparison articles already in DB",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — surfaced only already-DB articles; Smashing Part 2 is already in DB"
-    ],
-    "coverage_gaps": [
-      "motion×ai — Rive blog silent since April 30; no other motion/animation AI design tools found this run",
-      "tools — no new standalone shipped AI design tools discovered; category at 10 items with no relief",
-      "skills — multiple new GitHub repos found (figma-skill, prototype-to-figma-skill, ux-ui-mastery) but all below 50★ threshold"
-    ],
-    "tag_balance": "skills (23) and process (23) joint-highest; this run adds 1 process and 1 design+code item; motion×ai (6) and tools (10) remain starved with no new candidates; design+code (18) now well-covered with many similar-theme items creating diminishing returns",
-    "rejected_count": 14,
-    "top_rejection_reasons": [
-      "GitHub repos below 50★ threshold — nafiurrahmanniloy/figma-skill (3★), alima-max/prototype-to-figma-skill (22★), phazurlabs/ux-ui-mastery (11★), Shanmus4/figma-variables-tokens-generator (7★)",
-      "Not design-specific enough — rohitg00/awesome-claude-code-toolkit (1.9k★ general toolkit), op7418/CodePilot (5.8k★ multi-model desktop client)",
-      "Source failure — heydesigner.com returned 403 for 2nd consecutive run blocking highest-ROI discovery channel",
-      "Medium paywall — full content unverifiable; both final items included based on search result summaries and sidebar.io editorial signal",
-      "Topic overlap with existing DB — Murphy Trueman posts all dated Jan 2026 or earlier; Smashing Part 2 already in DB"
-    ],
-    "query_suggestions": [
-      {
-        "query": "WebFetch https://newsletter.uxdesign.cc",
-        "why": "UX Collective publishes high-signal design×AI content but uxdesign.cc is Medium-paywalled; the Substack newsletter version is publicly accessible and lists the same articles — both final items this run came from uxdesign.cc behind paywall"
-      },
-      {
-        "query": "WebFetch https://southleft.substack.com",
-        "why": "Was 403 on May 25 run; southleft has 3 DB items and publishes regularly — worth retrying weekly"
-      },
-      {
-        "query": "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-559/",
-        "why": "Smashing Newsletter lists hand-picked design+AI articles each issue; faster discovery than the AI category page which returned only already-DB articles"
-      },
-      {
-        "query": "FigmaLint TJ Pitre design system audit shipped 2026",
-        "why": "Smashing Magazine summary mentioned FigmaLint as a new tool auditing Figma components for design system compliance and developer readiness — couldn't verify URL or star count this run"
-      },
-      {
-        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens",
-        "why": "9th consecutive weak run — returns only comparison guides, never new shipped features"
-      },
-      {
-        "query": "RETIRE: WebFetch https://www.proofofconcept.pub",
-        "why": "Confirmed broken JS-render issue flagged in May 19 review; still listed in source rotation — permanently remove"
-      },
-      {
-        "query": "figma.com/mcp-catalog launch date 2026",
-        "why": "Figma MCP Catalog appeared in first-search results but couldn't be fetched to verify launch date and content depth — worth a targeted search next run"
-      }
-    ],
-    "notes": "Low-signal run due to cascading source failures: heydesigner.com returned 403 for the 2nd consecutive run (3rd overall since May 2026), rive.app/blog quiet since April 30, murphy trueman blog nothing new since January 2026, designtoolsweekly.com is pure SEO/listicle content. sidebar.io was the sole high-ROI source this run — both final items came from it. All new GitHub design repos found were below 50★. Both final items are behind Medium paywall; content verified only via Google search result snippets and sidebar.io editorial curation; exact publish dates estimated as late May 2026. The Figma MCP Catalog (figma.com/mcp-catalog) appeared in first-search results as a new Figma resource page but could not be verified without a fetch — worth prioritizing next run. heydesigner.com returning 403 for 2 consecutive runs is now a structural risk to the discovery pipeline that needs a fallback source before the next run.",
-    "date": "2026-06-01",
-    "radar_ideas": [
-      {
-        "idea": "Add WebFetch https://newsletter.uxdesign.cc to the curated sources list. The main uxdesign.cc site is Medium-paywalled and blocked both final items this run from full verification; the Substack newsletter version is publicly accessible and covers the same articles.",
-        "area": "content",
-        "effort": "small"
-      },
-      {
-        "idea": "Add webdesignernews.com as a fallback curated source to trigger when heydesigner.com returns 403. heydesigner.com has now been unavailable in 2 of the last 3 runs and was historically the highest-ROI discovery source.",
-        "area": "content",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "Figma AI MCP agents design 2026 — confirmed Figma MCP Catalog existence and current agent-in-canvas status",
       "FigmaLint design system audit tool shipped 2026 — confirmed a concrete shipped a11y-adjacent Figma plugin (southleft/figmalint, 60★)",
       "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced prototype-to-figma-skill and figma-skill repos for evaluation",
@@ -1419,6 +1348,63 @@
         "idea": "When two or more items in a run share the same vendor, surface a source-diversity flag in the editorial output so human editors can decide whether to hold one item for the next issue",
         "area": "feature",
         "effort": "medium"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "WebFetch sidebar.io — surfaced Libraries.dev skill (Oct 1), the only genuinely new qualifying item this run",
+      "WebFetch figma.com/blog — confirmed as reliable Figma search replacement; surfaced Sep 24 article not caught by other queries",
+      "WebFetch t.me/s/github_repos — surfaced storytold/photocraft (1.3k★) and wy51ai/floorplan-3d (1.4k★) though neither qualified for design×AI bar"
+    ],
+    "weak_queries": [
+      "motion animation AI tool shipped October 2026 — roundup listicles and Autodesk Maya tools only; no web-design-relevant motion×ai releases",
+      "accessibility a11y AI WCAG tool shipped October 2026 — Chrome extension updates and buyer guides; no new AI-native a11y tools shipped",
+      "Claude Code OR Cursor designers workflow October 2026 — comparison articles only, all in DB or not design-specific",
+      "design systems AI tokens automation October 2026 — trend articles and framework guides, no new shipped tooling",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — buyer guides only; nothing newly shipped this week",
+      "site:github.com design skill AI agent new October 2026 — topic index pages and existing DB items only"
+    ],
+    "coverage_gaps": [
+      "motion×ai — Rive silent since June 4 (123+ days); motion.dev Motion Studio already in DB; Lottielab still 404; tag in deep dormancy with no active discovery path",
+      "3d×ai — only 6 items in DB; floorplan-3d (1.4k★) lacks AI connection; no qualifying new repos found this run",
+      "a11y×ai — no new shipped AI-native items this week; A11yInspect Oct 1 Chrome extension update has unclear AI component",
+      "tools — 21st consecutive week without a qualifying standalone AI design tool"
+    ],
+    "tag_balance": "process (72) and skills (66) dominate; 3d×ai (6) critically underrepresented with no active discovery path; motion×ai (37) and a11y×ai (21) both quiet; tools (33) stalled for 21 weeks",
+    "rejected_count": 12,
+    "top_rejection_reasons": [
+      "Outside freshness window — Source by Webflow (Sep 2) and Webflow in Codex/ChatGPT (Aug 24) both outside 30-day tools window",
+      "No AI connection — floorplan-3d (1.4k★) and storytold/photocraft (1.3k★) are traditional tools without AI-generative features",
+      "Not design-relevant — feder-cr/dots (stealth browser automation), nykooi1/vibe-wise (developer learning agent), easy-agent (general coding agent)",
+      "Already in DB or covered by existing articles — most Figma and Webflow updates from Sep–Oct already captured",
+      "Paywalled — uxdesign.cc 'de-slopify' article (sidebar Oct 5) returned 403; unable to evaluate"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: motion animation AI tool shipped October 2026",
+        "why": "6+ consecutive runs returning only Autodesk/3D animation tools irrelevant to web design; replace with targeted WebFetch of rive.app/blog and lottiefiles.com/blog on quarterly schedule"
+      },
+      {
+        "query": "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/",
+        "why": "Newsletter index is accessible even when monthly archives return 404; may surface current issue (578+) with direct article links for targeted fetching"
+      },
+      {
+        "query": "site:rauno.me OR site:paco.me OR site:alexmorozov.com design engineering AI 2026",
+        "why": "Practitioner design-engineering blogs not covered by current required queries; more targeted than the generic 'design engineering' search"
+      },
+      {
+        "query": "WebFetch https://rive.app/blog",
+        "why": "Rive silent since June 4 (123+ days); direct blog fetch more reliable than search for detecting new AI animation feature launches; should run once per month"
+      }
+    ],
+    "notes": "21st consecutive low-signal week at minimum 2-item threshold. sidebar.io (featuring Libraries.dev on Oct 1) remains the most productive single source for new design+AI items. The figma.com/blog WebFetch (added per Sep 21 review suggestion) is working well and confirmed as the reliable replacement for the retired Figma search query. heydesigner.com was skipped (403 since Sep 28). uxdesign.cc continues blocking with 403. storytold/photocraft (1.3k★, Rust image editor with MCP agent control via JSON channel) was a notable near-miss — it positions as an open-source Photoshop alternative with agent integration, but lacks AI-generative features to clear the design×AI bar. The Webflow Codex/ChatGPT integration (Aug 24) has separate update pages not yet in DB but falls outside the 30-day tools window.",
+    "date": "2026-10-05",
+    "radar_ideas": [
+      {
+        "idea": "Add a per-tag 'last updated' indicator on the radar page showing days since the most recent item in that tag — readers checking motion×ai would immediately see it's been dormant 123+ days rather than expecting fresh content",
+        "area": "ux",
+        "effort": "small"
       }
     ]
   }
