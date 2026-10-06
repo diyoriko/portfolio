@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 05 Oct 2026 10:53:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 10:45:46 +0000</lastBuildDate>
+  <item>
+    <title>Many Agents, Many Views</title>
+    <link>https://www.lukew.com/ff/2165</link>
+    <description>LukeW on why specialized views (diagrams, before/after diffs, design system docs) beat chat threads for coordinating multiple AI agents.</description>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.lukew.com/ff/2165</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
     <link>https://github.com/emilkowalski/skills</link>
@@ -29,6 +37,22 @@
     <description>Agent skill that reviews your project and auto-installs the right one of seven crafted UI component libraries.</description>
     <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Jakubantalik/Libraries.dev</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>taste-skill by Leonxlnx — Anti-Slop Frontend Framework with Three Tunable Design Dials</title>
+    <link>https://github.com/Leonxlnx/taste-skill</link>
+    <description>SKILL.md with three tunable dials (variance, motion, density) stops AI agents from generating averaged-out UI across Claude Code, Cursor, and Codex.</description>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Leonxlnx/taste-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>hallmark — Anti-AI-Slop Design Skill with 57 Slop-Test Gates and 21 Themed UI Options</title>
+    <link>https://github.com/Nutlope/hallmark</link>
+    <description>Skill with 57 slop-test gates, 21 UI themes, and four verbs (build/audit/redesign/study-DNA) for Claude Code, Cursor, and Codex.</description>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Nutlope/hallmark</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
@@ -141,30 +165,6 @@
     <description>Webflow MCP now lets agents create GSAP interactions with scroll/hover/click triggers, filter CMS fields, and deploy Webflow Cloud apps.</description>
     <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/updates/mcp-interactions-cloud</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Designing with AI</title>
-    <link>https://buzzusborne.com/work/designing-with-ai/</link>
-    <description>Help Scout rebuilt their design system to be machine-legible and shipped an internal AI prototyping environment backed by real components.</description>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://buzzusborne.com/work/designing-with-ai/</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>guizang-product-video-skill — On-Brand Software Promotional Video Skill for Claude Code and Codex</title>
-    <link>https://github.com/op7418/guizang-product-video-skill</link>
-    <description>Creates software promo videos by reusing your product's actual components, tokens, colors, and design language.</description>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-product-video-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Compositor — Free Open-Source Photoshop Alternative for Mac</title>
-    <link>https://github.com/robbietilton/Compositor</link>
-    <description>Free open-source Mac image editor by designer Robbie Tilton — 3.9k stars in 3 days, AI background removal and content-aware fill.</description>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/robbietilton/Compositor</guid>
     <category>Tools</category>
   </item>
 </channel>
