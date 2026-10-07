@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 06 Oct 2026 10:45:46 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 10:34:19 +0000</lastBuildDate>
+  <item>
+    <title>How to lighten design system upkeep with the Figma agent</title>
+    <link>https://www.figma.com/blog/figma-agent-and-design-systems/</link>
+    <description>Figma agent automates component audits, bulk replacements, and spec generation using custom skills.</description>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/figma-agent-and-design-systems/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>3 ways product designers use the Figma agent for craft, speed, and creative expression</title>
+    <link>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</link>
+    <description>Uber, Granola, and Atlassian show how custom agent skills cut documentation from months to an afternoon.</description>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Many Agents, Many Views</title>
     <link>https://www.lukew.com/ff/2165</link>
@@ -70,6 +86,14 @@
     <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/updates/agentic-translation</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>How to de-slopify your designs</title>
+    <link>https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9</link>
+    <description>Four-level framework for fixing AI slop in vibe-coded UIs: from specific prompts to designing in Figma first.</description>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>shapeshift — One Text Input That Morphs Into the Right UI Component</title>
@@ -142,30 +166,6 @@
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Framer Skills — Reusable Agent Instructions for Design Systems and CMS Workflows</title>
-    <link>https://www.framer.com/updates/skills</link>
-    <description>Framer's new agent skill system saves reusable design system guidelines, writing styles, and CMS workflows for the Framer AI agent.</description>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/skills</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Webflow Agents: MCP Interactions and Cloud Deployment</title>
-    <link>https://webflow.com/updates</link>
-    <description>Webflow agents can now build hover/click interactions and deploy Cloud apps via MCP — agent-driven interaction design in a no-code tool.</description>
-    <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Webflow MCP: Agents Can Now Build Interactions, Filter CMS, and Deploy Cloud Apps</title>
-    <link>https://webflow.com/updates/mcp-interactions-cloud</link>
-    <description>Webflow MCP now lets agents create GSAP interactions with scroll/hover/click triggers, filter CMS fields, and deploy Webflow Cloud apps.</description>
-    <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates/mcp-interactions-cloud</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
