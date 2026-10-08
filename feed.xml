@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 07 Oct 2026 10:34:19 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 10:57:33 +0000</lastBuildDate>
+  <item>
+    <title>Chat Is AI's Command Line</title>
+    <link>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</link>
+    <description>Wattenberger argues chat is AI's command line and demos direct-manipulation AI interfaces with adjustable constraints.</description>
+    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>How to lighten design system upkeep with the Figma agent</title>
     <link>https://www.figma.com/blog/figma-agent-and-design-systems/</link>
@@ -21,6 +29,14 @@
     <description>Uber, Granola, and Atlassian show how custom agent skills cut documentation from months to an afternoon.</description>
     <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Workflow Lab: Staying in the Flow with Figma's Agent</title>
+    <link>https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/</link>
+    <description>Delegate library repairs, compliance checks, and spec generation to Figma's agent; keep design decisions yourself.</description>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/</guid>
     <category>Figma × AI</category>
   </item>
   <item>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/superdesigndev/superdesign-skill</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>golive-skill — Deploy Agent-Built Products with Hosting, Database, Domain and Payments</title>
-    <link>https://github.com/mikehasa/golive-skill</link>
-    <description>Agent skill that handles hosting, database, domain, and payments for Claude Code-built products via Vercel, Supabase, and Stripe.</description>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/mikehasa/golive-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>I Gave My Website a Boss Fight</title>
-    <link>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</link>
-    <description>Paul Bakaus built a fully interactive retro site with Claude by constraining it to a fixed 4096-color palette and pixel grid.</description>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
