@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 08 Oct 2026 10:57:33 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 10:57:04 +0000</lastBuildDate>
   <item>
     <title>Chat Is AI's Command Line</title>
     <link>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</link>
@@ -14,6 +14,14 @@
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Creative Intelligence 2026 — Contra Labs Survey of 150,000 Creatives</title>
+    <link>https://contralabs.com/creative-intelligence-report-2026</link>
+    <description>Survey of 150,000+ working creatives: 70%+ AI adoption, AI-users earning 40% more, two new paid roles emerging.</description>
+    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://contralabs.com/creative-intelligence-report-2026</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>How to lighten design system upkeep with the Figma agent</title>
@@ -144,28 +152,20 @@
     <category>Motion × AI</category>
   </item>
   <item>
+    <title>Blume — Zero-Config Docs Framework for Humans and Agents</title>
+    <link>https://useblume.dev</link>
+    <description>Zero-config docs framework that auto-generates llms.txt, a hosted MCP server, and agent skills from a Markdown folder.</description>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    <guid>https://useblume.dev</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
     <title>What It Takes to Build Great Products Now</title>
     <link>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</link>
     <description>Figma outlines practical AI-era techniques: compare multiple directions on canvas, align code via Code Connect, use the agent for critiques.</description>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Introducing Motion Studio</title>
-    <link>https://motion.dev/magazine/introducing-motion-studio</link>
-    <description>Motion's web-based animation editor launches Ultramotion, an AI agent that edits keyframes in under a second and writes changes back to code.</description>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://motion.dev/magazine/introducing-motion-studio</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>superdesign-skill — Design Skill for Claude Code and 70+ Coding Agents</title>
-    <link>https://github.com/superdesigndev/superdesign-skill</link>
-    <description>Installable skill for 70+ coding agents that generates branchable UI drafts with design judgment on an infinite canvas from the terminal.</description>
-    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/superdesigndev/superdesign-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
