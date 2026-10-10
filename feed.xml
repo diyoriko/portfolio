@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 09 Oct 2026 10:57:04 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 10:08:46 +0000</lastBuildDate>
+  <item>
+    <title>4 Team Rituals That Drive AI Adoption</title>
+    <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
+    <description>Four concrete team practices from Figma, Sephora, Mercari, and Atlassian that spread AI tool use beyond individual power users.</description>
+    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Chat Is AI's Command Line</title>
     <link>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</link>
@@ -54,6 +62,14 @@
     <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.lukew.com/ff/2165</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>replica-skill — 11 Claude Skills to Reverse-Engineer, Rebuild, and Improve Any App</title>
+    <link>https://github.com/Jakeschincariol/replica-skill</link>
+    <description>Eleven Claude Code skills covering the full app-cloning pipeline: recon, architecture, design system, build, backend, tests, diff scoring, and deploy.</description>
+    <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Jakeschincariol/replica-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
@@ -150,22 +166,6 @@
     <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/edenfunf/reelmimic</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Blume — Zero-Config Docs Framework for Humans and Agents</title>
-    <link>https://useblume.dev</link>
-    <description>Zero-config docs framework that auto-generates llms.txt, a hosted MCP server, and agent skills from a Markdown folder.</description>
-    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://useblume.dev</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>What It Takes to Build Great Products Now</title>
-    <link>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</link>
-    <description>Figma outlines practical AI-era techniques: compare multiple directions on canvas, align code via Code Connect, use the agent for critiques.</description>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/what-it-takes-to-build-great-products-now/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
