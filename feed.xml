@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 11 Oct 2026 10:23:44 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 11:21:43 +0000</lastBuildDate>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
     <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
@@ -30,6 +30,14 @@
     <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://contralabs.com/creative-intelligence-report-2026</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>anatomy — Agent Skill for Interactive Isometric Illustrations of Technical Systems</title>
+    <link>https://github.com/wheresryan22/anatomy</link>
+    <description>Claude Code skill that renders technical system descriptions as interactive isometric SVG figures — a cache key becomes a lock, a GPU becomes a plotter.</description>
+    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/wheresryan22/anatomy</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>How to lighten design system upkeep with the Figma agent</title>
@@ -158,14 +166,6 @@
     <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/anishfn/shapeshift</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>logo-design-skill — Comprehensive Logo Design Skill for Claude, Codex and Gemini CLI</title>
-    <link>https://github.com/kaankiziltug/logo-design-skill</link>
-    <description>Logo design skill for Claude, Codex, and Gemini CLI with 1,400+ SVG reference library and audit tools.</description>
-    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/kaankiziltug/logo-design-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>

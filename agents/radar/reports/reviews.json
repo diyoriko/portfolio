@@ -1,77 +1,6 @@
 [
   {
     "effective_queries": [
-      "Figma AI MCP agents design 2026 — confirmed Figma MCP Catalog existence and current agent-in-canvas status",
-      "FigmaLint design system audit tool shipped 2026 — confirmed a concrete shipped a11y-adjacent Figma plugin (southleft/figmalint, 60★)",
-      "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced prototype-to-figma-skill and figma-skill repos for evaluation",
-      "\"you are no longer the user\" \"principal\" uxdesign AI 2026 — verified author (Adrian Levy), publish date, and core argument via search snippet"
-    ],
-    "weak_queries": [
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — 9th consecutive run returning only comparison guides",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned only already-DB articles",
-      "Claude Code OR Cursor designers workflow 2026 — only comparison articles already in DB",
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — generic trend content, no specific shipped products",
-      "design systems AI tokens automation 2026 — marketing content and DB-resident reports only"
-    ],
-    "coverage_gaps": [
-      "motion×ai — Rive blog silent since April 30 (already in DB); zero new motion/animation AI design tools found this run",
-      "skills — new GitHub repos found (prototype-to-figma-skill 22★, figma-skill, maryeliz-design/claude-skills-library) but all below 50★ threshold",
-      "tools — no new standalone shipped AI design tools discovered; category at 10 items with no relief",
-      "a11y×ai — FigmaLint (southleft/figmalint) has WCAG auditing features but original launch was July 2025, outside 90-day starvation window",
-      "heydesigner.com — 403 Forbidden for 3rd consecutive week; was historically the highest-ROI secondary source"
-    ],
-    "tag_balance": "skills/process/design systems each at 23 items; figma×ai and design + code each at 18; tools at 10; a11y×ai at 8; motion×ai at 6. Both items this run go to process and design + code, leaving tools, skills, motion×ai, and a11y×ai without relief.",
-    "rejected_count": 14,
-    "top_rejection_reasons": [
-      "Outside freshness window — FigmaLint introduced July 2025, v2.3.0 January 2026; both outside 30-day tools window and 90-day a11y window for a launch event",
-      "Below 50★ threshold — prototype-to-figma-skill (22★), figma-skill, maryeliz-design/claude-skills-library (star counts unverified but no significant community traction)",
-      "No design connection — CodePilot by op7418 (5866★ general multi-model AI desktop client), TokenBlast (Claude Code flag configurator, not design tokens)",
-      "Already in DB — Figma Agent canvas, Cursor 3 Design Mode, garden-skills, Rive AI Agent (April 30, already captured)",
-      "Too similar to existing DB items — multiple 'designer value in AI age' essays already in DB; both final items are borderline but IBM VP authorship and May 28 'principal' framing justified inclusion"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens",
-        "why": "9th consecutive weak run; consistently returns comparison roundups, never new shipped features. Slot better used for other searches."
-      },
-      {
-        "query": "RETIRE heydesigner.com from source rotation until 403 clears",
-        "why": "3rd consecutive week returning 403 Forbidden. Historical highest-ROI secondary source is now a structural failure — keeping it wastes a fetch slot."
-      },
-      {
-        "query": "WebFetch https://seangoedecke.com",
-        "why": "sidebar.io featured 'Prompts are technical debt too' from this author on May 29; practitioner blog with strong design-engineering crossover angle; direct fetch would confirm URL pattern and reveal other recent posts."
-      },
-      {
-        "query": "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/ (current issue by number)",
-        "why": "Smashing Newsletter hand-picks 5-7 design+AI articles per issue; fetching the current issue number is faster than the AI category page and avoids returning already-DB items."
-      },
-      {
-        "query": "site:uxdesign.cc AI agent design shipped May 2026",
-        "why": "UX Collective publishes high-signal design×AI content; site-scoped search returns article titles with snippets, bypassing Medium paywall friction while still yielding enough content for quality evaluation."
-      },
-      {
-        "query": "WebFetch https://cssweeky.com OR https://frontendfoc.us (as heydesigner replacement)",
-        "why": "Reliable weekly newsletters with curated design-engineering content; needed as structural backup now that heydesigner.com has failed 3 consecutive weeks."
-      }
-    ],
-    "notes": "sidebar.io is now the sole reliable high-ROI source — both final items came from its May 27-28 curation. heydesigner.com failing for 3 consecutive weeks requires a permanent replacement in source rotation, not continued retries. shir-man.com returned loading states again (2nd consecutive JS-rendering failure). The uxdesign.cc paywall continues to block direct article fetching; all uxdesign.cc content verified only via search snippets and sidebar.io editorial descriptions. op7418's newest repo CodePilot (5866★) is a general multi-model AI client with no design-specific angle; guizang-ppt-skill still the only design-specific high-star op7418 repo and is already in DB. ConardLi had no new design repos since garden-skills. The Figma MCP Catalog (figma.com/mcp-catalog) is confirmed as a reference page listing compatible clients — not a newly shipped product but worth a fetch next run to check for new client additions or documentation that could be an article item.",
-    "date": "2026-06-01",
-    "radar_ideas": [
-      {
-        "idea": "Replace heydesigner.com in the required source rotation with CSS Weekly (cssweekly.com) — reliable weekly newsletter with curated design-engineering links, stable HTTP access, and no paywall. Add as WebFetch in the 9 curated sources slot vacated by heydesigner.",
-        "area": "content",
-        "effort": "small"
-      },
-      {
-        "idea": "Add a 'pending threshold' tracker to the DB schema: store new GitHub repos from known design skill creators (op7418, ConardLi, Southleft, VoltAgent) that are below 50★ with their discovery date, and auto-surface them in the next run's review once they cross the threshold — prevents missing breakout skills during their launch week.",
-        "area": "feature",
-        "effort": "medium"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "FigmaLint design system audit WCAG Figma components shipped 2026 — located the a11y×ai starvation rescue candidate with star count and feature verification",
       "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced wondelai/skills (1.2k★, 11 UX skills) though creation date unverifiable",
       "sidebar.io fetch — sole high-ROI source this run; both final items traced to its June 1 curation",
@@ -1404,6 +1333,68 @@
       {
         "idea": "Add a per-tag 'last updated' indicator on the radar page showing days since the most recent item in that tag — readers checking motion×ai would immediately see it's been dormant 123+ days rather than expecting fresh content",
         "area": "ux",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "WebFetch https://t.me/s/github_repos — found wheresryan22/anatomy (4,600★, isometric technical illustration skill trending this week)",
+      "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/ — confirmed Issue 579 (AI-Ready Design Systems) with several new-to-DB article URLs",
+      "accessibility a11y AI WCAG tool shipped October 2026 — surfaced danarandall/ai-a11y-toolkit for a11y×ai starvation rescue",
+      "WebFetch https://smart-interface-design-patterns.com/articles/ai-drift-design-systems/ — verified strong Vitaly Friedman article on design system contracts (July 29, outside 30-day window but high-quality near-miss)"
+    ],
+    "weak_queries": [
+      "site:rauno.me OR site:paco.me design engineering AI 2026 — zero qualifying items; practitioners publish design craft essays with no AI tooling content; RETIRE",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — buyer guides only; no newly shipped tools this week",
+      "motion animation web AI Rive Lottie Framer new October 2026 — roundup articles only; Rive confirmed silent since June 4 (130+ days total)",
+      "design systems AI tokens automation 2026 — trend overview articles; no newly shipped tooling",
+      "Claude Code OR Cursor designers workflow October 2026 — comparison articles and paywalled Substack content only"
+    ],
+    "coverage_gaps": [
+      "motion×ai — Rive silent 130+ days; all motion.dev and LottieFiles content already in DB; no active discovery path remaining",
+      "3d×ai — 6 items total; storytold open-source design tool suite (1,109–1,589★ Rust repos) lacks AI connection and doesn't qualify",
+      "tools — 22nd consecutive run without a qualifying standalone new AI design tool",
+      "design systems — strongest recent article (Vitaly Friedman on design system contracts, July 29) falls outside 30-day window; consider widening to 60 days"
+    ],
+    "tag_balance": "process (76) and skills (70) dominate; 3d×ai (6) critically underrepresented with no discovery path; a11y×ai (21) rescued by starvation rule this run; motion×ai (37) in deep dormancy; tools (33) stagnant for 22+ consecutive weeks",
+    "rejected_count": 14,
+    "top_rejection_reasons": [
+      "Outside freshness window — Vitaly Friedman design system contracts article (July 29, smart-interface-design-patterns.com) is 74 days old, exceeds 30-day design systems window",
+      "No AI connection — storytold open-source design tool suite (Rust reimplementations of Photoshop/Illustrator, 1,109–1,589★) lacks AI features",
+      "Below 50★ threshold — AccessLens (0★); ds-contracts-poc (71★ with unclear creation date)",
+      "No working demo — designsystems.surf AI-readiness article (Oct 11) promotes commercial products only",
+      "Already in DB — all recent figma.com/blog and webflow.com/updates posts fully catalogued"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE: site:rauno.me OR site:paco.me design engineering AI 2026",
+        "why": "First run returned zero qualifying items; these practitioners publish design craft essays without AI tooling content; not worth revisiting"
+      },
+      {
+        "query": "WebFetch https://www.smashingmagazine.com/category/ai/",
+        "why": "Category page lists all recent AI articles with direct URLs; more reliable than newsletter issue fetches since monthly archives consistently return 404"
+      },
+      {
+        "query": "site:substack.com \"design systems\" AI October 2026",
+        "why": "Christine Vallaure and Nathan Curtis both have recent design-systems×AI posts not surfaced by current queries; Substack returns better site: search results than Medium"
+      },
+      {
+        "query": "WebFetch https://github.com/danarandall/ai-a11y-toolkit",
+        "why": "Direct repo fetch would capture star count and last-commit date to better track this a11y×ai toolkit in future runs"
+      }
+    ],
+    "notes": "22nd consecutive low-signal week at minimum 2-item threshold. t.me/s/github_repos remains the most reliable single source for new trending skills (found anatomy this run). heydesigner.com has been 403 since Sep 28 — should be removed from curated sources. shir-man.com continues returning no usable data (dynamic JS dashboard). The strongest near-miss of the run is Vitaly Friedman's design system contracts article (smart-interface-design-patterns.com, July 29) — concrete technique with demonstrated 69→100/100 AI compliance improvement — but falls 44 days outside the 30-day design systems window. The southleft/ds-contracts-poc repo (71★, bidirectional Figma↔React generation) was considered but its 3,338 commits with only 71 stars suggests it predates the skills era without gaining community adoption.",
+    "date": "2026-10-12",
+    "radar_ideas": [
+      {
+        "idea": "Remove heydesigner.com from curated sources (403 since Sep 28) and replace with WebFetch of smashingmagazine.com/category/ai/ — the category page lists all recent AI articles with direct URLs and avoids the monthly archive 404 pattern",
+        "area": "content",
+        "effort": "small"
+      },
+      {
+        "idea": "Add a 'Near Misses' line to Telegram posts in low-signal weeks: one sentence naming the strongest article that nearly qualified with a reason why (e.g. 'outside window') — gives subscribers context for empty-seeming weeks and surfaces content they can still read",
+        "area": "telegram",
         "effort": "small"
       }
     ]

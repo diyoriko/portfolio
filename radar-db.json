@@ -121,6 +121,23 @@
       "added": "2026-10-09"
     },
     {
+      "title": "anatomy — Agent Skill for Interactive Isometric Illustrations of Technical Systems",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "type": "skill",
+      "tag": "skills",
+      "desc_ru": "Навык для Claude Code переводит описания технических систем в интерактивные изометрические SVG-диаграммы — кэш становится замком, GPU — плоттером.",
+      "desc_en": "Claude Code skill that renders technical system descriptions as interactive isometric SVG figures — a cache key becomes a lock, a GPU becomes a plotter.",
+      "date": "2026-10-07",
+      "priority": 1,
+      "score": 6,
+      "reading_time": 4,
+      "difficulty": "intermediate",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-10-12",
+      "stars": 4634
+    },
+    {
       "title": "How to lighten design system upkeep with the Figma agent",
       "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
       "type": "article",
@@ -216,7 +233,7 @@
       "expanded_window": false,
       "star_velocity": "350★/7d",
       "added": "2026-10-10",
-      "stars": 1729
+      "stars": 2006
     },
     {
       "title": "Agents Don't Need Memory. They Need Documentation.",
@@ -249,7 +266,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-03",
-      "stars": 45143
+      "stars": 45551
     },
     {
       "title": "Workflow Lab: From Design System to Campaign in Figma Weave",
@@ -282,7 +299,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-05",
-      "stars": 4179
+      "stars": 4188
     },
     {
       "title": "taste-skill by Leonxlnx — Anti-Slop Frontend Framework with Three Tunable Design Dials",
@@ -299,7 +316,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-06",
-      "stars": 94550
+      "stars": 94941
     },
     {
       "title": "hallmark — Anti-AI-Slop Design Skill with 57 Slop-Test Gates and 21 Themed UI Options",
@@ -316,7 +333,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-06",
-      "stars": 29889
+      "stars": 29942
     },
     {
       "title": "onetake — Continuous-Motion Product Video Skill for Claude Code",
@@ -333,7 +350,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-30",
-      "stars": 2117
+      "stars": 2172
     },
     {
       "title": "Agentic Translation in Webflow Localize",
@@ -383,7 +400,7 @@
       "expanded_window": false,
       "star_velocity": "730★/7d",
       "added": "2026-10-01",
-      "stars": 857
+      "stars": 860
     },
     {
       "title": "logo-design-skill — Comprehensive Logo Design Skill for Claude, Codex and Gemini CLI",
@@ -401,7 +418,7 @@
       "expanded_window": false,
       "star_velocity": "900★/5d",
       "added": "2026-10-01",
-      "stars": 2699
+      "stars": 2819
     },
     {
       "title": "motion-video-kit — Professional Business Film Skill for Claude Code with GSAP and Three.js",
@@ -419,7 +436,7 @@
       "expanded_window": false,
       "star_velocity": "270★/7d",
       "added": "2026-10-02",
-      "stars": 1082
+      "stars": 1089
     },
     {
       "title": "reelmimic — Multi-Agent Tool That Clones Any Video's Visual Style",
@@ -436,7 +453,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-04",
-      "stars": 2193
+      "stars": 2374
     },
     {
       "title": "Blume — Zero-Config Docs Framework for Humans and Agents",
@@ -501,7 +518,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-23",
-      "stars": 644
+      "stars": 649
     },
     {
       "title": "golive-skill — Deploy Agent-Built Products with Hosting, Database, Domain and Payments",
@@ -518,7 +535,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-26",
-      "stars": 1269
+      "stars": 1271
     },
     {
       "title": "I Gave My Website a Boss Fight",
@@ -616,7 +633,7 @@
       "expanded_window": false,
       "star_velocity": "80★/24h",
       "added": "2026-09-19",
-      "stars": 766
+      "stars": 778
     },
     {
       "title": "Compositor — Free Open-Source Photoshop Alternative for Mac",
@@ -634,7 +651,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/24h",
       "added": "2026-09-21",
-      "stars": 15692
+      "stars": 16204
     },
     {
       "title": "The 3 Roles of Context for AI Agents",
@@ -699,7 +716,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-18",
-      "stars": 1102
+      "stars": 1116
     },
     {
       "title": "Anatomy of AI Input",
@@ -733,7 +750,7 @@
       "expanded_window": false,
       "star_velocity": "440★/7d",
       "added": "2026-09-17",
-      "stars": 718
+      "stars": 728
     },
     {
       "title": "DialKit — Live UI Parameter Editor for Design Engineers",
@@ -782,7 +799,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-13",
-      "stars": 1132
+      "stars": 1201
     },
     {
       "title": "Why Design System Documentation Goes Out of Date",
@@ -880,7 +897,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-13",
-      "stars": 2408
+      "stars": 2437
     },
     {
       "title": "How to Connect Your Design System to Claude Code, Cursor, Codex and VS Code",
@@ -2226,6 +2243,22 @@
       "has_demo": false,
       "expanded_window": false,
       "added": "2026-08-03"
+    },
+    {
+      "title": "AI A11y Toolkit — WCAG 2.2 AA Rule Files for 15 AI Coding Platforms",
+      "url": "https://www.danarandall.com/ai-a11y-toolkit",
+      "type": "skill",
+      "tag": "a11y×ai",
+      "desc_ru": "Бесплатные файлы WCAG 2.2 AA для 15 AI-инструментов (Cursor, Claude Code, Lovable): устанавливаешь один раз — генерируемый код доступен по умолчанию.",
+      "desc_en": "Free WCAG 2.2 AA rule files for 15 AI coding platforms so generated code meets accessibility standards by default without per-session prompting.",
+      "date": "2026-07-31",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 5,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": true,
+      "added": "2026-10-12"
     },
     {
       "title": "A Properties Panel and Annotations, Now in Figma Make",
