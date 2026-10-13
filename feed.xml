@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 12 Oct 2026 11:21:43 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 11:03:10 +0000</lastBuildDate>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
     <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
@@ -22,6 +22,14 @@
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>10 Claude Skills for Design</title>
+    <link>https://www.figma.com/resource-library/claude-skills-for-design/</link>
+    <description>Figma's guide to 10 Claude skills including /create-voice for a11y screen reader specs and /sync-figma-token for token drift detection.</description>
+    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/resource-library/claude-skills-for-design/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Creative Intelligence 2026 — Contra Labs Survey of 150,000 Creatives</title>
@@ -157,14 +165,6 @@
     <description>Four-level framework for fixing AI slop in vibe-coded UIs: from specific prompts to designing in Figma first.</description>
     <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>shapeshift — One Text Input That Morphs Into the Right UI Component</title>
-    <link>https://github.com/anishfn/shapeshift</link>
-    <description>One input box that morphs into the right UI—event card, checklist, color picker—based on what you type.</description>
-    <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/anishfn/shapeshift</guid>
     <category>Design Engineering</category>
   </item>
 </channel>
