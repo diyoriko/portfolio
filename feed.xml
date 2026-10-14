@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 13 Oct 2026 11:03:10 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 09:04:42 +0000</lastBuildDate>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
     <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
@@ -14,6 +14,14 @@
     <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Sightlines Issue No. 3: Raise the Bar for How Teams Use AI</title>
+    <link>https://www.figma.com/blog/sightlines-issue-no3/</link>
+    <description>Figma editorial for design leaders: AI adoption needs peer-led training and protected experiment time, not just speed.</description>
+    <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/sightlines-issue-no3/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>Chat Is AI's Command Line</title>
@@ -78,6 +86,14 @@
     <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://learn.thedesignsystem.guide/p/design-systems-that-document-ai</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Inside Anthropic's Design Team</title>
+    <link>https://designerfund.com/blog/ai-design-anthropic</link>
+    <description>Anthropic design team built /fresh, /preview, /prototype skills to keep pace with AI-speed engineering.</description>
+    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://designerfund.com/blog/ai-design-anthropic</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Many Agents, Many Views</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/feitangyuan/onetake</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Agentic Translation in Webflow Localize</title>
-    <link>https://webflow.com/updates/agentic-translation</link>
-    <description>Webflow Localize now uses AI agents to translate and continuously sync multilingual site content whenever the primary locale changes.</description>
-    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates/agentic-translation</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>How to de-slopify your designs</title>
-    <link>https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9</link>
-    <description>Four-level framework for fixing AI slop in vibe-coded UIs: from specific prompts to designing in Figma first.</description>
-    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
