@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 14 Oct 2026 09:04:42 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 08:37:11 +0000</lastBuildDate>
+  <item>
+    <title>Introducing Figma Specs: Markdown as a Medium</title>
+    <link>https://www.figma.com/blog/introducing-figma-specs/</link>
+    <description>Figma Specs puts Markdown docs, canvas frames, and Figma agent replies in one container on the canvas — open beta today.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/introducing-figma-specs/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Design Together with Code Layers on the Canvas</title>
+    <link>https://www.figma.com/blog/design-together-with-code-layers/</link>
+    <description>Figma Code Layers enters open beta: import GitHub repos onto the canvas, iterate on live prototypes with AI prompts.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/design-together-with-code-layers/</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
     <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
@@ -38,6 +54,14 @@
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/resource-library/claude-skills-for-design/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Claude Motion: Turn Any Idea Into a Code-Based Animated Video</title>
+    <link>https://claude.com/resources/articles/dashboards-and-motion</link>
+    <description>Claude Motion converts text, charts, and shapes into editable code-based animations that export as MP4 — Team and Enterprise beta.</description>
+    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/resources/articles/dashboards-and-motion</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Creative Intelligence 2026 — Contra Labs Survey of 150,000 Creatives</title>
@@ -141,30 +165,6 @@
     <description>Agent skill that reviews your project and auto-installs the right one of seven crafted UI component libraries.</description>
     <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Jakubantalik/Libraries.dev</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>taste-skill by Leonxlnx — Anti-Slop Frontend Framework with Three Tunable Design Dials</title>
-    <link>https://github.com/Leonxlnx/taste-skill</link>
-    <description>SKILL.md with three tunable dials (variance, motion, density) stops AI agents from generating averaged-out UI across Claude Code, Cursor, and Codex.</description>
-    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Leonxlnx/taste-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>hallmark — Anti-AI-Slop Design Skill with 57 Slop-Test Gates and 21 Themed UI Options</title>
-    <link>https://github.com/Nutlope/hallmark</link>
-    <description>Skill with 57 slop-test gates, 21 UI themes, and four verbs (build/audit/redesign/study-DNA) for Claude Code, Cursor, and Codex.</description>
-    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Nutlope/hallmark</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>onetake — Continuous-Motion Product Video Skill for Claude Code</title>
-    <link>https://github.com/feitangyuan/onetake</link>
-    <description>Claude Agent Skill that generates product launch films with a single unbroken camera — every scene visually flows from the one before, no cuts.</description>
-    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/feitangyuan/onetake</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
