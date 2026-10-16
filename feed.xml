@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 15 Oct 2026 08:37:11 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 08:33:55 +0000</lastBuildDate>
   <item>
     <title>Introducing Figma Specs: Markdown as a Medium</title>
     <link>https://www.figma.com/blog/introducing-figma-specs/</link>
@@ -22,6 +22,14 @@
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/design-together-with-code-layers/</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Create, Ship, and Manage Data-Backed Websites with Payload in Figma</title>
+    <link>https://www.figma.com/blog/websites-with-payload-in-figma/</link>
+    <description>Figma Make now provisions a full Payload backend — database, auth, file storage, and admin panel — for any app built on canvas.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/websites-with-payload-in-figma/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
@@ -128,6 +136,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>Pure UI in the Agentic Era</title>
+    <link>https://mattrothenberg.com/notes/pure-ui-agentic-era/</link>
+    <description>Agents only test the state they start in — Pure UI thinking helps ensure all UI states get covered when agents write interface code.</description>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://mattrothenberg.com/notes/pure-ui-agentic-era/</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>replica-skill — 11 Claude Skills to Reverse-Engineer, Rebuild, and Improve Any App</title>
     <link>https://github.com/Jakeschincariol/replica-skill</link>
     <description>Eleven Claude Code skills covering the full app-cloning pipeline: recon, architecture, design system, build, backend, tests, diff scoring, and deploy.</description>
@@ -149,22 +165,6 @@
     <description>42.9k-star skills collection; 13 tools encoding animation, UI taste, and mobile expertise for AI agents. New break-ui skill added Oct 2.</description>
     <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/emilkowalski/skills</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Workflow Lab: From Design System to Campaign in Figma Weave</title>
-    <link>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</link>
-    <description>End-to-end workflow using Figma Weave nodes to turn a design system into localized campaign assets.</description>
-    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Libraries.dev — Agent Skill for 7 Crafted UI Component Libraries</title>
-    <link>https://github.com/Jakubantalik/Libraries.dev</link>
-    <description>Agent skill that reviews your project and auto-installs the right one of seven crafted UI component libraries.</description>
-    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Jakubantalik/Libraries.dev</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
