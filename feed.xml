@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 16 Oct 2026 08:33:55 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 08:06:35 +0000</lastBuildDate>
+  <item>
+    <title>Starting to Make a Design System Usable by AI</title>
+    <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
+    <description>Design systems weren't built for AI agents — start adapting yours by identifying where agents consistently get it wrong.</description>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>Introducing Figma Specs: Markdown as a Medium</title>
     <link>https://www.figma.com/blog/introducing-figma-specs/</link>
@@ -69,6 +77,14 @@
     <description>Claude Motion converts text, charts, and shapes into editable code-based animations that export as MP4 — Team and Enterprise beta.</description>
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://claude.com/resources/articles/dashboards-and-motion</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>Motion — AI Motion Design Agent with Claude Opus 5.5 MCP</title>
+    <link>https://motion.so/learn/mcp-video-generation</link>
+    <description>Create launch videos and animated scenes from prompts: Claude Opus 5.5 builds scenes, transitions, and typography via Motion's MCP server.</description>
+    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://motion.so/learn/mcp-video-generation</guid>
     <category>Motion × AI</category>
   </item>
   <item>
@@ -149,22 +165,6 @@
     <description>Eleven Claude Code skills covering the full app-cloning pipeline: recon, architecture, design system, build, backend, tests, diff scoring, and deploy.</description>
     <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/Jakeschincariol/replica-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Agents Don't Need Memory. They Need Documentation.</title>
-    <link>https://liao.gg/blog/agents-dont-need-memory</link>
-    <description>Kevin Liao argues structured project docs beat memory plugins for keeping AI agents on track.</description>
-    <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://liao.gg/blog/agents-dont-need-memory</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>emilkowalski/skills — Design and Engineering Agent Skills by Emil Kowalski</title>
-    <link>https://github.com/emilkowalski/skills</link>
-    <description>42.9k-star skills collection; 13 tools encoding animation, UI taste, and mobile expertise for AI agents. New break-ui skill added Oct 2.</description>
-    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/emilkowalski/skills</guid>
     <category>Skills &amp; Plugins</category>
   </item>
 </channel>
