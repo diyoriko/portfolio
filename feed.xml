@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 17 Oct 2026 08:06:35 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 08:23:27 +0000</lastBuildDate>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
@@ -38,6 +38,14 @@
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/websites-with-payload-in-figma/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>solid-glass — Design System for AI Applications</title>
+    <link>https://github.com/deeplethe/solid-glass</link>
+    <description>React design system for AI apps with 70+ agent UI components: sessions, threads, tool steps, and status glyphs.</description>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/deeplethe/solid-glass</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
@@ -158,14 +166,6 @@
     <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://mattrothenberg.com/notes/pure-ui-agentic-era/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>replica-skill — 11 Claude Skills to Reverse-Engineer, Rebuild, and Improve Any App</title>
-    <link>https://github.com/Jakeschincariol/replica-skill</link>
-    <description>Eleven Claude Code skills covering the full app-cloning pipeline: recon, architecture, design system, build, backend, tests, diff scoring, and deploy.</description>
-    <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/Jakeschincariol/replica-skill</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
