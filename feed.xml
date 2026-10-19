@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 18 Oct 2026 08:23:27 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 09:19:22 +0000</lastBuildDate>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
@@ -38,6 +38,22 @@
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/websites-with-payload-in-figma/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Build by Design: New Workflows for New Ways of Building</title>
+    <link>https://www.figma.com/blog/build-by-design/</link>
+    <description>Figma adds System Map for dependency tracking, library Guidelines, Code Sources from GitHub/npm, and 20 new MCP partner integrations.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/build-by-design/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Webflow MCP: Google Gemini Integration</title>
+    <link>https://webflow.com/updates/google-gemini</link>
+    <description>Webflow's MCP server now connects to Google Gemini — build pages, manage CMS, and analyze performance from chat.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/updates/google-gemini</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>solid-glass — Design System for AI Applications</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://designerfund.com/blog/ai-design-anthropic</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Many Agents, Many Views</title>
-    <link>https://www.lukew.com/ff/2165</link>
-    <description>LukeW on why specialized views (diagrams, before/after diffs, design system docs) beat chat threads for coordinating multiple AI agents.</description>
-    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.lukew.com/ff/2165</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Pure UI in the Agentic Era</title>
-    <link>https://mattrothenberg.com/notes/pure-ui-agentic-era/</link>
-    <description>Agents only test the state they start in — Pure UI thinking helps ensure all UI states get covered when agents write interface code.</description>
-    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://mattrothenberg.com/notes/pure-ui-agentic-era/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>

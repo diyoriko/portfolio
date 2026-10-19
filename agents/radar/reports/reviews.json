@@ -1,77 +1,6 @@
 [
   {
     "effective_queries": [
-      "FigmaLint design system audit WCAG Figma components shipped 2026 — located the a11y×ai starvation rescue candidate with star count and feature verification",
-      "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced wondelai/skills (1.2k★, 11 UX skills) though creation date unverifiable",
-      "sidebar.io fetch — sole high-ROI source this run; both final items traced to its June 1 curation",
-      "Smashing Newsletter #558 fetch — independently confirmed FigmaLint as a curated design tool"
-    ],
-    "weak_queries": [
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — only trend articles and comparison guides, no shipped products",
-      "Claude Code OR Cursor designers workflow 2026 — only comparison articles already in DB",
-      "design systems AI tokens automation 2026 — marketing content and existing DB reports only",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned old articles and newsletter index pages only",
-      "site:uxdesign.cc AI agent design shipped May 2026 — newsletter links surfaced were from January 2026 or December 2025, outside all freshness windows",
-      "site:github.com \".claude\" OR \".cursorrules\" OR \"agent skills\" design UI UX 2026 — surfaced repos but all either in DB or below 50★"
-    ],
-    "coverage_gaps": [
-      "motion×ai — Rive blog silent since April 30; no new motion or animation AI tools found this run",
-      "tools — no new standalone AI design tools discovered; category at 10 items with no new candidates",
-      "skills — wondelai/skills (1.2k★, 11 UX design skills: Refactoring UI, iOS HIG, UX Heuristics, etc.) is a strong candidate but creation date unverifiable; needs freshness check before inclusion",
-      "curated sources — heydesigner.com (403 x3), southleft.substack.com (403 x4), shir-man.com (JS errors x3) all structurally broken; sidebar.io is now the only reliably accessible curated source"
-    ],
-    "tag_balance": "process (24) and skills (23) are dominant; design systems (21) and design+code (19) healthy; figma×ai (18) stable; tools (10) and a11y×ai (8) underserved; motion×ai (6) critical. a11y×ai starvation rescue applied this run with FigmaLint (expanded_window: true).",
-    "rejected_count": 9,
-    "top_rejection_reasons": [
-      "Already in database (Figma Agent, Cursor 3.0, guizang repos, garden-skills, Storybook MCP)",
-      "Star count below 50 threshold (prototype-to-figma-skill, ux-ui-mastery, figma-skill)",
-      "Content unverifiable — paywalled or fetch socket error (uxdesign.cc Medium paywall, seangoedecke.com socket errors on two attempts)",
-      "Outside all freshness windows — 'Designers as agent orchestrators' (Jan 19, 2026 = 132 days), 'A new navigation paradigm' (Dec 2025)",
-      "Not AI-powered — pdf.to.design redirects to an existing Figma PDF-converter plugin with no AI component"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: WebFetch https://southleft.substack.com",
-        "why": "4th consecutive 403 Forbidden — permanently unreachable, wasting a fetch slot each run; 3 DB items already sourced from southleft content via other channels"
-      },
-      {
-        "query": "RETIRE: WebFetch https://shir-man.com/homepage",
-        "why": "3rd consecutive JS-rendering failure returning only loading states — dynamic content not accessible to WebFetch; confirmed structural incompatibility"
-      },
-      {
-        "query": "WebFetch https://designtoolsweekly.com",
-        "why": "Needed as structural replacement for both heydesigner.com (403 x3) and shir-man.com; dedicated design tools newsletter with weekly curation"
-      },
-      {
-        "query": "site:seangoedecke.com design engineer AI workflow 2026",
-        "why": "sidebar.io has now featured two articles from this blog (May 20, May 29); direct search is more reliable than waiting for sidebar curation to surface new posts"
-      },
-      {
-        "query": "wondelai skills design UX Claude Code launch date 2026",
-        "why": "wondelai/skills (1.2k★, 11 UX design skills) is a strong skills tag candidate but GitHub creation date was unverifiable this run; a targeted search would find the launch blog post or announcement"
-      },
-      {
-        "query": "WebFetch https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-560/",
-        "why": "Issue #559 timed out this run; fetching the next sequential issue is the fastest path to discovering hand-curated design+AI articles; #544 was Feb 3, so #560 should be early June"
-      }
-    ],
-    "notes": "sidebar.io remains the sole reliably accessible curated source — both items this run were traceable to its June 1 picks. southleft.substack.com failed for the 4th consecutive run and should be permanently retired. shir-man.com failed for the 3rd consecutive run (JS rendering) and should be retired. newsletter.uxdesign.cc page fetch returns only subscription UI with no article listings — site:uxdesign.cc search is more effective for UX Collective discovery. The uxdesign.cc Medium paywall continues to block content verification for the 4th consecutive run; the June 1 item is included based solely on sidebar.io editorial curation and URL structure. wondelai/skills (1.2k★, 11 UX design skills including Refactoring UI, iOS HIG, UX Heuristics) was the strongest skills tag discovery but could not be dated — if creation date is within 7 days, it would be a strong P1 skills item. FigmaLint (60★, v2.3.0 Jan 31 2026 = 121 days) is technically outside the 90-day a11y×ai window but the starvation rescue rule applies — no credible a11y×ai item within 90 days was found.",
-    "date": "2026-06-01",
-    "radar_ideas": [
-      {
-        "idea": "Add a 'days since last update' label to each tag filter chip on radar.html — a small grey number next to each tag showing how many days ago the most recent item was added; makes stale tags like motion×ai and a11y×ai visually obvious to readers without changing the filtering UX",
-        "area": "ux",
-        "effort": "small"
-      },
-      {
-        "idea": "When posting a paywalled article to the Telegram channel, append '(paywalled — summary from sidebar.io)' to the caption so subscribers know upfront they will hit a wall; avoids the frustration of clicking through to a Medium login prompt with no preview",
-        "area": "telegram",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "Figma AI MCP agents design 2026 — confirmed DB coverage is current, no new items beyond what is already in DB",
       "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced prototype-to-figma-skill (23★), ux-ui-mastery (13★), rohitg00/awesome-claude-design (641★)",
       "wondelai skills UX design Claude Code shipped 2026 — confirmed wondelai/skills already in DB; description has evolved to 42 frameworks",
@@ -1394,6 +1323,70 @@
       },
       {
         "idea": "Add a 'Near Misses' line to Telegram posts in low-signal weeks: one sentence naming the strongest article that nearly qualified with a reason why (e.g. 'outside window') — gives subscribers context for empty-seeming weeks and surfaces content they can still read",
+        "area": "telegram",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "WebFetch figma.com/blog — found 'Build by Design' (Oct 15) covering System Map, library Guidelines, Code Sources, and 20 MCP partners not yet in DB",
+      "WebFetch webflow.com/updates — found Google Gemini integration (Oct 15) not in DB",
+      "site:substack.com 'design systems' AI October 2026 — surfaced new governance-oriented substack sources for future monitoring even though direct fetches were 403-blocked"
+    ],
+    "weak_queries": [
+      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned only one Oct 2026 article (org AI adoption, not designer workflow); category/ai/ WebFetch is more reliable",
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — trend roundups and career articles only, nothing newly shipped",
+      "Claude Code OR Cursor designers workflow 2026 — comparison articles, all in DB or too generic",
+      "UX research AI synthesis 2026 dovetail OR maze OR condens — buyer guides only, nothing newly shipped this week",
+      "site:substack.com \"design engineering\" AI skills October 2026 — career and hiring content only",
+      "WebFetch smashingmagazine.com/category/ai/ — only one Oct 2026 article, not design-workflow specific",
+      "WebFetch t.me/s/denissexy — no design-relevant posts this run; channel focused on model releases and policy"
+    ],
+    "coverage_gaps": [
+      "a11y×ai — no new shipped items found this run; 23 in DB but no recent additions discovered",
+      "motion×ai — nothing new shipped in past 7 days; Rive blog confirmed silent since April 30 (169 days with zero new posts)",
+      "3d×ai — still only 6 items in DB; no new qualifying repos surfaced in any run this month",
+      "tools — 23rd consecutive run without a new standalone AI design tool; Webflow Gemini is an MCP expansion, not a new product"
+    ],
+    "tag_balance": "process (78) and skills (71) continue to dominate; figma×ai (46) well-covered; 3d×ai (6) severely underrepresented with no active discovery path; a11y×ai (23) and motion×ai (39) have items in DB but nothing new found in recent runs",
+    "rejected_count": 12,
+    "top_rejection_reasons": [
+      "already in DB — all other Oct 15 Figma posts (Specs, Code Layers, Payload, Sightlines, Workflow Lab); garden-skills; solid-glass",
+      "no AI connection — storytold/figcraft (Rust design tool, 1080★), shaongitbd/doory (design collaboration, 1220★)",
+      "source 403 blocked — all Substack direct fetches (designsystemscollective, germandleono, nurxmedov)",
+      "P3 only — Prompt Motion gallery (prompt-motion.com, also 403) is a third-party showcase of Claude Opus 5.5 motion videos",
+      "not shipped — constitution.design (philosophical framework, not a tool)",
+      "outside freshness window — smart-interface-design-patterns.com AI drift article (July 29, 82 days old, exceeds 30-day design systems window)"
+    ],
+    "query_suggestions": [
+      {
+        "query": "WebFetch https://nathanacurtis.substack.com",
+        "why": "Nathan Curtis 'Generating Code From Specs' surfaced in Smashing Newsletter #579 — high-quality design systems + code generation content not reachable via site: search; subscribe-blocked but index page may expose titles"
+      },
+      {
+        "query": "WebFetch https://smart-interface-design-patterns.com/articles/",
+        "why": "Vitaly Friedman consistently produces near-miss quality items (AI drift, component contracts); direct index fetch more reliable since Smashing newsletter recirculates his content on delay"
+      },
+      {
+        "query": "RETIRE: site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026",
+        "why": "Returns newsletter issue indexes and old category pages; WebFetch smashingmagazine.com/category/ai/ is already in the curated rotation and more reliable"
+      },
+      {
+        "query": "WebFetch https://webflow.com/blog",
+        "why": "Per Sept 28 suggestion, still not implemented; webflow.com/updates catches feature cards but misses longer-form editorial posts about new capabilities and integrations"
+      }
+    ],
+    "notes": "Only 2 qualifying items found this run, both from the same date (Oct 15) across two platforms. Substack design-systems content continues to be systematically 403-blocked on direct fetch; site: search retrieves titles but cannot confirm dates or paywall status. Rive blog confirmed silent since Apr 30 (169 days) — safe to deprioritize monthly check for now. The figma.com/blog index fetch remains the single highest-signal source per run. prompt-motion.com (sidebar.io Oct 16) is a Claude Opus 5.5 motion video gallery with copyable prompts — interesting as a motion×ai resource but blocked on direct fetch and P3 quality even if accessible.",
+    "date": "2026-10-19",
+    "radar_ideas": [
+      {
+        "idea": "Add a 'last 30 days' item count badge per tag in the radar page tag filter — currently only totals are shown, making dormant tags (motion×ai, 3d×ai) indistinguishable from active ones at a glance",
+        "area": "ux",
+        "effort": "small"
+      },
+      {
+        "idea": "For Telegram P2 posts, append a second sentence naming the specific workflow change (e.g. 'Works from inside Google Gemini — no separate MCP setup needed') so subscribers can judge relevance without opening the link",
         "area": "telegram",
         "effort": "small"
       }
