@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 19 Oct 2026 09:19:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 08:56:04 +0000</lastBuildDate>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
@@ -53,6 +53,14 @@
     <description>Webflow's MCP server now connects to Google Gemini — build pages, manage CMS, and analyze performance from chat.</description>
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/updates/google-gemini</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>Webflow MCP Now Reads Analytics, A/B Tests, and AEO Data</title>
+    <link>https://webflow.com/blog/mcp-analyze-optimize-aeo</link>
+    <description>Webflow's MCP server now reads page traffic, A/B results, and AEO data—agents can build and measure in one prompt.</description>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/blog/mcp-analyze-optimize-aeo</guid>
     <category>Tools</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://learn.thedesignsystem.guide/p/design-systems-that-document-ai</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Inside Anthropic's Design Team</title>
-    <link>https://designerfund.com/blog/ai-design-anthropic</link>
-    <description>Anthropic design team built /fresh, /preview, /prototype skills to keep pace with AI-speed engineering.</description>
-    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://designerfund.com/blog/ai-design-anthropic</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
