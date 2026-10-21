@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 20 Oct 2026 08:56:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 08:56:11 +0000</lastBuildDate>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
@@ -72,6 +72,14 @@
     <category>Tools</category>
   </item>
   <item>
+    <title>38 Things We've Learned About Building AI Products</title>
+    <link>https://newsletter.posthog.com/p/38-things-weve-learned-about-building</link>
+    <description>PostHog's 4-year retrospective: AI shifts UI purpose from doing to approving, reviewing, and undoing.</description>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://newsletter.posthog.com/p/38-things-weve-learned-about-building</guid>
+    <category>Process</category>
+  </item>
+  <item>
     <title>4 Team Rituals That Drive AI Adoption</title>
     <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
     <description>Four concrete team practices from Figma, Sephora, Mercari, and Atlassian that spread AI tool use beyond individual power users.</description>
@@ -86,6 +94,14 @@
     <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/sightlines-issue-no3/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Animating with Claude and GSAP, from Video to the Web</title>
+    <link>https://webflow.com/blog/animating-with-claude-and-gsap</link>
+    <description>Cassie Evans on when Claude-generated animation code fits one-off video vs. GSAP for production web.</description>
+    <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/blog/animating-with-claude-and-gsap</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Chat Is AI's Command Line</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Workflow Lab: Staying in the Flow with Figma's Agent</title>
-    <link>https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/</link>
-    <description>Delegate library repairs, compliance checks, and spec generation to Figma's agent; keep design decisions yourself.</description>
-    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Design Systems That Document AI</title>
-    <link>https://learn.thedesignsystem.guide/p/design-systems-that-document-ai</link>
-    <description>Analysis of 156 design systems surfaces four documentation rules that make systems AI-readable.</description>
-    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://learn.thedesignsystem.guide/p/design-systems-that-document-ai</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
