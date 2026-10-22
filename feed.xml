@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 21 Oct 2026 08:56:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 08:56:22 +0000</lastBuildDate>
+  <item>
+    <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
+    <link>https://www.editui.app</link>
+    <description>Click any element in your running app, annotate the change, and send it with full DOM context straight to Claude Code, Cursor, or Codex.</description>
+    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.editui.app</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Logo.dev MCP — Brand and Logo Database for AI Agents</title>
+    <link>https://www.logo.dev/docs/mcp/introduction</link>
+    <description>MCP server for brand and logo lookup by domain, ticker, or name — accessible from Claude Code, Cursor, and Codex.</description>
+    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.logo.dev/docs/mcp/introduction</guid>
+    <category>brand × ai</category>
+  </item>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/wheresryan22/anatomy</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>How to lighten design system upkeep with the Figma agent</title>
-    <link>https://www.figma.com/blog/figma-agent-and-design-systems/</link>
-    <description>Figma agent automates component audits, bulk replacements, and spec generation using custom skills.</description>
-    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/figma-agent-and-design-systems/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>3 ways product designers use the Figma agent for craft, speed, and creative expression</title>
-    <link>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</link>
-    <description>Uber, Granola, and Atlassian show how custom agent skills cut documentation from months to an afternoon.</description>
-    <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
