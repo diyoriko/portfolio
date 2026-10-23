@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 22 Oct 2026 08:56:22 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 08:52:33 +0000</lastBuildDate>
+  <item>
+    <title>How to Put Your Design System to Work with the Figma Agent</title>
+    <link>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</link>
+    <description>Five concrete steps to connect a design system to the Figma agent: libraries, guidelines, examples, and team skills.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>How Lufthansa Systems Prototypes Realistic Maps for the Cockpit with Figma Make</title>
+    <link>https://www.figma.com/blog/lufthansa-figma-make/</link>
+    <description>Lufthansa Systems built cockpit map prototypes with live aviation data in Figma Make, showing Make handling production-grade data visualization.</description>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/lufthansa-figma-make/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
     <link>https://www.editui.app</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://motion.so/learn/mcp-video-generation</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Creative Intelligence 2026 — Contra Labs Survey of 150,000 Creatives</title>
-    <link>https://contralabs.com/creative-intelligence-report-2026</link>
-    <description>Survey of 150,000+ working creatives: 70%+ AI adoption, AI-users earning 40% more, two new paid roles emerging.</description>
-    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://contralabs.com/creative-intelligence-report-2026</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>anatomy — Agent Skill for Interactive Isometric Illustrations of Technical Systems</title>
-    <link>https://github.com/wheresryan22/anatomy</link>
-    <description>Claude Code skill that renders technical system descriptions as interactive isometric SVG figures — a cache key becomes a lock, a GPU becomes a plotter.</description>
-    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/wheresryan22/anatomy</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
