@@ -6,13 +6,21 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 23 Oct 2026 08:52:33 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 08:25:00 +0000</lastBuildDate>
   <item>
     <title>How to Put Your Design System to Work with the Figma Agent</title>
     <link>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</link>
     <description>Five concrete steps to connect a design system to the Figma agent: libraries, guidelines, examples, and team skills.</description>
     <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>6 Ways Teams Are Experimenting with Code Layers</title>
+    <link>https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/</link>
+    <description>Six concrete examples from beta teams showing how code layers bridges design and live production code in Figma.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/</guid>
     <category>Figma × AI</category>
   </item>
   <item>
@@ -157,14 +165,6 @@
     <description>Claude Motion converts text, charts, and shapes into editable code-based animations that export as MP4 — Team and Enterprise beta.</description>
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://claude.com/resources/articles/dashboards-and-motion</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Motion — AI Motion Design Agent with Claude Opus 5.5 MCP</title>
-    <link>https://motion.so/learn/mcp-video-generation</link>
-    <description>Create launch videos and animated scenes from prompts: Claude Opus 5.5 builds scenes, transitions, and typography via Motion's MCP server.</description>
-    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://motion.so/learn/mcp-video-generation</guid>
     <category>Motion × AI</category>
   </item>
 </channel>
