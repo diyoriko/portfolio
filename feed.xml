@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 24 Oct 2026 08:25:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 08:47:54 +0000</lastBuildDate>
   <item>
     <title>How to Put Your Design System to Work with the Figma Agent</title>
     <link>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</link>
@@ -32,12 +32,28 @@
     <category>Figma × AI</category>
   </item>
   <item>
+    <title>3D Model Anything — iPhone LiDAR to Editable Three.js Rooms</title>
+    <link>https://github.com/wesbos/3d-model-anything</link>
+    <description>Scan any room with iPhone LiDAR; an agent skill iteratively rebuilds it as an editable Three.js scene.</description>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/wesbos/3d-model-anything</guid>
+    <category>3D + AI</category>
+  </item>
+  <item>
     <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
     <link>https://www.editui.app</link>
     <description>Click any element in your running app, annotate the change, and send it with full DOM context straight to Claude Code, Cursor, or Codex.</description>
     <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.editui.app</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>AI-Ready Design Systems</title>
+    <link>https://designsystems.surf/articles/ai-ready-design-system</link>
+    <description>Design systems break with AI because hidden decision logic—not missing assets—is what needs to be made explicit.</description>
+    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://designsystems.surf/articles/ai-ready-design-system</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>Logo.dev MCP — Brand and Logo Database for AI Agents</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>10 Claude Skills for Design</title>
-    <link>https://www.figma.com/resource-library/claude-skills-for-design/</link>
-    <description>Figma's guide to 10 Claude skills including /create-voice for a11y screen reader specs and /sync-figma-token for token drift detection.</description>
-    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/resource-library/claude-skills-for-design/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Claude Motion: Turn Any Idea Into a Code-Based Animated Video</title>
-    <link>https://claude.com/resources/articles/dashboards-and-motion</link>
-    <description>Claude Motion converts text, charts, and shapes into editable code-based animations that export as MP4 — Team and Enterprise beta.</description>
-    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/resources/articles/dashboards-and-motion</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
