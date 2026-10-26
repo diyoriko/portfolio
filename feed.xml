@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 25 Oct 2026 08:47:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 09:23:26 +0000</lastBuildDate>
+  <item>
+    <title>elayadesign/ai-design-skills — Landing Page Design and Design-to-Motion Skills for AI Coding Agents</title>
+    <link>https://github.com/elayadesign/ai-design-skills</link>
+    <description>Two focused agent skills for Claude Code and Cursor: landing page design with full visual system and static design-to-motion conversion.</description>
+    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/elayadesign/ai-design-skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>How to Put Your Design System to Work with the Figma Agent</title>
     <link>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</link>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/blog/animating-with-claude-and-gsap</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Chat Is AI's Command Line</title>
-    <link>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</link>
-    <description>Wattenberger argues chat is AI's command line and demos direct-manipulation AI interfaces with adjustable constraints.</description>
-    <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
