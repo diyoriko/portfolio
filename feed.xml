@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 26 Oct 2026 09:23:26 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 09:22:19 +0000</lastBuildDate>
   <item>
     <title>elayadesign/ai-design-skills — Landing Page Design and Design-to-Motion Skills for AI Coding Agents</title>
     <link>https://github.com/elayadesign/ai-design-skills</link>
@@ -72,12 +72,28 @@
     <category>brand × ai</category>
   </item>
   <item>
+    <title>Design in the Material You Ship</title>
+    <link>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</link>
+    <description>Designers must understand code as a material the way architects know steel. AI now does the cutting.</description>
+    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
     <title>Starting to Make a Design System Usable by AI</title>
     <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
     <description>Design systems weren't built for AI agents — start adapting yours by identifying where agents consistently get it wrong.</description>
     <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>Is Your Organization Messing Up AI Adoption?</title>
+    <link>https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/</link>
+    <description>Paul Boag maps digital transformation failures onto AI adoption so design teams can skip the same mistakes.</description>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>Introducing Figma Specs: Markdown as a Medium</title>
@@ -150,22 +166,6 @@
     <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>Sightlines Issue No. 3: Raise the Bar for How Teams Use AI</title>
-    <link>https://www.figma.com/blog/sightlines-issue-no3/</link>
-    <description>Figma editorial for design leaders: AI adoption needs peer-led training and protected experiment time, not just speed.</description>
-    <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/sightlines-issue-no3/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Animating with Claude and GSAP, from Video to the Web</title>
-    <link>https://webflow.com/blog/animating-with-claude-and-gsap</link>
-    <description>Cassie Evans on when Claude-generated animation code fits one-off video vs. GSAP for production web.</description>
-    <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/blog/animating-with-claude-and-gsap</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
