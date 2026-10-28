@@ -6,13 +6,21 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 27 Oct 2026 09:22:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 10:01:35 +0000</lastBuildDate>
   <item>
     <title>elayadesign/ai-design-skills — Landing Page Design and Design-to-Motion Skills for AI Coding Agents</title>
     <link>https://github.com/elayadesign/ai-design-skills</link>
     <description>Two focused agent skills for Claude Code and Cursor: landing page design with full visual system and static design-to-motion conversion.</description>
     <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/elayadesign/ai-design-skills</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>dimensional-drawing — Apple-Style Dimensional Spec Sheets for UI Components</title>
+    <link>https://github.com/enesozturk/dimensional-drawing</link>
+    <description>Claude Code skill generates Apple-style dimensional spec sheets for UI components — paddings, corner radii, layers annotated with variables — plus a cinematic animation companion skill.</description>
+    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/enesozturk/dimensional-drawing</guid>
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
@@ -48,6 +56,14 @@
     <category>3D + AI</category>
   </item>
   <item>
+    <title>Canva Craft — First In-House AI Image Model with Two-Stage Layout Planning</title>
+    <link>https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/</link>
+    <description>Canva's first in-house model plans spatial layout and hierarchy before generating; outputs convert to editable layered designs and are available via API and MCP.</description>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
     <link>https://www.editui.app</link>
     <description>Click any element in your running app, annotate the change, and send it with full DOM context straight to Claude Code, Cursor, or Codex.</description>
@@ -78,6 +94,14 @@
     <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>motion-design-skill — Universal Motion Design Principles for AI Agents by LottieFiles</title>
+    <link>https://github.com/LottieFiles/motion-design-skill</link>
+    <description>LottieFiles' official skill teaches AI agents timing, easing, choreography, and Disney principles across CSS, Framer Motion, GSAP, and Lottie.</description>
+    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/LottieFiles/motion-design-skill</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>Starting to Make a Design System Usable by AI</title>
@@ -142,30 +166,6 @@
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/blog/mcp-analyze-optimize-aeo</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>solid-glass — Design System for AI Applications</title>
-    <link>https://github.com/deeplethe/solid-glass</link>
-    <description>React design system for AI apps with 70+ agent UI components: sessions, threads, tool steps, and status glyphs.</description>
-    <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/deeplethe/solid-glass</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>38 Things We've Learned About Building AI Products</title>
-    <link>https://newsletter.posthog.com/p/38-things-weve-learned-about-building</link>
-    <description>PostHog's 4-year retrospective: AI shifts UI purpose from doing to approving, reviewing, and undoing.</description>
-    <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://newsletter.posthog.com/p/38-things-weve-learned-about-building</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>4 Team Rituals That Drive AI Adoption</title>
-    <link>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</link>
-    <description>Four concrete team practices from Figma, Sephora, Mercari, and Atlassian that spread AI tool use beyond individual power users.</description>
-    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
