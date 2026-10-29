@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 10:27:47 +0000</lastBuildDate>
+  <item>
+    <title>claude-skill by MotionSites — Cinematic Landing Page Skill for Claude</title>
+    <link>https://github.com/Motionsites-AI/claude-skill</link>
+    <description>Claude skill with 55+ technique recipes, 50+ cinematic assets, and a screenshot QA loop for award-level landing pages.</description>
+    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/Motionsites-AI/claude-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>digital-human-koubo — AI Talking-Head Video Generator from a Single Photo</title>
+    <link>https://github.com/andyhuo520/digital-human-koubo</link>
+    <description>TypeScript tool that turns one photo into a talking-head video with motion transfer and multiple editing styles.</description>
+    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/andyhuo520/digital-human-koubo</guid>
+    <category>Motion × AI</category>
+  </item>
   <item>
     <title>elayadesign/ai-design-skills — Landing Page Design and Design-to-Motion Skills for AI Coding Agents</title>
     <link>https://github.com/elayadesign/ai-design-skills</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/build-by-design/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Webflow MCP: Google Gemini Integration</title>
-    <link>https://webflow.com/updates/google-gemini</link>
-    <description>Webflow's MCP server now connects to Google Gemini — build pages, manage CMS, and analyze performance from chat.</description>
-    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates/google-gemini</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Webflow MCP Now Reads Analytics, A/B Tests, and AEO Data</title>
-    <link>https://webflow.com/blog/mcp-analyze-optimize-aeo</link>
-    <description>Webflow's MCP server now reads page traffic, A/B results, and AEO data—agents can build and measure in one prompt.</description>
-    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/blog/mcp-analyze-optimize-aeo</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
