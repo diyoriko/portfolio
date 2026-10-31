@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 30 Oct 2026 10:27:30 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 10:00:43 +0000</lastBuildDate>
+  <item>
+    <title>text-to-cad — Design Physical Products with AI Agents</title>
+    <link>https://github.com/earthtojake/text-to-cad</link>
+    <description>Agent skill library for generating STEP/STL/CAD models from text; works with Claude Code, Cursor, Codex; 24K GitHub stars.</description>
+    <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/earthtojake/text-to-cad</guid>
+    <category>3D + AI</category>
+  </item>
   <item>
     <title>claude-skill by MotionSites — Cinematic Landing Page Skill for Claude</title>
     <link>https://github.com/Motionsites-AI/claude-skill</link>
@@ -22,6 +30,14 @@
     <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/andyhuo520/digital-human-koubo</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>How We're Training a Figma-Fluent Editing Model</title>
+    <link>https://www.figma.com/blog/training-a-figma-fluent-editing-model/</link>
+    <description>Figma's post-trained design model beats the previous agent 62% of the time and reduces unwanted edits by 60%.</description>
+    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/training-a-figma-fluent-editing-model/</guid>
+    <category>Figma × AI</category>
   </item>
   <item>
     <title>On Giving People an Undo Button in AI Products</title>
@@ -96,6 +112,14 @@
     <category>Tools</category>
   </item>
   <item>
+    <title>Framer MCP — Connect Claude, Codex, Cursor and More to Framer</title>
+    <link>https://www.framer.com/mcp/</link>
+    <description>Official Framer MCP lets Claude Code, Cursor, and Codex build and edit Framer sites with branch review before publish.</description>
+    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/mcp/</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
     <link>https://www.editui.app</link>
     <description>Click any element in your running app, annotate the change, and send it with full DOM context straight to Claude Code, Cursor, or Codex.</description>
@@ -142,30 +166,6 @@
     <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Is Your Organization Messing Up AI Adoption?</title>
-    <link>https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/</link>
-    <description>Paul Boag maps digital transformation failures onto AI adoption so design teams can skip the same mistakes.</description>
-    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Introducing Figma Specs: Markdown as a Medium</title>
-    <link>https://www.figma.com/blog/introducing-figma-specs/</link>
-    <description>Figma Specs puts Markdown docs, canvas frames, and Figma agent replies in one container on the canvas — open beta today.</description>
-    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/introducing-figma-specs/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Design Together with Code Layers on the Canvas</title>
-    <link>https://www.figma.com/blog/design-together-with-code-layers/</link>
-    <description>Figma Code Layers enters open beta: import GitHub repos onto the canvas, iterate on live prototypes with AI prompts.</description>
-    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/design-together-with-code-layers/</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
