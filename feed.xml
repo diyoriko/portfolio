@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 31 Oct 2026 10:00:43 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 10:49:54 +0000</lastBuildDate>
   <item>
     <title>text-to-cad — Design Physical Products with AI Agents</title>
     <link>https://github.com/earthtojake/text-to-cad</link>
@@ -38,6 +38,22 @@
     <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/training-a-figma-fluent-editing-model/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>unslop — Claude Skill That Turns Vibecoded UI Into a Designed Interface</title>
+    <link>https://github.com/heydamir/unslop</link>
+    <description>Claude Code skill that audits and iteratively fixes AI-generated UI slop: spacing, color, typography, and layout.</description>
+    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/heydamir/unslop</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>The State Of AI In Design Systems 2026</title>
+    <link>https://smart-interface-design-patterns.com/articles/ai-design-systems-2026/</link>
+    <description>Field study of 20 design systems: 150+ techniques to prevent AI drift and an 8-agent Figma-to-React pipeline.</description>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://smart-interface-design-patterns.com/articles/ai-design-systems-2026/</guid>
+    <category>Design Systems</category>
   </item>
   <item>
     <title>On Giving People an Undo Button in AI Products</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>motion-design-skill — Universal Motion Design Principles for AI Agents by LottieFiles</title>
-    <link>https://github.com/LottieFiles/motion-design-skill</link>
-    <description>LottieFiles' official skill teaches AI agents timing, easing, choreography, and Disney principles across CSS, Framer Motion, GSAP, and Lottie.</description>
-    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/LottieFiles/motion-design-skill</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Starting to Make a Design System Usable by AI</title>
-    <link>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</link>
-    <description>Design systems weren't built for AI agents — start adapting yours by identifying where agents consistently get it wrong.</description>
-    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://designsystemsunfiltered.substack.com/p/starting-to-make-a-design-system</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
