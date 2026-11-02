@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 01 Nov 2026 10:49:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 11:41:10 +0000</lastBuildDate>
+  <item>
+    <title>Visualize Dependencies In Design Systems</title>
+    <link>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</link>
+    <description>Roundup of Figma plugins (Impact Atlas, Synapse, Lineage) and a web tool for mapping token and component dependencies.</description>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</guid>
+    <category>Design Systems</category>
+  </item>
+  <item>
+    <title>The TL;DR on Figma Weave</title>
+    <link>https://www.figma.com/blog/the-tldr-on-figma-weave/</link>
+    <description>Figma's plain-English overview of Weave: nodes, branching explorations, and reusable workflow templates.</description>
+    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/the-tldr-on-figma-weave/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>text-to-cad — Design Physical Products with AI Agents</title>
     <link>https://github.com/earthtojake/text-to-cad</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://designsystems.surf/articles/ai-ready-design-system</guid>
     <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Logo.dev MCP — Brand and Logo Database for AI Agents</title>
-    <link>https://www.logo.dev/docs/mcp/introduction</link>
-    <description>MCP server for brand and logo lookup by domain, ticker, or name — accessible from Claude Code, Cursor, and Codex.</description>
-    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.logo.dev/docs/mcp/introduction</guid>
-    <category>brand × ai</category>
-  </item>
-  <item>
-    <title>Design in the Material You Ship</title>
-    <link>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</link>
-    <description>Designers must understand code as a material the way architects know steel. AI now does the cutting.</description>
-    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>

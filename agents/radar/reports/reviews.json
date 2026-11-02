@@ -1,73 +1,6 @@
 [
   {
     "effective_queries": [
-      "bytedance bernini video generation motion design — confirmed Bernini as motion×ai candidate with 782★ and star velocity 368★/7d",
-      "sidebar.io WebFetch — highest ROI source again; ui-skills.com found via June 8-15 curation",
-      "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced several repos, all below 50★ threshold; useful for monitoring pipeline"
-    ],
-    "weak_queries": [
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — generic trend roundups and statistics, no newly shipped tools or techniques",
-      "Claude Code OR Cursor designers workflow 2026 — comparison articles only, all already in DB",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned 2022-2025 articles and SmashingConf agenda; no fresh 2026 practitioner content",
-      "site:seangoedecke.com design engineer AI workflow 2026 — no results from target domain; direct WebFetch returned connection error (not 403, likely infrastructure issue)",
-      "site:uxdesign.cc AI agent design shipped June 2026 — returned no uxdesign.cc results; site-restricted search ineffective for this domain",
-      "site:intodesignsystems.com OR site:intodesignsystems.substack.com AI figma 2026 — returned March 2026 conference session listings only, no recently shipped content",
-      "tokens.studio OR supernova.io AI feature update 2026 — Supernova's AI Prototyping Agent is from January 2026 (6 months old); nothing fresh"
-    ],
-    "coverage_gaps": [
-      "a11y×ai — Email Accessibility Report 2026 (emailmarkup.org, May 21) found but lacks AI angle; no true a11y×ai items shipped this week; starvation continues",
-      "tools — zero new standalone shipped AI design tools discovered this week; category at 12 items with no relief for fourth consecutive run",
-      "motion×ai — Rive blog has one June post (Jun 4 case study, not a new feature); Bernini is the sole motion×ai candidate and resolves starvation for this tag",
-      "skills — phazurlabs/ux-ui-mastery (18★), nafiurrahmanniloy/figma-skill, maryeliz-design/claude-skills-library all below 50★; alirezarezvani/claude-skills (337 multi-domain skills) needs star count verification"
-    ],
-    "tag_balance": "process (33) and design systems (25) dominant. tools (12) and motion×ai (7) continue to starve. skills (26) has no new breakout GitHub repos this week but ui-skills.com adds a curated directory. a11y×ai (11) got no new items — Email Accessibility Report 2026 is strong research but lacks AI connection for this tag.",
-    "rejected_count": 12,
-    "top_rejection_reasons": [
-      "Below 50★ threshold — phazurlabs/ux-ui-mastery (18★), maryeliz-design/claude-skills-library, nafiurrahmanniloy/figma-skill, DietrichGebert/ponytail (251★ but not design-relevant)",
-      "Already in DB — Figma agent/canvas/MCP items, Rive AI Agent (Apr 30), guizang-ppt-skill, guizang-social-card-skill, awesome-agent-skills",
-      "No AI connection — Email Accessibility Report 2026 (email accessibility audit, no AI angle), Boneyard skeleton loader (DOM extraction, no AI), Building glass for the web (CSS technique)",
-      "Not design-relevant — world-of-claudecraft (478★, confirmed WoW-inspired MMO game), Bernini initially flagged as uncertain but confirmed as design-relevant after star velocity verification",
-      "Too old — Supernova January 2026 AI Prototyping Agent (6 months), IDS conference March 2026"
-    ],
-    "query_suggestions": [
-      {
-        "query": "WebFetch https://skills.smoothui.dev/",
-        "why": "UI Craft appeared in search results as 'Design taste for AI coding agents' — may be a Claude Code skill in the Emil Kowalski tradition; needs verification before including as a skills candidate"
-      },
-      {
-        "query": "github alirezarezvani claude-skills stars date",
-        "why": "alirezarezvani/claude-skills (337 skills across product, design, marketing roles) appeared in search results; star count unknown — if above 50★ and recently created, it is a skills tag candidate"
-      },
-      {
-        "query": "RETIRE: anthropics/awesome-agent-skills from curated sources (404 for 2nd consecutive run). Use WebFetch https://github.com/VoltAgent/awesome-agent-skills instead — in DB with 1000+ skills, actively maintained; weekly commits surface new design-relevant skills",
-        "why": "Consistent 404 wastes a fetch slot; VoltAgent catalog is the better proxy for the official skills ecosystem"
-      },
-      {
-        "query": "RETIRE: newsletter.uxdesign.cc from curated sources (confirmed subscription UI only for 2nd consecutive run). Use site:uxdesign.cc AI design shipped June 2026 as replacement — search snippet approach is more reliable for this publication",
-        "why": "Direct WebFetch returns nothing actionable; a site-scoped search gets article titles and excerpts without hitting the paywall"
-      },
-      {
-        "query": "WebFetch https://seangoedecke.com",
-        "why": "Connection error this run (not 403 — transient infrastructure issue); sidebar.io featured two posts from this blog in May; worth retrying next run to find recent design-engineering content"
-      }
-    ],
-    "notes": "Fourth consecutive very low signal week. sidebar.io remains the only reliably high-ROI curated source — both final items are traceable to its June 8-15 curation window. anthropics/awesome-agent-skills returned 404 for the second consecutive run; the URL appears to no longer be valid and should be removed from the source rotation. newsletter.uxdesign.cc confirmed for the second consecutive run to return only subscription UI; retire the WebFetch and replace with site:uxdesign.cc search. shir-man.com is returning Denis's personal project posts (game reverse-engineering, etc.) rather than the AI aggregator described in source instructions — the source description may be outdated or the channel content has shifted. seangoedecke.com had a connection error rather than 403, so it may be a transient issue worth retrying. Bernini resolves the motion×ai starvation: full open-source release on June 11, 782★ with 368★/7d velocity; the motion-transfer capability is genuinely relevant for motion designers wanting to replicate camera movement or animation style across scenes. ui-skills.com is the strongest skills discovery this week — 109 curated skills for design engineers across accessibility, motion, and visual craft, confirmed via multiple search sources after sidebar.io curation; the site returned 403 on direct WebFetch but all content details verified through search results.",
-    "date": "2026-06-15",
-    "radar_ideas": [
-      {
-        "idea": "Replace the anthropics/awesome-agent-skills WebFetch (consistent 404) with WebFetch of VoltAgent/awesome-agent-skills — same catalog, actively maintained, in DB at 1000+ skills, weekly commits surface new design-relevant additions.",
-        "area": "content",
-        "effort": "small"
-      },
-      {
-        "idea": "Add skills.smoothui.dev and seangoedecke.com as permanent curated source fetches — both produce design-engineering content at a cadence fast enough to miss via search alone and have already proven signal via sidebar.io curation.",
-        "area": "content",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "Figma AI MCP agents design 2026 — surfaced current agent feature state and Config 2026 context",
       "Config 2026 Figma announcements design agent shipped June 24 25 — confirmed pre-Config feature releases",
       "WebFetch figma.com/release-notes — primary source for both items; June 16 and June 18 entries confirmed",
@@ -1382,6 +1315,75 @@
       },
       {
         "idea": "For research-type items, add a stat callout as the lead line in the Telegram card — e.g. '64% of ecommerce pages have critical a11y failures' before the description text. Research items currently render identically to articles but their value is the headline number, not the prose summary.",
+        "area": "telegram",
+        "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "WebFetch smart-interface-design-patterns.com/articles/ — found today's design systems dependencies article (Oct 19 suggestion now confirmed high-yield)",
+      "WebFetch figma.com/blog — found TL;DR on Figma Weave (Oct 31), the only Figma blog post not yet in DB",
+      "WebFetch t.me/s/github_repos — surfaced pixelfx (3.2k★ pixel art + Claude skill), useful negative signal",
+      "WebFetch github.com/topics/design-skill?o=desc&s=updated — confirmed no high-star new repos this week; all listed repos under 30★"
+    ],
+    "weak_queries": [
+      "Figma AI MCP agents design 2026 — all results already in DB",
+      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — trend roundup articles, nothing newly shipped",
+      "Claude Code OR Cursor designers workflow 2026 — comparison guides, all in DB or too generic",
+      "design systems AI tokens automation 2026 — trend guides, no newly shipped tooling",
+      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — buyer guide roundups, nothing new",
+      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — returned newsletter indexes only",
+      "site:github.com Claude skill design OR figma OR UI trending 2026 — surfaced repos already in DB",
+      "site:github.com \".claude\" OR \".cursorrules\" OR \"agent skills\" design UI UX 2026 — surfaced repos already in DB"
+    ],
+    "coverage_gaps": [
+      "tools — 25th consecutive run without a qualifying new standalone AI design tool",
+      "motion×ai — Rive blog confirmed silent 160+ days; no new motion tools surfaced",
+      "3d×ai — still only 8 items in DB; no qualifying repos surfaced this run",
+      "brand×ai — only 1 item in DB; never surfaced by any current query path"
+    ],
+    "tag_balance": "process (81) and skills (75) are over-represented. figma×ai (51) approaching saturation. motion×ai (42) active but no new sources. 3d×ai (8) and brand×ai (1) remain sparse. a11y×ai (25) has reasonable coverage but nothing new this run.",
+    "rejected_count": 9,
+    "top_rejection_reasons": [
+      "below 50-star threshold — zeeshani42/your-ui-ux-designer (0★), most design-skill topic repos under 30★",
+      "platform-specific and outside Claude/Cursor ecosystem — dsh-guizang-design (242★) requires DeepSeek Harness",
+      "primary audience is game developers not product designers — pixelfx (3.2k★, pixel art effects)",
+      "no new workflow information beyond existing DB coverage — Config India recap, Webflow ISO certification post",
+      "buyer guide roundups with no newly shipped tooling — all UX research AI tools results"
+    ],
+    "query_suggestions": [
+      {
+        "query": "WebFetch https://www.smashingmagazine.com/category/ai/",
+        "why": "More reliable than the site: search which consistently returns newsletter indexes. Suggested Oct 12 and Oct 19, confirmed working in Oct 26 — not yet in permanent rotation."
+      },
+      {
+        "query": "WebFetch https://github.com/haydenschmitty/floorplan",
+        "why": "1,941★ trending this week on t.me/s/github_repos — 'interactive plain-English map of your codebase drawn by Claude or Codex' — potential design+code tool worth one verification fetch."
+      },
+      {
+        "query": "RETIRE: heydesigner.com from curated sources",
+        "why": "403 Forbidden for 8+ consecutive weeks, confirmed again this run. Dead source consuming a fetch slot every run."
+      },
+      {
+        "query": "RETIRE: github.com/anthropics/awesome-agent-skills from curated sources",
+        "why": "Returned 404 this run — the repo does not exist at that path. Replace with github.com/topics/design-skill?o=desc&s=updated which confirmed working."
+      },
+      {
+        "query": "RETIRE: github.com/topics/claude-skill?o=desc&s=updated",
+        "why": "Returned 404 this run — topic does not exist on GitHub. The design-skill topic is the correct one to monitor."
+      }
+    ],
+    "notes": "25th consecutive low-signal week. Both items found via direct WebFetch of curated sources (smart-interface-design-patterns.com and figma.com/blog), not via any of the 8 required searches. The required search block continues to return noise — all queries produced either already-in-DB content or generic roundup articles. The DeepSeek Harness platform (op7418's dsh-guizang-design, 242★) represents a parallel Chinese skills ecosystem using the same markdown-skill pattern as Claude Code — worth monitoring as a signal of ecosystem spread, but outside current radar scope. anthropics/awesome-agent-skills returned 404 — this curated source is broken. shir-man.com/homepage again returned no usable data (dynamic JS dashboard, loads empty). github.com/topics/claude-skill returned 404 — that query suggestion from Oct 26 review did not work and should not be repeated.",
+    "date": "2026-11-02",
+    "radar_ideas": [
+      {
+        "idea": "Remove heydesigner.com and replace anthropics/awesome-agent-skills (404) with github.com/topics/design-skill?o=desc&s=updated in the curated sources list — two dead slots replaced with one confirmed working source.",
+        "area": "content",
+        "effort": "small"
+      },
+      {
+        "idea": "Add a 'weak signal' section to the Telegram post for high-star repos that don't quite clear the quality bar (like pixelfx 3.2k★) — one line, clearly labeled as 'worth watching' — surfaces community momentum without diluting the main feed quality.",
         "area": "telegram",
         "effort": "small"
       }
