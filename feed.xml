@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 02 Nov 2026 11:41:10 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 11:21:48 +0000</lastBuildDate>
+  <item>
+    <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
+    <link>https://github.com/patch-gg/pixelfx</link>
+    <description>244 pixel art animation effects for browser games, with a Claude Code skill for prompting custom effects.</description>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/patch-gg/pixelfx</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Jelly UI — Soft-Body Physics Web Components with WCAG AA</title>
+    <link>https://jelly-ui.com</link>
+    <description>Zero-dependency Web Components with soft-body physics and WCAG AA accessibility, installs in one script tag.</description>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://jelly-ui.com</guid>
+    <category>Tools</category>
+  </item>
   <item>
     <title>Visualize Dependencies In Design Systems</title>
     <link>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</link>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/mcp/</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>EditUI — Visual UI Annotation Layer for Coding Agents</title>
-    <link>https://www.editui.app</link>
-    <description>Click any element in your running app, annotate the change, and send it with full DOM context straight to Claude Code, Cursor, or Codex.</description>
-    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.editui.app</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>AI-Ready Design Systems</title>
-    <link>https://designsystems.surf/articles/ai-ready-design-system</link>
-    <description>Design systems break with AI because hidden decision logic—not missing assets—is what needs to be made explicit.</description>
-    <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://designsystems.surf/articles/ai-ready-design-system</guid>
-    <category>Design Systems</category>
   </item>
 </channel>
 </rss>
