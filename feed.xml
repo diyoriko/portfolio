@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 03 Nov 2026 11:21:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 11:29:17 +0000</lastBuildDate>
   <item>
     <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
     <link>https://github.com/patch-gg/pixelfx</link>
@@ -24,12 +24,36 @@
     <category>Tools</category>
   </item>
   <item>
+    <title>Desigma — Free Open-Source Figma Alternative Built in Rust</title>
+    <link>https://github.com/deepfounder-ai/desigma</link>
+    <description>Native desktop design app in Rust: auto layout, components, motion timeline, Figma file import. Early alpha.</description>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/deepfounder-ai/desigma</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>Visualize Dependencies In Design Systems</title>
     <link>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</link>
     <description>Roundup of Figma plugins (Impact Atlas, Synapse, Lineage) and a web tool for mapping token and component dependencies.</description>
     <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</guid>
     <category>Design Systems</category>
+  </item>
+  <item>
+    <title>teardown — Interactive 3D Machine Simulator Skill for Claude Code</title>
+    <link>https://github.com/elvarofficial/teardown</link>
+    <description>Claude Code skill: describe any machine, get an interactive 3D simulator you can disassemble, with sound.</description>
+    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/elvarofficial/teardown</guid>
+    <category>3D + AI</category>
+  </item>
+  <item>
+    <title>bama — Build Any Mac App: 21-Skill System with Liquid Glass Design</title>
+    <link>https://github.com/daveebbelaar/bama</link>
+    <description>21-skill system for native macOS apps covering Liquid Glass styling, design tokens, layout grids, and icon creation.</description>
+    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/daveebbelaar/bama</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>The TL;DR on Figma Weave</title>
@@ -142,30 +166,6 @@
     <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/lufthansa-figma-make/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>3D Model Anything — iPhone LiDAR to Editable Three.js Rooms</title>
-    <link>https://github.com/wesbos/3d-model-anything</link>
-    <description>Scan any room with iPhone LiDAR; an agent skill iteratively rebuilds it as an editable Three.js scene.</description>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/wesbos/3d-model-anything</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>Canva Craft — First In-House AI Image Model with Two-Stage Layout Planning</title>
-    <link>https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/</link>
-    <description>Canva's first in-house model plans spatial layout and hierarchy before generating; outputs convert to editable layered designs and are available via API and MCP.</description>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Framer MCP — Connect Claude, Codex, Cursor and More to Framer</title>
-    <link>https://www.framer.com/mcp/</link>
-    <description>Official Framer MCP lets Claude Code, Cursor, and Codex build and edit Framer sites with branch review before publish.</description>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/mcp/</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
