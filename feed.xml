@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 04 Nov 2026 11:29:17 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 11:28:16 +0000</lastBuildDate>
+  <item>
+    <title>Workflow Lab: Test Ideas with Code Layers and the Figma Agent</title>
+    <link>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</link>
+    <description>Figma's workflow lab: combine code layers with the agent to test working prototypes against designs on one shared canvas.</description>
+    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
     <link>https://github.com/patch-gg/pixelfx</link>
@@ -56,12 +64,28 @@
     <category>Skills &amp; Plugins</category>
   </item>
   <item>
+    <title>claude-animated-shorts — Viral Animated Story Shorts Skill for Claude Code</title>
+    <link>https://github.com/mromidev/claude-animated-shorts</link>
+    <description>Claude skill for creating viral animated shorts — 2D characters in 3D environments via three.js and Remotion.</description>
+    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/mromidev/claude-animated-shorts</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>The TL;DR on Figma Weave</title>
     <link>https://www.figma.com/blog/the-tldr-on-figma-weave/</link>
     <description>Figma's plain-English overview of Weave: nodes, branching explorations, and reusable workflow templates.</description>
     <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-tldr-on-figma-weave/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>reanimate — Reverse-Engineer Any Animation Frame by Frame</title>
+    <link>https://github.com/NiazMorshed2007/reanimate</link>
+    <description>Claude Code skill that reverse-engineers animations from any site and rebuilds them with CSS, Framer Motion, or GSAP.</description>
+    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/NiazMorshed2007/reanimate</guid>
+    <category>Motion × AI</category>
   </item>
   <item>
     <title>text-to-cad — Design Physical Products with AI Agents</title>
@@ -142,30 +166,6 @@
     <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://atifaz.am/writing/the-software-factory-forgot-about-design</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>How to Put Your Design System to Work with the Figma Agent</title>
-    <link>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</link>
-    <description>Five concrete steps to connect a design system to the Figma agent: libraries, guidelines, examples, and team skills.</description>
-    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>6 Ways Teams Are Experimenting with Code Layers</title>
-    <link>https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/</link>
-    <description>Six concrete examples from beta teams showing how code layers bridges design and live production code in Figma.</description>
-    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>How Lufthansa Systems Prototypes Realistic Maps for the Cockpit with Figma Make</title>
-    <link>https://www.figma.com/blog/lufthansa-figma-make/</link>
-    <description>Lufthansa Systems built cockpit map prototypes with live aviation data in Figma Make, showing Make handling production-grade data visualization.</description>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/lufthansa-figma-make/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
