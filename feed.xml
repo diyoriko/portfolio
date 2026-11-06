@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 05 Nov 2026 11:28:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 11:27:43 +0000</lastBuildDate>
+  <item>
+    <title>Mean — Screen Annotation for AI Coding Agent Handoffs</title>
+    <link>https://mean.app/</link>
+    <description>Free macOS app annotates screens with numbered pins and arrows, then exports to AI coding agents via MCP and Skills.</description>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://mean.app/</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>Making Immersive LLM Chat Experiences More Accessible</title>
+    <link>https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/</link>
+    <description>Seven concrete ARIA and keyboard-nav patterns that make streaming LLM chat interfaces usable with screen readers.</description>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/</guid>
+    <category>Accessibility × AI</category>
+  </item>
   <item>
     <title>Workflow Lab: Test Ideas with Code Layers and the Figma Agent</title>
     <link>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</link>
@@ -150,22 +166,6 @@
     <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/elayadesign/ai-design-skills</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>dimensional-drawing — Apple-Style Dimensional Spec Sheets for UI Components</title>
-    <link>https://github.com/enesozturk/dimensional-drawing</link>
-    <description>Claude Code skill generates Apple-style dimensional spec sheets for UI components — paddings, corner radii, layers annotated with variables — plus a cinematic animation companion skill.</description>
-    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/enesozturk/dimensional-drawing</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>The Software Factory Forgot About Design</title>
-    <link>https://atifaz.am/writing/the-software-factory-forgot-about-design</link>
-    <description>A four-station workflow (Linear → Paper → Codex → Review) placing design review before code generation.</description>
-    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://atifaz.am/writing/the-software-factory-forgot-about-design</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
