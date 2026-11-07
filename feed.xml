@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 06 Nov 2026 11:27:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 10:40:58 +0000</lastBuildDate>
   <item>
     <title>Mean — Screen Annotation for AI Coding Agent Handoffs</title>
     <link>https://mean.app/</link>
@@ -30,6 +30,14 @@
     <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>stack-diagram — Describe Your Tech Stack, Get a Branded Architecture Diagram</title>
+    <link>https://github.com/caru-ini/stack-diagram</link>
+    <description>Agent skill that turns a one-sentence stack description into a shareable architecture diagram with official logos.</description>
+    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/caru-ini/stack-diagram</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://karlkoch.me/writing/on-giving-people-an-undo-button-in-ai-products</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>elayadesign/ai-design-skills — Landing Page Design and Design-to-Motion Skills for AI Coding Agents</title>
-    <link>https://github.com/elayadesign/ai-design-skills</link>
-    <description>Two focused agent skills for Claude Code and Cursor: landing page design with full visual system and static design-to-motion conversion.</description>
-    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/elayadesign/ai-design-skills</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
