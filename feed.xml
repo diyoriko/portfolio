@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 07 Nov 2026 10:40:58 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 10:49:54 +0000</lastBuildDate>
+  <item>
+    <title>Everyone Is Building AI Agents. Who's Designing the Stop Button?</title>
+    <link>https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c</link>
+    <description>Framework for classifying AI agent actions into deterministic, fuzzy, and irreversible tiers to identify where stop controls belong.</description>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Mean — Screen Annotation for AI Coding Agent Handoffs</title>
     <link>https://mean.app/</link>
@@ -112,6 +120,14 @@
     <category>Motion × AI</category>
   </item>
   <item>
+    <title>Stageshow — Skill for Polished AI-Generated Product Demo UIs</title>
+    <link>https://benji.org/stageshow</link>
+    <description>Seven-step agent skill with React kit and filming scripts to produce demo UIs that look designed, not generated.</description>
+    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <guid>https://benji.org/stageshow</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>text-to-cad — Design Physical Products with AI Agents</title>
     <link>https://github.com/earthtojake/text-to-cad</link>
     <description>Agent skill library for generating STEP/STL/CAD models from text; works with Claude Code, Cursor, Codex; 24K GitHub stars.</description>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/heydamir/unslop</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>The State Of AI In Design Systems 2026</title>
-    <link>https://smart-interface-design-patterns.com/articles/ai-design-systems-2026/</link>
-    <description>Field study of 20 design systems: 150+ techniques to prevent AI drift and an 8-agent Figma-to-React pipeline.</description>
-    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://smart-interface-design-patterns.com/articles/ai-design-systems-2026/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>On Giving People an Undo Button in AI Products</title>
-    <link>https://karlkoch.me/writing/on-giving-people-an-undo-button-in-ai-products</link>
-    <description>Four-stage framework (Proposal, Decision, Accepted edit, Recovery) for designing reversible AI edit UX.</description>
-    <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://karlkoch.me/writing/on-giving-people-an-undo-button-in-ai-products</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
