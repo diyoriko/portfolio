@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 08 Nov 2026 10:49:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 12:05:15 +0000</lastBuildDate>
+  <item>
+    <title>craft — Design Engineering Skills for Claude Code and Coding Agents</title>
+    <link>https://github.com/gustavo-fior/craft</link>
+    <description>430-star skill covering typography, color, layout, motion, sound, and data viz. Install with npx skills add gustavo-fior/craft.</description>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/gustavo-fior/craft</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>Everyone Is Building AI Agents. Who's Designing the Stop Button?</title>
     <link>https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c</link>
@@ -80,6 +88,14 @@
     <category>Design Systems</category>
   </item>
   <item>
+    <title>Framer Harness 2 — Agent Infrastructure with MCP and Branch Operations</title>
+    <link>https://www.framer.com/updates/harness-2</link>
+    <description>Rebuilt Framer agent: 2x fewer steps, MCP support for external agents, branch management, and role-based access control.</description>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/harness-2</guid>
+    <category>Tools</category>
+  </item>
+  <item>
     <title>teardown — Interactive 3D Machine Simulator Skill for Claude Code</title>
     <link>https://github.com/elvarofficial/teardown</link>
     <description>Claude Code skill: describe any machine, get an interactive 3D simulator you can disassemble, with sound.</description>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/andyhuo520/digital-human-koubo</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>How We're Training a Figma-Fluent Editing Model</title>
-    <link>https://www.figma.com/blog/training-a-figma-fluent-editing-model/</link>
-    <description>Figma's post-trained design model beats the previous agent 62% of the time and reduces unwanted edits by 60%.</description>
-    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/training-a-figma-fluent-editing-model/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>unslop — Claude Skill That Turns Vibecoded UI Into a Designed Interface</title>
-    <link>https://github.com/heydamir/unslop</link>
-    <description>Claude Code skill that audits and iteratively fixes AI-generated UI slop: spacing, color, typography, and layout.</description>
-    <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/heydamir/unslop</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
