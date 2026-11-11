@@ -6,7 +6,31 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 10 Nov 2026 11:42:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 11:26:42 +0000</lastBuildDate>
+  <item>
+    <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
+    <link>https://github.com/sarpstar/cinecode</link>
+    <description>Claude Code skill where the agent writes the script, renders every frame in Three.js or Canvas 2D, and exports MP4.</description>
+    <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/sarpstar/cinecode</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Claude Interactive Connectors — Apps Open Inside Claude and Agents Edit Them Live</title>
+    <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
+    <description>Canva, Webflow, and Vercel embed directly in Claude so the agent edits your open files live. Figma support in progress.</description>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/resources/articles/interactive-connectors-full-tool</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>Claude Whiteboards — Shared Brainstorming Canvas with AI, Exports to Miro and Lucid</title>
+    <link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
+    <description>Shared whiteboard in Claude for real-time team brainstorming. Focus any section for AI questions; export to Miro, Lucid, or decks.</description>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://claude.com/resources/articles/sheets-whiteboards-data</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>craft — Design Engineering Skills for Claude Code and Coding Agents</title>
     <link>https://github.com/gustavo-fior/craft</link>
@@ -142,30 +166,6 @@
     <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/the-tldr-on-figma-weave/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>reanimate — Reverse-Engineer Any Animation Frame by Frame</title>
-    <link>https://github.com/NiazMorshed2007/reanimate</link>
-    <description>Claude Code skill that reverse-engineers animations from any site and rebuilds them with CSS, Framer Motion, or GSAP.</description>
-    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/NiazMorshed2007/reanimate</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>Stageshow — Skill for Polished AI-Generated Product Demo UIs</title>
-    <link>https://benji.org/stageshow</link>
-    <description>Seven-step agent skill with React kit and filming scripts to produce demo UIs that look designed, not generated.</description>
-    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://benji.org/stageshow</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>text-to-cad — Design Physical Products with AI Agents</title>
-    <link>https://github.com/earthtojake/text-to-cad</link>
-    <description>Agent skill library for generating STEP/STL/CAD models from text; works with Claude Code, Cursor, Codex; 24K GitHub stars.</description>
-    <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/earthtojake/text-to-cad</guid>
-    <category>3D + AI</category>
   </item>
 </channel>
 </rss>
