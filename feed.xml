@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 11 Nov 2026 11:26:42 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 11:49:54 +0000</lastBuildDate>
   <item>
     <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
     <link>https://github.com/sarpstar/cinecode</link>
@@ -32,6 +32,14 @@
     <category>Process</category>
   </item>
   <item>
+    <title>livliv-dev/player — 2.5D Web Character with AI Lip Sync and Face Tracking</title>
+    <link>https://github.com/livliv-dev/player</link>
+    <description>Embeddable 2.5D web character with AI lip sync and webcam face tracking via MediaPipe, no coding required.</description>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/livliv-dev/player</guid>
+    <category>Motion × AI</category>
+  </item>
+  <item>
     <title>craft — Design Engineering Skills for Claude Code and Coding Agents</title>
     <link>https://github.com/gustavo-fior/craft</link>
     <description>430-star skill covering typography, color, layout, motion, sound, and data viz. Install with npx skills add gustavo-fior/craft.</description>
@@ -46,6 +54,14 @@
     <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>guizang-game-skill — Full Playable 3D Browser Game Built by Claude Code from Scratch</title>
+    <link>https://github.com/op7418/guizang-game-skill</link>
+    <description>Claude Code skill guiding AI through building a complete playable 3D browser game with combat, animation, and sound.</description>
+    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-game-skill</guid>
+    <category>Skills &amp; Plugins</category>
   </item>
   <item>
     <title>Everyone Is Building AI Agents. Who's Designing the Stop Button?</title>
@@ -150,22 +166,6 @@
     <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/daveebbelaar/bama</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>claude-animated-shorts — Viral Animated Story Shorts Skill for Claude Code</title>
-    <link>https://github.com/mromidev/claude-animated-shorts</link>
-    <description>Claude skill for creating viral animated shorts — 2D characters in 3D environments via three.js and Remotion.</description>
-    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/mromidev/claude-animated-shorts</guid>
-    <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>The TL;DR on Figma Weave</title>
-    <link>https://www.figma.com/blog/the-tldr-on-figma-weave/</link>
-    <description>Figma's plain-English overview of Weave: nodes, branching explorations, and reusable workflow templates.</description>
-    <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/the-tldr-on-figma-weave/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
