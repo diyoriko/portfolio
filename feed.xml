@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 12 Nov 2026 11:49:54 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 11:30:22 +0000</lastBuildDate>
+  <item>
+    <title>Framer Agents: Image and Shader Generation</title>
+    <link>https://www.framer.com/updates/image-shader-generation</link>
+    <description>Framer's agent now generates custom images and shader effects (halftone, bokeh, CRT) directly in the editor.</description>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/image-shader-generation</guid>
+    <category>Tools</category>
+  </item>
+  <item>
+    <title>How 3D Transforms and Figma's Agent Brought a Launch Video to Life</title>
+    <link>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</link>
+    <description>Figma Brand Studio shows how to combine the agent, 3D transforms, shaders, and Motion to produce a video on canvas.</description>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
     <link>https://github.com/sarpstar/cinecode</link>
@@ -150,22 +166,6 @@
     <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/harness-2</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>teardown — Interactive 3D Machine Simulator Skill for Claude Code</title>
-    <link>https://github.com/elvarofficial/teardown</link>
-    <description>Claude Code skill: describe any machine, get an interactive 3D simulator you can disassemble, with sound.</description>
-    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/elvarofficial/teardown</guid>
-    <category>3D + AI</category>
-  </item>
-  <item>
-    <title>bama — Build Any Mac App: 21-Skill System with Liquid Glass Design</title>
-    <link>https://github.com/daveebbelaar/bama</link>
-    <description>21-skill system for native macOS apps covering Liquid Glass styling, design tokens, layout grids, and icon creation.</description>
-    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/daveebbelaar/bama</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
