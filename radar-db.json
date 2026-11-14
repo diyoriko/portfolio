@@ -77,6 +77,22 @@
   },
   "items": [
     {
+      "title": "AI's Role in the Creative Process",
+      "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Сооснователь Figma Weave: делегируй рутинный труд, сохраняй авторство — фреймворк «открытый vs закрытый режим».",
+      "desc_en": "Figma Weave co-founder: delegate repetitive labor to AI, retain the thinking — a framework for creative direction.",
+      "date": "2026-11-13",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 6,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-11-14"
+    },
+    {
       "title": "Framer Agents: Image and Shader Generation",
       "url": "https://www.framer.com/updates/image-shader-generation",
       "type": "tool",
@@ -109,6 +125,22 @@
       "added": "2026-11-13"
     },
     {
+      "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+      "url": "https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+      "type": "article",
+      "tag": "process",
+      "desc_ru": "Матрица четырёх вопросов: AI-фича оправдана, только если выгода превышает расходы пользователя на проверку результата.",
+      "desc_en": "Four-question audit: an AI feature earns its place only when the return beats the user's verification cost.",
+      "date": "2026-11-12",
+      "priority": 2,
+      "score": 5,
+      "reading_time": 8,
+      "difficulty": "intermediate",
+      "has_demo": false,
+      "expanded_window": false,
+      "added": "2026-11-14"
+    },
+    {
       "title": "cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D",
       "url": "https://github.com/sarpstar/cinecode",
       "type": "skill",
@@ -124,7 +156,7 @@
       "expanded_window": false,
       "star_velocity": "1000★/7d",
       "added": "2026-11-11",
-      "stars": 2379
+      "stars": 2462
     },
     {
       "title": "Claude Interactive Connectors — Apps Open Inside Claude and Agents Edit Them Live",
@@ -174,7 +206,7 @@
       "expanded_window": false,
       "star_velocity": "490★/2d",
       "added": "2026-11-12",
-      "stars": 1520
+      "stars": 1540
     },
     {
       "title": "craft — Design Engineering Skills for Claude Code and Coding Agents",
@@ -191,7 +223,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-09",
-      "stars": 438
+      "stars": 439
     },
     {
       "title": "6 Easy Ways to Use the Figma Agent Right Now",
@@ -224,7 +256,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-12",
-      "stars": 290
+      "stars": 334
     },
     {
       "title": "Everyone Is Building AI Agents. Who's Designing the Stop Button?",
@@ -305,7 +337,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-07",
-      "stars": 2468
+      "stars": 2493
     },
     {
       "title": "pixelfx — 244 Pixel Art Effects with Claude Code Skill",
@@ -322,7 +354,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-03",
-      "stars": 7265
+      "stars": 7386
     },
     {
       "title": "Jelly UI — Soft-Body Physics Web Components with WCAG AA",
@@ -355,7 +387,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-04",
-      "stars": 1220
+      "stars": 1222
     },
     {
       "title": "Framer Convert Update — Agents Create and Analyze A/B Tests, Funnels, and Country Triggers",
@@ -421,7 +453,7 @@
       "expanded_window": false,
       "star_velocity": "~409★/7d",
       "added": "2026-11-04",
-      "stars": 3394
+      "stars": 3468
     },
     {
       "title": "bama — Build Any Mac App: 21-Skill System with Liquid Glass Design",
@@ -439,7 +471,7 @@
       "expanded_window": false,
       "star_velocity": "~677★/7d",
       "added": "2026-11-04",
-      "stars": 1794
+      "stars": 1811
     },
     {
       "title": "claude-animated-shorts — Viral Animated Story Shorts Skill for Claude Code",
@@ -456,7 +488,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-05",
-      "stars": 3169
+      "stars": 3313
     },
     {
       "title": "The TL;DR on Figma Weave",
@@ -490,7 +522,7 @@
       "expanded_window": false,
       "star_velocity": "1200★/5d",
       "added": "2026-11-05",
-      "stars": 1597
+      "stars": 1641
     },
     {
       "title": "Stageshow — Skill for Polished AI-Generated Product Demo UIs",
@@ -524,7 +556,7 @@
       "expanded_window": false,
       "star_velocity": "~1900★/7d",
       "added": "2026-10-31",
-      "stars": 26233
+      "stars": 26286
     },
     {
       "title": "claude-skill by MotionSites — Cinematic Landing Page Skill for Claude",
@@ -541,7 +573,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-29",
-      "stars": 2047
+      "stars": 2078
     },
     {
       "title": "digital-human-koubo — AI Talking-Head Video Generator from a Single Photo",
@@ -558,7 +590,7 @@
       "has_demo": false,
       "expanded_window": true,
       "added": "2026-10-29",
-      "stars": 1966
+      "stars": 1970
     },
     {
       "title": "How We're Training a Figma-Fluent Editing Model",
@@ -592,7 +624,7 @@
       "expanded_window": false,
       "star_velocity": "2450★/3d",
       "added": "2026-11-01",
-      "stars": 15417
+      "stars": 15825
     },
     {
       "title": "The State Of AI In Design Systems 2026",
@@ -657,7 +689,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-26",
-      "stars": 15432
+      "stars": 15498
     },
     {
       "title": "dimensional-drawing — Apple-Style Dimensional Spec Sheets for UI Components",
@@ -674,7 +706,7 @@
       "desc_en": "Claude Code skill generates Apple-style dimensional spec sheets for UI components — paddings, corner radii, layers annotated with variables — plus a cinematic animation companion skill.",
       "desc_ru": "Скилл для Claude Code создаёт технические чертежи компонентов в стиле Apple с переменными и размерами, плюс кинематографическая анимация.",
       "added": "2026-10-28",
-      "stars": 2090
+      "stars": 2102
     },
     {
       "title": "The Software Factory Forgot About Design",
@@ -756,7 +788,7 @@
       "expanded_window": false,
       "star_velocity": "1800★/3d",
       "added": "2026-10-25",
-      "stars": 2991
+      "stars": 3004
     },
     {
       "title": "Canva Craft — First In-House AI Image Model with Two-Stage Layout Planning",
@@ -885,7 +917,7 @@
       "desc_en": "LottieFiles' official skill teaches AI agents timing, easing, choreography, and Disney principles across CSS, Framer Motion, GSAP, and Lottie.",
       "desc_ru": "Официальный скилл LottieFiles обучает AI-агентов таймингу, easing и хореографии — для CSS, Framer Motion, GSAP и Lottie.",
       "added": "2026-10-28",
-      "stars": 2996
+      "stars": 3031
     },
     {
       "title": "Starting to Make a Design System Usable by AI",
@@ -1031,7 +1063,7 @@
       "expanded_window": false,
       "star_velocity": "1.9k★/7d",
       "added": "2026-10-18",
-      "stars": 2069
+      "stars": 2070
     },
     {
       "title": "38 Things We've Learned About Building AI Products",
@@ -1192,7 +1224,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-12",
-      "stars": 27039
+      "stars": 27208
     },
     {
       "title": "How to lighten design system upkeep with the Figma agent",
@@ -1322,7 +1354,7 @@
       "expanded_window": false,
       "star_velocity": "350★/7d",
       "added": "2026-10-10",
-      "stars": 9176
+      "stars": 9290
     },
     {
       "title": "Agents Don't Need Memory. They Need Documentation.",
@@ -1355,7 +1387,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-03",
-      "stars": 56525
+      "stars": 56776
     },
     {
       "title": "Workflow Lab: From Design System to Campaign in Figma Weave",
@@ -1388,7 +1420,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-05",
-      "stars": 4744
+      "stars": 4753
     },
     {
       "title": "taste-skill by Leonxlnx — Anti-Slop Frontend Framework with Three Tunable Design Dials",
@@ -1405,7 +1437,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-06",
-      "stars": 114657
+      "stars": 115281
     },
     {
       "title": "hallmark — Anti-AI-Slop Design Skill with 57 Slop-Test Gates and 21 Themed UI Options",
@@ -1422,7 +1454,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-06",
-      "stars": 54268
+      "stars": 54708
     },
     {
       "title": "a11y-toolkit — 31 MCP Tools for WCAG 2.2 in Claude Code and Cursor",
@@ -1456,7 +1488,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-30",
-      "stars": 4080
+      "stars": 4112
     },
     {
       "title": "Agentic Translation in Webflow Localize",
@@ -1506,7 +1538,7 @@
       "expanded_window": false,
       "star_velocity": "730★/7d",
       "added": "2026-10-01",
-      "stars": 1072
+      "stars": 1073
     },
     {
       "title": "logo-design-skill — Comprehensive Logo Design Skill for Claude, Codex and Gemini CLI",
@@ -1524,7 +1556,7 @@
       "expanded_window": false,
       "star_velocity": "900★/5d",
       "added": "2026-10-01",
-      "stars": 6782
+      "stars": 6886
     },
     {
       "title": "motion-video-kit — Professional Business Film Skill for Claude Code with GSAP and Three.js",
@@ -1542,7 +1574,7 @@
       "expanded_window": false,
       "star_velocity": "270★/7d",
       "added": "2026-10-02",
-      "stars": 1392
+      "stars": 1395
     },
     {
       "title": "reelmimic — Multi-Agent Tool That Clones Any Video's Visual Style",
@@ -1559,7 +1591,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-04",
-      "stars": 1973
+      "stars": 1959
     },
     {
       "title": "Blume — Zero-Config Docs Framework for Humans and Agents",
@@ -1624,7 +1656,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-23",
-      "stars": 1000
+      "stars": 1007
     },
     {
       "title": "golive-skill — Deploy Agent-Built Products with Hosting, Database, Domain and Payments",
@@ -1641,7 +1673,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-26",
-      "stars": 1523
+      "stars": 1540
     },
     {
       "title": "I Gave My Website a Boss Fight",
@@ -1739,7 +1771,7 @@
       "expanded_window": false,
       "star_velocity": "80★/24h",
       "added": "2026-09-19",
-      "stars": 938
+      "stars": 940
     },
     {
       "title": "Compositor — Free Open-Source Photoshop Alternative for Mac",
@@ -1757,7 +1789,7 @@
       "expanded_window": false,
       "star_velocity": "1300★/24h",
       "added": "2026-09-21",
-      "stars": 18639
+      "stars": 18658
     },
     {
       "title": "The 3 Roles of Context for AI Agents",
@@ -1839,7 +1871,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-18",
-      "stars": 1374
+      "stars": 1376
     },
     {
       "title": "Anatomy of AI Input",
@@ -1873,7 +1905,7 @@
       "expanded_window": false,
       "star_velocity": "440★/7d",
       "added": "2026-09-17",
-      "stars": 1266
+      "stars": 1287
     },
     {
       "title": "DialKit — Live UI Parameter Editor for Design Engineers",
@@ -1922,7 +1954,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-13",
-      "stars": 3181
+      "stars": 3264
     },
     {
       "title": "Why Design System Documentation Goes Out of Date",
@@ -2036,7 +2068,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-13",
-      "stars": 3248
+      "stars": 3306
     },
     {
       "title": "How to Connect Your Design System to Claude Code, Cursor, Codex and VS Code",
@@ -2069,7 +2101,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-08",
-      "stars": 83176
+      "stars": 84119
     },
     {
       "title": "M3E Canvas — Sketch Material 3 UIs and Copy AI Coding Prompts",
@@ -2087,7 +2119,7 @@
       "expanded_window": false,
       "star_velocity": "~3300★/7d",
       "added": "2026-09-06",
-      "stars": 10316
+      "stars": 10344
     },
     {
       "title": "camera-to-blender — Phone Photo to 3D Model Auto-Imported into Blender",
@@ -2104,7 +2136,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-09",
-      "stars": 1444
+      "stars": 1454
     },
     {
       "title": "JudgmentKit — Judgment Layer for AI-Generated UI",
@@ -2154,7 +2186,7 @@
       "expanded_window": false,
       "star_velocity": "~250★/7d",
       "added": "2026-09-09",
-      "stars": 2088
+      "stars": 2095
     },
     {
       "title": "Agent-Ready Design Systems Index — 37 Systems Scored Against 5 Signals",
@@ -2187,7 +2219,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 583
+      "stars": 584
     },
     {
       "title": "guizang-yingzao-skill — Chinese Architecture Photo to Editorial Poster Skill",
@@ -2204,7 +2236,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-04",
-      "stars": 532
+      "stars": 534
     },
     {
       "title": "The Call for an Agentic Standard",
@@ -2317,7 +2349,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-03",
-      "stars": 699
+      "stars": 701
     },
     {
       "title": "Behind the Build: Generative Plugins and Shaders at Figma",
@@ -2382,7 +2414,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-06",
-      "stars": 355
+      "stars": 358
     },
     {
       "title": "shots — AI App Store Screenshot Skill Using GPT Image 2 for Claude Code",
@@ -2399,7 +2431,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-10",
-      "stars": 250
+      "stars": 251
     },
     {
       "title": "app-store-screenshots — Next.js Screenshot Editor Scaffolded by Claude Code Agents",
@@ -2416,7 +2448,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-11",
-      "stars": 7914
+      "stars": 7933
     },
     {
       "title": "claude-skill-aso-appstore-screenshots — Two-Stage iOS Screenshot Generator for Claude Code",
@@ -2433,7 +2465,7 @@
       "has_demo": true,
       "expanded_window": true,
       "added": "2026-09-15",
-      "stars": 1826
+      "stars": 1829
     },
     {
       "title": "Making Design Systems LLM-Readable",
@@ -2466,7 +2498,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-09-29",
-      "stars": 95800
+      "stars": 96322
     },
     {
       "title": "jakubkrehel/skills — 11 UI Agent Skills for Typography, Accessibility, and Product Writing",
@@ -2483,7 +2515,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-10-03",
-      "stars": 12056
+      "stars": 12141
     },
     {
       "title": "Topview Motion Studio — Agent OS for Marketing and Filmmaking",
@@ -2532,7 +2564,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-29",
-      "stars": 6518
+      "stars": 6520
     },
     {
       "title": "The Custodial Era of UX: Cleaning Up After AI",
@@ -2613,7 +2645,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-26",
-      "stars": 4966
+      "stars": 5052
     },
     {
       "title": "Is Agentic — Website Agent-Readiness Auditor",
@@ -2646,7 +2678,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-30",
-      "stars": 6285
+      "stars": 6287
     },
     {
       "title": "ThreeUI — Open-Source Three.js and WebGL Community Component Catalog",
@@ -2663,7 +2695,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-24",
-      "stars": 7245
+      "stars": 7277
     },
     {
       "title": "Doop — Open-Source Multiplayer Design Canvas for Humans and AI Agents",
@@ -2680,7 +2712,7 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-08-25",
-      "stars": 1983
+      "stars": 2019
     },
     {
       "title": "goldie — iOS App Store Screenshots and Preview Videos via Claude Code Skill",

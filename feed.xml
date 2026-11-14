@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 13 Nov 2026 11:30:22 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 10:51:24 +0000</lastBuildDate>
+  <item>
+    <title>AI's Role in the Creative Process</title>
+    <link>https://www.figma.com/blog/ai-role-in-the-creative-process/</link>
+    <description>Figma Weave co-founder: delegate repetitive labor to AI, retain the thinking — a framework for creative direction.</description>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/ai-role-in-the-creative-process/</guid>
+    <category>Process</category>
+  </item>
   <item>
     <title>Framer Agents: Image and Shader Generation</title>
     <link>https://www.framer.com/updates/image-shader-generation</link>
@@ -22,6 +30,14 @@
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</guid>
     <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Should You Actually Add AI To That? A Four-Question Audit For Product Teams</title>
+    <link>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</link>
+    <description>Four-question audit: an AI feature earns its place only when the return beats the user's verification cost.</description>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/convert-update</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Visualize Dependencies In Design Systems</title>
-    <link>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</link>
-    <description>Roundup of Figma plugins (Impact Atlas, Synapse, Lineage) and a web tool for mapping token and component dependencies.</description>
-    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://smart-interface-design-patterns.com/articles/dependencies-design-systems/</guid>
-    <category>Design Systems</category>
-  </item>
-  <item>
-    <title>Framer Harness 2 — Agent Infrastructure with MCP and Branch Operations</title>
-    <link>https://www.framer.com/updates/harness-2</link>
-    <description>Rebuilt Framer agent: 2x fewer steps, MCP support for external agents, branch management, and role-based access control.</description>
-    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/harness-2</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
