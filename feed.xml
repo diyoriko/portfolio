@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 14 Nov 2026 10:51:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 11:28:55 +0000</lastBuildDate>
   <item>
     <title>AI's Role in the Creative Process</title>
     <link>https://www.figma.com/blog/ai-role-in-the-creative-process/</link>
@@ -120,6 +120,14 @@
     <category>Accessibility × AI</category>
   </item>
   <item>
+    <title>figma-ui-mcp — Bidirectional Figma MCP Bridge with Write Access and No API Key</title>
+    <link>https://github.com/TranHoaiHung/figma-ui-mcp</link>
+    <description>MCP bridge letting Claude Code and Cursor draw UI on the Figma canvas over localhost — no API key, 56 write ops.</description>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/TranHoaiHung/figma-ui-mcp</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
     <title>Workflow Lab: Test Ideas with Code Layers and the Figma Agent</title>
     <link>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</link>
     <description>Figma's workflow lab: combine code layers with the agent to test working prototypes against designs on one shared canvas.</description>
@@ -136,6 +144,14 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>oil-ui — Multi-Direction UI Design Skill with Real Screenshot Comparison</title>
+    <link>https://github.com/oil-oil/oil-ui</link>
+    <description>Design skill that generates multiple distinct UI directions and validates each against real browser screenshots.</description>
+    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/oil-oil/oil-ui</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
     <link>https://github.com/patch-gg/pixelfx</link>
     <description>244 pixel art animation effects for browser games, with a Claude Code skill for prompting custom effects.</description>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://jelly-ui.com</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>Desigma — Free Open-Source Figma Alternative Built in Rust</title>
-    <link>https://github.com/deepfounder-ai/desigma</link>
-    <description>Native desktop design app in Rust: auto layout, components, motion timeline, Figma file import. Early alpha.</description>
-    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/deepfounder-ai/desigma</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Framer Convert Update — Agents Create and Analyze A/B Tests, Funnels, and Country Triggers</title>
-    <link>https://www.framer.com/updates/convert-update</link>
-    <description>Framer Agent can now create, edit, and analyze funnels and A/B tests, plus add country-based overlays for regional targeting.</description>
-    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/convert-update</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
