@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 15 Nov 2026 11:28:55 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 12:02:16 +0000</lastBuildDate>
   <item>
     <title>AI's Role in the Creative Process</title>
     <link>https://www.figma.com/blog/ai-role-in-the-creative-process/</link>
@@ -14,6 +14,14 @@
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/ai-role-in-the-creative-process/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Building Interfaces That Understand What We Want to Do</title>
+    <link>https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want</link>
+    <description>Chrome's Decisions API enables on-device ML classification in-browser from Chrome 157—no server call, no data leaves the device.</description>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>Framer Agents: Image and Shader Generation</title>
@@ -70,6 +78,14 @@
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/livliv-dev/player</guid>
     <category>Motion × AI</category>
+  </item>
+  <item>
+    <title>lot-map — Live Visual Map of Claude Code Agent Operations</title>
+    <link>https://github.com/alexeyw/lot-map</link>
+    <description>Claude Code plugin showing tool calls, model steps, skills, and subagents lighting up beside the chat in real time.</description>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/alexeyw/lot-map</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>craft — Design Engineering Skills for Claude Code and Coding Agents</title>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/oil-oil/oil-ui</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>pixelfx — 244 Pixel Art Effects with Claude Code Skill</title>
-    <link>https://github.com/patch-gg/pixelfx</link>
-    <description>244 pixel art animation effects for browser games, with a Claude Code skill for prompting custom effects.</description>
-    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/patch-gg/pixelfx</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Jelly UI — Soft-Body Physics Web Components with WCAG AA</title>
-    <link>https://jelly-ui.com</link>
-    <description>Zero-dependency Web Components with soft-body physics and WCAG AA accessibility, installs in one script tag.</description>
-    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://jelly-ui.com</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
