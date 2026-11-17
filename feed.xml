@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 16 Nov 2026 12:02:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 12:24:53 +0000</lastBuildDate>
+  <item>
+    <title>How 1Password Uses Figma Make to Design for Trust and Certainty</title>
+    <link>https://www.figma.com/blog/1password-figma-make/</link>
+    <description>1Password's design systems team built a Code Connect prototype playground letting Figma Make handle 80% of routine component edits.</description>
+    <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/1password-figma-make/</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>line-art-animation — Animated SVG Line-Art Claude Skill with Physics-Based Walking Figures</title>
+    <link>https://github.com/JDhruv14/line-art-animation</link>
+    <description>Claude skill and TS library for physics-based animated SVG walking figures with gait solving, scene composition, and day/night cycles.</description>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/JDhruv14/line-art-animation</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
   <item>
     <title>AI's Role in the Creative Process</title>
     <link>https://www.figma.com/blog/ai-role-in-the-creative-process/</link>
@@ -46,6 +62,14 @@
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Webflow MCP Now Available in Microsoft Copilot</title>
+    <link>https://webflow.com/updates/microsoft-copilot</link>
+    <description>Webflow's MCP server now connects to Microsoft Copilot, enabling page building, CMS management, and site performance checks from chat.</description>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/updates/microsoft-copilot</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
@@ -142,30 +166,6 @@
     <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/TranHoaiHung/figma-ui-mcp</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Workflow Lab: Test Ideas with Code Layers and the Figma Agent</title>
-    <link>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</link>
-    <description>Figma's workflow lab: combine code layers with the agent to test working prototypes against designs on one shared canvas.</description>
-    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/</guid>
-    <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>stack-diagram — Describe Your Tech Stack, Get a Branded Architecture Diagram</title>
-    <link>https://github.com/caru-ini/stack-diagram</link>
-    <description>Agent skill that turns a one-sentence stack description into a shareable architecture diagram with official logos.</description>
-    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/caru-ini/stack-diagram</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>oil-ui — Multi-Direction UI Design Skill with Real Screenshot Comparison</title>
-    <link>https://github.com/oil-oil/oil-ui</link>
-    <description>Design skill that generates multiple distinct UI directions and validates each against real browser screenshots.</description>
-    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/oil-oil/oil-ui</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
