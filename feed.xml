@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 19 Nov 2026 12:10:33 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 12:09:23 +0000</lastBuildDate>
+  <item>
+    <title>Work with the Figma Agent in Dev Mode</title>
+    <link>https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files</link>
+    <description>Dev-seat developers can now prompt the Figma agent to inspect designs, compare versions, and request code snippets without edit access.</description>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>AI Sped Up The Build: How Can Accessibility Testing Keep Up?</title>
     <link>https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/</link>
@@ -14,6 +22,22 @@
     <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/</guid>
     <category>Accessibility × AI</category>
+  </item>
+  <item>
+    <title>islandcn — Open-Source Dynamic Island for React</title>
+    <link>https://github.com/opencoredev/islandcn</link>
+    <description>React Dynamic Island component for shadcn with activity presets: uploads, timers, incoming calls, and delivery status.</description>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/opencoredev/islandcn</guid>
+    <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Spaceship — Real-Time LLM Interface Interaction Patterns</title>
+    <link>https://github.com/chuanqisun/spaceship</link>
+    <description>Research demo of four novel LLM UI patterns: attention monitoring, focus locking, vector steering, and real-time text regeneration.</description>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/chuanqisun/spaceship</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>How 1Password Uses Figma Make to Design for Trust and Certainty</title>
@@ -142,30 +166,6 @@
     <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>guizang-game-skill — Full Playable 3D Browser Game Built by Claude Code from Scratch</title>
-    <link>https://github.com/op7418/guizang-game-skill</link>
-    <description>Claude Code skill guiding AI through building a complete playable 3D browser game with combat, animation, and sound.</description>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/op7418/guizang-game-skill</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Everyone Is Building AI Agents. Who's Designing the Stop Button?</title>
-    <link>https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c</link>
-    <description>Framework for classifying AI agent actions into deterministic, fuzzy, and irreversible tiers to identify where stop controls belong.</description>
-    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Mean — Screen Annotation for AI Coding Agent Handoffs</title>
-    <link>https://mean.app/</link>
-    <description>Free macOS app annotates screens with numbered pins and arrows, then exports to AI coding agents via MCP and Skills.</description>
-    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://mean.app/</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
