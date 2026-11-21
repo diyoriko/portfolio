@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 20 Nov 2026 12:09:23 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 11:43:17 +0000</lastBuildDate>
   <item>
     <title>Work with the Figma Agent in Dev Mode</title>
     <link>https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files</link>
@@ -38,6 +38,14 @@
     <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/chuanqisun/spaceship</guid>
     <category>Design Engineering</category>
+  </item>
+  <item>
+    <title>Agentic Journey Maps And Agentic Experience Design</title>
+    <link>https://smart-interface-design-patterns.com/articles/agentic-experience-design/</link>
+    <description>7-step agent journey map: discovery, permissions, failure recovery, and handoff for designing agentic UX.</description>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://smart-interface-design-patterns.com/articles/agentic-experience-design/</guid>
+    <category>Process</category>
   </item>
   <item>
     <title>How 1Password Uses Figma Make to Design for Trust and Certainty</title>
@@ -152,20 +160,12 @@
     <category>Design Engineering</category>
   </item>
   <item>
-    <title>craft — Design Engineering Skills for Claude Code and Coding Agents</title>
-    <link>https://github.com/gustavo-fior/craft</link>
-    <description>430-star skill covering typography, color, layout, motion, sound, and data viz. Install with npx skills add gustavo-fior/craft.</description>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/gustavo-fior/craft</guid>
-    <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>6 Easy Ways to Use the Figma Agent Right Now</title>
-    <link>https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/</link>
-    <description>Six practical agent workflows: annotate from transcripts, generate layout variations, create shaders, convert designs to code layers, and add motion.</description>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/</guid>
-    <category>Figma × AI</category>
+    <title>Native Modal and Popover Elements in Webflow</title>
+    <link>https://webflow.com/updates/new-modal-and-popover-elements</link>
+    <description>Webflow now has native &lt;dialog> and Popover API — accessible overlays with no JavaScript required.</description>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://webflow.com/updates/new-modal-and-popover-elements</guid>
+    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
