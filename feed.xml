@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 21 Nov 2026 11:43:17 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 11:57:38 +0000</lastBuildDate>
+  <item>
+    <title>Workflow Lab: Turning Context into a Plan with Specs and the Figma Agent</title>
+    <link>https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/</link>
+    <description>Figma Specs is a canvas-side context container agents read to turn design data into actionable implementation plans.</description>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Work with the Figma Agent in Dev Mode</title>
     <link>https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files</link>
@@ -46,6 +54,14 @@
     <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://smart-interface-design-patterns.com/articles/agentic-experience-design/</guid>
     <category>Process</category>
+  </item>
+  <item>
+    <title>Band-Aid Accessibility</title>
+    <link>https://yatil.net/blog/band-aid-accessibility</link>
+    <description>Disabled users patch inaccessible software with AI coding tools — a warning against treating this as a workaround.</description>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://yatil.net/blog/band-aid-accessibility</guid>
+    <category>Accessibility × AI</category>
   </item>
   <item>
     <title>How 1Password Uses Figma Make to Design for Trust and Certainty</title>
@@ -150,22 +166,6 @@
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/livliv-dev/player</guid>
     <category>Motion × AI</category>
-  </item>
-  <item>
-    <title>lot-map — Live Visual Map of Claude Code Agent Operations</title>
-    <link>https://github.com/alexeyw/lot-map</link>
-    <description>Claude Code plugin showing tool calls, model steps, skills, and subagents lighting up beside the chat in real time.</description>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/alexeyw/lot-map</guid>
-    <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Native Modal and Popover Elements in Webflow</title>
-    <link>https://webflow.com/updates/new-modal-and-popover-elements</link>
-    <description>Webflow now has native &lt;dialog> and Popover API — accessible overlays with no JavaScript required.</description>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates/new-modal-and-popover-elements</guid>
-    <category>Design Engineering</category>
   </item>
 </channel>
 </rss>
