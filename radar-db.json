@@ -109,6 +109,22 @@
       "added": "2026-11-20"
     },
     {
+      "title": "Generate Multiple Images from a Single Prompt",
+      "url": "https://help.figma.com/hc/en-us/articles/24004542669463-Generate-and-edit-images-with-Figma-AI",
+      "type": "tool",
+      "tag": "figma×ai",
+      "desc_ru": "Figma генерирует 2–6 вариантов изображений за один запрос или сравнивает выдачу трёх AI-моделей одновременно.",
+      "desc_en": "Figma generates 2–6 image variants per prompt, or compares outputs from up to 3 AI models side by side.",
+      "date": "2026-11-18",
+      "priority": 2,
+      "score": 8,
+      "reading_time": 3,
+      "difficulty": "beginner",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-11-23"
+    },
+    {
       "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
       "url": "https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
       "type": "article",
@@ -698,6 +714,22 @@
       "has_demo": true,
       "expanded_window": false,
       "added": "2026-11-09"
+    },
+    {
+      "title": "WebMCP — Web Pages as Tools for AI Agents",
+      "url": "https://webmcp.org/",
+      "type": "tool",
+      "tag": "design + code",
+      "desc_ru": "Chrome 149 (origin trial): регистрируй функции страницы как инструменты для AI-агентов через один JS-вызов.",
+      "desc_en": "Chrome 149 origin trial: register page functions as AI-callable tools in one `modelContext.registerTool()` call.",
+      "date": "2026-11-02",
+      "priority": 2,
+      "score": 7,
+      "reading_time": 10,
+      "difficulty": "advanced",
+      "has_demo": true,
+      "expanded_window": false,
+      "added": "2026-11-23"
     },
     {
       "title": "teardown — Interactive 3D Machine Simulator Skill for Claude Code",

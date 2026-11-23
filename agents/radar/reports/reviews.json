@@ -1,78 +1,6 @@
 [
   {
     "effective_queries": [
-      "Figma AI MCP agents design 2026 — consistently surfaces relevant Figma ecosystem content",
-      "Figma Code Layers early access designer workflow July 2026 — confirmed early access opening in July; surfaced new practitioner coverage",
-      "site:smashingmagazine.com OR site:alistapart.com OR site:css-tricks.com AI design 2026 — found the July 3 Quiet AI article from Smashing",
-      "sidebar.io WebFetch — highest-ROI source again; both final items traceable here"
-    ],
-    "weak_queries": [
-      "\"design engineering\" OR \"vibe coding\" AI shipped 2026 — trend roundups and statistics, no newly shipped tools (8th consecutive weak run)",
-      "Claude Code OR Cursor designers workflow 2026 — comparison articles only, all already in DB",
-      "design systems AI tokens automation 2026 — marketing content and roundups, no shipped tooling (8th consecutive weak run)",
-      "UX research AI synthesis shipped 2026 dovetail OR maze OR condens — listicle comparisons only, no newly shipped unique tools",
-      "site:uxdesign.cc AI design shipped July 2026 — returned no July 2026 results; site-scoped search consistently fails for this domain",
-      "lottielab OR rive AI animation feature shipped July 2026 — comparison reviews only; lottielab.com/blog returned 404 blocking verification",
-      "accessibility AI WCAG tool shipped July 2026 — roundup guides only, no July 2026 launch announcements"
-    ],
-    "coverage_gaps": [
-      "tools — zero new standalone AI design tools for 7+ consecutive weeks; category static at 13 items",
-      "motion×ai — Lottielab Magic Animator (AI animation from Figma designs) mentioned across multiple sources but lottielab.com/blog returned 404; strongest motion×ai candidate blocked",
-      "a11y×ai — no newly shipped tools or articles in July 2026 window despite per-tag rescue rule",
-      "skills — all new design-specific repos this week below 50★ threshold (madebysan/claude-figma-skills at 0★, nafiurrahmanniloy/figma-skill at 3★)"
-    ],
-    "tag_balance": "process (39) and figma×ai (30) dominate; tools (13) and a11y×ai (13) have been static for 6+ weeks; skills (35) slowing; motion×ai (17) needs direct source monitoring to avoid systematic misses",
-    "rejected_count": 19,
-    "top_rejection_reasons": [
-      "below 50★ threshold (madebysan/claude-figma-skills 0★, nafiurrahmanniloy/figma-skill 3★, ConardLi/reacticle 53★ borderline)",
-      "already in database (all Figma Config 2026 content across 6+ DB entries, op7418 repos all previously included)",
-      "no design connection (Denis channel shifted to general AI news, OpenAI model launches, cultural topics this week)",
-      "roundup/listicle format with no newly shipped tools (UX research tools comparisons, accessibility testing roundups, vibe coding statistics)",
-      "no AI angle (Shader Lab — visually interesting keyframe shader editor for creative developers, open-source, no AI component detected)"
-    ],
-    "query_suggestions": [
-      {
-        "query": "RETIRE: UX research AI synthesis shipped 2026 dovetail OR maze OR condens — replace with: dovetail OR notably AI feature shipped July 2026",
-        "why": "Eight consecutive weak runs returning only comparison listicles; targeted vendor-name query will surface actual feature launches"
-      },
-      {
-        "query": "RETIRE: design systems AI tokens automation 2026 — replace with: tokens.studio OR supernova.io changelog July 2026",
-        "why": "Eight consecutive weak runs; targeted changelog query avoids marketing content and surfaces specific shipped features"
-      },
-      {
-        "query": "WebFetch https://www.lottielab.com/changelog",
-        "why": "lottielab.com/blog returned 404 this run; changelog is a common alternative URL and would surface the Magic Animator AI feature with exact ship date for motion×ai coverage"
-      },
-      {
-        "query": "\"Sean Goedecke\" design engineer AI workflow July 2026",
-        "why": "seangoedecke.com WebFetch has timed out 4 consecutive runs; removing the direct URL and searching by name may surface content via aggregators without the timeout failure"
-      },
-      {
-        "query": "WebFetch https://www.smashingmagazine.com/articles/",
-        "why": "site:smashingmagazine.com search consistently returns old content via search engine lag; fetching the articles index directly would find the freshest posts without delay"
-      },
-      {
-        "query": "madebysan claude-figma-skills github stars 2026",
-        "why": "madebysan/claude-figma-skills has 8 well-structured Figma automation skills (review, autopilot, extract, import, tickets, cleanup, component docs) with video demo — monitor weekly until it crosses 50★"
-      }
-    ],
-    "notes": "Seventh consecutive low-signal week. Two solid items found via sidebar.io and direct Smashing Magazine search. Denis channel content has fully shifted to general AI/culture with no design tool mentions for multiple consecutive runs; value as design-signal source is declining. The Figma Code Layers early access opening in July 2026 is the week's most significant shipped event, but all associated content (figma.com/blog/code-on-the-figma-canvas/) is already in DB — this is a discovery timing issue, not a quality gap. Lottielab Magic Animator remains the strongest unverified motion×ai candidate; lottielab.com/blog returning 404 has now blocked verification for 2 runs — the changelog URL must be tried next run. seangoedecke.com has timed out 4 consecutive runs; remove from required WebFetch rotation permanently and switch to name-based search.",
-    "date": "2026-07-06",
-    "radar_ideas": [
-      {
-        "idea": "Add a 'last signal' age indicator to tag filter chips on radar.html — e.g. 'tools · 47d' showing days since last item added — so readers understand tag sparsity without needing tooltips or explanations",
-        "area": "ux",
-        "effort": "small"
-      },
-      {
-        "idea": "Replace lottielab.com/blog (404) with lottielab.com/changelog in required curated sources; remove seangoedecke.com from WebFetch rotation after 4 consecutive timeouts and switch to a name-based search query",
-        "area": "content",
-        "effort": "small"
-      }
-    ]
-  },
-  {
-    "effective_queries": [
       "Figma Code Layers early access designer workflow July 2026 — confirmed Code Layers entering early access this month and surfaced releasebot.io as a new structured changelog source",
       "motion AI design tool launched shipped July 2026 — surfaced motion.so and swishy.ai as motion×ai candidates; only productive motion-tag search this run",
       "WebFetch releasebot.io/updates/figma — best new curated source this run; structured changelog with exact dates found the July 7 AI image edits feature (concurrent processing) not surfaced anywhere else"
@@ -1401,6 +1329,85 @@
         "idea": "Add a 'browser-native AI' filter or sub-tag within design+code—Chrome Decisions API, WebMCP, and Gemini Nano represent a new platform layer distinct from server AI or coding-agent tools; designers building web products need to find this category quickly as it accumulates items",
         "area": "feature",
         "effort": "small"
+      }
+    ]
+  },
+  {
+    "effective_queries": [
+      "WebFetch figma.com/release-notes (new this run — found Nov 18 multi-image generation and other qualifying features that skip the blog entirely)",
+      "WebSearch 'Chrome AI API' OR 'WebMCP' design interface 2026 (surfaced WebMCP origin trial, confirmed across multiple independent sources)"
+    ],
+    "weak_queries": [
+      "WebFetch dejan.ai/blog (SEO analytics and brand recall research; not a Chrome browser API or design engineering source despite Nov 16 suggestion)",
+      "WebFetch figma.com/blog (fully caught up through Nov 20; zero new qualifying items this run)",
+      "WebFetch framer.com/updates (last qualifying item Nov 12, already in DB; nothing new in 7-day window)",
+      "WebFetch webflow.com/updates (new items are WAF firewall and EU hosting infrastructure, not design-AI relevant)",
+      "WebFetch op7418 repos (no new repos this week; all existing repos already in DB)",
+      "WebFetch ConardLi repos (easy-agent updated but is a terminal coding agent, not design-relevant)",
+      "WebFetch smashingmagazine.com/category/ai (all 3 recent articles already in DB)",
+      "WebFetch blog.jitter.video (redirected; blog contains only 5-year-old posts; inactive as motion×ai source)",
+      "WebSearch motion animation AI tools shipped November 2026 (roundup comparison lists only; no newly shipped tool with a verifiable dedicated URL)",
+      "WebSearch Figma AI MCP agents design November 2026 (returned only DB-indexed content and Wikipedia)"
+    ],
+    "coverage_gaps": [
+      "motion×ai: Figma Motion physics springs (Nov 10) qualifies but figma.com/release-notes URL is already in DB and no specific help.figma.com article URL was found for it this run",
+      "brand×ai: 1 item in DB total; dejan.ai did not pan out as a source; no current query path surfaces brand or identity AI tools",
+      "tools: 28th consecutive run without a qualifying new standalone AI design tool with a verifiable URL"
+    ],
+    "tag_balance": "process (87) and skills (83) over-represented relative to weekly supply; brand×ai (1) has no sourcing pipeline at all; motion×ai (46 total) has had no new DB additions in 4+ consecutive runs",
+    "rejected_count": 22,
+    "top_rejection_reasons": [
+      "Already in database (13 items)",
+      "No AI connection — design philosophy, CSS technique, or craft reflection (5 items)",
+      "No design connection — developer infrastructure, SEO analytics, or marketing tool (3 items)",
+      "URL already in database or no specific help article URL available for a qualifying feature update (1 item)"
+    ],
+    "query_suggestions": [
+      {
+        "query": "RETIRE WebFetch heydesigner.com",
+        "why": "403 Forbidden for 11+ consecutive runs; dead source consuming a fetch slot each run — confirmed in Oct 19, Nov 2, Nov 9, Nov 16, and this run"
+      },
+      {
+        "query": "RETIRE WebFetch https://github.com/anthropics/awesome-agent-skills",
+        "why": "404 for multiple consecutive runs; repo does not exist at this path"
+      },
+      {
+        "query": "RETIRE WebFetch t.me/s/denissexy",
+        "why": "No design-relevant content for 11+ consecutive runs; channel covers model releases and security incidents only"
+      },
+      {
+        "query": "RETIRE WebFetch shir-man.com/homepage",
+        "why": "Returns empty dynamic JS dashboard for 10+ consecutive runs; dynamic content never loads in WebFetch"
+      },
+      {
+        "query": "ADD WebFetch https://www.figma.com/release-notes/ to permanent curated rotation",
+        "why": "Most productive new source this run — found Nov 18 multi-image generation and 4 other qualifying features since Nov 5 that never got dedicated blog posts; reliably catches small shipped features"
+      },
+      {
+        "query": "WebFetch https://jitter.video/changelog",
+        "why": "blog.jitter.video is inactive (5-year-old posts); changelog page may track AI model upgrades for motion×ai coverage; Jitter moved to Opus 5.5 in Oct 2026 per aggregator but no blog URL exists"
+      },
+      {
+        "query": "WebFetch https://help.figma.com/hc/en-us/search?utf8=%E2%9C%93&query=figma+motion+spring",
+        "why": "Figma Motion physics springs (Nov 10) deserves a DB item but release-notes URL is in DB; a specific help article URL would unlock it as a separate motion×ai entry"
+      },
+      {
+        "query": "WebSearch brand identity AI tool shipped 2026 site:brandfetch.com OR site:superside.com OR site:looka.com",
+        "why": "brand×ai has 1 DB item and zero sourcing pipeline; these platforms are most likely to publish brand AI tool updates"
+      }
+    ],
+    "notes": "28th consecutive low-signal week. figma.com/release-notes (added as a curated source this run) was the most productive single source, finding the Nov 18 multi-image generation feature. WebSearch for Chrome AI API surfaced WebMCP, a W3C browser-native standard for exposing page tools to AI agents (Chrome 149 origin trial, Edge 150, ChatGPT Desktop supported). The dejan.ai suggestion from the Nov 16 review did not pan out — the blog covers SEO analytics and brand recall research, not browser AI APIs; the Chrome Decisions API article that surfaced near it last run (agustinbarrientos.com) was an independent editorial piece. Figma Motion physics springs (Nov 10) qualifies as a motion×ai item but cannot be added without a specific URL distinct from figma.com/release-notes (already in DB).",
+    "date": "2026-11-23",
+    "radar_ideas": [
+      {
+        "idea": "Show 'last item N days ago' next to sparse tag pills on the radar page — e.g. 'motion×ai · 45d ago' — so readers understand why a tag has no recent content rather than assuming the feed is broken or the topic is fully covered",
+        "area": "ux",
+        "effort": "small"
+      },
+      {
+        "idea": "On skills-tagged items, surface which coding agents are supported (Claude Code, Cursor, Codex, Windsurf) as small inline chips derived from the repo description — lets readers filter to their workflow without opening the repo",
+        "area": "ux",
+        "effort": "medium"
       }
     ]
   }

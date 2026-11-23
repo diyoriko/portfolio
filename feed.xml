@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 22 Nov 2026 11:57:38 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 13:40:15 +0000</lastBuildDate>
   <item>
     <title>Workflow Lab: Turning Context into a Plan with Specs and the Figma Agent</title>
     <link>https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/</link>
@@ -21,6 +21,14 @@
     <description>Dev-seat developers can now prompt the Figma agent to inspect designs, compare versions, and request code snippets without edit access.</description>
     <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files</guid>
+    <category>Figma × AI</category>
+  </item>
+  <item>
+    <title>Generate Multiple Images from a Single Prompt</title>
+    <link>https://help.figma.com/hc/en-us/articles/24004542669463-Generate-and-edit-images-with-Figma-AI</link>
+    <description>Figma generates 2–6 image variants per prompt, or compares outputs from up to 3 AI models side by side.</description>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://help.figma.com/hc/en-us/articles/24004542669463-Generate-and-edit-images-with-Figma-AI</guid>
     <category>Figma × AI</category>
   </item>
   <item>
@@ -158,14 +166,6 @@
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://claude.com/resources/articles/sheets-whiteboards-data</guid>
     <category>Process</category>
-  </item>
-  <item>
-    <title>livliv-dev/player — 2.5D Web Character with AI Lip Sync and Face Tracking</title>
-    <link>https://github.com/livliv-dev/player</link>
-    <description>Embeddable 2.5D web character with AI lip sync and webcam face tracking via MediaPipe, no coding required.</description>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/livliv-dev/player</guid>
-    <category>Motion × AI</category>
   </item>
 </channel>
 </rss>
