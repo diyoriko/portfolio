@@ -6,7 +6,23 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 23 Nov 2026 13:40:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 14:13:51 +0000</lastBuildDate>
+  <item>
+    <title>dashboard-design-skill — 8 Dashboard Layouts and 10 Domain Playbooks for Claude Code</title>
+    <link>https://github.com/abdiraimov-otabek/dashboard-design-skill</link>
+    <description>Claude Code skill: 8 dashboard layouts, 10 domain playbooks, screenshot QA — distilled from 127 shipped dashboards.</description>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/abdiraimov-otabek/dashboard-design-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>The Figma Agent Is Now Available in FigJam and Slides</title>
+    <link>https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/</link>
+    <description>Figma's agent now works in FigJam and Slides: organizes boards into Specs and generates presentations from scripts.</description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/</guid>
+    <category>Figma × AI</category>
+  </item>
   <item>
     <title>Workflow Lab: Turning Context into a Plan with Specs and the Figma Agent</title>
     <link>https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent/</link>
@@ -150,22 +166,6 @@
     <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/sarpstar/cinecode</guid>
     <category>Skills &amp; Plugins</category>
-  </item>
-  <item>
-    <title>Claude Interactive Connectors — Apps Open Inside Claude and Agents Edit Them Live</title>
-    <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
-    <description>Canva, Webflow, and Vercel embed directly in Claude so the agent edits your open files live. Figma support in progress.</description>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/resources/articles/interactive-connectors-full-tool</guid>
-    <category>Tools</category>
-  </item>
-  <item>
-    <title>Claude Whiteboards — Shared Brainstorming Canvas with AI, Exports to Miro and Lucid</title>
-    <link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
-    <description>Shared whiteboard in Claude for real-time team brainstorming. Focus any section for AI questions; export to Miro, Lucid, or decks.</description>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://claude.com/resources/articles/sheets-whiteboards-data</guid>
-    <category>Process</category>
   </item>
 </channel>
 </rss>
