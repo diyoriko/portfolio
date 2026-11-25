@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 24 Nov 2026 14:13:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 13:27:09 +0000</lastBuildDate>
+  <item>
+    <title>Generative Loaders — 46 Animated React Components for Generative UI States</title>
+    <link>https://generativeloaders.com</link>
+    <description>Open-source React library with 46 loading components for text, inline, and image generative UI states.</description>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://generativeloaders.com</guid>
+    <category>Design Engineering</category>
+  </item>
   <item>
     <title>dashboard-design-skill — 8 Dashboard Layouts and 10 Domain Playbooks for Claude Code</title>
     <link>https://github.com/abdiraimov-otabek/dashboard-design-skill</link>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://webflow.com/updates/microsoft-copilot</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>cinecode — Programmatic Film Skill for Claude Code with Three.js and Canvas 2D</title>
-    <link>https://github.com/sarpstar/cinecode</link>
-    <description>Claude Code skill where the agent writes the script, renders every frame in Three.js or Canvas 2D, and exports MP4.</description>
-    <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://github.com/sarpstar/cinecode</guid>
-    <category>Skills &amp; Plugins</category>
   </item>
 </channel>
 </rss>
