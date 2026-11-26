@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 25 Nov 2026 13:27:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:07:28 +0000</lastBuildDate>
   <item>
     <title>Generative Loaders — 46 Animated React Components for Generative UI States</title>
     <link>https://generativeloaders.com</link>
@@ -16,12 +16,28 @@
     <category>Design Engineering</category>
   </item>
   <item>
+    <title>guizang-magi2-skill — Video-to-Code and Code-to-Video Workflows for Claude Code</title>
+    <link>https://github.com/op7418/guizang-magi2-skill</link>
+    <description>Op7418's new skill lets Claude Code extract UI from product videos and generate MAGI-2-optimized video from existing code.</description>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://github.com/op7418/guizang-magi2-skill</guid>
+    <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
     <title>dashboard-design-skill — 8 Dashboard Layouts and 10 Domain Playbooks for Claude Code</title>
     <link>https://github.com/abdiraimov-otabek/dashboard-design-skill</link>
     <description>Claude Code skill: 8 dashboard layouts, 10 domain playbooks, screenshot QA — distilled from 127 shipped dashboards.</description>
     <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://github.com/abdiraimov-otabek/dashboard-design-skill</guid>
     <category>Skills &amp; Plugins</category>
+  </item>
+  <item>
+    <title>Framer Automations, Connectors, and Slack Agent</title>
+    <link>https://www.framer.com/updates/automations-connectors-slack</link>
+    <description>Framer adds scheduled agent automation and a Slack app to query site data and push edits without opening the editor.</description>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://www.framer.com/updates/automations-connectors-slack</guid>
+    <category>Tools</category>
   </item>
   <item>
     <title>The Figma Agent Is Now Available in FigJam and Slides</title>
@@ -150,22 +166,6 @@
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</guid>
     <category>Figma × AI</category>
-  </item>
-  <item>
-    <title>Should You Actually Add AI To That? A Four-Question Audit For Product Teams</title>
-    <link>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</link>
-    <description>Four-question audit: an AI feature earns its place only when the return beats the user's verification cost.</description>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/</guid>
-    <category>Process</category>
-  </item>
-  <item>
-    <title>Webflow MCP Now Available in Microsoft Copilot</title>
-    <link>https://webflow.com/updates/microsoft-copilot</link>
-    <description>Webflow's MCP server now connects to Microsoft Copilot, enabling page building, CMS management, and site performance checks from chat.</description>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://webflow.com/updates/microsoft-copilot</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
