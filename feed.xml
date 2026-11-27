@@ -6,7 +6,15 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 26 Nov 2026 13:07:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 13:08:36 +0000</lastBuildDate>
+  <item>
+    <title>DESIGN.md VS Code Extension — Linting, Autocomplete, and Preview for Design Token Files</title>
+    <link>https://christianoliff.com/blog/design-md-vs-code-extension/</link>
+    <description>VS Code extension for DESIGN.md files adds linting, token autocomplete, color swatches, and rich preview — available on VS Code Marketplace.</description>
+    <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://christianoliff.com/blog/design-md-vs-code-extension/</guid>
+    <category>Design Systems</category>
+  </item>
   <item>
     <title>Generative Loaders — 46 Animated React Components for Generative UI States</title>
     <link>https://generativeloaders.com</link>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/image-shader-generation</guid>
     <category>Tools</category>
-  </item>
-  <item>
-    <title>How 3D Transforms and Figma's Agent Brought a Launch Video to Life</title>
-    <link>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</link>
-    <description>Figma Brand Studio shows how to combine the agent, 3D transforms, shaders, and Motion to produce a video on canvas.</description>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/</guid>
-    <category>Figma × AI</category>
   </item>
 </channel>
 </rss>
