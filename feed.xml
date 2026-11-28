@@ -6,7 +6,7 @@
   <description>Design × AI feed</description>
   <language>en</language>
   <atom:link href="https://diyor.design/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 27 Nov 2026 13:08:36 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 12:16:24 +0000</lastBuildDate>
   <item>
     <title>DESIGN.md VS Code Extension — Linting, Autocomplete, and Preview for Design Token Files</title>
     <link>https://christianoliff.com/blog/design-md-vs-code-extension/</link>
@@ -46,6 +46,14 @@
     <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://www.framer.com/updates/automations-connectors-slack</guid>
     <category>Tools</category>
+  </item>
+  <item>
+    <title>Mirror mode</title>
+    <link>https://mattstromawn.com/writing/mirror-mode/</link>
+    <description>Work from a mirrored copy of the production codebase with shims and mock APIs — design tools as a sidecar to production, not the source.</description>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <guid>https://mattstromawn.com/writing/mirror-mode/</guid>
+    <category>Design Engineering</category>
   </item>
   <item>
     <title>The Figma Agent Is Now Available in FigJam and Slides</title>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <guid>https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want</guid>
     <category>Design Engineering</category>
-  </item>
-  <item>
-    <title>Framer Agents: Image and Shader Generation</title>
-    <link>https://www.framer.com/updates/image-shader-generation</link>
-    <description>Framer's agent now generates custom images and shader effects (halftone, bokeh, CRT) directly in the editor.</description>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <guid>https://www.framer.com/updates/image-shader-generation</guid>
-    <category>Tools</category>
   </item>
 </channel>
 </rss>
